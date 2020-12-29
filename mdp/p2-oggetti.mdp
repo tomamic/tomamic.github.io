@@ -1,0 +1,671 @@
+![](images/oop/balls.png)
+# Funzioni e oggetti
+## Introduzione alla programmazione
+
+---
+
+![](images/dev/abstraction.png)
+# 🌱 Pensiero astratto
+
+- **Astrazione**, da “*ab trahere*” = togliere via ✂️
+    - Prescindere da dettagli inessenziali, accidentali
+    - Ragionare su concetto o *modello*, anzichè su reale
+    - Es. mappe non rappresentano ogni sasso o foglia
+- → *Generalizzazione*
+    - Attribuire caratteristiche comuni, del concetto, a tutte le istanze
+- Fondamentale per descrivere e realizzare *sistemi software complessi*
+    - Livelli di astrazione, per incapsulare dettagli 📦
+    - Strutture e algoritmi generici, riusabili ♻️
+
+>
+
+https://it.wikipedia.org/wiki/Astrazione_(filosofia)
+<br>
+https://thevaluable.dev/abstraction-type-software-example/
+
+---
+
+# 🌱 The map is not the territory
+
+![large](images/dev/map-levels.svg)
+
+
+---
+
+![](images/fun/function.png)
+# ⭐ Definizione di funzione
+
+- *Operatore*, applicato a *operandi*, per ottenere un *risultato*
+    - **`def`** per definire una funzione
+    - **`return`** per terminare e restituire un risultato
+
+``` py
+def hypotenuse(a, b):
+    c = (a ** 2 + b ** 2) ** 0.5
+    return c
+```
+
+- Suddivisione di un problema in sotto-problemi
+    - Astrazione rispetto all'implementazione
+    - Generalizzazione e separazione della soluzione
+    - Calcolo basato su parametri di I/O, modello
+
+---
+
+# ⭐ Chiamata di funzione
+
+- **`def`** definisce una funzione, ma non la esegue!
+- Bisogna *chiamarla*
+- Funzione, quando eseguita, crea nuovo *spazio di nomi*
+    - Parametri e variabili hanno **ambito locale**
+    - Non visibili nel resto del programma
+    - Nomi uguali, definiti in ambiti diversi, restano distinti
+- ⚠️ Ricordarsi di assegnare il risultato ad una variabile
+    - ~ bicchiere per raccogliere la spremuta 🥤
+
+``` py
+side1 = float(input("1st side? "))
+side2 = float(input("2nd side? "))
+side3 = hypotenuse(side1, side2)  # call the function, get the result
+print("3rd side:", side3)
+```
+
+---
+
+# 💡 Funzione main
+
+- A volte si preferisce creare una *funzione principale*
+    - In questo modo si limitano le **variabili globali**
+
+``` py
+def hypotenuse(a, b):
+    c = (a ** 2 + b ** 2) ** 0.5
+    return c
+
+def main():
+    side1 = float(input("1st side? "))
+    side2 = float(input("2nd side? "))
+    side3 = hypotenuse(side1, side2)
+    print("3rd side:", side3)
+
+main()  ## remove, if importing the module elsewhere
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_fun_hypotenuse.py>
+
+---
+
+![](images/fun/fun-inc.svg)
+# ⭐ Parametri di una funzione
+
+- **Parametri formali**: nomi usati nella *definizione*
+- **Parametri effettivi**: valori passati alla *chiamata*
+- Parametri passati “*per oggetto*”
+    - Variabili esterne: non riassegnate
+    - Azioni su liste e oggetti: permanenti
+
+``` py
+def inc(a):
+    a += 1  # what's a now? print it
+def main():
+    x = 10
+    inc(x)  # what's x now? print it
+main()
+```
+
+---
+
+# 💡 Documentazione di funzione
+
+- **Annotazioni**: utili per documentare il tipo di param. e risultato
+    - Ma non c'è verifica!
+- **Docstring**: descrizione testuale di una funzione
+- **`help`**: funzione per visualizzare la documentazione
+
+``` py
+def hypotenuse(leg1: float, leg2: float) -> float:
+    '''
+    Return the hypotenuse of a right triangle,
+    given both its legs (catheti).
+    '''
+    return (leg1 ** 2 + leg2 ** 2) ** 0.5
+```
+
+>
+
+<https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html>
+
+---
+
+![](images/fun/times-table.svg)
+# 🛠️ Cicli e annidamento
+
+- Stampare la tavola pitagorica
+- Primo passo: stampare una sola riga
+
+``` py
+size = 10
+y = int(input("Insert a value: "))
+for x in range(1, size + 1):
+    print(x * y, end="\t")  # ends with tabulation
+                            # instead of newline
+```
+
+``` py
+size = 10
+for y in range(1, size + 1):
+    for x in range(1, size + 1):
+        print(x * y, end="\t")
+    print()
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_for_tables.py>
+
+---
+
+# 🛠️ Procedura
+
+- Funzione senza `return`, solo I/O ed effetti collaterali
+    - *Astrazione*, per riuso e leggibilità
+    - Riduce i livelli di annidamento
+    - Risultato implicito `None`
+
+``` py
+def print_row(y: int, size: int):
+    for x in range(1, size + 1):
+        print(x * y, end="\t")
+    print()
+
+def print_table(size: int):
+    for y in range(1, size + 1):
+        print_row(y, size)
+
+print_table(10)
+```
+
+---
+
+![](images/misc/trigonometry.svg)
+# 🛠️ Funzioni con tuple
+
+``` py
+from math import atan2, cos, pi, sin, sqrt
+
+def rotate(pt: (float, float), a: float) -> (float, float):
+    x, y = pt  # ❗ sequence unpacking
+    x1 = x * cos(a) - y * sin(a)
+    y1 = x * sin(a) + y * cos(a)
+    return (x1, y1)  # ❗ return a tuple
+
+pt0 = sqrt(2), sqrt(2)  # ∡ π/4
+pt1 = rotate(pt0, pi/12)  # (1, √3) ∡ π/3
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_fun_polar.py>
+
+---
+
+![](images/oop/anim-right.png)
+# ⭐ Animazione
+
+``` py
+x, y, dx = 50, 50, 5  # tuple on rhs, sequence unpacking
+ARENA_W, ARENA_H = 480, 360
+
+def tick():
+    global x, dx
+    ##if g2d.key_pressed("LeftButton"): ...
+    ##if x + dx > ARENA_W: ...
+    g2d.clear_canvas()                  # Draw background
+    g2d.draw_image("ball.png", (x, y))  # Draw foreground
+    x += dx                             # Update ball's position
+
+def main():
+    g2d.init_canvas((ARENA_W, ARENA_H))
+    g2d.main_loop(tick)  # call tick 30 times/second
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_fun_anim.py>
+
+---
+
+# 💡 Tick, tastiera e mouse
+
+- **`g2d.main_loop`**: *ciclo di gestione degli eventi*
+    - Parametro opzionale: funzione che sarà chiamata periodicamente
+- **`g2d.key_pressed`**: *controllo se un tasto è stato premuto*
+    - Risultato: `bool`
+    - Parametro: `str` nome del tasto
+    - Es.: `"q", "1", "ArrowLeft", "Enter", "Spacebar", "LeftButton"`
+- **`g2d.key_released`**: *controllo se un tasto è stato rilasciato*
+    - Stessi parametri e risultato
+- **`g2d.mouse_position`**: *posizione del mouse*
+    - Risultato: `(int, int)`
+
+>
+
+<https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values>
+
+---
+
+![](images/oop/anim-bounce.png)
+# 🛠️ Funzione per rimbalzi
+
+- Le funzioni forniscono limitata astrazione
+    - Incapsulano il comportamento
+    - ❗ Ma espongono i dati
+
+``` py
+def move_ball(x: int, y: int,
+              dx: int, dy: int) -> (int, int, int, int):
+    if not 0 <= x + dx <= ARENA_W - BALL_W:
+        dx = -dx
+    if not 0 <= y + dy <= ARENA_H - BALL_H:
+        dy = -dy
+    x += dx
+    y += dy
+    return (x, y, dx, dy)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_fun_ball.py>
+
+---
+
+# 💡 Effetti collaterali
+
+- Modifica di oggetti passati come parametri o variabili globali, operazioni di lettura/scrittura...
+- Annullano la **trasparenza referenziale**
+    - Impossibile semplificare, sostituendo una chiamata a funzione col suo valore di ritorno (es. presenti operazioni di I/O)
+- Rendono la funzione **non idempotente**
+    - Chiamata più volte, con gli stessi parametri, restituisce risultati diversi
+- → Difficile fare verifiche matematiche
+    - `z = f(sqrt(2), sqrt(2))`
+    - `s = sqrt(2)` <br> `z = f(s, s)`
+
+---
+
+# 💡 Funzioni non idempotenti
+
+- Esempio di semplificazione
+    - `p = rq(x) + rq(y) * (rq(x) – rq(x))`
+    - `p = rq(x) + rq(y) * (0)`
+    - `p = rq(x) + 0`
+    - `p = rq(x)`
+- Ma se `rq` ha effetti collaterali, non si può!
+
+``` py
+base_value = 0  # global variable
+
+def rq(x: int) -> int:
+    global base_value
+    base_value += 1
+    return x + base_value
+```
+
+>
+
+Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
+
+---
+
+# Oggetti
+
+---
+
+![](images/oop/basic-object.svg)
+# 🌱 Oggetto
+
+- Rappresenta un *oggetto fisico* o un *concetto* del dominio
+- Memorizza il suo **stato** interno in *campi privati*
+    - *Incapsulamento (black box)*
+- Offre un insieme di **servizi**, come *metodi pubblici*
+    - Realizza un *tipo di dato astratto (ADT)*
+
+---
+
+![](images/oop/cookie-cutter.png)
+# 🌱 Classi ed oggetti
+
+- Ogni *oggetto* ha una **classe** di origine
+    - La classe dà la stessa forma iniziale (campi e metodi) a tutti i suoi oggetti
+- Ma ogni *oggetto* ha la sua **identità**
+    - Stato e locazione in memoria distinti da quelli di altri oggetti
+    - Sia istanze di classi diverse che della stessa classe
+
+---
+
+![](images/oop/ball-object.svg) ![](images/oop/ball-uml.svg) Class diagram UML
+# ⭐ Definizione della classe
+
+- **Incapsulamento** dei dati: *convenzione* sui nomi
+    - Prefisso `_` per i nomi dei *campi privati*
+
+> We're all consenting adults here. *(GvR)*
+
+``` py
+class Ball:
+
+    def __init__(self, x: int, y: int):
+        self._x = x
+        self._y = y
+        self._dx, self._dy = 5, 5
+        self._w, self._h = 20, 20
+    # ...
+```
+
+---
+
+![](images/oop/bob-builder.jpg)
+# ⭐ Costruzione oggetti
+
+- **`__init__`**: metodo *inizializzatore*
+    - Eseguito automaticamente alla creazione di un oggetto
+    - *Instantiation is initialization*
+- **`self`**: primo parametro di tutti i metodi
+    - Non bisogna passare un valore esplicito
+    - Rappresenta l'*oggetto* su cui opera il metodo
+    - Permette ai metodi di accedere ai campi
+
+``` py
+ball = Ball(40, 80)  # Allocation and initialization
+```
+
+---
+
+![](images/oop/anim-bounce.png)
+# ⭐ Metodi
+
+- Espongono *servizi* ad altri oggetti
+
+``` py
+ARENA_W, ARENA_H = 480, 360
+
+class Ball:
+    # ...
+    def move(self):
+        if not 0 <= self._x + self._dx <= ARENA_W - self._w:
+            self._dx = -self._dx
+        if not 0 <= self._y + self._dy <= ARENA_H - self._w:
+            self._dy = -self._dy
+        self._x += self._dx
+        self._y += self._dy
+
+    def position(self) -> (int, int, int, int):
+        return self._x, self._y, self._w, self._h
+```
+
+---
+
+![](images/oop/balls.png)
+# ⭐ Uso degli oggetti
+
+``` py
+# Create two objects, instances of the Ball class
+b1 = Ball(140, 180)
+b2 = Ball(180, 140)
+
+for i in range(25):
+    b1.move()
+    b2.move()
+    print("b1 @", b1.position(),
+          "b2 @", b2.position())
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_oop_ball.py>
+
+---
+
+# ⚙️ Il primo parametro, self
+
+- Il primo parametro di ogni metodo si chiama `self` (per convenzione)
+- Il valore di `self` viene assegnato *automaticamente*
+- Rappresenta l'*oggetto* di cui viene invocato il metodo
+- In Python, una chiamata a metodo è interpretata così:
+
+``` py
+b1 = Ball(140, 180)
+b1.move()
+```
+
+``` py
+# ⚠️ Python internals, DON'T do this!
+b1 = object.__new__(Ball)
+Ball.__init__(b1, 140, 180)
+Ball.move(b1)
+```
+
+---
+
+# 🛠️ Animazione di due palline
+
+``` py
+b1 = Ball(140, 180)
+b2 = Ball(180, 140)
+
+def tick():
+    g2d.clear_canvas()
+    b1.move()
+    b2.move()
+    g2d.fill_rect(b1.position())
+    g2d.fill_rect(b2.position())
+
+def main():
+    g2d.init_canvas((ARENA_W, ARENA_H))
+    g2d.main_loop(tick)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p2_oop_ball_anim.py>
+
+---
+
+# ⭐ Variabili locali, parametri, campi
+
+- *Campi*: memorizzano i dati caratteristici di una istanza
+    - Ogni pallina ha la sua posizione `(self._x, self._y)` <br> e la sua velocità `(self._dx, self._dy)`
+- *Parametri*: passano altri valori ad un metodo
+    - Se alcuni dati necessari non sono nei campi
+- *Variabili locali*: memorizzano risultati parziali
+    - Generati durante l'elaborazione del metodo
+    - Nomi cancellati dopo l'uscita dal metodo
+- *Variabili globali*: definite fuori da tutte le funzioni
+    - Usare sono se strettamente necessario
+    - Meglio avere qualche parametro in più, per le funzioni
+
+---
+
+# 🏊 Esercizi
+
+---
+
+![](images/misc/ellipse.svg)
+# Area di un'ellisse
+
+- Definire una *funzione* `ellipse_area` che:
+    - Riceve come *parametri* i semiassi di una ellisse: `a`, `b`
+    - Restituisce come risultato l'area dell'ellisse: `π⋅a⋅b`
+- Definire una *funzione* `main` che:
+    - Chiede all'utente due valori
+    - Invoca la funzione `ellipse_area` con questi parametri
+    - Stampa il risultato ottenuto
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_fun_ellipse.py>
+
+---
+
+![](images/misc/color-grid.png) ![](images/oop/raster-tile.png)
+# Griglia di colori
+
+- Chiedere all'utente dei valori per `rows` e `cols`
+- Mostrare una griglia di rettangoli di dimensione `rows×cols`
+- Partire da un rettangolo nero in alto a sinistra
+- In orizzontale, aumentare gradatamente la componente di blu
+- In verticale, aumentare gradatamente la componente di verde
+
+>
+
+Cominciare a creare una griglia di riquadri tutti neri, con due cicli annidati
+<br>
+Lasciare tra i riquadri un piccolo margine
+<br>
+<http://www.ce.unipr.it/brython/?x2_color_grid.py>
+
+---
+
+![](images/misc/polygon.png)
+# Traccia di una penna
+
+- Definire una funzione `move_pen`
+    - Effetto: disegno di una linea sul canvas
+    - Parametri: posizione iniziale della penna, angolo e lunghezza della linea
+    - Risultato: nuova posizione della penna
+- Usare la funzione `move_pen` per tracciare un triangolo equilatero
+    - Provare a tracciare altri poligoni regolari
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_fun_pen.py>
+
+---
+
+![](images/misc/random-circles.png)
+# Cerchi al click
+
+- Definire una funzione `tick`
+- Se premuto `LeftButton`, prendere la posizione del mouse da `g2d`
+- Se il mouse è vicino all'angolo `(0, 0)`, chiedere conferma e poi chiudere l'applicazione
+- Altrimenti, disegnare un cerchio, con raggio fisso e colore casuale
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_fun_circles.py>
+
+---
+
+![](images/misc/frogger.png)
+# Movimento orizzontale
+
+- Mostrare una pallina che si muove in orizzontale
+    - Variabile `dx` indica lo spostamento da effettuare ad ogni ciclo
+- La pallina riappare dal bordo opposto, dopo un po' di tempo
+    - Permettere alla pallina di superare i bordi laterali, p.es. di *100px*
+    - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
+- Alla pressione di `LeftButton`, la pallina inverte la direzione
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_fun_vehicle.py>
+
+---
+
+![](images/misc/frogger.png)
+# Movimento per 5 fotogrammi
+
+- Mostrare una pallina che si muove in orizzontale
+    - Variabile `dx` indica lo spostamento da effettuare ad ogni ciclo
+- La pallina si muove solo dopo la pressione di `LeftButton`
+    - Si sposta solo per 5 fotogrammi
+    - Dopo si ferma, fino a nuova pressione
+- Invertire la direzione ad ogni avvio del movimento
+
+>
+
+Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
+<br>
+<http://www.ce.unipr.it/brython/?x2_fun_nframes.py>
+
+---
+
+![](images/misc/ellipse.svg)
+# Classe per ellisse
+
+- Classe che modella un'ellisse
+- Campi privati (parametri del costruttore)
+    - Semiassi: `a, b`
+- Metodi pubblici per ottenere...
+    - Area: `π⋅a⋅b`
+    - Distanza focale: `2⋅√|a² - b²|`
+- Nel corpo principale del programma...
+    - Creare un oggetto con dati forniti dall'utente
+    - Visualizzare area e distanza focale dell'ellisse
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_oop_ellipse.py>
+
+---
+
+![](images/misc/frogger.png)
+# Animazione di un veicolo
+
+- Creare un veicolo modificando la classe `Ball` vista a lezione
+- Eseguire l'animazione
+    - Per ogni frame, chiamare il metodo `move` del veicolo
+    - Rappresentare un rettangolo nella posizione aggiornata del veicolo
+- Modificare però il metodo `move`
+    - Il veicolo si sposta sempre di pochi pixel, solo in orizzontale
+    - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_oop_vehicle.py>
+
+---
+
+![](images/misc/frogger.png)
+# Pallina con conteggio
+
+- Partire di nuovo dalla classe `Ball` vista a lezione
+- La pallina si muove solo dopo la pressione di `LeftButton`
+- Esegue i suoi comportamenti già definiti, ma solo per 5 fotogrammi
+- Dopo 5 fotogrammi si ferma, in attesa di una nuova pressione del tasto
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_oop_nframes.py>
+
+---
+
+![](images/misc/science-of-spaceships.jpg)
+# Animazione di un alieno
+
+- Partire di nuovo dalla classe `Ball` vista a lezione
+- Il movimento di base però è solo orizzontale
+- Arrivato al bordo, il personaggio:
+    - Si sposta di qualche pixel verso il basso
+    - Poi cambia direzione orizzontale
+- Fare in modo che, in ogni frame, lo spostamento sia solo orizzontale, o solo verticale, ma *non* diagonale
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_oop_alien.py>
+
+---
+
+![](images/misc/spiral-circles.png)
+# 🥷 Spirale ad oggetti
+
+- Mostrare l'*animazione* di un cerchio lungo una spirale
+- Realizzare una classe per gestire dati e comportamento del cerchio
+- Implementare il movimento in un metodo `move()`
+- Campi: `xc`, `yc`, `i`
+    - `i` conta i passi; se eccede il limite, torna a 0
+
+>
+
+<http://www.ce.unipr.it/brython/?x2_oop_spiral.py>

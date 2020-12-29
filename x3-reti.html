@@ -1,0 +1,628 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reti di calcolatori</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/sys/globe.jpg"></figure>
+  <hgroup>
+    <h2>Introduzione all'informatica</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>Reti di calcolatori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Vantaggi<ul>
+<li>Condivisione di dati e risorse</li>
+<li>Convenienza e crescita graduale</li>
+</ul>
+</li>
+<li>Classificazione<ul>
+<li>Dimensione</li>
+<li>Throughput</li>
+<li>Mezzo fisico</li>
+<li>Collegamento dati</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Dimensione e capacità</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Dimensione</strong>: tipico criterio di classificazione delle reti<ul>
+<li><em>LAN</em>: Local Area Network (ufficio o edificio)</li>
+<li><em>MAN</em>: Metropolitan Area Network (campus o città)</li>
+<li><em>WAN</em>: Wide Area Network (rete geografica)</li>
+</ul>
+</li>
+<li><strong>Throughput</strong> (“<em>capacità</em>” o “<em>larghezza di banda</em>”)<ul>
+<li>Quantità di informazione trasportata nell’unità di tempo (bit/s)</li>
+<li>Misura principale delle prestazioni di una rete</li>
+<li>Ma anche <em>latenza</em>, <em>jitter</em>, <em>probabilità d'errore</em>...</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Collegamento</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/sys/topologies.svg">
+        
+      </figure><ul>
+<li><strong>Topologia</strong><ul>
+<li><em>Stella</em>, <em>bus</em>, <em>anello</em>, <em>albero</em>, <em>mesh</em></li>
+</ul>
+</li>
+<li><strong>Mezzo fisico</strong><ul>
+<li><em>Rame</em>, decine di Mbit/s</li>
+<li><em>Fibra ottica</em>, Tbit/s</li>
+<li><em>Senza cavo</em>, decine di Mbit/s</li>
+<li><em>Via satellite</em>, broadcast 1Gbit/s, condivisione, latenza</li>
+</ul>
+</li>
+<li><strong>Data link</strong>, collegamento dati<ul>
+<li>Marcatura dei <em>frame</em> dati, gestione di <em>flusso</em>, <em>collisioni</em>, <em>errori</em></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Internet</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/sys/internet-nodes.png">
+        
+      </figure><ul>
+<li>La “<em>rete delle reti</em>”: interconnessione tra svariate reti di calcolatori, di dimensione planetaria</li>
+<li>Assegna un <em>indirizzo</em> univoco (<em>indirizzo IP</em>) ai calcolatori, per l'individuazione globale o locale</li>
+<li>Si basa su protocolli di comunicazione comuni (<em>stack TCP/IP</em>) per lo scambio di <em>pacchetti</em> di dati tra calcolatori</li>
+<li><em>Commutazione di pacchetto</em>  anziché di <em>circuito</em> ☎<ul>
+<li>Per ogni pacchetto viene scelto un percorso</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Indirizzo IPv4</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Composto da una sequenza di quattro numeri compresi tra 0 e 255 (4 byte)<ul>
+<li><code>160.78.28.83</code> – Indirizzo pubblico (UniPR)</li>
+<li><code>192.168.1.1</code> – Indirizzo privato <br> (<code>10.*.*.* – 172.16-31.*.* – 192.168.*.*</code>)</li>
+<li><code>127.0.0.1</code> – <em>Loopback</em></li>
+</ul>
+</li>
+<li>Spazio indirizzi: soli 32 bit → uso indirizzi privati<ul>
+<li><em>NAT (Network Address Translator)</em>: intera rete locale con un unico indirizzo pubblico</li>
+<li><em>Proxy</em>: intermediario per una certa app., di solito web</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Domain Name System</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Il <strong>DNS</strong>: nomi simbolici (domini) → indirizzi IP<ul>
+<li><code>www.repubblica.it, www.google.com,   www.ce.unipr.it</code></li>
+</ul>
+</li>
+<li><em>Top level domain</em> (parte finale nome) e indirizzi assegnati da <em>ICANN</em>/<em>IANA</em><ul>
+<li>Indicante il tipo di organizzazione: <br> <code>com, edu, gov, int, net, mil, org, info, biz, name</code></li>
+<li>Indicante la nazione: <code>it, uk, fr, us, eu</code>, …</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-image" >
+  
+    <hgroup>
+      <h2>Pacchetto IPv4</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p><img alt="" src="images/sys/ipv4.svg" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Protocollo IPv6</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Indirizzi a <strong>128 bit</strong><ul>
+<li>Numero di indirizzi IPv6 / m<sup>2</sup> sulla Terra (6,66×10<sup>23</sup>) &gt; Numero di Avogadro!</li>
+</ul>
+</li>
+<li>Pacchetto con <em>header molto semplificato</em><ul>
+<li>64 bit in tutto (senza contare gli indirizzi...)</li>
+<li>Poi header opzionali</li>
+</ul>
+</li>
+<li>Possibilità di stabilire dei <em>flussi</em><ul>
+<li>Predefinizione di un percorso; via di mezzo tra commutazione di circuito e di pacchetto</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Transmission Control Protocol</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>IP</strong>: senza connessione e inaffidabile<ul>
+<li>Ciascun pacchetto viaggia in maniera indipendente</li>
+<li>Senza garanzia di consegna (best effort)</li>
+</ul>
+</li>
+<li><strong>UDP</strong> (<em>User Datagram Protocol</em>): inaffidabile <ul>
+<li>Datagrammi dentro pacchetti IP</li>
+</ul>
+</li>
+<li><strong>TCP</strong>: orientato alla connessione e affidabile <ul>
+<li>Controllata la correttezza dei dati</li>
+<li><em>Segmenti</em> numerati e riordinati</li>
+<li>Re-invio segmenti persi, eliminazioni duplicati</li>
+<li>Controllo di congestione del traffico</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Modello OSI/ISO</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <table>
+<thead>
+<tr>
+<th>Liv.</th>
+<th>Definizione</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Applicazione</td>
+<td>Applicazioni (Web, eMail, Skype...)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Presentazione</td>
+<td>Standard formato dati (HTML, XML…)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Sessione</td>
+<td>Protocolli dei servizi: FTP, HTTP, SMTP, RPC, TELNET...</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Trasporto</td>
+<td>Protocolli TCP e UDP</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Rete</td>
+<td>Protocollo IP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Colleg. dati</td>
+<td>Trasmissione dati dipendente da livello fisico</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Fisico</td>
+<td>Hardware</td>
+</tr>
+</tbody>
+</table></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>World Wide Web</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>World Wide Web</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sistema per condivisione di informazioni ipertestuali</li>
+<li>Uno dei modi più diffusi di utilizzare la rete Internet</li>
+<li>Permette agli utenti di Internet di pubblicare e accedere a documenti <strong>HTML</strong>, raggiungibili ad una certa <strong>URL</strong> via <strong>HTTP</strong></li>
+<li>Si basa su due programmi: <em>web server</em> e <em>web client (browser)</em></li>
+<li>1990: Tim Berners-Lee @ CERN, x doc scientifici</li>
+<li>1993: Marc Andreessen @ Mosaic/Netscape, primo browser grafico</li>
+</ul>
+<p><img alt="" src="images/hist/tim-berners-lee.png" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Form HTML</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sezione di documento tra tag <code>form</code>, contenente:<ul>
+<li>Testo normale e markup</li>
+<li>Elementi speciali, o <em>controlli</em>, che l'utente può “completare”</li>
+</ul>
+</li>
+<li>Il tag <code>form</code> prevede due attributi<ul>
+<li><code>action</code>: url a cui inviare i dati (elaborazione remota su web server)</li>
+<li><code>method</code>: metodo HTTP da usare nell'invio dei dati del form <br> (<code>get</code> o <code>post</code>, in accordo con server)</li>
+</ul>
+</li>
+</ul>
+<pre class="" data-lang="HTML"><code>&lt;form action="http://xyz.com/script.cgi" method="post"&gt;
+  ...
+&lt;/form&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tag per i controlli</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Tag principali per <em>controlli</em> interattivi<ul>
+<li><code>input</code>: immissione di testo, pulsanti selezionabili, bottoni</li>
+<li><code>select</code>: menu a discesa e box di selezione</li>
+<li><code>textarea</code>: area di testo, su più righe</li>
+</ul>
+</li>
+<li>Ogni controllo di input in un form ha:<ul>
+<li>Un <strong>nome</strong>, definito dall’attributo <code>name</code></li>
+<li>Un <strong>valore</strong>, che l’utente imposta (immettendo testo o cliccando col mouse)</li>
+</ul>
+</li>
+<li>Dati inviati come insieme di coppie nome/valore</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Linguaggio PHP</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/sys/php-logo.jpg">
+        
+      </figure><ul>
+<li><em>Php: Hypertext Preprocessor</em> <br> (in origine: <em>Personal Home Page</em>)</li>
+<li>Linguaggio scripting lato server, come ASP e JSP</li>
+<li>Frammenti di codice inseriti in pagine HTML</li>
+<li>File PHP eseguiti sul server e poi restituiti al browser come semplice HTML</li>
+<li>Supporta molti DB, spesso si usa MySQL (LAMP)</li>
+<li>Open source</li>
+<li><a href="http://php.net/manual/it/">http://php.net/manual/it/</a></li>
+<li><a href="http://www.apachefriends.org/it/xampp.html">http://www.apachefriends.org/it/xampp.html</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Linguaggio JavaScript</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/repr/html5-logo.svg"><img src="images/sys/pacman-js.png">
+        
+      </figure><ul>
+<li>Netscape: interattività ad HTML<ul>
+<li>Reagire ad eventi</li>
+<li>Controllare dati</li>
+<li>Modificare elementi HTML</li>
+</ul>
+</li>
+<li>Completamente diverso da Java<ul>
+<li>Linguaggio interpretato (no compilazione, o <em>jit</em>)</li>
+<li>Tipizzazione dinamica (dati di tipo diverso in una var.)</li>
+<li><em>Object-based</em> (non ci sono classi)</li>
+</ul>
+</li>
+<li>Scripting in applicazioni diverse (es. QML)</li>
+<li><a href="https://developer.mozilla.org/en/JavaScript">https://developer.mozilla.org/en/JavaScript</a></li>
+<li><a href="http://www.ecmascript.org/">http://www.ecmascript.org/</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>HyperText Transfer Protocol</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/sys/http-url.png">
+        
+      </figure><ul>
+<li>Protocollo di livello 5, sessione</li>
+<li>Sistemi informativi distribuiti, collaborativi, ipertestuali<ul>
+<li>Usato nel World-Wide Web fin dal 1990</li>
+<li>Semplice: meccanismo richiesta/risposta</li>
+<li>Flessibile: supporto a vari tipi di dati, estendibile</li>
+<li>Usa TCP/IP, porta 80... ma richiede solo un livello di trasporto affidabile</li>
+<li><em>Senza connessione</em>: una richiesta/risposta per ogni connessione (meccanismo base, fino a v1.0)</li>
+<li><em>Senza stato</em>: lo stato non è conservato tra connessioni diverse (cookie per webapp, ext. v1.0)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Metodo GET</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Recupera l'informazione (in forma di entità) identificata dall’url della richiesta</li>
+<li>Se url = processo di produzione dati...<ul>
+<li>Dati restituiti come corpo della risposta</li>
+</ul>
+</li>
+<li>Semantica modificata in <code>GET</code> condizionale se tra gli header:<ul>
+<li><code>if-modified-since, if-unmodified-since</code>, …</li>
+<li>Evitare spreco di risorse di rete</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Metodo POST</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Copre diverse funzioni generali<ul>
+<li>Annotazione di risorse esistenti</li>
+<li>Invio di messaggi a bulletin board, newsgroup, mailing list, o gruppi di articoli simili</li>
+<li>Aggiunta di dati ad un database</li>
+<li>Invio dati (es. form) a processo che li gestisca</li>
+</ul>
+</li>
+<li>Url = processo che gestirà l’entità acclusa<ul>
+<li>Applicaz. server, o gateway per altri protocolli</li>
+<li>Entità separata che accetta annotazioni</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempio di richiesta</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTTP"><code>POST /beta.jsp HTTP/1.1
+Referer: http://www.alpha.com/alpha.jsp
+Connection: Keep-Alive
+User-Agent: Mozilla/4.61
+Host: www.alpha.com:80
+Cookie: name=value
+Accept: image/gif, image/jpeg, */*
+Accept-Language: en
+[blank line here]
+selected-item=1234&amp;action=show+details
+</code></pre>
+<pre class="" data-lang="HTTP"><code>GET /beta.jsp?selected-item=1234&amp;action=show+details HTTP/1.1
+Referer: http://www.alpha.com/alpha.jsp
+[...]
+If-modified-since: Mon, 10 Jul 2000 22:55:23 GMT
+[blank line here]
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempio di risposta</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTTP"><code>HTTP/1.1 200 OK
+Date: Fri, 12 Nov 2001 11:46:53 GMT
+Server: Apache/1.3.3 (Unix)
+Last-Modified: Mon, 12 Jul 2000 22:55:23 GMT
+Accept-Ranges: bytes
+Content-Length: 234
+Content-Type: text/html
+[blank line here]
+&lt;html&gt;
+    &lt;head&gt;&lt;title&gt;Beta page&lt;/title&gt;&lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Beta page&lt;/h1&gt;...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Codici di stato</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>1xx – Informational (ok, elaborazione in corso)</li>
+<li>2xx – Success (richiesta ricevuta e accettata)</li>
+<li>3xx – Redirection (necessarie azioni ulteriori)<ul>
+<li>301: Perm.; 302: Temp.; 304: Non modificata (→ cache)</li>
+</ul>
+</li>
+<li>4xx – Client Error<ul>
+<li>400: Richiesta scorretta; 401: Non autorizzato; 404: Non trovato</li>
+</ul>
+</li>
+<li>5xx – Server Error (ma richiesta valida)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Cookie</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/sys/cookies.jpg">
+        
+      </figure><ul>
+<li>Meccanismo generale per memorizzare e recuperare informazioni sul lato client di una connessione HTTP</li>
+<li>Server: quando invia risposta...<ul>
+<li>Può inviare anche info di stato</li>
+<li>Da memorizzare sul client</li>
+<li>Specificato il range di url per cui lo stato è valido</li>
+<li>Può essere specificata una scadenza</li>
+</ul>
+</li>
+<li>Client: in seguito, per ogni richiesta quel range...<ul>
+<li>Ritrasmessa anche informazione di stato</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

@@ -1,0 +1,919 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>C++ internals</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/misc/cpp-logo.jpg"></figure>
+  <hgroup>
+    <h2>Object oriented programming in C++</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Function pointers</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Initializing function pointers</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Declarating a function pointer.</strong> Write out the declaration of a function, but with <code>(*func_name)</code> where you'd normally just put <code>func_name</code></li>
+<li><strong>Initializing.</strong> Give it the address of a function in your program; the syntax is like any other variable</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>void my_int_func(int x) {
+    cout &lt;&lt; x &lt;&lt; endl;
+}
+
+int main() {
+    void (*foo)(int);
+    foo = &amp;my_int_func;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Using a function pointer</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Calling the pointed function.</strong> Treat the function pointer as though it were the name of the function<ul>
+<li>The act of calling it performs the dereference; there's no need to do it yourself</li>
+</ul>
+</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>int main() {
+    void (*foo)(int);
+    foo = &amp;my_int_func;
+
+    /* call my_int_func */
+    foo(2);
+
+    /* no need to write (*foo)(2), but you can */
+    (*foo)(2);
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Example of a callback</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint lang-c++" data-lang="c++"><code>void qsort(void *base, size_t nmemb, size_t size,
+            int(*compar)(const void *, const void *));
+</code></pre>
+<ul>
+<li><code>compar</code> is a function pointer (<em>callback</em>)<ul>
+<li>Negative result if 1st &lt; 2nd arg</li>
+<li>Zero if they are equal</li>
+<li>Positive result if 1st &gt; 2nd arg</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>A comparison function</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>int int_sorter(const void * a, const void * b) {
+    return *(int*)a - *(int*)b;
+}
+
+int main() {
+    int array[10];
+    for (int i = 0; i &lt; 10; ++i) {
+        array[ i ] = 10 - i;
+    }
+    qsort(array, 10, sizeof(int), int_sorter);
+    for (int i = 0; i &lt; 10; ++i) {
+        cout &lt;&lt; array[i] &lt;&lt; endl;
+    }
+
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Function pointers summary</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Declaring.</strong> As though you were declaring a function, except with a name like <code>*foo</code> instead of just <code>foo</code></li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>void (*func_pointer)(int);
+</code></pre>
+<ul>
+<li><strong>Initializing.</strong> Get the address of a function simply by naming it</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>void foo();
+func_pointer = foo;
+</code></pre>
+<ul>
+<li>Or, <em>optionally</em>, by prefixing the name with an ampersand</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>void foo();
+func_pointer = &amp;foo;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Function pointers summary</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Invoking.</strong> Just as if you were calling a function</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>func_pointer( arg1, arg2 );
+</code></pre>
+<ul>
+<li>Or, optionally <em>dereferencing</em> the function pointer before calling</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>(*func_pointer)( arg1, arg2 );
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Function objects</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>C++ allows you to overload <code>operator()</code>, the <em>function call</em> operator<ul>
+<li>Flexible: it can take any number of arguments of any types and return anything it wishes to</li>
+<li>All the other operators have a fixed number of arguments</li>
+</ul>
+</li>
+<li>Mechanism to create <em>function objects</em>, aka <em>functors</em><ul>
+<li>Treated as though they are a function or function pointer</li>
+<li>Use a a functor's constructor to embed information that is later used inside the implementation of <code>operator()</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Functor example</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint lang-c++" data-lang="c++"><code>class MyFunctorClass {
+public:
+    MyFunctorClass (int x) : x_(x) {}
+    int operator() (int y) { return x_ + y; }
+private:
+    int x_;
+};
+
+int main() {
+    MyFunctorClass addFive(5);
+    std::cout &lt;&lt; addFive(6);
+    return 0;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Lambda functions</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><code>[ capture-list ] ( params ) { body }</code></li>
+<li><em>Capture list</em>, for variables to be used in body of lambda<ul>
+<li><code>[a,&amp;b]</code>, captures <code>a</code> by <em>copy</em>, and <code>b</code> by <em>reference</em></li>
+<li><code>[&amp;]</code>, captures everything by <em>reference</em></li>
+<li><code>[=]</code>, captures everything by <em>copy</em></li>
+<li><code>[]</code> captures nothing</li>
+</ul>
+</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>vector&lt;int&gt; c = {1, 2, 3, 4, 5, 6, 7};
+int x = 5;
+c.erase(remove_if(c.begin(), c.end(),
+    [x](int n) { return n &lt; x; }), c.end());
+</code></pre>
+<blockquote></blockquote>
+<p><a href="https://github.com/tomamic/paradigmi/blob/master/cpp2016/queens/gamegui.cpp">https://github.com/tomamic/paradigmi/blob/master/cpp2016/queens/gamegui.cpp</a></p></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>C++, or C with classes</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>C++: Under the Hood</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><em>Jan Gray</em>, March 1994<ul>
+<li>Engineer @ Microsoft Visual C++ compiler unit</li>
+</ul>
+</li>
+<li>Understand how your language is implemented<ul>
+<li>No wonder of “What on earth is the compiler doing here?”</li>
+<li>Confidence to use the new features</li>
+<li>Insight when debugging and learning other language features</li>
+<li>Relative costs of different coding choices</li>
+</ul>
+</li>
+</ul>
+<blockquote></blockquote>
+<p><a href="https://www.dropbox.com/s/vkzs4480u3e26mo/jangrayhood.pdf?dl=1">https://www.dropbox.com/s/vkzs4480u3e26mo/jangrayhood.pdf?dl=1</a></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Simple C++ class</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>class Accumulator {
+private:
+    int value = 0;
+public:
+    void add(int inc) { value += inc; }
+    int get_val() { return value; }
+};
+</code></pre>
+<pre class="" data-lang="C++"><code>int main() {
+    Accumulator a;
+    a.add(10);
+    cout &lt;&lt; a.get_val() &lt;&lt; endl;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>The traditional C way</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C"><code>struct Accumulator {
+    int value;
+};
+void Accumulator__add(Accumulator* this, int inc) {
+    (*this).value += inc;
+}
+int Accumulator__get_val(Accumulator* this) {
+    return (*this).value;
+}
+</code></pre>
+<pre class="" data-lang="C"><code>int main() {
+    Accumulator a; a.value = 0;
+    Accumulator__add(&amp;a, 10);
+    cout &lt;&lt; Accumulator__get_val(&amp;a) &lt;&lt; endl;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Hidden this, exposed</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>When we call <code>a.add(10)</code>, compiler actually calls stg. like <code>Accumulator__add(&amp;a, 10)</code><ul>
+<li>Real name mangling is more complicated and proprietary</li>
+</ul>
+</li>
+<li>Inside <code>add</code> f., the <code>this</code> pointer holds the address of object <code>a</code><ul>
+<li>Any member variables inside <code>add</code> f. are prefixed with <code>this-&gt;</code></li>
+<li>So when we say <code>value += inc</code>, compiler actually executes <code>this-&gt;value += inc</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>C++ class layout</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-a.png">
+        
+      </figure><ul>
+<li>C-like structs<ul>
+<li>C++mostly upwards-compatible with C</li>
+<li>Same simple struct layout rules</li>
+<li>Members laid out in their declaration order</li>
+<li>Implementation defined alignment padding</li>
+</ul>
+</li>
+<li><em>Note</em>: C++ structs are like classes, defaulting to <code>public</code></li>
+</ul>
+<pre class="" data-lang="C++"><code>struct A {  // or class
+    char c;
+    int i;
+};
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>More members</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-b.png">
+        
+      </figure><pre class="" data-lang="C++"><code>struct B {  // or class
+public:
+    int bm1;
+protected:
+    int bm2;
+private:
+    int bm3;
+    static int bsm;
+    void bf();
+    static void bsf();
+    typedef void* bpv;
+    struct N { };
+};
+</code></pre>
+<ul>
+<li>Only the <em>non-static data members</em> occupy space in each instance</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Inheritance</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Single inheritance</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>struct C {
+    int c1;
+    void cf();
+};
+
+struct D : C {
+    int d1;
+    void df();
+};
+</code></pre>
+<ul>
+<li>Derived class inherits all features of base class</li>
+<li>Each instance of <code>D</code> must contain a complete copy of the instance data of <code>C</code></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Upcast for single inheritance</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-c.png"><img src="images/oop/cpp-struct-layout-d.png">
+        
+      </figure><pre class="" data-lang="C++"><code>struct C {
+    int c1;
+    void cf();
+};
+struct D : C {
+    int d1;
+    void df();
+};
+</code></pre>
+<ul>
+<li>New instance data of <code>D</code> is simply <em>appended</em> to layout of <code>C</code><ul>
+<li>Layout used by <em>all</em> known C++ <em>implementations</em></li>
+<li>Address of <code>C</code> object within <code>D</code> == first byte of <code>D</code> object</li>
+<li>No displacement for <em>upcasting</em>, to obtain address of embedded <code>C</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Multiple inheritance</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Model for an organization that has:<ul>
+<li>A class <code>Manager</code> (who delegates), and</li>
+<li>A class <code>Worker</code> (who actually does the work)</li>
+</ul>
+</li>
+<li>How can we model a class <code>MiddleManager</code>?<ul>
+<li>Like a <code>Worker</code>, accepts work assignments from manager</li>
+<li>Like a <code>Manager</code>, delegates work to employees</li>
+</ul>
+</li>
+</ul>
+<pre class="" data-lang="C++"><code>struct Manager ... { ... };
+struct Worker ... { ... };
+struct MiddleManager : Manager, Worker { ... };
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Multiple inheritance layout</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-e.png"><img src="images/oop/cpp-struct-layout-f.png">
+        
+      </figure><pre class="" data-lang="C++"><code>struct E {
+    int e1;
+    void ef();
+};
+struct F : C, E {
+    int f1;
+    void ff();
+};
+</code></pre>
+<ul>
+<li>Struct <code>F</code> multiply inherits from <code>C</code> and <code>E</code></li>
+<li>As with single inheritance, <code>F</code> contains a copy of instance data of each base class</li>
+<li>Here, address of embedded <code>E</code> within <code>F</code> ≠ address of <code>F</code> itself</li>
+<li>Displacement leads to a small overhead, for casting</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Diamond problem</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/diamond-inheritance.svg">
+        
+      </figure><ul>
+<li>What if both <code>Manager</code> and <code>Worker</code> are derived from <code>Employee</code>?</li>
+</ul>
+<pre class="" data-lang="C++"><code>struct Employee { ... };
+struct Manager : Employee { ... };
+struct Worker : Employee { ... };
+struct MiddleManager : Manager, Worker { ... };
+</code></pre>
+<ul>
+<li>They each contain a copy of <code>Employee</code> instance data</li>
+<li><code>MiddleManager</code> will contain two instances of <code>Employee</code>, one from each base</li>
+<li>Duplication = storage overhead, inconsistencies</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Virtual inheritance</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p>In C++, this “sharing inheritance” is (unfortunately) called <em>virtual inheritance</em></p>
+<pre class="" data-lang="C++"><code>struct Employee { ... };
+struct Manager : virtual Employee { ... };
+struct Worker : virtual Employee { ... };
+struct MiddleManager : Manager, Worker { ... };
+</code></pre>
+<ul>
+<li>More expensive to implement and use</li>
+<li>No fixed displacement from the address point of the derived class to its virtual base</li>
+<li>If derived class is further derived from, shared base placed at different offset</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Virtual base table pointer</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-g.png"><img src="images/oop/cpp-struct-layout-h.png"><img src="images/oop/cpp-struct-layout-i.png">
+        
+      </figure><pre class="" data-lang="C++"><code>struct G : virtual C {
+    int g1; void gf();
+};
+struct H : virtual C {
+    int h1; void hf();
+};
+struct I : G, H {
+    int i1; void _if();
+};
+</code></pre>
+<ul>
+<li><em>Visual C++</em>: hidden <code>vbptr</code><ul>
+<li>Pointer to a (<em>per-class</em>) table of displacements</li>
+<li>From address of <code>vbptr</code>, to virtual base(s)</li>
+<li>32-bit platform: <code>GdGvbptrC</code> is <code>8</code>, <code>IdGvbptrC</code> is <code>20</code> (bytes)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Data member access</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>No inheritance, like C lang</li>
+</ul>
+<pre class="" data-lang="C++"><code>C* pc;
+pc-&gt;c1; // *(pc + dCc1);
+</code></pre>
+<ul>
+<li>Single inheritance, displacement is <code>0</code></li>
+</ul>
+<pre class="" data-lang="C++"><code>D* pd;
+pd-&gt;c1; // *(pd + dDC + dCc1); // *(pd + dCc1);
+pd-&gt;d1; // *(pd + dDd1);
+</code></pre>
+<ul>
+<li>Multiple inheritance, constant displacement to a given base</li>
+</ul>
+<pre class="" data-lang="C++"><code>F* pf;
+pf-&gt;c1; // *(pf + dFC + dCc1); // *(pf + dFc1);
+pf-&gt;e1; // *(pf + dFE + dEe1); // *(pf + dFe1);
+pf-&gt;f1; // *(pf + dFf1);
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Access to virtual base</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Virtual inheritance, access to virtual base is comparatively expensive<ul>
+<li>Fetch the vbptr</li>
+<li>Fetch a vbtable entry</li>
+<li>Add that displacement to vbptr address</li>
+</ul>
+</li>
+<li>For other members, it's just a displacement</li>
+</ul>
+<pre class="" data-lang="C++"><code>I* pi;
+pi-&gt;c1; // *(pi + dIGvbptr + (*(pi+dIGvbptr))[1] + dCc1);
+pi-&gt;g1; // *(pi + dIG + dGg1); // *(pi + dIg1);
+pi-&gt;h1; // *(pi + dIH + dHh1); // *(pi + dIh1);
+pi-&gt;i1; // *(pi + dIi1);
+I i;
+i.c1; // *(&amp;i + IdIC + dCc1); // *(&amp;i + IdIc1);
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Casts</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Inexpensive to cast pointers, in case of derived classes<ul>
+<li>Add or subtract displacement (often 0).</li>
+<li>Except for classes with virtual bases</li>
+</ul>
+</li>
+</ul>
+<pre class="" data-lang="C++"><code>F* pf;
+(C*)pf;  // (C*)(pf ? pf + dFC : 0); // (C*)pf;
+(E*)pf;  // (E*)(pf ? pf + dFE : 0);
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Cast with virtual base</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Casting over a virtual inheritance path is relatively expensive</li>
+<li>About the same cost as accessing a member of a virtual base:</li>
+</ul>
+<pre class="" data-lang="C++"><code>I* pi;
+(G*)pi;  // (G*)pi;
+(H*)pi;  // (H*)(pi ? pi + dIH : 0);
+(C*)pi;  // (C*)(pi ? (pi+dIGvbptr + (*(pi+dIGvbptr))[1]) : 0);
+</code></pre></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Virtual functions</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Member functions</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-p.png">
+        
+      </figure><ul>
+<li>Virtual member functions incur an instance size hit</li>
+<li>They require a pointer to a (<em>per-class</em>) <strong>virtual function table</strong></li>
+</ul>
+<pre class="" data-lang="C++"><code>struct P {
+    int p1;
+    void pf();           // new
+    virtual void pvf();  // new
+};
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>The hidden this</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Each (non-static) member function of a class <code>X</code> receives a special hidden <code>this</code> parameter of type <code>X* const</code></li>
+<li>Implicitly initialized from the object the member function is applied to</li>
+<li>Within the body of a member function, member access off the <code>this</code> pointer is implicit</li>
+</ul>
+<pre class="" data-lang="C++"><code>void P::pf() {  // void P::pf([P *const this])
+    ++p1;       // ++(this-&gt;p1);
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Overriding member functions</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-q.png">
+        
+      </figure><ul>
+<li>A derived class can override, or replace, an inherited function definition</li>
+<li>Type of override depends upon whether the member function is declared <code>virtual</code><ul>
+<li><em>Static override</em>: determined at compile time</li>
+<li><em>Dynamic override</em>: determined at run-time, by concrete object addressed by object pointer</li>
+</ul>
+</li>
+</ul>
+<pre class="" data-lang="C++"><code>struct Q : P {
+    int q1;
+    void pf();           // overrides P::pf
+    void qf();           // new
+    void pvf();          // overrides P::pvf
+    virtual void qvf();  // new
+};
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Non-virtual override</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>P p; P* pp = &amp;p; Q q; P* ppq = &amp;q; Q* pq = &amp;q;
+pp-&gt;pf();   // pp-&gt;P::pf();   // P::pf(pp);
+ppq-&gt;pf();  // ppq-&gt;P::pf();  // P::pf(ppq);
+pq-&gt;pf();   // pq-&gt;Q::pf();   // Q::pf((P*)pq);
+pq-&gt;qf();   // pq-&gt;Q::qf();   // Q::qf(pq);
+</code></pre>
+<ul>
+<li>For non-virtual function calls, member function to call is statically determined, at compile time</li>
+<li>By type of pointer expression at left of <code>-&gt;</code> operator</li>
+<li><code>ppq</code> points to a <code>Q</code>, but <code>ppq-&gt;pf()</code> calls <code>P::pf()</code></li>
+<li>Pointer expression at left of <code>-&gt;</code> passed as hidden <code>this</code> parameter</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Virtual override</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>pp-&gt;pvf(); // pp-&gt;P::pvf(); // P::pvf(pp);
+ppq-&gt;pvf(); // ppq-&gt;Q::pvf(); // Q::pvf((Q*)ppq);
+pq-&gt;pvf(); // pq-&gt;Q::pvf(); // Q::pvf(pq);
+</code></pre>
+<ul>
+<li>For virtual function calls, member function to call is determined at run-time</li>
+<li>Appropriate to actual instance addressed by pointer</li>
+<li><code>ppq</code> has type <code>P*</code>, but it addresses a <code>Q</code>, and so <code>Q::pvf()</code> is called</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Multiple inheritance of virtual f.s</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/cpp-struct-layout-r.png"><img src="images/oop/cpp-struct-layout-s.png">
+        
+      </figure><pre class="" data-lang="C++"><code>struct R {
+    int r1;
+    virtual void pvf(); // new
+    virtual void rvf(); // new
+};
+struct S : P, R {
+    int s1;
+    void pvf(); // overrides P::pvf and R::pvf
+    void rvf(); // overrides R::rvf
+    void svf(); // new
+};
+</code></pre>
+<ul>
+<li>More than one <code>vfptr</code> if class inherits them from multiple bases, each with virtual functions</li>
+<li><code>S::pvf()</code> overrides both <code>P::pvf()</code> and <code>R::pvf()</code></li>
+<li><code>S::rvf()</code> overrides <code>R::rvf()</code></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Semantics of virtual calls</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>S s; S* ps = &amp;s; P* pps = &amp;s; R* prs = &amp;s;
+(pps)-&gt;pvf();  // (pps)-&gt;P::vfptr[0])((S*)pps)
+(prs)-&gt;pvf();  // (prs)-&gt;R::vfptr[0])((S*)prs)
+ps-&gt;pvf();        // one of the above; calls S::pvf()
+</code></pre>
+<ul>
+<li>Base <code>R</code> has a different address point than do <code>P</code> and <code>S</code>, as expected with multiple inheritance</li>
+<li><code>S::pvf()</code> an <code>S*</code> as <code>this</code> parameter</li>
+<li>Automatically convert <code>R*</code> at call site into <code>S*</code> at callee</li>
+<li>In <code>vftable</code>, <code>pvf</code> slot points to an adjuster <em>thunk</em></li>
+</ul></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

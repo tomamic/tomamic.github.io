@@ -1,0 +1,775 @@
+
+![](images/comp/attack.svg)
+# Linguaggi formali
+## Introduzione all'informatica <br> Michele Tomaiuolo @ Ingegneria UniPR
+
+---
+
+![](images/comp/tangible.jpg)
+# 🌱 Linguaggi formali
+
+- Presenti in tutte le applicazioni
+    - Linguaggi di programmazione
+    - Linguaggi di marcatura (es. HTML, Latex)
+    - Interazione uomo macchina (es. Google, Zork)
+- Fondamentali in sw di sistema
+    - Compilatori
+    - Interpreti …
+- Paradigmatici nella teoria
+    - Molti problemi riconducibili a quello dell'*appartenenza*: una stringa appartiene ad un linguaggio?
+
+---
+
+# 🌱 Alfabeti e stringhe
+
+- Alfabeto `Σ`: insieme di simboli
+- Stringa `s`: sequenza di simboli di `Σ`
+    - `s ∊ Σ*`, insieme di tutte le stringhe
+    - `ε`: stringa vuota
+    - `|s|`: lunghezza della stringa `s`
+- Linguaggio `L ⊆ Σ*`
+    - Sottoinsieme di tutte le stringhe possibili
+    - Grammatica: regole formali per definire le “*stringhe ben formate*” di L
+
+---
+
+![](images/comp/roman-nums-clock.jpg) ![large](images/comp/roman-nums-table.png)
+# 🛠️ Numeri romani
+
+- Alfabeto
+    - `{I, V, X, L, C, D, M}`
+    - *1, 5, 10, 50, 100, 500, 1000*
+- Regole
+    - Massimo 3 ripetizioni di un simbolo...
+    - Ma `V, L, D` non possono essere ripetuti
+    - Numeri inferiori seguono numeri superiori...
+    - Ma `IV, IX, XL, XC, CD, CM` fanno eccezione
+
+---
+
+# 🌱 Concatenazione di stringhe
+
+- Operazione di concatenazione `•`
+    - Propr. associativa: `(x • y) • z = x • (y • z)`
+    - Non commutativa: `x • y ≠ y • x`
+    - `Σ*` chiuso rispetto a `•: Σ* x Σ* → Σ*`
+- Potenza
+    - `xⁿ = x • x • x • x … (n volte)`
+- Elemento neutro `ε`
+    - Stringa vuota, `∀ x ∊ Σ*, ε • x = x • ε = x`
+
+>
+
+`<Σ*, •, ε>`: monoide
+
+---
+
+# 🌱 Definizione di linguaggi
+
+- Approccio **algebrico**: *espressioni regolari*
+    - Linguaggio costruito a partire da linguaggi più elementari, con operazioni su linguaggi
+- Approccio **generativo**: *grammatiche*
+    - Regole per la generazione di stringhe appartenenti al linguaggio
+- Approccio **riconoscitivo**: *automi*
+    - Algoritmi per decidere se una stringa appartiene o no al linguaggio
+
+---
+
+
+# Espressioni regolari
+
+---
+
+# 🌱 Operazioni su linguaggi
+
+- `L₁` ed `L₂` linguaggi su `Σ*` (due insiemi di stringhe)
+- Unione: `L₁ ∪ L₂ = {x ∊ Σ* : x ∊ L₁ ∨ x ∊ L₂}`
+- Intersezione: `L₁ ∩ L₂ = {x ∊ Σ* : x ∊ L₁ ∧ x ∊ L₂}`
+- Complementazione: `Lᶜ = {x ∊ Σ* : x ∉ L}`
+
+---
+
+# 🌱 Concatenazione di linguaggi
+
+
+- Concatenazione o prodotto:
+    - `L₁•L₂ = {x ∊ Σ* : x = x₁•x₂, x₁ ∊ L₁, x₂ ∊ L₂}`
+    - Es. `L₁ = {ab, bb}; L₂ = {aa, ab};` <br> `L₁ • L₂ = {abaa, abab, bbaa, bbab}`
+- Potenza: `Lⁿ = L • Lⁿ⁻¹, n≥1; L⁰ = {ε}` per convenzione
+    - Concatenazione di‌ `n` stringhe qualsiasi di `L`
+    - Es. `L = {ab, bb}; L² = {abab, abbb, bbab, bbbb}`
+- Stella di Kleene: `L* = ∪ Lⁿ, n = 0..∞`
+    - Concatenazione arbitraria di‌ stringhe di `L`
+
+>
+
+`L*`: chiusura riflessiva e transitiva di `L` rispetto a `•`
+
+---
+
+# 🌱 Espressioni regolari
+
+- *Espressione regolare* : stringa `r` su alfabeto `Σ ∪ {+,*,(,),•,Ø}` t.c.:
+    - `r = Ø`: linguaggio vuoto; oppure
+    - `r ∊ Σ`: linguaggio con un solo simbolo; oppure
+    - `r = s + t`: unione dei linguaggi `L(s)`, `L(t)`; oppure
+    - `r = s • t`: concatenazione dei linguaggi `L(s)`, `L(t)`; oppure
+    - `r = s*`: chiusura del linguaggio `L(s)`
+    - (con `s` e `t` espressioni regolari; simbolo `•` spesso implicito)
+- *Linguaggi regolari* : rappresentabili con espressioni regolari (“*regex*”)
+
+---
+
+# 🌱 Espressioni e linguaggi
+
+- `Σ = {a, b}`
+- <em>`(a + b • b)`</em>
+    - `{"a", "bb"}`
+- <em>`(a + b • b)*`</em>
+    - `{"", "a", "bb", "aa", "abb", "bba", "bbbb", "aaa", ...}`<br>
+- <em>`(a + b)*`</em>
+    - `{"", "a", "b", "aa", "ab", "ba", "bb", "aaa", ...}`<br>
+- <em>`a • (a + b)* • b`</em>
+    - `{"ab", "aab", "abb", "aaab", "aabb", "abab", ...}`<br>
+
+---
+
+# 🌱 Save the day with regex
+
+![small](images/comp/regex-xkcd.png)
+
+---
+
+# ⭐ PCRE, Perl Compatible RegEx
+
+- Concatenazione di caratteri: `goal`
+- Unione tra espressioni (opzione): `one|two|three`
+- Un car. da un insieme (o no): `[a-z]`, `[^a-z0-9]`
+- Un carattere qualsiasi: `defin.tely`
+- Ripetizioni (0+, 1+, 0-1): `goo*al`, `go+al`, `goo?al`
+- Sottoespressione: `(left right )*halt`
+
+![small](images/comp/perl-problems.png)
+
+---
+
+# ⭐ Regex, classi di caratteri
+
+- `[...]` per includere uno qualsiasi dei caratteri in parentesi
+    - Singoli caratteri o intervalli di caratteri adiacenti
+    - `[A-Z]` = qualsiasi lettera maiuscola
+    - `[a-zABC]` = qualsiasi lettera minuscola oppure `A`, `B`, o `C`
+- `[^...]` per escludere uno qualsiasi dei caratteri in parentesi
+    - `[^0-9]` = qualsiasi carattere non numerico
+- Simboli speciali per identificare classi di caratteri
+    - `\d` = numerico, ossia `[0-9]`
+    - `\s` = `[ \t\r\n\f]`
+    - `\w` = `[0-9a-zA-Z_]`
+    - `\D` = non numerico, ossia `[^0-9]` (anche `\W` ecc.)
+
+---
+
+# ⭐ Regex, caratteri speciali
+
+- `.` per un carattere qualsiasi
+    - `A.B` riconosce la stringa `AoB`, `AwB`, `AOB` ecc.
+- `\` escape, per segnalare sequenze speciali o considerare caratteri speciali come normali
+    - `\?` cerca il `?`
+- `^` corrisponde all'inizio del testo
+- `$` corrisponde alla fine del testo
+- `|` per alternativa tra due espressioni (unione)
+    - `A|B` = carattere `A` o carattere `B`
+- `(...)` per raggruppare sotto-espressioni
+    - `ga(zz|tt)a` trova sia `gazza` che `gatta`
+
+---
+
+# ⭐ Regex, ripetizioni
+
+- `{...}` per specificare il numero di ripetizioni
+    - `\d{3,5}` sequenze di almeno tre cifre, al massimo cinque
+- `*` zero o più occorrenze di un’espressione
+    - `(ab)*` riconosce `ab`, `abab`, la stringa vuota, ma non riconosce `abba`
+- `+` una o più occorrenze
+    - `(ab)+` non riconosce la stringa vuota
+- `?` zero o al più una occorrenza (parte opzionale)
+    - `https?://\S*` riconosce sia url http che https
+
+>
+
+⭐ <http://www.zytrax.com/tech/web/regex.htm>
+
+---
+
+# 🛠️ Regex, esempi
+
+![small](images/comp/codice-fiscale.png)
+
+- *Codice fiscale* : <br> `^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$`
+- *Dominio* : `^[\w\-]+\.(it|com|org|net|eu|mobi)$`
+- *E-mail* : `^[\w\-\.]+@[\w\-\.]+\.[a-z]+$`
+- *File* : `^.+\.zip$`
+- *Data* : `^\d{2}/\d{2}/\d{4}$`
+
+---
+
+# 🛠️ Regex, validazione form
+
+``` html
+<script>
+function validate(val) {
+    var expr = /^\d{2}\/\d{2}\/\d{4}$/;
+    if (! expr.test(val)) {
+        window.alert("Wrong date format");
+        return false;
+    }
+    return true;
+}
+</script>
+
+<form onsubmit="return validate(usrdate.value)">
+    Date (dd/mm/yyyy): <input name="usrdate">
+    <input type="submit">
+</form>
+```
+
+---
+
+# 🛠️ Regex in Python
+
+``` py
+>>> import re
+>>> text = "He was carefully disguised but captured quickly by police."
+>>> re.findall(r"\w+ly", text)
+['carefully', 'quickly']
+>>> text = "Python is a <multi-paradigm> <programming language>."
+>>> re.findall(r"<([^>]*)>", text)
+['multi-paradigm', 'programming language']
+```
+
+``` py
+>>> text = "He qualified in 3rd place."
+>>> re.sub(r"([0-9])([a-z]+)", r"\1<sup>\2</sup>", text)
+'He qualified in 3<sup>rd</sup> place.'
+>>> re.sub(r"([aeiou])\1+", r"\1", "troooppo miiiticoo!")
+'troppo mitico!'
+>>> re.sub(r"(o?)([aeiou])\2+", r"\1\2", "gooood daaay!")
+'good day!'
+```
+
+>
+
+<http://docs.python.org/3/library/re.html>
+
+---
+
+
+# Grammatiche di Chomsky
+
+---
+
+![](images/hist/chomsky.png) Noam Chomsky in 2017
+# 🌱 Grammatiche di Chomsky
+
+- Grammatica `G = <Vₜ, Vₙ, P, S>`
+    - `Vₜ`: alfabeto finito di simboli **terminali**
+    - `Vₙ`: ... **non terminali** (variabili, categorie sintattiche)
+    - `V = Vₜ ∪ Vₙ`
+    - `P`: insieme di **produzioni**, <br> relaz. binarie `V*•Vₙ•V* x V*` <br> `<α, β> ∊ P` si indica con `α → β`
+    - `S ∊ Vₙ`: **assioma**
+- `L(G)`: insieme delle stringhe di terminali ottenibili con finite operazioni di riscrittura
+    - Applicazione delle regole di produzione, in vario modo
+
+---
+
+# 🌱 Linguaggio generato da G
+
+- *Derivazione diretta* `⇒`: riscrittura di una stringa tramite applicazione di una regola di produzione
+- *Derivazione* `⇒*`: chiusura riflessiva e transitiva della derivazione diretta
+- *Forma di frase* : stringa `x : x ∊ V*, S ⇒* x`
+- *Linguaggio generato* da `G`: forme di frase con soli simboli terminali
+    - `L(G) = {x : x ∊ Vₜ*, S ⇒* x}`
+- *Equivalenza* tra `G₁` e `G₂`: `L(G₁) = L(G₂)`
+
+---
+
+![large](images/comp/grammar1.png) ![large](images/comp/grammar2.png)
+# ⭐ Albero delle frasi
+
+- La radice dell'albero è l'*assioma*
+- Ogni nodo ha tanti figli, quante sono le *produzioni* applicabili
+- Ogni figlio è una *forma di frase*
+- Le foglie sono stringhe del linguaggio, con soli simboli *terminali*
+- Esempi:
+    - `G₁ = <{a,b}, {F}, P₁, F>` <br> `P₁ = {F → ab, F → aFb}`
+    - `G₂ = <{a,b}, {F,G}, P₂, F>` <br> `P₂ = {F → ab, F → aG, G → Fb}`
+
+---
+
+# 🛠️ Grammatiche equivalenti
+
+- `G₁ = <{a, b}, {S, A}, P, S>`, con produzioni:
+    - `S → b` <br> `S → aA` <br> `A → aS`
+    - … genera il linguaggio `{aⁿb : n pari}`
+- Anche `G₂`, con produzioni:
+    - `S → Ab | b` <br> `A → aAa | aa`
+- Ed anche `G3`:
+    - `S → Ab` <br> `A → Aaa | ε`
+- *Nota*: produzioni di un non-terminale raggruppate con `|`
+
+---
+
+# 🛠️ Esempio di generazione
+
+- Grammatica per il linguaggio `{aⁿbⁿcⁿ : n≥1}`
+    - `G₀ = <{a, b, c}, {S, B, C}, P, S>`
+    - (P1) `S → aSBC`
+    - (P2) `S → aBC`
+    - (P3) `CB → BC`
+    - (P4) `aB → ab`
+    - (P5) `bB → bb`
+    - (P6) `bC → bc`
+    - (P7) `cC → cc`
+- ❓ Trovare le produzioni che generano `aaabbbccc`
+    - Soluzione: P1-P1-P2-P3-P3-P3-P4-P5-P5-P6-P7-P7
+
+>
+
+Vedremo che (P3) rende la grammatica di tipo 0, RE
+
+---
+
+![](images/comp/two-face.png)
+# 🛠️ Parsing e ambiguità
+
+- **Parsing**: trovare le produzioni che generano una certa stringa
+    - Primo compito di un *compilatore*
+    - La stringa è il codice sorgente
+    - Le produzioni individuano la *struttura* sintattica del programma
+- Alcune grammatiche sono **ambigue**
+    - Diverse sequenze di produzioni generano la stessa stringa
+    - ❗ Non è chiara la struttura del programma
+
+---
+
+# 🛠️ Alberi di derivazione (sintattici)
+
+- Esempio di grammatica **ambigua** per notazione **infissa**: <br> due interpretazioni valide per `2 + 3 * 3`
+    - `Vₜ = {0, 1, 2... 9, +, *, (, )};  Vₙ = {E};`
+    - `E → E + E | E * E | ( E ) | N`
+    - `N -> D N | D` <br> `D -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9`
+
+![small](images/comp/ambiguity.svg)
+
+---
+
+# 🛠️ Espressioni infisse e prefisse
+
+- Notazione **infissa**, con *precedenza* tra operatori: `2 + 3 * 3`
+- Grammatica per *non ambigua* per notazione infissa
+    - `E → T + E | T` <br> `T → F * T | F` <br> `F → ( E ) | N`
+    - `N -> D N | D` <br> `D -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9`
+- Notazione **prefissa**, o *polacca*
+    - Es.: `* + 1 2 - 3 2` ⇒ Infissa: `(1 + 2) * (3 - 2)`
+- *Grammatica* per notazione prefissa
+    - `E -> N | + E E | - E E | * E E | / E E`
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_fun_polish.py>
+
+---
+
+![](images/comp/hierarchy.svg)
+# ⭐ Classificazione di Chomsky
+
+- Tipo **🄌**: grammatiche **RE**, *ricorsivam. enumerabili*
+    - `αAβ → γ` (*non limitate*)
+- Tipo **➊**: grammatiche **CS**, *contestuali*
+    - `αAβ → αγβ`
+- Tipo **➋**: grammatiche **CF**, *non contestuali*
+    - `A → γ`
+- Tipo **➌**: grammatiche **REG**, *regolari*
+    - `A → aB`, oppure `A → b`, oppure `A → ε` (REG destre)
+    - Coincide con classe dei linguaggi definiti da *regex*
+
+>
+
+`A, B ∊ Vₙ; a, b ∊ Vₜ; α, β, γ ∊ V*`
+
+---
+
+# ⭐ Linguaggi non contestuali
+
+- Controllo di *palindromi*, *bilanciamento di parentesi* e varie *simmetrie*
+    - Es.: `{aⁿbⁿ : n≥1}` gen. da `S → aSb | ab` (CF)
+    - Es.: L. parentesi bilanciate gen. da `S → SS | (S) | ε`
+    - Ma non: `{aⁿbⁿcⁿ : n≥1}` (CS) *✶*
+- **Linguaggi di programmazione** comuni: grammatiche CF
+    - Parentesi bilanciate: `S → SS | (S) | ε`
+
+>
+
+✶ Nell'es. `G₀` già visto, sostituire (P3) con: <br> (P3a) `CB → HB` <br> (P3b) `HB → HC` <br> (P3c) `HC → BC`
+
+---
+
+# 🥷 Extended Backus-Naur Form (EBNF)
+
+- Terminali tra virgolette
+- `{...}`: parte ripetibile (0+), `[...]`: parte opzionale,
+- `(...)`: raggruppamento, `|`: scelta
+
+``` text
+Vₜ = {"il", "gatto", "topo", "sasso", "mangia", "beve"}
+P = {
+    frase = soggetto verbo complemento
+    soggetto = articolo nome
+    complemento = articolo nome
+    articolo = "il"
+    nome = "gatto" | "topo" | "sasso"
+    verbo = "mangia" | "beve"
+}
+```
+
+- *“il gatto mangia il topo”* è una frase del linguaggio
+
+---
+
+# 🥷 EBNF per espressioni
+
+- *Notazione infissa*, con precedenza
+    - Es.: `2 + 3 * 3`
+
+``` text
+expr = term {( "+" | "-" ) term}
+term = factor {( "*" | "/" ) factor}
+factor = number | "(" expr ")" | "-" term
+```
+
+- *Notazione prefissa, o polacca*
+    - Es.: `* + 1 2 - 3 2` ⇒ Infissa: `(1 + 2) * (3 - 2)`
+
+``` text
+expr = number | "+" expr expr | "-" expr expr |
+                "*" expr expr | "/" expr expr
+number = digit {digit}
+digit = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_fun_polish.py>
+
+---
+
+# 🥷 Linguaggi LL(1)
+
+- Sottoclasse dei linguaggi CF
+- Ogni produzione relativa a stesso non-terminale (a sx)... <br> genera come primo simbolo un terminale diverso
+    - No prefissi comuni, no ricorsione sinistra
+- **Recursive descent parser**: analisi sintattica molto semplice ed efficiente
+    - Basta “spiare” il simbolo di input successivo, per capire con certezza quale produzione applicare
+
+---
+
+![](images/comp/pumping-lemma-3.svg)
+# 🥷 Pumping lemma REG
+
+- Formalmente, `∀ L` regolare...
+    * `∃ k : ∀ z∊L, |z|≥k`
+    * `∃ u,v,w, |uv|≤k, |v|≥1 :`
+    * `z=uvw, uvⁱw ∊ L, ∀ i≥0`
+- In ogni stringa abbastanza lunga,
+    * c'è una parte che si può ripetere,
+    * generando un'altra stringa di `L`
+- Uno stesso non-terminale, per un input abbastanza lungo, deve comparire più volte nell'albero sintattico …
+    * Un Automa a Stati Finiti (*), per un input abbastanza lungo, torna in uno stato già visitato …
+
+>
+
+Esempio con `G₁`: `S → b | aA; A → aS`
+
+---
+
+![](images/comp/pumping-lemma-2.svg)
+# 🥷 Pumping lemma CF
+
+- Formalmente, `∀ L` non contestuale...
+    * `∃ k : ∀ z∊L, |z|≥k`
+    * `∃ u,v,w,x,y, |vwx|≤k,|vx|≥1 :`
+    * `z=uvwxy, uvⁱwxⁱy ∊ L, ∀ i≥0`
+- In ogni stringa abbastanza lunga,
+    * ci sono due parti che si possono
+    * ripetere assieme, restando in `L`
+- Uno stesso non-terminale, per un input abbastanza lungo, deve comparire più volte nell'albero sintattico …
+
+---
+
+# 🥷 Corollari dei due lemmi
+
+- ⇒ `L = {aⁿbⁿ : n≥0}` non è REG
+    * Si prende `aᵐbᵐ, con m>k ⇒ |uv|<m`, sono tutte `a`…
+- ⇒ `L = {aⁿbⁿcⁿ : n≥0}` non è CF
+    * Si prende `aᵐbᵐcᵐ, con m>k ⇒ |vwx|<m`
+    * Se `v` ed `x` con più simboli diversi, `uv²wx²y` con simboli mescolati
+    * Se `v` ed `x` con un solo simbolo, `uv²wx²y` con numero diverso di `a`, `b`, `c`
+    * In entrambi i casi la nuova stringa `z' ∉ L`
+
+---
+
+
+# Compilatori
+
+---
+
+# 🌱 Linguaggio di programmazione
+
+- Notazione *formale* e *non ambigua* per definire algoritmi
+    - *Algoritmo*: sequenza di istruzioni per risolvere un dato problema
+- Ogni linguaggio è caratterizzato da:
+    - **Sintassi**
+    - **Semantica**
+
+---
+
+![large](images/dev/syntax-diagrams.png)
+# ⭐ Sintassi
+
+- Insieme di regole formali per scrivere *frasi* ben formate (programmi) in un certo linguaggio
+- Spesso analisi a due livelli:
+- **Lessico**, tramite *espressioni regolari*
+    - Riconosciuti i “*token*”: parole riservate, operatori, variabili, costanti ecc.
+- **Struttura**, tramite *grammatiche non contestuali*
+    - Backus-Naur Form
+    - Extended BNF
+    - Diagrammi sintattici
+
+---
+
+# ⭐ Semantica
+
+- Attribuisce un **significato** alle frasi (sintatticamente corrette) costruite nel linguaggio
+- Una frase può essere sintatticamente corretta e tuttavia non aver alcun significato
+    - Soggetto – predicato – complemento
+    - *“La mela mangia il bambino”*
+    - *“Il bambino mangia la mela”*
+- Oppure avere un significato diverso da quello previsto...
+    - `int pi = 3.14;`
+
+---
+
+# ⭐ Semantica
+
+- **Correttezza sui tipi**
+    - Quali tipi di dato possono essere elaborati?
+    - Quali operatori applicabili ad ogni dato?
+    - Quali regole per definire nuovi tipi e operatori?
+- **Semantica operazionale**
+    - Qual è l'effetto di ogni azione elementare?
+    - Qual è l’effetto dell’aggregazione delle azioni?
+    - Cioè, qual è l’effetto dell’esecuzione di un certo programma?
+
+---
+
+![large](images/dev/compiler.svg)
+# ⭐ Compilatore come traduttore
+
+- **Front-end**, analisi di linguaggio di alto livello
+    - *Lessicale*
+    - *Grammaticale*
+    - *Contestuale*
+- → **Rappresentazione intermedia**
+    - *AST (Annotated Syntax Tree)*
+- **Generazione codice oggetto**
+    - Linguaggio macchina
+
+---
+
+![large](images/dev/ast-euclid.svg)
+# 🛠️ Esempio di albero sintattico
+
+- Analisi *sintattica*: regole grammaticali di derivazione del sorgente
+- Analisi *contestuale*: annotazioni sull'ambito e tipo delle variabili
+
+``` py
+while b != 0:
+    if a > b:
+        a = a − b
+    else:
+        b = b − a
+return a
+```
+
+>
+
+Algoritmo di Euclide per MCD
+
+---
+
+# 🥷 Esecuzione dei programmi
+
+- Codice oggetto non ancora eseguibile
+- Linguaggio ad alto livello → passi necessari:
+    - ➊ **Compilatore**: traduzione in linguaggio macchina
+    - ➋ **Linker**: collegamento con librerie di supporto
+    - ➌ **Loader**: caricamento in memoria
+- Programmi **compilati**: applicati i 3 passi...
+    - A tutto il codice; prima dell'esecuzione
+- Programmi **interpretati**: applicati i 3 passi...
+    - In sequenza, su ogni istruzione; a tempo di esecuzione
+
+![](images/dev/build.svg)
+
+---
+
+# 🥷 Collegamento
+
+- Il **linker** collega diversi moduli oggetto
+    - Simboli irrisolti → riferimenti esterni
+    - Il collegamento può essere statico o dinamico
+- **Collegamento statico**
+    - Libreria inclusa nel file oggetto, eseguibile stand-alone
+    - Dimensioni maggiori, ma possibile includere solo funzionalità utilizzate
+- **Collegamento dinamico**
+    - Librerie condivise da diverse applicazioni
+    - Installazione ed aggiornamento unici
+    - Caricate in memoria una sola volta
+
+---
+
+![](images/dev/relocation.png)
+# 🥷 Caricamento
+
+- Il **loader** carica in memoria un programma
+    - Risolve indirizzi logici (variabili, salti ecc.)
+    - Carica eventuali programmi di supporto (DLL ecc.)
+- **Rilocazione statica**: indirizzi logici trasformati in indirizzi assoluti
+- **Rilocazione dinamica**: indirizzi logici mantenuti, relativi alla posizione del programma in memoria
+    - *Registri base* della CPU (reg. CS, DS e SS su x86): <br> locazione base di codice, dati e stack
+    - *Memory Management Unit* in S.O.
+
+---
+
+# 🥷 Codice gestito
+
+- Compilazione in **codice intermedio**
+    - Bytecode (Java), Common Intermediate Lang. (.NET), …
+    - Python: compilato per una macchina virtuale (file .pyc), ma in modo trasparente
+- Esecuzione su una **macchina virtuale**
+    - Java Virtual Machine, Common Language Runtime, …
+    - Emulazione di un certo elaboratore
+    - ⇒ Indipendenza da piattaforma fisica
+    - Compilazione “al volo” (*Just In Time*) in codice nativo
+    - Gestione memoria con *garbage collection*
+
+---
+
+![](images/dev/garbage-truck.svg)
+# 🥷 Sistemi di garbage collection
+
+- Restituzione automatica della memoria
+    - Per oggetti/dati che non servono più
+- Possibile anche per codice nativo
+    - Linguaggio *Go*
+    - Estensioni e *“smart pointers”* in C++
+- Diversi algoritmi
+    - *Reference counting*: idea di base, ma cicli…
+    - *Mark & sweep*: parte da riferimenti locali/globali, marca oggetti raggiungibili
+    - *Generational garbage collection*: controlla spesso oggetti recenti
+
+---
+
+# 🥷 Uso della garbage collection
+
+- Vantaggi
+    - Si libera sistematicamente la memoria (*memory leak*)
+    - Non si rimuovono dati ancora utili (*dangling pointer*)
+    - Dati rilocati per *compattare* la memoria
+- Svantaggi
+    - Maggiore occupazione del *processore* (~1.3x)
+    - Maggiore occupazione di *memoria* (~2x)
+    - GC decide autonomamente *quando* operare (problema per *real time*)
+
+>
+
+<https://golang.org/src/runtime/mgc.go>
+<br>
+<https://golang.org/s/go15gcpacing>
+
+---
+
+
+# Linguaggi e paradigmi
+
+---
+
+![large](images/dev/assembly.png)
+# 🌱 Linguaggi di basso livello
+
+- Più orientati alla macchina che ai problemi da trattare
+- **Linguaggi macchina**: solo operazioni eseguibili direttamente dall'elaboratore
+    - Op. molto elementari, diverse per ogni processore, in formato binario
+- **Linguaggi assembly**: prima evoluzione, codici binari → mnemonici
+
+---
+
+# 🌱 Linguaggi di alto livello
+
+- Introdotti per facilitare la scrittura dei programmi
+- Definizione della soluzione in modo intuitivo
+- Con una certa **astrazione** rispetto al calcolatore su cui verranno eseguiti
+- Devono essere tradotti in linguaggio macchina
+
+---
+
+# 🌱 Storia dei linguaggi
+
+![large](images/dev/languages-timeline.svg)
+
+>
+
+[O’Reilly Language Poster](https://www.cs.toronto.edu/~gpenn/csc324/PLhistory.pdf)
+<br>
+[Poster aggiornato](http://www.levenez.com/lang/history.html)
+<br>
+[History of Computer Programming Languages, by A. Ferguson](https://cs.brown.edu/~adf/programming_languages.html)
+
+---
+
+# 🌱 The Top 10 (IEEE Spectrum, 2018)
+
+![small](images/dev/languages-spectrum-2018.png)
+
+>
+
+<https://spectrum.ieee.org/tag/Top+Programming+Languages>
+
+---
+
+# 🌱 Paradigmi di sviluppo
+
+- Forniscono la filosofia e la metodologia con cui si scrivono i programmi
+- Definiscono il concetto (astratto) di computazione
+- Ogni linguaggio consente (o spinge verso) l'adozione di un particolare paradigma
+    - Imperativo / procedurale
+    - Orientato agli oggetti
+    - Scripting (tipizzazione dinamica, principio DRY - Don't Repeat Yourself)
+    - Funzionale (funzioni come “cittadini di prima classe”)
+    - Logico (base di conoscenza + regole di inferenza)
+
+---
+
+# 🌱 Linguaggi e paradigmi
+
+- **Imperativi / procedurali**
+    - Cobol, Fortran, Algol, C, Pascal
+- **Orientati agli oggetti**
+    - Simula, Smalltalk, Eiffel, Delphi
+    - C++, Java, C#, Go, Swift, Rust, ...
+- **Scripting**
+    - Basic, Perl, PHP, Javascript, Python, VB.NET, Shell
+- **Funzionali**
+    - Lisp, Scheme, ML, Haskell, Erlang
+- **Logici**
+    - Prolog...

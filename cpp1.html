@@ -1,0 +1,1013 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linguaggio C++</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/misc/cpp-logo.jpg"></figure>
+  <hgroup>
+    <h2>Programmazione strutturata</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>C++ basics</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Elementi fondamentali<ul>
+<li>Variabili e costanti, espressioni, assegnamenti</li>
+</ul>
+</li>
+<li>Istruzioni di controllo<ul>
+<li>Espressioni booleane, istruzioni di branching (if-else, switch), cicli (while, do-while, for)</li>
+</ul>
+</li>
+<li>Funzioni e parametri<ul>
+<li>Call-by-value, call-by-reference</li>
+</ul>
+</li>
+<li>Array e strutture</li>
+<li>Puntatori e allocazione dinamica</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzione main()</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Punto di partenza del programma</li>
+<li>Lo standard ANSI/ISO C++<ul>
+<li>Impedisce la dichiarazione priva di tipo (<code>int</code>) della funzione main</li>
+<li>Consente di omettere l’istruzione</li>
+<li><code>return 0;</code></li>
+<li>nella funzione <code>main</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Variabili</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Variabili<ul>
+<li>Convenzione sui nomi (<code>lower_case</code>, o <code>camelCase</code>)</li>
+<li>Convenzione da usare per:</li>
+<li>variabili, parametri, funzioni, campi e metodi</li>
+<li>Posizione della dichiarazione</li>
+</ul>
+</li>
+<li>Costanti<ul>
+<li>Convenzione sui nomi (<code>UPPER_CASE</code>)</li>
+</ul>
+</li>
+<li>Tipi e classi<ul>
+<li>Convenzione sui nomi (<code>TitleCase</code>)</li>
+</ul>
+</li>
+<li>Suggerimento: mantenere nomi di variabili, costanti, ecc. in lingua inglese</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Namespace</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Insiemi di definizioni di nomi (classi, funzioni, …)</li>
+<li>Le librerie standard mettono i loro nomi nel namespace <code>std</code></li>
+<li>Per usare queste definizioni occorre la direttiva<ul>
+<li><code>using namespace std;</code></li>
+</ul>
+</li>
+<li>Per usare una specifica definizione<ul>
+<li><code>using std::cin;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Namespace (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+int main()
+{
+    int integer1, integer2, sum; // declaration
+    std::cout &lt;&lt; "Enter first integer\n"; // prompt
+    std::cin &gt;&gt; integer1; // read an integer
+    std::cout &lt;&lt; "Enter second integer\n"; // prompt
+    std::cin &gt;&gt; integer2; // read an integer
+    sum = integer1 + integer2; // assignment of sum
+    std::cout &lt;&lt; "Sum is " &lt;&lt; sum &lt;&lt; std::endl; // print sum
+    return 0; // indicate that program ended successfully
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Namespace (3)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+using std::cout; // program uses cout
+using std::cin; // program uses cin
+using std::endl; // program uses endl
+
+int main()
+{
+    int num1, num2;
+    cout &lt;&lt; "Enter two integers";
+    cin &gt;&gt; num1 &gt;&gt; num2; // read two integers
+    if (num1 == num2) }
+        cout &lt;&lt; num1 &lt;&lt; " is equal to " &lt;&lt; num2 &lt;&lt; endl;
+    }
+    return 0; // indicate that program ended successfully
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Strutture di controllo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>if/else</li>
+<li>while</li>
+<li>for</li>
+<li>do/while</li>
+<li>switch</li>
+<li>Programmazione ad oggetti: tende ad essere meno strutturata di quella procedurale</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Elementi costitutivi delle classi<ul>
+<li>Funzioni membro = metodi</li>
+</ul>
+</li>
+<li>Caratterizzate da nome, parametri (numero, ordine e tipo) e tipo di ritorno</li>
+<li>Le funzioni hanno un prototipo</li>
+<li>Il prototipo non è necessario se la definizione della funzione appare prima del suo utilizzo</li>
+<li>Nel prototipo i parametri possono non avere nome, ma per chiarezza in genere lo si mette</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La direttiva #include permette di importare i prototipi di funzioni delle librerie standard</li>
+<li>Ogni libreria standard ha un file header contenente la definizione di funzioni, tipi di dati e costanti</li>
+<li>Funzioni inline: viene generata una copia della funzione ogni volta che questa viene utilizzata</li>
+<li>Utile per funzioni brevi ed usate spesso (evita l’overhead del chiamare la funzione)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni (3)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+using std::cout;
+using std::endl;
+int cube(int y); // prototipo
+int main()
+{
+    int x;
+    for ( x = 1; x &lt;= 10; x++ )
+    cout &lt;&lt; cube( x ) &lt;&lt; endl;
+    return 0;
+}
+int cube( int y )
+{
+    return y * y * y;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Parametri call-by-value e call-by-reference</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Call-by-value<ul>
+<li>L’argomento può essere una variabile o un’espressione</li>
+<li>Il parametro formale viene inizializzato al valore dell’argomento</li>
+<li>La funzione riceve una copia del valore dell’argomento</li>
+</ul>
+</li>
+<li>Call-by-reference (“&amp;” attaccato al tipo del parametro formale)<ul>
+<li>L’argomento deve essere una variabile</li>
+<li>Il parametro formale viene sostituito con la variabile argomento</li>
+<li>La funzione può cambiare la variabile argomento</li>
+<li>Vantaggio: migliori prestazioni</li>
+<li>Svantaggio: minore modularità, la funzione chiamata può corrompere i dati della chiamante</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Parametri call-by-value e call-by-reference</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Oggetti di grandi dimensioni possono essere passati by reference, dichiarandoli però costanti<ul>
+<li>const int &x;</li>
+</ul>
+</li>
+<li>Suggerimento<ul>
+<li>Parametri piccoli e non modificabili: call-by-value</li>
+<li>Parametri modificabili: puntatori</li>
+<li>Parametri grandi e non modificabili: reference a costante (oppure puntatore a costante)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Puntatori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I puntatori contengono come valori indirizzi di memoria</li>
+<li>Quindi mentre una variabile contiene direttamente un valore, un puntatore lo contiene indirettamente: indirection</li>
+<li>L’operatore * (indirection operator) ritorna un sinonimo dell’oggetto a cui il suo operando (un puntatore) punta</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Puntatori (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+using std::cout;
+using std::endl;
+
+int main()
+{
+    int a; // a is an integer
+    int *aPtr; // aPtr is a pointer to an integer
+    a = 7;
+    aPtr = &amp;a; // aPtr set to address of a
+    cout &lt;&lt; "The address of a is " &lt;&lt; &amp;a &lt;&lt; "\nThe value of aPtr is " &lt;&lt; aPtr;
+    cout &lt;&lt; "\n\nThe value of a is " &lt;&lt; a &lt;&lt; "\nThe value of *aPtr is " &lt;&lt; *aPtr;
+    cout &lt;&lt; "\n\nShowing that * and &amp; are inverses of "&lt;&lt; "each other.\n&amp;*aPtr = "
+        &lt;&lt; &amp;*aPtr &lt;&lt; "\n*&amp;aPtr = " &lt;&lt; *&amp;aPtr &lt;&lt; endl;
+    return 0;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Puntatori e allocazione dinamica</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>L’operatore new crea una variabile dinamica e restituisce un puntatore ad essa<ul>
+<li>Esempio:</li>
+<li><code>int *p;</code></li>
+<li><code>p = new int;</code></li>
+</ul>
+</li>
+<li>L’operatore delete distrugge la variabile e dealloca la memoria<ul>
+<li>Esempio:</li>
+<li><code>delete p;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Arrays, dynamic arrays, vectors</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Arrays: insiemi di dati dello stesso tipo, allocati staticamente<ul>
+<li>Esempio: <code>int a[10];</code></li>
+</ul>
+</li>
+<li>Dynamic arrays: la dimensione è determinata (e può variare) durante l’esecuzione<ul>
+<li>Esempio: <code>int *p = new int[10]; /*...*/ delete[] p;</code></li>
+<li><code>delete[]</code> chiama prima il <em>distruttore</em> di ogni elemento</li>
+</ul>
+</li>
+<li>Vector: una classe template della STL<ul>
+<li>Esempio: <code>vector&lt;int&gt; a;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Parametri array</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se un parametro formale è di tipo array ([] dopo il nome del parametro) l’argomento passato è il nome di un array (senza [])</li>
+<li>La funzione può modificare gli elementi dell’array (di fatto viene passato un puntatore costante al primo elemento dell’array)</li>
+<li>Si deve passare alla funzione anche la dimensione dell’array</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Il modificatore di parametro const</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se inserito prima di un parametro il compilatore verifica che la funzione non lo modifichi</li>
+<li>Va usato sia nella definizione che nella dichiarazione (prototipo)</li>
+<li>Se un parametro const è passato a un’altra funzione, anche in essa deve essere const</li>
+<li>Il corretto utilizzo consente di assegnare ai metodi delle classi solo i privilegi effettivamente necessari, rispettando i concetti della programmazione object oriented e facilitando il debug</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Il modificatore di parametro const</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+using std::cout; using std::endl;
+
+// sPtr cannot modify the character it points to
+// it is a non-const pointer to const data ("read-only" ptr)
+void printCharacters( const char *sPtr ) {
+    for ( ; *sPtr != '\0'; sPtr++ ) { cout &lt;&lt; *sPtr; }
+}
+
+int main() {
+    char string[] = "print characters of a string";
+    cout &lt;&lt; "The string is:\n";
+    printCharacters( string );
+    return 0;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Casting</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>In generale pericoloso, sorgente di errori a run time</li>
+<li>Quattro nuovi costrutti di casting: più specifici, meno potenti (è un bene!)<ul>
+<li><code>static_cast&lt;tipo&gt;(expr)</code> : conversione tra tipi</li>
+<li><code>const_cast&lt;tipo&gt;(expr)</code> : attributo const (on/off)</li>
+<li><code>dynamic_cast&lt;tipo&gt;(espressione)</code> : gerarchie di classi</li>
+<li><code>reinterpret_cast&lt;tipo&gt;(expr)</code> : puntatori, int</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Overloading</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>C++ consente di avere più funzioni con definizioni diverse e lo stesso nome</li>
+<li>Devono differire per il numero di parametri e/o il tipo di almeno un parametro (signature)</li>
+<li>Non possono differire solo per<ul>
+<li>Valore ritornato</li>
+<li>Modificatore const</li>
+<li>Call-by-value vs. call-by-reference</li>
+</ul>
+</li>
+<li>Funzionalità importante della programmazione ad oggetti: è corretto che se una stessa operazione può essere applicata a tipi di dati differenti, il nome dell’operazione non cambi</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Overloading (3)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Signature di una funzione<ul>
+<li>Nome più lista dei tipi dei parametri</li>
+<li>Deve essere unica per ogni definizione di funzione</li>
+</ul>
+</li>
+<li>Il compilatore risolve la chiamata di funzione in base alla signature</li>
+<li>E’ possibile effettuare l’overloading non solo delle funzioni, ma anche degli operatori</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Risoluzione overloading</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Il compilatore cerca, nell’ordine:<ul>
+<li>Match esatto</li>
+<li>Match con promozione tra tipi interi o tra tipi floating-point</li>
+<li>Match con altra conversione tra tipi predefiniti</li>
+<li>Match con conversione tra tipi definiti dall’utente</li>
+</ul>
+</li>
+<li>Se in uno dei tentativi trova più match, dà errore</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempio</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;iostream&gt;
+using std::cout;
+using std::endl;
+int square( int x ) { return x * x; }
+double square( double y ) { return y * y; }
+int main()
+{
+    cout &lt;&lt; "The square of integer 7 is " &lt;&lt; square( 7 )
+    &lt;&lt; "\nThe square of double 7.5 is " &lt;&lt; square( 7.5 )
+    &lt;&lt; endl;
+    return 0;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Argomenti di default</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Per i parametri call-by-value si può specificare un valore di default</li>
+<li>Se il corrispondente argomento manca, il parametro assume il valore di default</li>
+<li>Il valore di default va inserito nella prima tra dichiarazione e definizione</li>
+<li>I parametri con valore di default devono stare nelle posizioni più a destra</li>
+<li>Nella chiamata gli argomenti vanno omessi a partire da destra</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Overloading e arg. default</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Entrambi consentono di invocare un nome di funzione in più modi</li>
+<li>Gli argomenti di default vanno usati quando:<ul>
+<li>Esiste un valore di default sensato (es.: se il valore fosse nullo, meglio l’overloading)</li>
+<li>La funzione usa lo stesso algoritmo indipendentemente dal numero di argomenti nella chiamata</li>
+</ul>
+</li>
+<li>Attenzione: l’overload unito all’uso di argomenti di default può portare a codice di difficile comprensione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Rappresentazione stringhe</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>C++ offre due modi per rappresentare le stringhe di caratteri<ul>
+<li>Il modo ereditato dal linguaggio C (<em>C-strings</em>)</li>
+<li>Oggetti della classe string (presente nella libreria standard)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>C-strings</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Array di char terminati col carattere <code>\0</code><ul>
+<li>Es: <code>char message[10] = “Ciao”; char short_string[] = “abc”; char array_of_char[] = {‘a’,‘b’,‘c’}; char s[10];</code></li>
+</ul>
+</li>
+<li>I valori di tipo stringa (es. “Hello”) sono implementati come C-string</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Libreria cstring</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Le C-strings non consentono l’uso degli operatori <code>=</code> e <code>==</code></li>
+<li>La libreria cstring contiene funzioni per la manipolazione delle C-strings (definizioni nel namespace globale)<ul>
+<li>Es. <code>strcpy, strcmp, strcat, strlen</code></li>
+</ul>
+</li>
+<li>Lo standard C++ ha aggiunto versioni safe di queste funzioni<ul>
+<li>Es. <code>strncpy, strncmp, strncat, strnlen</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>I/O di C-strings</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>L’operatore <code>&lt;&lt;</code> consente di inserire il valore di una C-string in un output stream<ul>
+<li>Es: <code>char message[] = “Hello”; cout &lt;&lt; message;</code></li>
+</ul>
+</li>
+<li>L’operatore <code>&gt;&gt;</code> consente di estrarre una stringa da un input stream<ul>
+<li>Ignora eventuali caratteri di spaziatura iniziali, la lettura si ferma al primo carattere di spaziatura</li>
+<li>Es: <code>char a[80], b[80]; cin &gt;&gt; a &gt;&gt; b;</code></li>
+<li>Lettura di un’intera linea di input con la funzione membro della classe istream:</li>
+<li>Es: <code>cin.getline(a, 80);</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe std::string</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Con le C-strings ci si deve occupare dei dettagli di implementazione</li>
+<li>La classe string consente di trattare le stringhe di caratteri come un tipo base<ul>
+<li>Con l’operatore <code>=</code> si può assegnare un valore a una variabile string</li>
+<li>Con l’operatore <code>+</code> si possono concatenare due stringhe</li>
+</ul>
+</li>
+<li>Classe string: definita nella libreria string, definizioni nel namespace std</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Conversione tra C-strings e std::string</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Le C-strings sono convertite automaticamente in oggetti string<ul>
+<li>Inizializzazione di un oggetto string con una C-string</li>
+<li>Assegnamento di una C-string ad un oggetto string</li>
+<li>Concatenazione di oggetti string e C-strings</li>
+</ul>
+</li>
+<li>Non c’è conversione automatica di oggetti string in C-strings<ul>
+<li>Funzione membro <code>c_str()</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>I/O di std::string</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>L’operatore <code>&lt;&lt;</code> (<em>insertion</em>) consente di inserire un oggetto string in un output stream<ul>
+<li>Es: <code>string message("Hello"); cout &lt;&lt; message;</code></li>
+</ul>
+</li>
+<li>L’operatore <code>&gt;&gt;</code> (<em>extraction</em>) consente di estrarre un oggetto string da un input stream<ul>
+<li>Ignora eventuali caratteri di spaziatura iniziali, la lettura si ferma al primo carattere di spaziatura</li>
+<li>Es: <code>string s1, s2; cin &gt;&gt; s1 &gt;&gt; s2;</code></li>
+<li>Lettura di un’intera linea di input con la funzione <code>getline(a_stream, a_string)</code> definita nella libreria string</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Altre funzionalità</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sono fornite funzioni di utilità per:<ul>
+<li>Comparazione</li>
+<li>Manipolazione</li>
+<li>Estrazione di sottostringhe</li>
+<li>Rimpiazzo o inserimento di caratteri</li>
+<li>Iterazione tra gli elementi</li>
+<li>...</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe std::vector</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I vettori sono array la cui dimensione può cambiare durante l’esecuzione</li>
+<li>Sono oggetti della classe vector, una classe template della Standard Template Library (STL)<ul>
+<li>Ex: <code>vector&lt;int&gt; v;</code></li>
+</ul>
+</li>
+<li>La classe è definita nella libreria vector all’interno del namespace std<ul>
+<li>Ex: <code>#include &lt;vector&gt;</code></li>
+<li><code>using namespace std;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>La notazione []</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La notazione <code>[]</code><ul>
+<li>può essere usata per<ul>
+<li>leggere un elemento</li>
+<li>cambiare un elemento che ha già un valore</li>
+</ul>
+</li>
+<li>non può essere usata per<ul>
+<li>inizializzare un elemento</li>
+</ul>
+</li>
+<li>non controlla se l’elemento esiste</li>
+</ul>
+</li>
+<li>Per aggiungere elementi (in ordine di posizione) si usa il metodo <code>push_back()</code></li>
+<li>Accesso agli elementi di un vector</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Costruttore con un argomento intero</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Crea un numero di elementi pari all’argomento e li inizializza…<ul>
+<li>Con lo zero del tipo numerico se è un vettore di numeri</li>
+<li>Con il costruttore di default se il tipo base è un tipo classe</li>
+<li>Ex: <code>vector&lt;int&gt; v(10); vector&lt;DayOfYear&gt; days(3);</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Dimensioni e capacità</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La dimensione è il numero di elementi in un vector (restituita dal metodo <code>size()</code>)</li>
+<li>La capacità è il numero di elementi per i quali c’è memoria allocata</li>
+<li>Se aggiungo elementi a un vector che ha esaurito la capacità, questa viene automaticamente aumentata</li>
+<li>Posso ignorare la gestione della capacità se non serve efficienza</li>
+<li>Altrimenti posso usare il metodo <code>reserve()</code> per riservare una capacità minima</li>
+<li>Il metodo <code>resize()</code> modifica la dimensione del vector</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Modern C++</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Modern C++</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/dev/cpp.png">
+        
+      </figure><ul>
+<li>Nuova versione dello linguaggio, approvata da ISO il 2011-08-12<ul>
+<li>Initializer lists</li>
+<li>Uniform initialization</li>
+<li>Type inference</li>
+<li>Range-based for loop</li>
+<li>Lambda functions</li>
+<li>...</li>
+</ul>
+</li>
+<li>Successive versioni nel 2014, 2017, 2020, ...</li>
+</ul>
+<blockquote>
+<p>C++11 feels like a new language (Bjarne Stroustrup)</p>
+</blockquote></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tipizzazione statica</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/algo/my-shoes.png">
+        
+      </figure><ul>
+<li>Una delle differenze principali: le comuni variabili non sono <em>riferimenti</em>, ma <em>contenitori</em> di dati<ul>
+<li>Occorrono <strong>dichiarazioni</strong> di tipo</li>
+<li>Ma possibile <em>type inference</em> (<code>auto</code>)</li>
+</ul>
+</li>
+<li>Tipi principali: <code>int</code>, <code>float</code> e <code>double</code>, <code>bool</code>, <code>string</code> e <code>char</code></li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>int x = 10;
+double h = 3.7;
+string s = "hello";
+
+auto y = 5;        // type inference
+auto k = 2.2;
+auto t = "hola"s;  // recent compiler
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Stringhe</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><code>std::string</code>: sequenza <em>mutevole</em> di byte (tipo <code>char</code>)</li>
+<li>Operazioni di confronto; concatenazione: <code>+</code></li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>#include &lt;string&gt;
+using std::string, std::to_string, std::stoi;
+// ...
+
+string sentence = "Lorem ipsum";
+sentence[6] = 'I';
+cout &lt;&lt; sentence[6];  // 'I'
+
+int n = 5;
+string txt = to_string(n);
+int val = stoi(txt);  // see also `stod`, `stof`...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Vector, array dinamici</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/fun/shopping-list.jpg">
+        
+      </figure><pre class="prettyprint lang-c++" data-lang="c++"><code>#include &lt;vector&gt;
+using std::vector;
+// ...
+
+// initialization list
+vector&lt;string&gt; grocery = {"spam", "egg", "beans"};
+cout &lt;&lt; grocery[1] &lt;&lt; endl;  // egg
+cout &lt;&lt; grocery.size() &lt;&lt; endl;  // 3
+grocery[0] = "sausage";  // replace an elem
+
+grocery.push_back("bacon");  // add elem to the end
+grocery.pop_back();  // remove last elem
+
+grocery.insert(begin(grocery) + 1, "bacon");  // other elems shift
+grocery.erase(begin(grocery) + 1);  // remove elem at index
+</code></pre>
+<blockquote></blockquote>
+<p><a href="http://tomamic.github.io/fondinfo/p3-composizione.html#4">http://tomamic.github.io/fondinfo/p3-composizione.html#4</a></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Cicli for, range-based</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="prettyprint lang-c++" data-lang="c++"><code>for (auto product : grocery) {
+    // for each product in grocery
+    cout &lt;&lt; product &lt;&lt; endl;
+}
+</code></pre>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>for (int i = 0; i &lt; 5; ++i) {
+    // for each i : 0 &lt;= i &lt; 5
+    cout &lt;&lt; i * i &lt;&lt; endl;
+}
+</code></pre>
+<blockquote></blockquote>
+<p><a href="http://tomamic.github.io/fondinfo/p3-composizione.html#8">http://tomamic.github.io/fondinfo/p3-composizione.html#8</a></p></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:ooo="http://xml.openoffice.org/svg/export"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   viewBox="0 0 23265 12978.639"
+   preserveAspectRatio="xMidYMid"
+   fill-rule="evenodd"
+   stroke-width="28.222"
+   stroke-linejoin="round"
+   xml:space="preserve"
+   id="svg676"
+   width="23265"
+   height="12978.639"><metadata
+   id="metadata680"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata>
+ <defs
+   class="ClipPathGroup"
+   id="defs8">
+  <clipPath
+   id="presentation_clip_path"
+   clipPathUnits="userSpaceOnUse">
+   <rect
+   x="0"
+   y="0"
+   width="25400"
+   height="19050"
+   id="rect2" />
+  </clipPath>
+  <clipPath
+   id="presentation_clip_path_shrink"
+   clipPathUnits="userSpaceOnUse">
+   <rect
+   x="25"
+   y="19"
+   width="25350"
+   height="19012"
+   id="rect5" />
+  </clipPath>
+ 
+  
+ 
+   
+  
+    
+   
+     
+    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
+       
+      
+        
+        
+       
+       
+      
+        
+        
+       </defs>
+ <defs
+   id="defs13">
+  <g
+   id="ooo:meta_slides"
+   ooo:number-of-slides="1"
+   ooo:start-slide-number="0">
+   <g
+   id="ooo:meta_dummy_slide"
+   ooo:slide="dummy-slide"
+   ooo:master="dummy-master-page"
+   ooo:background-visibility="hidden"
+   ooo:master-objects-visibility="hidden"
+   ooo:has-transition="false" />
+   <g
+   id="ooo:meta_slide_0"
+   ooo:slide="id1"
+   ooo:master="id2"
+   ooo:date-time-visibility="hidden"
+   ooo:footer-visibility="hidden"
+   ooo:has-transition="true" />
+  </g>
+ </defs>
+ <defs
+   class="TextShapeIndex"
+   id="defs17">
+  <g
+   ooo:slide="id1"
+   ooo:id-list="id3 id4 id5 id6 id7 id8 id9 id10 id11 id12 id13 id14 id15 id16 id17 id18 id19 id20"
+   id="g15" />
+ </defs>
+ <defs
+   class="EmbeddedBulletChars"
+   id="defs49">
+  <g
+   id="bullet-char-template-57356"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 580,1141 1163,571 580,0 -4,571 Z"
+   id="path19" />
+  </g>
+  <g
+   id="bullet-char-template-57354"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 8,1128 H 1137 V 0 H 8 Z"
+   id="path22" />
+  </g>
+  <g
+   id="bullet-char-template-10146"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 174,0 602,739 174,1481 1456,739 Z M 1358,739 309,1346 659,739 Z"
+   id="path25" />
+  </g>
+  <g
+   id="bullet-char-template-10132"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 2015,739 1276,0 H 717 l 543,543 H 174 v 393 h 1086 l -543,545 h 557 z"
+   id="path28" />
+  </g>
+  <g
+   id="bullet-char-template-10007"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="m 0,-2 c -7,16 -16,29 -25,39 l 381,530 c -94,256 -141,385 -141,387 0,25 13,38 40,38 9,0 21,-2 34,-5 21,4 42,12 65,25 l 27,-13 111,-251 280,301 64,-25 24,25 c 21,-10 41,-24 62,-43 C 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 c 0,-27 -21,-55 -63,-84 l 16,-20 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 c -22,-34 -53,-51 -92,-51 -42,0 -63,17 -64,51 -7,9 -10,24 -10,44 0,9 1,19 2,30 z"
+   id="path31" />
+  </g>
+  <g
+   id="bullet-char-template-10004"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 c 0,78 14,145 41,201 34,71 87,106 158,106 53,0 88,-31 106,-94 l 23,-176 c 8,-64 28,-97 59,-98 l 735,706 c 11,11 33,17 66,17 42,0 63,-15 63,-46 V 965 c 0,-36 -10,-64 -30,-84 L 442,47 C 390,-6 338,-33 285,-33 Z"
+   id="path34" />
+  </g>
+  <g
+   id="bullet-char-template-9679"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 c 0,181 53,324 160,431 106,107 249,161 430,161 179,0 323,-54 432,-161 108,-107 162,-251 162,-431 0,-180 -54,-324 -162,-431 C 1136,54 992,0 813,0 Z"
+   id="path37" />
+  </g>
+  <g
+   id="bullet-char-template-8226"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="m 346,457 c -73,0 -137,26 -191,78 -54,51 -81,114 -81,188 0,73 27,136 81,188 54,52 118,78 191,78 73,0 134,-26 185,-79 51,-51 77,-114 77,-187 0,-75 -25,-137 -76,-188 -50,-52 -112,-78 -186,-78 z"
+   id="path40" />
+  </g>
+  <g
+   id="bullet-char-template-8211"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="M -4,459 H 1135 V 606 H -4 Z"
+   id="path43" />
+  </g>
+  <g
+   id="bullet-char-template-61548"
+   transform="matrix(4.8828125e-4,0,0,-4.8828125e-4,0,0)">
+   <path
+   d="m 173,740 c 0,163 58,303 173,419 116,115 255,173 419,173 163,0 302,-58 418,-173 116,-116 174,-256 174,-419 0,-163 -58,-303 -174,-418 C 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"
+   id="path46" />
+  </g>
+ </defs>
+ <defs
+   id="defs55">
+  <g
+   id="dummy-master-page"
+   ooo:name="dummy-master-page"
+   class="Master_Slide">
+   <g
+   id="bg-dummy-master-page"
+   class="Background"
+   visibility="hidden" />
+   <g
+   id="bo-dummy-master-page"
+   class="BackgroundObjects"
+   visibility="hidden" />
+  </g>
+  <g
+   id="id2"
+   ooo:name="lyt-analysis"
+   class="Master_Slide">
+  </g>
+ </defs>
+ <g
+   class="DummySlide"
+   id="g57"
+   transform="translate(-986,-5075.6309)">
+ </g>
+ <g
+   class="com.sun.star.drawing.CustomShape"
+   id="g452"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id4">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="986"
+   y="5981"
+   width="11603"
+   height="11118"
+   id="rect59" />
+        <path
+   fill="#b2b2b2"
+   stroke="none"
+   d="m 12575,11540 c 0,973 -267,1929 -775,2772 -508,843 -1239,1543 -2119,2030 -880,487 -1878,743 -2894,743 -1016,0 -2014,-256 -2894,-743 -880,-487 -1611,-1187 -2119,-2030 -508,-843 -775,-1799 -775,-2772 0,-974 267,-1930 775,-2773 508,-843 1239,-1543 2119,-2030 880,-487 1878,-743 2894,-743 1016,0 2014,256 2894,743 880,487 1611,1187 2119,2030 508,843 775,1799 775,2772 z"
+   id="path61" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12575,11540 c 0,35 0,70 -1,105"
+   id="path63" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12572,11724 c -1,35 -3,69 -5,104"
+   id="path65" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12562,11907 c -2,35 -5,70 -8,105"
+   id="path67" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12546,12091 c -3,34 -7,69 -12,104"
+   id="path69" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12524,12273 c -5,35 -10,70 -15,104"
+   id="path71" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12496,12455 c -6,35 -13,69 -20,103"
+   id="path73" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12461,12636 c -7,34 -15,68 -23,102"
+   id="path75" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12420,12815 c -9,34 -17,68 -26,102"
+   id="path77" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12373,12993 c -10,34 -20,67 -30,101"
+   id="path79" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12319,13169 c -10,33 -21,67 -33,100"
+   id="path81" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12260,13343 c -12,33 -24,66 -36,99"
+   id="path83" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12195,13515 c -13,33 -26,65 -40,98"
+   id="path85" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12124,13685 c -14,32 -28,64 -43,96"
+   id="path87" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12048,13852 c -16,32 -31,63 -47,95"
+   id="path89" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11965,14017 c -16,31 -32,62 -49,93"
+   id="path91" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11877,14179 c -17,30 -34,60 -52,91"
+   id="path93" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11784,14338 c -18,29 -37,59 -55,89"
+   id="path95" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11686,14493 c -19,29 -39,58 -59,87"
+   id="path97" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11582,14645 c -20,29 -40,57 -61,85"
+   id="path99" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11474,14794 c -21,28 -43,55 -64,83"
+   id="path101" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11360,14939 c -22,27 -44,54 -67,81"
+   id="path103" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11242,15080 c -23,26 -46,52 -69,78"
+   id="path105" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11119,15217 c -23,25 -47,51 -72,76"
+   id="path107" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10992,15350 c -24,25 -49,49 -74,74"
+   id="path109" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10861,15479 c -25,24 -51,48 -77,71"
+   id="path111" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10726,15603 c -27,23 -53,46 -80,69"
+   id="path113" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10586,15723 c -27,23 -54,45 -81,67"
+   id="path115" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10443,15839 c -28,21 -56,43 -83,64"
+   id="path117" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10296,15950 c -28,20 -57,41 -85,61"
+   id="path119" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10146,16056 c -29,20 -58,39 -87,58"
+   id="path121" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9992,16157 c -29,19 -59,37 -89,56"
+   id="path123" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9835,16254 c -30,17 -60,35 -90,52"
+   id="path125" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9676,16345 c -31,17 -62,34 -93,50"
+   id="path127" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9513,16431 c -31,16 -62,32 -94,47"
+   id="path129" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9348,16513 c -32,15 -63,29 -95,44"
+   id="path131" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9180,16589 c -32,14 -64,27 -96,41"
+   id="path133" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9011,16659 c -33,13 -66,26 -98,38"
+   id="path135" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8839,16725 c -33,12 -66,24 -99,35"
+   id="path137" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8665,16785 c -34,11 -67,22 -100,32"
+   id="path139" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8489,16840 c -34,10 -67,19 -101,29"
+   id="path141" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8312,16889 c -34,9 -68,18 -102,26"
+   id="path143" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8133,16933 c -34,8 -68,15 -103,23"
+   id="path145" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7953,16971 c -34,7 -69,14 -103,20"
+   id="path147" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7772,17004 c -34,6 -69,11 -104,16"
+   id="path149" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7590,17031 c -35,5 -69,9 -104,13"
+   id="path151" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7407,17053 c -34,4 -69,7 -104,10"
+   id="path153" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7224,17069 c -35,3 -70,5 -105,7"
+   id="path155" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7040,17080 c -35,1 -70,2 -105,3"
+   id="path157" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6856,17085 c -23,0 -46,0 -69,0 -12,0 -24,0 -36,0"
+   id="path159" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6672,17084 c -35,-1 -70,-2 -105,-3"
+   id="path161" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6488,17078 c -35,-2 -70,-4 -105,-6"
+   id="path163" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6305,17066 c -35,-3 -70,-6 -105,-10"
+   id="path165" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6122,17048 c -35,-4 -70,-8 -105,-12"
+   id="path167" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5939,17025 c -35,-5 -69,-10 -104,-15"
+   id="path169" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5757,16997 c -34,-6 -69,-13 -103,-19"
+   id="path171" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5576,16962 c -34,-7 -68,-14 -102,-22"
+   id="path173" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5397,16923 c -34,-8 -68,-17 -102,-25"
+   id="path175" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5218,16877 c -33,-9 -67,-18 -101,-28"
+   id="path177" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5041,16827 c -33,-10 -66,-21 -100,-32"
+   id="path179" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4866,16771 c -33,-11 -66,-23 -99,-35"
+   id="path181" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4693,16709 c -33,-12 -66,-24 -98,-37"
+   id="path183" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4521,16642 c -32,-13 -64,-26 -97,-40"
+   id="path185" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4352,16570 c -32,-14 -64,-28 -96,-43"
+   id="path187" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4185,16493 c -31,-15 -63,-31 -94,-46"
+   id="path189" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4021,16411 c -31,-17 -62,-33 -93,-50"
+   id="path191" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3859,16323 c -31,-17 -61,-35 -91,-52"
+   id="path193" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3700,16230 c -30,-18 -60,-36 -90,-55"
+   id="path195" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3544,16133 c -30,-19 -59,-39 -88,-58"
+   id="path197" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3391,16030 c -29,-20 -57,-40 -86,-61"
+   id="path199" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3241,15923 c -28,-21 -56,-42 -83,-64"
+   id="path201" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3095,15811 c -27,-22 -54,-44 -81,-66"
+   id="path203" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2953,15694 c -27,-23 -53,-45 -79,-69"
+   id="path205" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2815,15573 c -26,-24 -52,-47 -78,-71"
+   id="path207" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2680,15447 c -25,-24 -50,-49 -75,-73"
+   id="path209" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2550,15317 c -24,-25 -49,-50 -73,-76"
+   id="path211" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2424,15183 c -24,-26 -47,-52 -70,-78"
+   id="path213" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2302,15045 c -22,-26 -45,-53 -67,-80"
+   id="path215" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2185,14903 c -21,-27 -43,-55 -64,-83"
+   id="path217" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2073,14757 c -21,-28 -41,-56 -62,-84"
+   id="path219" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1966,14608 c -20,-29 -40,-58 -59,-87"
+   id="path221" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1863,14455 c -19,-29 -37,-59 -56,-89"
+   id="path223" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1766,14299 c -18,-30 -35,-61 -53,-91"
+   id="path225" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1674,14139 c -17,-31 -33,-61 -50,-92"
+   id="path227" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1588,13977 c -16,-32 -32,-63 -47,-94"
+   id="path229" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1507,13811 c -15,-31 -29,-63 -44,-95"
+   id="path231" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1432,13644 c -14,-33 -27,-65 -41,-97"
+   id="path233" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1362,13473 c -12,-32 -25,-65 -37,-98"
+   id="path235" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1299,13301 c -12,-34 -23,-67 -34,-100"
+   id="path237" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1241,13126 c -11,-34 -21,-67 -30,-101"
+   id="path239" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1189,12949 c -9,-34 -18,-67 -27,-101"
+   id="path241" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1144,12771 c -9,-34 -16,-68 -24,-102"
+   id="path243" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1104,12591 c -7,-34 -13,-68 -20,-103"
+   id="path245" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1071,12410 c -6,-34 -11,-69 -16,-103"
+   id="path247" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1044,12228 c -5,-34 -9,-69 -13,-104"
+   id="path249" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1023,12045 c -3,-34 -6,-69 -9,-104"
+   id="path251" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1009,11862 c -2,-35 -4,-70 -6,-105"
+   id="path253" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1001,11678 c -1,-35 -2,-70 -2,-105"
+   id="path255" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 999,11494 c 0,-35 1,-70 2,-105"
+   id="path257" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1004,11310 c 1,-35 3,-70 6,-105"
+   id="path259" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1015,11126 c 3,-34 6,-69 9,-104"
+   id="path261" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1033,10943 c 3,-35 8,-69 12,-104"
+   id="path263" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1056,10761 c 5,-35 11,-69 17,-104"
+   id="path265" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1086,10579 c 7,-34 13,-68 20,-103"
+   id="path267" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1123,10399 c 7,-34 15,-68 23,-102"
+   id="path269" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1165,10220 c 9,-34 18,-68 27,-102"
+   id="path271" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1214,10042 c 10,-33 20,-67 30,-100"
+   id="path273" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1269,9867 c 11,-33 22,-67 33,-100"
+   id="path275" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1329,9693 c 12,-33 25,-66 38,-98"
+   id="path277" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1396,9521 c 13,-32 27,-64 40,-96"
+   id="path279" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1468,9352 c 14,-32 29,-63 44,-95"
+   id="path281" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1546,9186 c 16,-32 31,-63 47,-94"
+   id="path283" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1630,9022 c 16,-31 33,-62 50,-92"
+   id="path285" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1719,8861 c 17,-30 35,-61 53,-91"
+   id="path287" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1814,8703 c 18,-30 37,-59 56,-89"
+   id="path289" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 1913,8548 c 20,-29 39,-58 59,-87"
+   id="path291" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2018,8397 c 20,-29 41,-57 62,-85"
+   id="path293" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2128,8249 c 21,-27 43,-55 65,-82"
+   id="path295" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2242,8105 c 23,-27 45,-54 68,-80"
+   id="path297" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2362,7965 c 23,-26 46,-52 70,-78"
+   id="path299" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2486,7829 c 23,-25 48,-51 72,-76"
+   id="path301" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2614,7697 c 24,-25 49,-49 75,-73"
+   id="path303" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2746,7569 c 26,-24 51,-47 77,-71"
+   id="path305" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 2883,7446 c 26,-23 52,-46 79,-69"
+   id="path307" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3023,7327 c 27,-22 54,-44 82,-66"
+   id="path309" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3167,7212 c 28,-21 56,-42 84,-63"
+   id="path311" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3315,7103 c 28,-21 57,-41 86,-61"
+   id="path313" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3466,6998 c 29,-20 58,-39 88,-58"
+   id="path315" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3620,6898 c 30,-19 60,-37 90,-55"
+   id="path317" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3778,6802 c 30,-17 60,-35 91,-52"
+   id="path319" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 3938,6712 c 31,-16 62,-33 93,-49"
+   id="path321" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4101,6627 c 32,-16 63,-31 95,-46"
+   id="path323" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4267,6547 c 32,-15 64,-29 96,-43"
+   id="path325" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4435,6472 c 32,-13 65,-27 97,-40"
+   id="path327" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4606,6403 c 32,-13 65,-25 98,-37"
+   id="path329" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4778,6339 c 33,-12 66,-23 99,-34"
+   id="path331" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 4952,6280 c 34,-11 67,-21 101,-31"
+   id="path333" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5129,6227 c 33,-10 67,-19 101,-29"
+   id="path335" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5306,6179 c 34,-9 68,-17 102,-25"
+   id="path337" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5485,6136 c 34,-7 69,-15 103,-22"
+   id="path339" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5665,6099 c 35,-6 69,-13 104,-19"
+   id="path341" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 5847,6068 c 34,-6 69,-11 104,-16"
+   id="path343" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6029,6042 c 35,-5 69,-9 104,-13"
+   id="path345" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6212,6021 c 35,-3 69,-6 104,-9"
+   id="path347" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6395,6007 c 35,-3 70,-5 105,-6"
+   id="path349" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6579,5998 c 35,-2 70,-3 105,-3"
+   id="path351" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6763,5994 c 8,0 16,0 24,0 27,0 54,0 81,1"
+   id="path353" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 6947,5996 c 35,1 70,2 105,4"
+   id="path355" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7131,6004 c 35,2 70,4 105,7"
+   id="path357" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7315,6017 c 34,3 69,6 104,10"
+   id="path359" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7498,6036 c 34,4 69,8 104,13"
+   id="path361" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7680,6060 c 35,6 69,11 104,17"
+   id="path363" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7861,6090 c 35,7 69,13 104,20"
+   id="path365" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8042,6126 c 34,7 68,15 103,23"
+   id="path367" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8221,6167 c 34,8 68,17 102,26"
+   id="path369" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8399,6214 c 34,9 68,19 101,29"
+   id="path371" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8576,6266 c 33,10 67,21 100,32"
+   id="path373" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8751,6323 c 33,11 66,23 99,35"
+   id="path375" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8924,6386 c 32,12 65,25 97,38"
+   id="path377" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9095,6454 c 32,13 64,27 96,41"
+   id="path379" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9263,6527 c 32,15 64,29 96,44"
+   id="path381" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9430,6606 c 31,15 62,31 94,47"
+   id="path383" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9594,6690 c 29,15 58,31 87,47 2,1 3,2 5,3"
+   id="path385" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9755,6779 c 30,17 61,35 91,52"
+   id="path387" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9913,6872 c 30,19 60,37 89,56"
+   id="path389" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10068,6971 c 30,20 59,39 87,59"
+   id="path391" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10220,7075 c 29,20 57,41 86,61"
+   id="path393" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10369,7183 c 28,22 56,43 83,64"
+   id="path395" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10514,7297 c 27,22 54,44 81,66"
+   id="path397" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10655,7414 c 27,23 53,46 79,70"
+   id="path399" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10793,7537 c 26,23 51,47 76,71"
+   id="path401" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10926,7663 c 25,25 50,50 75,75"
+   id="path403" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11056,7794 c 24,26 48,51 71,77"
+   id="path405" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11181,7929 c 23,26 46,53 69,79"
+   id="path407" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11301,8068 c 22,27 45,54 67,82"
+   id="path409" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11417,8211 c 21,28 43,56 64,84"
+   id="path411" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11528,8358 c 20,28 41,57 61,85"
+   id="path413" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11634,8508 c 20,29 39,59 58,88"
+   id="path415" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11735,8662 c 19,30 37,60 55,90"
+   id="path417" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11831,8819 c 18,31 35,61 52,92"
+   id="path419" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11921,8980 c 17,30 34,61 50,92"
+   id="path421" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12007,9143 c 15,31 31,63 46,94"
+   id="path423" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12086,9309 c 15,32 29,64 43,96"
+   id="path425" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12160,9477 c 13,33 27,65 39,97"
+   id="path427" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12228,9648 c 12,33 24,66 36,99"
+   id="path429" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12290,9821 c 11,33 22,67 33,100"
+   id="path431" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12346,9997 c 11,33 20,67 30,100"
+   id="path433" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12397,10174 c 9,33 17,67 26,101"
+   id="path435" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12441,10352 c 8,34 15,69 22,103"
+   id="path437" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12479,10532 c 6,35 13,69 19,104"
+   id="path439" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12510,10713 c 6,35 11,70 16,104"
+   id="path441" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12536,10896 c 4,34 8,69 12,104"
+   id="path443" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12555,11079 c 3,35 6,69 8,104"
+   id="path445" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12568,11262 c 2,35 3,70 4,105"
+   id="path447" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 12574,11446 c 1,31 1,62 1,93"
+   id="path449" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g461"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id5">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="1790"
+   y="6783"
+   width="9995"
+   height="9511"
+   id="rect454" />
+        <path
+   fill="#ccff66"
+   stroke="none"
+   d="m 11771,11538 c 0,832 -230,1650 -668,2371 -437,721 -1066,1319 -1824,1736 -758,416 -1617,635 -2492,635 -875,0 -1734,-219 -2492,-635 -758,-417 -1387,-1015 -1824,-1736 -438,-721 -668,-1539 -668,-2371 0,-832 230,-1650 668,-2371 437,-721 1066,-1319 1824,-1736 758,-416 1617,-635 2492,-635 875,0 1734,219 2492,635 758,417 1387,1015 1824,1736 438,721 668,1539 668,2371 z"
+   id="path456" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 11771,11538 c 0,832 -230,1650 -668,2371 -437,721 -1066,1319 -1824,1736 -758,416 -1617,635 -2492,635 -875,0 -1734,-219 -2492,-635 -758,-417 -1387,-1015 -1824,-1736 -438,-721 -668,-1539 -668,-2371 0,-832 230,-1650 668,-2371 437,-721 1066,-1319 1824,-1736 758,-416 1617,-635 2492,-635 875,0 1734,219 2492,635 758,417 1387,1015 1824,1736 438,721 668,1539 668,2371 z"
+   id="path458" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g468"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id6">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="2754"
+   y="7588"
+   width="8067"
+   height="8064"
+   id="rect463" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10807,11620 c 0,705 -186,1398 -539,2009 -352,611 -860,1118 -1471,1471 -611,352 -1304,538 -2010,538 -706,0 -1399,-186 -2010,-538 -611,-353 -1119,-860 -1471,-1471 -353,-611 -539,-1304 -539,-2009 0,-706 186,-1399 539,-2010 352,-611 860,-1118 1471,-1471 611,-352 1304,-538 2010,-538 706,0 1399,186 2010,538 611,353 1119,860 1471,1471 353,611 539,1304 539,2009 z"
+   id="path465" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g475"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id7">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="3559"
+   y="8392"
+   width="6458"
+   height="6456"
+   id="rect470" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 10003,11620 c 0,564 -149,1118 -431,1607 -282,488 -688,894 -1177,1176 -489,282 -1043,431 -1607,431 -565,0 -1119,-149 -1608,-431 -489,-282 -895,-688 -1177,-1176 -282,-489 -431,-1043 -431,-1607 0,-565 149,-1119 431,-1608 282,-488 688,-894 1177,-1176 489,-282 1043,-431 1607,-431 565,0 1119,149 1608,431 489,282 895,688 1177,1176 282,489 431,1043 431,1607 z"
+   id="path472" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g482"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id8">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="4362"
+   y="9195"
+   width="4851"
+   height="4850"
+   id="rect477" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 9199,11620 c 0,423 -111,839 -323,1205 -212,367 -516,671 -883,883 -367,212 -783,323 -1206,323 -423,0 -839,-111 -1206,-323 -367,-212 -671,-516 -883,-883 -212,-366 -323,-782 -323,-1205 0,-424 111,-840 323,-1206 212,-367 516,-671 883,-883 367,-212 783,-323 1206,-323 423,0 839,111 1206,323 367,212 671,516 883,883 212,366 323,782 323,1205 z"
+   id="path479" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g489"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id9">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="5165"
+   y="9998"
+   width="3245"
+   height="3243"
+   id="rect484" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 8396,11619 c 0,282 -74,560 -215,804 -142,244 -345,447 -589,589 -245,141 -522,215 -804,215 -283,0 -560,-74 -805,-215 -244,-142 -447,-345 -589,-589 -141,-244 -215,-522 -215,-804 0,-282 74,-560 215,-804 142,-244 345,-447 589,-589 245,-141 522,-215 804,-215 283,0 560,74 805,215 244,142 447,345 589,589 141,244 215,522 215,804 z"
+   id="path486" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.CustomShape"
+   id="g498"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id10">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="5970"
+   y="10803"
+   width="1635"
+   height="1474"
+   id="rect491" />
+        <path
+   fill="#00cc99"
+   stroke="none"
+   d="m 7591,11540 c 0,127 -37,251 -108,361 -70,110 -172,202 -294,265 -122,64 -261,97 -402,97 -141,0 -280,-33 -402,-97 -122,-63 -224,-155 -294,-265 -71,-110 -108,-234 -108,-361 0,-128 37,-252 108,-362 70,-110 172,-202 294,-265 122,-64 261,-97 402,-97 141,0 280,33 402,97 122,63 224,155 294,265 71,110 108,234 108,362 z"
+   id="path493" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 7591,11540 c 0,127 -37,251 -108,361 -70,110 -172,202 -294,265 -122,64 -261,97 -402,97 -141,0 -280,-33 -402,-97 -122,-63 -224,-155 -294,-265 -71,-110 -108,-234 -108,-361 0,-128 37,-252 108,-362 70,-110 172,-202 294,-265 122,-64 261,-97 402,-97 141,0 280,33 402,97 122,63 224,155 294,265 71,110 108,234 108,362 z"
+   id="path495" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g507"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id11">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="7000"
+   y="5986"
+   width="4012"
+   height="5509"
+   id="rect500" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 11000,5994 7115,11335"
+   id="path502" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 7000,11494 39,-232 169,124 z"
+   id="path504" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g516"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id12">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="9500"
+   y="14906"
+   width="4502"
+   height="358"
+   id="rect509" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 14000,15250 9696,15011"
+   id="path511" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 9500,15000 216,-93 -12,209 z"
+   id="path513" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g525"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id13">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="9500"
+   y="13237"
+   width="4504"
+   height="834"
+   id="rect518" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="m 14000,13250 -4307,718"
+   id="path520" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 9500,14000 190,-138 34,207 z"
+   id="path522" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g534"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id14">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="9199"
+   y="10738"
+   width="4808"
+   height="2269"
+   id="rect527" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 14000,10750 9376,12917"
+   id="path529" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 9199,13000 146,-184 89,190 z"
+   id="path531" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g543"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id15">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="8750"
+   y="8738"
+   width="5258"
+   height="3263"
+   id="rect536" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 14000,8750 8917,11897"
+   id="path538" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 8750,12000 123,-200 111,179 z"
+   id="path540" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g552"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id16">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="7999"
+   y="5984"
+   width="6011"
+   height="5511"
+   id="rect545" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 14000,5994 8144,11362"
+   id="path547" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 8000,11494 84,-219 142,154 z"
+   id="path549" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.LineShape"
+   id="g561"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id17">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="9250"
+   y="16000"
+   width="1758"
+   height="1097"
+   id="rect554" />
+        <path
+   fill="none"
+   stroke="#3333cc"
+   stroke-width="26"
+   stroke-linejoin="miter"
+   d="M 11000,17084 9417,16103"
+   id="path556" />
+        <path
+   fill="#3333cc"
+   stroke="none"
+   d="m 9250,16000 234,21 -111,179 z"
+   id="path558" />
+       </g>
+      </g><g
+   class="com.sun.star.drawing.TextShape"
+   id="g640"
+   transform="translate(-986,-5075.6309)">
+       <g
+   id="id18">
+        <rect
+   class="BoundingBox"
+   stroke="none"
+   fill="none"
+   x="14000"
+   y="5250"
+   width="10251"
+   height="12071"
+   id="rect563" />
+        <text
+   class="TextShape"
+   id="text637"><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan579"><tspan
+       class="TextPosition"
+       x="14250"
+       y="6081"
+       id="tspan569"><tspan
+         fill="#ff0000"
+         stroke="none"
+         id="tspan565">Gestore processi</tspan><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan567"> (o nucleo): </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="6928"
+       id="tspan573"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan571">esecuzione programmi sulla </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="7775"
+       id="tspan577"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan575">CPU</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan591"><tspan
+       class="TextPosition"
+       x="14250"
+       y="8824"
+       id="tspan585"><tspan
+         fill="#ff0000"
+         stroke="none"
+         id="tspan581">Gestore memoria</tspan><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan583">: allocazione </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="9671"
+       id="tspan589"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan587">memoria tra i vari programmi</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan607"><tspan
+       class="TextPosition"
+       x="14250"
+       y="10720"
+       id="tspan597"><tspan
+         fill="#ff0000"
+         stroke="none"
+         id="tspan593">Gestore periferiche</tspan><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan595">: </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="11567"
+       id="tspan601"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan599">operazioni di I/O che </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="12414"
+       id="tspan605"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan603">coinvolgono le periferiche</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan619"><tspan
+       class="TextPosition"
+       x="14250"
+       y="13463"
+       id="tspan613"><tspan
+         fill="#ff0000"
+         stroke="none"
+         id="tspan609">Gestore file</tspan><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan611">: archivi in </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="14310"
+       id="tspan617"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan615">memoria di massa</tspan></tspan></tspan><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan635"><tspan
+       class="TextPosition"
+       x="14250"
+       y="15359"
+       id="tspan625"><tspan
+         fill="#ff0000"
+         stroke="none"
+         id="tspan621">Interprete comandi</tspan><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan623"> (o shell): </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="16206"
+       id="tspan629"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan627">attivazione programmi da parte </tspan></tspan><tspan
+       class="TextPosition"
+       x="14250"
+       y="17053"
+       id="tspan633"><tspan
+         font-weight="400"
+         fill="#000000"
+         stroke="none"
+         id="tspan631">dell'utente</tspan></tspan></tspan></text>
+       </g>
+      </g><text
+   class="TextShape"
+   id="text650"
+   x="-986"
+   y="-5075.6309"><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan648"><tspan
+       class="TextPosition"
+       x="8539"
+       y="505.36914"
+       id="tspan646"><tspan
+         fill="#000000"
+         stroke="none"
+         id="tspan644">Hardware</tspan></tspan></tspan></text><text
+   class="TextShape"
+   id="text663"
+   x="-986"
+   y="-5075.6309"><tspan
+     class="TextParagraph"
+     font-family="Arial, sans-serif"
+     font-size="706px"
+     font-weight="700"
+     id="tspan661"><tspan
+       class="TextPosition"
+       x="7604"
+       y="12839.369"
+       id="tspan659"><tspan
+         fill="#000000"
+         stroke="none"
+         id="tspan657">Applicazioni</tspan></tspan></tspan></text>
+</svg>

@@ -1,0 +1,682 @@
+![](images/oop/lego-blocks.png)
+# Liste e composizione
+## Introduzione alla programmazione
+
+---
+
+![](images/fun/shopping-list.png)
+# ⭐ Lista
+
+- *Sequenza mutabile* di elementi, *di solito* dello stesso **tipo**
+- L'intera lista può essere assegnata ad una variabile
+    - Così diamo un **nome** alla lista
+
+``` py
+grocery = ["spam", "eggs", "beans"]
+
+rainfall_data = [13, 24, 18, 15]
+
+results_by_month = [0] * 12  # 12 times 0 (list repetition)
+```
+
+---
+
+![](images/fun/wile-coyote.png)
+# ⭐ Accesso agli elementi
+
+- **Attenzione ad usare indici validi!**
+    - *Lunghezza* attuale di una lista `s`: `len(s)`
+    - Elementi *numerati* da `0` a `len(s)-1`
+
+``` py
+grocery = ["spam", "eggs", "beans", "bacon"]
+n = len(grocery)           # 4
+grocery[0]                 # "spam"
+grocery[1]                 # "eggs"
+grocery[n-1]               # "bacon"
+grocery[1] = "ketchup"     # replace a value, len is still 4
+grocery.append("sausage")  # add to the end, len is 5
+grocery                    # guess!
+```
+
+---
+
+![](images/fun/shopping-list.jpg)
+# ⭐ Cicli su liste: for
+
+``` py
+grocery = ["spam", "egg", "bacon", "sausage"]
+
+print("Your shopping list contains:")
+
+for product in grocery:
+    print(product)
+```
+
+- Ad ogni iterazione, a `product` è assegnato un elemento di `grocery`
+- Ciclo `for` per qualsiasi tipo di sequenza: lista, stringa, tupla, range...
+
+---
+
+![](images/fun/month-list.svg)
+# 🛠️ Elementi e slice
+
+- Indici *negativi* contano dalla fine
+    - Da `-1` (ultimo) a `-len(s)` (primo)
+
+``` py
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+n = len(months)            # 12
+months[3]                  # "Apr"
+months[-2]                 # "Nov", same as n - 2
+```
+
+``` py
+spring = months[2:5]       # ["Mar", "Apr", "May"]
+quart1 = months[:3]        # ["Jan", "Feb", "Mar"]
+quart4 = months[-3:]       # ["Oct", "Nov", "Dec"]
+whole_year = months[:]     # Copy of the whole list
+```
+
+---
+
+# 🛠️ Inserimento e rimozione
+
+``` py
+grocery = ["spam", "egg", "beans"]
+
+grocery[0] = "sausage"      # replace an element
+
+grocery.append("bacon")     # add an element to the end
+grocery.pop()               # remove (and return) last element
+
+grocery.insert(1, "bacon")  # other elements shift
+removed = grocery.pop(1)    # remove (and return) element at index
+
+if "egg" in grocery:       # True, grocery contains "egg"
+    grocery.remove("egg")  # remove an element by value
+```
+
+---
+
+# ⚙️ Uguaglianza e identità
+
+``` py
+a = ["spam", "egg", "beans"]
+b = a[:]         # new list!
+b == a           # True, they contain the same values
+b is a           # ❗ False, they are two objects in memory
+                 # (try and modify one of them...)
+c = a
+c is a           # ❗ True, same object in memory
+                 # (try and modify one of them...)
+d = ["sausage", "tomato"]
+grocery = c + d  # list concatenation --> new list!
+
+# Lexicographical comparison of lists (or strings, tuples...)
+# Compare the first two *different* elements
+[2, 0, 0] > [1, 2, 0]  # True: 2 > 1
+[2, 1, 0] > [2, 0, 1]  # True: 2 == 2, 1 > 0
+```
+
+---
+
+# 🛠️ Funzioni su liste
+
+``` py
+def limit_values(values, max_val):
+    # procedure: process data, no direct result
+    for i in range(len(values)):
+        if values[i] > max_val:
+            values[i] = max_val
+
+    # the pythonic way: for i, val in enumerate(values): ...
+
+def main ():
+    data = [5, 4, 2]
+    limit_values(data, 4)
+    print(data)
+
+main()
+```
+
+---
+
+# 🛠️ Stringhe e liste
+
+- **Stringa**: sequenza *immutabile* di caratteri
+- **`join`** e **`split`**: da lista a stringa e viceversa
+
+``` py
+txt = "Monty Python's Flying Circus"
+txt[3]    # 't'
+txt[-2]   # 'u'
+txt[6:12] # "Python"
+txt[-6:]  # "Circus"
+
+days = ["tue", "thu", "sat"]
+txt = "|".join(days)  # "tue|thu|sat"
+
+days = "mon|wed|fri".split("|")  # ["mon", "wed", "fri"]
+```
+
+---
+
+![](images/misc/characters.png)
+# 🛠️ Cicli su stringhe
+
+- Il ciclo `for` scorre i valori di qualsiasi sequenza
+- Una stringa è una sequenza di caratteri
+
+``` py
+line = input("Text? ").lower()
+digits, vowels = 0, 0
+
+for c in line:
+    if '0' <= c <= '9':  # char comparison
+        digits += 1
+    elif c in "aeiou":  # membership test
+        vowels += 1
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_list_vowels.py>
+
+---
+
+# 🛠️ Testo tra marcatori
+
+- Di un testo, trascrivere solo le parti comprese tra `<` e `>`
+    - Se manca `>` dopo `<`, trascrivere fino alla fine
+
+``` py
+text = input("Text? ")
+inside = False
+
+for c in text:
+    if c == '<' and not inside:
+        inside = True
+    elif c == '>' and inside:
+        inside = False
+        print()
+    elif inside:
+        print(c, end="")
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_list_brackets.py>
+
+---
+
+![](images/misc/numbers.png)
+# 🛠️ Lista di contatori
+
+- Contare separatamente le cifre in un testo
+    - Quanti `0`? Quanti `1`? …
+    - `10` condizioni, `10` variabili contatore
+    - Oppure lista di `10` elementi
+
+``` py
+text = input("Text? ")
+counters = [0] * 10
+
+for c in text:
+    if '0' <= c <= '9':
+        counters[int(c)] += 1
+
+print(counters)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_list_counters.py>
+
+---
+
+# 🛠️ Tupla
+
+- Sequenza **immutabile** di valori, anche di *tipo diverso*
+
+``` py
+# Tuple packing
+pt = 5, 6, "red"
+pt[0]  # 5
+pt[1]  # 6
+pt[2]  # "red"
+
+# Sequence unpacking (from a list, string, tuple...)
+x, y, colour = pt
+a, b = 3, 4
+a, b = b, a
+```
+
+---
+
+# Composizione
+
+---
+
+# 🛠️ Lista di palline
+
+``` py
+from p2_oop_ball import Ball, ARENA_W, ARENA_H
+
+def tick():
+    g2d.clear_canvas()  # BG
+    for b in balls:
+        b.move()
+        g2d.fill_rect(b.position())  # FG
+
+balls = [Ball(40, 80), Ball(80, 40), Ball(120, 120)]
+g2d.init_canvas((ARENA_W, ARENA_H))
+g2d.main_loop(tick)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_oop_balls.py>
+
+---
+
+![](images/oop/ball-arena.svg)
+# 🌱️ Composizione
+
+- Associazione **has-a**, **part-of** tra oggetti
+    - Una *arena* può *contenere* diverse *palline*
+
+``` py
+class BallArena:  # ...
+    def __init__(self):
+        self._balls = []
+    def add(self, b: Ball):
+        self._balls.append(b)
+    def move_all(self):
+        for b in self._balls:
+            b.move()
+
+arena = BallArena()
+arena.add(Ball(40, 80))
+arena.add(Ball(80, 40)) # ...
+arena.move_all()
+```
+
+---
+
+![large](images/oop/inheritance.png)
+# 🌱️ Relazione is-a
+
+- **Classificazione**, es. in biologia
+    - *Vertebrati* sottoclasse di *animali*
+    - *Mammiferi* sottoclasse di *vertebrati*
+    - *Felini* sottoclasse di *mammiferi*
+    - *Gatti* sottoclasse di *felini*
+- Relazione **is-a** tra classi: ogni sottoclasse...
+    - Eredita le caratteristiche della classe base
+    - Ma introduce delle specializzazioni
+
+---
+
+![large](images/oop/animals.png)
+# 🛠️ Fattoria parlante
+
+- Noi definiremo una *classe base* come **interfaccia astratta**
+- Es. `Animal`
+    - Tutti gli animali fanno un verso (*interfaccia*)
+    - Ogni animale fa un verso diverso (*polimorfismo*)
+
+``` py
+class Animal:
+    def say(self):
+        raise NotImplementedError("Abstract method")
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_oop_animals.py>
+
+---
+
+![large](images/oop/polymorphism.png)
+# 🛠️ Classi concrete
+
+``` py
+class Dog(Animal):
+    def __init__(self, name):
+        self._name = name
+    def say(self):
+        print("I am", self._name, "Dog.",
+              "I say: WOOF!")
+
+class Cat(Animal):
+    def __init__(self, name):
+        self._name = name
+    def say(self):
+        print("I am", self._name, "Cat.",
+              "I say: MEOW!")
+```
+
+---
+
+![large](images/oop/peppa.png)
+# 🛠️ Lista di oggetti
+
+``` py
+d = Dog("Danny")
+c = Cat("Candy")
+p1 = Pig("Peppa")
+p2 = Pig("George")
+
+# a list of Animal objects
+animals = [d, c, p1, p2]
+for a in animals:
+    a.say()
+```
+
+``` text
+I am Danny Dog. I say: WOOF!
+I am Candy Cat. I say: MEOW!
+I am Peppa Pig. I say: OINK!
+I am George Pig. I say: OINK!
+```
+
+---
+
+![](images/oop/actor.svg)
+# ⭐ Interfaccia dei personaggi
+
+- `Actor`: *interfaccia astratta*
+    - Dichiara un metodo `move`, senza implementarlo
+- Vari attori: *classi concrete*
+    - Realizzano i metodi di `Actor`, definendo i comportamenti specifici
+    - Possono definire ulteriori metodi
+
+``` py
+class Actor:
+    def move(self):
+        raise NotImplementedError("Abstract method")
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?actor.py>
+
+---
+
+# ⭐ Metodo polimorfo
+
+- Può essere dichiarato in una *interfaccia astratta*
+- Implementato in forme diverse nelle *classi concrete*
+- Attori diversi possono muoversi in modo diverso
+
+``` py
+class Ghost(Actor):  # ...
+    def move(self):
+        dx = random.choice([-5, 0, 5])
+        dy = random.choice([-5, 0, 5])
+        self._x = (self._x + dx) % ARENA_W
+        self._y = (self._y + dy) % ARENA_H
+```
+
+---
+
+# 💡️ Generalizzazione e riuso
+
+``` py
+class Arena:  # ...
+    def __init__(self, w, h):
+        self._w, self._h = w, h
+        self._actors = []
+    def add(self, a: Actor):
+        self._actors.append(a)
+    def move_all(self):
+        for a in self._actors:
+            a.move()
+    def size(self):
+        return self._w, self._h
+```
+
+- Codice dipendente solo da *interfacce astratte*
+- `Arena` riutilizzabile creando nuove *classi concrete*, che implementano `Actor`
+
+---
+
+![](images/oop/actors.svg)
+# 💡️ Sostituzione
+
+``` py
+arena.add(some_actor)  # any of Ball, Ghost etc.
+```
+
+- Principio di **sostituzione** di Liskov
+    - Si può sempre usare un oggetto di una *classe derivata*, al posto di uno della *classe base*
+- Relazione *has-a* tra un oggetto `Arena` e gli oggetti `Actor` che contiene
+- Relazione *is-a* tra classi concrete (`Ball` e `Ghost`) e interfaccia (`Actor`)
+
+---
+
+# 💡️ Attori e arena
+
+``` py
+class Ghost(Actor):
+
+    def __init__(self, arena: Arena, pos: (int, int)):
+        self._x, self._y = pos
+        self._arena = arena  # save a ref to the arena
+        arena.add(self)      # register yourself into the arena
+
+    def move(self):
+        dx = random.choice([-5, 0, 5])
+        dy = random.choice([-5, 0, 5])
+        arena_w, arena_h = self._arena.size()  # ❗️ self._arena
+        self._x = (self._x + dx) % arena_w
+        self._y = (self._y + dy) % arena_h
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_oop_bounce.py>
+
+---
+
+# Animazione dei personaggi
+
+---
+
+![](images/oop/bounce.png)
+# 🛠️ Rimbalzi nel browser
+
+``` py
+import g2d
+from p3_oop_bounce import Arena, Ball, Ghost, Turtle
+
+def tick():
+    arena.move_all()  # Game logic
+    g2d.clear_canvas()  # Background
+    for a in arena.actors():
+        # Foreground; cut an area from a larger image
+        g2d.draw_image_clip("sprites.png", a.symbol(), a.position())
+
+arena = Arena((480, 360))
+Ball(arena, (40, 80)); Ball(arena, (80, 40)); Ghost(arena, (120, 80))
+turtle = Turtle(arena, (80, 80))  # each actor knows the arena
+g2d.init_canvas(arena.size())
+g2d.main_loop(tick)
+```
+
+---
+
+# 🛠️ Controllo da tastiera
+
+- `g2d.pressed_keys()`, `g2d.released_keys()`
+    - Lista dei tasti premuti/rilasciati dall'ultimo frame
+
+``` py
+def tick():
+    turtle.control(g2d.pressed_keys(), g2d.released_keys())
+    # ...
+
+class Turtle(Actor): # ...
+    def control(self, pressed, released):
+        u, d, l, r = "w", "s", "a", "d"
+        if u in released and self._dy < 0: self._dy = 0
+        if u in pressed: self._dy = -self._speed
+        # ...
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p3_oop_bounce_anim.py>
+
+---
+
+![](images/oop/collision.svg) ![](images/oop/reflection.png)
+# 🛠️ Collisioni
+
+- Molti algoritmi di *collision detection*
+    - Casi semplici: intersezione di rettangoli
+- In caso di collisione, `Arena`...
+    - Invoca il metodo `collide` di entrambi gli oggetti
+    - Collisione tra personaggio `self` e personaggio `other` (secondo parametro)
+- Possibili errori nel calcolo del rimbalzo
+    - Di solito accettabili
+    - Altrimenti, applicare correzioni
+
+---
+
+# ⭐ Urti delle palline
+
+``` py
+class Ball(Actor):
+    # ...
+    def collide(self, other):
+        if not isinstance(other, Ghost):
+            x, y, w, h = other.position()
+            if x < self._x:
+                self._dx = self.SPEED
+            else:
+                self._dx = -self.SPEED
+            # ... same for y
+```
+
+- `isinstance(obj, cls)`
+    - Controlla se l'oggetto `obj` è istanza della classe `cls`
+    - ... o di una sua sottoclasse
+    - Restituisce un `bool`
+
+---
+
+# 🏊 Esercizi
+
+---
+
+![](images/misc/histogram-rot.png)
+# Istogramma con barre orizzontali
+
+- Chiedere all'utente una lista di valori positivi
+    - La lista termina quando l'utente inserisce il valore `0`
+- Mostrare un istogramma
+    - Lunghezza orizzontale di ciascuna barra proporzionale al valore corrispondente
+    - La barra più lunga occupa tutto lo spazio disponibile
+
+>
+
+<http://www.ce.unipr.it/brython/?x3_list_histogram.py>
+
+---
+
+![](images/misc/dice.png)
+# Risultati casuali
+
+- Simulare `n` lanci di una coppia di dadi
+    - `n` scelto dall'utente
+- Contare quante volte si presenta ciascun risultato
+    - Risultati possibili: da 2 a 12
+    - Somma dei due dadi
+
+>
+
+Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
+<br>
+<http://www.ce.unipr.it/brython/?x3_list_dice.py>
+
+---
+
+![](images/misc/frogger.png)
+# Rana nell'arena
+
+- Rendere la classe `Vehicle` un `Actor`
+    - [x2_oop_vehicle.py](http://www.ce.unipr.it/brython/?x2_oop_vehicle.py)
+    - Aggiungere il personaggio all'arena
+    - Metodi `symbol` e `collide` (vuoti?)
+- Classe `Frog` da `Turtle` dell'es. `bounce`
+- Conteggiare i frame di un salto della rana
+    - Es. 4px per 8 frame, poi si ferma
+    - Mentre è in salto, non accetta altri comandi
+- Se si scontra (`collide`) con un veicolo, la rana muore
+    - Oppure torna alla posizione di partenza
+
+>
+
+<http://www.ce.unipr.it/brython/?x3_oop_frog.py>
+
+---
+
+![](images/misc/invaders-path.jpg)
+# Alieni nell'arena
+
+- Rendere la classe `Alien` un `Actor`
+    - [x2_oop_alien.py](http://www.ce.unipr.it/brython/?x2_oop_alien.py)
+    - Aggiungere il personaggio all'arena
+    - Metodi `symbol` e `collide`, anche solo vuoti
+- Creare un attore `Bullet`
+    - Parte dal fondo e si muove verso l'alto
+    - Se esce dallo schermo, si rimuove dal gioco
+    - Se si scontra con un alieno, entrambi si rimuovono dal gioco
+- Nella funzione `tick`, generare casualmente dei `Bullet`
+
+>
+
+<http://www.ce.unipr.it/brython/?x3_oop_alien.py>
+
+---
+
+![](images/misc/super-mario.jpg)
+# Mario nell'arena
+
+- Classe `Mario` da `Turtle` dell'es. `bounce`
+- Considerare l'accelerazione di gravità
+    - Ad ogni mossa, aggiungere *costante* `g` a `dy` (es. `0.5`)
+    - Permettere a `Mario` di saltare solo quando è sul fondo
+- Aggiungere `Wall`, personaggio immobile
+- Quando `Mario` collide con una piattaforma...
+    - Si sposta al bordo della piattaforma più vicino
+    - Se atterra sul bordo superiore, da lì può saltare
+
+>
+
+<http://www.ce.unipr.it/brython/?x3_oop_mario.py>
+
+---
+
+![](images/oop/bounce.png)
+# Bounce, gioco e GUI
+
+- Classe `BounceGame`, per gestire il gioco *Bounce*
+    - Inizializzare i personaggi
+    - Incapsulare personaggi ed arena
+- Controllare la conclusione della partita, positiva o negativa
+    - Se tartaruga collide 1 volta con fantasma: partita persa
+    - Se tartaruga collide 3 volte con pallina: partita persa
+    - Se gioco dura più di 2 minuti: partita vinta
+- Classe `BounceGui` per la rappresentazione del gioco
+    - Disegno immagini e funzionalità legate a `g2d`
+    - Gestione della tastiera e dell'input, metodo `tick` etc.
+
+>
+
+<http://www.ce.unipr.it/brython/?x3_oop_bounce_game.py>
+<br>
+<http://www.ce.unipr.it/brython/?x3_oop_bounce_gui.py>

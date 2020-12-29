@@ -1,0 +1,511 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sistemi ad oggetti</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/oop/modules.png"></figure>
+  <hgroup>
+    <h2>Introduzione all'informatica</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sistema software ad oggetti</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sistema procedurale<ul>
+<li>Insieme di procedure che si chiamano tra loro</li>
+</ul>
+</li>
+<li>Sistema ad oggetti<ul>
+<li>Insieme di <em>oggetti</em> che si scambiano <em>messaggi</em></li>
+<li>Per richiedere ad altri l’esecuzione di servizi</li>
+</ul>
+</li>
+<li>La complessità diminuisce tanto più quanto…<ul>
+<li>Lo stato dei singoli oggetti è nascosto</li>
+<li>L’insieme dei servizi offerti dai singoli oggetti è coeso (ma generale)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Approccio allo sviluppo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Programmazione procedurale: <strong>top-down</strong><ul>
+<li>Analisi problema x trovare algoritmo risolutore</li>
+<li><em>Scomposizione</em> problema in problemi più semplici <em>(loop)</em></li>
+</ul>
+</li>
+<li>OOP: top-down...<ul>
+<li>Analisi problema e descrizione degli oggetti che ne fanno parte (astrazioni generali e coese)</li>
+<li>Scomposizione oggetti in parti più semplici (e messaggi/servizi scambiati) <em>(loop)</em></li>
+</ul>
+</li>
+<li>OOP: ... e <strong>bottom-up</strong> (riuso)<ul>
+<li>Definizione e riuso oggetti relativamente semplici</li>
+<li><em>Composizione</em> in oggetti più complessi <em>(loop)</em></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Modularità e astrazione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Modularità e testabilità<ul>
+<li>Oggetto, completo di dati ed operazioni, inserito facilmente tra gli altri componenti di un sistema</li>
+<li>Codice di un oggetto scritto e mantenuto indipendentemente dal resto</li>
+<li>Più facile isolare e risolvere i problemi</li>
+</ul>
+</li>
+<li>Information-hiding e <strong>astrazione</strong><ul>
+<li>Interazione solo con i metodi di un oggetto (black-box)</li>
+<li>Dettagli interni dei dati e dell'implementazione nascosti al mondo esterno (<strong>incapsulamento</strong>)</li>
+<li>Oggetto: tipo di dato astratto (ADT)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Riuso e sostituibilità</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Riuso del codice<ul>
+<li>Oggetto già esistente → incapsulato in altri oggetti, per altri programmi (<strong>composizione</strong>)...</li>
+<li>Anche se sviluppato (progetto/implem./test/debug) da altri, specialisti di un certo dominio</li>
+<li>Oggetti di nuovo tipo creati come estensione di tipi esistenti (<strong>ereditarietà</strong>)</li>
+<li>Sistemi generici basati su astrazioni (<strong>generalizzazione</strong>), adattati implementando date interfacce</li>
+</ul>
+</li>
+<li>Sostituibilità<ul>
+<li>Oggetti di tipo diverso possono fornire gli stessi metodi, ed essere gestiti in maniera astratta (<strong>polimorfismo</strong>)</li>
+<li>Nuovo oggetto (che implementa i metodi richiesti) inserito in un sistema astratto già esistente</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-image" >
+  
+    <hgroup>
+      <h2>Associazioni e relazioni in UML</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p><img alt="" src="images/dev/uml-relations.svg" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Dipendenza e associazione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Dipendenza</strong>: un metodo di una classe ha come argomento, valore di ritorno o var locale un’altra classe (con cui non è associata)</li>
+<li><strong>Associazione</strong>: una classe ha come campo uno o più oggetti di un'altra classe</li>
+<li>Ognuno dei lati<ul>
+<li>Ha un nome</li>
+<li>Ha una cardinalità</li>
+<li>Può o no essere navigabile</li>
+</ul>
+</li>
+<li>Un’associazione equivale a codice<ul>
+<li>Solo i lati navigabili implementano l’associazione</li>
+<li>Memorizzazione in <em>array</em> o altra <em>collezione</em> (se cardinalità &gt; 1)</li>
+<li>Controllare il vincolo sulla cardinalità</li>
+</ul>
+</li>
+<li>Dipendenze e associazioni limitano la riusabilità perchè <em>accoppiano</em> le classi</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Contenimento</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/character.svg">
+        
+      </figure><ul>
+<li>Associazione che esprime un contenimento fisico, o in generale un legame di tipo <strong>has-a</strong></li>
+<li>Può essere <em>composizione</em> o <em>aggregazione</em><ul>
+<li><strong>Composizione</strong>: ciclo di vita dell'oggetto contenuto determinato dal contenitore (legame <em>whole-part</em>, <em>owns-a</em>)</li>
+<li><strong>Aggregazione</strong>: oggetto contenuto non rigidamente legato al contenitore</li>
+</ul>
+</li>
+<li>Spesso nel codice non è chiara la differenza tra contenimento ed un più generica associazione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Composizione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Idealmente, un oggetto (creato e testato) rappresenta una unità di codice, che altri oggetti possono usare<ul>
+<li>Il riuso in progetti diversi non è semplice da ottenere…</li>
+</ul>
+</li>
+<li>Inserire un oggetto (<em>member object</em>) dentro un’altro<ul>
+<li>Il nuovo oggetto può contenere un certo numero di oggetti di tipo diverso, per realizzare le funzionalità desiderate</li>
+<li>Relazione <strong>whole-part</strong> o <strong>owns-a</strong></li>
+</ul>
+</li>
+<li>Grado elevato di flessibilità<ul>
+<li>Gli oggetti membri sono di solito nascosti</li>
+<li>Inaccessibili ai programmatori che usano l’oggetto</li>
+<li>Possono essere cambiati senza disturbare il codice esterno</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Associazioni e attributi</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Associazioni e attributi del modello generano codice</li>
+<li>Le <strong>associazioni</strong> vengono usate per collegare tra loro le <em>classi</em> del modello</li>
+<li>Gli <strong>attributi</strong> sono tipi di base (o <em>primitivi</em>)<ul>
+<li>Come <code>int</code>, <code>float</code> o <code>string</code></li>
+<li>Classi di base, usate pervasivamente</li>
+<li>Classi di altre librerie, non evidenziate nel modello</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe derivata</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Specializzazione: relazione <em>is-a</em> tra classe derivata e classe base</li>
+<li>Principio di sostituibilità tra classi<ul>
+<li>È sempre possibile usare una classe derivata al posto di una classe base</li>
+</ul>
+</li>
+<li>La classe derivata<ul>
+<li>Eredita tutte le caratteristiche <strong>public</strong> della classe base</li>
+<li>Non può accedere alle caratteristiche <strong>private</strong> della classe base</li>
+<li>Può dichiarare nuove caratteristiche che non sono visibili dalle classi base (Eckel: <em>is-like-a</em>)</li>
+</ul>
+</li>
+<li>La classe base<ul>
+<li>Può definire delle caratteristiche <strong>protected</strong> a cui solo lei e le classi derivate possono accedere</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe astratta</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Contiene metodi che possono essere implementati solo dalle sue classi derivate<ul>
+<li>Informazioni non sufficienti nella classe base</li>
+<li>Meccanismi specifici per implementare un metodo</li>
+<li>…</li>
+</ul>
+</li>
+<li>Una classe astratta non può essere istanziata</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-image" >
+  
+    <hgroup>
+      <h2>Figure geometriche</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p><img alt="" src="images/dev/abs-shapes.svg" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarità e riusabilità</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Strutture dati ed algoritmi possono essere implementati in funzione della classe <code>Shape</code><ul>
+<li>Anzichè di una specifica classe derivata, come <code>Rectangle</code></li>
+<li>Ad esempio, l'ordinamento può sfruttare il fatto che tutte le figure hanno un area</li>
+</ul>
+</li>
+<li>Massimizzazione di riuso e flessibilità<ul>
+<li>Dipendenza dalla classe più alta nella gerarchia...</li>
+<li>Che offre le caratteristiche richieste</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>A cosa serve l’ereditarità?</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Due utilizzi principali<ul>
+<li>Modellare il problema (o la soluzione), molto importante nella fase di analisi</li>
+<li>Massimizzare il riuso, molto importante nella fase di progettazione</li>
+</ul>
+</li>
+<li>I due utilizzi sono legati perchè la prima bozza di un progetto è il modello che analizza il dominio del problema (o della soluzione)</li>
+<li>Eckel: <strong>ereditarietà o composizione?</strong><ul>
+<li>“<em>Do I need to </em><em>upcast</em><em>?</em>”</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà multipla</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un quadrato è contemporaneamente…<ul>
+<li>Un rettangolo</li>
+<li>Un poligono regolare</li>
+</ul>
+</li>
+<li>La classe <code>Square</code> dovrebbe estendere sia <code>RegularPolygon</code> che <code>Rectangle</code><ul>
+<li>Quale stato usare?</li>
+<li>Quale metodi eseguire?</li>
+</ul>
+</li>
+<li>A volte ereditarietà multipla non ammessa o non conveniente<ul>
+<li>No ambiguità, no “<em>diamond problem</em>”</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Interfaccia</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Interfaccia di un oggetto: descrizione dei suoi metodi pubblici<ul>
+<li>Modo che ha per interagire con il mondo</li>
+<li>Servizi che offre agli altri oggetti</li>
+</ul>
+</li>
+<li>I corpi dei metodi, cioè come i servizi vengono implementati, non sono parte dell’interfaccia<ul>
+<li>L’interfaccia indica cosa un oggetto sa fare e non come lo fa</li>
+</ul>
+</li>
+<li>Interfaccia di un rettangolo<ul>
+<li><code>float area()</code></li>
+<li><code>float perimeter()</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe astratta pura</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una interfaccia è una classe astratta pura<ul>
+<li>Tutti i metodi sono astratti</li>
+<li>Implementazione in classe concreta</li>
+<li>Libertà su come memorizzare stato ed implementare metodi</li>
+</ul>
+</li>
+<li>Usando le interfacce<ul>
+<li>Migliore pulizia del modello ed aderenza alla realtà modellata</li>
+<li>Possibilità di migliorare la riusabilità</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-image" >
+  
+    <hgroup>
+      <h2>Implementazioni di Shape</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p><img alt="" src="images/dev/shapes.svg" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Framework e librerie</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Ma introdurre un’interfaccia per ogni classe non è sempre l’approccio migliore!<ul>
+<li>Mantenere basso il numero di livelli d'astrazione</li>
+<li>Può bastare <code>Shape</code>, + classi concrete?</li>
+</ul>
+</li>
+<li><strong>Libreria</strong>: l'utente usa...<ul>
+<li>Poche e semplici interfacce (astrazioni chiave)</li>
+<li>Implementazione dietro le quinte (<em>factory</em>)</li>
+<li>È sempre il codice utente che chiama la libreria</li>
+</ul>
+</li>
+<li><strong>Framework</strong>: l'utente fornisce...<ul>
+<li>Implementazione di metodi di certe classi astratte</li>
+<li>Classi che implementano certe interfacce</li>
+<li>Il framework può chiamare il codice utente</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Generalizzazione e riuso</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Riuso tramite <strong>ereditarietà</strong><ul>
+<li>Aggiungere nuovi servizi a classi già esistenti</li>
+<li>Si riutilizza il codice della classe esistente</li>
+<li>Si possono sfruttare anche parti <em>protected</em> della classe base</li>
+<li>Ma si eredita anche l'<em>interfaccia</em> pubblica!</li>
+</ul>
+</li>
+<li>Riuso tramite <strong>generalizzazione</strong><ul>
+<li>Costruire sistemi che operano su astrazioni di alto livello</li>
+<li>Specializzati mediante oggetti che implementano date interfacce</li>
+<li>Si riutilizza un intero sistema, modificandone il comportamento</li>
+<li>Oggi, composizione e generalizzazione sono i meccanismi di riuso più apprezzati</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

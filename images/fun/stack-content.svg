@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="34cm" height="15cm" viewBox="-324 79 667 292" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M -120 220 C -60,240 100,140 150.764,156.921"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="157.879,159.293 146.811,160.874 150.764,156.921 149.973,151.387 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffff55; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" x="-220" y="120" width="100" height="200" rx="2" ry="2"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-214.5" y="151.051">
+        <tspan x="-214.5" y="151.051"># ...</tspan>
+        <tspan x="-214.5" y="172.218">i = 0</tspan>
+        <tspan x="-214.5" y="193.385">j = 2</tspan>
+        <tspan x="-214.5" y="214.551">i = g(j)</tspan>
+        <tspan x="-214.5" y="235.718"></tspan>
+        <tspan x="-214.5" y="256.885"># ...</tspan>
+        <tspan x="-214.5" y="278.051"></tspan>
+        <tspan x="-214.5" y="299.218">l = 1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff5555; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" x="-240" y="80" width="120" height="40" rx="2" ry="2"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-234.5" y="105.135">
+        <tspan x="-234.5" y="105.135">def f():</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff55; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" x="180" y="180" width="100" height="100" rx="2" ry="2"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="185.5" y="224.551">
+        <tspan x="185.5" y="224.551">k = h**2</tspan>
+        <tspan x="185.5" y="245.718">return k</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff5555; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" x="160" y="140" width="120" height="40" rx="2" ry="2"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="165.5" y="165.135">
+        <tspan x="165.5" y="165.135">def g(h):</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="130" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="146.718">
+        <tspan x="-10" y="146.718">i</tspan>
+      </text>
+    </g>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-240" y="236.839">
+      <tspan x="-240" y="236.839">♣</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="160" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="176.718">
+        <tspan x="-10" y="176.718">i</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="0" y="160" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="10" y="176.718">
+        <tspan x="10" y="176.718">j</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="190" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="206.718">
+        <tspan x="-10" y="206.718">i</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="0" y="190" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="10" y="206.718">
+        <tspan x="10" y="206.718">j</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="190" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="30" y="206.718">
+        <tspan x="30" y="206.718">♣</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="40" y="190" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="50" y="206.718">
+        <tspan x="50" y="206.718">h</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="220" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="236.718">
+        <tspan x="-10" y="236.718">i</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="0" y="220" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="10" y="236.718">
+        <tspan x="10" y="236.718">j</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="220" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="30" y="236.718">
+        <tspan x="30" y="236.718">♣</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="40" y="220" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="50" y="236.718">
+        <tspan x="50" y="236.718">h</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="220" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="70" y="236.718">
+        <tspan x="70" y="236.718">k</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="250" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="266.718">
+        <tspan x="-10" y="266.718">i</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="0" y="250" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="10" y="266.718">
+        <tspan x="10" y="266.718">j</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-20" y="280" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-10" y="296.718">
+        <tspan x="-10" y="296.718">i</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="0" y="280" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="10" y="296.718">
+        <tspan x="10" y="296.718">j</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="280" width="20" height="23.1667" rx="0" ry="0"/>
+      <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="30" y="296.718">
+        <tspan x="30" y="296.718">l</tspan>
+      </text>
+    </g>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-320" y="226.839">
+      <tspan x="-320" y="226.839">.</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="226.839">
+      <tspan x="340" y="226.839">.</tspan>
+    </text>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 280 255 C 440,420 -420,400 -266.884,246.884"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="-261.581,241.581 -265.117,252.188 -266.884,246.884 -272.188,245.117 "/>
+    </g>
+  </g>
+</svg>

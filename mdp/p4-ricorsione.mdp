@@ -1,0 +1,549 @@
+![](images/fun/matryoshka.png)
+# Ricorsione
+## Introduzione alla programmazione
+
+---
+
+# 🌱 Programmazione ricorsiva
+
+- Molti linguaggi consentono ad una funzione (o procedura) di chiamare se stessa
+- Chiamata ricorsiva, diretta o indiretta
+
+![](images/fun/recursion.svg)
+
+---
+
+![](images/fun/stack.svg)
+# ⭐ Fattoriale, ricorsione
+
+- Ad ogni invocazione di una funzione, viene creato nello **stack** un nuovo record
+- **Contesto locale** alla particolare attivazione della funzione stessa
+
+``` py
+def factorial(n: int) -> int:
+    result = 1
+    if n > 0:
+        result = n * factorial(n - 1)
+    return result
+```
+
+>
+
+Ai primordi (Fortran 66 ecc.) solo allocazione statica <br> Spazio fisso ed unico per dati locali ad una funzione → no ricorsione
+
+---
+
+![](images/fun/books-stack.png)
+# ⚙️ Stack dell'applicazione
+
+- Pila: memoria dinamica *LIFO (Last In First Out)*
+    - Dimensione massima prefissata
+- Il programma ci memorizza automaticamente:
+    - **Indirizzo di ritorno** per la funzione <br> Inserito alla chiamata, estratto all'uscita
+    - **Parametri** della funzione <br> Inseriti alla chiamata, eliminati all'uscita
+    - **Variabili locali**, definite nella funzione <br> Eliminate fuori dall'ambito di visibilità
+
+---
+
+# ⚙️ Vista semplificata dello stack
+
+![large](images/fun/stack-content.svg)
+
+---
+
+# ⚙️ Record di attivazione
+
+![large](images/fun/records.svg)
+
+---
+
+# ⚙️ Visibilità di una variabile
+
+- Insieme di istruzioni da cui è accessibile
+    - *Ciclo di vita*: esistenza in memoria della var (etichetta)
+    - I valori (oggetti) in Python sono tutti gestiti dinamicamente
+- Visibilità **globale**
+    - Variabili fuori da ogni funzione - *Meglio evitare!*
+    - Allocazione *statica* in alcuni linguaggi
+- Visibilità **locale** alla funzione
+    - Variabili locali e parametri
+    - Allocazione *automatica* di spazio in *stack* ad ogni attivazione della funzione (possibile la ricorsione)
+- Visibilità locale al blocco (es. `if`): non in Python!
+
+---
+
+# 🛠️ I conigli di Fibonacci
+
+![large](images/fun/fib-rabbits.png)
+
+---
+
+# 🛠️ Fibonacci, ricorsione
+
+``` py
+def fibonacci(n: int) -> int:
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+```
+
+![](images/fun/fib-calls.svg)
+
+---
+
+# 🛠️ Fibonacci, memoization
+
+``` py
+_fibonacci_lookup = [0, 1]
+
+def fibonacci(n: int) -> int:
+    if n < len(_fibonacci_lookup):
+        return _fibonacci_lookup[n]
+    result = fibonacci(n - 1) + fibonacci(n - 2)
+    _fibonacci_lookup.append(result)
+    return result
+```
+
+``` py
+from functools import lru_cache
+
+@lru_cache()                   # function decoration
+def fibonacci(n: int) -> int:
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+```
+---
+
+# 🛠️ Fibonacci, iterazione
+
+``` py
+def fibonacci(n: int) -> int:
+    val, nxt = 0, 1
+
+    for i in range(n):
+        val, nxt = nxt, val + nxt
+
+    return val
+```
+
+---
+
+![large](images/misc/sample-file-system.png)
+# 🌱 Tipo di dato ricorsivo
+
+- Un valore può *contenere* valori dello stesso tipo
+- *Lista collegata*
+    - Vuota, oppure...
+    - Nodo di testa, seguito da una lista collegata
+- *Albero*
+    - Vuoto, oppure...
+    - Nodo di testa, seguito da più alberi
+
+---
+
+# 🥷 Funzioni su sequenze
+
+---
+
+![](images/dev/computer-ninja.svg)
+# 🥷 List comprehension
+
+- Modo conciso per creare una lista, rielaborando una data sequenza
+    - Espressione di *output*
+    - Variabile di *iterazione*
+    - Sequenza di *input*
+- Condizione sugli elementi, opzionale
+
+``` py
+squares = [x ** 2 for x in range(5)]  # [0, 1, 4, 9, 16]
+# squares = []
+# for x in range(5):
+#    squares.append(x ** 2)
+```
+
+``` py
+nums = [int(c) for c in "h3ll0 w0rld" if '0' <= c <= '9']
+# [3, 0, 0]
+```
+
+---
+
+![](images/fun/zip.png)
+# 🥷 Zip
+
+- Accoppia elementi di due (o +) sequenze
+- Genera sequenza *lazy* di coppie (tuple)
+- Lunghezza della sequenza più breve
+- **Laziness**: risultati calcolati non subito
+    - Solo quando servono
+
+``` py
+grocery = ["spam", "egg", "beans"]
+quantities = ["100 g", "6 pc", "200 g", "too much"]
+
+for p, q in zip(grocery, quantities):  # unpacking
+    print(p, q, end=" § ")
+# 'spam' '100 g' § 'egg' '6 pc' § 'beans' '200 g' §
+
+z = list(zip(grocery, quantities))  # if you *really* need a list
+# [('spam', '100 g'), ('egg', '6 pc'), ('beans', '200 g')]
+```
+
+---
+
+![](images/repr/child-fingers.png)
+# 🥷 Enumerate
+
+- Accoppia un indice crescente con i valori di una sequenza
+- Genera sequenza *lazy* di coppie
+- Iterazioni con valore ed indice assieme
+
+``` py
+grocery = ["spam", "egg", "bacon", "sausage"]
+
+for i, val in enumerate(grocery):  # ~ zip(range(4), grocery)
+    print(i, val, end=" § ")
+# 0 spam § 1 egg § 2 bacon § 3 sausage §
+
+e = list(enumerate(grocery))  # if you *really* need a list
+[(0, 'spam'), (1, 'egg'), (2, 'bacon'), (3, 'sausage')]
+```
+
+---
+
+![](images/fun/legomap.png)
+# 🥷 Map
+
+- Parametri: funzione `f`, sequenza `l`
+    - *(Funzione di ordine superiore)*
+- `f` applicata ad ogni valore in `l`
+- Risultato: sequenza *lazy* dei risultati
+
+``` py
+vals = [-2, -1, 0, 1, 2]  # or, range(-2, 3)
+for v in map(abs, vals):
+    print(v, end=" § ")
+# 2 § 1 § 0 § 1 § 2 §
+```
+
+``` py
+vals = [1, 2]
+vals += map(int, "3,4,5".split(","))  # [1, 2, 3, 4, 5]
+```
+
+>
+
+Più sequenze, se servono come parametri per `f`
+
+---
+
+# 🥷 Liste ordinate o rovesciate
+
+- Funzioni `sorted` e `reversed` non alterano la lista
+- Metodi `sort` e `reverse` alterano la lista (*in place*)
+- Parametro `key`: contronto tra risultati di una *funzione*
+
+``` py
+grocery = ["spam", "bacon", "egg"]
+s1 = sorted(grocery)           # ['bacon', 'egg', 'spam']
+s2 = sorted(grocery, key=len)  # ['egg', 'spam', 'bacon']
+rev = list(reversed(grocery))  # ['egg', 'bacon', 'spam']
+print(grocery)                 # ['spam', 'bacon', 'egg']
+```
+
+``` py
+grocery.sort()     # in-place
+grocery.reverse()  # in-place
+print(grocery)     # ['spam', 'egg', 'bacon']
+```
+
+---
+
+# 🥷 Istruzioni ed espressioni
+
+- **Espressione**: codice la cui valutazione produce un valore
+    - Adatta a parte destra di un assegnamento (*rvalue*)
+- Molte **istruzioni** Python non corrispondono ad un valore
+    - `if`, `while`, `for`, `def`, `class` *non* sono espressioni
+    - Assegnamenti `=`, `+=` ecc. *non* sono espressioni
+- Esiste un `if` speciale, come espressione
+
+``` py
+val = 'boom' if 5 % 2 == 0 else 'bang'`
+```
+
+- Da v3.8: *assegnamento* `:=` speciale, come espressione
+
+``` py
+while (v := float(input("val? "))) >= 0:  # sentinel
+    print(v ** .5)
+```
+
+---
+
+# 🥷 Valore di verità
+
+- Ogni oggetto può essere convertito in `bool`
+- Costanti e numeri *falsy*
+    - `None`, `False`, `0`, `0.0` ecc.
+- Sequenze *falsy*
+    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+- Altri oggetti, normalmente *truthy*
+    - Decide metodo `__bool__`, o `__len__`
+
+``` py
+while v := input("val? "):  # sentinel, "" is falsy
+    print(float(v) ** 2)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#truth>
+
+---
+
+# 🏊 Esercizi
+
+---
+
+# Ricorsione, palindromo
+
+- *Palindromo*: testo che rimane uguale se letto al contrario
+- Scrivere una funzione ricorsiva per riconoscere i palindromi
+    - Parametro: testo da controllare
+    - Risultato: `bool`
+
+>
+
+Stringa palindroma: se ha lunghezza 0 o 1, oppure...
+<br>
+Prima lettera == ultima lettera e...
+<br>
+Stringa rimanente (senza prima e ultima lettera) palindroma
+<br>
+<http://www.ce.unipr.it/brython/?x4_fun_palindrome.py>
+
+---
+
+![](images/fun/sierpinski-carpet.svg)
+# Sierpinski carpet
+
+- Disegnare un *frattale di Sierpinski*
+    - Dato un quadrato, dividerlo in 9 parti uguali
+    - Colorare la parte centrale
+    - Riapplicare l'algoritmo alle restanti 8 parti
+    - Non disegnare però niente in meno di 1 pixel
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_fun_sierpinski.py>
+
+---
+
+![](images/fun/htree.png)
+# Albero di H
+
+- Disegnare ricorsivamente un *H-Tree*
+    - Dividere l'area iniziale in due parti uguali
+    - Connettere con una linea i centri delle due aree
+    - Ripetere il procedimento per ciascuna delle due aree
+    - Alternare però la divisione delle aree in orizzontale e verticale
+- Chiedere all'utente il livello di ricorsione desiderato
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_fun_htree.py>
+
+---
+
+![](images/hist/euclid.jpg)
+# Massimo Comun Divisore
+
+- Leggere due numeri
+- Calcolare in una funzione il loro Massimo Comun Divisore
+- Visualizzare il risultato della funzione
+
+>
+
+Provare ad usare sia l'iterazione che la ricorsione
+<br>
+Euclide: MCD(a, b) = a, se b = 0;
+<br>
+MCD(a, b) = MCD(b, a mod b), se b > 0
+<br>
+<http://www.ce.unipr.it/brython/?x4_fun_gcd.py>
+
+---
+
+![](images/misc/cubic-function.png)
+# Bisezione, ricorsione
+
+- Trovare lo zero della seguente funzione matematica
+    - *f(x) = x³ – x – 1, per 1 ≤ x ≤ 2*
+    - Trovare *x* t.c. *|f(x)| < 0.001*
+- Definire una funzione ricorsiva di bisezione
+    - Parametri necessari: *inizio intervallo* di ricerca, *fine intervallo* di ricerca
+    - Invocare ad ogni livello la funzione su un intervallo dimezzato
+
+>
+
+<https://en.wikipedia.org/wiki/Bisection_method>
+<br>
+<http://www.ce.unipr.it/brython/?x4_fun_bisection.py>
+
+---
+
+![](images/fun/bike-lock.png)
+# Generazione di password
+
+- Generare tutte le password di una data lunghezza (*disposizioni con ripetizione*)
+    - Parametro: lunghezza `n` delle password
+    - Parametro: `str` contenente i possibili simboli
+    - Risultato: una lista di stringhe
+- Algoritmo:
+    - Lunghezza `0`: l'unica password è la stringa vuota: `['']`
+    - Altrimenti: per ogni simbolo scelto come primo carattere...
+    - Concatenarlo con tutte le password di lunghezza `n - 1` (ricorsione)
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+<br>
+<http://www.ce.unipr.it/brython/?x4_fun_gen_words.py>
+
+---
+
+![](images/fun/anagram.svg)
+# Anagrammi
+
+- Generare tutti gli anagrammi (permutazioni) di una stringa
+- Risultato, una lista di stringhe
+- Algoritmo:
+    - Stringa vuota: solo se stessa
+    - Altrimenti: per ogni carattere...
+    - Concatenarlo con tutte le permutazioni dei rimanenti caratteri (*ricorsione*)
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_fun_anagram.py>
+
+---
+
+![](images/fun/hanoi-tower.png)
+# Torre di Hanoi
+
+- Tre paletti + N dischi di diametro decrescente
+- Portare tutti i dischi dal primo all'ultimo paletto
+- Si può spostare solo un disco alla volta
+- Non si può mettere un disco su uno più piccolo
+- Usare la ricorsione
+
+>
+
+Immediato spostare un solo disco.
+<br><br>
+N dischi: spostarne N-1 sul piolo né origine né dest.,
+<br>
+spostare l'ultimo disco sul piolo giusto,
+<br>
+spostare ancora gli altri N-1 dischi.
+<br><br>
+<http://www.ce.unipr.it/brython/?x4_fun_hanoi.py>
+
+---
+
+# Notazione polacca
+
+- Leggere una riga di testo in una stringa
+- Scrivere una funzione che valuti la stringa come una espressione, nella forma:
+    - `"+ 2 7" (=9)`
+- Gli operandi possono essere a loro volta espressioni:
+    - `"+ * 3 4 15" (=27)`
+- Scrivere una seconda funzione che trasformi l'espressione nell'abituale notazione infissa:
+    - `"((3 * 4) + 15)"`
+- Usare la ricorsione
+
+>
+
+Supporre che i “token” siano tutti separati da spazio e che gli operatori abbiano tutti cardinalità fissa
+<br>
+<http://www.ce.unipr.it/brython/?x4_fun_polish.py>
+
+---
+
+![](images/misc/sample-file-system.png)
+# Documenti e cartelle
+
+- Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
+    - I *documenti*, caratterizzati da un nome e da un contenuto testuale (classe derivata)
+    - Le *cartelle*, caratterizzate da un nome e da una lista di nodi contenuti (classe derivata)
+- Creare una gerarchia delle tre classi: `Node`, `Document`, `Folder`
+    - Le cartelle dovrebbero avere un metodo `add_node(n: Node)`
+- Nel corpo principale del programma, istanziare ed organizzare vari nodi (senza input dell'utente)
+    - Ricreare con gli oggetti la struttura raffigurata a fianco
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_tree_nodes.py>
+
+---
+
+# Dimensione delle cartelle
+
+- Aggiungere a tutti i nodi (es. precedente) un metodo `size`
+    - Astratto nella classe base
+    - Per un documento, restituisce la lunghezza del contenuto testuale
+    - Per una cartella, restituisce la somma delle dimensioni dei nodi contenuti
+- Calcolare la dimensione della struttura precedente (es. 4.4), inventando dei contenuti per i documenti presenti
+- Aggiungere inoltre a tutti i nodi un metodo `print(indent: int)`, per mostrare a terminale la struttura ad albero
+    - Astratto nella classe base
+    - Mostra il nome di documenti e cartelle
+    - Indenta opportunamente i nodi, rispetto alla cartella che li contiene
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_tree_nodes.py>
+
+---
+
+# Espressioni
+
+- Definire una gerarchia di classi per rappresentare espressioni matematiche
+- La *classe base* **`Expression`** ha un metodo astratto `eval`
+    - Senza parametri, restituisce il valore `float` dell'espressione
+- Le *sottoclassi* concrete di una espressione sono:
+    - **`Literal`**, contenente un valore costante `float`
+    - **`Sum`**, contenente due operandi, entrambi espressioni
+    - **`Product`**, contenente due operandi, entrambi espr.
+- Istanziare (senza fare *parsing*!) oggetti per rappresentare questa espressione:
+    - `5 * (4 + 3 * 2)`
+- Calcolare il valore finale, chiamando `eval` sul nodo radice
+
+>
+
+<http://www.ce.unipr.it/brython/?x4_tree_expression.py>
+
+---
+
+# Espressioni prefisse
+
+- Aggiungere un  metodo `prefix` a `Expression` (es. precedente)
+    - Genera una stringa in notazione prefissa (operatore seguito da operandi)
+- Risultato da espressione di esempio: `"* 5 + 4 * 3 2"`
+
+``` py
+                                          #   *  (prod2)
+prod1 = Product(Literal(3), Literal(2))   #  / \
+sum1 = Sum(Literal(4), prod1)             # 5   +  (sum1)
+prod2 = Product(Literal(5), sum1)         #    / \
+print(prod2.eval())                       #   4   *  (prod1)
+print(prod2.prefix())                     #      / \
+                                          #     3   2
+```
+
+>
+
+<https://it.wikipedia.org/wiki/Notazione_polacca>
+<br>
+<http://www.ce.unipr.it/brython/?x4_tree_expression.py>

@@ -1,0 +1,709 @@
+![](images/algo/rubik-cube.png)
+# Algoritmi in Python 3
+## Introduzione alla programmazione
+
+---
+
+![large](images/dev/python-cases.jpg) Web, data science, machine learning, scripting, teaching, games, hardware, multiplatform...
+# 🌱 Python is fun!
+
+![](images/algo/antigravity.png)
+
+>
+
+<https://xkcd.com/353/>
+
+---
+
+# 🛠️ Shell interattiva
+
+- Python si presenta con una interfaccia *REPL*
+    - Read-Eval-Print Loop
+- Un **tipo di dato** specifica un insieme di *valori* e le *operazioni* ammesse
+    - `int, float, bool, str`
+    - Operazioni aritmetiche e logiche, confronti
+
+``` py
+>>> 3 + 4
+7
+>>> 3 / 4
+0.75
+>>> 4 == 5  # Do not confuse with assignment!
+False
+>>> 2 < 3 or not True
+True
+```
+
+---
+
+# 🛠️ Valori numerici e booleani
+
+- **`int`** o **`float`**, per numeri interi o reali
+    - Operazioni di base: `+, -, *, /`
+    - Divisione intera, resto, potenza: `//, %, **`
+    - Confronti: `<, <=, >, >=, ==, !=`
+-  **`bool`**, per valori booleani: `True, False`
+    - Operazioni consentite: `and, or, not`
+    - I confronti danno un risultato booleano
+
+``` py
+>>> -7 // 3    # floor division: ⌊-7/3⌋
+-3
+>>> -7 % 3     # reminder is always positive
+2
+>>> 2 ** 1000  # no limits (but memory)
+107150[...]069376
+```
+
+---
+
+![large](images/algo/assign.png)
+# ⭐ Assegnamento
+
+- Una **variabile** serve per ricordare un risultato
+- *Assegnamento* : operatore **`=`**
+    - Alla sinistra un *nome*
+    - Alla destra un *valore*
+- **⚠️ Non confondere**
+    - Confronto di *uguaglianza* : operatore **`==`**
+
+``` py
+>>> pi = 3.14  # Assignment
+>>> radius = 2.2
+>>> area = pi * (radius ** 2)
+>>> area
+15.1976
+>>> radius = radius + 1  # guess radius... and area!
+```
+
+---
+
+![](images/algo/var-label.svg)
+# ⚙️ Variabile
+
+- **Nome** associato ad un certo **valore**
+    - *Etichetta* → *oggetto*
+- Oggetto assegnato a più variabili
+    - Non viene copiato, ma riceve più etichette
+- Il **tipo** dipende dal valore attualmente assegnato
+    - Una var. non dev'essere *dichiarata*
+    - Ma dev'essere *inizializzata*
+
+``` py
+>>> x = 100
+>>> DELTA_X = 5        # Constants: UPPER_CASE
+>>> x = x + DELTA_X    # Variables: lower_case
+>>> next_position = x  # Use explicative names!
+```
+
+---
+
+# 🛠️ Stringhe di testo
+
+- **`str`** per sequenze di caratteri *Unicode*
+    - Racchiuse tra apici doppi, o singoli
+    - Primi 128 codici *Unicode* == *ASCII*
+- Sequenze con `\` ( *backslash* ) per *caratteri speciali*
+    - A capo: `'\n'`
+    - Apici singoli o doppi: `'\''`, `'\"'`
+    - Altri caratteri speciali: `'\\'`, `'\t'`, `'\a'`, ...
+
+``` py
+>>> str1 = "Monty Python's "
+>>> str2 = 'Flying Circus'
+>>> result = str1 + str2
+>>> result
+"Monty Python's Flying Circus"
+```
+
+---
+
+# ⚙️ Tabella ASCII
+
+![large](images/repr/ascii.svg)
+
+---
+
+# 🛠️ Confronto tra stringhe
+
+- Confronto tra stringhe, in ordine *lessicografico*
+    - `<, <=, >, >=, ==, !=`
+    - Prima le cifre, poi le maiuscole, infine le minuscole
+
+``` py
+>>> 'first' < 'second'
+True
+>>> 'Second' <  'first'
+True
+>>> chr(90)
+'Z'
+>>> ord('Z')
+90
+```
+
+---
+
+![large](images/algo/holy-grail.jpg)
+# ⭐ Leggere e scrivere
+
+- **`input`** legge una riga di *testo*, inserita dall'utente, in una *variabile*
+    - Prima mostra un messaggio
+    - Risultato di tipo `str`
+- **`print`** scrive una serie di valori su una riga
+    - Tra i valori (parametri) viene inserito uno spazio
+
+``` py
+>>> quester = input("What is your name? ")
+What is your name? Lancelot
+>>> print("Right. Off you go,", quester, ".")
+Right. Off you go, Lancelot .
+```
+
+>
+
+<https://www.youtube.com/watch?v=Xel0c6mpqPA>
+
+---
+
+![](images/algo/sum3.svg)
+# 🛠️ Somma di tre numeri
+
+- **⚠️ Attenzione ai tipi**
+    - Provare senza conversione in `float`
+
+``` py
+# File sum3.py - to run: python3 sum3.py
+
+a = float(input("Insert 1st val: "))
+b = float(input("Insert 2nd val: "))
+c = float(input("Insert 3rd val: "))
+
+total = a + b + c
+
+print("The sum is", total)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_sum_3.py>
+
+---
+
+![large](images/oop/raster-coord.png)
+# ⭐ Disegno su canvas
+
+- Useremo un modulo *ad-hoc*: `g2d`
+    - Definisce funzioni di disegno
+    - Coordinate *raster*: origine in alto a sinistra
+- Nel *playground*, versione integrata con *Brython*
+    - <http://www.ce.unipr.it/brython>
+- **Documentazione**:
+    - <https://github.com/tomamic/fondinfo#g2d>
+
+>
+
+Per l'esecuzione locale, copiare nella cartella di lavoro il file `g2d.py`, da `examples`
+<br>
+<https://github.com/tomamic/fondinfo/archive/master.zip>
+
+---
+
+![large](images/repr/pixel-grid.png) ![small](images/repr/additive-color.svg)
+# ⭐ Tupla
+
+- Sequenza **immutabile** di valori, anche di *tipo diverso*
+- Spesso tra parentesi, per separarla da altri valori
+- Utili anche per grafica:
+    - *Color*: `(red, green, blue)` <br> Ogni componente nel range `0..255`<br>
+    - *Point*: `(x, y)`<br>
+    - *Size*: `(width, height)`<br>
+    - *Rect*: `(left, top, width, height)`
+
+``` py
+center_pt = (150, 100)
+bluette_color = (47, 102, 207)  # ~ blue
+window_size = (640, 480)
+some_rectangle = (150, 100, 200, 200)  # square
+```
+
+---
+
+![](images/oop/raster-coord.png)
+# ⭐ Rettangoli e cerchi
+
+``` py
+import g2d
+
+g2d.init_canvas((600, 400))  # width, height
+
+# red + green = yellow
+g2d.set_color((255, 255, 0))         # color
+g2d.fill_rect((150, 100, 250, 200))  # rect
+
+g2d.set_color((0, 0, 255))
+g2d.fill_circle((400, 300), 20)      # center, radius
+
+g2d.main_loop()  # manage the window/canvas
+```
+
+---
+
+![](images/oop/raster-coord.png)
+# 🛠️ Linee e testi
+
+``` py
+import g2d
+
+g2d.init_canvas((600, 400))
+
+g2d.set_color((0, 255, 0))
+g2d.draw_line((150, 100), (400, 300))   # pt1, pt2
+
+g2d.set_color((255, 0, 0))
+g2d.draw_text("Hello", (150, 100), 40)  # text, left-top, font-size
+
+g2d.main_loop()
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_draw.py>
+
+---
+
+# Strutture di controllo
+
+---
+
+![](images/algo/if.svg)
+# 🛠️ Selezione: if
+
+- Corpo di `if` o `else`: **indentazione**
+    - Richiesta per *sintassi*, non opzionale
+    - Può contenere qualsiasi istruzione
+    - Anche altri blocchi `if` o `while` annidati!
+
+> Readability counts *(The Zen of Python)*
+
+``` py
+radius = int(g2d.prompt("Radius? [50-99]"))
+
+if 50 <= radius and radius <= 99:
+    g2d.set_color((0, 0, 255))
+    g2d.fill_circle((200, 200), radius)
+
+g2d.set_color((255, 255, 0))
+g2d.fill_circle((200, 200), 25)
+```
+
+---
+
+![](images/algo/if-else.svg)
+# 🛠️ Selezione: else
+
+- Clausola `else`: opzionale
+    - Eseguita sse la condizione non è verificata
+
+``` py
+radius = int(g2d.prompt("Radius? [50-99]"))
+
+if 50 <= radius and radius <= 99:
+    g2d.set_color((0, 0, 255))
+    g2d.fill_circle((200, 200), radius)
+else:
+    g2d.alert("Out of range!")
+
+g2d.set_color((255, 255, 0))
+g2d.fill_circle((200, 200), 25)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_if_else.py>
+
+---
+
+![](images/algo/words.svg)
+# 🛠️ Selezione: elif
+
+``` py
+a = input("First word? ")
+b = input("Second word? ")
+
+if a < b:
+    print("The words are ordered")
+elif a > b:
+    print("The words are inverted")
+else:
+    print("The words are equal")
+```
+
+- `elif`: clausola `else` che contiene un altro `if`
+- No `switch`, no `do-while`
+
+> There should be one -- and preferably only one -- obvious way to do it *(ZoP)*
+
+---
+
+![](images/algo/calc.svg)
+# 🛠️ Operazioni aritmetiche
+
+``` py
+a = float(input())
+b = float(input())
+op = input()
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/' and b != 0:
+    print(a / b)
+else:
+    print("Operation not allowed")
+```
+
+---
+
+![](images/algo/count.svg)
+# 🛠️ Iterazione: while
+
+- Condizione di *permanenza* nel ciclo
+- Controllo *preliminare*: possibile che il corpo non sia mai eseguito
+- *Problem solving*: sommare tutti i numeri da 1 ad `n`
+    - Devo almeno saper contare fino ad `n`
+
+``` py
+n = int(input("n?"))
+count = 1
+
+while count <= n:
+    print(count)
+    count = count + 1
+```
+
+---
+
+![](images/algo/sum1n.svg)
+# 🛠️ Somma di numeri consecutivi
+
+- Occorre tenere traccia del *totale parziale*
+
+``` py
+# Sum of the numbers from 1 to n
+n = int(input("n? "))
+total = 0
+count = 1
+
+while count <= n:
+    total = total + count
+    count = count + 1
+
+print("The sum is", total)
+```
+
+>
+
+<http://it.wikipedia.org/wiki/Gauss#Biografia>
+<br>
+<http://www.ce.unipr.it/brython/?p1_sum_1n.py>
+
+---
+
+![](images/algo/average.svg)
+# 🛠️ Media di N campioni
+
+``` py
+n = int(input("How many values? "))
+total = 0
+count = 0
+
+while count < n:
+    val = int(input("Val? "))
+    total += val  # total = total + val
+    count += 1    # count = count + 1
+
+if count != 0:
+    print("The average is", total / count)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_average.py>
+
+---
+
+![](images/algo/sentinel.svg)
+# ⭐ Ciclo con sentinella
+
+``` py
+total = 0
+count = 0
+val = int(input("Val? (-1 to finish) "))
+
+while val != -1:
+    total += val
+    count += 1
+    val = int(input("Val? (-1 to finish) "))
+
+if count != 0:
+    print("The average is", total / count)
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_sentinel.py>
+
+---
+
+![](images/algo/sum10.svg)
+# ⭐ Ciclo di conteggio
+
+- **`range`**: intervallo di valori aperto a destra
+    - Estremi: inferiore *incluso*, superiore *escluso*
+- **`for`**: ciclo su una sequenza di valori
+
+``` py
+# Add up numbers from 1 to 10
+
+total = 0
+for i in range(1, 11):
+    total += i
+
+# total = 0
+# i = 1
+# while i < 11:
+#     total = total + i
+#     i = i + 1
+```
+
+---
+
+![](images/misc/red-squares.png)
+# 🛠️ Sequenza di quadrati
+
+``` py
+import g2d
+
+g2d.init_canvas((300, 300))
+
+for i in range(5):  ## range(0, 5)
+    red = i * 60
+    x = y = i * 40
+    g2d.set_color((red, 0, 0))
+    g2d.fill_rect((x, y, 140, 140))
+
+g2d.main_loop()
+```
+
+>
+
+<http://www.ce.unipr.it/brython/?p1_for_squares.py>
+
+---
+
+# 🛠️ Moduli
+
+- *Python Standard Library*: <http://docs.python.org/3/library/>
+
+``` py
+import math
+y = math.sin(math.pi / 4)
+print(y)  # √2 / 2
+```
+
+``` py
+from math import sin, pi
+print(sin(pi / 4))
+```
+
+``` py
+from random import randint
+die1 = randint(1, 6)  # like rolling a die
+die2 = randint(1, 6)  # like rolling a die
+print(die1, die2)
+```
+
+>
+
+Tutti gli `import` all'inizio dello script, per evidenziare le dipendenze
+
+---
+
+# 🏊 Esercizi
+
+---
+
+![](images/misc/greek-pi.png)
+# Cerchio
+
+- Chiedere all'utente il valore del raggio `r` di un cerchio
+    - `r` reale compreso tra 0 e 200
+- Se `r` è valido
+    - Visualizzare il cerchio
+    - Mostrare il valore dell'area e della circonferenza
+- Se invece `r` è fuori range
+    - Mostrare un messaggio d'errore
+
+>
+
+<http://www.ce.unipr.it/brython/?x1_circle.py>
+
+---
+
+![](images/misc/three-brothers.png)
+# Minore e maggiore
+
+- Generare e stampare tre numeri interi casuali: `a`, `b`, `c`
+- Ciascuno compreso tra 1 e 6
+- Determinare e mostrare qual è il minore dei tre
+
+>
+
+Controllare prima di tutto se `a` è minore degli altri due
+<br>
+Altrimenti controllare se `b` è minore di `c`
+<br>
+Altrimenti ...
+<br>
+<http://www.ce.unipr.it/brython/?x1_min_3.py>
+
+---
+
+# Calcolo dell'età
+
+- Chiedere all'utente la data di nascita
+    - Anno, mese e giorno
+- Comunicare l'età esatta attuale
+    - Numero di compleanni già compiuti
+
+``` py
+from datetime import date
+now = date.today()
+print(now.year, now.month, now.day)
+```
+
+>
+
+Nell'anno corrente, l'utente ha già avuto il compleanno?
+<br>
+Espressione booleana composta con `and`, `or`, `not`...
+<br>
+<http://www.ce.unipr.it/brython/?x1_age.py>
+
+---
+
+![](images/misc/random-squares.png)
+# Quadrati casuali
+
+- Chiedere all'utente un numero `n`
+- Disegnare `n` quadrati
+    - Tutti con lato di 100 pixel
+    - Ciascuno in posizione casuale
+    - Ciascuno con un colore casuale
+
+>
+
+Cominciare a disegnare un solo quadrato grigio, in posizione casuale
+<br>
+<http://www.ce.unipr.it/brython/?x1_rand_squares.py>
+
+---
+
+![](images/misc/red-circles.png)
+# Cerchi concentrici
+
+- Chiedere all'utente il numero di cerchi da disegnare
+- Disegnare i cerchi con raggio gradualmente decrescente, ma tutti con lo stesso centro
+- Far variare il colore dei cerchi
+      - Dal rosso del livello più esterno
+      - Fino al nero del livello più interno
+- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+
+>
+
+Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+<br>
+<http://www.ce.unipr.it/brython/?x1_red_circles.py>
+
+---
+
+![](images/misc/bingo-balls.png)
+# Numero segreto
+
+- Generare all'inizio del programma un numero “segreto” a caso tra 1 e 90
+- Chiedere ripetutamente all'utente di immettere un numero, finché non indovina quello generato
+- Ad ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
+
+>
+
+<http://www.ce.unipr.it/brython/?x1_secret.py>
+
+---
+
+![](images/algo/perfect-square.svg)
+# Quadrato perfetto
+
+- Chiedere un numero all'utente
+- Dire se il numero è un quadrato perfetto
+- In questo caso, comunicare anche la sua radice perfetta
+
+>
+
+<http://www.ce.unipr.it/brython/?x1_perfect_square.py>
+
+---
+
+![](images/misc/resistors.png)
+# Resistenze, ciclo
+
+- Leggere, attraverso un ciclo, una sequenza di valori di resistenze elettriche
+- La sequenza termina quando l'utente immette il valore 0
+- Alla fine, visualizzare la resistenza equivalente, sia nel caso di resistenze disposte in serie, che in parallelo
+
+>
+
+Formule utili:
+<br>
+Rₛ = ∑ Rᵢ
+<br>
+1/Rₚ = ∑ (1/Rᵢ)
+<br>
+<http://www.ce.unipr.it/brython/?x1_resistors.py>
+
+---
+
+![](images/misc/classical-watch.jpg)
+# 🥷 Orologio classico
+
+- Disegnare 12 tacche a raggiera, come in un orologio classico
+- Miglioramento: disegnare anche le tacche dei minuti, più piccole
+
+>
+
+Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
+<br>
+<http://www.ce.unipr.it/brython/?x1_watch.py>
+
+---
+
+![](images/misc/monster.png)
+# 🥷 La stanza del mostro
+
+- Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
+    - Le righe e le colonne sono numerate da 0 a 4
+- Un tesoro ed un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
+- Ad ogni turno:
+    - Chiedere al giocatore una direzione (`w/a/s/d`)
+    - Se capita sulla cella del tesoro, ha vinto
+    - Se capita sulla cella del mostro, ha perso
+
+>
+
+Basta memorizzare tre coppie di coordinate cartesiane
+<br>
+Non è richiesto l'uso della grafica
+<br>
+<http://www.ce.unipr.it/brython/?x1_monster.py>

@@ -1,0 +1,618 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML e CSS</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/repr/w3c-keys.jpg"></figure>
+  <hgroup>
+    <h2>Introduzione all'informatica</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>HyperText Markup Language</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Documenti <strong>strutturati</strong>, standard W3C: <a href="http://www.w3.org/html/">http://www.w3.org/html/</a></li>
+<li>HTML dichiara tipi di elementi<ul>
+<li>Paragrafi, titoli, liste, collegamenti ipertestuali, elementi multimediali ecc.</li>
+</ul>
+</li>
+<li>Tipo di <strong>elemento</strong> descritto da tre parti<ul>
+<li><strong>Tag di apertura</strong>, <strong>contenuto</strong>, <strong>tag di chiusura</strong></li>
+<li><code>Bla bla, &lt;b&gt;in grassetto.&lt;/b&gt;, normale.</code></li>
+</ul>
+</li>
+<li>Molti tag permettono la definizione di <strong>attributi</strong><ul>
+<li><code>&lt;a href="http://www.unipr.it/"&gt;UniPR&lt;/a&gt;</code></li>
+<li><code>id</code> e <code>class</code>: attributi generici per assegnare <em>ruoli logici</em></li>
+</ul>
+</li>
+<li>Tag semplici non hanno un contenuto<ul>
+<li><code>&lt;img src="blueribbon.gif" /&gt;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-image" >
+  
+    <hgroup>
+      <h2>Anatomia di una pagina</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <p><img alt="" src="images/repr/html-page.png" /></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tag di formattazione testo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTML"><code>&lt;p&gt;Questo è un paragrafo.&lt;br /&gt;A-capo ma stesso paragrafo.&lt;/p&gt;
+
+&lt;p&gt;Testo &lt;strong&gt;in grassetto&lt;/strong&gt;, e poi
+&lt;em&gt;in corsivo&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1&gt;Il titolo più grande&lt;/h1&gt;
+...
+&lt;h6&gt;Il titolo più piccolo&lt;/h6&gt;
+
+&lt;div class="remark"&gt;
+  Struttura generica di livello blocco,
+  con un &lt;span&gt;elemento generico&lt;/span&gt; inline.
+&lt;/div&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Uniform Resource Locator</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una URL è un riferimento per una risorsa</li>
+</ul>
+<p><img alt="" src="images/repr/url-example.png" /></p>
+<ul>
+<li>Il nome della risorsa dipende interamente dal protocollo. Per HTTP include:</li>
+<li>Nome dell’host su cui risiede la risorsa</li>
+<li>Numero di porta cui collegarsi (default = 80)</li>
+<li>Percorso della risorsa sulla macchina</li>
+<li>Stringa di query (dopo <code>?</code>)</li>
+<li>Frammento: <code>id</code> di un elemento all’interno della risorsa (dopo <code>#</code>)</li>
+<li><a href="http://www.ietf.org:80/rfc/rfc2732.txt">http://www.ietf.org:80/rfc/rfc2732.txt</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Collegamenti e citazioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTML"><code>&lt;p id="par1"&gt;Il primo paragrafo. Vai su
+&lt;a href="http://www.unipr.it/index.html#news"&gt;
+UniPR, riquadro News&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p id="par2"&gt;Il secondo paragrafo. Torna al
+&lt;a href="#par1"&gt;primo paragrafo.&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- si può attribuire un id ad ogni elemento, ma dev'essere univoco nella pagina --&gt;
+
+&lt;blockquote cite="http://www.faqs.org/"&gt;
+  &lt;p&gt;The BLOCKQUOTE element contains text quoted
+    from another source.&lt;/p&gt;
+  &lt;address&gt;&lt;a href="http://www.faqs.org/"&gt;
+    Da faqs.org&lt;/a&gt;&lt;/address&gt;
+&lt;/blockquote&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Liste</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTML"><code>&lt;ul&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;First item&lt;/li&gt;
+    &lt;li&gt;Second item&lt;/li&gt;
+    &lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tabelle</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Le tabelle HTML servono per incasellare dati (e non per gestire il layout dell'intera pagina!)</li>
+<li>Sono marcate con <code>&lt;table&gt;</code></li>
+<li><code>&lt;table&gt;</code> contiene righe di celle, marcate con <code>&lt;tr&gt;</code> (dall'alto verso il basso ↓)</li>
+<li>Ogni <code>&lt;tr&gt;</code> contiene celle di dati, marcate con <code>&lt;td&gt;</code> (da sinistra a destra →)</li>
+<li>Le celle di intestazione sono marcate con <code>&lt;th&gt;</code></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Semplice tabella</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="HTML"><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;northwest&lt;/td&gt;
+        &lt;td&gt;northeast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;southwest&lt;/td&gt;
+        &lt;td&gt;southeast&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tabella con celle unite</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/repr/table-complete.png">
+        
+      </figure><pre class="" data-lang="HTML"><code>&lt;table&gt;
+&lt;caption&gt;&lt;i&gt;A test table with merged cells&lt;/i&gt;&lt;/caption&gt;
+&lt;tr&gt;
+  &lt;th rowspan="2"&gt;&lt;/th&gt;
+  &lt;th colspan="2"&gt;Average&lt;/th&gt;
+  &lt;th rowspan="2"&gt;Red eyes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;th&gt;height&lt;/th&gt;
+  &lt;th&gt;weight&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Males&lt;/th&gt;
+  &lt;td&gt;1.9&lt;/td&gt;&lt;td&gt;0.003&lt;/td&gt;&lt;td&gt;40%&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;Females&lt;/th&gt;
+  &lt;td&gt;1.7&lt;/td&gt;&lt;td&gt;0.002&lt;/td&gt;&lt;td&gt;43%&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tag per computer</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Codice inline: <code>&lt;code&gt;</code></li>
+<li>Blocchi di codice: <code>&lt;pre&gt;&lt;code&gt;</code></li>
+<li>Input da tastiera: <code>&lt;kbd&gt;</code></li>
+<li>Variabili e costanti: <code>&lt;var&gt;</code></li>
+<li>Output inline: <code>&lt;samp&gt;</code></li>
+<li>Catture di schermate testuali (blocchi di output) <code>&lt;pre&gt;&lt;samp&gt;</code></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tag generici: div, span</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Aggiungere struttura e semantica ai documenti</li>
+<li><code>span</code> raggruppa contenuto <em>inline</em></li>
+<li><code>div</code> raggruppa contenuto di <em>livello blocco</em></li>
+<li>Spesso assegnati attributi <code>id</code> e <code>class</code></li>
+<li>Non impongono nessun altro vincolo di presentazione al contenuto</li>
+<li>Elementi da usare assieme a fogli di stile</li>
+<li>Per adattare i doc. html ai vari bisogni e gusti</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Id vs. class</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Mentre uno stesso valore di <code>class</code> può essere attribuito a molti elementi su una pagina...</li>
+<li><code>id</code> deve essere unico all’interno del documento!</li>
+<li>Non si può applicare uno stesso valore di <code>id</code> a più elementi</li>
+<li>Si possono assegnare più classi ad un solo elemento, separate da spazio. Es.<ul>
+<li><code>&lt;p class="news gossip"&gt;Bla bla.&lt;/p&gt;</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Markup semantico</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Documenti privi di markup di presentazione</li>
+<li>Definire un vocabolario di classi semantiche...<ul>
+<li>Da assegnare agli elementi con attributo class</li>
+<li>La cui presentazione può essere specificata in fogli di stile validi per tutto il sito</li>
+</ul>
+</li>
+<li>Indicazioni di mozilla.org<ul>
+<li><a href="http://www.mozilla.org/contribute/writing/markup">http://www.mozilla.org/contribute/writing/markup</a></li>
+</ul>
+</li>
+<li>Accessibilità dei contenuti web<ul>
+<li><a href="http://www.w3.org/TR/WCAG10-HTML-TECHS/">http://www.w3.org/TR/WCAG10-HTML-TECHS/</a></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Html 5</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/repr/html5-logo.svg">
+        
+      </figure><ul>
+<li>Nuovi elementi di struttura di Html 5<ul>
+<li><code>header, main, nav, aside, footer</code></li>
+<li><code>article, section, details, summary</code></li>
+<li><code>menu, menuitem, figure, figcaption</code></li>
+</ul>
+</li>
+<li>Altri nuovi elementi<ul>
+<li><code>video, audio, canvas, embed</code></li>
+<li><code>mark, time</code></li>
+<li><code>output, progress, meter, datalist</code></li>
+</ul>
+</li>
+<li><a href="http://dev.w3.org/html5/html4-differences/">http://dev.w3.org/html5/html4-differences/</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Cascading Style Sheets</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/repr/browser-war.jpg">
+        
+      </figure><blockquote>
+<p>In principio il web era popolato di semantici tag p ed h1; ma presto arrivarono font, center, color; le tabelle nascoste erano in agguato; era già scoppiata la Guerra dei Browser, tra Netscape e IE.</p>
+</blockquote>
+<ul>
+<li>Dopo specifiche W3C per HTML 4.0 e stili, tendenza a miglior supporto di standard</li>
+<li>CSS: migliore semantica e lavoro risparmiato<ul>
+<li>Un solo file, esterno ai contenuti, controlla la presentazione di molte pagine web</li>
+</ul>
+</li>
+<li><a href="http://www.w3.org/Style/CSS/">http://www.w3.org/Style/CSS/</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Foglio di stile esterno</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Ideale, soprattutto, per un sito di molte pagine</li>
+<li>Cambiare l’aspetto, modificando un solo file</li>
+<li>Ogni pagina deve essere collegata al file css</li>
+</ul>
+<pre class="" data-lang="HTML"><code>&lt;head&gt;
+  ...
+  &lt;link rel="stylesheet" type="text/css" href="mystyle.css" /&gt;
+&lt;/head&gt;`
+</code></pre>
+<ul>
+<li>Browser formatta secondo <code>mystyle.css</code></li>
+<li>CSS scritto con comune editor di testo</li>
+</ul>
+<pre class="" data-lang="CSS"><code>body { background: url("images/back40.gif") }
+p { margin-left: 20px }
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Stili a cascata</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Stili raccolti a cascata in “foglio di stile virtuale”</li>
+<li>Default del browser (priorità più bassa)</li>
+<li>Foglio di stile esterno (per molti documenti)</li>
+<li>Foglio di stile interno (per un singolo doc.)</li>
+<li>Stile inline (per un singolo elemento, priorità)</li>
+<li>Gli stili non sono HTML, hanno sintassi diversa</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sintassi degli stili</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La più semplice regola css è composta di tre parti: un <strong>selettore</strong>, una <strong>proprietà</strong> ed un <strong>valore</strong>:<ul>
+<li><code>selector { property: value }</code></li>
+<li>Selettore: es. un elemento html da ridefinire</li>
+<li>Proprietà: aspetto cui assegnare nuovo valore</li>
+</ul>
+</li>
+<li>Es. body ed elem. contenuti con testo in nero<ul>
+<li><code>body { color: black }</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Attributi e selettori multipli</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="CSS"><code>p {
+  text-align: center;         /* attributes separated by semicolon */
+  color: red;
+  font-family: "sans serif";  /* string in quotation marks */
+}
+h1, h2, h3, h4, h5, h6 {      /* selectors separated by comma */
+  color: rgb(0, 255, 0);
+}
+img {
+  float: right;
+  padding: 5px;
+  border: 1px solid #0000ff;
+  margin: 10px;
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Selettori di classe e id</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="CSS"><code>.important { text-align: center; }
+
+p.gossip { display: none; }
+
+#wer345 { font-size: 32px; font-weight: bold; font-style: italic; }
+</code></pre>
+<pre class="" data-lang="HTML"><code>&lt;h1 class="important"&gt;Centered heading&lt;/h1&gt;
+
+&lt;p class="news gossip"&gt;Gossip's not displayed.&lt;/p&gt;
+
+&lt;h1 id="wer345"&gt;Some specific heading&lt;/h1&gt;
+
+&lt;p class="important"&gt;More text.&lt;/p&gt;
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Colori e dimensioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>CSS1: 16 colori, come palette VGA di Windows<ul>
+<li><code>aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow</code></li>
+<li>Es. <code>fuchsia == rgb(255, 0, 255) == #FF00FF</code></li>
+</ul>
+</li>
+<li>Dimensioni box e testo<ul>
+<li><code>px</code>: in pixel (fissa rispetto risoluzione monitor)</li>
+<li><code>pt</code>: punti tipografici, 1/72 pollice</li>
+<li><code>em</code>: rispetto a dimensione font (carattere X)</li>
+<li><code>%</code>: rispetto alla dimensione (di font, o spazio) dell’elemento genitore</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="large-figure" >
+  
+    <hgroup>
+      <h2>Box model</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/repr/box-model.png">
+        
+      </figure><ul>
+<li><code>margin, padding, border-width</code> – 1-4 valori</li>
+<li><code>border-style</code> – <code>none, dotted, dashed, solid</code> ...</li>
+<li><code>border-color</code> – Colore</li>
+<li><code>border-radius</code> – 1-4 valori (<em>CSS3</em>)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sfondo e ombra</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><code>background-color</code> – Colore di sfondo</li>
+<li><code>background-image</code> – <code>url(…), none</code></li>
+<li><code>background-image</code> – <code>linear/radial-gradient(...)</code> (<em>CSS3</em>)</li>
+<li><code>background-repeat</code> – <code>repeat, repeat-x / -y, no-repeat</code></li>
+<li><code>background-attachment</code> – <code>scroll, fixed</code></li>
+<li><code>background-position</code> – <code>top left, top center</code> ...</li>
+<li><code>background-size</code> – Dimensioni immagine (<em>CSS3</em>)</li>
+<li><code>box-shadow</code> – 2-4 valori (offset-x, offset-y, blur, distanza) + colore (<em>CSS3</em>)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Testo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><code>color</code> – Colore del testo</li>
+<li><code>font-size</code> – Dimensione</li>
+<li><code>vertical-align</code> – Inline, relativo alla riga di testo – <code>top, middle, bottom, baseline, sub, super</code></li>
+<li><code>text-decoration</code> – <code>none, underline, line-through, overline</code></li>
+<li><code>font-style</code> – <code>normal, italic</code></li>
+<li><code>font-weight</code> – <code>normal, bold</code></li>
+<li><code>font-family</code> – Lista con priorità di nomi o famiglie di font (<code>serif, sans-serif, cursive, fantasy, monospace</code>)</li>
+<li><code>text-align</code> – <code>left, right, center, justify</code></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Posizionamento</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><code>position</code> – Posizionamento – <code>relative, absolute, fixed</code></li>
+<li><code>float</code> – Elementi flottanti – <code>left, right, none</code></li>
+<li><code>z-index</code> – Numero (valori più alti in primo piano)</li>
+<li><code>overflow</code> – <code>visible, hidden, scroll, auto</code></li>
+<li><code>visibility</code> – <code>visible, hidden</code> (occupa spazio)</li>
+<li><code>display</code> – <code>block, inline, none</code> (non occupa spazio)</li>
+<li>Blocco centrato: <code>margin-left: auto; margin-right: auto; width: 50%;</code></li>
+</ul></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

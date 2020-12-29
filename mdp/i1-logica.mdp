@@ -1,0 +1,529 @@
+![](images/fun/hanoi-tower.png)
+# Logica matematica
+## Introduzione all'informatica <br> Michele Tomaiuolo @ Ingegneria UniPR
+
+---
+
+![](images/repr/hair-logic.svg)
+# Algebra di Boole
+
+---
+
+![](images/hist/george-boole.jpg) George Boole, 1815-1864
+# 🌱 Algebra di Boole
+
+- L’algebra di Boole è un formalismo che opera su variabili (dette *variabili booleane*)
+- Le variabili booleane possono assumere due soli valori
+    - `Vero`: 1
+    - `Falso`: 0
+- Sulle variabili booleane è possibile definire delle funzioni (dette *funzioni booleane*)
+- Anche le funzioni booleane possono assumere solo i due valori `vero` e `falso`
+
+---
+
+| A | B | C | F₁ |
+|---|---|---|----|
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
+
+# 🌱 Funzione e tabella di verità
+
+- *Tabella di verità* per definire una *funzione booleana*
+- Valore risultante per ciascuna configurazione dei valori in ingresso
+
+>
+
+A volte, *specifica incompleta*: certe configurazioni di ingressi non possono verificarsi, perciò non è specificato alcun valore
+
+---
+
+# 🌱 Operatori di base
+
+- Algebra di Boole: basata su un insieme di operatori
+- Semplici funzioni, specificate con tabelle di verità
+
+| A | B | A·B | A+B | A⊕B | A⊼B | A⊽B |
+|---|---|-----|-----|-----|-----|---|
+| 0 | 0 | 0   | 0   | 0   | 1   | 1 |
+| 0 | 1 | 0   | 1   | 1   | 1   | 0 |
+| 1 | 0 | 0   | 1   | 1   | 1   | 0 |
+| 1 | 1 | 1   | 1   | 0   | 0   | 0 |
+
+| A | ¬A |
+|---|----|
+| 0 | 1  |
+| 1 | 0  |
+
+---
+
+# 🌱 Espressione booleana
+
+- Operatori possono essere combinati in espressioni
+- Altra forma di definizione di funzioni booleane
+- Es. `F₂(A, B, C) = A·B + C`
+
+| Operatore | Simbolo | Simbolo alternativo |
+|-----------|---------|-|
+| And       | `∧` | `·` |
+| Or        | `∨` | `+` |
+| Not       | `¬` | sovralinea |
+| Xor       | `⊕` | |
+| Nand      | `⊼` | |
+| Nor       | `⊽` | |
+
+---
+
+# ⭐ Proprietà degli operatori
+
+- Dimostrazione: si confrontano le due tabelle di verità
+
+Proprietà    | Not
+-------------|--------
+Complemento  | `¬¬A ≡ A`
+
+Proprietà    | And                         | Or
+-------------|-----------------------------|--------------------------
+Commutativa  | `A · B ≡ B · A`             | `A + B ≡ B + A`
+Associativa  | `(A·B) · C ≡ A · (B·C)`     | `(A+B) + C ≡ A + (B+C)`
+Distributiva | `A + (B·C) ≡ (A+B) · (A+C)` | `A · (B+C) ≡ (A·B) + (A·C)`
+Idempotenza  | `A · A ≡ A`                 | `A + A ≡ A`
+Identità     | `A · 1 ≡ A`                 | `A + 0 ≡ A`
+Del limite   | `A · 0 ≡ 0`                 | `A + 1 ≡ 1`
+Assorbimento | `A · (A+B) ≡ A`             | `A + (A·B) ≡ A`
+Inverso      | `A · ¬A ≡ 0`                | `A + ¬A ≡ 1`
+De Morgan    | `¬(A·B·C…) ≡ ¬A + ¬B + ¬C…` | `¬(A+B+C…) ≡ ¬A · ¬B · ¬C…`
+
+---
+
+# ⭐ De Morgan
+
+- ⚠️ Attenzione a De Morgan: errore comune!
+
+``` py
+if x1 == x2 and y1 == y2:
+    print("the points are equal")
+```
+
+``` py
+if x1 != x2 or y1 != y2:  # not (x1 == x2 and y1 == y2)
+    print("the points are different")
+```
+
+- Python permette di confrontare tuple
+
+``` py
+pt1 = x1, y1
+pt2 = x2, y2
+if pt1 != pt2:
+    print("the points are different")
+```
+
+---
+
+| A | B | C | F | |
+|---|---|---|---|-------------------|
+| 0 | 0 | 0 | 1 | → *SP* |
+| 0 | 0 | 1 | 0 |        |
+| 0 | 1 | 0 | 0 |        |
+| 0 | 1 | 1 | 1 | → *SP* |
+| 1 | 0 | 0 | 0 |        |
+| 1 | 0 | 1 | 1 | → *SP* |
+| 1 | 1 | 0 | 1 | → *SP* |
+| 1 | 1 | 1 | 1 | → *SP* |
+
+# ⭐ Forma canonica SP
+
+- **Somma di Prodotti**: prendere le righe a 1
+    - `F(A, B, C) := (¬A·¬B·¬C) + (¬A·B·C) + (A·¬B·C) + (A·B·¬C) + (A·B·C)` (*SP*)
+- *Principio*: quali input rendono `F` vera?
+
+---
+
+| A | B | C | F | ¬F | |
+|---|---|---|---|----|---|
+| 0 | 0 | 0 | 1 | 0  | |
+| 0 | 0 | 1 | 0 | 1  | → *PS* |
+| 0 | 1 | 0 | 0 | 1  | → *PS* |
+| 0 | 1 | 1 | 1 | 0  | |
+| 1 | 0 | 0 | 0 | 1  | → *PS* |
+| 1 | 0 | 1 | 1 | 0  | |
+| 1 | 1 | 0 | 1 | 0  | |
+| 1 | 1 | 1 | 1 | 0  | |
+
+# ⭐ Forma canonica PS
+
+- **Prodotto di Somme**: prendere le righe a 0, *negate*
+    - `F(A, B, C) := (A+B+¬C) · (A+¬B+C) · (¬A+B+C)` (*PS*)
+- *Principio*: quali input rendono `¬F` vera?
+    - `¬F(A, B, C) := (¬A·¬B·C) + (¬A·B·¬C) + (A·¬B·¬C)`
+    - `F(A, B, C) := ¬((¬A·¬B·C) + (¬A·B·¬C) + (A·¬B·¬C))`
+    - ... De Morgan due volte e si ottiene *PS*
+
+---
+
+
+# Logica delle proposizioni
+
+---
+
+# 🌱 Proposizione
+
+- Frase dichiarativa (*enunciato*) di senso compiuto che possa esser riconosciuta come “vera” o “falsa”
+    - **Principio di non contraddizione**: un enunciato non può essere contemporaneamente vero e falso
+    - **Principio del terzo escluso**: un enunciato è vero o falso, non esiste una terza possibilità (*tertium non datur*)
+- Ad esempio, sono proposizioni:
+    - “Il cane è un animale” - “2 = 1” - “I triangoli hanno tre lati”
+- ... Mentre non lo sono:
+    - “Il cane” - “Che ora è?” - “Se 2 = 1” - “Non fumare!” - “Io sono bugiardo” (*)
+
+>
+
+(*) Paradosso: non si può stabilire se la frase è vera o falsa
+<br>
+⭐ Tarsia @ UniPI: <http://people.dm.unipi.it/tarsia/dida1011/logins05.pdf>
+
+---
+
+![](images/repr/logical-problem.png)
+# 🌱 Connettivi logici
+
+- In logica, operatori booleani per *legare* proposizioni in forma più complessa
+    - “e” (*congiunzione*, `∧`)
+    - “o” (*disgiunzione*, `∨`)
+    - “non” (*negazione*, `¬`)
+    - Valgono le proprietà già viste
+- Esempio di formalizzazione
+    - `P₁` := “Gold is in Chest1” <br> `P₂` := “Gold is in Chest2” <br> `P₃` := “Gold is in Chest3”
+    - `¬P₂ ∧ (P₁ ∨ P₃) ∧ ¬P₃ ≡ P₁ ∧ ¬P₂ ∧ ¬P₃`
+
+---
+
+# 🌱 Implicazione logica
+
+- **Connettivo condizionale**: esprime il legame “se ... allora”
+    - `P` := “io penso” (*premessa*)
+    - `Q` := “io esisto” (*conseguenza*)
+    - `P ⇒ Q`: “se penso allora esisto”
+- `P ⇒ Q` si può leggere anche nei seguenti modi:
+    - Da `P` segue `Q`
+    - `P` è *condizione sufficiente* per `Q` (se `P` vera, allora `Q` vera)
+    - `Q` è *condizione necessaria* per `P` (se `Q` falsa, allora `P` falsa)
+- Esempi di implicazioni vere:
+    - “Se 5 è un numero allora Roma è una città”
+    - “Se Parigi è la capitale d'Italia, allora 5 + 5 = 10”
+
+---
+
+# 🛠️ Verità dell'implicazione
+
+`P` | `Q` | `P ⇒ Q` | `¬P ∨ Q`
+----|-----|---------|---------
+ F  |  F  |  T      |  T
+ F  |  T  |  T      |  T
+ T  |  F  |  F      |  F
+ T  |  T  |  T      |  T
+
+- `P ⇒ Q` è falsa solo in un caso: `P` vera e `Q` falsa
+    - `¬(P ⇒ Q) ≡ (P ∧ ¬Q)`
+    - `P ⇒ Q ≡ ¬(P ∧ ¬Q) ≡` *[De Morgan]* <br> `¬P ∨ ¬(¬Q) ≡` *[Doppia negazione]* <br> `¬P ∨ Q` (implicazione vera quando: `P` falsa, o `Q` vera)
+- L'implicazione **non** soddisfa la proprietà commutativa:
+    - `(P ⇒ Q) ≠ (Q ⇒ P)`
+
+---
+
+# 🛠️ Doppia implicazione
+
+- **Equivalenza logica**: si legge “P se e solo se Q”, <br> “P condizione necessaria e sufficiente per Q”
+
+`P` | `Q` | `P ⇒ Q` | `Q ⇒ P` | `P ⇔ Q` | `(P∧Q) ∨ (¬P∧¬Q)`
+----|-----|---------|---------|---------|------------------
+ F  |  F  |  T      |  T      |  T      |  T
+ F  |  T  |  T      |  F      |  F      |  F
+ T  |  F  |  F      |  T      |  F      |  F
+ T  |  T  |  T      |  T      |  T      |  T
+
+- `P ⇔ Q`: valgono entrambe le implicazioni, `(P⇒Q) ∧ (Q⇒P)`
+    - `P ⇔ Q` vera: `P` e `Q` entrambe vere, o entrambe false
+    - Da proprietà distributiva e proprietà dell'inverso
+    - `(P⇒Q) ∧ (Q⇒P) ≡ (¬P∨Q) ∧ (¬Q∨P) ≡` <br> `(¬P∧¬Q) ∨ (¬P∧P) ∨ (¬Q∧Q) ∨ (P∧Q) ≡` <br> `(P∧Q) ∨ (¬P∧¬Q)`
+
+---
+
+# 🌱 Deduzione logica
+
+- Un *teorema* si riconduce all’implicazione `P ⇒ Q`
+    - `P` (*ipotesi*): proposizione che si assume vera
+    - `Q` (*tesi*): proposizione di cui si vuole dedurre la verità
+- Processo di *deduzione logica*, o *dimostrazione*, deve seguire ben precisi schemi di ragionamento
+    - Dimostrazione diretta (*modus ponens*)
+    - Dimostrazione per assurdo (*modus tollens*)
+
+---
+
+# ⭐ Dimostrazione diretta
+
+- *Modus ponens*: schema di ragionamento
+
+Premessa | Conseguenza
+---------|------------
+`(P ⇒ Q)` vera <br> `P` vera | `Q` vera
+
+- Esempio
+    - Se c'è sole, Ugo arriva in bici (implicazione, *regola d'inferenza*)
+    - C'è sole (*fatto*)
+    - Ugo arriva in bici (*deduzione*)
+- **Osservazione**: il solo fatto di sapere che `P⇒Q` è vera non consente di concludere niente su `P` e `Q`
+
+---
+
+# 🛠️ Passaggi intermedi
+
+- Sono possibili dimostrazioni con più passaggi intermedi
+- Se vere le implicazioni `P⇒R`, `R⇒Q`... <br> e se `P` vera... <br> allora vera anche `Q`
+- `((P⇒R) ∧ (R⇒Q) ∧ P) ⇒ Q`
+- Schema di ragionamento
+
+Premessa | Conseguenza
+---------|------------
+`(P ⇒ R)` vera <br> `(R ⇒ Q)` vera <br> `P` vera | `Q` vera
+
+---
+
+# 🛠️ Implicazione equivalente
+
+`P` | `Q` | `P ⇒ Q` | `¬Q` | `¬P` | `¬Q ⇒ ¬P`
+----|-----|---------|------|------|----------
+ F  |  F  |  T      |  T   |  T   |  T
+ F  |  T  |  T      |  F   |  T   |  T
+ T  |  F  |  F      |  T   |  F   |  F
+ T  |  T  |  T      |  F   |  F   |  T
+
+- Queste due implicazioni sono equivalenti
+    - `P ⇒ Q`
+    - `¬Q ⇒ ¬P`
+    - Infatti, `¬P∨Q ≡ ¬(¬Q)∨¬P`
+- Nelle dimostrazioni, possiamo usare la seconda implicazione al posto della prima
+
+---
+
+# ⭐ Dimostrazione per assurdo
+
+- Se è vera l’implicazione `(¬Q ⇒ ¬P)` ed è vera `P`, allora è vera anche `Q`
+- *Modus tollens*: schema di ragionamento
+
+| Premessa | Conseguenza |
+|----------|-------------|
+| `(¬Q ⇒ ¬P)` vera <br> `P` vera | `Q` vera |
+
+- Esempio di teorema
+    - `P` := `m·n ≠ 0`
+    - `Q` := `(m ≠ 0) ∧ (n ≠ 0)`
+    - Dimostrazione per assurdo: `¬Q ⇒ ¬P`
+    - Se `(m = 0) ∨ (n = 0)`, allora `m·n = 0`
+
+---
+
+
+# Logica dei predicati
+
+---
+
+# 🌱 Predicato, o enunciato aperto
+
+- Frase che contiene *variabili*
+    - La verità della frase dipende dal valore delle variabili
+    - Se variabili sostituite da valori, diventa proposizione
+- Esempio
+    - `P(x)` := “x è un numero dispari”
+- Occorre definire il *dominio* delle variabili
+- *Insieme di verità* del predicato
+    - Valori delle variabili che rendono vero l'enunciato
+    - Sottoinsieme del dominio delle variabili
+
+---
+
+# 🌱 Predicati con connettivi
+
+- `P(x) ∧ Q(x)` -- Vero per gli `x` che rendono veri sia `P` che `Q`
+- `P(x) ∨ Q(x)` -- Vero per gli `x` che rendono vero almeno uno tra i predicati `P` e `Q`
+- `¬P(x)` -- Vero per gli `x` che rendono falso `P`
+- `P(x) ⇒ Q(x)` -- Vero per gli `x` che rendono falso `P` oppure vero `Q`
+- `P(x) ⇔ Q(x)` -- Vero per gli `x` che rendono `P` e `Q` entrambi falsi o entrambi veri
+
+---
+
+# ⭐ Quantificatori
+
+- Un predicato può essere trasformato in una proposizione in due modi
+    - Sostituendo la variabili con valori
+    - Oppure, *quantificando* le sue variabili
+- Una variabile legata ad un quantificatore si dice *vincolata*, altrimenti *libera*
+- I quantificatori logici sono due
+    - Quantificatore **universale**
+    - Quantificatore **esistenziale**
+
+---
+
+# 🛠️ Quantificatore universale
+
+- Afferma che una data proprietà valga per *tutti i valori* nel dominio della variabile vincolata
+- `∀x, P(x)` -- “Per ogni x, P(x) è vero”
+- Esempi
+    - `∀n∊N, n multiplo di 4 ⇒ n pari`
+    - `∀x∊R, ∀y∊R, (x + y)² = x² + 2xy + y²`
+
+---
+
+# 🛠️ Quantificatore esistenziale
+
+- Afferma che una data proprietà valga per *almeno un valore* della variabile vincolata
+- `∃x : P(x)` -- “Esiste almeno un x tale che P(x) è vero”
+- Esempi
+    - `∃n∊N : n pari` -- Esiste almeno un numero pari
+    - `∃x∊R : 2x + 1 = 0` -- L'equazione ammette almeno una soluzione
+- Enunciati con `∄` riformulati con `∀` e negando il predicato
+    - `∄x : x² < 0`
+    - `∀x, x² ≥ 0`
+
+---
+
+# ⚙️ Proprietà dei quantificatori
+
+- I quantificatori sono sostanzialmente *congiunzioni* o *disgiunzioni* allargate a tutti gli elementi di un dominio
+    - Per semplicità, dominio `D = {1, 2, 3}`
+    - `∀x∊D, P(x) ≡ P(1) ∧ P(2) ∧ P(3)`
+    - `∃x∊D : P(x) ≡ P(1) ∨ P(2) ∨ P(3)`
+- Due quantificatori dello stesso tipo *possono* essere scambiati di posto senza alterare la verità dell’enunciato
+- Invece, due quantificatori di diverso tipo *non possono* essere scambiati di posto
+- I seguenti enunciati sono ben diversi
+    - `∀x∊R, ∃y∊R : y ≥ x`
+    - `∃y∊R : ∀x∊R, y ≥ x`
+
+---
+
+# ⭐ Negazione con quantificatori
+
+- Per negare un enunciato che contiene quantificatori, occorrono due modifiche:
+    - **➊** Sostituire tutti i `∀` con `∃`, e viceversa
+    - **➋** Negare il predicato
+- Proprietà analoga a *De Morgan*
+    - Infatti i quantificatori sono sostanzialmente `∧` o `∨` allargati
+- Esempi
+    - `¬(∀x, P(x)) ⇔ ∃x : ¬P(x)`
+    - `¬(∃x : P(x)) ⇔ ∀x, ¬P(x)`
+
+---
+
+![](images/hist/plato-aristotle.jpg) Platone ed Aristotele <br> ~350 a.C.
+# 🛠️ Sillogismi aristotelici
+
+- Modus ponens con quantificatori
+    - *Premessa maggiore*: “Tutti gli uomini sono mortali” <br> `∀x, uomo(x)⇒mortale(x)`
+    - *Premessa minore*: “Socrate è un uomo” <br> `uomo(Socrate)`
+    - *Conclusione*: “Socrate è mortale” <br> `mortale(Socrate)`
+- Il quantificatore si può eliminare sostituendo alla variabile un valore del dominio
+    - `uomo(Socrate)⇒mortale(Socrate)`
+- Poi si applica il modus ponens
+
+---
+
+# 🛠️ Operazioni tra insiemi
+
+- Siano definiti due insiemi
+    - `A = {x : P(x)}, B = {x : Q(x)}`
+- *Unione*
+    - `A ∪ B = {x : x∊A ∨ x∊B} = {x : P(x) ∨ Q(x)}`
+- *Intersezione*
+    - `A ∩ B = {x : x∊A ∧ x∊B} = {x : P(x) ∧ Q(x)}`
+- *Complemento*
+    - `A' = {x : x∉A} = {x : ¬P(x)}`
+
+---
+
+# 🛠️ Proprietà degli insiemi
+
+- Siano definiti due insiemi: `A = {x : P(x)}, B = {x : Q(x)}`
+
+Proprietà | Op. tra insiemi | Op. tra predicati
+----------|-----------------|------------------
+Commutativa | `A ∪ B = B ∪ A` | `P ∨ Q ≡ Q ∨ P`
+Commutativa | `A ∩ B = B ∩ A` | `P ∧ Q ≡ Q ∧ P`
+Associativa | `(A∪B) ∪ C = A ∪ (B∪C)` | `(P∨Q) ∨ R ≡ P ∨ (Q∨R)`
+Associativa | `(A∩B) ∩ C = A ∩ (B∩C)` | `(P∧Q) ∧ R ≡ P ∧ (Q∧R)`
+Distributiva | `(A∪B) ∩ C = (A∩C) ∪ (B∩C)` | `(P∨Q) ∧ R ≡ (P∧R) ∨ (Q∧R)`
+Distributiva | `(A∩B) ∪ C = (A∪C) ∩ (B∪C)` | `(P∧Q) ∨ R ≡ (P∨R) ∧ (Q∨R)`
+Doppia negazione | `(B')' = B` | `¬(¬P) ≡ P`
+De Morgan | `(A ∪ B)' = A' ∩ B'` | `¬(P ∨ Q) ≡ ¬P ∧ ¬Q`
+De Morgan | `(A ∩ B)' = A' ∪ B'` | `¬(P ∧ Q) ≡ ¬P ∨ ¬Q`
+
+---
+
+![large](images/repr/dominoes.png)
+# ⭐ Principio di induzione
+
+- Sia `P(n)` un predicato definito su `ℕ`, tale che:
+    - **(1)** `P(1)` è vero
+    - **(2)** `∀n`, supponendo `P(n)` vero, segue che anche `P(n+1)` è vero
+    - Allora `P(n)` risulta vero `∀n`
+
+Premessa | Conseguenza
+---------|------------
+`P(1)` <br> `∀n, P(n)⇒P(n+1)` | `∀n, P(n)`
+
+>
+
+Alcuni predicati sono definiti a partire da un dato `k`, anzichè da 1
+
+---
+
+# 🛠️ Esempio, formula di Gauss
+
+- Definiamo per comodità `G(n) = n·(n+1) / 2`
+- Definiamo il predicato `P(n)` come: `1 + 2 + ··· + n = G(n)`
+- Dimostriamo *per induzione* che il predicato è vero `∀n`
+- **(1)** Il predicato per `n=1` è vero, infatti:
+    - `G(1) = 1 · (1+1) / 2 = 1`
+- **(2)** Supponiamo `P(n)` vero, ne segue `P(n+1)` vero, infatti:
+    - Per la somma fino ad `n+1`, bisogna aggiungere un termine:
+    - `1 + 2 + ... + n + n+1 = G(n) + n+1 =` <br> `n·(n+1)/2 + n+1 =` `= (n² + 3·n + 2) / 2 =` <br> `(n+1)·(n+2)/2 = G(n+1)`
+- Quindi la formula vale `∀n`
+
+---
+
+![](images/fun/hanoi-strategy.png)
+# 🛠️ Esempio, Torre di Hanoi
+
+- *Regola 1*: Spostare solo un disco alla volta
+- *Regola 2*: Poggiarlo solo su uno più grande
+- *Strategia*: `n-1` dischi vanno su piolo di appoggio, in `R(n-1)` mosse; poi ultimo disco va a destinazione; infine si sovrappongono gli altri, in `R(n-1)` mosse
+- Dimostrare *per induzione* che il numero di mosse per spostare `n` dischi è `R(n) = 2ⁿ-1`
+- **(1)** Per 1 disco, 1 mossa: `1 = 2¹-1 = R(1)`
+- **(2)** Supponiamo servano `R(n)` mosse per `n` dischi...
+    - Allora per `n+1` dischi:
+    - `R(n) + 1 + R(n) = 2·(2ⁿ-1)+1 = 2`<sup>`n+1`</sup>`-1 = R(n+1)`
+- Quindi la formula vale `∀n`
+
+---
+
+![](images/repr/homer-genius.png)
+# ⚠️ Sillogismi errati e quiz
+
+- *Premessa maggiore*: “Tutti i geni sono distratti”
+    - `∀x, genio(x)⇒distratto(x)`
+- *Premessa minore*: “Io sono distratto”
+    - `distratto(Io)`
+- *Conclusione*: “Io sono un genio”
+    - `genio(Io)` -- **Doh!** 😕
+- Attenzione ad usare l'implicazione giusta!
+    - `P⇒Q`: condizione sufficiente, ma non necessaria
+    - “Tutti gli svedesi sono biondi” ...
+
+>
+
+<https://www.beniculturali.it/mibac/multimedia/MiBAC/documents/1228312182183_F1_Logica.pdf>

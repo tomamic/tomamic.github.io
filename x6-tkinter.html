@@ -1,0 +1,531 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gui con Tkinter</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/oop/tk-logo.svg"><img src="images/oop/pygame-logo.png"></figure>
+  <hgroup>
+    <h2>Introduzione alla programmazione</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>PyGame</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔 Grafica con PyGame</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/pygame-logo.png"><img src="images/oop/pygame-loop.png">
+        
+      </figure><ul>
+<li>Libreria per giochi 2D</li>
+<li>Grafica e suoni</li>
+<li>Su <em>SDL</em> - Simple DirectMedia Layer</li>
+<li>Semplice e veloce</li>
+<li>Open-source</li>
+<li>Multi-piattaforma</li>
+</ul>
+<blockquote></blockquote>
+<p><a href="http://www.pygame.org/">pygame.org</a></p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔  Disegno con PyGame</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/pygame-logo.png"><img src="images/oop/raster-coord.png">
+        <figcaption>→ pygame.org/docs</figcaption>
+      </figure><pre class="" data-lang="python"><code>import pygame
+pygame.init()                     # Prepare pygame
+screen = pygame.display.set_mode((640, 480)) # (w, h)
+screen.fill((255, 255, 255))      # BG (Red, Green Blue)
+
+# Yellow rectangle, left=50, top=75, w=90, h=50
+pygame.draw.rect(screen, (255, 255, 0), (50, 75, 90, 50))
+
+# Blue circle, center=(300, 50), radius=20
+pygame.draw.circle(screen, (0, 0, 255), (300, 50), 20)
+
+pygame.display.flip()             # Update the screen
+while pygame.event.wait().type != pygame.QUIT:
+    pass
+pygame.quit()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔 Animazione con PyGame</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="python"><code>import pygame
+pygame.init()                     # Prepare pygame
+screen = pygame.display.set_mode((320, 240))
+clock = pygame.time.Clock()       # To set game speed
+image = pygame.image.load('ball.png')
+
+x = 50; playing = True
+while playing:
+    for e in pygame.event.get():  # Handle events: mouse, keyb etc.
+        if e.type == pygame.QUIT: playing = False
+    screen.fill((255, 255, 255))  # Draw background
+    screen.blit(image, (x, 50))   # Draw foreground
+    x = (x + 5) % 320             # Update ball's position
+    pygame.display.flip()         # Surface ready, show it!
+    clock.tick(30)                # Wait 1/30 seconds
+pygame.quit()                     # Close the window
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔 Ciclo di animazione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="python"><code>import pygame
+pygame.init()                     # Prepare pygame
+screen = pygame.display.set_mode((320, 240))
+clock = pygame.time.Clock()       # To set game speed
+image = pygame.image.load('ball.png')
+
+x = 50; playing = True
+while playing:
+    for e in pygame.event.get():  # Handle events: mouse, keyb etc.
+        if e.type == pygame.QUIT: playing = False
+    screen.fill((255, 255, 255))  # Draw background
+    screen.blit(image, (x, 50))   # Draw foreground
+    x = (x + 5) % 320             # Update ball's position
+    pygame.display.flip()         # Surface ready, show it!
+    clock.tick(30)                # Wait 1/30 seconds
+pygame.quit()                     # Close the window
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔  Rimbalzi in PyGame</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/bounce.png">
+        
+      </figure><pre class="" data-lang="python"><code>arena = Arena(320, 240)
+Ball(arena, 40, 80); Ball(arena, 80, 40);
+Ghost(arena, 120, 80) # ...
+# a map from an actor type to an image
+images = {Ball: pygame.image.load('ball.png'),
+          Ghost: pygame.image.load('ghost.png')}
+screen = pygame.display.set_mode(arena.size())
+playing = True
+while playing:
+    # Handle events here!
+
+    arena.move_all()             # Game logic
+    screen.fill((255, 255, 255)) # Background
+    for a in arena.actors():
+        x, y, w, h = a.position()
+        img = images[type(a)]
+        screen.blit(img, (x, y)) # Foreground [...]
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔  Tastiera e mouse</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="python"><code>from pygame.locals import (KEYDOWN, KEYUP, K_RIGHT, K_d,
+    MOUSEBUTTONDOWN, MOUSEBUTTONUP, MOUSEMOTION)
+# ...
+for e in pygame.event.get():
+    # print(e)
+    if e.type == KEYDOWN and e.key in (K_RIGHT, K_d):
+        print('Right arrow (or D) pressed')
+    elif e.type == KEYUP and e.key in (K_RIGHT, K_d):
+        print('Right arrow (or D) released')
+    elif e.type == MOUSEBUTTONDOWN and e.button == 1:
+        print('Left mouse button pressed')
+    elif e.type == MOUSEBUTTONUP and e.button == 1:
+        print('Left mouse button released')
+    elif e.type == MOUSEMOTION:
+        print 'Mouse at (%d, %d)' % e.pos
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>🤔 Testo e suoni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="python"><code># Red (anti-aliased) text, centered, rotated 30° ccw
+font = pygame.font.SysFont('arial', 48)
+surface = font.render('Game over!', True, (255, 0, 0))
+surface = pygame.transform.rotate(surface, 30)
+x = (screen.get_width() - surface.get_width()) // 2
+y = (screen.get_height() - surface.get_height()) // 2
+screen.blit(surface, (x, y))  # surface ~ image
+</code></pre>
+<pre class="" data-lang="python"><code># Some sound
+pick_up_sound = pygame.mixer.Sound('pickup.wav')
+pick_up_sound.play()  # play(-1) to loop, then stop()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Gui con Tkinter</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Tk: libreria leggera e intuitiva, per interfacce grafiche</li>
+<li>In Python modulo <code>tkinter</code> (<em>Tk interface</em>)</li>
+<li>Portabile tra diversi sistemi</li>
+<li>Usa le primitive grafiche della piattaforma ospite<ul>
+<li>→ Efficiente anche su sistemi embedded</li>
+</ul>
+</li>
+<li>Windows, MacOS, Linux, vari Unix...</li>
+<li>Tcl, Ruby, Python, Perl</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Hello Notepad</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/tk-notepad-1.png">
+        
+      </figure><pre class="" data-lang="Python"><code>from tkinter import Tk, Text
+
+window = Tk()
+text_edit = Text(window)
+text_edit.pack(expand=1, fill='both')
+window.title('Notepad')
+# event loop: mouse, keyb etc.
+window.mainloop()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Aggiungere un bottone</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/tk-notepad-2.png">
+        
+      </figure><pre class="" data-lang="Python"><code>from tkinter import Tk, Text, Button
+
+window = Tk()
+text_edit = Text(window)
+text_edit.pack()
+
+# When button is clicked, window's
+# destroy method is executed
+quit_button = Button(window, text='Quit',
+                     command=window.destroy)
+# widgets in vertical layout
+quit_button.pack()
+
+window.title('Notepad')
+window.mainloop()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classe per il Notepad</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="Python"><code>from tkinter import Tk, Text, Button, messagebox
+
+class Notepad(Tk):
+    def __init__(self):
+        Tk.__init__(self)
+        # basic widgets as private fields
+        self._text = Text(self)
+        self._text.pack()
+        self._quit = Button(self, text='Quit', command=self.quit)
+        self._quit.pack()
+    def quit(self):
+        if messagebox.askokcancel('Quit', 'Are you sure?'):
+            self.destroy()
+
+win = Notepad()
+win.mainloop()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Creazione di un menù</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="Python"><code>from tkinter import (Tk, Text, Menu,
+                     messagebox, filedialog, END)
+class Notepad(Tk):
+    def __init__(self):
+        Tk.__init__(self)
+        text_edit = Text(self)
+        text_edit.pack()
+
+        menu_bar = Menu(self)
+        self['menu'] = menu_bar
+        menu_file = Menu(menu_bar, tearoff=0)
+        menu_bar.add_cascade(label='File', menu=menu_file)
+        menu_file.add_command(label='Open...', command=self.open)
+        menu_file.add_command(label='Save...', command=self.save)
+        menu_file.add_command(label='Quit', command=self.quit)
+    # ...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Scelta file</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="Python"><code>class Notepad(Tk):
+    # ...
+    def open(self):
+        fn = filedialog.askopenfilename()
+        if fn:
+            with open(fn, mode='r') as f:
+                contents = f.read()
+                self._text_edit.delete(1.0, END)
+                self._text_edit.insert(END, contents)
+    def save(self):
+        fn = filedialog.asksaveasfilename()
+        if fn:
+            with open(fn, mode='w') as f:
+                contents = self._text_edit.get(1.0, END)
+                f.write(contents)
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Disposizione widget</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/tk-notepad-3.png">
+        
+      </figure><ul>
+<li>Tk usa il meccanismo dei <em>geometry manager</em> per disporre i widget</li>
+<li>Ci sono tre sistemi di disposizione pricipali</li>
+<li>È possibile comporre più <code>Frame</code> (riquadri), per realizzare gerarchie di contenimento tra widget</li>
+</ul>
+<pre class="" data-lang="Pyhton"><code># vertical layout, default side='top'
+widget.pack()
+# horizontal layout
+widget.pack(side='left')
+# grid layout
+widget.grid(column=x, row=y)
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Riquadri compositi</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="Python"><code>from tkinter import Tk, Text, Frame, Button
+
+class Notepad(Tk):
+    def __init__(self):
+        Tk.__init__(self)
+        text_edit = Text(self)
+        text_edit.pack(side='left')
+
+        v_box = Frame(self)
+        v_box.pack(side='left')  # fill='y'
+        open_btn = Button(v_box, text='Open')
+        open_btn.pack()  # side='top'
+        save_btn = Button(v_box, text='Save')
+        save_btn.pack()
+        quit_btn = Button(v_box, text='Quit')
+        quit_btn.pack()
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Layout a griglia</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/oop/tk-fifteen-gui.png">
+        
+      </figure><ul>
+<li>Divide in una griglia lo spazio disponibile e dispone i widget nelle celle</li>
+<li>Specificare riga e colonna all'inserimento (l'indice parte da 0)</li>
+<li>Possibile specificare anche l'occupazione di più celle adiacenti</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>BoardGameGui – Costruzione gui</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/qt/puzzle.png">
+        
+      </figure><pre class="" data-lang="Python"><code>class BoardGameGui(Tk):
+    def __init__(self, g: BoardGame):
+        Tk.__init__(self)
+        self._game = g
+        for y in range(g.rows()):
+            for x in range(g.cols()):
+                b = Button(self)
+                b['command'] = (lambda x=x, y=y:
+                                (self._game.play_at(x, y),
+                                 self.update_buttons()))
+                b.grid(column=x, row=y)
+        self.update_buttons()
+
+    # ...
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>BoardGameGui – Aggiornamento bottoni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <figure>
+        <img src="images/qt/puzzle-solved.png">
+        
+      </figure><pre class="" data-lang="Python"><code>class BoardGameGui(Tk):
+    # ...
+
+    def update_buttons(self):
+        for y in range(self._game.rows()):
+            for x in range(self._game.cols()):
+                b = self.grid_slaves(row=y, column=x)[0]
+                b['text'] = self._game.get_val(x, y)
+        if self._game.finished():
+            messagebox.showinfo('Game finished', self._game.message())
+            self.destroy()
+</code></pre></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>

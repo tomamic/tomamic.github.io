@@ -1,0 +1,1645 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linguaggio C++</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="icon" type="image/png" href="theme/logo-tiny.png">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="all" href="theme/css/tomamic.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img src="theme/logo.png"></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <h1 data-config-title><!-- populated from slide_config.json --></h1>
+  <figure><img src="images/misc/cpp-logo.jpg"></figure>
+  <hgroup>
+    <h2>Ereditarietà</h2>
+    <p>Michele Tomaiuolo<br>Ingegneria dell'Informazione, UniPR</p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una nuova classe (<em>classe derivata</em>) viene creata a partire da una classe esistente (<em>classe base</em>)</li>
+<li>Eredita interfaccia e implementazione della classe base<ul>
+<li>Variabili membro (o <em>campi</em>)</li>
+<li>Funzioni membro (o <em>metodi</em>)</li>
+</ul>
+</li>
+<li>Può aggiungere variabili membro e funzioni membro</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Relazione “is a”</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un oggetto di una classe derivata può essere usato ovunque può essere usato uno della classe base (<em>Liskov</em>)</li>
+<li>Un oggetto di una classe derivata ha più di un tipo</li>
+</ul>
+<pre class="" data-lang="C++"><code>class HourlyEmployee : public Employee {
+public:
+    HourlyEmployee(string name, string code,
+                   double wageRate, double hours);
+    // …
+private:
+    // …
+};
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Overriding</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una classe derivata può <strong>ridefinire un metodo</strong> della classe base<ul>
+<li>La classe derivata deve contenere la dichiarazione del metodo ereditato</li>
+</ul>
+</li>
+<li>È ancora possibile invocare la <em>versione della classe base</em>, utilizzando:<ul>
+<li>Il nome della classe base</li>
+<li>Seguito dall’operatore di <em>scope resolution</em> <code>::</code></li>
+<li>Seguito dal nome del metodo</li>
+<li><code>obj_ptr-&gt;BaseClass::method_name()</code></li>
+</ul>
+</li>
+<li>Altrimenti, il metodo potrebbe chiamare se stesso, in <em>loop</em></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Overriding / overloading</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Overriding</strong><ul>
+<li>Una funzione ridefinita in una <em>classe derivata</em> ha lo <em>stesso numero e tipo di parametri</em> della funzione della classe base</li>
+<li>Sostituisce la funzione della classe base</li>
+</ul>
+</li>
+<li><strong>Overloading</strong><ul>
+<li>Una funzione sovraccaricata ha un diverso <em>numero e/o tipo di parametri</em></li>
+<li>La classe ha entrambe le funzioni</li>
+<li>Stesso meccanismo delle <em>normali funzioni</em></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Membri privati della classe base</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I membri privati della classe base non sono referenziabili nelle definizioni delle funzioni membro della classe derivata</li>
+<li>Diversamente verrebbe violato il principio di <em>incapsulamento</em></li>
+<li>Le funzioni membro della classe derivata possono accedere alle variabili membro private della classe base tramite le funzioni <em>accessor</em> e <em>mutator</em></li>
+<li>Le funzioni membro private della classe base non sono accessibili (di fatto non sono ereditate)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Qualificatore protected</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una variabile o funzione membro qualificata come <code>protected</code> può essere referenziata nelle funzioni membro di una classe derivata</li>
+<li>Le variabili membro protette agiscono come se fossero protette in ogni classe derivata</li>
+<li>Molti ritengono che l’uso di variabili membro protette comprometta l’incapsulamento<ul>
+<li>È quindi buona norma utilizzare <code>protected</code> solo quando assolutamente necessario</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Cosa non viene ereditato</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Oltre alle funzioni membro private non vengono ereditati<ul>
+<li><em>Costruttori</em></li>
+<li><em>Distruttori</em></li>
+<li><em>Costruttori di copia</em></li>
+<li><em>Operatori di assegnamento</em></li>
+</ul>
+</li>
+<li>Se non vengono definiti vengono creati quelli di default</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Costruttori nelle classi derivate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I costruttori della classe base non sono ereditati</li>
+<li>Per inizializzare le variabili ereditate…<ul>
+<li>Un costruttore della classe derivata può invocare esplicitamente un costruttore della classe base, nella <strong>lista di inizializzazione</strong></li>
+<li>Altrimenti, viene invocato automaticamente il <em>costruttore senza parametri</em> della classe base</li>
+</ul>
+</li>
+</ul>
+<pre class="" data-lang="C++"><code>HourlyEmployee::HourlyEmployee(string name, string number,
+                               double wageRate, double hours)
+        : Employee(name, number), wageRate(wageRate), hours(hours)
+{
+    // deliberately empty
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ordine di chiamata dei costruttori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La chiamata del costruttore della classe base è la prima azione del costruttore della classe derivata</li>
+<li>Se <code>A ◅- B ◅- C</code>, quando viene creato un oggetto di classe <code>C</code>…<ul>
+<li>Prima viene chiamato un costruttore della classe <code>A</code></li>
+<li>Poi un costruttore della classe <code>B</code></li>
+<li>Infine un costruttore della classe <code>C</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Distruttori in classi derivate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Quando il distruttore di una classe derivata è invocato, viene invocato automaticamente il distruttore della classe base</li>
+<li>I distruttori sono chiamati in <em>ordine inverso</em> rispetto ai costruttori</li>
+<li>Se <code>A ◅- B ◅- C</code>, quando termina lo scope di un oggetto di classe <code>C</code>…<ul>
+<li>Viene chiamato prima il distruttore della classe <code>C</code></li>
+<li>Poi quello della classe <code>B</code></li>
+<li>Infine quello della classe <code>A</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Operatori di assegnamento in classi derivate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una classe derivata quando sovraccarica l’operatore di assegnamento può fare uso dell’operatore di assegnamento della classe base</li>
+</ul>
+<pre class="" data-lang="C++"><code>Derived&amp; Derived::operator=(const Derived&amp; rtside)
+{
+    Base::operator=(rtSide);
+    //…
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Costruttori di copia in classi derivate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una classe derivata quando sovraccarica il costruttore di copia può fare uso del costruttore di copia della classe base</li>
+</ul>
+<pre class="" data-lang="C++"><code>Derived::Derived(const Derived&amp; obj) : Base(obj), …
+{
+    // …
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Relazioni tra oggetti</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Relazione “<strong>is a</strong>”<ul>
+<li>Esempio: <em>a HourlyEmployee is an Employee</em></li>
+<li>Utile soprattutto per polimorfismo</li>
+<li>Sempre possibile usare un oggetto di una sotto-classe al posto di un oggetto di una classe base</li>
+</ul>
+</li>
+<li>Relazione “<strong>has a</strong>”<ul>
+<li>Esempio: <em>an Employee has a Date (of employment)</em></li>
+<li>Serve per riutilizzo di funzionalità</li>
+<li>Grado elevato di flessibilità: ...</li>
+<li>Gli oggetti membri sono di solito nascosti</li>
+<li>Inaccessibili ai programmatori che usano l’oggetto esterno</li>
+<li>Possono essere cambiati senza disturbare il codice esterno</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà e riuso</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La classe base contiene il codice comune alle classi derivate<ul>
+<li>L’ereditarietà è una forma di <em>riuso del codice</em></li>
+<li>Si eredita il codice della classe base</li>
+</ul>
+</li>
+<li>Ma la classe derivata è strettamente dipendente dalla classe base<ul>
+<li>Ne eredita anche l’interfaccia!</li>
+</ul>
+</li>
+<li>Per il semplice riuso è meglio far ricorso alla <em>composizione</em><ul>
+<li>Oggetti incapsulati forniscono funzionalità di base</li>
+<li>Vedi Eckel, <em>Thinking in C++</em>: <a href="http://www.mindview.net/Books">http://www.mindview.net/Books</a></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà protetta e privata</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><strong>Ereditarietà protetta</strong><ul>
+<li>I membri pubblici della classe base hanno accessibilità protetta nella classe derivata</li>
+</ul>
+</li>
+<li><strong>Ereditarietà privata</strong><ul>
+<li>Tutti i membri della classe base hanno accessibilità privata nella classe derivata</li>
+</ul>
+</li>
+<li>La relazione “<em>is a</em>” non è valida<ul>
+<li>Sono raramente usate</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà multipla</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una classe derivata può avere più di una classe base</li>
+<li>Possono esserci situazioni ambigue</li>
+</ul>
+<pre class="prettyprint lang-c++" data-lang="c++"><code>class A  { /* ... */ };
+class B  { /* ... */ };
+
+class C: public B, public A  // Note the order  {
+public:
+  C()  { cout &lt;&lt; "C's constructor called" &lt;&lt; endl; }
+};
+
+int main()  {  C c; }
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>The slicing problem</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Assegnamento di un oggetto di una classe derivata ad una <em>variabile della sua classe base</em><ul>
+<li>Variabili e funzioni membro aggiunte dalla classe derivata vengono perse</li>
+</ul>
+</li>
+<li>Il problema può essere risolto usando:<ul>
+<li><em>Puntatori ad oggetti</em></li>
+<li><em>Funzioni virtuali</em></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Upcasting e downcasting</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Il casting da un tipo discendente a un tipo antenato è detto <strong>upcasting</strong> ed è sicuro</li>
+<li>Il casting da un tipo antenato a un tipo discendente è detto <strong>downcasting</strong> ed è pericoloso</li>
+<li><strong>Dynamic cast</strong> per downcasting sicuro, su <em>puntatori</em><ul>
+<li><code>dynamic_cast &lt; new_type &gt; ( expression )</code></li>
+<li>Se il cast riesce (cioè se il tipo dinamico corrisponde al tipo che si vuole ottenere)...</li>
+<li>Restituisce un puntatore al nuovo tipo</li>
+<li>Altrimenti restituisce <code>nullptr</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Polimorfismo</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Polimorfismo e funzioni virtuali</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Meccanismo fondamentale per realizzare <em>sistemi estensibili</em></li>
+<li>Oggetti di tutte le classi di una gerarchia trattati come oggetti della <em>classe base</em></li>
+<li>Risultato:<ul>
+<li>Scrittura di programmi più semplici (meno <em>branching logic</em>)</li>
+<li>Favorito il testing ed il mantenimento del codice</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Metodi virtuali</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Quando un metodo di una classe base è dichiarato virtuale…</li>
+<li>Se invocato tramite un puntatore o un riferimento…<ul>
+<li>Il programma sceglie a tempo di esecuzione la funzione della classe appropriata (<em>late binding</em>, o <em>dynamic binding</em>)</li>
+</ul>
+</li>
+<li>Se invocato su un oggetto…<ul>
+<li>La risoluzione del riferimento avviene a tempo di compilazione (<em>static binding</em>)</li>
+<li>La funzione chiamata è quella della classe dell’oggetto (ottimizzazione)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Metodi virtuali</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Per specificare che una funzione è virtuale si include il modificatore <code>virtual</code> nella dichiarazione (non nella definizione)</li>
+<li>Quando la definizione di una funzione virtuale viene cambiata in una classe derivata si parla di <em>overriding</em></li>
+<li>La proprietà di essere una funzione virtuale viene ereditata lungo tutta la gerarchia</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Polimorfismo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se oggetti di classi derivate da una classe base comune ...</li>
+<li>... rispondono in modi diversi alla chiamata di una certa funzione</li>
+<li>Si implementa tramite le <strong>funzioni virtuali</strong></li>
+<li>Chiamata di una funzione virtuale tramite un <em>puntatore alla classe base</em><ul>
+<li>Il programma sceglie la ridefinizione corretta della funzione</li>
+<li>Nella classe derivata appropriata</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Polimorfismo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se una funzione <strong>non virtuale</strong> è ridefinita in una classe derivata non si ha polimorfismo<ul>
+<li>Se viene chiamata tramite un <em>puntatore alla classe base</em>, è utilizzata la versione della classe base</li>
+<li>Se viene chiamata tramite un <em>puntatore alla classe derivata</em>, è utilizzata la versione della classe derivata</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Implementazione delle funzioni virtuali</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Le funzioni virtuali introducono <em>overhead</em></li>
+<li>Compilatore crea una <strong>tabella delle funzioni virtuali</strong><ul>
+<li>Solo se una classe ha una o più funzioni membro virtuali</li>
+<li>La tabella contiene l’indirizzo di ciascuna funzione virtuale</li>
+</ul>
+</li>
+<li>Ogni <em>istanza</em> contiene un puntatore alla tabella delle funzioni virtuali</li>
+<li>Quando una funzione virtuale viene chiamata usando un <em>puntatore</em> all’oggetto...<ul>
+<li>Il sistema <strong>runtime</strong> decide quale definizione della funzione usare</li>
+<li>Usa la tabella, invece del tipo del puntatore</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classi astratte e funzioni virtuali pure</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una funzione <strong>virtuale pura</strong> non ha definizione</li>
+<li>Una classe con una o più funzioni virtuali pure è detta <strong>astratta</strong></li>
+<li>Una classe astratta può essere usata solo come classe base per derivare altre classi, <em>non si possono istanziare</em> oggetti</li>
+</ul>
+<pre class="" data-lang="C++"><code>class Abs {
+public:
+    virtual void f() = 0;
+};
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Ereditarietà di interfaccia e di implementazione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Con l’ereditarietà pubblica si può ereditare:<ul>
+<li>La sola interfaccia (funzioni <em>virtuali pure</em>), oppure...</li>
+<li>L’interfaccia più...</li>
+<li>Un’implementazione di default (funzioni <em>virtuali</em>)</li>
+<li>Un’implementazione obbligatoria (funzioni <em>non virtuali</em>)</li>
+</ul>
+</li>
+<li>È bene non ridefinire le funzioni ereditate non virtuali</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Polimorfismo</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li><em>Aumento di generalità</em><ul>
+<li>È il runtime a doversi occupare delle specificità, non il programmatore</li>
+</ul>
+</li>
+<li><em>Estendibilità</em><ul>
+<li>Il codice è scritto indipendentemente dai tipi derivati</li>
+<li>Nuovi tipi possono essere aggiunti...</li>
+<li>Senza dover apportare modifiche a quanto già sviluppato</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni virtuali e parametri di default</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Quando si eredita una funzione virtuale con un parametro di default, è bene non cambiarne il valore</li>
+<li>Motivazione<ul>
+<li>Le funzioni virtuali usano <em>dynamic binding</em></li>
+<li>I parametri di default usano <em>static binding</em></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Distruttori delle classi base</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se si dealloca un oggetto di una classe derivata...<ul>
+<li>Attraverso un puntatore alla classe base...</li>
+<li>E la classe base ha un distruttore non virtuale</li>
+<li>⇒ Il risultato è indefinito</li>
+</ul>
+</li>
+<li>È bene dichiarare <em>virtuali</em> i distruttori delle classi base</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark" >
+  
+    <aside class="gdbar"><img src="theme/logo.png"></aside>
+    <hgroup class="auto-fadein">
+      <h2>Template</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Template</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I template consentono di definire funzioni e classi molto generali che hanno parametri al posto dei tipi</li>
+<li>Tecnica particolarmente apprezzata perché consente una notevole riusabilità del software</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Template di funzioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>I template di funzioni supportano l’astrazione algoritmica: esprimere algoritmi in modo molto generale trascurando dettagli implementativi</li>
+<li>Esempio: scambio dei valori di due variabili</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni template: sintassi</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La dichiarazione e la definizione di una funzione template devono essere precedute dal prefisso di template<ul>
+<li><code>template&lt;class T&gt;</code></li>
+</ul>
+</li>
+<li>Una funzione template corrisponde a un insieme di definizioni di funzione, il compilatore ne produce una per ogni tipo per cui si usa il template</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni template: sintassi (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>È possibile avere template di funzioni con più di un parametro di tipo<ul>
+<li><code>template&lt;class T1, class T2&gt;</code></li>
+</ul>
+</li>
+<li>Generalmente si usano template di funzioni con un solo parametro di tipo</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Funzioni template e compilatori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Molti compilatori non supportano la compilazione separata e richiedono che la definizione della funzione template sia nello stesso file in cui viene usata, prima della prima invocazione</li>
+<li>È possibile mettere la definizione della funzione template in un file separato ed includere questo file</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Definzione e uso di funzioni template</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>È buona norma scrivere prima una funzione ordinaria e, solo dopo che la si è verificata, convertirla in un template</li>
+<li>Una funzione template può essere usata per ogni tipo per cui il codice della funzione ha senso</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Template di classi</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La definizione di una classe template deve essere preceduta da<ul>
+<li><code>template&lt;class T&gt;</code></li>
+</ul>
+</li>
+<li>Le funzioni membro sono template</li>
+<li>Specificando il tipo è possibile dichiarare oggetti della classe template, usare il nome della classe come tipo di un parametro di una funzione, …</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Template di classi (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Spesso le definizioni di classi template hanno restrizioni implicite sui tipi che possono essere sostituti al parametro</li>
+<li>Molti compilatori non supportano la compilazione separata, occorre includere anche il file di implementazione nel file di applicazione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Template ed ereditarietà</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>È possibile definire una classe template derivata a partire da una classe base (anche non template)</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Gestione delle eccezioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>C++ fornisce strumenti per gestire situazioni eccezionali</li>
+<li>Terminologia<ul>
+<li>Sollevare un’eccezione (to throw an exception) = segnalare una situazione eccezionale</li>
+<li>Intercettare l’eccezione (to catch or handle the exception) = gestire la situazione eccezionale</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Costrutto try-throw-catch</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>try
+{
+    /* Some statements */
+    if (Exceptional_Case) throw exception;
+    /* Some more statements */
+}
+catch(Type e)
+{
+    /* Code to be performed if a value of type `Type` */
+    /* is thrown in the try block */
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Blocco try</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Contiene il codice per gestire le situazioni normali</li>
+<li>Può riconoscere e segnalare situazioni speciali sollevando eccezioni</li>
+<li>Se non si verificano eccezioni, l’esecuzione del blocco try è quella standard</li>
+<li>E’ buona norma inserire in un blocco try il solo codice che potenzialmente può sollevare un’eccezione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Istruzione throw</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Usata per “lanciare” un valore detto eccezione</li>
+<li>Il valore lanciato può essere di qualsiasi tipo</li>
+<li>L’esecuzione del blocco try termina e il controllo passa a un blocco catch</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Blocco catch</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Contiene il codice per gestire la situazione eccezionale</li>
+<li>Ha un parametro che<ul>
+<li>Specifica quale tipo di valore può essere intercettato dal blocco</li>
+<li>Consente di utilizzare il valore intercettato all’interno del blocco</li>
+</ul>
+</li>
+<li>Se non viene sollevata nessuna eccezione l’esecuzione del blocco try viene completata e il blocco catch viene ignorato</li>
+<li>Una volta completato il blocco catch, viene eseguito il codice che segue</li>
+<li>Un blocco catch risponde solo a un blocco try immediatamente precedente</li>
+<li>Se non c’è un blocco catch del tipo opportuno il programma termina</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classi di eccezioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sono classi i cui oggetti contengono l’informazione che si vuole lanciare al blocco catch</li>
+<li>In questo modo si ottiene un diverso tipo per ogni possibile situazione eccezionale</li>
+<li>Può essere utile definire una gerarchia di classi di eccezioni</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Eccezioni multiple</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un blocco try può potenzialmente sollevare più eccezioni di tipi diversi</li>
+<li>In ogni esecuzione verrà sollevata al massimo una eccezione</li>
+<li>Ogni blocco catch può intercettare valori di un solo tipo</li>
+<li>Si possono avere più blocchi catch dopo un blocco try per gestire eccezioni di tipo diverso</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Blocco catch di default</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Quando in un blocco try viene sollevata un’eccezione, i blocchi catch che seguono sono considerati in ordine, viene eseguito il primo che intercetta quel tipo di eccezione</li>
+<li>Blocco catch speciale che intercetta ogni tipo di eccezione, da usare come default<ul>
+<li><code>catch(...) { cout &lt;&lt; “Unexplained exception”; }</code></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sollevare un’eccezione in una funzione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Spesso è utile ritardare la gestione di un’eccezione</li>
+<li>Una funzione può sollevare un’eccezione e non intercettarla</li>
+<li>Sarà il programma che usa la funzione a gestire l’eccezione</li>
+<li>Il programma metterà la chiamata della funzione in un blocco try seguito da un blocco catch che intercetta l’eccezione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Specifica delle eccezioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Elenca le eccezioni che possono essere sollevate da una funzione e non vengono da essa intercettate</li>
+<li>Deve apparire sia nella dichiarazione che nella definizione della funzione</li>
+<li>Se viene sollevata un’eccezione che non viene intercettata e non compare nella specifica, viene chiamata la funzione unexpected che per default termina il programma, ma può essere ridefinita</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Specifica delle eccezioni ed ereditarietà</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se <code>B-&gt;D</code>, un’eccezione di tipo <code>D</code> viene gestita come se fosse di tipo <code>B</code>, anche rispetto alla specifica</li>
+<li>Quando si dà una nuova definizione o si fa overriding di una funzione ereditata, non si possono aggiungere eccezioni alla specifica, ma se ne possono eliminare</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Quando sollevare un’eccezione</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se la funzione è in grado di gestire in modo semplice il caso speciale, non deve sollevare l’eccezione</li>
+<li>Se invece il modo in cui il caso speciale va gestito dipende da dove la funzione è usata, si delega la gestione al livello superiore (le eccezioni non intercettate risalgono di scope)</li>
+<li>Non usare le eccezioni nei distruttori</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempio: allocazione dinamica</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;new&gt;
+using std::bad_alloc;
+//…
+try
+{
+    int *p = new int[100];
+}
+catch(bad_alloc)
+{
+    cout &lt;&lt; “Cannot alloc p”;
+    //…
+}
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Abuso delle eccezioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>La gestione delle eccezioni genera overhead sia temporale che spaziale</li>
+<li>Le istruzioni throw rendono contorto il flusso di controllo (come le istruzioni di salto)</li>
+<li>La gestione delle eccezioni va usata con moderazione</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Vantaggi della gestione delle eccezioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>In un linguaggio che non la supporta si può restituire un codice di errore<ul>
+<li>Occorre controllarlo ogni volta</li>
+<li>Il programma può ignorarlo</li>
+<li>Alcune funzioni non possono restituire un codice di errore</li>
+</ul>
+</li>
+<li>In C++<ul>
+<li>Gestione uniforme delle eccezioni per tutte le funzioni</li>
+<li>L’eccezione non può essere ignorata</li>
+<li>Non si mescola la gestione del caso speciale e dei casi normali</li>
+<li>Migliora la gestione delle variabili locali</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Strutture dati collegate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sono composte da variabili dinamiche di tipo struct o classe dette nodi</li>
+<li>I nodi contengono puntatori che puntano ad altri nodi</li>
+<li>La Standard Template Library (STL) contiene versioni predefinite di queste strutture dati</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Liste concatenate</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sono liste di nodi in cui ogni nodo contiene un puntatore che punta al nodo successivo</li>
+<li>Il primo nodo è detto testa, la lista è referenziata tramite un puntatore alla testa</li>
+<li>L’ultimo nodo contiene un puntatore NULL</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Pile o stack</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una pila (o stack) è una struttura dati che gestisce i dati in modo LIFO</li>
+<li>Ha due operazioni base:<ul>
+<li>Aggiungere un elemento in cima alla pila (push)</li>
+<li>Prelevare un elemento dalla cima della pila (pop)</li>
+</ul>
+</li>
+<li>Può essere implementata tramite una lista concatenata</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Code</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Una coda (o queue) è una struttura dati che gestisce i dati in modo FIFO</li>
+<li>Può essere implementata tramite una lista concatenata</li>
+<li>Occorrono due puntatori: uno alla testa e un uno alla fine della lista</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Classi friend</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se una classe F è friend di una classe C, tutte le funzioni membro di F sono friend della classe C</li>
+</ul>
+<pre class="" data-lang="C++"><code>class F; // forward declaration
+class C
+{
+public:
+    /*…*/
+    friend class F;
+    /*…*/
+};
+class F
+{ /*…*/ };
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Iteratori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un iteratore è un costrutto usato per indicare un elemento all’interno di una struttura dati</li>
+<li>Una classe iteratore estende il concetto di puntatore definendo operatori che consentono di usare la sintassi dei puntatori con gli oggetti della classe (++, --, ==, !=, *)</li>
+<li>Un iteratore è usato insieme a una classe struttuta dati che ha le funzioni membro begin() e end()</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Standard Template Library</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Progettata per gestire insiemi di dati in modo comodo ed efficiente senza conoscere dettagli implementativi</li>
+<li>Fa parte dello standard C++</li>
+<li>È basata sulla programmazione generica</li>
+<li>Containers<ul>
+<li>Sono classi template usate per contenere insiemi di dati</li>
+</ul>
+</li>
+<li>Iterators<ul>
+<li>Servono per muoversi nell’insieme di dati</li>
+</ul>
+</li>
+<li>Algorithms<ul>
+<li>Implementazioni di molti algoritmi per operare sull’insieme di dati</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Iteratori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>È un’astrazione progettata per nascondere i dettagli implementativi e fornire un modo uniforme per esplorare le strutture dati</li>
+<li>Ogni classe container ha il suo tipo di iteratori ma la terminologia, la sintassi e la semantica sono le stesse</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Operatori per iteratori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Operatore di incremento ++ (in forma prefissa e postfissa)<ul>
+<li>Fa avanzare l’iteratore all’elemento successivo</li>
+</ul>
+</li>
+<li>Operatore di decremento -- (in forma prefissa e postfissa)<ul>
+<li>Fa retrocedere l’iteratore all’elemento precedente</li>
+</ul>
+</li>
+<li>Operatori di confronto == e !=<ul>
+<li>Per verificare se due iteratori puntano allo stesso elemento</li>
+</ul>
+</li>
+<li>Operatore di dereferenziazione *<ul>
+<li>Per accedere all’elemento puntato dall’iteratore (l’accesso può essere di sola lettura)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Iteratori e containers</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Le classi container hanno due funzioni membro che restituiscono iteratori collocati in posizioni speciali<ul>
+<li>begin() restituisce un iteratore che punta al primo elemento</li>
+<li>end() restituisce un valore speciale che può essere usato per verificare se un iteratore punta oltre l’ultimo elemento</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Tipi di iteratori</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Gli iteratori sono classificati secondo il tipo di operazioni ad essi applicabili<ul>
+<li>Forward iterators: si può applicare l’operazione ++</li>
+<li>Bidirectional iterators: si possono applicare le operazioni ++ e --</li>
+<li>Random access iterators: si possono applicare le operazioni ++ e -- e si può accedere a qualsiasi elemento in un solo passo</li>
+</ul>
+</li>
+<li>Ogni categoria include le precedenti</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Iteratori constant e mutable</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un iteratore di qualsiasi tipo è<ul>
+<li>Constant se l’operatore * restituisce l’elemento puntato come r-value</li>
+<li>Mutable se l’operatore * restituisce l’elemento puntato come l-value</li>
+</ul>
+</li>
+<li>Se una classe container ha iteratori mutable, ha anche iteratori const</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Reverse iterators</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Se una classe container ha iteratori bidirezionali, per passare gli elementi in ordine inverso si possono usare i reverse iterators</li>
+<li>La funzione membro rbegin() restituisce un iteratore che punta all’ultimo elemento</li>
+<li>La funzione membro rend() restituisce un valore speciale che può essere usato per verificare se un reverse iterator punta oltre il primo elemento</li>
+<li>L’operatore ++ fa avanzare un reverse iterator in senso inverso</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sequential containers</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Gli elementi sono ordinati in base al modo in cui sono inseriti<ul>
+<li>slist (lista concatenata semplice, non standard)</li>
+<li>list (lista concatenata doppia)</li>
+<li>vector</li>
+<li>deque (coda in cui si inseriscono e rimuovono elementi a entrambe le estremità)</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>List (vs. vector)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Gli elementi non sono contigui in memoria</li>
+<li>Non forniscono accesso casuale agli elementi</li>
+<li>L’inserimento e la rimozione degli elementi impiegano lo stesso tempo in tutte le posizioni</li>
+<li>L’inserimento o la rimozione di un elemento non invalidano puntatori, iteratori e reference</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Container adapters</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Sono classi template implementate a partire da altre classi<ul>
+<li>stack, queue basate su deque</li>
+<li>priority_queue basata su vector</li>
+</ul>
+</li>
+<li>È possibile specificare un container sottostante differente da quello di default<ul>
+<li>Es: stack<int, vector\<int> ></li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Associative containers</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Ogni elemento ha associato un valore detto chiave</li>
+<li>Gli elementi sono individuati per mezzo della chiave</li>
+<li>set, multiset, map, multimap</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Set</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Ogni elemento coincide con la sua chiave</li>
+<li>Ogni elemento può comparire al più una volta</li>
+<li>Per motivi di efficienza memorizza gli elementi in ordine rispetto al loro valore (i set sono implementati come alberi binari)</li>
+<li>Per default l’ordinamento usa l’operatore &lt;
+    È possibile specificare un diverso criterio di ordinamento purché sia<ul>
+<li>Antisimmetrico: op(x,y)=TRUE -&gt; op(y,x)=FALSE</li>
+<li>Transitivo: op(x,y)=TRUE &amp;&amp; op(y,z)=TRUE -&gt; op(x,z) = TRUE</li>
+<li>Irriflessivo: op(x,x) = FALSE</li>
+</ul>
+</li>
+<li>multiset è come set ma consente la ripetizione degli elementi</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Map</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre><code>È un insieme di coppie ordinate di elementi (corrisponde a una funzione)
+- Es: map&lt;string, int&gt; numberMap;
+</code></pre>
+<ul>
+<li>Per motivi di efficienza memorizza gli elementi in ordine rispetto al valore della chiave</li>
+<li>Se non si specifica un ordinamento, viene usato quello di default</li>
+<li>multimap è come map ma consente che più valori siano associati alla stessa chiave</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Algoritmi generici</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>STL contiene algoritmi generici</li>
+<li>STL specifica non solo<ul>
+<li>sintassi (interfaccia)</li>
+<li>semantica (relazioni di I/O)</li>
+</ul>
+</li>
+<li>ma anche<ul>
+<li>tempo di calcolo</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Miscellanea</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Regole di buona programmazione<ul>
+<li>Pre-condizioni e post-condizioni</li>
+<li>Programmazione difensiva</li>
+<li>La macro assert</li>
+</ul>
+</li>
+<li>Checklist for class authors</li>
+<li>Cosa fare ora</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Pre- e post-condizioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre><code>È buona norma includere nella dichiarazione di una funzione un commento che indichi
+- Pre-condizioni: condizioni che devono esistere quando la funzione è chiamata
+- Post-condizioni: condizioni che si verificano dopo che la funzione è eseguita
+-     Descrizione del valore restituito o delle modifiche al valore degli argomenti
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Esempio di pre- e post-condizioni</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>void showInterest(double balance, double rate);
+//Precondition: balance is a non-negative savings
+//account balance, rate is the interest rate expressed
+//as a percentage, such as 5 for 5%.
+//Postcondition: the amount of interest on the given
+//balance at the given rate is shown on the screen.
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Programmazione difensiva</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Metodologia che punta alla prevenzione dell’errore piuttosto che alla sua correzione</li>
+<li>Si introducono controlli (detti invarianti) in punti del programma in cui certe condizioni devono sicuramente essere verificate</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Macro assert</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Un altro modo per introdurre controlli di errore al fine di documentare e verificare la correttezza dei programmi</li>
+<li>Valuta un’espressione booleana:<ul>
+<li>se è vera non accade nulla</li>
+<li>se è falsa il programma termina e invia un messaggio di errore</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Macro assert (2)</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Può essere usata per verificare le pre-condizioni
+    È definita nella libreria cassert</li>
+<li>Utile nella fase di debug, dopo il test introduco #define NDEBUG e gli assert vengono ignorati<ul>
+<li>assert infatti è definita come una macro: definendo NDEBUG prima di includere assert.h, si disattiva la macro</li>
+</ul>
+</li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Deallocazione autom.</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <ul>
+<li>Reference counting vs. garbage collection<ul>
+<li>Quando ci sono 0 riferimenti, oggetto rimosso</li>
+<li>Risolve maggior parte di memory leak</li>
+<li>Non funziona con riferim. ciclici! (Cfr. weak_ptr)</li>
+</ul>
+</li>
+<li>TR1 (2005) di C++ introduce shared_ptr<ul>
+<li>// vector<Polygon*> elements; vector<shared_ptr\<Polygon> > elements;</li>
+<li>Oggetti rimossi quando si distrugge il vector</li>
+<li>O cmq quando si annulla l'ultimo shared_ptr</li>
+</ul>
+</li>
+<li><em>Last one out, turn off the lights</em></li>
+</ul></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Lista con smart ptr</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>#include &lt;tr1/memory&gt;
+typedef std::tr1::shared_ptr&lt;Polygon&gt; PolyPtr;
+
+class ListOfPolygons {
+  public:
+    void addElement(Polygon* p); // Same signature, or...
+    Polygon* getElement(int i);  // PolyPtr everywhere
+    int getSize();
+    void sort();
+  private:
+    vector&lt;PolyPtr&gt; elements;
+}
+typedef std::tr1::shared_ptr&lt;ListOfPolygons&gt; ListPtr;
+
+void ListOfPolygons::addElement(Polygon* p) {
+  elements.push_back(PolyPtr(p));
+}
+Polygon* ListOfPolygons::getElement(int i) {
+  return elements[i].get();
+}
+int ListOfPolygons::getSize() { return elements.size(); }
+</code></pre></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Smart ptr all'opera</h2>
+      <h3></h3>
+    </hgroup>
+    <article >
+      <pre class="" data-lang="C++"><code>// Create a list and fill it with polygons
+ListPtr list(new ListOfPolygons());
+list-&gt;addElement(new Rectangle(5, 7));
+list-&gt;addElement(new Square(6));
+list-&gt;addElement(new Triangle(3, 4, 5));
+list-&gt;addElement(new RegularPolygon(5, 7));
+
+// Print areas
+list-&gt;sort();
+for (int i = 0; i &lt; list-&gt;getSize(); ++i) {
+  PolyPtr p(list-&gt;getElement(i));
+  cout &lt;&lt; p-&gt;getName() &lt;&lt; ": " &lt;&lt; p-&gt;area();
+}
+
+// Delete polygons and list
+list = NULL; // No need to do anything else!
+</code></pre></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img src="theme/logo.png"></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Domande?&gt;</h2>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    Michele Tomaiuolo
+    <br>
+    Palazzina 1, int. 5708
+    <br>
+    Ingegneria dell'Informazione, UniPR
+    <br>
+    <a href="http://sowide.unipr.it/tomamic">sowide.unipr.it/tomamic</a>
+  </p>
+</slide>
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+</body>
+</html>
