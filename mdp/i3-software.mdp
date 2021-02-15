@@ -6,7 +6,7 @@
 ---
 
 ![large](images/dev/waterfall-model.svg) Waterfall model
-# Ciclo di vita a cascata
+# 🌱 Ciclo di vita a cascata
 
 - **Analisi**
     - Modello, requisiti, fattibilità
@@ -26,7 +26,7 @@
 ---
 
 ![large](images/dev/rup-cycle.png)
-# Evoluzione di un sistema sw
+# 🌱 Evoluzione di un sistema sw
 
 - Evoluzione ineliminabile per molti sistemi
     - Prestazioni, qualità, funzionalità (manutenzione *perfettiva*, ~60%)
@@ -39,7 +39,7 @@
 ---
 
 ![large](images/dev/programmer.svg)
-# Qualità del software
+# 🌱 Qualità del software
 
 - Le qualità su cui si basa la valutazione di un sistema software possono essere:
     - **Interne**, riguardano le caratteristiche legate al **processo** di sviluppo e non sono direttamente visibili agli utenti

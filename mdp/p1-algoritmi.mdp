@@ -506,8 +506,6 @@ g2d.main_loop()
 
 # 🛠️ Moduli
 
-- *Python Standard Library*: <http://docs.python.org/3/library/>
-
 ``` py
 import math
 y = math.sin(math.pi / 4)
@@ -528,6 +526,8 @@ print(die1, die2)
 
 >
 
+*Python Standard Library*: <http://docs.python.org/library/>
+<br><br>
 Tutti gli `import` all'inizio dello script, per evidenziare le dipendenze
 
 ---

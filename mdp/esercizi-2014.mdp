@@ -313,7 +313,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # 3.2 Movimento a serpentina
 
 - Partire dal classico ciclo di una applicazione *PyGame*
@@ -325,7 +325,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # 3.3 Classe degli invasori spaziali
 
 - Creare una classe `Invader`, che contenga i dati ed il comportamento dell'alieno
@@ -342,7 +342,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # 3.4 Lista di invasori
 
 - Riusare la classe `Invader` (es. 3.3)

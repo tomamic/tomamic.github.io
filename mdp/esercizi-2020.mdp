@@ -119,7 +119,8 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 - All'inizio l'utente ha 10 monete
 - Ad ogni turno:
-    - Viene estratto a sorte un numero segreto tra 1 e 3
+    - Viene estratto un numero segreto
+    - A sorte tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
     - Se indovina, gli viene sommato l'importo puntato
     - Altrimenti gli viene sottratto lo stesso importo
@@ -1271,7 +1272,7 @@ Prima lettera == ultima lettera e...
 <br>
 Stringa rimanente (senza prima e ultima lettera) palindroma
 <br><br>
-<https://tomamic.github.io/p6-cpp.html#6>
+<https://tomamic.github.io/p6-cpp.html#⭐-stringhe>
 
 ---
 

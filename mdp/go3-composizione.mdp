@@ -205,18 +205,17 @@ func main() {
 
 ---
 
-![](images/oop/inheritance.png)
-# Livelli di astrazione
+![large](images/oop/carnivora.png)
+# 🌱️ Relazione is-a
 
-- Relazione **is-a** tra classi
-    - Specializzazione, sotto-insieme
-- Es. classificazioni in biologia
-    - *Vertebrati* sottoclasse degli *animali*
-    - *Mammiferi* sottoclasse dei *vertebrati*
-    - *Felini* sottoclasse dei *mammiferi*
-    - *Gatti* sottoclasse dei *felini*
-- Ogni sottoclasse...
-    - Eredita le caratteristiche della classe base
+- **Classificazione**, es. in biologia
+    - *Vertebrati* sottoclasse di *animali*
+    - *Mammiferi* sottoclasse di *vertebrati*
+    - *Carnivori* sottoclasse di *mammiferi*
+    - *Felini* sottoclasse di *carnivori*
+    - *Gatti* sottoclasse di *felini*
+- Relazione **is-a** tra classi: ogni sottoclasse...
+    - Eredita i caratteri della classe base
     - Ma introduce delle specializzazioni
 - In **Go** non c'è *ereditarietà*, ma **interfacce**
 
@@ -536,7 +535,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # 3.6 Alieni nell'arena
 
 - Partire dalla classe `Alien`
@@ -549,7 +548,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # 3.7 Pallottole
 
 - Continuare l'es. precedente

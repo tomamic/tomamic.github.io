@@ -6,8 +6,7 @@
 ---
 
 ![large](images/sys/globe.jpg)
-# ➊ Informatica
-## Introduzione e basi
+# ➊ Introduzione all'informatica
 
 - Logica
     - Algebra booleana, logica dei predicati
@@ -20,9 +19,8 @@
 
 ---
 
-![large](images/dev/problem-solving.jpg)
-# ➋ Programmazione
-## Introduzione e basi
+![large](images/misc/space-invaders-school.png)
+# ➋ Introduzione alla programmazione
 
 - Algoritmi in *Python 3*
 - Funzioni e oggetti
@@ -31,13 +29,17 @@
 - File e matrici
 - *Modern C++*
 
+>
+
+Applicazioni testuali e con grafica
+
 ---
 
 ![](images/dev/geek-girl.svg)
 # ➌ Esercitazioni in laboratorio
 
 - Brevi *esercizi*, prima in Python e poi in C++
-    - A riga di comando e con grafica
+    - Alcuni testuali, altri con grafica
 - Un paio di *progetti* più lunghi, in Python
     - Giochi dinamici e su matrice
 - ⚠️ **Attenzione**: non sono sufficienti le poche ore in lab per imparare a programmare!
@@ -52,13 +54,13 @@
 ![](images/dev/lab.jpg)
 # ℹ️ Istruzioni per i laboratori
 
-- Verificare in anticipo il proprio account per l'accesso ai lab
+- Attivare l'account personale per l'accesso ai lab
     - <http://www.cedi.unipr.it/gestioneaccounts>
 - Esercitazioni ogni lunedì, su 2 turni distinti
     - 10:00-11:55 matricole *pari*
     - 12:00-13:55 matricole *dispari*
 - Esercizi da cominciare in lab e continuare a casa, *individualmente*
-- Verifica esercitazioni
+- *Verifica* esercitazioni
     - Alla fine di ogni esercitazione, consegna dei programmi secondo le indicazioni del docente
     - Periodicamente, lavori consegnati sottoposti a *valutazioni intermedie*, non preannunciate
 
@@ -149,23 +151,23 @@ sudo apt install build-essential libboost-dev geany
 
 # ℹ️ Simboli sulle slide
 
-- 🌱️ Presentazione di un nuovo argomento
-- ⭐️ Argomento fondamentale
-- 🛠️ Esempio o sviluppo di un argomento
+- 🌱️ Presentazione di un nuovo concetto
+- ⭐️ Concetto fondamentale
+- 🛠️ Applicazione di un concetto
 - 💡️ Suggerimento, idea, buona pratica
 - ⚙️ Spiegazione, approfondimento
 - ⚠️ Attenzione, errore comune
-- 🥷 Argomento avanzato od opzionale
+- 🥷 Concetto avanzato od opzionale
 - 🏊️ Esercizio per lo studente
 
 ---
 
 
-# 🤖 Problemi ed algoritmi
+# Problemi ed algoritmi
 
 ---
 
-![](images/dev/problem-solving-cycle.svg) ![](images/hist/polya.jpg)
+![](images/dev/problem-solving.svg) ![](images/hist/polya.jpg)
 # 🌱️ Problem solving
 
 - George Polya, [“How to solve it”](https://www.dropbox.com/s/86ua0v7mbr6tkgm/Polya_How-to-solve-it.pdf?dl=1), 1945
@@ -176,7 +178,7 @@ width, and the height are known. *(Polya, pag. 23)*
 
 ---
 
-![](images/dev/problem-solving-cycle.svg) ![](images/dev/parallelepiped.png)
+![](images/dev/problem-solving.svg) ![](images/dev/parallelepiped.png)
 # ⭐️ Analisi del problema
 
 - **➊ See.** Capire il problema
@@ -189,7 +191,7 @@ width, and the height are known. *(Polya, pag. 23)*
 
 ---
 
-![](images/dev/problem-solving-cycle.svg)
+![](images/dev/problem-solving.svg)
 # ⭐️ Dal problema alla soluzione
 
 - **➋ Plan.** Elaborare un progetto
@@ -205,12 +207,14 @@ width, and the height are known. *(Polya, pag. 23)*
 
 ---
 
-![](images/dev/problem-solving-cycle.svg) ![](images/hist/voltaire.jpg)
+![](images/dev/problem-solving.svg) ![](images/hist/voltaire.jpg)
 # ⭐️ ... E ritorno
 
 - **➍ Check.** Controllare la soluzione
     - Corretta? Ottenibile in altro modo?
     - Risultato, o metodo, utilizzabile per altri problemi?
+
+> Perfection is reached not when there is no longer anything to add, but when there is no longer anything to take away. *(De Saint-Exupéry)*
 
 > Vi scrivo una lunga lettera perché non ho tempo di scriverne una breve. *(Voltaire)*
 

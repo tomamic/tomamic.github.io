@@ -487,7 +487,7 @@ y >> shift  # y = y / (2 ** shift)
 ---
 
 ![large](images/repr/codepage-437.png)
-# Tabella ASCII estesa
+# 🌱 Tabella ASCII estesa
 
 - Caratteri accentati + caratteri per grafici
     - *Code Page 437* per PC (DOS) in Nord America

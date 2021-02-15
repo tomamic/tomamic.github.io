@@ -281,9 +281,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 /*********************************************
  * PRINT BACKGROUND
  *********************************************/
-/*@media print {
-  .backgrounds {
-    background-color: #fff; } }*/
+@media print {
+  .reveal .slides section.title-slide, .backgrounds {
+    background: white!important;
+    color: black!important;
+  }
+}
 
 .reveal h1, .reveal h2 {
   font-weight: bold;
@@ -341,6 +344,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal section > p:not(:first-child) img[alt*=large] {
+    max-height: 475px;
     max-width: 80%;
 }
 
@@ -386,8 +390,12 @@ blockquote p:after {
     font-weight: bold;
 }
 
-.reveal {
+.backgrounds {
   background: black;
+}
+
+.reveal {
+  /*background: black;*/
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 26px;
   color: dimgray;
@@ -410,7 +418,7 @@ blockquote p:after {
   line-height: 28px;
   padding: 10px 0 10px 10px;
   letter-spacing: -1px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 90%;
   /*left: -60px;*/
   box-sizing: border-box;

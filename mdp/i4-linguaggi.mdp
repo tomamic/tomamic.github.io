@@ -66,11 +66,11 @@
 
 # 🌱 Definizione di linguaggi
 
-- Approccio **algebrico**: *espressioni regolari*
+- Approccio **algebrico** : *espressioni regolari*
     - Linguaggio costruito a partire da linguaggi più elementari, con operazioni su linguaggi
-- Approccio **generativo**: *grammatiche*
+- Approccio **generativo** : *grammatiche*
     - Regole per la generazione di stringhe appartenenti al linguaggio
-- Approccio **riconoscitivo**: *automi*
+- Approccio **riconoscitivo** : *automi*
     - Algoritmi per decidere se una stringa appartiene o no al linguaggio
 
 ---
@@ -83,22 +83,27 @@
 # 🌱 Operazioni su linguaggi
 
 - `L₁` ed `L₂` linguaggi su `Σ*` (due insiemi di stringhe)
-- Unione: `L₁ ∪ L₂ = {x ∊ Σ* : x ∊ L₁ ∨ x ∊ L₂}`
-- Intersezione: `L₁ ∩ L₂ = {x ∊ Σ* : x ∊ L₁ ∧ x ∊ L₂}`
-- Complementazione: `Lᶜ = {x ∊ Σ* : x ∉ L}`
+- *Unione* : `L₁ ∪ L₂`
+    - `≝ {x ∊ Σ* : x ∊ L₁ ∨ x ∊ L₂}`
+- *Intersezione* : `L₁ ∩ L₂`
+    - `≝ {x ∊ Σ* : x ∊ L₁ ∧ x ∊ L₂}`
+- *Complementazione* : `Lᶜ `
+    - `≝ {x ∊ Σ* : x ∉ L}`
 
 ---
 
 # 🌱 Concatenazione di linguaggi
 
 
-- Concatenazione o prodotto:
-    - `L₁•L₂ = {x ∊ Σ* : x = x₁•x₂, x₁ ∊ L₁, x₂ ∊ L₂}`
+- *Concatenazione o prodotto* : `L₁•L₂`
+    - `≝ {x ∊ Σ* : x = x₁•x₂, x₁ ∊ L₁, x₂ ∊ L₂}`
     - Es. `L₁ = {ab, bb}; L₂ = {aa, ab};` <br> `L₁ • L₂ = {abaa, abab, bbaa, bbab}`
-- Potenza: `Lⁿ = L • Lⁿ⁻¹, n≥1; L⁰ = {ε}` per convenzione
+- *Potenza* : `Lⁿ`
+    - `Lⁿ ≝ L • Lⁿ⁻¹, n≥1; L⁰ ≝ {ε}` per convenzione
     - Concatenazione di‌ `n` stringhe qualsiasi di `L`
     - Es. `L = {ab, bb}; L² = {abab, abbb, bbab, bbbb}`
-- Stella di Kleene: `L* = ∪ Lⁿ, n = 0..∞`
+- *Stella di Kleene* : `L*`
+    - `≝ ∪ Lⁿ, n=0..∞`
     - Concatenazione arbitraria di‌ stringhe di `L`
 
 >
@@ -136,7 +141,7 @@
 
 # 🌱 Save the day with regex
 
-![small](images/comp/regex-xkcd.png)
+![large](images/comp/regex-xkcd.png)
 
 ---
 
@@ -149,7 +154,7 @@
 - Ripetizioni (0+, 1+, 0-1): `goo*al`, `go+al`, `goo?al`
 - Sottoespressione: `(left right )*halt`
 
-![small](images/comp/perl-problems.png)
+![](images/comp/perl-problems.png)
 
 ---
 
@@ -201,37 +206,23 @@
 
 ---
 
-# 🛠️ Regex, esempi
-
-![small](images/comp/codice-fiscale.png)
-
-- *Codice fiscale* : <br> `^[A-Z]{6}[0-9]{2}[A-Z][0-9]{2}[A-Z][0-9]{3}[A-Z]$`
-- *Dominio* : `^[\w\-]+\.(it|com|org|net|eu|mobi)$`
-- *E-mail* : `^[\w\-\.]+@[\w\-\.]+\.[a-z]+$`
-- *File* : `^.+\.zip$`
-- *Data* : `^\d{2}/\d{2}/\d{4}$`
-
----
-
-# 🛠️ Regex, validazione form
+![large](images/comp/codice-fiscale.png)
+# 🛠️ Regex in HTML
 
 ``` html
-<script>
-function validate(val) {
-    var expr = /^\d{2}\/\d{2}\/\d{4}$/;
-    if (! expr.test(val)) {
-        window.alert("Wrong date format");
-        return false;
-    }
-    return true;
-}
-</script>
-
-<form onsubmit="return validate(usrdate.value)">
-    Date (dd/mm/yyyy): <input name="usrdate">
-    <input type="submit">
+<form>
+    Date (dd/mm/yyyy):
+    <input name="dd" title="dd/mm/yyyy"
+        pattern="\d{2}/\d{2}/\d{4}" />
+    <input type="submit" />
 </form>
 ```
+
+- *Data* : `\d{2}/\d{2}/\d{4}`
+- *File* : `.+\.zip`
+- *E-mail* : `[\w\-\.]+@[\w\-\.]+\.[a-z]+`
+- *Dominio* : `[\w\-]+\.(it|com|org|net|eu)`
+- *Cod.fiscale* : `[A-Z]{6}\d\d[A-Z]\d\d[A-Z]\d{3}[A-Z]`
 
 ---
 
@@ -248,9 +239,8 @@ function validate(val) {
 ```
 
 ``` py
->>> text = "He qualified in 3rd place."
->>> re.sub(r"([0-9])([a-z]+)", r"\1<sup>\2</sup>", text)
-'He qualified in 3<sup>rd</sup> place.'
+>>> re.sub(r"([0-9])([a-z]+)", r"\1<sup>\2</sup>", "He won the 3rd prize")
+'He won the 3<sup>rd</sup> prize'
 >>> re.sub(r"([aeiou])\1+", r"\1", "troooppo miiiticoo!")
 'troppo mitico!'
 >>> re.sub(r"(o?)([aeiou])\2+", r"\1\2", "gooood daaay!")
@@ -293,7 +283,7 @@ function validate(val) {
 
 ---
 
-![large](images/comp/grammar1.png) ![large](images/comp/grammar2.png)
+![large](images/comp/grammar1.svg) ![large](images/comp/grammar2.svg)
 # ⭐ Albero delle frasi
 
 - La radice dell'albero è l'*assioma*
@@ -359,7 +349,7 @@ Vedremo che (P3) rende la grammatica di tipo 0, RE
     - `E → E + E | E * E | ( E ) | N`
     - `N -> D N | D` <br> `D -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9`
 
-![small](images/comp/ambiguity.svg)
+![](images/comp/ambiguity.svg)
 
 ---
 
@@ -559,7 +549,7 @@ Esempio con `G₁`: `S → b | aA; A → aS`
 
 ---
 
-# ⭐ Semantica
+# ⭐ Uso della semantica
 
 - **Correttezza sui tipi**
     - Quali tipi di dato possono essere elaborati?
@@ -573,8 +563,9 @@ Esempio con `G₁`: `S → b | aA; A → aS`
 ---
 
 ![large](images/dev/compiler.svg)
-# ⭐ Compilatore come traduttore
+# ⭐ Architettura compilatore
 
+- Traduttore, spesso modulare
 - **Front-end**, analisi di linguaggio di alto livello
     - *Lessicale*
     - *Grammaticale*
@@ -587,7 +578,7 @@ Esempio con `G₁`: `S → b | aA; A → aS`
 ---
 
 ![large](images/dev/ast-euclid.svg)
-# 🛠️ Esempio di albero sintattico
+# 🛠️ Es. albero sintattico
 
 - Analisi *sintattica*: regole grammaticali di derivazione del sorgente
 - Analisi *contestuale*: annotazioni sull'ambito e tipo delle variabili
@@ -739,7 +730,7 @@ Algoritmo di Euclide per MCD
 
 # 🌱 The Top 10 (IEEE Spectrum, 2018)
 
-![small](images/dev/languages-spectrum-2018.png)
+![](images/dev/languages-spectrum-2018.png)
 
 >
 

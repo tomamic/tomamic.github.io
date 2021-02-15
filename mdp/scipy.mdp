@@ -748,9 +748,8 @@ $ python3 -m pip install numpy jupyter
 
 ---
 
-![](images/dev/jupyter-notebook.png)
+![large](images/dev/jupyter-notebook.png)
 # Anaconda
-class: large-figure
 
 - Popular open-source distribution of Python: <http://anaconda.com>
 - Based on the Scipy.org ecosystem
@@ -782,10 +781,8 @@ $ conda remove --name myenv --all
 
 ---
 
-![](images/scipy/numpy-mem.png)
+![large](images/scipy/numpy-mem.svg) `np.zeros(shape=(2, 5), dtype=np.int32)`
 # NumPy module
-figcaption: np.zeros(shape=(2, 5), dtype=np.int32)
-class: large-figure
 
 - Numeric, 1995; NumPy, 2006
 - **N-dimensional array**
@@ -890,8 +887,8 @@ array([[1, 9, 3],
 
 >
 
-<https://docs.scipy.org/doc/numpy-1.16.0/reference/routines.random.html>
-
+https://docs.scipy.org/doc/numpy-1.16.0/reference/routines.random.html
+<br>
 `np.random.normal(mean, stddev, size=(2, 3))` ::= <br> `stddev * np.random.randn(2, 3) + mean`
 
 ---
@@ -939,9 +936,8 @@ array([5, 3, 2, 4, 1, 0]])
 
 ---
 
-![](images/scipy/tensor-timeseries.png)
+![large](images/scipy/tensor-timeseries.png)
 # Timeseries or sequence data
-class: large-figure
 
 - Each sample encoded as a 2D tensor: time sequence of vectors
 - A *batch* of data encoded as a **3D tensor**
@@ -1036,9 +1032,8 @@ a  # array([(6.e-08, [2, 0]), (2.e-07, [4, 0])],
 ---
 
 # Strides
-class: large-image
 
-![](images/scipy/strides.png)
+![large](images/scipy/strides.png)
 
 ``` py
 a = np.zeros(shape=(3, 3), dtype=np.int32)
@@ -1123,7 +1118,7 @@ a.flatten("K")  # array([1, 3, 2, 4], dtype=int8)
 
 - Most operators apply elementwise
 - A new array holds the result
-- Some ops act *in place*: `+=`, `*=`, ...
+- Some ops act *in place* : `+=`, `*=`, ...
 
 ``` py
 >>> a = np.array([20, 30, 40, 50])
@@ -1389,9 +1384,8 @@ array([[1, 0],
 
 ---
 
-![](images/misc/fair-tickets.jpg)
+![large](images/misc/fair-tickets.jpg)
 # Exercise - Fair tickets
-class: large-figure
 
 - Cost of a ticket for a fair
     - 4.00€ for adults
@@ -1449,7 +1443,7 @@ array([700., 1500.])
 
 ---
 
-# Pandas
+# Aims of Pandas
 
 - Library of data *structures* and data *analysis tools*
     - **Tabular data**: use cases similar to *R*-lang and *Excel*
@@ -1741,9 +1735,8 @@ two    0.091446  0.236650
 
 ---
 
-![](images/scipy/pyplot-1.png) ![](images/scipy/pyplot-2.png)
+![large](images/scipy/pyplot-1.png) ![](images/scipy/pyplot-2.png)
 # MatPlotLib plots
-class: large-figure
 
 - Plotting library, based on *NumPy*
 
@@ -1769,9 +1762,8 @@ plt.show()
 
 ---
 
-![](images/scipy/pyplot-3.png)
+![large](images/scipy/pyplot-3.png)
 # Formatting the plot
-class: large-figure
 
 ``` py
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro')
@@ -1794,9 +1786,8 @@ plt.show()
 
 ---
 
-![](images/scipy/pyplot-4.png)
+![large](images/scipy/pyplot-4.png)
 # Plotting NumPy arrays
-class: large-figure
 
 ``` py
 # evenly sampled time at 200ms steps
@@ -1815,9 +1806,8 @@ To use a logarithmic scale: `plt.yscale('log')`
 
 ---
 
-![](images/scipy/pyplot-5.png)
+![large](images/scipy/pyplot-5.png)
 # Plotting data from dict
-class: large-figure
 
 ``` py
 rnd = np.random
@@ -1837,9 +1827,8 @@ plt.show()
 
 ---
 
-![](images/scipy/pyplot-6.png)
+![large](images/scipy/pyplot-6.png)
 # Subplots in row
-class: large-figure
 
 - Compare `bar`, `scatter` and `plot`
 
@@ -1861,9 +1850,8 @@ plt.show()
 
 ---
 
-![](images/scipy/pyplot-7.png)
+![large](images/scipy/pyplot-7.png)
 # Subplots in column
-class: large-figure
 
 ``` py
 def f(t):
@@ -1907,9 +1895,8 @@ counts=[3, 5, 6, 13, 9, 16, 20, 13, 7, 7, 1]
 
 ---
 
-![](images/scipy/pyplot-8.png)
+![large](images/scipy/pyplot-8.png)
 # Histogram and text
-class: large-figure
 
 - Show the distribution of some continuous values (~ *Dirac deltas*)
 - ❓ E.g.: Round-Trip Times
@@ -1931,9 +1918,8 @@ plt.show()
 
 ---
 
-![](images/scipy/sns-distplot.png)
+![large](images/scipy/sns-distplot.png)
 # Seaborn
-class: large-figure
 
 - High level data visualization library based on *MatPlotLib*
 - `distplot`: histogram + *kde (kernel density estimation)*
@@ -1999,9 +1985,8 @@ mse = ((y_true - y_pred) ** 2).mean()  # 2.8
 
 ---
 
-![](images/scipy/curve-fit.png)
+![large](images/scipy/curve-fit.png)
 # Comparing models
-class: large-figure
 
 ``` py
 x = np.arange(5); y_true = x ** 2
@@ -2023,9 +2008,8 @@ plt.show()
 
 ---
 
-![](images/misc/quiz.png)
+![large](images/misc/quiz.png)
 # Laboratory
-class: large-figure
 
 - Students' answers to questionnaires about courses
     - Data transform to eval marks
@@ -2038,8 +2022,12 @@ class: large-figure
 
 >
 
-<https://www.dropbox.com/s/bfunquwvcg8mv09/report-2016-2017.csv?dl=1> <br/>
-<https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1> <br/>
-<https://www.dropbox.com/s/9x3cvz9kwv729xc/read_report.py?dl=1> <br/>
-<https://www.dropbox.com/s/w3yany4d2mzn4x0/questionario-stage-2018.xlsx?dl=1> <br/>
+<https://www.dropbox.com/s/bfunquwvcg8mv09/report-2016-2017.csv?dl=1>
+<br>
+<https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1>
+<br>
+<https://www.dropbox.com/s/9x3cvz9kwv729xc/read_report.py?dl=1>
+<br>
+<https://www.dropbox.com/s/w3yany4d2mzn4x0/questionario-stage-2018.xlsx?dl=1>
+<br>
 <https://www.dropbox.com/s/9hcpjqij1vcspjx/gilet-jaunes.zip?dl=1>

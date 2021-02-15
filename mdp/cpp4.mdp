@@ -179,6 +179,7 @@ c.erase(remove_if(c.begin(), c.end(),
 
 ---
 
+![](images/sys/under-hood.png)
 # C++: Under the Hood
 
 - *Jan Gray*, March 1994
@@ -192,6 +193,8 @@ c.erase(remove_if(c.begin(), c.end(),
 >
 
 <https://www.dropbox.com/s/vkzs4480u3e26mo/jangrayhood.pdf?dl=1>
+<br>
+<https://www.drdobbs.com/cpp/multiple-inheritance-considered-useful/184402074>
 
 ---
 

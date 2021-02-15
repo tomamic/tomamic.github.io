@@ -298,7 +298,7 @@ def quick_sort(v: list, beg, end):
 ---
 
 ![large](images/comp/quick-sort-best.png)
-# ⭐ Quick Sort nel caso migliore
+# ⭐ Quick Sort caso migliore
 
 - ➊ Si sceglie un valore `pivot` (ultimo?)
 - ➋ → Due parti
@@ -314,7 +314,7 @@ def quick_sort(v: list, beg, end):
 ---
 
 ![large](images/comp/quick-sort-worst.png)
-# ⭐ Quick Sort nel caso peggiore
+# ⭐ Quick Sort caso peggiore
 
 - Complessità *caso peggiore* : **`O(n²)`**
     - Lista già ordinata, o rovesciata

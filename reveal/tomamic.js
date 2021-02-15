@@ -9,6 +9,7 @@
     var name = location.href.replace(/\.[^\.]+$/, '').split('/').pop();
     var ico = '<link rel="icon" href="images/logo.svg" />';
     var css = '<link rel="stylesheet" href="reveal/tomamic.css" />';
+    var tar = '<base target="_blank" />';  /* open all links in a new tab. */
     var logo = '<aside><img src="images/logo.svg" /></aside>';
     var slides = `
         <div class="reveal">
@@ -16,10 +17,11 @@
                 <section data-markdown="mdp/`+name+`.mdp" data-separator="^---\n">
                 </section>
             </div>
-            <div id="tomamic"><a href="/">tomamic.github.io</a></div>
+            <div id="tomamic"><a href="/" target="_self">tomamic.github.io</a></div>
         </div>`;
     document.head.insertAdjacentHTML('beforeend', ico);
     document.head.insertAdjacentHTML('beforeend', css);
+    document.head.insertAdjacentHTML('beforeend', tar);
     document.body.insertAdjacentHTML('afterbegin', slides);
     Reveal.initialize({
         slideNumber: 'c/t',

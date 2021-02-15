@@ -13,9 +13,13 @@
 
 ``` py
 grocery = ["spam", "eggs", "beans"]
+```
 
+``` py
 rainfall_data = [13, 24, 18, 15]
+```
 
+``` py
 results_by_month = [0] * 12  # 12 times 0 (list repetition)
 ```
 
@@ -41,20 +45,26 @@ grocery                    # guess!
 
 ---
 
-![](images/fun/shopping-list.jpg)
+![](images/misc/rock-cubes.png)
 # ⭐ Cicli su liste: for
 
 ``` py
-grocery = ["spam", "egg", "bacon", "sausage"]
+values = [2, 3, 5, 7, 11]
 
-print("Your shopping list contains:")
+print("Cubes:")
 
-for product in grocery:
-    print(product)
+for val in values:
+    cube = val ** 3
+    print(cube, end="\t")
 ```
 
-- Ad ogni iterazione, a `product` è assegnato un elemento di `grocery`
-- Ciclo `for` per qualsiasi tipo di sequenza: lista, stringa, tupla, range...
+``` text
+8   27  125 343 1331
+```
+
+- Ad ogni iterazione, a `val` è assegnato un elemento di `values`
+- Ciclo `for` per qualsiasi tipo di sequenza
+    - `list`, `str`, `tuple`, `range`…
 
 ---
 
@@ -305,16 +315,17 @@ arena.move_all()
 
 ---
 
-![large](images/oop/inheritance.png)
+![large](images/oop/carnivora.png)
 # 🌱️ Relazione is-a
 
 - **Classificazione**, es. in biologia
     - *Vertebrati* sottoclasse di *animali*
     - *Mammiferi* sottoclasse di *vertebrati*
-    - *Felini* sottoclasse di *mammiferi*
+    - *Carnivori* sottoclasse di *mammiferi*
+    - *Felini* sottoclasse di *carnivori*
     - *Gatti* sottoclasse di *felini*
 - Relazione **is-a** tra classi: ogni sottoclasse...
-    - Eredita le caratteristiche della classe base
+    - Eredita i caratteri della classe base
     - Ma introduce delle specializzazioni
 
 ---
@@ -454,6 +465,10 @@ arena.add(some_actor)  # any of Ball, Ghost etc.
     - Si può sempre usare un oggetto di una *classe derivata*, al posto di uno della *classe base*
 - Relazione *has-a* tra un oggetto `Arena` e gli oggetti `Actor` che contiene
 - Relazione *is-a* tra classi concrete (`Ball` e `Ghost`) e interfaccia (`Actor`)
+
+>
+
+https://en.wikipedia.org/wiki/Liskov_substitution_principle
 
 ---
 
@@ -624,7 +639,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 ---
 
-![](images/misc/invaders-path.jpg)
+![](images/misc/space-invaders-school.png)
 # Alieni nell'arena
 
 - Rendere la classe `Alien` un `Actor`

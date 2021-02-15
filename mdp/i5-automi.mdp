@@ -1,4 +1,4 @@
-![](images/comp/r2d2.png)
+![](images/comp/walle-eve.png)
 # Automi e calcolo
 ## Introduzione all'informatica <br> Michele Tomaiuolo @ Ingegneria UniPR
 
@@ -462,12 +462,6 @@ Grace Hopper, Margaret Hamilton — Donne in corsi CS: 37%, 1983 → 18%, 2013
 
 ---
 
-# ⭐ Northbridge e southbridge
-
-![large](images/sys/north-south-bridge.png)
-
----
-
 # ⭐ Central Processing Unit
 
 - CPU: “cervello” del calcolatore
@@ -558,6 +552,18 @@ Grace Hopper, Margaret Hamilton — Donne in corsi CS: 37%, 1983 → 18%, 2013
 # ⚙️ Esecuzione istruzioni
 
 ![large](images/sys/cpu-exec.svg)
+
+---
+
+![large](images/sys/motherboard.svg)
+# ⭐ Architettura PC
+
+![small](images/sys/motherboard-example.jpg)
+
+- *Northbridge*, ora integrato nella CPU
+    - Graphics & Memory Controller Hub (GMCH) : ~ 50 GB/s
+- *Southbridge*, o “chipset”
+    - Dischi e periferiche di I/O : ~ 500 MB/s
 
 ---
 

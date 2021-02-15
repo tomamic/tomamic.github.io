@@ -6,8 +6,8 @@
 
 # Hello, C++
 
-- File sorgente: `hello.cpp`
-- `cout`: output su console, op. di *inserimento* `<<`
+- Output su console : **`cout`**
+- Operatore di *inserimento* : **`<<`**
 
 ``` cpp
 #include <iostream>
@@ -18,22 +18,23 @@ int main() {
 }
 ```
 
+- File sorgente : `hello.cpp`
+
 ``` sh
 g++ hello.cpp -o hello
 ```
 
 >
 
-[Strumenti software](intro.html#11)
+[Strumenti software](intro.html#💾-strumenti-software)
 
 ---
 
-# ⭐ Leggere e scrivere
+# ⭐ Lettura singola parola
 
-- `cin`: input da console, op. di *estrazione* `>>`
+- Input da console : **`cin`**
+- Operatore di *estrazione* : **`>>`**
     - Lettura fino al primo *whitespace* (spazio o altro)
-- ⭐ `getline(cin, line)`: lettura intera riga
-- Possibili op. di inserimento ed estrazione *concatenate*
 
 ``` cpp
 #include <iostream>
@@ -47,15 +48,42 @@ int main() {
 }
 ```
 
+- Si possono *concatenare* estrazioni, o inserimenti
+- `cout` solo per scrivere, `cin` solo per leggere
+
+---
+
+# ⭐ Lettura intera riga
+
+- **`getline`** : lettura fino a `\n`
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name;
+    cout << "Full name and surname?\n";
+    getline(cin, name);
+    cout << "Hello, " << name << "\n";
+}
+```
+
+- ⚠️ Attenzione ad usare `getline` dopo estrazione (`>>`)
+    - `cin` contiene subito `\n` → `getline` dà stringa vuota
+    - Scartare `\n` residuo : `cin.ignore()`
+
 ---
 
 ![](images/algo/my-shoes.png)
 # Tipizzazione statica
 
-- Una delle differenze principali: le comuni variabili non sono *riferimenti*, ma *contenitori* di dati
-    - Occorrono **dichiarazioni** di tipo
-    - Ma possibile *type inference* (`auto`)
-- Tipi principali: `int`, `float` e `double`, `bool`, `string` e `char`
+- Ogni variabile è un *contenitore* di dati
+    - Occorre **dichiarare** il tipo
+    - O inizializzare con *type inference* (`auto`)
+    - Per allocare memoria e controllare le operazioni
+- Tipi principali
+    - `int`, `double` e `float`, `bool`, `string` e `char`
 
 ``` cpp
 int x = 10;
@@ -72,13 +100,15 @@ auto txt = "hello"s;  // recent compiler
 
 # Operazioni di base
 
-- Operazioni su numeri: `+, -, *, /, %`
-    - ⚠️ La divisione tra interi dà risultato intero (`trunc`) <br> Il resto può essere negativo
-    - Assegnamento: `=, +=, -=` ...
+- Operazioni aritmetiche: `+, -, *, /, %`
+    - ⚠️ La divisione tra interi dà risultato intero (`trunc`)
+    - Il resto può essere negativo
+- Assegnamento: `=, +=, -=` ...
     - Anche incremento e decremento unitario: `++, --`
-    - Confronti: `>, >=, <, <=, !=, ==`
+- Confronti: `>, >=, <, <=, !=, ==`
     - ️⚠️ I confronti **non** si possono concatenare
 - Operazioni booleane (and, or, not): `&&, ||, !`
+    - Costanti `true` e `false`
 
 ``` cpp
 cout << (3 < 5) << "\n";           // 1
@@ -128,7 +158,7 @@ if (a < b) {
 
 >
 
-[Selezioni in Python](p1-algoritmi.html#19)
+[Selezioni in Python](p1-algoritmi.html#🛠️-selezione-elif)
 <br>
 [Strutture di controllo in C++](https://cppguide.readthedocs.io/en/latest/cpp/control.html)
 
@@ -154,7 +184,7 @@ if (count > 0) {
 
 >
 
-[Iterazioni in Python](p1-algoritmi.html#24)
+[Iterazioni in Python](p1-algoritmi.html#⭐-ciclo-con-sentinella)
 <br>
 [Strutture di controllo in C++](https://cppguide.readthedocs.io/en/latest/cpp/control.html)
 
@@ -204,7 +234,7 @@ int main() {
 
 >
 
-[Funzioni in Python](p2-oggetti.html#2)
+[Funzioni in Python](p2-oggetti.html#⭐-definizione-di-funzione)
 
 ---
 
@@ -299,17 +329,20 @@ grocery.pop_back();  // remove last elem
 
 >
 
-[Liste in Python](p3-composizione.html#3)
+[Liste in Python](p3-composizione.html#⭐-lista)
 
 ---
 
 # ⭐ For su sequenze dati
 
 ``` cpp
-vector<string> grocery = {"spam", "egg", "beans"};
-for (auto product : grocery) {  // for each product in grocery
-    cout << product << "\n";
+vector<int> values = {2, 3, 5, 7, 11};
+
+for (auto val : values) {
+    cube = val * val * val;
+    cout << cube << "\t";
 }
+// 8   27  125 343 1331
 ```
 
 ``` cpp
@@ -321,7 +354,7 @@ for (auto c : text)  {  // for each char in text
 
 >
 
-[Cicli su liste in Python](p3-composizione.html#4)
+[Cicli su liste in Python](p3-composizione.html#⭐-cicli-su-liste-for)
 
 ---
 
@@ -344,7 +377,7 @@ for (auto x = 0; x < cols; ++x) {
 
 >
 
-[Pseudo-matrice in Python](p5-matrici.html#14)
+[Pseudo-matrice in Python](p5-matrici.html#⭐-matrice-in-lista-singola)
 
 ---
 
@@ -393,7 +426,7 @@ if (pos != grocery.end()) {
 
 >
 
-[Liste in Python](p3-composizione.html#6)
+[Liste in Python](p3-composizione.html#🛠️-elementi-e-slice)
 
 ---
 
@@ -415,10 +448,10 @@ file1 << "Hello, file!\n";
 ``` cpp
 // input file stream, ~ cin
 ifstream file2{"input.txt"};
-
-string word, line;
-file2 >> word;
-getline(file2, line);
+string line;
+while (getline(file2, line)) {  // for line in file2
+    cout << line.size();
+}
 ```
 
 ---
@@ -646,8 +679,10 @@ class Actor {
 
 >
 
-[basic.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/g2d/basic.hpp) -
-[bounce.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/bounce.hpp) -
+[basic.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/g2d/basic.hpp)
+<br>
+[bounce.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/bounce.hpp)
+<br>
 [bounce.cpp](https://github.com/tomamic/fondinfo/blob/master/cpp/bounce.cpp)
 
 ---
@@ -655,23 +690,27 @@ class Actor {
 ![](images/qt/fifteen-puzzle.jpg)
 # ⚙️ Fifteen - Gioco astratto
 
-``` c++class BoardGame {
-    public:
-        virtual void play_at(int x, int y) = 0;
-        virtual void flag_at(int x, int y) = 0;
-        virtual int cols() = 0;
-        virtual int rows() = 0;
-        virtual string value_at(int x, int y) = 0;
-        virtual bool finished() = 0;
-        virtual string message() = 0;
+``` c++
+class BoardGame {
+public:
+    virtual void play_at(int x, int y) = 0;
+    virtual void flag_at(int x, int y) = 0;
+    virtual int cols() = 0;
+    virtual int rows() = 0;
+    virtual string value_at(int x, int y) = 0;
+    virtual bool finished() = 0;
+    virtual string message() = 0;
 
-        virtual ~BoardGame() {}
-    };
+    virtual ~BoardGame() {}
+};
+```
 
 >
 
-[boardgame.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/g2d/boardgame.hpp) -
-[fifteen.cpp](https://github.com/tomamic/fondinfo/blob/master/cpp/fifteen.cpp) -
+[boardgame.hpp](https://github.com/tomamic/fondinfo/blob/master/cpp/g2d/boardgame.hpp)
+<br>
+[fifteen.cpp](https://github.com/tomamic/fondinfo/blob/master/cpp/fifteen.cpp)
+<br>
 [lightsout.cpp](https://github.com/tomamic/fondinfo/blob/master/cpp/lightsout.cpp)
 
 ---
@@ -772,7 +811,7 @@ g++ -o ball ball.o main.o
 
 ``` sh
 swig -python -c++ ball.i
-g++ -fPIC -shared *.cpp *.cxx -I/usr/include/python3.7m -o _$module.so
+g++ -fPIC -shared *.cpp *.cxx -I/usr/include/python3.8 -o _$module.so
 ```
 
 ``` py

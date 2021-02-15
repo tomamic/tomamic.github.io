@@ -254,9 +254,8 @@ def main():
 
 ---
 
-![](images/scipy/hadoop2.png)
+![large](images/scipy/hadoop2.png)
 # 🥷 HDFS - Main assunptions
-class: large-figure
 
 - Hadoop Distributed Filesystem (HDFS): at the basis of Apache Hadoop
 - Hardware failure: fault tollerance at application level (data block replication)
@@ -279,9 +278,8 @@ class: large-figure
 ---
 
 # 🥷 HDFS - Cartoon 1
-class: large-image
 
-![](images/scipy/hdfs-cartoon-1.png)
+![large](images/scipy/hdfs-cartoon-1.png)
 
 >
 
@@ -290,9 +288,8 @@ class: large-image
 ---
 
 # 🥷 HDFS - Cartoon 2
-class: large-image
 
-![](images/scipy/hdfs-cartoon-2.png)
+![large](images/scipy/hdfs-cartoon-2.png)
 
 >
 
@@ -301,9 +298,8 @@ class: large-image
 ---
 
 # 🥷 HDFS - Cartoon 3
-class: large-image
 
-![](images/scipy/hdfs-cartoon-3.png)
+![large](images/scipy/hdfs-cartoon-3.png)
 
 >
 
@@ -312,9 +308,8 @@ class: large-image
 ---
 
 # 🥷 HDFS - Cartoon 4
-class: large-image
 
-![](images/scipy/hdfs-cartoon-4.png)
+![large](images/scipy/hdfs-cartoon-4.png)
 
 >
 
@@ -323,9 +318,8 @@ class: large-image
 ---
 
 # 🥷 YARN - Architettura
-class: large-image
 
-![](images/scipy/yarn-architecture.png)
+![large](images/scipy/yarn-architecture.png)
 
 >
 
@@ -382,25 +376,25 @@ code: shell
 
 # Interactive Shell
 
-code: shell
+``` sh
+~$ ~/spark/bin/pyspark
+```
 
-    ~$ ~/spark/bin/pyspark
+``` sh
+Python 3.7.5 (default, Nov 20 2019, 09:21:52)
+[GCC 9.2.1 20191008] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 2.4.4
+      /_/
 
-code:shell
-
-    Python 3.7.5 (default, Nov 20 2019, 09:21:52)
-    [GCC 9.2.1 20191008] on linux
-    Type "help", "copyright", "credits" or "license" for more information.
-    Welcome to
-          ____              __
-         / __/__  ___ _____/ /__
-        _\ \/ _ \/ _ `/ __/  '_/
-       /__ / .__/\_,_/_/ /_/\_\   version 2.4.4
-          /_/
-
-    Using Python version 3.7.5 (default, Nov 20 2019 09:21:52)
-    SparkSession available as 'spark'.
-    >>>
+Using Python version 3.7.5 (default, Nov 20 2019 09:21:52)
+SparkSession available as 'spark'.
+>>>
+```
 
 ---
 
