@@ -4,6 +4,22 @@
 
 ---
 
+![small](images/fun/haskell-logo.svg) ![small](images/dev/python-logo.svg)
+# About the course
+
+- Various programming paradigms
+    - Focus on Haskell
+    - Comparison with Python -- inspired by Haskell
+- Previous courses
+    - Imperative, procedural, object-oriented paradigms
+- This course
+    - Functional paradigm
+    - Generic programming
+    - Metaprogramming
+    - Lesser known aspects…
+
+---
+
 ![](images/fun/rbfuller.jpg)
 # Why learning a new language
 
@@ -102,11 +118,13 @@ def integral(f, a: float, b: float, n: int) -> float:
     return total
 
 area_func = integral(some_func, 1, 10, 1_000_000)
-print(area_func)
-
 area_sin = integral(math.sin, 0, math.pi, 1_000_000)
-print(area_sin)
+print(area_func, area_sin)
 ```
+
+>
+
+<https://docs.python.org/3/library/typing.html#callable>
 
 ---
 
