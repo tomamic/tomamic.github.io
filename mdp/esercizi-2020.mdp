@@ -63,8 +63,8 @@ Usare la funzione `sqrt` del modulo `math`
 - Chiedere all'utente il numero di cerchi da disegnare
 - Disegnare i cerchi con raggio gradualmente decrescente, ma tutti con lo stesso centro
 - Far variare il colore dei cerchi
-      - Dal rosso del livello più esterno
-      - Fino al nero del livello più interno
+    - Dal rosso del livello più esterno
+    - Fino al nero del livello più interno
 - Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
 
 >
