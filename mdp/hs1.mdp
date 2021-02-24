@@ -397,8 +397,10 @@ The previous list stays unchanged, can be reused
 # More on lists
 
 - `[1,2,3]` is actually just syntactic sugar for `1:2:3:[]`
-    - `[]` is an empty list; if we prepend `3` to it, it becomes `[3]`; if we prepend `2` to that, it becomes `[2,3]`, and so on
-- Note: `[], [[]] and[[],[],[]]` are all different things
+    - `[]` is an empty list
+    - If we prepend `3` to it, it becomes `[3]`
+    - If we prepend `2` to that, it becomes `[2,3]`, and so on
+- Note that `[]`, `[[]]` and `[[],[],[]]` are all different things
     - The first one is an empty list
     - The seconds one is a list that contains one empty list
     - The third one is a list that contains three empty lists
@@ -450,8 +452,8 @@ Prelude> b !! 2
 ``` haskell
 Prelude> [3,2,1] > [2,1,0]
 True
-Prelude> [3,2,1] > [2,10,100]
-True
+Prelude> [3,2,1] > [3,10,100]
+False
 Prelude> [3,4,2] > [3,4]
 True
 Prelude> [3,4,2] == [3,4,2]
@@ -471,10 +473,6 @@ True
 - `last` takes a list and returns its last element
 - `init` takes a list and returns everything except its last element
 
----
-
-# List errors
-
 ``` haskell
 Prelude> head [5,4,3,2,1]
 5
@@ -484,6 +482,13 @@ Prelude> last [5,4,3,2,1]
 1
 Prelude> init [5,4,3,2,1]
 [5,4,3,2]
+```
+
+---
+
+# List errors
+
+``` haskell
 Prelude> head []
 *** Exception: Prelude.head: empty list
 ```
@@ -516,6 +521,8 @@ Prelude> reverse [5,4,3,2,1]
 
 - `take` takes a number and a list
 - It extracts that many elements from the beginning of the list
+- Take more elements than there are in the list: it just returns the list
+- Take 0 elements: we get an empty list
 
 ``` haskell
 Prelude> take 3 [5,4,3,2,1]
@@ -527,9 +534,6 @@ Prelude> take 5 [1,2]
 Prelude> take 0 [6,6,6]
 []
 ```
-
-- Take more elements than there are in the list: it just returns the list
-- Take 0 elements: we get an empty list
 
 ---
 
@@ -551,8 +555,9 @@ Prelude> drop 100 [1,2,3,4]
 
 # Membership
 
-- `elem` takes a thing and a list of things and tells us if that thing is an element of the list
-    - It's usually called as an infix function because it's easier to read that way
+- `elem` takes a thing and a list of things
+    - Is that thing an element of the list?
+    - Usually called as *infix* f.: easier to read
 
 ``` haskell
 Prelude> 4 `elem` [3,4,5,6]
@@ -585,7 +590,8 @@ Prelude> maximum [1,9,2,3,4]
 
 # Ranges
 
-- Ranges are a way of making lists that are arithmetic sequences of elements that can be enumerated
+- A way of making lists that are arithmetic sequences
+    - Elements that can be enumerated
     - Integers, characters, ...
 
 ``` haskell
@@ -797,13 +803,8 @@ range(5, 15, 2)
 ---
 
 # Fibonacci's rabbits
-class: large-image
 
-![](images/fun/fib-rabbits.png)
-
->
-
-fib(0) = 0; fib(1) = 1;  fib(n) = fib(n-1) + fib(n-2);
+![large](images/fun/fib-rabbits.png)
 
 ---
 
