@@ -42,7 +42,7 @@
 - *Declarative* style: what the result is, vs. how to calculate it
 - *Immutable* variables and values: fewer inter-dependences
 - Optimizable: fit for *parallel programming*
-- *Expression*-oriented: everything is an expression, producing a value
+- *Expression*-oriented, composable: everything is an expression, producing a value
 - Functions are values, too: used as parameters and results of other, *higher-order*, functions
 
 ---
@@ -154,46 +154,41 @@ print(cube(4))
 
 ---
 
-![](images/fun/haskell-xkcd.png)
+![](images/hist/haskell-curry.jpg)
 # Haskell
 
 - Pure functional language named after Haskell Curry
     - Mathematical logics, 1900-1982
+- Joint effort of the main research groups
+    - [1987 Conf. FPCA, Portland, Oregon](https://dl.acm.org/doi/pdf/10.1145/1238844.1238856)
+    - [Currently quite popular](https://redmonk.com/sogrady/2020/07/27/language-rankings-6-20/)
 - Compiled to native code, no virtual machine
     - Concise, declarative, efficient
-- Static typing
+- Static typing, type inference
     - Type variables, typeclasses, type constaints
 - Lazy evaluation
 - Pattern matching
 - **Very large influence on many other languages**
 
->
-
-<http://haskell.cs.yale.edu/wp-content/uploads/2011/02/history.pdf>
-
 ---
 
-# Popular languages (IEEE Spectrum)
-class: large-image
+# Popular languages
 
-![](images/dev/languages-spectrum-2018-2cols.png)
-
->
-
-<http://spectrum.ieee.org/static/interactive-the-top-programming-languages-2018>
+![large](images/dev/lang-rank-q320-wm.png)
 
 ---
 
 # Weekend programming
-class: large-image
 
-![](images/dev/so-weekend.png)
+![large](images/dev/so-weekend.png)
 
 ---
 
+![](images/fun/haskell-xkcd.png) <https://xkcd.com/1312/>
 # Haskell in industry
 
 - <https://wiki.haskell.org/Haskell_in_industry>
+    - FB, Google, Intel, MS, NVIDIA, Qualcomm…
 - Declarative, fit for *optimization* algorithms
     - Finance, assets management
     - Electronics and hardware design
@@ -437,8 +432,10 @@ Prelude> b !! 2
 [1,2,2,3,4]
 ```
 
-- The lists within a list can be of different lengths but they can't be of different types
-- Just like you can't have a list that has some characters and some numbers, you can't have a list that has some lists of characters and some lists of numbers
+- The lists within a list can't be of different types
+    - Though, they can be of different lengths
+- Just like you can't have a list that has some chars and some nums…
+    - You can't have a list containing lists of chars and lists of nums
 
 ---
 
