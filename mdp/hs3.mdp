@@ -12,11 +12,11 @@ sub![](images/fun/haskell-logo.svg)
     - *Type name* and *value constructors*: capital cased
     - *Algebra* of *sums* (alternations) and *products* (combinations)
 
-``` haskell
+``` hs
 data TrafficLight = Red | Yellow | Green
 ```
 
-``` haskell
+``` hs
 data Shape = Circle Float Float Float
              | Rectangle Float Float Float Float
 ```
@@ -29,7 +29,7 @@ data Shape = Circle Float Float Float
     - They return a value of a data type
     - Fields are actually params
 
-``` haskell
+``` hs
 Prelude> :t Circle
 Circle :: Float -> Float -> Float -> Shape
 Prelude> :t Rectangle
@@ -44,14 +44,14 @@ Rectangle :: Float -> Float -> Float -> Float -> Shape
     - `Circle` is not a type, `Shape` is
     - We can pattern match against constructors
 
-``` haskell
+``` hs
 surface :: Shape -> Float
 surface (Circle _ _ r) = pi * r ^ 2
 surface (Rectangle x1 y1 x2 y2)
         = (abs $ x2 - x1) * (abs $ y2 - y1)
 ```
 
-``` haskell
+``` hs
 Prelude> surface $ Circle 10 20 10
 314.15927
 Prelude> surface $ Rectangle 0 0 100 100
@@ -66,13 +66,13 @@ Prelude> surface $ Rectangle 0 0 100 100
     - Haskell doesn't know how to display our data type as a string (yet)
     - Make our `Shape` type part of the `Show` typeclass
 
-``` haskell
+``` hs
 data Shape = Circle Float Float Float
              | Rectangle Float Float Float Float
              deriving (Show)
 ```
 
-``` haskell
+``` hs
 Prelude> Circle 10 20 5
 Circle 10.0 20.0 5.0
 Prelude> Rectangle 50 230 60 90
@@ -83,7 +83,7 @@ Rectangle 50.0 230.0 60.0 90.0
 
 # Point datatype
 
-``` haskell
+``` hs
 data Point = Point Float Float deriving (Show)
 data Shape = Circle Point Float |
              Rectangle Point Point deriving (Show)
@@ -92,14 +92,14 @@ data Shape = Circle Point Float |
 - Same name for the data type and the value constructor
     - Idiomatic if there's only one value constructor
 
-``` haskell
+``` hs
 surface :: Shape -> Float
 surface (Circle _ r) = pi * r ^ 2
 surface (Rectangle (Point x1 y1) (Point x2 y2))
         = (abs $ x2 - x1) * (abs $ y2 - y1)
 ```
 
-``` haskell
+``` hs
 Prelude> surface (Rectangle (Point 0 0) (Point 100 100))
 10000.0
 Prelude> surface (Circle (Point 0 0) 24)
@@ -113,14 +113,14 @@ Prelude> surface (Circle (Point 0 0) 24)
 - F. that takes shape, dx, dy...
 - Returns a *new shape*, located somewhere
 
-``` haskell
+``` hs
 nudge :: Shape -> Float -> Float -> Shape
 nudge (Circle (Point x y) r) a b = Circle (Point (x+a) (y+b)) r
 nudge (Rectangle (Point x1 y1) (Point x2 y2)) a b
       = Rectangle (Point (x1+a) (y1+b)) (Point (x2+a) (y2+b))
 ```
 
-``` haskell
+``` hs
 Prelude> nudge (Circle (Point 34 34) 10) 5 10
 Circle (Point 39.0 44.0) 10.0
 ```
@@ -129,7 +129,7 @@ Circle (Point 39.0 44.0) 10.0
 
 # Shapes at the origin
 
-``` haskell
+``` hs
 baseCircle :: Float -> Shape
 baseCircle r = Circle (Point 0 0) r
 
@@ -137,7 +137,7 @@ baseRect :: Float -> Float -> Shape
 baseRect width height = Rectangle (Point 0 0) (Point width height)
 ```
 
-``` haskell
+``` hs
 Prelude> nudge (baseRect 40 100) 60 23
 Rectangle (Point 60.0 23.0) (Point 100.0 123.0)
 ```
@@ -149,12 +149,12 @@ Rectangle (Point 60.0 23.0) (Point 100.0 123.0)
 - Create a data type that describes a person
     - First name, last name, age, height, phone number, and favorite ice-cream flavor
 
-``` haskell
+``` hs
 data Person = Person String String Int Float
                      String String deriving (Show)
 ```
 
-``` haskell
+``` hs
 Prelude> let guy = Person "Buddy" "Finklestein" 43 184.2
                           "526-2928" "Chocolate"
 Prelude> guy
@@ -165,7 +165,7 @@ Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
 
 # Accessing fields
 
-``` haskell
+``` hs
 firstName   (Person firstname _ _ _ _ _) = firstname
 lastName    (Person _ lastname  _ _ _ _) = lastname
 age         (Person _ _ age       _ _ _) = age
@@ -174,7 +174,7 @@ phoneNumber (Person _ _ _ _ number    _) = number
 flavor      (Person _ _ _ _ _ flavor   ) = flavor
 ```
 
-``` haskell
+``` hs
 Prelude> :t flavor
 flavor :: Person -> String
 ```
@@ -186,7 +186,7 @@ flavor :: Person -> String
 - Haskell automatically creates accessor f.s
 - Deriving `Show`, output is more complete
 
-``` haskell
+``` hs
 data Person = Person { firstName :: String
                      , lastName :: String
                      , age :: Int
@@ -196,7 +196,7 @@ data Person = Person { firstName :: String
                      } deriving (Show)
 ```
 
-``` haskell
+``` hs
 Prelude> :t flavor
 flavor :: Person -> String
 Prelude> :t firstName
@@ -212,11 +212,11 @@ firstName :: Person -> String
     - Ex.: `Maybe` is defined with a *type parameter* (`a`)
     - Ex.: list type takes a param to produce a concrete type
 
-``` haskell
+``` hs
 data Maybe a = Nothing | Just a
 ```
 
-``` haskell
+``` hs
 Prelude> import Data.Maybe
 Prelude Data.Maybe> isJust Nothing
 False
@@ -228,7 +228,7 @@ Prelude Data.Maybe> fromJust (Just 5)
 
 # Maybe for reading and finding
 
-``` haskell
+``` hs
 Prelude> import Text.Read
 Prelude Text.Read> readMaybe "5" :: Maybe Int
 Just 5
@@ -236,7 +236,7 @@ Prelude Text.Read> readMaybe "??" :: Maybe Int
 Nothing
 ```
 
-``` haskell
+``` hs
 Prelude> import Data.List
 Prelude Data.List> elemIndex 0 [1,4,0,3,2]
 Just 2
@@ -252,11 +252,11 @@ Nothing
 - `Maybe'` defined for a precise content type, e.g. `Int`
 - For containing a `String`, different definition needed
 
-``` haskell
+``` hs
 data Maybe' = Nothing' | Just' Int
 ```
 
-``` haskell
+``` hs
 Prelude> :t Just' 84
 Just' 84 :: Maybe'
 Prelude> :t Nothing'
@@ -274,7 +274,7 @@ Prelude> Just' "Hello"
     - *Type* as instance, if it supports that behavior
     - Ex.: `==` and `/=` act as interface for `Eq`
 
-``` haskell
+``` hs
 data Person = Person { firstName :: String
                      , lastName :: String
                      , age :: Int
@@ -291,14 +291,14 @@ data Person = Person { firstName :: String
 
 # Show and Read types
 
-``` haskell
+``` hs
 data Person = Person { firstName :: String
                      , lastName :: String
                      , age :: Int
                      } deriving (Eq, Show, Read)
 ```
 
-``` haskell
+``` hs
 Prelude> let mikeD = Person {firstName = "Michael",
                      lastName = "Diamond", age = 43}
 Prelude> "mikeD is: " ++ show mikeD
@@ -318,13 +318,13 @@ True
 
 - Use algebraic data types to make enumerations
 
-``` haskell
+``` hs
 data Day = Monday | Tuesday | Wednesday | Thursday
            | Friday | Saturday | Sunday
            deriving (Eq, Ord, Show, Read, Bounded, Enum)
 ```
 
-``` haskell
+``` hs
 Prelude> succ Friday
 Saturday
 Prelude> Friday >= Wednesday
@@ -337,13 +337,13 @@ True
 
 - Giving some types different names
 
-``` haskell
+``` hs
 type String = [Char]  -- equivalent and interchangeable
 ```
 
 - To convey more information about data
 
-``` haskell
+``` hs
 type Name = String
 type PhoneNumber = String
 type PhoneBook = [(Name,PhoneNumber)]
@@ -402,7 +402,7 @@ class Ball:
 `cabal install random`
 ```
 
-``` haskell
+``` hs
 random :: (RandomGen g, Random a) => g -> (a, g)
 ```
 
@@ -420,11 +420,11 @@ random :: (RandomGen g, Random a) => g -> (a, g)
 - `StdGen`: instance of `RandomGen`
 - `mkStdGen` f., to manually make a random generator
 
-``` haskell
+``` hs
 mkStdGen :: Int -> StdGen
 ```
 
-``` haskell
+``` hs
 Prelude> random (mkStdGen 100) :: (Int, StdGen)
 (-1352021624,651872571 1655838864)
 Prelude> random (mkStdGen 100) :: (Int, StdGen)
@@ -440,7 +440,7 @@ Prelude> random (mkStdGen 100) :: (Int, StdGen)
 - Represent a coin with a simple `Bool`: `True` is tails, `False` is heads
 - Call `random` with a generator, get a coin and a new generator
 
-``` haskell
+``` hs
 threeCoins :: StdGen -> (Bool, Bool, Bool)
 threeCoins gen =
     let (firstCoin, newGen) = random gen
@@ -449,7 +449,7 @@ threeCoins gen =
     in  (firstCoin, secondCoin, thirdCoin)
 ```
 
-``` haskell
+``` hs
 Prelude> threeCoins (mkStdGen 21)
 (True,True,True)
 Prelude> threeCoins (mkStdGen 943)
@@ -463,13 +463,13 @@ Prelude> threeCoins (mkStdGen 943)
 - `randoms` f. takes a generator and returns an infinite sequence of values
 - Doesn't give the new random generator back
 
-``` haskell
+``` hs
 randoms' :: (RandomGen g, Random a) => g -> [a]
 randoms' gen = let (value, newGen) = random gen
               in value:randoms' newGen
 ```
 
-``` haskell
+``` hs
 Prelude> take 5 $ randoms (mkStdGen 11) :: [Int]
 [-1807975507,545074951,-1015194702,-1622477312,-502893664]
 Prelude> take 5 $ randoms (mkStdGen 11) :: [Bool]
@@ -482,7 +482,7 @@ Prelude> take 5 $ randoms (mkStdGen 11) :: [Bool]
 
 - `randomR`: single random value within a defined range
 
-``` haskell
+``` hs
 Prelude> randomR (1,6) (mkStdGen 123456)
 (4,645041272 40692)
 Prelude> randomR (1,6) (mkStdGen 654321)
@@ -491,7 +491,7 @@ Prelude> randomR (1,6) (mkStdGen 654321)
 
 - `randomRs`: stream of random values within a defined range
 
-``` haskell
+``` hs
 Prelude> take 10 $ randomRs ('a','z') (mkStdGen 3) :: [Char]
 "ndkxbvmomg"
 ```
@@ -523,7 +523,7 @@ Prelude> take 10 $ randomRs ('a','z') (mkStdGen 3) :: [Char]
 - Up until now, we've always loaded our functions into GHCI to test them
 - Let's write our first Haskell program (`helloworld.hs`)
 
-``` haskell
+``` hs
 main = print "hello, world"
 ```
 
@@ -545,7 +545,7 @@ Protip: `runhaskell` runs a program (`.hs`) on the fly
 
 # I/O actions
 
-``` haskell
+``` hs
 Prelude> :t print
 print :: Show a => a -> IO ()
 Prelude> :t print "hello, world"
@@ -567,7 +567,7 @@ print "hello, world" :: IO ()
 - One I/O action seems limiting...
 - Use **`do`** syntax to glue together several I/O actions into one
 
-``` haskell
+``` hs
 main = do
     print "Hello, what's your name?"
     name <- getLine
@@ -584,7 +584,7 @@ main = do
 ![](images/algo/luggage.png)
 # Getting data
 
-``` haskell
+``` hs
 Prelude> :t getLine
 getLine :: IO String
 ```
@@ -605,7 +605,7 @@ getLine :: IO String
 
 - Take a look at this piece of code. *Is it valid?*
 
-``` haskell
+``` hs
 nameTag = "Hello, my name is " ++ getLine
 ```
 
@@ -618,7 +618,7 @@ nameTag = "Hello, my name is " ++ getLine
 
 # Binding
 
-``` haskell
+``` hs
 name = getLine
 ```
 
@@ -636,7 +636,7 @@ name = getLine
 - Read a line and print it out with each word reversed
 - Repeat until reading a blank line
 
-``` haskell
+``` hs
 main = do
     line <- getLine
     if null line
@@ -666,7 +666,7 @@ reverseWords = unwords . map reverse . words
 - We can use `return` in combination with `<-`
     - In fact, they're sort of *opposite*
 
-``` haskell
+``` hs
 main = do
     a <- return "hell"     -- hey, just use let!
     b <- return "yeah!"    -- hey, just use let!
@@ -700,7 +700,7 @@ cabal install split
 - `putStr` is much like `putStrLn`, without a new line
     - Defined recursively with the help of `putChar`
 
-``` haskell
+``` hs
 putStr :: String -> IO ()
 putStr [] = return ()
 putStr (x:xs) = do
@@ -720,17 +720,17 @@ putStr (x:xs) = do
 - It returns an I/O action to perform them in sequence
 - Action result: list of the results
 
-``` haskell
+``` hs
 sequence :: [IO a] -> IO [a]
 ```
 
-``` haskell
+``` hs
 main = do
     rs <- sequence [getLine, getLine, getLine]
     print rs
 ```
 
-``` haskell
+``` hs
 main = do
     a <- getLine
     b <- getLine
@@ -746,7 +746,7 @@ main = do
 - `map print [1,2,3]` creates a list of I/O actions
 - `sequence` transforms that list into an I/O action
 
-``` haskell
+``` hs
 Prelude> sequence (map print [1,2,3])
 1
 2
@@ -766,7 +766,7 @@ Prelude> sequence (map print [1,2,3])
 - `mapM` takes a f. and a list, maps the function over the list, then sequences it
 - `mapM_` does the same, only it throws away the result and returns `()`
 
-``` haskell
+``` hs
 Prelude> mapM print [1,2,3]
 1
 2
@@ -782,7 +782,7 @@ Prelude> mapM_ print [1,2,3]
 
 # For-each cycles
 
-``` haskell
+``` hs
 main = do
     colors <- mapM (\a -> do
         print $ "Which color do you associate with the number "
@@ -808,7 +808,7 @@ Useful in combination with lambdas and `do` notation
 
 - `getContents`: whole stdin as a `String` (*lazy*)
 
-``` haskell
+``` hs
 main = do
     contents <- getContents
     putStr (shortLinesOnly contents)
@@ -822,7 +822,7 @@ shortLinesOnly input =
 
 - `interact`: applies a `String -> String` f. between stdin and stdout (*lazy*)
 
-``` haskell
+``` hs
 main = interact $ unlines . filter ((<10) . length) . lines
 ```
 
@@ -891,7 +891,7 @@ Possibly, use `reverse` and `transpose`
     - If it's `False`, it returns `return ()` -- void action
 - Encapsulats `if ... else return ()` pattern
 
-``` haskell
+``` hs
 import Control.Monad (when)
 
 main = do
@@ -908,7 +908,7 @@ main = do
 - `forever` takes an I/O action `act` and...
 - Returns an I/O action that just repeats `act` forever
 
-``` haskell
+``` hs
 import Control.Monad (forever)
 import Data.Char (toUpper)
 
@@ -930,7 +930,7 @@ In this case, close the `stdin` stream to break out
     - Performed twice: get same generator
 - `newStdGen`, get a new generator, update the global one
 
-``` haskell
+``` hs
 import System.Random (getStdGen, randomRs)
 
 main = do
@@ -947,7 +947,7 @@ eiqgcxykivpudlsvvjpg
 
 # Guess the number
 
-``` haskell
+``` hs
 main = do
     gen <- getStdGen
     askForNumber gen
@@ -968,7 +968,7 @@ askForNumber gen = do
 
 # Guess, purer
 
-``` haskell
+``` hs
 process :: StdGen -> [String] -> [String]
 process gen guesses =
     "Which number (1-10) am I thinking of?":
@@ -1000,12 +1000,12 @@ main = do
     - If `Left` is used, then its contents are of type `a`
     - If `Right` is used, then its contents are of type `b`
 
-``` haskell
+``` hs
 data Either a b = Left a | Right b
                   deriving (Eq, Ord, Read, Show)
 ```
 
-``` haskell
+``` hs
 Prelude> Right 20
 Right 20
 Prelude> :t Right 'a'
@@ -1044,13 +1044,13 @@ Left True :: Either Bool b
 
 # Generic list
 
-``` haskell
+``` hs
 data List a = Empty
               | Cons a (List a)
               deriving (Show, Read, Eq, Ord)
 ```
 
-``` haskell
+``` hs
 data List a = Empty
               | Cons { listHead :: a, listTail :: List a}
               deriving (Show, Read, Eq, Ord)
@@ -1059,7 +1059,7 @@ data List a = Empty
 - `Cons` constructor represents `:`
     - `:` is a constructor for lists (params: value, list)
 
-``` haskell
+``` hs
 Prelude> Empty
 Empty
 Prelude> 4 `Cons` (5 `Cons` Empty)
@@ -1074,13 +1074,13 @@ Cons 4 (Cons 5 Empty)
 - A `List'` should be defined for a precise content type, e.g. `Int`
 - For containing a `String`, for example, a different definition of `List'` would be needed
 
-``` haskell
+``` hs
 data List' = Empty'
              | Cons' Int (List')
              deriving (Show, Read, Eq, Ord)
 ```
 
-``` haskell
+``` hs
 Prelude> Empty'
 Empty'
 Prelude> 4 `Cons'` (5 `Cons'` Empty')
@@ -1096,7 +1096,7 @@ Cons' 4 (Cons' 5 Empty')
     - Elements at the left sub-tree are smaller than the value
     - Elements in the right sub-tree are bigger
 
-``` haskell
+``` hs
 data Tree a = EmptyTree
               | Node a (Tree a) (Tree a)
               deriving (Show, Read, Eq)
@@ -1114,7 +1114,7 @@ data Tree a = EmptyTree
     - `a -> Tree a - > Tree a`
 - It seems inefficient, but most of the structure is shared
 
-``` haskell
+``` hs
 singleton :: a -> Tree a    -- just a shortcut f.
 singleton x = Node x EmptyTree EmptyTree
 
@@ -1133,7 +1133,7 @@ treeInsert x (Node a left right)
 - Folding: traversing a list and returning some value
 - Use a fold to build up a tree from a list
 
-``` haskell
+``` hs
 Prelude> let nums = [8,6,4,1,7,3,5]
 Prelude> let numsTree = foldr treeInsert EmptyTree nums
 Prelude> numsTree
@@ -1144,7 +1144,7 @@ Node 5 (Node 3 ...
 
 # Checking for membership
 
-``` haskell
+``` hs
 treeElem :: (Ord a) => a -> Tree a -> Bool
 treeElem x EmptyTree = False
 treeElem x (Node a left right)
@@ -1153,7 +1153,7 @@ treeElem x (Node a left right)
     | x > a  = treeElem x right
 ```
 
-``` haskell
+``` hs
 Prelude> 8 `treeElem` numsTree
 True
 Prelude> 100 `treeElem` numsTree
@@ -1168,7 +1168,7 @@ False
 
 # Defining a typeclass
 
-``` haskell
+``` hs
 class Eq a where            -- stdlib
     (==) :: a -> a -> Bool
     (/=) :: a -> a -> Bool
@@ -1188,13 +1188,13 @@ class Eq a where            -- stdlib
 
 # Creating instances
 
-``` haskell
+``` hs
 data TrafficLight = Red | Yellow | Green
 ```
 
 - Let's write up an *instance* by hand
 
-``` haskell
+``` hs
 instance Eq TrafficLight where
     Red == Red = True
     Green == Green = True
@@ -1214,14 +1214,14 @@ instance Eq TrafficLight where
     - Implement its *show* function
     - It takes a value and turns it into a string
 
-``` haskell
+``` hs
 instance Show TrafficLight where
     show Red = "Red light"
     show Yellow = "Yellow light"
     show Green = "Green light"
 ```
 
-``` haskell
+``` hs
 Prelude> Red == Yellow
 False
 Prelude> Red `elem` [Red, Yellow, Green]
@@ -1237,7 +1237,7 @@ Prelude> [Red, Yellow, Green]
 - You can also make typeclasses that are *subclasses* of other typeclasses
 - Ex.: class declaration for `Num`
 
-``` haskell
+``` hs
 class (Eq a) => Num a where
    ...
 ```
@@ -1261,7 +1261,7 @@ class (Eq a) => Num a where
 - The `Functor` typeclass is basically for things that can be mapped over
     - (Yes, *list* type is part of `Functor`)
 
-``` haskell
+``` hs
 class Functor f where
     fmap :: (a -> b) -> f a -> f b
 ```
@@ -1279,14 +1279,14 @@ class Functor f where
 - `map` takes a f. from type `a` to `b`, a list of `a`, returns a list of `b`
     - `map` is just a `fmap` that works only on lists
 
-``` haskell
+``` hs
 map :: (a -> b) -> [a] -> [b]
 
 instance Functor [] where
     fmap = map
 ```
 
-``` haskell
+``` hs
 Prelude> fmap (*2) [1..3]  -- same as map
 [2,4,6]
 ```
@@ -1302,7 +1302,7 @@ Prelude> fmap (*2) [1..3]  -- same as map
 - Types that can act *like a box* can be functors
 - Here's how `Maybe` is a functor
 
-``` haskell
+``` hs
 instance Functor Maybe where
     fmap f (Just x) = Just (f x)
     fmap f Nothing = Nothing
@@ -1321,7 +1321,7 @@ instance Functor Maybe where
 - If it's an empty value of `Nothing`, then just return a `Nothing`
 - If it's a single value packed up in a `Just`, then we apply the function on the contents of the `Just`
 
-``` haskell
+``` hs
 Prelude> fmap (++ " LOOK MA, INSIDE JUST") Nothing
 Nothing
 Prelude> fmap (++ " LOOK MA, INSIDE JUST") (Just "Stg serious.")
@@ -1336,14 +1336,14 @@ Nothing
 
 # Tree as a functor
 
-``` haskell
+``` hs
 instance Functor Tree where
     fmap f EmptyTree = EmptyTree
     fmap f (Node x leftsub rightsub)
            = Node (f x) (fmap f leftsub) (fmap f rightsub)
 ```
 
-``` haskell
+``` hs
 Prelude> fmap (*4) EmptyTree
 EmptyTree
 Prelude> fmap (*4) (foldr treeInsert EmptyTree [5,7,3,2,1,7])
@@ -1357,7 +1357,7 @@ Node 28 (Node 4 EmptyTree (Node 8 EmptyTree ...
 - The `Functor` typeclass wants a *type constructor* that takes only one type parameter but `Either` takes two
 - Partial application: `Either a` is a type constructor that takes one parameter
 
-``` haskell
+``` hs
 instance Functor (Either a) where
     fmap f (Right x) = Right (f x)
     fmap f (Left x) = Left x

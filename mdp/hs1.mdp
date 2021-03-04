@@ -217,7 +217,7 @@ print(cube(4))
     - `&&, ||, not`
     - `==, /=, <, <=, >, >=`
 
-``` haskell
+``` hs
 Prelude> 2 ^ 3
 8
 ```
@@ -237,7 +237,7 @@ Prelude> 2 ^ 3
     - Surround f. name with ticks (`)
     - Operator (f. named with symbols)
 
-``` haskell
+``` hs
 Prelude> div 5 3
 1
 Prelude> 5 `div` 3
@@ -251,7 +251,7 @@ Prelude> 5 `rem` 3
 ![](images/fun/fx.png)
 # Defining functions
 
-``` haskell
+``` hs
 doubleMe x = x + x
 
 doubleUs x y = doubleMe x + doubleMe y
@@ -260,7 +260,7 @@ doubleUs x y = doubleMe x + doubleMe y
 - Save the previous code in a file: `baby.hs`
 - In GHCi enter: `:l baby`
 
-``` haskell
+``` hs
 Prelude> :l baby
 Prelude> doubleMe 5
 10
@@ -275,7 +275,7 @@ Prelude> doubleUs 4 3
 - A function without params is a constant
     - I.e., an *immutable* variable
 
-``` haskell
+``` hs
 greetings = "Hi, there!"
 k = 11
 k = k + 1    -- error!
@@ -286,7 +286,7 @@ k = k + 1    -- error!
     - writing `a = 1` in a script and then loading it
 
 
-``` haskell
+``` hs
 Prelude> let doubleMe x = x + x
 Prelude> doubleMe 5
 10
@@ -304,7 +304,7 @@ Prelude> doubleMe 5
 - Much like shopping lists in the real world, lists in Haskell are very useful
 - Lists are denoted by square brackets and the values in the lists are separated by commas
 
-``` haskell
+``` hs
 Prelude> let lostNumbers = [12,99,37]
 Prelude> lostNumbers
 [12,99,37]
@@ -336,7 +336,7 @@ The character type is denoted as a character between single quotes
 - A common task is putting two lists together
 - This is done by using the `++` operator
 
-``` haskell
+``` hs
 Prelude> [1,2,3,4] ++ [9,10,11,12]
 [1,2,3,4,9,10,11,12]
 Prelude> [1,2,3] ++ [4]
@@ -360,7 +360,7 @@ Even if you're adding an element to the end of a list with `++`, you have to sur
 - However, putting something at the beginning of a list using the `:` operator (also called the *cons* operator) is instantaneous
     - `:` takes a value and a list, whereas `++` takes two lists
 
-``` haskell
+``` hs
 Prelude> 'A':" SMALL CAT"
 "A SMALL CAT"
 Prelude> 5:[1,2,3,4,5]
@@ -407,7 +407,7 @@ The previous list stays unchanged, can be reused
 - If you want to get an element out of a list by index, use `!!`
 - The indices start at `0`
 
-``` haskell
+``` hs
 Prelude> "Steve Buscemi" !! 6
 'B'
 Prelude> [9.4,33.2,96.2,11.2,23.25] !! 1
@@ -420,7 +420,7 @@ Prelude> [9.4,33.2,96.2,11.2,23.25] !! 1
 
 # Lists of lists
 
-``` haskell
+``` hs
 Prelude> let b = [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
 Prelude> b
 [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
@@ -446,7 +446,7 @@ Prelude> b !! 2
     - First the heads are compared
     - If they are equal then the second elements are compared, etc.
 
-``` haskell
+``` hs
 Prelude> [3,2,1] > [2,1,0]
 True
 Prelude> [3,2,1] > [3,10,100]
@@ -470,7 +470,7 @@ True
 - `last` takes a list and returns its last element
 - `init` takes a list and returns everything except its last element
 
-``` haskell
+``` hs
 Prelude> head [5,4,3,2,1]
 5
 Prelude> tail [5,4,3,2,1]
@@ -485,7 +485,7 @@ Prelude> init [5,4,3,2,1]
 
 # List errors
 
-``` haskell
+``` hs
 Prelude> head []
 *** Exception: Prelude.head: empty list
 ```
@@ -501,7 +501,7 @@ Prelude> head []
 - `null` checks if a list is empty (`True` / `False`)
 - `reverse` reverses a list
 
-``` haskell
+``` hs
 Prelude> length [5,4,3,2,1]
 5
 Prelude> null [1,2,3]
@@ -521,7 +521,7 @@ Prelude> reverse [5,4,3,2,1]
 - Take more elements than there are in the list: it just returns the list
 - Take 0 elements: we get an empty list
 
-``` haskell
+``` hs
 Prelude> take 3 [5,4,3,2,1]
 [5,4,3]
 Prelude> take 1 [3,9,3]
@@ -539,7 +539,7 @@ Prelude> take 0 [6,6,6]
 - `drop` takes a number and a list
 - It drops the number of elements from the beginning of the list
 
-``` haskell
+``` hs
 Prelude> drop 3 [8,4,2,1,5,6]
 [1,5,6]
 Prelude> drop 0 [1,2,3,4]
@@ -556,7 +556,7 @@ Prelude> drop 100 [1,2,3,4]
     - Is that thing an element of the list?
     - Usually called as *infix* f.: easier to read
 
-``` haskell
+``` hs
 Prelude> 4 `elem` [3,4,5,6]
 True
 Prelude> 10 `elem` [3,4,5,6]
@@ -572,7 +572,7 @@ False
 - `maximum` takes a list of stuff (that can be put in some kind of order) and returns the biggest element
 - `minimum` returns the smallest
 
-``` haskell
+``` hs
 Prelude> sum [5,2,1,6,3,2,5,7]
 31
 Prelude> product [6,2,1,2]
@@ -591,7 +591,7 @@ Prelude> maximum [1,9,2,3,4]
     - Elements that can be enumerated
     - Integers, characters, ...
 
-``` haskell
+``` hs
 Prelude> [1..10]
 [1,2,3,4,5,6,7,8,9,10]
 Prelude> ['a'..'z']
@@ -609,7 +609,7 @@ Prelude> ['K'..'Z']
     - Then specify what the upper limit is
     - Works only for arithmetic sequences
 
-``` haskell
+``` hs
 Prelude> [2,4..20]  -- Even numbers between 1 and 20
 [2,4,6,8,10,12,14,16,18,20]
 Prelude> [3,6..20]  -- Every third number between 1 and 20
@@ -639,7 +639,7 @@ Prelude> [5,4..1]   -- Negative step: you can't just do `[5..1]`
 
 - `cycle` takes a list and cycles it into an infinite list
 
-``` haskell
+``` hs
 Prelude> take 10 (cycle [1,2,3])
 [1,2,3,1,2,3,1,2,3,1]
 Prelude> take 11 (cycle "LOL ")
@@ -653,14 +653,14 @@ Prelude> take 11 (cycle "LOL ")
 - `repeat` takes an element and produces an infinite list of just that element
     - It's like cycling a list with only one element
 
-``` haskell
+``` hs
 Prelude> take 10 (repeat 5)
 [5,5,5,5,5,5,5,5,5,5]
 ```
 
 - Although it's simpler to just use the `replicate` function if you want some number of the same element in a list
 
-``` haskell
+``` hs
 Prelude> replicate 3 10
 [10,10,10]
 Prelude> replicate 3 "LOL "
@@ -967,7 +967,7 @@ See also: <https://docs.python.org/3/library/operator.html>
     - Ex.: set of first ten even natural numbers
     - `S = {2·x | x ∈ N, x ≤ 10}`
 
-``` haskell
+``` hs
 Prelude> [x*2 | x <- [1..10]]
 [2,4,6,8,10,12,14,16,18,20]
 ```
@@ -986,7 +986,7 @@ Prelude> [x*2 | x <- [1..10]]
     - Weeding out lists by predicates is also called *filtering*
 - Ex.: all numbers from 50 to 100 whose remainder when divided with the number 7 is 3
 
-``` haskell
+``` hs
 Prelude> [x | x <- [50..100], x `mod` 7 == 3]
 [52,59,66,73,80,87,94]
 ```
@@ -1002,14 +1002,14 @@ Prelude> [x | x <- [50..100], x `mod` 7 == 3]
 
 # Examples of comprehensions
 
-``` haskell
+``` hs
 Prelude> let boomBangs xs = [if x < 10 then "BOOM!"
                       else "BANG!" | x <- xs, odd x]
 Prelude> boomBangs [7..13]
 ["BOOM!","BOOM!","BANG!","BANG!"]
 ```
 
-``` haskell
+``` hs
     Prelude> let removeNonUppercase st = [c | c <- st,
                                     c `elem` ['A'..'Z']]
     Prelude> removeNonUppercase "IdontLIKEFROGS"
@@ -1022,7 +1022,7 @@ Prelude> boomBangs [7..13]
 
 - We can include several predicates
 
-``` haskell
+``` hs
 Prelude> [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
 [10,11,12,14,16,17,18,20]
 ```
@@ -1031,7 +1031,7 @@ Prelude> [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
     - Produce the *cartesian product* of the input lists
     - Then join them by the output function
 
-``` haskell
+``` hs
 Prelude> [x*y | x <- [2,5,10], y <- [8,10,11]]
 [16,20,22,40,50,55,80,100,110]
 ```
@@ -1068,7 +1068,7 @@ Prelude> [x*y | x <- [2,5,10], y <- [8,10,11]]
     - `fst` takes a pair and returns its first component
     - `snd` takes a pair and returns its second component
 
-``` haskell
+``` hs
 Prelude> fst (8,11)
 8
 Prelude> snd ("Wow", False)
@@ -1085,7 +1085,7 @@ False
     - The two lists can contain different types
     - Ex.: to traverse two lists simultaneously
 
-``` haskell
+``` hs
 Prelude> zip [1,2,3,4,5] [5,5,5,5,5]
 [(1,5),(2,5),(3,5),(4,5),(5,5)]
 Prelude> zip [1 .. 5] ["one", "two", "three", "four", "five"]
@@ -1099,7 +1099,7 @@ Prelude> zip [1 .. 5] ["one", "two", "three", "four", "five"]
 - If a list is longer than the other, it gets *cut off*
 - Haskell is *lazy*: zip finite lists with infinite lists
 
-``` haskell
+``` hs
 Prelude> zip [1..] ["apple", "orange", "cherry", "mango"]
 [(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]
 ```
@@ -1148,7 +1148,7 @@ Prelude> zip [1..] ["apple", "orange", "cherry", "mango"]
     - `:t` command tells us the type of an expression
     - `::` is read as “*has type of*”
 
-``` haskell
+``` hs
 Prelude> :t 'a'
 'a' :: Char
 Prelude> :t 4 == 5
@@ -1167,7 +1167,7 @@ Prelude> :t (True, 'a')
     - So they also have types and you can use `:t` on them
 - We can give functions an explicit type declaration
 
-``` haskell
+``` hs
 removeNonUppercase :: [Char] -> [Char]
 removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
 ```
@@ -1184,7 +1184,7 @@ removeNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
 - The *return type* is the last item
 - There's no special distinction between the parameters and the return type
 
-``` haskell
+``` hs
 addThree :: Int -> Int -> Int -> Int
 addThree x y z = x + y + z
 ```
@@ -1196,7 +1196,7 @@ addThree x y z = x + y + z
 - `Integer` stands for (unbounded) integer
 - `Int` stands for (bounded) integer -- It's more efficient
 
-``` haskell
+``` hs
 factorial :: Integer -> Integer
 factorial n = product [1..n]
 
@@ -1211,7 +1211,7 @@ Prelude> factorial 50
 - `Float` is a real floating point with single precision
 - `Double` is a real floating point with double precision
 
-``` haskell
+``` hs
 circumference :: Float -> Float
 circumference r = 2 * pi * r
 
@@ -1241,7 +1241,7 @@ Prelude> circumference' 4.0
 
 - What is the type of the `head` function?
 
-``` haskell
+``` hs
 Prelude> :t head
 head :: [a] -> a
 ```
@@ -1281,13 +1281,13 @@ int main () {
 
 - What is the type of the `fst` function?
 
-``` haskell
+``` hs
 Prelude> :t fst
 fst :: (a, b) -> a
 ```
 
 - `fst` takes a tuple which contains two types, and returns an element of the same type as first component
-- Note: `a` and `b` are different type variables, but they don't have to be different types
+- Note : `a` and `b` are different type variables, but they don't have to be different types
 
 ---
 
@@ -1298,12 +1298,12 @@ fst :: (a, b) -> a
 - Everything before the `=>` symbol is called a *class constraint*
     - The type of those two values must be a member of `Eq`
 
-``` haskell
+``` hs
 Prelude> :t (==)
 (==) :: (Eq a) => a -> a -> Bool
 ```
 
-- Note: the equality operator, `==`, is a function
+- Note : the equality operator, `==`, is a function
     - So are `+, *, -, /` and pretty much all operators
     - A f. named only with special chars is infix by default
     - Handle an op. as a normal f.: *surround it in parentheses*
@@ -1332,7 +1332,7 @@ Prelude> :t (==)
 - The `compare` f. takes two `Ord` members of the same type
     - It returns an `Ordering`: a type that can be `GT, LT, EQ`
 
-``` haskell
+``` hs
 Prelude> :t (>)
 (>) :: (Ord a) => a -> a -> Bool
 Prelude> "Abrakadabra" `compare` "Zebra"
@@ -1369,7 +1369,7 @@ Prelude> show True
     - Its member types implement the `read` f.
 - `read` takes a *string* and returns a member of `Read`
 
-``` haskell
+``` hs
 Prelude> read "True" || False
 True
 Prelude> read "8.2" + 3.8
@@ -1447,7 +1447,7 @@ Prelude> succ 'B'
 - Define separate function bodies for different patterns
     - Simple and readable code
 
-``` haskell
+``` hs
 lucky :: (Integral a) => a -> String
 lucky 7 = "LUCKY NUMBER SEVEN!"
 lucky x = "Sorry, you're out of luck, pal!"
@@ -1461,7 +1461,7 @@ lucky x = "Sorry, you're out of luck, pal!"
     - The factorial of `0` is `1`
     - The factorial of any positive integer is that integer multiplied by the factorial of its predecessor
 
-``` haskell
+``` hs
 factorial :: (Integral a) => a -> a
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
@@ -1479,12 +1479,12 @@ factorial n = n * factorial (n - 1)
     - Vectors in a 2D space, in the form of *pairs*
     - Add their x components, and then their y components
 
-``` haskell
+``` hs
     addVectors :: (Num a) => (a, a) -> (a, a) -> (a, a)
     addVectors a b = (fst a + fst b, snd a + snd b)
 ```
 
-``` haskell
+``` hs
 addVectors :: (Num a) => (a, a) -> (a, a) -> (a, a)
 addVectors (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
 ```
@@ -1493,7 +1493,7 @@ addVectors (x1, y1) (x2, y2) = (x1 + x2, y1 + y2)
 
 # Extracting from triples
 
-``` haskell
+``` hs
 first :: (a, b, c) -> a
 first (x, _, _) = x
 
@@ -1515,7 +1515,7 @@ third (_, _, z) = z
     - It will only match against lists with 3 elements or more
 - Ex.: f. that tells us about first elements of a list
 
-``` haskell
+``` hs
 tell :: (Show a) => [a] -> String
 tell [] = "The list is empty"
 tell (x:[]) = "The list has one element: " ++ show x
@@ -1527,13 +1527,13 @@ tell (x:y:_) = "This long list starts with: " ++ show x ++ ", " ++ show y
 
 # Length and sum of a list
 
-``` haskell
+``` hs
 length' :: [a] -> Int
 length' [] = 0
 length' (_:xs) = 1 + length' xs
 ```
 
-``` haskell
+``` hs
 sum' :: (Num a) => [a] -> a
 sum' [] = 0
 sum' (x:xs) = x + sum' xs
@@ -1554,7 +1554,7 @@ Let's see what happens if we call length' on "ham"... In the end we have 1 + (1 
     - Put a name and an `@` in front of a pattern
     - Ex. `xs@(x:y:ys)` to get the whole list via `xs`
 
-``` haskell
+``` hs
 capital :: String -> String
 capital "" = "Empty string, whoops!"
 capital all@(x:xs) = "The first letter of " ++ all ++ " is " ++ [x]
@@ -1574,7 +1574,7 @@ Note: you can't use ++ in patterns, like `xs ++ ys`. What would be in the first 
 - The `where` clause define names, across guards
 - Ex.: a simple function that berates you differently depending on your “body mass index”
 
-``` haskell
+``` hs
 bmiTell :: Float -> Float -> String
 bmiTell weight height
     | bmi <= 18.5 = "Underweight, you emo, you!"
@@ -1588,7 +1588,7 @@ bmiTell weight height
 
 # Local definitions
 
-``` haskell
+``` hs
 heron a b c =
     sqrt (s * (s - a) * (s - b) * (s - c))
     where s = (a + b + c) / 2

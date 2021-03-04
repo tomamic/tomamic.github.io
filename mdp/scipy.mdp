@@ -91,13 +91,16 @@ results_by_month = [0] * 12  # List repetition
 
 ``` py
 n = len(months)            # 12
-months[3]                  # "Apr"
-months[-2]                 # "Nov", same as n - 2
+months[3]                  # 'Apr'
+months[-2]                 # 'Nov', same as n - 2
 
-spring = months[2:5]       # ["Mar", "Apr", "May"]
-quart1 = months[:3]        # ["Jan", "Feb", "Mar"]
-quart4 = months[-3:]       # ["Oct", "Nov", "Dec"]
+spring = months[2:5]       # ['Mar', 'Apr', 'May']
+quart1 = months[:3]        # ['Jan', 'Feb', 'Mar']
+quart4 = months[-3:]       # ['Oct', 'Nov', 'Dec']
 whole_year = months[:]     # Copy of the whole list
+
+feb_apr = months[1:4:2]    # ['Feb", 'Apr']
+q4_rev = months[11:8:-1]   # ['Dec', 'Nov', 'Oct']
 ```
 
 >
@@ -138,13 +141,29 @@ c = a
 c is a           # True, same object in memory
                  # (try and modify one of them...)
 
-d = ["sausage", "mushrooms"]
-grocery = c + d  # list concat --> new list! but += in place
-
 # Lexicographical comparison of lists (or strings, tuples...)
 # Compare the first two *different* elements
 [2, 0, 0] > [1, 2, 0]  # True: 2 > 1
 [2, 1, 0] > [2, 0, 1]  # True: 2 == 2, 1 > 0
+```
+
+---
+
+# In place operations
+
+- List concat `+` produces a new list
+- But `+=` works *in place*
+
+``` py
+a = [1, 2, 3]
+b = a
+b = b + [4, 5]  # guess b? guess a?
+```
+
+``` py
+a = [1, 2, 3]
+b = a
+b += [4, 5]  # guess b? guess a?
 ```
 
 ---
@@ -261,6 +280,28 @@ Angle: 135; Sin: 0.71
 
 ---
 
+# 🥷 Instructions and expressions
+
+- **Expression**: code whose evaluation produces a value
+    - Fit for the right side of an assignment (*rvalue*)
+- Many Python **instructions** do not correspond to a value
+    - `if`, `while`, `for`, `def`, `class` are *not* expressions
+    - Assignaments `=`, `+=`, etc. are *not* expressions
+- There is a special `if`, being an expression
+
+``` py
+val = 'boom' if 5 % 2 == 0 else 'bang'`
+```
+
+- Since v3.8: special `:=` *assignament*, as an expression
+
+``` py
+while (v := float(input("val? "))) >= 0:  # sentinel
+    print(v ** .5)
+```
+
+---
+
 ![](images/dev/computer-ninja.svg)
 # List comprehension
 
@@ -334,7 +375,7 @@ even_nums = (str(x) for x in range(12) if (x % 2) == 0)
 ![](images/repr/child-fingers.png)
 # Enumerate
 
-- To couple each value of a sequence to an increasing index
+- Couple each value of a sequence with its index
 - It generates a sequence of tuples (pairs)
 - In `for` cycles, using both value and index
 
@@ -445,29 +486,6 @@ Results in a list: only (!) to visualize them
 
 ---
 
-![](images/fun/dictionary.png)
-# Dictionary
-
-- Sometimes called *map* or *associative array*
-- Unordered set of key / value pairs
-    - Keys are *unique*: like *indices* for lists, to access the associated value
-    - They can be sparse `int` or **`str`** (or any other immutable type)
-
-``` py
->>> tel = {"john": 4098, "terry": 4139}
->>> tel["john"]
-4098
->>> tel["graham"] = 4127
->>> tel
-{"graham": 4127, "terry": 4139, "john": 4098}
-```
-
->
-
-Try also `list(tel)` ... and methods `keys`, `values`, `items`, `get`
-
----
-
 # Multidim lists
 - Lists of lists of ...
     - Access to elements: two or more indices (or *dimensions*)
@@ -544,6 +562,106 @@ for y in range(rows):
     matrix.append(new_row)
 ```
 
+- ⚠️ **Don't** use repetitions to create lists of lists
+
+``` py
+not_a_matrix = [[0] * 4] * 3  # DON'T do this
+not_a_matrix[1][2] = 1        # guess not_a_matrix?
+```
+
+---
+
+![](images/fun/dictionary.png)
+# 🥷 Dictionary
+
+- Sometimes called *map* or *associative array*
+- *Unordered* set of **key**-**value** pairs
+- Key: *index* to access the value
+    - Keys are *unique* (~ `list`)
+    - Type: *`str`*, or other immutable type
+
+``` py
+tel = {"john": 4098, "terry": 4139}  # dict[str, int]
+if "john" in tel:
+    print(tel["john"])  # 4098, ⚠️ error for a missing key
+tel["graham"] = 4127
+for k, v in tel.items():
+    print(k, v, end=" § ")
+## john 4098 § terry 4139 § graham 4127 §
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#dict>
+
+---
+
+![](images/fun/sparse-matrix.svg)
+# 🥷 Sparse matrix
+
+- Matrix with many “empty” cells
+- Or sparse, non numeric keys
+- Dictionary with keys of type *tuple*
+- `dict.get` method with *default* value
+
+``` py
+values = {(0, 0): 5, (1, 1): 8,
+          (2, 2): 3, (3, 1): 6}  # dict[(int, int), int]
+
+y = int(input("Row? "))
+x = int(input("Col? "))
+val = values.get((y, x), 0)  # key not found → default 0
+print(val)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#dict>
+
+---
+
+![large](images/fun/rollinz.jpg)
+# 🥷 Set
+
+- Collection of elements *without repetitions*
+    - No keys or indices
+- `add` and `discard` methods, to add and remove
+- `in`, `|` and `&` operators, for membership, union and intersection
+
+``` py
+numbers = {1, 4, 5}
+numbers.add(4)  # {1, 4, 5}
+few = numbers & {4, 5, 6}  # {4, 5}, intersection
+many = numbers | {3, 4}  # {1, 3, 4, 5}, union
+
+empty_set = set()  # ⚠️ {} is an empty dict
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#set>
+
+---
+
+# 🥷 Truthy value
+
+- Any object can be converted to `bool`
+- *Falsy* constants and numbers
+    - `None`, `False`, `0`, `0.0`, etc.
+- *Falsy* collections
+    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+- Other objects, normally *truthy*
+    - Decided by method `__bool__`, or `__len__`
+
+``` py
+while v := input("val? "):  # sentinel, "" is falsy
+    print(float(v) ** 2)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#truth>
+
 ---
 
 ![](images/fun/magnetic-tape.png)
@@ -601,6 +719,25 @@ with open("last_file.txt", "r") as f3:
 
 ---
 
+![](images/misc/merge-sign.png) ![](images/comp/merge.svg)
+# Merge two sorted files
+
+- **Exercise**: merge two files
+    - Each row contains a float value
+    - Each file has its rows already sorted
+    - The number of rows can vary
+- Create a new file
+    - It contains all values, from both files
+    - All values are sorted
+- Hint: at each step, just the two head values have to be compared
+- To get example data, generate two random input files
+
+>
+
+<https://git.io/Jqe9t>
+
+---
+
 # Basic CSV files
 
 ``` py
@@ -613,10 +750,10 @@ with open('matrix.csv', 'r') as file1:
         vals = [int(i) for i in splitted]
         matrix.append(vals)
         ## matrix += vals  # for a simple list
-
-        if cols == 0:
-            cols = len(vals)
         rows += 1
+
+if rows:
+    cols = len(matrix[0])
 ```
 
 >

@@ -35,7 +35,7 @@ sub![](images/fun/haskell-logo.svg)
 
 # Maximum with recursion
 
-``` haskell
+``` hs
 maximum' :: (Ord a) => [a] -> a
 maximum' [] = error "maximum of empty list"
 maximum' [x] = x
@@ -59,7 +59,7 @@ Example list of numbers, check out how this would work on them: [2,5,1]
 
 - `max` takes two numbers and returns the bigger
 
-``` haskell
+``` hs
 maximum' :: (Ord a) => [a] -> a
 maximum' [] = error "maximum of empty list"
 maximum' [x] = x
@@ -78,7 +78,7 @@ maximum' (x:xs) = max x (maximum' xs)
     - Take 0 or less elements from a list → empty list
     - Take anything from an empty list → empty list
 
-``` haskell
+``` hs
 take' :: Int -> [a] -> [a]
 take' n _
     | n <= 0   = []
@@ -97,7 +97,7 @@ Guard, without an `otherwise` part: if `n > 0`, the matching falls through to th
 - Edge condition: the empty list!
 - Split a list to a head and a tail, the result is the reversed tail and then the head at the end
 
-``` haskell
+``` hs
 reverse' :: [a] -> [a]
 reverse' [] = []
 reverse' (x:xs) = reverse' xs ++ [x]
@@ -111,7 +111,7 @@ reverse' (x:xs) = reverse' xs ++ [x]
 - Truncates the longer list to match the shorter
 - zip something with an empty list => empty list (*edge conditions*)
 
-``` haskell
+``` hs
 zip' :: [a] -> [b] -> [(a,b)]
 zip' _ [] = []
 zip' [] _ = []
@@ -130,7 +130,7 @@ Ex.: `zip [1,2,3] ['a','b']`
     - If the head isn't the element, then we check the tail
     - If we reach an empty list, the result is `False` (edge condition)
 
-``` haskell
+``` hs
 elem' :: (Eq a) => a -> [a] -> Bool
 elem' a [] = False
 elem' a (x:xs)
@@ -147,7 +147,7 @@ elem' a (x:xs)
 - For instance, `replicate 3 5` returns `[5,5,5]`
 - Edge condition: replicate something zero times (or less) → empty list
 
-``` haskell
+``` hs
 replicate' :: Int -> a -> [a]
 replicate' n x
     | n <= 0    = []
@@ -164,7 +164,7 @@ replicate' n x
 - Recursion without edge condition
 - `repeat` takes an element and returns an infinite list...
 
-``` haskell
+``` hs
 repeat' :: a -> [a]
 repeat' x = x:repeat' x
 ```
@@ -190,7 +190,7 @@ class: large-figure
     - We said “sorted” two times in this definition: recursion
     - Filter to get only some elements: list comprehensions
 
-``` haskell
+``` hs
 quicksort :: (Ord a) => [a] -> [a]
 ```
 
@@ -198,7 +198,7 @@ quicksort :: (Ord a) => [a] -> [a]
 
 # Haskell poster child
 
-``` haskell
+``` hs
 quicksort :: (Ord a) => [a] -> [a]
 quicksort [] = []
 quicksort (x:xs) =
@@ -207,7 +207,7 @@ quicksort (x:xs) =
     in  smallerSorted ++ [x] ++ biggerSorted
 ```
 
-``` haskell
+``` hs
 Prelude> quicksort [5,1,9,4,6,7,3]
 [1,3,4,5,6,7,9]
 Prelude> quicksort "the quick brown fox jumps over the lazy dog"
@@ -263,12 +263,12 @@ def merge_sort(v, first=0, last=len(v)-1):
 ![](images/fun/stack.svg)
 # Traditional recursion example
 
-``` haskell
+``` hs
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
 ```
 
-``` haskell
+``` hs
 Prelude> factorial 3
 6
 ```
@@ -281,14 +281,14 @@ Prelude> factorial 3
 ![](images/fun/stack-tr.svg)
 # Tail recursion example
 
-``` haskell
+``` hs
 fact_tr 0 acc = acc
 fact_tr n acc = fact_tr (n - 1) (n * acc)
 
 factorial' n = fact_tr n 1
 ```
 
-``` haskell
+``` hs
 Prelude> factorial' 3
 6
 Prelude> fact_tr 3 1
@@ -322,7 +322,7 @@ loop:
 
 # Ex.: Reverse with tail recursion
 
-``` haskell
+``` hs
 reverse' :: [a] -> [a]
 reverse' [] = []
 reverse' (x:xs) = reverse' xs ++ [x]
@@ -355,7 +355,7 @@ reverse' (x:xs) = reverse' xs ++ [x]
 - Apparently... the `max` function takes two `Ord` parameters and returns the one that's bigger
 - In reality, the following two calls are equivalent:
 
-``` haskell
+``` hs
 Prelude> max 4 5
 5
 Prelude> (max 4) 5
@@ -391,7 +391,7 @@ The space is like an operator, for function application, which has the highest p
 - The returned f. takes as many parameters as we left out
 - Using partial application is a neat way to create f.s on the fly
 
-``` haskell
+``` hs
 multThree :: (Num a) => a -> a -> a -> a
 multThree x y z = x * y * z
 ```
@@ -405,14 +405,14 @@ multThree x y z = x * y * z
 
 # Function types
 
-``` haskell
+``` hs
 multThree :: (Num a) => a -> a -> a -> a
 ```
 
 - The thing before the `->` is the parameter that a f. takes
 - The thing after it is what it returns
 
-``` haskell
+``` hs
 multThree :: (Num a) => a -> (a -> (a -> a))  -- same as above
 ```
 
@@ -428,7 +428,7 @@ multThree :: (Num a) => a -> (a -> (a -> a))  -- same as above
 
 - By calling functions with too few parameters, we're creating new functions on the fly
 
-``` haskell
+``` hs
 Prelude> let multTwoWith9 = multThree 9
 Prelude> multTwoWith9 2 3
 54
@@ -441,7 +441,7 @@ Prelude> multWith18 10
 
 # Currying for creating functions
 
-``` haskell
+``` hs
 compareWithHundred :: (Num a, Ord a) => a -> Ordering
 compareWithHundred x = compare 100 x
 ```
@@ -451,7 +451,7 @@ compareWithHundred x = compare 100 x
 - However, `compare 100` returns a function, that takes a number and compares it with 100
 - The type declaration stays the same
 
-``` haskell
+``` hs
 compareWithHundred :: (Num a, Ord a) => a -> Ordering
 compareWithHundred = compare 100
 ```
@@ -467,7 +467,7 @@ compareWithHundred = compare 100
     - Divide a number by 10
     - Check if a char is uppercase
 
-``` haskell
+``` hs
 divideByTen :: (Floating a) => a -> a
 divideByTen = (/10)
 
@@ -482,7 +482,7 @@ isUpperAlpha = (`elem` ['A'..'Z'])
 - F.s can take f.s as parameters and also return f.s
 - Ex.: a f. that takes a f., and then applies it twice to something
 
-``` haskell
+``` hs
 applyTwice :: (a -> a) -> a -> a
 applyTwice f x = f (f x)
 ```
@@ -496,7 +496,7 @@ applyTwice f x = f (f x)
 
 # Example of high-order function
 
-``` haskell
+``` hs
 Prelude> applyTwice (+3) 10
 16
 Prelude> applyTwice (++ " HAHA") "HEY"
@@ -524,7 +524,7 @@ Prelude> applyTwice (3:) [1]
 - It applies that f. to every element in the list
 - It produces a new list
 
-``` haskell
+``` hs
 map' :: (a -> b) -> [a] -> [b]
 map' _ [] = []
 map' f (x:xs) = f x : map' f xs
@@ -537,7 +537,7 @@ map' f (x:xs) = f x : map' f xs
 - `map` is a really versatile higher-order function, can be used in many different ways
 - These could be achieved with a list comprehension, but `map` can be more readable
 
-``` haskell
+``` hs
 Prelude> map (+3) [1,5,3,1,6]
 [4,8,6,4,9]
 Prelude> map (++ "!") ["BIFF", "BANG", "POW"]
@@ -557,7 +557,7 @@ Prelude> map fst [(1,2),(3,5),(6,3),(2,6),(2,5)]
 - It takes a predicate (a f. that returns a bool) and a list
 - It returns the list of elements that satisfy the predicate
 
-``` haskell
+``` hs
 filter' :: (a -> Bool) -> [a] -> [a]
 filter' _ [] = []
 filter' p (x:xs)
@@ -569,7 +569,7 @@ filter' p (x:xs)
 
 # Using filter
 
-``` haskell
+``` hs
 Prelude> filter (>3) [1,5,3,2,1,6,4,3,2,1]
 [5,6,4]
 Prelude> filter even [1..10]
@@ -578,7 +578,7 @@ Prelude> filter (`elem` ['a'..'z']) "u LaUgH aT mE BeCaUsE I aM diFfeRent"
 "uagameasadifeent"
 ```
 
-``` haskell
+``` hs
 quicksort :: (Ord a) => [a] -> [a]
 quicksort [] = []
 quicksort (x:xs) =
@@ -596,7 +596,7 @@ quicksort (x:xs) =
     - Functional programming: mapping and filtering (or comprehensions)
 - Ex.: largest number under 100,000 that's divisible by 3829
 
-``` haskell
+``` hs
 largestDivisible :: (Integral a) => a
 largestDivisible = head (filter p [100000,99999..])
     where p x = x `mod` 3829 == 0
@@ -612,7 +612,7 @@ largestDivisible = head (filter p [100000,99999..])
     - 2nd and 3rd parameter are lists (of types `a` and `b`)
     - Result is also a list (of type `c`)
 
-``` haskell
+``` hs
 zipWith' :: (a -> b -> c) -> [a] -> [b] -> [c]
 zipWith' _ [] _ = []
 zipWith' _ _ [] = []
@@ -625,7 +625,7 @@ zipWith' f (x:xs) (y:ys) = f x y : zipWith' f xs ys
 
 - Pretty similar to the normal zip, with a joining function
 
-``` haskell
+``` hs
 Prelude> zipWith (+) [4,2,5,6] [2,6,2,3]
 [6,8,7,9]
 Prelude> zipWith max [6,3,2,1] [7,3,1,5]
@@ -647,12 +647,12 @@ Prelude> zipWith (zipWith (*)) [[1,2,3],[3,5,6],[2,3,4]]
     - It takes a f. that takes an `a` and a `b`
     - It returns a f. that takes a `b` and an `a`
 
-``` haskell
+``` hs
 flip' :: (a -> b -> c) -> (b -> a -> c)
 flip' f y x = f x y
 ```
 
-``` haskell
+``` hs
 Prelude> flip zip [1,2,3,4,5] "hello"
 [('h',1),('e',2),('l',3),('l',4),('o',5)]
 Prelude> zipWith (flip div) [2,2..] [10,8,6,4,2]
@@ -667,7 +667,7 @@ Prelude> zipWith (flip div) [2,2..] [10,8,6,4,2]
 - It goes from the beginning of the list and returns its elements while the predicate holds true
 - Once an element is found for which the predicate doesn't hold, it stops
 
-``` haskell
+``` hs
 Prelude> takeWhile (/=' ') "elephants know how to party"
 "elephants"
 ```
@@ -693,7 +693,7 @@ Prelude> takeWhile (/=' ') "elephants know how to party"
 - Take the resulting number and apply the same thing to it...
 - *Conjecture*: for all starting numbers, the chains finish at the number `1` (edge, cycle `1-4-2-1`)
 
-``` haskell
+``` hs
 collatz :: (Integral a) => a -> [a]
 collatz 1 = [1]
 collatz n
@@ -729,7 +729,7 @@ class: large-figure
     - Applying only one param to a f. that takes two params...
     - Returns a f. that takes one param
 
-``` haskell
+``` hs
 Prelude> let listOfFuns = map (*) [0..]
 Prelude> (listOfFuns !! 4) 5
 20
@@ -743,7 +743,7 @@ Prelude> (listOfFuns !! 4) 5
 - A *lambda* starts with a `\` (~ greek letter lambda), followed by params, a `->`, finally the body
 - Usually, surrounded by parentheses
 
-``` haskell
+``` hs
 numLongChains :: Int
 numLongChains = length (filter (\xs -> length xs > 15)
                                (map collatz [1..100]))
@@ -760,7 +760,7 @@ numLongChains = length (filter (\xs -> length xs > 15)
 
 - Like normal functions, lambdas can take any number of parameters:
 
-``` haskell
+``` hs
 Prelude> :set +m
 Prelude> let xs = zipWith (\a b -> (a * 30 + 3) / b)
 Prelude|                  [5,4,3,2,1] [1,2,3,4,5]
@@ -777,13 +777,13 @@ Prelude> xs
     - Names that are not bounded as params
     - Mechanism often called *closure*
 
-``` haskell
+``` hs
 map (\x -> x + 3) [1,6,3,2]
 
 map (let n = 3 in \x -> x + n) [1,6,3,2]
 ```
 
-``` haskell
+``` hs
 f a b c = a * b + c
 
 f' a b = \c -> a * b + c
@@ -1034,17 +1034,17 @@ From left to right, how many “rooftops” are visible? (In the example: 6)
 - The `foldl` f. folds the list up from the left side
 - Ex.: implement sum using a fold
 
-``` haskell
+``` hs
 sum' :: (Num a) => [a] -> a
 sum' xs = foldl (\acc x -> acc + x) 0 xs
 ```
 
-``` haskell
+``` hs
 Prelude> sum' [3,5,2,1]
 11
 ```
 
-``` haskell
+``` hs
 foldl' f z [] = z
 foldl' f z (x:xs) = foldl' f (f z x) xs
 ```
@@ -1060,7 +1060,7 @@ foldl' f z (x:xs) = foldl' f (f z x) xs
     - A f. like `foo a = bar b a` ...
     - Can rewritten as `foo = bar b`
 
-``` haskell
+``` hs
 sum' :: (Num a) => [a] -> a
 sum' = foldl (+) 0
 ```
@@ -1069,7 +1069,7 @@ sum' = foldl (+) 0
 
 # Fold for membership
 
-``` haskell
+``` hs
 elem' :: (Eq a) => a -> [a] -> Bool
 elem' y ys = foldl (\acc x -> x == y || acc) False ys
 -- if x == y then True else acc
@@ -1094,12 +1094,12 @@ elem' y ys = foldl (\acc x -> x == y || acc) False ys
     - Starting element is an empty list
     - E.g.: try mapping `(+3)` to `[1,2,3]`
 
-``` haskell
+``` hs
 map' :: (a -> b) -> [a] -> [b]
 map' f xs = foldr (\x acc -> f x : acc) [] xs
 ```
 
-``` haskell
+``` hs
 foldr' f z [] = z
 foldr' f z (x:xs) = f x (foldr' f z xs)
 ```
@@ -1116,7 +1116,7 @@ foldr' f z (x:xs) = f x (foldr' f z xs)
     - The `++` f. is much more expensive than `:`
     - Prefer right folds when building up a new list
 
-``` haskell
+``` hs
 map' f xs = foldl (\acc x -> acc ++ [f x]) [] xs
 ```
 
@@ -1136,7 +1136,7 @@ map' f xs = foldl (\acc x -> acc ++ [f x]) [] xs
 
 # Examples of folds
 
-``` haskell
+``` hs
 maximum' = foldr1 (\x acc -> if x > acc then x else acc)
 
 reverse' = foldl (\acc x -> x : acc) []
@@ -1210,7 +1210,7 @@ From left to right, how many “rooftops” are visible? (In the example: 6)
     - `scanr`: final result is first element
     - There are also `scanl1` and `scanr1`
 
-``` haskell
+``` hs
 Prelude> scanl (+) 0 [3,5,2,1]
 [0,3,8,10,11]
 Prelude> scanr (+) 0 [3,5,2,1]
@@ -1231,7 +1231,7 @@ Prelude> scanl (flip (:)) [] [3,2,1]
     - Easy to see how many sums are under 1000 (then +1)
     - `takeWhile`, since `filter` doesn't work on infinite lists
 
-``` haskell
+``` hs
 sqrtSums :: Int
 sqrtSums = length (takeWhile (<1000) (scanl1 (+) (map sqrt [1..]))) + 1
 
@@ -1251,7 +1251,7 @@ Prelude> sum (map sqrt [1..131])  -- try also 130
 
 - The `$` f. is also called **function application**
 
-``` haskell
+``` hs
 ($) :: (a -> b) -> a -> b
 f $ x = f x
 ```
@@ -1275,7 +1275,7 @@ f $ x = f x
     - `$` means that f. application is *yet another* f.
     - Map f. application over a list of f.s
 
-``` haskell
+``` hs
 Prelude> map ($ 3) [(4+), (10*), (^2), sqrt]
 [7.0,30.0,9.0,1.7320508075688772]
 ```
@@ -1292,7 +1292,7 @@ Prelude> map ($ 3) [(4+), (10*), (^2), sqrt]
     - `f.g` returns a value of the same type that `f` returns
     - `f` takes a param of same type as `g`'s return value
 
-``` haskell
+``` hs
 (.) :: (b -> c) -> (a -> b) -> a -> c
 f . g = \x -> f (g x)
 ```
@@ -1310,7 +1310,7 @@ f . g = \x -> f (g x)
     - Often, clearer and more concise than lambdas
     - Ex.: turn a list of numbers into negative numbers
 
-``` haskell
+``` hs
 Prelude> map (negate . abs) [5,-3,-6,7,-3,2]
 [-5,-3,-6,-7,-3,-2]
 Prelude> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2]
@@ -1324,7 +1324,7 @@ Prelude> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2]
 - F. composition is right-associative, so we can compose many f.s at a time
 - `f (g (h x))` is equivalent to `(f . g . h) x`
 
-``` haskell
+``` hs
 Prelude> map (negate . sum . tail) [[1..5],[3..6],[1..7]]
 [-14,-15,-27]
 Prelude> map (\xs -> negate (sum (tail xs))) [[1..5],[3..6],[1..7]]
@@ -1354,13 +1354,13 @@ Prelude> map (\xs -> negate (sum (tail xs))) [[1..5],[3..6],[1..7]]
 - Defining f.s in the *point free style* (or *pointless style*)
 - Problem if param in the f. body has parentheses after it
 
-``` haskell
+``` hs
 sum' :: (Num a) => [a] -> a
 -- sum' xs = foldl (+) 0 xs
 sum' = foldl (+) 0
 ```
 
-``` haskell
+``` hs
 -- fn x = ceiling (negate (tan (cos (max 50 x))))
 fn = ceiling . negate . tan . cos . max 50
 ```
@@ -1371,7 +1371,7 @@ fn = ceiling . negate . tan . cos . max 50
 
 - Ex.: sum of all odd squares that are smaller than 10,000
 
-``` haskell
+``` hs
 oddSquareSum :: Integer
 oddSquareSum = sum (takeWhile (<10000) (filter odd (map (^2) [1..])))
 
@@ -1388,7 +1388,7 @@ oddSquareSum'' =
 # Exercise
 class: break
 
-``` haskell
+``` hs
 Prelude> sum (takeWhile (<10000) (filter odd (map (^2) [1..])))
 166650
 Prelude> sum (takeWhile (<10000) [n^2 | n <- [1..], odd (n^2)])
@@ -1402,7 +1402,7 @@ Prelude> sum (takeWhile (<10000) [n^2 | n <- [1..], odd (n^2)])
 # Exercise
 class: break
 
-``` haskell
+``` hs
 numLongChains :: Int
 numLongChains = length (filter isLong (map collatz [1..100]))
     where isLong xs = length xs > 15
@@ -1413,7 +1413,7 @@ numLongChains = length (filter isLong (map collatz [1..100]))
 # Exercise
 class: break
 
-``` haskell
+``` hs
 rev xs = rev' xs [] where
   rev' [] acc = acc
   rev' (x:xs) acc = rev' xs (x:acc)
