@@ -99,7 +99,7 @@ quart1 = months[:3]        # ['Jan', 'Feb', 'Mar']
 quart4 = months[-3:]       # ['Oct', 'Nov', 'Dec']
 whole_year = months[:]     # Copy of the whole list
 
-feb_apr = months[1:4:2]    # ['Feb", 'Apr']
+feb_apr = months[1:4:2]    # ['Feb', 'Apr']
 q4_rev = months[11:8:-1]   # ['Dec', 'Nov', 'Oct']
 ```
 
@@ -290,7 +290,7 @@ Angle: 135; Sin: 0.71
 - There is a special `if`, being an expression
 
 ``` py
-val = 'boom' if 5 % 2 == 0 else 'bang'`
+val = "boom" if 5 % 2 == 0 else "bang"
 ```
 
 - Since v3.8: special `:=` *assignament*, as an expression
@@ -338,7 +338,7 @@ even_nums = (str(x) for x in range(12) if (x % 2) == 0)
 
 ``` py
 >>> txt = "IdontLIKEFROGS"
->>> [c for c in txt if 'A' <= c <= 'Z']
+>>> "".join(c for c in txt if 'A' <= c <= 'Z')
 "ILIKEFROGS"
 ```
 ---
@@ -456,7 +456,7 @@ Results in a list: only (!) to visualize them
 >>> list(reversed(grocery))
 ['sausage', 'bacon', 'egg', 'spam']
 >>> grocery
-["spam", "egg", "bacon", "sausage"]
+['spam', 'egg', 'bacon', 'sausage']
 ```
 
 ``` py

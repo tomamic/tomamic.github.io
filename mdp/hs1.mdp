@@ -1142,9 +1142,11 @@ Prelude> zip [1..] ["apple", "orange", "cherry", "mango"]
 
 # Types
 
-- *Static type system*: type of every expression known at compile time → Safe and efficient code
-- *Type inference*: if we write a number, we don't have to tell Haskell it's a number
-- However, understanding the type system is very important.
+- *Static type system*: type of every expression known at compile time
+    - ⇒ Safe and efficient code
+- *Type inference*: if we write a number…
+    - We don't have to tell Haskell it's a number
+- However, understanding the type system is very important
     - `:t` command tells us the type of an expression
     - `::` is read as “*has type of*”
 
