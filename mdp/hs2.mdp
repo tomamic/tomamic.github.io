@@ -176,9 +176,8 @@ repeat' x = x:repeat' x
 
 ---
 
-![](images/fun/quicksort.png)
+![large](images/fun/quicksort.png)
 # Quicksort
-class: large-figure
 
 - List of comparable things (`Ord`)
 - Edge condition: empty list
@@ -707,9 +706,8 @@ https://www.jasondavies.com/collatz-graph/
 
 ---
 
-![](images/fun/collatz-xkcd.png)
+![large](images/fun/collatz-xkcd.png)
 # Ex.: Collatz
-class: large-figure
 
 - For all starting numbers between 1 and 100...
 - How many Collatz chains have a length greater than 15?
