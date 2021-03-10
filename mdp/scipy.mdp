@@ -525,6 +525,11 @@ for x in range(cols):
     print("Col #", x, "sums to", total)
 ```
 
+``` py
+rows, cols = 3, 4
+matrix = [[randrange(100) for x in range(cols)] for y in range(rows)]
+```
+
 ---
 
 # List as pseudo-matrix
@@ -544,13 +549,18 @@ for x in range(cols):
     print("Col #", x, "sums to", total)
 ```
 
+``` py
+rows, cols = 3, 4
+matrix = [randrange(100) for i in range(cols*rows)]
+```
+
 ---
 
-# Matrix with known size
+# Matrix allocation
 
 ``` py
-matrix = [[' ' for x in range(cols)] for y in range(rows)]
-# all elements are inited as ' ' -- your need may vary
+matrix = [[0 for x in range(cols)] for y in range(rows)]
+# all elements are inited as 0 -- your need may vary
 ```
 
 ``` py
@@ -558,7 +568,7 @@ matrix = []
 for y in range(rows):
     new_row = []
     for x in range(cols):
-        new_row.append(' ')
+        new_row.append(0)
     matrix.append(new_row)
 ```
 
@@ -820,6 +830,18 @@ try:
 except IOError as err:
     print("Oh, my!")
 ```
+
+---
+
+![](images/misc/quiz.png)
+# Exercise: courses' marks
+
+- Analyze students' answers to questionnaires about courses
+- Load a csv like one of these:
+    - <https://www.dropbox.com/s/bfunquwvcg8mv09/report-2016-2017.csv?dl=1>
+    - <https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1>
+- Save a csv like this one:
+    - <https://www.dropbox.com/s/0hud1kfeem2gtxz/marks.csv?dl=1>
 
 ---
 
@@ -2162,8 +2184,6 @@ plt.show()
 <https://www.dropbox.com/s/bfunquwvcg8mv09/report-2016-2017.csv?dl=1>
 <br>
 <https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1>
-<br>
-<https://www.dropbox.com/s/9x3cvz9kwv729xc/read_report.py?dl=1>
 <br>
 <https://www.dropbox.com/s/w3yany4d2mzn4x0/questionario-stage-2018.xlsx?dl=1>
 <br>
