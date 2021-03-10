@@ -729,25 +729,6 @@ with open("last_file.txt", "r") as f3:
 
 ---
 
-![](images/misc/merge-sign.png) ![](images/comp/merge.svg)
-# Merge two sorted files
-
-- **Exercise**: merge two files
-    - Each row contains a float value
-    - Each file has its rows already sorted
-    - The number of rows can vary
-- Create a new file
-    - It contains all values, from both files
-    - All values are sorted
-- Hint: at each step, just the two head values have to be compared
-- To get example data, generate two random input files
-
->
-
-<https://git.io/Jqe9t>
-
----
-
 # Basic CSV files
 
 ``` py
@@ -830,6 +811,21 @@ try:
 except IOError as err:
     print("Oh, my!")
 ```
+
+---
+
+![](images/misc/merge-sign.png) ![](images/comp/merge.svg)
+# Exercise: merge two sorted files
+
+- Merge two files
+    - Each row contains a float value
+    - Each file has its rows *already sorted*
+    - The number of rows can vary
+- Create a new file
+    - It contains all values, from both files
+    - All values are sorted
+- Hint: at each step, just the two head values have to be compared
+- To get example data, generate two random input files
 
 ---
 
@@ -1110,9 +1106,8 @@ array([5, 3, 2, 4, 1, 0]])
 
 ---
 
-![](images/scipy/tensor-image.png)
+![large](images/scipy/tensor-image.png)
 # Image data
-class: large-figure
 
 - By convention, image tensors are always 3D
     - Height, width, color depth
