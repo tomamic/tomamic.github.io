@@ -230,22 +230,33 @@ Prelude> quicksort "the quick brown fox jumps over the lazy dog"
 
 ---
 
+![](images/comp/divide-et-impera.svg)
 # Merge Sort
 
 ``` py
-def merge_sort(v, first=0, last=len(v)-1):
-    '''In v, sort elements between first and last'''
-    if last - first > 0:
-        middle = (first + last) // 2
-        merge_sort(v, first, middle)
-        merge_sort(v, middle + 1, last)
-        merge(v, first, middle + 1, last)
+def merge(v1: list, b1, e1,  # beg, end
+          v2: list, b2, e2) -> list:
+    result = []  # required extra memory
+    while b1 < e1 or b2 < e2:
+        if b1 < e1 and (b2 == e2 or v1[b1] <= v2[b2]):
+            result.append(v1[b1]); b1 += 1
+        else:
+            result.append(v2[b2]); b2 += 1
+    return result
 ```
 
-![](images/comp/divide-et-impera.svg)
+``` py
+def merge_sort(v: list, beg, end: int):
+    if end - beg <= 1: return
+    mid = (beg + end) // 2
+    merge_sort(v, beg, mid)
+    merge_sort(v, mid, end)
+    v[beg:end] = merge(v, beg, mid, v, mid, end)
+```
 
 ---
 
+![large](images/comp/merge-sort.svg) Split in rosso; merge in verde
 # Ex.: Merge sort
 
 - Define a `merge` function in Haskell
@@ -256,6 +267,10 @@ def merge_sort(v, first=0, last=len(v)-1):
     - Splits it at half
     - Sorts each part, recursively
     - Merges the two sorted parts
+
+>
+
+<https://visualgo.net/en/sorting?slide=11>
 
 ---
 
@@ -835,7 +850,7 @@ class Multiplier:
 
 >
 
-Also in C++, `operator()` can be overloaded, to create a so-called *function object* or *functor*
+Also in C++, `operator()` can be overloaded, to create a so-called *function object* or “*functor*”
 
 ---
 
