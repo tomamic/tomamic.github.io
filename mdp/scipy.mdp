@@ -735,9 +735,9 @@ with open("last_file.txt", "r") as f3:
 matrix = []
 cols, rows = 0, 0
 
-with open('matrix.csv', 'r') as file1:
+with open("matrix.csv", "r") as file1:
     for line in file1:
-        splitted = line.split(',')
+        splitted = line.split(",")
         vals = [int(i) for i in splitted]
         matrix.append(vals)
         ## matrix += vals  # for a simple list
@@ -758,17 +758,21 @@ Try to use `map`
 ``` py
 import csv
 matrix = []
-with open('some.csv', newline='') as f:
+with open("some.csv", newline="") as f:
     reader = csv.reader(f)
     for row in reader:
         matrix.append(row)
 print(matrix)
 
-with open('some.csv', 'w', newline='') as f:
+with open("some.csv", "w", newline="") as f:
     writer = csv.writer(f)
     for row in matrix
         writer.writerow(row)
 ```
+
+>
+
+<https://docs.python.org/3/library/csv.html>
 
 ---
 
