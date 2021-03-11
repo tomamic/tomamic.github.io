@@ -502,9 +502,12 @@ b = ['A', 'B', 'C', 'D',
 
 i = y * cols + x                    # 2D -> 1D
 
-y = i // cols
-x = i % cols                        # 1D -> 2D
+y, x = i // cols, i % cols                        # 1D -> 2D
 ```
+
+>
+
+Try and print `a[2]`, `a[2][1]`, etc.
 
 ---
 
@@ -520,7 +523,7 @@ cols = len(matrix[0])
 for x in range(cols):
     total = 0
     for y in range(rows):
-        val = matrix[y][x]
+        val = matrix[y][x]  # ⚠️ 1st index for the row, 2nd for the col
         total += val
     print("Col #", x, "sums to", total)
 ```
