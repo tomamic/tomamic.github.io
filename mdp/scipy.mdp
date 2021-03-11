@@ -770,6 +770,9 @@ with open("some.csv", "w", newline="") as f:
         writer.writerow(row)
 ```
 
+- Default reading: each line is a list of strings
+- Default writing: quotes added only if necessary
+
 >
 
 <https://docs.python.org/3/library/csv.html>
