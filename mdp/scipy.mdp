@@ -1223,13 +1223,13 @@ array([[2, 8],
        [5, 1]])
 >>> b.strides
 (16, 8)
->>> b.flatten()
+>>> b.ravel()  # flat view
 array([2, 8, 0, 4, 5, 1])
 ```
 
 >
 
-`flatten` has optional param for `order`: "K" (as in memory), or "C", or "F"
+`ravel` has optional param for `order`: "K" (as in memory), or "C" (default), or "F"
 
 ---
 
@@ -1246,9 +1246,9 @@ array([[2, 4],
        [0, 1]])
 >>> a.T.shape, a.T.strides
 ((3, 2), (8, 24))
->>> a.T.flatten()
+>>> a.T.ravel()
 array([2, 4, 8, 5, 0, 1])
->>> a.T.flatten("K")  # real order of data in memory!
+>>> a.T.ravel("K")  # real order of data in memory!
 array([2, 8, 0, 4, 5, 1])
 ```
 
@@ -1266,14 +1266,14 @@ array([2, 8, 0, 4, 5, 1])
 a = np.array([[1, 2], [3, 4]], order="C", dtype="i1")
 a  # array([[1, 2], [3, 4]], dtype=int8)
 a.strides  # (2, 1)
-a.flatten("K")  # array([1, 2, 3, 4], dtype=int8)
+a.ravel("K")  # array([1, 2, 3, 4], dtype=int8)
 ```
 
 ``` py
 a = np.array([[1, 2], [3, 4]], order="F", dtype="i1")
 a  # array([[1, 2], [3, 4]], dtype=int8)
 a.strides  # (1, 2)
-a.flatten("K")  # array([1, 3, 2, 4], dtype=int8)
+a.ravel("K")  # array([1, 3, 2, 4], dtype=int8)
 ```
 
 ---
@@ -1285,15 +1285,38 @@ a.flatten("K")  # array([1, 3, 2, 4], dtype=int8)
 - Some ops act *in place* : `+=`, `*=`, ...
 
 ``` py
->>> a = np.array([20, 30, 40, 50])
->>> a < 35
-array([True, True, False, False])
-
->>> b = np.arange(4)
->>> b ** 2
+>>> a = np.arange(4)
+>>> a ** 2
 array([0, 1, 4, 9])
->>> a - b
-array([20, 29, 38, 47])
+>>> a
+array([0, 1, 2, 3])
+
+>>> data = np.array([1.5, 2.5, 2.5])
+>>> pred = np.array([1, 2, 3])
+>>> data - pred
+array([ 0.5,  0.5, -0.5])
+>>> np.mean((data - pred) ** 2)  # mean squared error
+0.25
+```
+
+---
+
+# Selection
+
+``` py
+>>> a = np.array([10, 11, 12, 13, 14])
+>>> a[[True, False, True, False, False]]
+array([10, 12])
+
+>>> sel = a % 2 == 0  # Elementwise ops
+>>> sel
+array([True, False, True, False, True])
+
+>>> a[sel]
+array([10, 12, 14])
+
+>>> a[a >= 12]
+array([12, 13, 14])
 ```
 
 ---
@@ -1411,7 +1434,7 @@ array([0, 0.5, 0.8660254, 1])
 
 ``` py
 >>> b = np.arange(3)
->>> B
+>>> b
 array([0, 1, 2])
 >>> np.exp(b)
 array([1, 2.71828183, 7.3890561])
@@ -1486,6 +1509,29 @@ array([[0, 1, 2, 3],
 
 ---
 
+# Unique
+
+``` py
+>>> a = np.array([11, 11, 12, 14, 14, 14, 15, 15])
+>>> np.unique(a)
+array([11, 12, 14, 15])
+>>> np.unique(a, return_counts=True)
+(array([11, 12, 14, 15]), array([2, 1, 3, 2]))
+
+>>> b = np.array([[1,  2,  3,  4],
+                  [5,  6,  7,  8],
+                  [9, 10, 11, 12],
+                  [1,  2,  3,  4]])
+>>> np.unique(b)  # get values, from flatten array
+array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+>>> np.unique(b, axis=0)  # unique rows
+array([[ 1,  2,  3,  4],
+       [ 5,  6,  7,  8],
+       [ 9, 10, 11, 12]])
+```
+
+---
+
 # Stacking
 
 ``` py
@@ -1555,10 +1601,10 @@ array([[1, 0],
     - 4.00€ for adults
     - 1,50€ for children
 - At the end of the day
-    - 2200 visitors have entered (*b1*)
-    - 5050€ have been collected (*b2*)
-- How many adults (*x1*) and how many children (*x2*) have entered?
-    - Linear system: `a @ x = b`
+    - 2200 visitors have entered ( *b1* )
+    - 5050€ have been collected ( *b2* )
+- How many adults ( *x1* ) and how many children ( *x2* ) have entered?
+    - Linear system: *`a @ x = b`*
     - Solve with matrix operations
 
 ---
@@ -1587,9 +1633,10 @@ array([0, 0])
 # Solve a linear system
 
 - Linear system
-    - `a @ x = b`
-    - `inv(a) @ a @ x = inv(a) @ b`
-    - `x = inv(a) @ b`
+    - *`a @ x = b`*
+- Solution
+    - *`inv(a) @ a @ x = inv(a) @ b`*
+    - *`x = inv(a) @ b`*
 
 ``` py
 >>> a = np.array([[1., 1.],
