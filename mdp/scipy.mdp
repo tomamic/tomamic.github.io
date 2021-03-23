@@ -1575,6 +1575,8 @@ array([[8, 8, 1, 8],
 
 # Linear algebra
 
+- `linalg` submodule, imported *automatically* with `numpy`
+
 ``` py
 >>> a = np.array([[1.0, 2.0],
                   [3.0, 4.0]])
@@ -1588,8 +1590,8 @@ array([[-2., 1. ],
 array([[1., 0.],
        [0., 1.]])
 >>> np.eye(2)  # unit 2x2 matrix; "eye" represents "I"
-array([[1, 0],
-       [0, 1]])
+array([[1., 0.],
+       [0., 1.]])
 ```
 
 ---
@@ -1609,27 +1611,6 @@ array([[1, 0],
 
 ---
 
-# Determinant and autovectors
-
-``` py
->>> a = np.array([[1.0, 2.0],
-                  [3.0, 4.0]])
->>> w, v = np.linalg.eig(a)
->>> w  # eigenvalues
-array([-0.37228132, 5.37228132])
->>> np.linalg.det(w[0] * np.eye(2) - a)  # det(λI − A) = 0
-0.0
->>> v  # eigenvectors, normalized but in columns (⚠️)
-array([[-0.82456484, -0.41597356],
-       [ 0.56576746, -0.90937671]])
->>> np.sum(v**2, axis=0)  # magnitude = 1
-array([1., 1.])
->>> (w[0] * np.eye(2) - a) @ v.T[0]  # (λI − A)v = 0
-array([0, 0])
-```
-
----
-
 # Solve a linear system
 
 - Linear system
@@ -1646,6 +1627,27 @@ array([0, 0])
 array([700., 1500.])
 >>> np.linalg.solve(a, b)
 array([700., 1500.])
+```
+
+---
+
+# Eigenvalues and eigenvectors
+
+``` py
+>>> a = np.array([[1.0, 2.0],
+                  [3.0, 4.0]])
+>>> w, v = np.linalg.eig(a)
+>>> w  # eigenvalues
+array([-0.37228132, 5.37228132])
+>>> np.linalg.det(w[0] * np.eye(2) - a)  # det(λI − A) = 0
+0.0
+>>> v  # eigenvectors: normalized, in columns (⚠️)
+array([[-0.82456484, -0.41597356],
+       [ 0.56576746, -0.90937671]])
+>>> np.sum(v**2, axis=0)  # magnitude = 1
+array([1., 1.])
+>>> a @ v.T[0] - w[0] * v.T[0]  # ∀i, A·vᵢ == λᵢvᵢ
+array([0, 0])
 ```
 
 ---
