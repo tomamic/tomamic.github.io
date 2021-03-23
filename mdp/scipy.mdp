@@ -1619,11 +1619,11 @@ array([[1, 0],
 array([-0.37228132, 5.37228132])
 >>> np.linalg.det(w[0] * np.eye(2) - a)  # det(λI − A) = 0
 0.0
->>> v.T  # eigenvectors, normalized but transposed (⚠️)
-array([[-0.82456484, 0.56576746],
-       [-0.41597356, -0.90937671]])
->>> sum(v.T[0] ** 2)  # magnitude = 1
-1.0
+>>> v  # eigenvectors, normalized but in columns (⚠️)
+array([[-0.82456484, -0.41597356],
+       [ 0.56576746, -0.90937671]])
+>>> np.sum(v**2, axis=0)  # magnitude = 1
+array([1., 1.])
 >>> (w[0] * np.eye(2) - a) @ v.T[0]  # (λI − A)v = 0
 array([0, 0])
 ```
