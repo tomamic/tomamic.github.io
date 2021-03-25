@@ -1533,7 +1533,7 @@ array([[ 1,  2,  3,  4],
 ---
 
 ![](images/misc/dice.png)
-# Exercise - Rolling dice
+# Ex. - Rolling dice with Numpy
 
 - Roll a pair of dice and get the result (sum)
 - Repeat 1000 times
@@ -1687,6 +1687,9 @@ array([0, 0])
 
 ``` py
 >>> import pandas as pd
+```
+
+``` py
 >>> df = pd.DataFrame([[1, 2], [4, 5], [7, 8]],
                       index=['cobra', 'viper', 'sidewinder'],
                       columns=['max_speed', 'shield'])
@@ -1887,6 +1890,16 @@ dtype: int64
 1    1
 dtype: int64
 ```
+
+---
+
+![](images/misc/dice.png)
+# Ex. - Rolling dice with Pandas
+
+- Roll a pair of dice and get the result (sum)
+- Repeat 1000 times
+- Get the distribution of results
+- How many times have you gotten 2, 3, 4, etc.
 
 ---
 
