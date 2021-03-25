@@ -1532,6 +1532,16 @@ array([[ 1,  2,  3,  4],
 
 ---
 
+![](images/misc/dice.png)
+# Exercise - Rolling dice
+
+- Roll a pair of dice and get the result (sum)
+- Repeat 1000 times
+- Get the distribution of results
+- How many times have you gotten 2, 3, 4, etc.
+
+---
+
 # Stacking
 
 ``` py
