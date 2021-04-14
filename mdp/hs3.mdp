@@ -423,19 +423,13 @@ random :: (Random a, RandomGen g) => g -> (a, g)
 - It returns a random value and a new random generator
     - `RandomGen`: types acting as sources of randomness
     - `Random`: types representing random values
-- Why does it also return a new generator?
-    - *Idempotence*: calling a f. with same params twice, produces same result
 
 ---
 
 # Rnd generators
 
-- `StdGen`: instance of `RandomGen`
 - `mkStdGen` f., to manually make a random generator
-
-``` hs
-mkStdGen :: Int -> StdGen
-```
+    - `StdGen`: instance of `RandomGen`
 
 ``` hs
 Prelude> :t mkStdGen
@@ -446,7 +440,9 @@ Prelude> random (mkStdGen 100) :: (Int, StdGen)
 (-1352021624,651872571 1655838864)
 ```
 
-- Same parameters → Same result
+- Why does `random` also return a new generator?
+    - *Idempotence*: calling a function twice ...
+    - With the same params → Produces the same result
 
 ---
 

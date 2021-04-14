@@ -2144,6 +2144,7 @@ x = mu + sigma * np.random.randn(10000)
 # histogram of data, with normalized area
 plt.hist(x, bins=50, density=True)
 
+# plt.plot(x, [0]*len(x), "k|")
 plt.xlabel('Smarts')
 plt.ylabel('Probability')
 plt.title('Histogram of IQ')
@@ -2244,17 +2245,25 @@ plt.show()
 
 ---
 
+![large](images/scipy/tips-kde.png)
+# Laboratory 1
+
+- Load the tips dataset of Seaborn
+- Select and separate the tips at lunch and dinner
+- Compare the two distributions of tips
+
+---
+
 ![large](images/misc/quiz.png)
-# Laboratory
+# Laboratory 2
 
 - Students' answers to questionnaires about courses
     - Data transform to eval marks
     - Density plots of marks
     - Use of multiple figures
-- Graphs of social network users
-    - Evaluate the degree of each node
-    - Evaluate and plot the distribution of degrees
-    - Compare it with a power-law function
+- Considering the units
+    - Evaluate the linear regression and correlation
+    - Average marks against number of students
 
 >
 
@@ -2262,6 +2271,23 @@ plt.show()
 <br>
 <https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1>
 <br>
+<https://www.dropbox.com/s/shlodh26c06eaib/questionari.odp?dl=1>
+<br>
 <https://www.dropbox.com/s/w3yany4d2mzn4x0/questionario-stage-2018.xlsx?dl=1>
+
+---
+
+![](images/scipy/gilet-jaunes-graph.png) ![large](images/scipy/gilet-jaunes-degree.png)
+# Laboratory 3
+
+- Graphs of social network users
+    - Evaluate the degree of each node
+    - Evaluate and plot the distribution of degrees
+- Compare the distributions with a power-law function
+    - `y = a·x⁻ᵏ`, `2≤k≤3`
+
+>
+
+Users in the `#giletjaunes` channel of Twitter, splitted in communities; all edges are symmetrical (following)
 <br>
 <https://www.dropbox.com/s/9hcpjqij1vcspjx/gilet-jaunes.zip?dl=1>
