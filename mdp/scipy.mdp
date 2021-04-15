@@ -2018,6 +2018,8 @@ plt.show()
 
 >
 
+<https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html>
+<br>
 <https://www.mathworks.com/help/matlab/ref/linespec.html>
 
 ---
@@ -2106,6 +2108,29 @@ plt.show()
 
 ---
 
+# Figures
+
+- Handle multiple separate figures at the same time
+- Identified by a number or a label
+
+``` py
+t = np.arange(0, 5, 0.2)
+fig = plt.figure("squares")
+plt.plot(t, t, 'r--')
+plt.plot(t, t**2, 'bs')
+
+fig = plt.figure("cubes")
+plt.plot(t, t, 'r--')
+plt.plot(t, t**3, 'g^')
+
+# save figures
+for label in plt.get_figlabels():
+    fig = plt.figure(label)
+    fig.savefig(label + ".pdf")
+```
+
+---
+
 ![](images/scipy/dice-counts.png)
 # Histogram of dicrete values
 
@@ -2131,7 +2156,7 @@ counts=[3, 5, 6, 13, 9, 16, 20, 13, 7, 7, 1]
 
 ---
 
-![large](images/scipy/pyplot-8.png)
+![large](images/scipy/rugs.png) ![large](images/scipy/pyplot-8.png)
 # Histogram and text
 
 - Show the distribution of some continuous values (~ *Dirac deltas*)
@@ -2180,12 +2205,14 @@ plt.show()
 ---
 
 ![large](images/scipy/sns-regplot.png)
-# Linear regression and correlation
+# Linear regression
 
 - Best fitting linear model
     - Minimize the *mean squared error*
     - Translucent bands: confidence interval
-- *Pearson's r*, correlation coeff.: [-1, 1]
+- *Correlation* coeff., *Pearson's r* : `[-1, 1]`
+- Statistical significance, *p-value* : `≤0.05`
+    - Same (≥) `r`, under *null hypotesis*?
 
 ``` py
 from scipy import stats
@@ -2237,7 +2264,7 @@ for f, style in models:
     popt, _ = curve_fit(f, x, y_true)
     y_pred = f(x, *popt)  # arguments unpacking
     mse = ((y_true - y_pred) ** 2).mean()
-    print(mse, popt)
+    print(style, mse, popt)
     plt.plot(x, y_pred, style)
 
 plt.show()
@@ -2288,6 +2315,6 @@ plt.show()
 
 >
 
-Users in the `#giletjaunes` channel of Twitter, splitted in communities; all edges are symmetrical (following)
+Users in the `#giletjaunes` channel of Twitter, splitted in communities; all edges are symmetrical (following ⇄)
 <br>
 <https://www.dropbox.com/s/9hcpjqij1vcspjx/gilet-jaunes.zip?dl=1>
