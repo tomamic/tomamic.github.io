@@ -671,7 +671,7 @@ reverseWords = unwords . map reverse . words
 - `return` in Haskell is *different* from other languages
     - It doesn't stop the execution of the I/O `do` block
     - It just makes an I/O action out of a pure value
-- Mostly use return to create an I/O action that either:
+- Mostly use `return` to create an I/O action that either:
     - Doesn't do anything, or
     - Always contains the desired result (we put it at the end)
 - We can use `return` in combination with `<-`
@@ -700,7 +700,7 @@ main = do
     - In modules `Data.List.Split` and `Data.List`
 
 ``` cmd
-cabal install split
+cabal install --lib split
 ```
 
 ---

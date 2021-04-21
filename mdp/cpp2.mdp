@@ -155,7 +155,7 @@ int main() {
     Time t1;
     t1.setTime(17, 15, 0);
     t1.printStandard();
-    Time *t2 = new Time();
+    Time *t2 = new Time;
     t2->setTime(17, 20, 0); // (*t2).setTime(17, 20, 0);
     t2->printStandard(); // (*t2).printStandard();
     delete t2;
@@ -179,12 +179,17 @@ int main() {
 # Costruttore senza argomenti
 
 - Quando si vuole invocare il **costruttore senza argomenti**, non si usano le parentesi
-    - Esempio: `DayOfYear date;`
     - Altrimenti, il compilatore intende una *dichiarazione di funzione*
-- *Uniform initialization*, Modern C++: chiamata al costruttore con parentesi *graffe*
+    - `Time t1();  // ⚠️ function declaration! avoid parens`
+- *Uniform initialization*, Modern C++
+    - Chiamata al costruttore con parentesi *graffe*
 - In assenza di costruttore, creato un **costruttore di default** senza aromenti
     - Se definito almeno un costruttore, non creato il costruttore di default
 - Meglio includere un costruttore senza parametri, se possibile
+
+>
+
+<https://www.fluentcpp.com/2018/01/30/most-vexing-parse/>
 
 ---
 
@@ -193,8 +198,8 @@ int main() {
 - Il costruttore può essere chiamato esplicitamente per modificare le variabili membro di un oggetto
 - Crea un oggetto anonimo e lo inizializza con i valori degli argomenti
 - L’oggetto anonimo può essere assegnato a una variabile del tipo classe
-    - Ex.: `DayOfYear date(4, 5);`
-    - `date = DayOfYear(10, 14);`
+    - Ex.: `DayOfYear date{4, 5};`
+    - `date = DayOfYear{10, 14};`
     - Può essere più efficiente usare le mutator functions
 - Se sono disponibili funzioni *mutator*
     - Chiamarle anche dal costruttore, per non ripetere codice
@@ -224,9 +229,9 @@ private:
 };
 // Constructor for class Increment
 Increment::Increment(int c, int d)
-    : delta( d ) // initializer for const member
+    : count{c}, delta{d} // initializer for members (same order)
 {
-    count = c;
+    // count = c;  // alternative, only for non-const members
 }
 ```
 
@@ -247,9 +252,9 @@ Increment::Increment(int c, int d)
 - Funzione membro speciale, chiamata *automaticamente* quando oggetto distrutto
     - Non riceve parametri e non restituisce valori
     - Una classe può avere al massimo un unico distruttore
-    - *Naming*: `~` + nomeClasse
-- Il distruttore *non distrugge* l’oggetto
-    - Ma svolge operazioni utili prima che oggetto distrutto
+    - *Naming*: `~` + nome classe
+- *Non distrugge* l’oggetto
+    - Ma svolge operazioni utili prima che l’oggetto sia distrutto
     - Es.: *rilascio della memoria* allocata dinamicamente
 - Se distruzioni a catena per oggetti annidati...
     - Distruttori chiamati in *ordine inverso* rispetto ai costruttori
@@ -276,7 +281,7 @@ Increment::Increment(int c, int d)
 
 # Reference come valore di ritorno
 
-- E’ possibile per una funzione membro pubblica restituire una reference a membri privati della classe
+- É possibile per una funzione membro pubblica restituire una reference a membri privati della classe
 - Per quanto sintatticamente corretta, questa operazione può violare il principio di information hiding
 
 ---
@@ -306,9 +311,18 @@ private:
 
 - Definizione di funzione membro può essere posta *inline*
     - All’interno della definizione della classe
-- Il compilatore può inserire il codice della funzione in ogni punto di chiamata
+- Il compilatore *può* inserire il codice della funzione in ogni punto di chiamata
     - Svantaggio: mescoliamo interfaccia e implementazione
-    - Definire *inline* solo funzioni molto corte
+    - *Inline* solo funzioni molto corte
+    - Ma alla fine sceglie il compilatore
+
+``` cpp
+class A {
+    void hello() {
+        cout << "Hello!\n";
+    }
+}
+```
 
 ---
 
@@ -320,6 +334,13 @@ private:
 - Se *public*, allora accessibile con *scope resolution*
 - Va inizializzata al di fuori della definizione della classe, una sola volta
 
+``` cpp
+class A {
+    static int i;  // con init here, if const
+};
+int A::i = 5;
+```
+
 ---
 
 # Membri static: funzioni
@@ -328,6 +349,10 @@ private:
 - Non può accedere ai dati dell’oggetto chiamante
 - Viene invocata usando il nome della classe e lo *scope resolution operator* (`::`)
 - La parola chiave `static` va messa solo nella dichiarazione
+
+>
+
+<https://github.com/tomamic/paradigmi/tree/master/oopcpp/lezione05>
 
 ---
 
@@ -603,11 +628,14 @@ Date Date::operator++(int) {
 # Variabili dinamiche di tipo classe
 
 - Quando si usa l’operatore new con un tipo classe viene chiamato il costruttore
-    - Es: MyClass *classPtr;
-    - classPtr = new MyClass;
-    - classPtr = new MyClass(2, 45.3);
-        …
-    - delete classPtr;
+
+``` cpp
+MyClass *classPtr;
+classPtr = new MyClass;
+classPtr = new MyClass{2, 45.3};
+// …
+delete classPtr;
+```
 
 ---
 
@@ -625,7 +653,7 @@ Date Date::operator++(int) {
 
 # Operatore = di default
 
-- Copia i valori dell’oggetto sorgente (*r-value*) nell’oggetto destinazione (*l-value*)
+- Copia i valori dell’oggetto sorgente ( *r-value* ) nell’oggetto destinazione ( *l-value* )
 - *Problemi* se la classe include una variabile *membro puntatore*
 - Dopo assegnamento, oggetto sorgente e destinazione hanno puntatori alla stessa area di memoria
 - **Memory leak**: forse l'area prima puntata dall’oggetto destinazione non è più referenziata:
@@ -712,241 +740,353 @@ Esempio: `PFArrayD.cpp` di Savitch, “partially filled array of double”
 
 ---
 
-# Organizzazione del codice
+# Ereditarietà
+
+- Una nuova classe ( *classe derivata* ) viene creata a partire da una classe esistente ( *classe base* )
+- Eredita interfaccia e implementazione della classe base
+    - Variabili membro, o *campi*
+    - Funzioni membro, o *metodi*
+- Può aggiungere variabili membro e funzioni membro
 
 ---
 
-# Suddivisione del codice in file
+# Relazione “is a”
 
-- Separazione tra la classe e i programmi che la usano
-    - Riuso: parti separate facilmente riusabili (libreria)
-    - Compilazione selettiva
-- Separazione tra interfaccia e implementazione
-    - Incapsulamento: occultamento dei dettagli
-    - Diverse implementazioni di una stessa libreria
-
----
-
-# Regole per incapsulamento
-
-- Rendere private tutte le variabili membro
-- Raggruppare definizione della classe, dichiarazioni degli operatori e commenti nel file di interfaccia (header file)
-- Raggruppare le definizioni delle funzioni membro, degli operatori e delle funzioni ausiliarie e l’inizializzazione delle variabili static nel file di implementazione
-
----
-
-# Compilazione separata
-
-- Il file che contiene il programma che usa la classe si chiama file di applicazione
-- Sia l’implementazione che l’applicazione devono includere l’header file
-- L’implementazione e l’applicazione vengono compilate separatamente
-- Per ottenere l’eseguibile occorre linkare i due oggetti
-
----
-
-# Compilazione separata (2)
-
-- Sorgenti
-    - `dtime.cpp`
-    - `timedemo.cpp`
-    - `dtime.h`
-- Oggetti
-    - `g++ -c dtime.cpp`
-    - `dtime.o`
-    - `timedemo.o`
-- Eseguibile
-    - `g++ -c timedemo.cpp`
-    - `g++ dtime.o timedemo.o –o timedemo`
-    - `timedemo`
-
----
-
-# Comando make
-
-- Capisce quali moduli devono essere ricompilati e invia i comandi opportuni
-- Utilizza un file chiamato makefile o Makefile che descrive le dipendenze e contiene i comandi per aggiornare i file
-- Verifica il tempo di ultima modifica dei file per decidere quali richiedono aggiornamento
-
----
-
-# Makefile: esempio
-
-``` make
-timedemo: timedemo.o dtime.o
-g++ timedemo.o dtime.o -o timedemo
-timedemo.o: timedemo.cpp dtime.h
-g++ -c -W -Wall -pedantic timedemo.cpp
-dtime.o: dtime.cpp dtime.h
-g++ -c -W -Wall -pedantic dtime.cpp
-```
-
----
-
-# Vantaggi della compilazione separata
-
-- Separando l’interfaccia e l’implementazione della classe dall’applicazione
-    - Posso riusare la classe in diversi programmi senza riscriverla
-    - Posso compilare l’implementazione solo una volta
-- Separando l’interfaccia dall’implementazione
-    - Se cambio l’implementazione non devo cambiare i programmi che usano la classe
-    - Devo solo ricompilare l’implementazione e rifare il link
-
----
-
-# Esempio: inclusione ripetuta
+- Un oggetto di una classe derivata può essere usato ovunque può essere usato uno della classe base (*Liskov*)
+- Un oggetto di una classe derivata ha più di un tipo
 
 ``` cpp
-// classA.h
-class A {
+class HourlyEmployee : public Employee {
 public:
-    // ...
+    HourlyEmployee(string name, string code,
+                   double wageRate, double hours);
+    // …
 private:
-    // ...
+    // …
 };
-
-implA.cpp
-
-implB.cpp
-
-//classB.h
-    #include “classA.h”
-- class B
-    {
-- public:
-    …
-- private:
-- A var;
-    };
-
-- Main.cpp
-    #include “classA.h”
 ```
-        #include “classB.h”
-        …
 
 ---
 
-# Uso di #ifndef
+# Overriding
 
-- Un header file può includere altri header file
-- Per evitare che il contenuto di un header file venga incluso più volte è necessario racchiudere il codice tra queste due sezioni:
-
-``` cpp
-#ifndef NOMEHEADER_H
-#define NOMEHEADER_H
-```
-
-``` cpp
-#endif
-```
-
-- Come identificatore si usa il nome del file in maiuscolo e con l’underscore al posto del punto
-- Convenzione usata in tutti gli header std (iostream, vector, string,…)
+- Una classe derivata può **ridefinire un metodo** della classe base
+    - La classe derivata deve contenere la dichiarazione del metodo ereditato
+- È ancora possibile invocare la *versione della classe base*, utilizzando:
+    - Il nome della classe base
+    - Seguito dall’operatore di *scope resolution* `::`
+    - Seguito dal nome del metodo
+    - `obj_ptr->BaseClass::method_name()`
+- Altrimenti, il metodo potrebbe chiamare se stesso, in *loop*
 
 ---
 
-# Esempio: inclusione ripetuta (2)
+# Overriding / overloading
 
-- classA.h
+- Diverse funzioni membro con lo stesso nome
+- **Overriding**
+    - Una funzione ridefinita in una *classe derivata* ha lo *stesso numero e tipo di parametri* della funzione della classe base
+    - Sostituisce la funzione della classe base
+- **Overloading**
+    - Una funzione sovraccaricata ha un diverso *numero e/o tipo di parametri*
+    - La classe ha entrambe le funzioni
+    - Stesso meccanismo delle *normali funzioni*
+
+---
+
+# Membri privati della classe base
+
+- I membri privati della classe base non sono referenziabili nelle definizioni delle funzioni membro della classe derivata
+- Diversamente verrebbe violato il principio di *incapsulamento*
+- Le funzioni membro della classe derivata possono accedere alle variabili membro private della classe base tramite le funzioni *accessor* e *mutator*
+- Le funzioni membro private della classe base non sono accessibili (di fatto non sono ereditate)
+
+---
+
+# Qualificatore protected
+
+- Una variabile o funzione membro qualificata come `protected` può essere referenziata nelle funzioni membro di una classe derivata
+- Le variabili membro protette agiscono come se fossero protette in ogni classe derivata
+- Molti ritengono che l’uso di variabili membro protette comprometta l’incapsulamento
+    - È quindi buona norma utilizzare `protected` solo quando assolutamente necessario
+
+---
+
+# Cosa non viene ereditato
+
+- Oltre alle funzioni membro private non vengono ereditati
+    - *Costruttori*
+    - *Distruttori*
+    - *Costruttori di copia*
+    - *Operatori di assegnamento*
+- Se non vengono definiti vengono creati quelli di default
+
+---
+
+# Costruttori nelle classi derivate
+
+- I costruttori della classe base non sono ereditati
+- Per inizializzare le variabili ereditate…
+    - Un costruttore della classe derivata può invocare esplicitamente un costruttore della classe base, nella **lista di inizializzazione**
+    - Altrimenti, viene invocato automaticamente il *costruttore senza parametri* della classe base
 
 ``` cpp
-#ifndef CLASSA_H
-#define CLASSA_H
-
-class A
+HourlyEmployee::HourlyEmployee(string name, string number,
+                               double wageRate, double hours)
+        : Employee(name, number), wageRate(wageRate), hours(hours)
 {
-    //…
-};
-#endif
+    // deliberately empty
+}
 ```
 
-- classB.h
+---
+
+# Ordine di chiamata dei costruttori
+
+- La chiamata del costruttore della classe base è la prima azione del costruttore della classe derivata
+- Se `A ⇽ B ⇽ C`, quando viene creato un oggetto di classe `C`…
+    - Prima viene chiamato un costruttore della classe `A`
+    - Poi un costruttore della classe `B`
+    - Infine un costruttore della classe `C`
+
+---
+
+# Distruttori in classi derivate
+
+- Quando il distruttore di una classe derivata è invocato, viene invocato automaticamente il distruttore della classe base
+- I distruttori sono chiamati in *ordine inverso* rispetto ai costruttori
+- Se `A ⇽ B ⇽ C`, quando termina lo scope di un oggetto di classe `C`…
+    - Viene chiamato prima il distruttore della classe `C`
+    - Poi quello della classe `B`
+    - Infine quello della classe `A`
+
+---
+
+# Operatori di assegnamento in classi derivate
+
+- Una classe derivata quando sovraccarica l’operatore di assegnamento può fare uso dell’operatore di assegnamento della classe base
 
 ``` cpp
-#ifndef CLASSB_H
-#define CLASSB_H
-#include “classA.h”
-class B
+Derived& Derived::operator=(const Derived& rtside)
 {
+    Base::operator=(rtSide);
     //…
+}
+```
+
+---
+
+# Costruttori di copia in classi derivate
+
+- Una classe derivata quando sovraccarica il costruttore di copia può fare uso del costruttore di copia della classe base
+
+``` cpp
+Derived::Derived(const Derived& obj) : Base(obj), …
+{
+    // …
+}
+```
+
+---
+
+# Relazioni tra oggetti
+
+- Relazione “**is a**”
+    - Esempio: *a HourlyEmployee is an Employee*
+    - Utile soprattutto per polimorfismo
+    - Sempre possibile usare un oggetto di una sotto-classe al posto di un oggetto di una classe base
+- Relazione “**has a**”
+    - Esempio: *an Employee has a Date (of employment)*
+    - Serve per riutilizzo di funzionalità
+    - Grado elevato di flessibilità: ...
+    - Gli oggetti membri sono di solito nascosti
+    - Inaccessibili ai programmatori che usano l’oggetto esterno
+    - Possono essere cambiati senza disturbare il codice esterno
+- Attenzione al modello: un lavoratore può cambiare *ruolo* e *contratto*
+
+---
+
+# Ereditarietà e riuso
+
+- La classe base contiene il codice comune alle classi derivate
+    - L’ereditarietà è una forma di *riuso del codice*
+    - Si eredita il codice della classe base
+- Ma la classe derivata è strettamente dipendente dalla classe base
+    - Ne eredita anche l’interfaccia!
+- Per il semplice riuso è meglio far ricorso alla *composizione*
+    - Oggetti incapsulati forniscono funzionalità di base
+    - Vedi Eckel, *Thinking in C++*: <http://www.mindview.net/Books>
+
+---
+
+# Ereditarietà protetta e privata
+
+- **Ereditarietà protetta**
+    - I membri pubblici della classe base hanno accessibilità protetta nella classe derivata
+- **Ereditarietà privata**
+    - Tutti i membri della classe base hanno accessibilità privata nella classe derivata
+- La relazione “*is a*” non è valida
+    - Sono raramente usate
+
+---
+
+# Ereditarietà multipla
+
+- Una classe derivata può avere più di una classe base
+- Possono esserci situazioni ambigue
+
+``` cpp
+class A  { /* ... */ };
+class B  { /* ... */ };
+
+class C: public B, public A  // Note the order  {
+public:
+  C()  { cout << "C's constructor called" << endl; }
 };
-#endif
-```
 
-- implA.cpp
-- implB.cpp
+int main()  {  C c; }
+```
 
 ---
 
-# Namespace e direttiva using
+# The slicing problem
 
-- Un namespace è un insieme di definizioni di nomi (classi, funzioni, …)
-- Per creare un namespace
+- Assegnamento di un oggetto di una classe derivata ad una *variabile della sua classe base*
+    - Variabili e funzioni membro aggiunte dalla classe derivata vengono perse
+- Il problema può essere risolto usando:
+    - *Puntatori ad oggetti*
+    - *Funzioni virtuali*
+
+---
+
+# Upcasting e downcasting
+
+- Il casting da un tipo discendente a un tipo antenato è detto **upcasting** ed è sicuro
+- Il casting da un tipo antenato a un tipo discendente è detto **downcasting** ed è pericoloso
+- **Dynamic cast** per downcasting sicuro, su *puntatori*
+    - `dynamic_cast < new_type > ( expression )`
+    - Se il cast riesce (cioè se il tipo dinamico corrisponde al tipo che si vuole ottenere)...
+    - Restituisce un puntatore al nuovo tipo
+    - Altrimenti restituisce `nullptr`
+
+---
+
+# Polimorfismo
+
+---
+
+# Polimorfismo e funzioni virtuali
+
+- Meccanismo fondamentale per realizzare *sistemi estensibili*
+- Oggetti di tutte le classi di una gerarchia trattati come oggetti della *classe base*
+- Risultato:
+    - Scrittura di programmi più semplici (meno *branching logic*)
+    - Favorito il testing ed il mantenimento del codice
+
+---
+
+# Metodi virtuali
+
+- Quando un metodo di una classe base è dichiarato virtuale…
+- Se invocato tramite un puntatore o un riferimento…
+    - Il programma sceglie a tempo di esecuzione la funzione della classe appropriata (*late binding*, o *dynamic binding*)
+- Se invocato su un oggetto…
+    - La risoluzione del riferimento avviene a tempo di compilazione (*static binding*)
+    - La funzione chiamata è quella della classe dell’oggetto (ottimizzazione)
+
+---
+
+# Metodi virtuali
+
+- Per specificare che una funzione è virtuale si include il modificatore `virtual` nella dichiarazione (non nella definizione)
+- Quando la definizione di una funzione virtuale viene cambiata in una classe derivata si parla di *overriding*
+- La proprietà di essere una funzione virtuale viene ereditata lungo tutta la gerarchia
+
+---
+
+# Polimorfismo
+
+- Se oggetti di classi derivate da una classe base comune ...
+- ... rispondono in modi diversi alla chiamata di una certa funzione
+- Si implementa tramite le **funzioni virtuali**
+- Chiamata di una funzione virtuale tramite un *puntatore alla classe base*
+    - Il programma sceglie la ridefinizione corretta della funzione
+    - Nella classe derivata appropriata
+
+---
+
+# Polimorfismo
+
+- Se una funzione **non virtuale** è ridefinita in una classe derivata non si ha polimorfismo
+    - Se viene chiamata tramite un *puntatore alla classe base*, è utilizzata la versione della classe base
+    - Se viene chiamata tramite un *puntatore alla classe derivata*, è utilizzata la versione della classe derivata
+
+---
+
+# Implementazione delle funzioni virtuali
+
+- Le funzioni virtuali introducono *overhead*
+- Compilatore crea una **tabella delle funzioni virtuali**
+    - Solo se una classe ha una o più funzioni membro virtuali
+    - La tabella contiene l’indirizzo di ciascuna funzione virtuale
+- Ogni *istanza* contiene un puntatore alla tabella delle funzioni virtuali
+- Quando una funzione virtuale viene chiamata usando un *puntatore* all’oggetto...
+    - Il sistema **runtime** decide quale definizione della funzione usare
+    - Usa la tabella, invece del tipo del puntatore
+
+---
+
+# Classi astratte e funzioni virtuali pure
+
+- Una funzione **virtuale pura** non ha definizione
+- Una classe con una o più funzioni virtuali pure è detta **astratta**
+- Una classe astratta può essere usata solo come classe base per derivare altre classi, *non si possono istanziare* oggetti
 
 ``` cpp
-namespace Name_Space_Name
-{ /* Some code */ }
-```
-
-- Per rendere disponibili tutti i nomi di un namespace si usa la *direttiva* `using`
-- Lo scope della direttiva using va dal punto di occorrenza alla fine del file o del blocco
-- Se il codice non è messo esplicitamente in un namespace è nel namespace globale (accessibile ovunque)
-
-``` cpp
-using namespace Name_Space_Name;
+class Abs {
+public:
+    virtual void f() = 0;
+};
 ```
 
 ---
 
-# Dichiarazione using
+# Ereditarietà di interfaccia e di implementazione
 
-- Per rendere disponibile un solo nome di un namespace uso la dichiarazione
-    - using Name_Space_Name::One_Name;
-- Utile con (molte) chiamate a pochi nomi Es: using std::cin; using std::cout; using std::string;
-
----
-
-# Differenze tra direttiva e dichiarazione
-
-- La direttiva introduce tutti i nomi del namespace, la dichiarazione introduce un solo nome
-- La direttiva introduce i nomi del namespace solo potenzialmente
-    - Si possono avere sovrapposizioni potenziali
-    - Non si possono avere sovrapposizioni esplicite
+- Con l’ereditarietà pubblica si può ereditare:
+    - La sola interfaccia (funzioni *virtuali pure*), oppure...
+    - L’interfaccia più...
+    - Un’implementazione di default (funzioni *virtuali*)
+    - Un’implementazione obbligatoria (funzioni *non virtuali*)
+- È bene non ridefinire le funzioni ereditate non virtuali
 
 ---
 
-# Qualificazione dei nomi
+# Polimorfismo
 
-- Se uso una definizione di un nome poche volte, posso qualificare il nome ogni volta che lo uso
-    - esempio: std::cin
-- Questa forma è usata spesso per specificare il tipo dei parametri
-- Posso qualificare un nome rispetto a un namespace anche entro lo scope di una direttiva using per un altro namespace che definisce lo stesso nome
-    - esempio: using namespace MySpace;
-    - void someFunction(istream p1, std::istream p2);
-
----
-
-# Come specificare il namespace?
-
-- Evitare l’uso della direttiva using all’inizio del file perché vanifica il meccanismo dei namespace
-- La maggior parte delle volte è preferibile l’uso della dichiarazione using
-- Se il programma usa namespace diversi in punti diversi può essere opportuno inserire le direttive o dichiarazioni using in blocchi
-- Negli header file usare la qualificazione dei nomi
+- *Aumento di generalità*
+    - È il runtime a doversi occupare delle specificità, non il programmatore
+- *Estendibilità*
+    - Il codice è scritto indipendentemente dai tipi derivati
+    - Nuovi tipi possono essere aggiunti...
+    - Senza dover apportare modifiche a quanto già sviluppato
 
 ---
 
-# Namespace senza nome
+# Funzioni virtuali e parametri di default
 
-- Una unità di compilazione è costituita da un file e dagli header file da esso inclusi
-- Ogni unità di compilazione ha un namespace senza nome
-    - namespace
-        { … }
-- I nomi definiti nel namespace senza nome sono locali all’unità di compilazione
+- Quando si eredita una funzione virtuale con un parametro di default, è bene non cambiarne il valore
+- Motivazione
+    - Le funzioni virtuali usano *dynamic binding*
+    - I parametri di default usano *static binding*
 
 ---
 
-# Nascondere le funzioni ausiliarie
+# Distruttori delle classi base
 
-- Due modi:
-    - Se la funzione accede ai dati dell’oggetto: funzione membro privata
-    - Se la funzione non accede ai dati dell’oggetto: nel namespace senza nome del file di implementazione (oppure nel namespace della classe)
+- Se si dealloca un oggetto di una classe derivata...
+    - Attraverso un puntatore alla classe base...
+    - E la classe base ha un distruttore non virtuale
+    - ⇒ Il risultato è indefinito
+- È bene dichiarare *virtuali* i distruttori delle classi base
+

@@ -1,6 +1,6 @@
+![](images/dev/cpp.svg)
 # Linguaggio C++
 ## Programmazione strutturata
-![](images/dev/cpp.svg)
 
 ---
 
@@ -58,8 +58,7 @@
 
 ``` cpp
 #include <iostream>
-int main()
-{
+int main() {
     int integer1, integer2, sum; // declaration
     std::cout << "Enter first integer\n"; // prompt
     std::cin >> integer1; // read an integer
@@ -67,7 +66,7 @@ int main()
     std::cin >> integer2; // read an integer
     sum = integer1 + integer2; // assignment of sum
     std::cout << "Sum is " << sum << std::endl; // print sum
-    return 0; // indicate that program ended successfully
+    return 0; // program ended successfully
 }
 ```
 
@@ -81,15 +80,14 @@ using std::cout; // program uses cout
 using std::cin; // program uses cin
 using std::endl; // program uses endl
 
-int main()
-{
+int main() {
     int num1, num2;
     cout << "Enter two integers";
     cin >> num1 >> num2; // read two integers
     if (num1 == num2) }
         cout << num1 << " is equal to " << num2 << endl;
     }
-    return 0; // indicate that program ended successfully
+    return 0; // program ended successfully
 }
 ```
 
@@ -97,11 +95,11 @@ int main()
 
 # Strutture di controllo
 
-- if/else
-- while
-- for
-- do/while
-- switch
+- `if/else`
+- `while`
+- `for`
+- `do/while`
+- `switch`
 - Programmazione ad oggetti: tende ad essere meno strutturata di quella procedurale
 
 ---
@@ -119,10 +117,13 @@ int main()
 
 # Funzioni (2)
 
-- La direttiva #include permette di importare i prototipi di funzioni delle librerie standard
-- Ogni libreria standard ha un file header contenente la definizione di funzioni, tipi di dati e costanti
-- Funzioni inline: viene generata una copia della funzione ogni volta che questa viene utilizzata
-- Utile per funzioni brevi ed usate spesso (evita l’overhead del chiamare la funzione)
+- Direttiva `#include` per importare prototipi di funzioni delle librerie standard
+- Ogni libreria standard ha un file header
+    - Dichiarazione di funzioni, tipi di dati e costanti
+- Funzioni `inline`
+    - Generata una copia della funzione ogni volta che questa viene utilizzata
+    - Evita l’overhead del chiamare la funzione
+    - Utile per funzioni brevi ed usate spesso
 
 ---
 
@@ -132,41 +133,43 @@ int main()
 #include <iostream>
 using std::cout;
 using std::endl;
-int cube(int y); // prototipo
-int main()
-{
+
+int cube(int y); // prototype
+
+int main() {
     int x;
     for ( x = 1; x <= 10; x++ )
     cout << cube( x ) << endl;
     return 0;
 }
-int cube( int y )
-{
+
+int cube( int y ) {
     return y * y * y;
 }
 ```
 
 ---
 
-# Parametri call-by-value e call-by-reference
+# Parametri per valore o riferimento (1)
 
-- Call-by-value
+- **Call-by-value**
     - L’argomento può essere una variabile o un’espressione
     - Il parametro formale viene inizializzato al valore dell’argomento
-    - La funzione riceve una copia del valore dell’argomento
-- Call-by-reference (“&” attaccato al tipo del parametro formale)
+    - La funzione riceve una *copia* del valore dell’argomento
+- **Call-by-reference**
+    - “`&`” attaccato al tipo del parametro formale
     - L’argomento deve essere una variabile
     - Il parametro formale viene sostituito con la variabile argomento
-    - La funzione può cambiare la variabile argomento
+    - La funzione può modificare la variabile argomento
     - Vantaggio: migliori prestazioni
     - Svantaggio: minore modularità, la funzione chiamata può corrompere i dati della chiamante
 
 ---
 
-# Parametri call-by-value e call-by-reference
+# Parametri per valore o riferimento (2)
 
-- Oggetti di grandi dimensioni possono essere passati by reference, dichiarandoli però costanti
-    - const int &x;
+- Oggetti di grandi dimensioni possono essere passati per riferimento, dichiarandoli però costanti
+    - `const int &x;`
 - Suggerimento
     - Parametri piccoli e non modificabili: call-by-value
     - Parametri modificabili: puntatori
@@ -178,7 +181,7 @@ int cube( int y )
 
 - I puntatori contengono come valori indirizzi di memoria
 - Quindi mentre una variabile contiene direttamente un valore, un puntatore lo contiene indirettamente: indirection
-- L’operatore * (indirection operator) ritorna un sinonimo dell’oggetto a cui il suo operando (un puntatore) punta
+- L’operatore `*` (*indirection*) ritorna un sinonimo dell’oggetto a cui il suo operando (un puntatore) punta
 
 ---
 
@@ -189,16 +192,15 @@ int cube( int y )
 using std::cout;
 using std::endl;
 
-int main()
-{
-    int a; // a is an integer
-    int *aPtr; // aPtr is a pointer to an integer
+int main() {
+    int a;  // a is an integer
+    int *aPtr;  // aPtr is a pointer to an integer
     a = 7;
-    aPtr = &a; // aPtr set to address of a
+    aPtr = &a;  // aPtr set to address of a
     cout << "The address of a is " << &a << "\nThe value of aPtr is " << aPtr;
     cout << "\n\nThe value of a is " << a << "\nThe value of *aPtr is " << *aPtr;
-    cout << "\n\nShowing that * and & are inverses of "<< "each other.\n&*aPtr = "
-        << &*aPtr << "\n*&aPtr = " << *&aPtr << endl;
+    cout << "\n\nShowing that * and & are inverses of each other." <<
+         "\n&*aPtr = " << &*aPtr << "\n*&a = " << *&a << endl;
     return 0;
 }
 ```
@@ -237,16 +239,16 @@ int main()
 
 ---
 
-# Il modificatore di parametro const
+# Parametri const (1)
 
-- Se inserito prima di un parametro il compilatore verifica che la funzione non lo modifichi
+- Se prima di un parametro è inserito il modificatore `const`, il compilatore verifica che la funzione non lo modifichi
 - Va usato sia nella definizione che nella dichiarazione (prototipo)
 - Se un parametro const è passato a un’altra funzione, anche in essa deve essere const
 - Il corretto utilizzo consente di assegnare ai metodi delle classi solo i privilegi effettivamente necessari, rispettando i concetti della programmazione object oriented e facilitando il debug
 
 ---
 
-# Il modificatore di parametro const
+# Parametri const (2)
 
 ``` cpp
 #include <iostream>
@@ -279,7 +281,7 @@ int main() {
 
 ---
 
-# Overloading
+# Overloading (1)
 
 - C++ consente di avere più funzioni con definizioni diverse e lo stesso nome
 - Devono differire per il numero di parametri e/o il tipo di almeno un parametro (signature)
@@ -291,13 +293,13 @@ int main() {
 
 ---
 
-# Overloading (3)
+# Overloading (2)
 
 - Signature di una funzione
     - Nome più lista dei tipi dei parametri
     - Deve essere unica per ogni definizione di funzione
 - Il compilatore risolve la chiamata di funzione in base alla signature
-- E’ possibile effettuare l’overloading non solo delle funzioni, ma anche degli operatori
+- É possibile effettuare l’overloading non solo delle funzioni, ma anche degli operatori
 
 ---
 
@@ -312,19 +314,19 @@ int main() {
 
 ---
 
-# Esempio
+# Esempio overloading
 
 ``` cpp
 #include <iostream>
 using std::cout;
 using std::endl;
+
 int square( int x ) { return x * x; }
 double square( double y ) { return y * y; }
-int main()
-{
-    cout << "The square of integer 7 is " << square( 7 )
-    << "\nThe square of double 7.5 is " << square( 7.5 )
-    << endl;
+
+int main() {
+    cout << "The square of integer 7 is " << square( 7 ) <<
+        "\nThe square of double 7.5 is " << square( 7.5 ) << "\n";
     return 0;
 }
 ```
@@ -362,8 +364,14 @@ int main()
 # C-strings
 
 - Array di char terminati col carattere `\0`
-    - Es: `char message[10] = “Ciao”; char short_string[] = “abc”; char array_of_char[] = {‘a’,‘b’,‘c’}; char s[10];`
-- I valori di tipo stringa (es. “Hello”) sono implementati come C-string
+- I valori di tipo stringa (es. `"Hello"`) sono implementati come C-string
+
+``` cpp
+char message[10] = "Ciao";
+char short_string[] = "abc";
+char array_of_char[] = {'a', 'b', 'c'};
+char s[10];
+```
 
 ---
 
@@ -379,13 +387,25 @@ int main()
 
 # I/O di C-strings
 
-- L’operatore `<<` consente di inserire il valore di una C-string in un output stream
-    - Es: `char message[] = “Hello”; cout << message;`
-- L’operatore `>>` consente di estrarre una stringa da un input stream
-    - Ignora eventuali caratteri di spaziatura iniziali, la lettura si ferma al primo carattere di spaziatura
-    - Es: `char a[80], b[80]; cin >> a >> b;`
-    - Lettura di un’intera linea di input con la funzione membro della classe istream:
-    - Es: `cin.getline(a, 80);`
+- *Inserimento* di una C-string in un output stream, con op. `<<`
+
+``` cpp
+char message[] = "Hello";
+cout << message;
+```
+
+- *Estrazione* di una parola da un input stream, con op. `>>`
+    - Ignora eventuali caratteri di spaziatura iniziali
+    - Lettura si ferma al primo carattere di spaziatura
+- Lettura di un’intera riga di input con metodo `getline` di istream
+- ⚠️ Attentione al **buffer overflow**
+
+``` cpp
+char a[80], b[80], c[80];
+cin.width(80);
+cin >> a >> b;
+cin.getline(c, 80);
+```
 
 ---
 
@@ -412,12 +432,14 @@ int main()
 
 # I/O di std::string
 
-- L’operatore `<<` (*insertion*) consente di inserire un oggetto string in un output stream
+- *Inserimento* di una `std::string` in un output stream, con op. `<<`
     - Es: `string message("Hello"); cout << message;`
-- L’operatore `>>` (*extraction*) consente di estrarre un oggetto string da un input stream
-    - Ignora eventuali caratteri di spaziatura iniziali, la lettura si ferma al primo carattere di spaziatura
+- *Estrazione* di un oggetto string da un input stream, con op. `>>`
+    - Ignora eventuali caratteri di spaziatura iniziali
+    - Lettura si ferma al primo carattere di spaziatura
     - Es: `string s1, s2; cin >> s1 >> s2;`
-    - Lettura di un’intera linea di input con la funzione `getline(a_stream, a_string)` definita nella libreria string
+- Lettura di un’intera linea di input con la funzione `getline(a_stream, a_string)` definita nella libreria string
+- Le operazioni di lettura di `std::string` evitano il **buffer overflow**
 
 ---
 
@@ -435,26 +457,30 @@ int main()
 
 # Classe std::vector
 
-- I vettori sono array la cui dimensione può cambiare durante l’esecuzione
-- Sono oggetti della classe vector, una classe template della Standard Template Library (STL)
-    - Ex: `vector<int> v;`
-- La classe è definita nella libreria vector all’interno del namespace std
-    - Ex: `#include <vector>`
-    - `using namespace std;`
+- Oggetti di tipo `std::vector`
+- Array la cui dimensione può cambiare durante l’esecuzione
+- Template di classe della *Standard Template Library (STL)*
+- Definito nella libreria `vector` all’interno del namespace `std`
+
+``` cpp
+#include <vector>
+using namespace std;
+```
+
+``` cpp
+vector<int> v;
+```
 
 ---
 
-# La notazione []
+# Operatore [] dei vector
 
-- La notazione `[]`
-    - può essere usata per
-        - leggere un elemento
-        - cambiare un elemento che ha già un valore
-    - non può essere usata per
-        - inizializzare un elemento
-    - non controlla se l’elemento esiste
+- Accesso agli elementi di un `vector`
+- Può essere usato per leggere un elemento
+- Può essere usato per cambiare un elemento che ha già un valore
+- Non può essere usato per inizializzare un nuovo elemento
+- Non controlla se l’elemento esiste
 - Per aggiungere elementi (in ordine di posizione) si usa il metodo `push_back()`
-- Accesso agli elementi di un vector
 
 ---
 
@@ -463,18 +489,25 @@ int main()
 - Crea un numero di elementi pari all’argomento e li inizializza…
     - Con lo zero del tipo numerico se è un vettore di numeri
     - Con il costruttore di default se il tipo base è un tipo classe
-    - Ex: `vector<int> v(10); vector<DayOfYear> days(3);`
+
+``` cpp
+vector<int> v(10);
+vector<DayOfYear> days(3);
+```
 
 ---
 
 # Dimensioni e capacità
 
-- La dimensione è il numero di elementi in un vector (restituita dal metodo `size()`)
-- La capacità è il numero di elementi per i quali c’è memoria allocata
-- Se aggiungo elementi a un vector che ha esaurito la capacità, questa viene automaticamente aumentata
+- Dimensione: numero di elementi in un vector
+    - Restituita dal metodo `size()`
+    - Metodo `resize()` modifica la dimensione del vector
+- Capacità: numero di elementi per i quali c’è memoria allocata
+    - Restituita dal metodo `capacity()`
+    - Metodo `reserve()` riserva una capacità minima
 - Posso ignorare la gestione della capacità se non serve efficienza
-- Altrimenti posso usare il metodo `reserve()` per riservare una capacità minima
-- Il metodo `resize()` modifica la dimensione del vector
+    - Se aggiungo elementi oltre la capacità…
+    - Questa viene automaticamente aumentata
 
 ---
 
@@ -501,7 +534,7 @@ int main()
 ![](images/algo/my-shoes.png)
 # Tipizzazione statica
 
-- Una delle differenze principali: le comuni variabili non sono *riferimenti*, ma *contenitori* di dati
+- Modello di memoria: le comuni variabili non sono *riferimenti*, ma *contenitori* di dati
     - Occorrono **dichiarazioni** di tipo
     - Ma possibile *type inference* (`auto`)
 - Tipi principali: `int`, `float` e `double`, `bool`, `string` e `char`
