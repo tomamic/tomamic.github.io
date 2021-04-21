@@ -259,6 +259,10 @@ Increment::Increment(int c, int d)
 - Se distruzioni a catena per oggetti annidati...
     - Distruttori chiamati in *ordine inverso* rispetto ai costruttori
 
+>
+
+<https://github.com/tomamic/paradigmi/tree/master/oopcpp/lezione04>
+
 ---
 
 # Modificatore const: 1° uso
