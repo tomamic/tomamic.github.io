@@ -168,7 +168,7 @@ int main() {
 
 - Funzione membro speciale, per *inizializzazione*
     - In sezione pubblica, ha stesso nome della classe
-- Chiamata *automaticamente* quando dichiarato un oggetto
+- Chiamato *automaticamente* quando dichiarato un oggetto
     - Non può essere invocato come altre f. membro
     - Non può restituire un valore
 - Alternativa preferibile: *lista di inizializzazione* (vedi)
@@ -265,28 +265,44 @@ Increment::Increment(int c, int d)
 
 ---
 
+# Variabili dinamiche di tipo classe
+
+- Quando si usa l’operatore new con un tipo classe viene chiamato il costruttore
+- Quando si usa l’operatore delete con un tipo classe viene chiamato il distruttore
+
+``` cpp
+MyClass *classPtr;
+classPtr = new MyClass;
+classPtr = new MyClass{2, 45.3};
+// …
+delete classPtr;
+```
+
+---
+
 # Modificatore const: 1° uso
 
 - Per un parametro di tipo classe
-    - Passaggio *call-by-reference* più efficiente di *call-by-value*
-- Parametri di tipo classe: preferibile *call-by-reference*
+    - Preferibile *call-by-reference*
+    - Più efficiente di *call-by-value*
 - Se la funzione *non modifica* il parametro si usa il modificatore `const`
 
 ---
 
 # Modificatore const: 2° uso
 
-- Altro uso di `const`
-    - Funzione membro che *non modifica l’oggetto* chiamante
-    - Va messo sia nella dichiarazione che nella definizione
+- Funzione membro che *non modifica l’oggetto* chiamante
+    - `const` sia nella dichiarazione che nella definizione
 - *Attenzione*: `const` richiede consistenza!
 
 ---
 
 # Reference come valore di ritorno
 
-- É possibile per una funzione membro pubblica restituire una reference a membri privati della classe
-- Per quanto sintatticamente corretta, questa operazione può violare il principio di information hiding
+- É possibile per una funzione membro pubblica restituire…
+    - Una reference a membri privati della classe
+- Operazione sintatticamente corretta…
+    - Ma può violare il principio di information hiding
 
 ---
 
@@ -486,6 +502,10 @@ void setX( Count &c, int val ) {
     - Bene usare `const` per il valore restituito
 - Restituire valori di *tipi predefiniti* come `const` *non ha senso*
 
+>
+
+<https://github.com/tomamic/paradigmi/tree/master/oopcpp/lezione06>
+
 ---
 
 # Operatori << e >>
@@ -509,57 +529,18 @@ void setX( Count &c, int val ) {
 
 ---
 
-# Operatore =
-
-- L’operatore `=` (*assegnamento*) deve essere sovraccaricato come membro
-- Se non viene sovraccaricato, viene creato automaticamente
-- L’operatore `=` *di default* copia i valori delle variabili membro...
-    - Da un oggetto a un altro oggetto, in variabili membro corrisp.
-- *Problemi nel caso ci siano puntatori*: l’operatore `=` deve essere sovraccaricato!
-
----
-
 # Puntatore this
 
 - Un oggetto ha accesso al proprio indirizzo mediante il puntatore `this`
+    - Puntatore predefinito che punta all’oggetto chiamante
 - `this` non è parte dell’oggetto
     - Piuttosto è passato come *argomento implicito*
     - A tutte le funzioni membro dell’oggetto
+    - Tranne le funzioni membro *static*
 - Tipo del puntatore `this`:
     - Funzione membro non costante: `Employee* const`
     - Funzione membro costante: `const Employee* const`
-
----
-
-# Auto-assegnamento
-
-- Se si fornisce un operatore `=`...
-- Evitare auto-assegnamenti, o rischio *memory-leak*
-
-``` cpp
-// Overloaded = operator; avoids self assignment
-const String &String::operator=(const String &right) {
-    cout << "operator= called\n";
-    if ( &right != this ) { // avoid self assignment
-        delete [] sPtr; // prevents memory leak
-        length = right.length; // new String length
-        setString( right.sPtr ); // call utility function
-    } else {
-        cout << "Attempted assignment of a String to itself\n";
-    }
-    return *this; // enables cascaded assignments
-}
-```
-
----
-
-# Memory leak
-
-- Un *memory leak* (falla nella memoria) è un particolare tipo di **errore**
-    - Consumo non voluto di memoria
-- Dovuto al *mancato rilascio della memoria* non più utilizzata da parte dei processi
-    - Il termine non è etimologicamente corretto, visto che la memoria non viene persa fisicamente
-    - Piuttosto diventa inutilizzabile per un difetto del software
+    - Non si può cambiare il suo valore (sempre `const`)
 
 ---
 
@@ -627,31 +608,23 @@ Date Date::operator++(int) {
     - `&&` e `||` quando sovraccaricati effettuano la valutazione completa dell’espressione
     - `,` quando sovraccaricato non garantisce l’ordine di valutazione da sinistra a destra
 
----
+>
 
-# Variabili dinamiche di tipo classe
-
-- Quando si usa l’operatore new con un tipo classe viene chiamato il costruttore
-
-``` cpp
-MyClass *classPtr;
-classPtr = new MyClass;
-classPtr = new MyClass{2, 45.3};
-// …
-delete classPtr;
-```
-
----
-
-# Puntatore this
-
-- `this` è un puntatore predefinito che punta all’oggetto chiamante
-- Non si può cambiare il suo valore
-- Non può essere usato nella definizione di una funzione membro *static*
+<https://github.com/tomamic/paradigmi/tree/master/oopcpp/lezione07>
 
 ---
 
 # Copia di oggetti
+
+---
+
+# Operatore =
+
+- L’operatore `=` (*assegnamento*) deve essere sovraccaricato come membro
+- Se non viene sovraccaricato, viene creato automaticamente
+- L’operatore `=` *di default* copia i valori delle variabili membro...
+    - Da un oggetto a un altro oggetto, in variabili membro corrisp.
+- *Problemi nel caso ci siano puntatori*: l’operatore `=` deve essere sovraccaricato!
 
 ---
 
@@ -693,6 +666,38 @@ public:
 // ...
 };
 ```
+
+---
+
+# Auto-assegnamento
+
+- Se si fornisce un operatore `=`...
+- Evitare auto-assegnamenti, o rischio *memory-leak*
+
+``` cpp
+// Overloaded = operator; avoids self assignment
+const String &String::operator=(const String &right) {
+    cout << "operator= called\n";
+    if ( &right != this ) { // avoid self assignment
+        delete [] sPtr; // prevents memory leak
+        length = right.length; // new String length
+        setString( right.sPtr ); // call utility function
+    } else {
+        cout << "Attempted assignment of a String to itself\n";
+    }
+    return *this; // enables cascaded assignments
+}
+```
+
+---
+
+# Memory leak
+
+- Un *memory leak* (falla nella memoria) è un particolare tipo di **errore**
+    - Consumo non voluto di memoria
+- Dovuto al *mancato rilascio della memoria* non più utilizzata da parte dei processi
+    - Il termine non è etimologicamente corretto, visto che la memoria non viene persa fisicamente
+    - Piuttosto diventa inutilizzabile per un difetto del software
 
 ---
 
@@ -741,6 +746,8 @@ public:
 > If you need any of them, you need all three
 
 Esempio: `PFArrayD.cpp` di Savitch, “partially filled array of double”
+<br>
+<https://github.com/tomamic/paradigmi/tree/master/oopcpp/lezione10-11/PFArrayD>
 
 ---
 
