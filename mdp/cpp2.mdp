@@ -753,6 +753,10 @@ Esempio: `PFArrayD.cpp` di Savitch, “partially filled array of double”
 
 # Ereditarietà
 
+---
+
+# Ereditarietà
+
 - Una nuova classe ( *classe derivata* ) viene creata a partire da una classe esistente ( *classe base* )
 - Eredita interfaccia e implementazione della classe base
     - Variabili membro, o *campi*
