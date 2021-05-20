@@ -37,7 +37,7 @@
 # 🌱 How much data?
 
 - Nowadays, a dataset is “big”, if
-    - It cannot be loaded and processed effectively with desktop tools for data analys and visualization
+    - It cannot be loaded and processed effectively with desktop tools for data analysis and visualization
 - Ex.: dataset of 7 billion records (Jacob, 2009)
 - It can be saved in a common HDD
     - Simple questions (min, max, avg) can be answered quickly, by reading the file sequentially

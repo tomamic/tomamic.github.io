@@ -756,7 +756,7 @@ func main() {
 
 ---
 
-# Closures
+# Closure
 
 - A function referencing outside variables
 
@@ -766,7 +766,7 @@ func fibonacci() func() int {
     curr, next := 0, 1
     return func() int {
         val := curr
-        curr, next = next, next + curr
+        curr, next = next, next + curr  // captured by ref.
         return val
     }
 }
@@ -917,7 +917,7 @@ type Reader interface {
 
 ---
 
-# Goroutines
+# Goroutine
 
 - A lightweight thread managed by the Go runtime
 - Params are evaluated locally
