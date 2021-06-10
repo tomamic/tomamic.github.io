@@ -214,9 +214,9 @@ width, and the height are known. *(Polya, pag. 23)*
     - Corretta? Ottenibile in altro modo?
     - Risultato, o metodo, utilizzabile per altri problemi?
 
-> Perfection is reached not when there is no longer anything to add, but when there is no longer anything to take away. *(De Saint-Exupéry)*
-
 > Vi scrivo una lunga lettera perché non ho tempo di scriverne una breve. *(Voltaire)*
+
+> Perfection is reached not when there is no longer anything to add, but when there is no longer anything to take away. *(De Saint-Exupéry)*
 
 Ottenere una soluzione più breve, semplice e chiara richiede di solito più iterazioni
 
@@ -257,7 +257,7 @@ Ottenere una soluzione più breve, semplice e chiara richiede di solito più ite
 
 ![](images/algo/structures.svg)
 
-> Qualunque algoritmo può essere implementato utilizzando queste tre sole strutture *(Böhm-Jacopini, 1966)*
+> Si può implementare qualunque algoritmo usando queste tre sole strutture *(Böhm-Jacopini, 1966)*
 
 > Goto statement considered harmful *(Dijkstra, 1968)*
 
