@@ -536,6 +536,16 @@ Tutti gli `import` all'inizio dello script, per evidenziare le dipendenze
 
 ---
 
+![](images/misc/handshake.png)
+# Hello, user!
+
+- Compilare ed eseguire il programma “`Hello world`”
+- In una versione successiva del programma...
+- Chiedere il nome all'utente e aggiungere tale nome al messaggio di saluto
+- Se il nome dell'utente è “`admin`”, mostrare inoltre il messaggio speciale “`At your command`”
+
+---
+
 ![](images/misc/greek-pi.png)
 # Cerchio
 
