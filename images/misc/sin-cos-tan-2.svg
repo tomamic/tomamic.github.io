@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189.3" height="171.3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect width="189.3" height="171.3" ry="32.4" color="#000000" fill="#c2e6ff" stroke-width="2"/>
+ <text x="15.19972" y="33.09584" color="#000000" fill="#6600cc" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">sin θ =</text>
+ <text x="77.599724" y="44.795837" color="#000000" fill="#d0630b" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">Hypotenuse</text>
+ <path d="m75.7 30.4h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <g transform="translate(-29.18 -191.4)" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">
+  <text x="117.07571" y="215.39583" color="#000000" fill="#c4a000">Opposite</text>
+  <text x="40.675724" y="275.99582" color="#000000" fill="#6600cc">cos θ =</text>
+  <text x="40.975727" y="327.99582" color="#000000" fill="#6600cc">tan θ =</text>
+  <text x="106.77573" y="286.49582" color="#000000" fill="#d0630b">Hypotenuse</text>
+ </g>
+ <path d="m75.7 80.8h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <path d="m75.7 133.3h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <g transform="translate(-29.18 -191.4)" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">
+  <text x="117.07571" y="318.19583" color="#000000" fill="#c4a000">Opposite</text>
+  <text x="116.17572" y="266.09583" color="#000000" fill="#3465a4">Adjacent</text>
+  <text x="116.17572" y="341.09583" color="#000000" fill="#3465a4">Adjacent</text>
+ </g>
+</svg>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="39cm" height="21cm" viewBox="99 79 762 402" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="130" y="105.862">
+      <tspan x="130" y="105.862">Dec</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="160" y="80" width="120" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="105.862">
+      <tspan x="220" y="105.862">Bin</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="310" y="105.862">
+      <tspan x="310" y="105.862">Hex</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="130" y="147.112">
+      <tspan x="130" y="147.112">00</tspan>
+      <tspan x="130" y="168.279">01</tspan>
+      <tspan x="130" y="189.445">02</tspan>
+      <tspan x="130" y="210.612">03</tspan>
+      <tspan x="130" y="231.779">04</tspan>
+      <tspan x="130" y="252.945">05</tspan>
+      <tspan x="130" y="274.112">06</tspan>
+      <tspan x="130" y="295.279">07</tspan>
+      <tspan x="130" y="316.445">08</tspan>
+      <tspan x="130" y="337.612">09</tspan>
+      <tspan x="130" y="358.779">10</tspan>
+      <tspan x="130" y="379.945">11</tspan>
+      <tspan x="130" y="401.112">12</tspan>
+      <tspan x="130" y="422.279">13</tspan>
+      <tspan x="130" y="443.445">14</tspan>
+      <tspan x="130" y="464.612">15</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="160" y="120" width="120" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="147.112">
+      <tspan x="220" y="147.112">0000 0000</tspan>
+      <tspan x="220" y="168.279">0000 0001</tspan>
+      <tspan x="220" y="189.445">0000 0010</tspan>
+      <tspan x="220" y="210.612">0000 0011</tspan>
+      <tspan x="220" y="231.779">0000 0100</tspan>
+      <tspan x="220" y="252.945">0000 0101</tspan>
+      <tspan x="220" y="274.112">0000 0110</tspan>
+      <tspan x="220" y="295.279">0000 0111</tspan>
+      <tspan x="220" y="316.445">0000 1000</tspan>
+      <tspan x="220" y="337.612">0000 1001</tspan>
+      <tspan x="220" y="358.779">0000 1010</tspan>
+      <tspan x="220" y="379.945">0000 1011</tspan>
+      <tspan x="220" y="401.112">0000 1100</tspan>
+      <tspan x="220" y="422.279">0000 1101</tspan>
+      <tspan x="220" y="443.445">0000 1110</tspan>
+      <tspan x="220" y="464.612">0000 1111</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="310" y="147.112">
+      <tspan x="310" y="147.112">00</tspan>
+      <tspan x="310" y="168.279">01</tspan>
+      <tspan x="310" y="189.445">02</tspan>
+      <tspan x="310" y="210.612">03</tspan>
+      <tspan x="310" y="231.779">04</tspan>
+      <tspan x="310" y="252.945">05</tspan>
+      <tspan x="310" y="274.112">06</tspan>
+      <tspan x="310" y="295.279">07</tspan>
+      <tspan x="310" y="316.445">08</tspan>
+      <tspan x="310" y="337.612">09</tspan>
+      <tspan x="310" y="358.779">0A</tspan>
+      <tspan x="310" y="379.945">0B</tspan>
+      <tspan x="310" y="401.112">0C</tspan>
+      <tspan x="310" y="422.279">0D</tspan>
+      <tspan x="310" y="443.445">0E</tspan>
+      <tspan x="310" y="464.612">0F</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="105.862">
+      <tspan x="390" y="105.862">Dec</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="80" width="120" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="105.862">
+      <tspan x="480" y="105.862">Bin</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="540" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="570" y="105.862">
+      <tspan x="570" y="105.862">Hex</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="390" y="147.112">
+      <tspan x="390" y="147.112">16</tspan>
+      <tspan x="390" y="168.279">17</tspan>
+      <tspan x="390" y="189.445">18</tspan>
+      <tspan x="390" y="210.612">19</tspan>
+      <tspan x="390" y="231.779">20</tspan>
+      <tspan x="390" y="252.945">21</tspan>
+      <tspan x="390" y="274.112">22</tspan>
+      <tspan x="390" y="295.279">23</tspan>
+      <tspan x="390" y="316.445">24</tspan>
+      <tspan x="390" y="337.612">25</tspan>
+      <tspan x="390" y="358.779">26</tspan>
+      <tspan x="390" y="379.945">27</tspan>
+      <tspan x="390" y="401.112">28</tspan>
+      <tspan x="390" y="422.279">29</tspan>
+      <tspan x="390" y="443.445">30</tspan>
+      <tspan x="390" y="464.612">31</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="120" width="120" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="147.112">
+      <tspan x="480" y="147.112">0001 0000</tspan>
+      <tspan x="480" y="168.279">0001 0001</tspan>
+      <tspan x="480" y="189.445">0001 0010</tspan>
+      <tspan x="480" y="210.612">0001 0011</tspan>
+      <tspan x="480" y="231.779">0001 0100</tspan>
+      <tspan x="480" y="252.945">0001 0101</tspan>
+      <tspan x="480" y="274.112">0001 0110</tspan>
+      <tspan x="480" y="295.279">0001 0111</tspan>
+      <tspan x="480" y="316.445">0001 1000</tspan>
+      <tspan x="480" y="337.612">0001 1001</tspan>
+      <tspan x="480" y="358.779">0001 1010</tspan>
+      <tspan x="480" y="379.945">0001 1011</tspan>
+      <tspan x="480" y="401.112">0001 1100</tspan>
+      <tspan x="480" y="422.279">0001 1101</tspan>
+      <tspan x="480" y="443.445">0001 1110</tspan>
+      <tspan x="480" y="464.612">0001 1111</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="540" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="570" y="147.112">
+      <tspan x="570" y="147.112">10</tspan>
+      <tspan x="570" y="168.279">11</tspan>
+      <tspan x="570" y="189.445">12</tspan>
+      <tspan x="570" y="210.612">13</tspan>
+      <tspan x="570" y="231.779">14</tspan>
+      <tspan x="570" y="252.945">15</tspan>
+      <tspan x="570" y="274.112">16</tspan>
+      <tspan x="570" y="295.279">17</tspan>
+      <tspan x="570" y="316.445">18</tspan>
+      <tspan x="570" y="337.612">19</tspan>
+      <tspan x="570" y="358.779">1A</tspan>
+      <tspan x="570" y="379.945">1B</tspan>
+      <tspan x="570" y="401.112">1C</tspan>
+      <tspan x="570" y="422.279">1D</tspan>
+      <tspan x="570" y="443.445">1E</tspan>
+      <tspan x="570" y="464.612">1F</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="620" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="650" y="105.862">
+      <tspan x="650" y="105.862">Dec</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="680" y="80" width="120" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="105.862">
+      <tspan x="740" y="105.862">Bin</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="800" y="80" width="60" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="830" y="105.862">
+      <tspan x="830" y="105.862">Hex</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="620" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="650" y="146.866">
+      <tspan x="650" y="146.866">32</tspan>
+      <tspan x="650" y="168.032">33</tspan>
+      <tspan x="650" y="189.199">34</tspan>
+      <tspan x="650" y="210.366">35</tspan>
+      <tspan x="650" y="231.532">36</tspan>
+      <tspan x="650" y="252.699">37</tspan>
+      <tspan x="650" y="273.866">38</tspan>
+      <tspan x="650" y="295.032">39</tspan>
+      <tspan x="650" y="316.199">40</tspan>
+      <tspan x="650" y="337.366">41</tspan>
+      <tspan x="650" y="358.532">42</tspan>
+      <tspan x="650" y="379.699">43</tspan>
+      <tspan x="650" y="400.866">44</tspan>
+      <tspan x="650" y="422.032">45</tspan>
+      <tspan x="650" y="443.199">46</tspan>
+      <tspan x="650" y="464.366">47</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="680" y="120" width="120" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="147.112">
+      <tspan x="740" y="147.112">0010 0000</tspan>
+      <tspan x="740" y="168.279">0010 0001</tspan>
+      <tspan x="740" y="189.445">0010 0010</tspan>
+      <tspan x="740" y="210.612">0010 0011</tspan>
+      <tspan x="740" y="231.779">0010 0100</tspan>
+      <tspan x="740" y="252.945">0010 0101</tspan>
+      <tspan x="740" y="274.112">0010 0110</tspan>
+      <tspan x="740" y="295.279">0010 0111</tspan>
+      <tspan x="740" y="316.445">0010 1000</tspan>
+      <tspan x="740" y="337.612">0010 1001</tspan>
+      <tspan x="740" y="358.779">0010 1010</tspan>
+      <tspan x="740" y="379.945">0010 1011</tspan>
+      <tspan x="740" y="401.112">0010 1100</tspan>
+      <tspan x="740" y="422.279">0010 1101</tspan>
+      <tspan x="740" y="443.445">0010 1110</tspan>
+      <tspan x="740" y="464.612">0010 1111</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="800" y="120" width="60" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="830" y="147.112">
+      <tspan x="830" y="147.112">20</tspan>
+      <tspan x="830" y="168.279">21</tspan>
+      <tspan x="830" y="189.445">22</tspan>
+      <tspan x="830" y="210.612">23</tspan>
+      <tspan x="830" y="231.779">24</tspan>
+      <tspan x="830" y="252.945">25</tspan>
+      <tspan x="830" y="274.112">26</tspan>
+      <tspan x="830" y="295.279">27</tspan>
+      <tspan x="830" y="316.445">28</tspan>
+      <tspan x="830" y="337.612">29</tspan>
+      <tspan x="830" y="358.779">2A</tspan>
+      <tspan x="830" y="379.945">2B</tspan>
+      <tspan x="830" y="401.112">2C</tspan>
+      <tspan x="830" y="422.279">2D</tspan>
+      <tspan x="830" y="443.445">2E</tspan>
+      <tspan x="830" y="464.612">2F</tspan>
+    </text>
+  </g>
+</svg>

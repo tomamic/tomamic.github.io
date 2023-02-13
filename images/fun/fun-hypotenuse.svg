@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="16cm" viewBox="179 219 243 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #add8e6" x="180" y="260" width="240" height="100" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="180" y="420" width="240" height="100" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="180" y="380" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #add8e6" x="180" y="220" width="160" height="40" rx="0" ry="0"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="290" y="460">
+      <tspan x="290" y="460"></tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="407.816">
+      <tspan x="220" y="407.816">main</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="449.594">
+      <tspan x="300" y="449.594">side1</tspan>
+      <tspan x="300" y="477.816">side2</tspan>
+      <tspan x="300" y="506.038">side3</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #add8e6; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="290" y="300">
+      <tspan x="290" y="300"></tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #add8e6; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="247.816">
+      <tspan x="260" y="247.816">hypotenuse</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #add8e6; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="289.594">
+      <tspan x="300" y="289.594">a</tspan>
+      <tspan x="300" y="317.816">b</tspan>
+      <tspan x="300" y="346.038">c</tspan>
+    </text>
+  </g>
+</svg>

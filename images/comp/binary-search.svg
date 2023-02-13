@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25cm" height="25cm" version="1.1" viewBox="177 172 485 488" xmlns="http://www.w3.org/2000/svg">
+ <g id="Background">
+  <polygon points="480 560 520 560 500 604" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="500" y="574.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="500" y="574.881"/></text>
+  <polygon points="520 440 560 440 540 484" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="540" y="454.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="540" y="454.881"/></text>
+  <polygon points="400 320 440 320 420 364" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="420" y="334.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="420" y="334.881"/></text>
+  <polygon points="520 560 560 560 540 604" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="540" y="574.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="540" y="574.881"/></text>
+  <polygon points="440 560 480 560 460 604" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="460" y="574.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="460" y="574.881"/></text>
+  <polygon points="440 440 480 440 460 484" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="460" y="454.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="460" y="454.881"/></text>
+  <polygon points="600 440 640 440 620 484" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="620" y="454.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="620" y="454.881"/></text>
+  <polygon points="600 320 640 320 620 364" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="620" y="334.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="620" y="334.881"/></text>
+  <polygon points="200 320 240 320 220 364" fill="#add8e6" fill-rule="evenodd" stroke="#fff" stroke-width="2"/>
+  <text x="220" y="334.881" fill="#000000" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="220" y="334.881"/></text>
+  <rect x="200" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="220" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="220" y="265.477">Ada</tspan></text>
+  <rect x="240" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="260" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="260" y="265.477">Ann</tspan></text>
+  <rect x="280" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="300" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="300" y="265.477">Bea</tspan></text>
+  <rect x="320" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="340" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="340" y="265.477">Eva</tspan></text>
+  <rect x="360" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="380" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="380" y="265.477">Ivy</tspan></text>
+  <rect x="400" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="420" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="420" y="265.477">Kay</tspan></text>
+  <rect x="440" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="460" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="460" y="265.477">Lea</tspan></text>
+  <rect x="480" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="500" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="500" y="265.477">Meg</tspan></text>
+  <rect x="520" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="540" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="540" y="265.477">Sue</tspan></text>
+  <rect x="560" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="580" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="580" y="265.477">Zoe</tspan></text>
+  <rect x="200" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="220" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="220" y="385.477">Ada</tspan></text>
+  <rect x="240" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="260" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="260" y="385.477">Ann</tspan></text>
+  <rect x="280" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="300" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="300" y="385.477">Bea</tspan></text>
+  <rect x="320" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="340" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="340" y="385.477">Eva</tspan></text>
+  <rect x="360" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="380" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="380" y="385.477">Ivy</tspan></text>
+  <rect x="440" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="460" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="460" y="385.477">Lea</tspan></text>
+  <rect x="480" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="500" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="500" y="385.477">Meg</tspan></text>
+  <rect x="520" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="540" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="540" y="385.477">Sue</tspan></text>
+  <rect x="560" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="580" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="580" y="385.477">Zoe</tspan></text>
+  <rect x="200" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="220" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="220" y="505.477">Ada</tspan></text>
+  <rect x="240" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="260" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="260" y="505.477">Ann</tspan></text>
+  <rect x="280" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="300" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="300" y="505.477">Bea</tspan></text>
+  <rect x="320" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="340" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="340" y="505.477">Eva</tspan></text>
+  <rect x="360" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="380" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="380" y="505.477">Ivy</tspan></text>
+  <rect x="400" y="480" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="420" y="505.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="420" y="505.477">Kay</tspan></text>
+  <rect x="440" y="480" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="460" y="505.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="460" y="505.477">Lea</tspan></text>
+  <rect x="480" y="480" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="500" y="505.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="500" y="505.477">Meg</tspan></text>
+  <rect x="560" y="480" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="580" y="505.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="580" y="505.477">Zoe</tspan></text>
+  <text x="420" y="205.99" fill="#000099" font-family="sans-serif" font-size="18.062" font-style="italic" text-anchor="middle"><tspan x="420" y="205.99">Searching for “Meg” among ten ordered words</tspan></text>
+  <g fill="#000000" font-family="sans-serif" font-size="18.062" text-anchor="middle">
+   <text x="220" y="348.253"><tspan x="220" y="348.253">B</tspan></text>
+   <text x="620" y="348.253"><tspan x="620" y="348.253">E</tspan></text>
+   <text x="460" y="468.253"><tspan x="460" y="468.253">B</tspan></text>
+   <text x="620" y="468.253"><tspan x="620" y="468.253">E</tspan></text>
+  </g>
+  <text x="320" y="314.701" fill="#000099" font-family="sans-serif" font-size="18.062" font-style="italic" text-anchor="middle"><tspan x="320" y="314.701">“Kay” &lt; “Meg”</tspan><tspan x="320" y="337.279">Keep 2nd half</tspan></text>
+  <text x="320" y="434.701" fill="#000099" font-family="sans-serif" font-size="18.062" font-style="italic" text-anchor="middle"><tspan x="320" y="434.701">“Meg” &lt; “Sue”</tspan><tspan x="320" y="457.279">Keep 1st half</tspan></text>
+  <rect x="200" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="220" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="220" y="625.477">Ada</tspan></text>
+  <rect x="240" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="260" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="260" y="625.477">Ann</tspan></text>
+  <rect x="280" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="300" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="300" y="625.477">Bea</tspan></text>
+  <rect x="320" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="340" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="340" y="625.477">Eva</tspan></text>
+  <rect x="360" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="380" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="380" y="625.477">Ivy</tspan></text>
+  <rect x="400" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="420" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="420" y="625.477">Kay</tspan></text>
+  <rect x="520" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="540" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="540" y="625.477">Sue</tspan></text>
+  <rect x="560" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="580" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="580" y="625.477">Zoe</tspan></text>
+  <g font-family="sans-serif" font-size="18.062" text-anchor="middle">
+   <text x="460" y="588.253" fill="#000000"><tspan x="460" y="588.253">B</tspan></text>
+   <text x="540" y="588.253" fill="#000000"><tspan x="540" y="588.253">E</tspan></text>
+   <text x="320" y="554.701" fill="#000099" font-style="italic"><tspan x="320" y="554.701">Found “Meg”</tspan><tspan x="320" y="577.279">Return pos #7</tspan></text>
+  </g>
+  <rect x="440" y="600" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="460" y="625.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="460" y="625.477">Lea</tspan></text>
+  <g fill="#000000" font-family="sans-serif" font-size="18.062" text-anchor="middle">
+   <text x="420" y="348.253"><tspan x="420" y="348.253">M</tspan></text>
+   <text x="540" y="468.253"><tspan x="540" y="468.253">M</tspan></text>
+   <text x="500" y="588.253"><tspan x="500" y="588.253">M</tspan></text>
+  </g>
+  <rect x="600" y="240" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="620" y="265.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="620" y="265.477">…</tspan></text>
+  <rect x="600" y="360" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="620" y="385.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="620" y="385.477">…</tspan></text>
+  <rect x="600" y="480" width="40" height="40" rx="4" ry="4" fill="#fff" stroke="#000" stroke-width="2"/>
+  <text x="620" y="505.477" fill="#000000" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="620" y="505.477">…</tspan></text>
+  <rect x="600" y="600" width="40" height="40" rx="4" ry="4" fill="#bfbfbf" stroke="#4d4d4d" stroke-width="2"/>
+  <text x="620" y="625.477" fill="#4d4d4d" font-family="monospace" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="620" y="625.477">…</tspan></text>
+  <text x="660" y="656.981" fill="#ffffff" font-family="sans-serif" font-size="12.8" text-anchor="middle"><tspan x="660" y="656.981">.</tspan></text>
+  <polygon points="403.78 356.83 443.17 363.78 436.22 403.17 396.83 396.22" fill="#ff0" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+  <polygon points="523.78 476.83 563.17 483.78 556.22 523.17 516.83 516.22" fill="#ff0" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+  <text transform="translate(540,500) rotate(10) translate(-540,-500)" fill="#000000" font-family="sans-serif" font-size="18.062" font-weight="700" text-anchor="middle"><tspan x="540" y="505.99">Sue</tspan></text>
+  <polygon points="483.67 596.92 521.9 603.67 515.16 641.9 476.92 635.16" fill="#ff0" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="2"/>
+  <g font-family="sans-serif" text-anchor="middle">
+   <text transform="translate(499.41 619.41) rotate(10) translate(-499.41 -619.41)" fill="#000000" font-size="18.062" font-weight="700"><tspan x="499.414" y="625.404">Meg</tspan></text>
+   <text x="180" y="184.431" fill="#ffffff" font-size="12.8"><tspan x="180" y="184.431">.</tspan></text>
+   <text transform="translate(420,380) rotate(10) translate(-420,-380)" fill="#000000" font-size="18.062" font-weight="700"><tspan x="420" y="385.99">Kay</tspan></text>
+  </g>
+ </g>
+</svg>

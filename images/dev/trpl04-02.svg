@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 1e3 1e3"
+   id="svg152"
+   sodipodi:docname="trpl04-02.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs156">
+    <pattern
+       inkscape:collect="always"
+       patternUnits="userSpaceOnUse"
+       width="30.066020"
+       height="5.1805778"
+       id="Wavy"
+       inkscape:stockid="Wavy"
+       inkscape:isstock="true">
+      <path
+         style="fill:black;stroke:none;"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         id="path2668" />
+    </pattern>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter6716"
+       x="-0.0013031987"
+       y="-0.0012398231"
+       width="1.0026074"
+       height="1.0024817">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.021640441"
+         id="feGaussianBlur6718" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="namedview154"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.782"
+     inkscape:cx="499.36061"
+     inkscape:cy="499.36061"
+     inkscape:window-width="1852"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg152" />
+  <polyline
+     points="8 -210 96 -210"
+     fill="none"
+     stroke="#000000"
+     id="polyline8"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="207.40125"
+     y="92.500725"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text10"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">s1</text>
+  <polygon
+     points="8,-190 8,-210 60,-210 60,-190 "
+     fill="none"
+     stroke="#000000"
+     id="polygon12"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="95.172844"
+     y="175.83473"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text14"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">name</text>
+  <polygon
+     points="60,-190 60,-210 96,-210 96,-190 "
+     fill="none"
+     stroke="#000000"
+     id="polygon16"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="278.50766"
+     y="175.83473"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text18"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">value</text>
+  <polygon
+     points="8,-170 8,-190 60,-190 60,-170 "
+     fill="none"
+     stroke="#000000"
+     id="polygon20"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="125.93476"
+     y="259.16873"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text22"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">ptr</text>
+  <polygon
+     points="60,-170 60,-190 96,-190 96,-170 "
+     fill="none"
+     stroke="#000000"
+     id="polygon24"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <polygon
+     points="8,-150 8,-170 60,-170 60,-150 "
+     fill="none"
+     stroke="#000000"
+     id="polygon26"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="122.70181"
+     y="342.50272"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text28"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">len</text>
+  <polygon
+     points="60,-150 60,-170 96,-170 96,-150 "
+     fill="none"
+     stroke="#000000"
+     id="polygon30"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="327.08594"
+     y="342.50272"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text32"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">5</text>
+  <polygon
+     points="8,-130 8,-150 60,-150 60,-130 "
+     fill="none"
+     stroke="#000000"
+     id="polygon34"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="61.17799"
+     y="425.83673"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text36"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">capacity</text>
+  <polygon
+     points="60,-130 60,-150 96,-150 96,-130 "
+     fill="none"
+     stroke="#000000"
+     id="polygon38"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="327.08594"
+     y="425.83673"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text40"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">5</text>
+  <polygon
+     points="148.5,-127 148.5,-147 185.5,-147 185.5,-127 "
+     fill="none"
+     stroke="#000000"
+     id="polygon46"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="647.70599"
+     y="438.33682"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text48"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">index</text>
+  <polygon
+     points="185.5,-127 185.5,-147 221.5,-147 221.5,-127 "
+     fill="none"
+     stroke="#000000"
+     id="polygon50"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="801.42847"
+     y="438.33682"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text52"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">value</text>
+  <polygon
+     points="148.5,-107 148.5,-127 185.5,-127 185.5,-107 "
+     fill="none"
+     stroke="#000000"
+     id="polygon54"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="697.92224"
+     y="521.67084"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text56"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">0</text>
+  <polygon
+     points="185.5,-107 185.5,-127 221.5,-127 221.5,-107 "
+     fill="none"
+     stroke="#000000"
+     id="polygon58"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="850.00677"
+     y="521.67084"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text60"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">h</text>
+  <polygon
+     points="148.5,-87 148.5,-107 185.5,-107 185.5,-87 "
+     fill="none"
+     stroke="#000000"
+     id="polygon62"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="697.92224"
+     y="605.00482"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text64"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">1</text>
+  <polygon
+     points="185.5,-87 185.5,-107 221.5,-107 221.5,-87 "
+     fill="none"
+     stroke="#000000"
+     id="polygon66"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="851.64471"
+     y="605.00482"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text68"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">e</text>
+  <polygon
+     points="148.5,-67 148.5,-87 185.5,-87 185.5,-67 "
+     fill="none"
+     stroke="#000000"
+     id="polygon70"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="697.92224"
+     y="688.33881"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text72"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">2</text>
+  <polygon
+     points="185.5,-67 185.5,-87 221.5,-87 221.5,-67 "
+     fill="none"
+     stroke="#000000"
+     id="polygon74"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="856.48688"
+     y="688.33881"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text76"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">l</text>
+  <polygon
+     points="148.5,-47 148.5,-67 185.5,-67 185.5,-47 "
+     fill="none"
+     stroke="#000000"
+     id="polygon78"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="697.92224"
+     y="771.67285"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text80"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">3</text>
+  <polygon
+     points="185.5,-47 185.5,-67 221.5,-67 221.5,-47 "
+     fill="none"
+     stroke="#000000"
+     id="polygon82"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="856.48688"
+     y="771.67285"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text84"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">l</text>
+  <polygon
+     points="148.5,-27 148.5,-47 185.5,-47 185.5,-27 "
+     fill="none"
+     stroke="#000000"
+     id="polygon86"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="697.92224"
+     y="855.00684"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text88"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">4</text>
+  <polygon
+     points="185.5,-27 185.5,-47 221.5,-47 221.5,-27 "
+     fill="none"
+     stroke="#000000"
+     id="polygon90"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="850.00677"
+     y="855.00684"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text92"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">o</text>
+  <g
+     class="edge"
+     id="g102"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)">
+    <title
+       id="title96">table0:c-&gt;table1:pointee</title>
+    <path
+       d="m 78,-180 c 0,0 23.998,53.088 60.44,61.798"
+       fill="none"
+       stroke="#000000"
+       id="path98" />
+    <polygon
+       points="138.16,-114.71 138.99,-121.66 148.5,-117 "
+       stroke="#000000"
+       id="polygon100" />
+  </g>
+  <polyline
+     points="8 -84 96 -84"
+     fill="none"
+     stroke="#000000"
+     id="polyline106"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="207.40125"
+     y="617.50494"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text108"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">s2</text>
+  <polygon
+     points="8,-64 8,-84 60,-84 60,-64 "
+     fill="none"
+     stroke="#000000"
+     id="polygon110"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="95.172844"
+     y="700.83893"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text112"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">name</text>
+  <polygon
+     points="60,-64 60,-84 96,-84 96,-64 "
+     fill="none"
+     stroke="#000000"
+     id="polygon114"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="278.50766"
+     y="700.83893"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text116"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">value</text>
+  <polygon
+     points="8,-44 8,-64 60,-64 60,-44 "
+     fill="none"
+     stroke="#000000"
+     id="polygon118"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="125.93476"
+     y="784.17297"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text120"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">ptr</text>
+  <polygon
+     points="60,-44 60,-64 96,-64 96,-44 "
+     fill="none"
+     stroke="#000000"
+     id="polygon122"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <polygon
+     points="8,-24 8,-44 60,-44 60,-24 "
+     fill="none"
+     stroke="#000000"
+     id="polygon124"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="122.70181"
+     y="867.50696"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text126"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">len</text>
+  <polygon
+     points="60,-24 60,-44 96,-44 96,-24 "
+     fill="none"
+     stroke="#000000"
+     id="polygon128"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="327.08594"
+     y="867.50696"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text130"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">5</text>
+  <polygon
+     points="8,-4 8,-24 60,-24 60,-4 "
+     fill="none"
+     stroke="#000000"
+     id="polygon132"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="61.17799"
+     y="950.84094"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text134"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">capacity</text>
+  <polygon
+     points="60,-4 60,-24 96,-24 96,-4 "
+     fill="none"
+     stroke="#000000"
+     id="polygon136"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)" />
+  <text
+     x="327.08594"
+     y="950.84094"
+     fill="#000000"
+     font-family="Times, serif"
+     font-size="58.3338px"
+     id="text138"
+     style="stroke-width:4.1667;-inkscape-font-specification:'Times New Roman, ';font-family:'Times New Roman';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">5</text>
+  <g
+     class="edge"
+     id="g148"
+     transform="matrix(4.1667,0,0,4.1667,16.6668,991.6746)">
+    <title
+       id="title142">table3:c-&gt;table1:pointee</title>
+    <path
+       d="m 78,-54 c 0,0 23.998,-53.088 60.44,-61.798"
+       fill="none"
+       stroke="#000000"
+       id="path144" />
+    <polygon
+       points="138.99,-112.34 138.16,-119.29 148.5,-117 "
+       stroke="#000000"
+       id="polygon146" />
+  </g>
+  <rect
+     style="opacity:0.75;fill:url(#Wavy);stroke:#0000ff;stroke-width:0.995737;stroke-dasharray:2.98721, 2.98721;fill-opacity:1.0;filter:url(#filter6716)"
+     id="rect93"
+     width="421.88928"
+     height="443.72836"
+     x="24.274557"
+     y="35.983261"
+     rx="45.856518"
+     ry="60.764404" />
+</svg>
