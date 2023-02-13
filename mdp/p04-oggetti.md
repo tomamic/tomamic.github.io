@@ -332,6 +332,7 @@ def tick():
 
 ---
 
+
 ![](images/misc/ellipse.svg)
 # Classe per ellisse
 
