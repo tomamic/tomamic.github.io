@@ -4,7 +4,7 @@
 
 ---
 
-![large](images/dev/python-cases.jpg)
+![large](images/dev/python-powered.png)
 # Python applications
 
 - Web

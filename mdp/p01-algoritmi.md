@@ -181,7 +181,7 @@ Un dizionario di 100k parole si può dimezzare solo 17 volte (2¹⁷ > 100k)
 
 ---
 
-![large](images/dev/python-cases.jpg) Web, data science, machine learning, scripting, teaching, games, hardware, multiplatform…
+![large](images/dev/python-cases.png) Web, data science, machine learning, scripting, teaching, games, hardware, multiplatform…
 # 💡️ Python is fun!
 
 ![](images/algo/antigravity.png)
@@ -606,7 +606,7 @@ g2d.main_loop()
 
 ---
 
-![](images/misc/handshake.png)
+![](images/misc/handshake.svg)
 # Hello, admin!
 
 - Programma che scrive “`Hello world`”

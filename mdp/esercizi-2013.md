@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.png)
+![](images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “Hello world”

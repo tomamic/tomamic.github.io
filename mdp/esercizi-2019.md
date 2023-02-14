@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.png)
+![](images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -858,7 +858,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handshake.png)
+![](images/misc/handshake.svg)
 # 9.1 Hello, user! (C++)
 
 - Compilare ed eseguire il programma “`Hello world`”
