@@ -260,7 +260,7 @@ True
 # 🔬 Variabile
 
 - **Nome** associato ad un certo **valore**
-    - *Etichetta* → *oggetto*
+    - 🏷️ *Etichetta* → *oggetto*
 - Oggetto assegnato a più variabili
     - Non viene copiato, ma riceve più etichette
 - Il **tipo** dipende dal valore attualmente assegnato

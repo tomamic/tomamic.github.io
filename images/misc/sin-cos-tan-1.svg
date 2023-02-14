@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="265.1" height="179.3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<svg width="265.1" height="179.8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
  <metadata>
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -34,30 +34,30 @@
    <path transform="matrix(-.4 0 0 -.4 -4 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#3465a4" stroke="#3465a4" stroke-width="1pt"/>
   </marker>
  </defs>
- <path d="m218.1 137.7h-201.4l201.2-111.6z" color="#000000" fill="none" stroke="#00f" stroke-width="1.6"/>
- <text transform="scale(1 .9997)" x="102.80887" y="122.51521" fill="#3465a4" font-family="'Trebuchet MS'" font-size="25.1px" stroke-width="2.53">θ</text>
- <g transform="translate(-.0002597 -.0001702)" fill="none">
-  <g stroke="#3465a4">
+ <path d="m218.1 42.07h-201.4l201.2 111.6z" color="#000000" fill="none" stroke="#00f" stroke-width="1.6"/>
+ <text transform="scale(1 .9999)" x="102.78945" y="75.631775" fill="#3465a4" font-family="'Trebuchet MS'" font-size="25.1px" stroke-width="2.53">θ</text>
+ <g fill="none">
+  <g transform="matrix(1 0 0 -1 -.00426 179.8)" stroke="#3465a4">
    <path d="m85.38 102.8a75.1 75.1 0 0 1 8.5 32.7" color="#000000" marker-end="url(#id24146)" marker-start="url(#id14267)" stroke-width="1.6"/>
    <path d="m15.58 171.5v-25.4" stroke-width=".4px"/>
    <path d="m218.5 171.4v-25.4" stroke-width=".4px"/>
    <path d="m215.7 157.4h-197.9" marker-end="url(#id46492)" marker-start="url(#id31737)"/>
   </g>
-  <g stroke="#ce5c00">
+  <g transform="matrix(1 0 0 -1 -.00426 179.8)" stroke="#ce5c00">
    <path d="m11.48 134.5-11.3-20.8" stroke-width=".4px"/>
    <path d="m215.6 20.8-11.3-20.7" stroke-width=".4px"/>
-   <path d="m206.6 11-199.3 110.8" marker-end="url(#id45851)" marker-start="url(#id32266)"/>
+   <path d="M 206.6,11 7.3,121.8" marker-end="url(#id45851)" marker-start="url(#id32266)"/>
   </g>
-  <g stroke="#c4a000">
+  <g transform="translate(-.404 15.07)" stroke="#c4a000">
    <path d="m265.1 139.2h-42.4" stroke-width=".4px"/>
    <path d="m264.9 27h-42.4" stroke-width=".4px"/>
    <path d="m251 28.5v109.5" marker-end="url(#id46147)" marker-start="url(#id35286)"/>
   </g>
  </g>
- <g transform="translate(-.0002597 -.0001702)" font-family="'Trebuchet MS'" font-size="18.67px" stroke-width="1px">
-  <text transform="rotate(-28.87)" x="19.296083" y="104.20937" color="#000000" fill="#ce5c00">Hypotenuse</text>
-  <text transform="rotate(-90)" x="-118.78883" y="243.47574" color="#000000" fill="#c4a000">Opposite</text>
-  <text x="80.800751" y="175.49983" color="#000000" fill="#3465a4">Adjacent</text>
+ <g font-family="'Trebuchet MS'" font-size="18.67px" stroke-width="1px">
+  <text transform="rotate(29.43)" x="100.85269" y="64.716209" color="#000000" fill="#ce5c00">Hypotenuse</text>
+  <text transform="rotate(-90)" x="-133.85849" y="243.07175" color="#000000" fill="#c4a000">Opposite</text>
+  <text x="80.796494" y="13.765478" color="#000000" fill="#3465a4">Adjacent</text>
  </g>
- <path d="m195.5 137.3v-21.9h21.5" fill="none" stroke="#3465a4" stroke-width="1.6"/>
+ <path d="m195.5 42.47v21.9h21.5" fill="none" stroke="#3465a4" stroke-width="1.6"/>
 </svg>
