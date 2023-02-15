@@ -1104,7 +1104,7 @@ $ python -m pip install requests
 ``` py
 >>> payload = {'key1': 'value1', 'key2': ['value2', 'value3']}
 >>> c = requests.post('https://httpbin.org/post', data=payload)
->>> r.request.body
+>>> c.request.body
 key1=value1&key2=value2&key2=value3
 >>> r = requests.get('https://httpbin.org/get', params=payload)
 >>> r.url
