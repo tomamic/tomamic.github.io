@@ -424,9 +424,9 @@ g2d.main_loop()
 ---
 
 ![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
-# 🧪 Battery included
+# 🧪 Battery included 🔋
 
-- Python ha già molti moduli inclusi 🔋
+- Python ha già molti moduli inclusi
     - Non necessitano d'installazione
 - **`import …`** : importa intero *namespace* del modulo
 - **`from … import …`** : importa solo alcuni nomi
@@ -599,6 +599,25 @@ g2d.main_loop()
 >
 
 <https://tomamic.github.io/pyodide/?p01_squares.py>
+
+---
+
+![](images/misc/red-squares.svg)
+# 💡 Linearità
+
+- Spesso serve legare linearmente una grandezza (come $pos$) ad $i$
+
+$$result = m \cdot i + q$$
+
+- Per determinare $q$, si valuta il primo caso, $i = 0$
+- Per determinare $m$, si valuta l'ultimo caso, $i = n - 1$
+- Con $i$ intero, $m$ è la distanza tra due istanze
+
+. . .
+
+- ❓ Ricavare i valori di $q$ ed $m$ per l'esempio dei quadrati
+    - Primo quadrato: $pos = 0$; ultimo: $pos = L - l$
+    - $L$ lato del canvas, $l$ lato dei quadrati
 
 ---
 
