@@ -605,19 +605,20 @@ g2d.main_loop()
 ![](images/misc/red-squares.svg)
 # 💡 Linearità
 
-- Spesso serve legare linearmente una grandezza (come $pos$) ad $i$
+- Legame lineare tra una grandezza (es. $pos$) ed $i$
 
 $$result = m \cdot i + q$$
 
 - Per determinare $q$, si valuta il primo caso, $i = 0$
 - Per determinare $m$, si valuta l'ultimo caso, $i = n - 1$
-- Con $i$ intero, $m$ è la distanza tra due istanze
+- Con $i$ intero, $m$ è la differenza tra due istanze
+    - Ad es. la distanza tra due quadrati
 
 . . .
 
 - ❓ Ricavare i valori di $q$ ed $m$ per l'esempio dei quadrati
     - Primo quadrato: $pos = 0$; ultimo: $pos = L - l$
-    - $L$ lato del canvas, $l$ lato dei quadrati
+    - $L$: lato del canvas noto, $l$: lato dei quadrati noto
 
 ---
 
