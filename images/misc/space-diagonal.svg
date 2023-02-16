@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Cube_diagonals" width="275" height="265" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <g id="Back_Faces" stroke="#030">
-  <polygon points="3 31 133 3 129 161 7 203" fill="#8A8" opacity=".6"/>
-  <!--left-->
-  <polygon points="129 161 133 3 271 33 257 207" fill="#ACA" opacity=".6"/>
-  <!--right-->
-  <polygon points="7 203 129 161 257 207 135 263" fill="#CEC" opacity=".6"/>
-  <!--bottom-->
- </g>
- <g stroke-width="2">
-  <line x1="3" x2="271" y1="31" y2="33" stroke="#C00" stroke-dasharray="10 10"/>
-  <line x1="3" x2="257" y1="31" y2="207" stroke="#00C" stroke-dasharray="10 10"/>
-  <g id="Front_Faces" stroke="#030">
-   <polygon points="3 31 133 3 271 33 143 69" fill="#CEC" opacity=".6"/>
-   <!--top-->
-   <polygon points="3 31 143 69 135 263 7 203" fill="#ACA" opacity=".6"/>
-   <!--left-->
-   <polygon points="135 263 143 69 271 33 257 207" fill="#8A8" opacity=".6"/>
-   <!--right-->
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="120.1mm" height="144.2mm" version="1.1" viewBox="0 0 120.1 144.2" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-27.58 -9.913)">
+  <path d="m137.6 47.62v47.62l-26.46 58.21-74.08-36.75v-53.21l26.46-52.92 74.08 37.04" fill="#ff0" fill-opacity=".4977" stroke="#008000"/>
+  <g fill="none">
+   <path d="m37.04 63.5 100.5-15.88" stroke="#f00" stroke-dasharray="3, 3"/>
+   <path d="m37.04 116.4 100.5-68.79" stroke="#00f" stroke-dasharray="3, 3"/>
+   <g stroke="#008000">
+    <path d="m37.04 63.5 74.08 37.04 26.46-52.92"/>
+    <path d="m111.1 100.5v52.92"/>
+    <path d="m37.04 116.4 26.46-52.92 74.08 31.75" stroke-width=".2"/>
+    <path d="m63.5 63.5v-52.92" stroke-width=".2"/>
+   </g>
   </g>
- </g>
- <g font-size="20px">
-  <text x="50.763725" y="242.19943">a</text>
-  <text x="203.38583" y="248.78838">b</text>
-  <text x="262.55209" y="161.2628">c</text>
+  <g font-family="sans-serif" font-size="12px" stroke-width=".2646">
+   <text x="39.620911" y="32.915897">a</text>
+   <text x="111.97512" y="33.069973">b</text>
+   <text x="69.919922" y="108.89394">d</text>
+   <text x="76.613304" y="52.742088">x</text>
+   <text x="139.37326" y="78.296432">c</text>
+   <text x="25.768707" y="94.074005" stroke="#ffff" fill="#ffff">.</text>
+  </g>
  </g>
 </svg>
