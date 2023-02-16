@@ -19,7 +19,7 @@ width, and the height are known. *(Polya, pag. 23)*
 
 ---
 
-![](images/dev/problem-solving.svg) ![](images/dev/parallelepiped.png)
+![](images/dev/problem-solving.svg) ![](images/misc/space-diagonal.svg)
 # 💡 Analisi del problema
 
 - **➊ See.** Capire il problema
@@ -605,14 +605,14 @@ g2d.main_loop()
 ![](images/misc/red-squares.svg)
 # 💡 Linearità
 
-- Legame lineare tra una grandezza (es. $pos$) ed $i$
+- Legame lineare tra una grandezza (p.es. $pos$) e $i$
 
 $$result = m \cdot i + q$$
 
-- Per determinare $q$, si valuta il primo caso, $i = 0$
-- Per determinare $m$, si valuta l'ultimo caso, $i = n - 1$
+- Per determinare $q$, si valuta il primo caso: $i = 0$
+- Per determinare $m$, si valuta l'ultimo caso: $i = n - 1$
 - Con $i$ intero, $m$ è la differenza tra due istanze
-    - Ad es. la distanza tra due quadrati
+    - P.es. la distanza tra due quadrati
 
 . . .
 
@@ -759,3 +759,20 @@ Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo
 <br>
 <https://tomamic.github.io/pyodide/?p01_redcircles.py>
 
+---
+
+![](images/misc/red-squares.svg)
+# Quadrati in diagonale
+
+- Disegnare `n` quadrati, `n` scelto da utente
+- Quadrati disposti in diagonale
+- Occupano intero canvas quadrato
+    - Canvas predefinito, p.es. 500×500
+- Quadrati sovrapposti per metà del loro lato `l`
+   - `l` non predefinito, dipende da `n`
+
+>
+
+Rivedere esempio simile: analisi ancora valida ma `l` dipende da `n`
+<br>
+Sovrapposizione per metà lato → distanza tra due quadrati $m = \frac{l}{2}$

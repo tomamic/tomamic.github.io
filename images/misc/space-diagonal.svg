@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Cube_diagonals" width="275" height="265" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g id="Back_Faces" stroke="#030">
+  <polygon points="3 31 133 3 129 161 7 203" fill="#8A8" opacity=".6"/>
+  <!--left-->
+  <polygon points="129 161 133 3 271 33 257 207" fill="#ACA" opacity=".6"/>
+  <!--right-->
+  <polygon points="7 203 129 161 257 207 135 263" fill="#CEC" opacity=".6"/>
+  <!--bottom-->
+ </g>
+ <g stroke-width="2">
+  <line x1="3" x2="271" y1="31" y2="33" stroke="#C00" stroke-dasharray="10 10"/>
+  <line x1="3" x2="257" y1="31" y2="207" stroke="#00C" stroke-dasharray="10 10"/>
+  <g id="Front_Faces" stroke="#030">
+   <polygon points="3 31 133 3 271 33 143 69" fill="#CEC" opacity=".6"/>
+   <!--top-->
+   <polygon points="3 31 143 69 135 263 7 203" fill="#ACA" opacity=".6"/>
+   <!--left-->
+   <polygon points="135 263 143 69 271 33 257 207" fill="#8A8" opacity=".6"/>
+   <!--right-->
+  </g>
+ </g>
+ <g font-size="20px">
+  <text x="50.763725" y="242.19943">a</text>
+  <text x="203.38583" y="248.78838">b</text>
+  <text x="262.55209" y="161.2628">c</text>
+ </g>
+</svg>
