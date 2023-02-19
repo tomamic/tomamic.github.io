@@ -88,8 +88,6 @@ Ven    | Completamento del gioco
 - Go: *Documentazione e tour* - <https://golang.org/doc/>
 - A.A. Donovan e B.W. Kernighan: *The Go Programming Language*, Addison-Wesley, 2015, 978-0134190440
 
-[**Continua**](intro.html#/12)
-
-[**Progetti**](intro.html#/24)
+[**Progetti**](intro.html#/12)
 
 

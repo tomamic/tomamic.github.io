@@ -155,20 +155,21 @@ pip3 install thonny pygame
 
 ---
 
-![](images/misc/super-mario.jpg)
-# Super Mario
+![](images/misc/pengo.png)
+# Pengo
 
-- *Mario*: guidato dal giocatore
-    - Si muove e salta sulle piattaforme
-    - Cade secondo gravità, fuori dalle piattaforme
-    - Ma non accelera oltre una velocità limite
-    - Muore se cade in fondo allo schermo
-- *Muri e piattaforme*
-    - Mario ci atterra dall'alto
-    - Non si possono attraversare in nessuna direzione
-- *Avversari*
-    - Si muovono sulle piattaforme come Mario, ma scelgono casualmente la direzione
-    - Uccidono Mario se lo urtano, ma muoiono se Mario ci salta sopra
+- **SnoBee** si muovono casualmente
+- **Ghiaccio** : ostacolo per *SnoBee* e *Pengo*
+- **Pengo** può spingere i blocchi di ghiaccio
+    - Per schiacciare gli *SnoBee*
+    - Vince se elimina tutti gli *SnoBee*
+    - Perde se viene toccato da *SnoBee*
+
+>
+
+<https://archive.org/details/arcade_pengo>
+<br>
+<https://en.wikipedia.org/wiki/Pengo_(video_game)>
 
 ---
 
@@ -189,19 +190,20 @@ pip3 install thonny pygame
 
 ---
 
-![](images/misc/slitherlink-solved.png)
-# Slitherlink
+![](images/misc/super-mario.jpg)
+# Super Mario
 
-- Regole
-    - Connect adjacent dots with vertical or horizontal lines to make a single loop
-    - The numbers indicate how many lines surround it, while empty cells may be surrounded by any number of lines
-    - The loop never crosses itself and never branches off
-
->
-
-<https://www.nikoli.co.jp/en/puzzles/slitherlink.html>
-<br>
-<https://www.brainbashers.com/slitherlinkhelp.asp>
+- *Mario*: guidato dal giocatore
+    - Si muove e salta sulle piattaforme
+    - Cade secondo gravità, fuori dalle piattaforme
+    - Ma non accelera oltre una velocità limite
+    - Muore se cade in fondo allo schermo
+- *Muri e piattaforme*
+    - Mario ci atterra dall'alto
+    - Non si possono attraversare in nessuna direzione
+- *Avversari*
+    - Si muovono sulle piattaforme come Mario, ma scelgono casualmente la direzione
+    - Uccidono Mario se lo urtano, ma muoiono se Mario ci salta sopra
 
 ---
 
@@ -233,20 +235,31 @@ pip3 install thonny pygame
 
 ---
 
-![](images/misc/hitori.svg) ![](images/misc/hitori-completed.svg)
-# Hitori
+![](images/misc/frogger.png)
+# Frogger
 
-- Regole
-    - Color cells so no number appears more than once in a row or column
-    - The sides of black cells never touch
-    - White cells form a continuous network
-- Ad ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
-    - Controllare la violazione delle regole
-    - Controllare il completamento del gioco (ogni numero: correttamente annerito o cerchiato)
+- **Rana** guidata dall'utente, salta in 4 direzioni: ↕ ↔
+- Deve attraversare la strada, senza essere investita dai **camion**
+- Deve attraversare il fiume, saltando sui **tronchi**
 
->
+---
 
-<https://www.nikoli.co.jp/en/puzzles/hitori.html>
+![](images/misc/invaders.png)
+# Space invaders
+
+- **Cannone**: l'utente lo sposta in orizzontale; spara verso l'alto, contro gli alieni
+- **Alieni**: si muovono tutti nella stessa direzione; percorso a serpentina; sparano verso il basso, contro il cannone
+- **Muri**: si ditruggono lentamente dove colpiti
+
+---
+
+![](images/misc/donkey-kong.png)
+# Donkey Kong
+
+- Mario può camminare sulle piattaforme
+- Può saltare, se è su una piattaforma
+- Deve evitare i barili
+- Cade quando esce dalla piattaforma
 
 ---
 
@@ -261,6 +274,49 @@ pip3 install thonny pygame
     - Il serpente si allunga dopo aver mangiato
 - **Muri**: in posizione fissa
     - Il serpente muore se ci va a sbattere
+
+---
+
+![](images/misc/pong.png)
+# Pong
+
+- Campo rettangolare
+- **Pallina**: si muove a 45°, rimbalza su bordi lunghi e barrette
+- **Barrette**: si muovono solo verticalmente
+- **Punti**: segnati quando la pallina esce dal campo
+
+---
+
+![](images/misc/slitherlink-solved.png)
+# Slitherlink
+
+- Regole
+    - Connect adjacent dots with vertical or horizontal lines to make a single loop
+    - The numbers indicate how many lines surround it, while empty cells may be surrounded by any number of lines
+    - The loop never crosses itself and never branches off
+
+>
+
+<https://www.nikoli.co.jp/en/puzzles/slitherlink.html>
+<br>
+<https://www.brainbashers.com/slitherlinkhelp.asp>
+
+---
+
+![](images/misc/hitori.svg) ![](images/misc/hitori-completed.svg)
+# Hitori
+
+- Regole
+    - Color cells so no number appears more than once in a row or column
+    - The sides of black cells never touch
+    - White cells form a continuous network
+- Ad ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
+    - Controllare la violazione delle regole
+    - Controllare il completamento del gioco (ogni numero: correttamente annerito o cerchiato)
+
+>
+
+<https://www.nikoli.co.jp/en/puzzles/hitori.html>
 
 ---
 
@@ -301,34 +357,6 @@ pip3 install thonny pygame
 
 ---
 
-![](images/misc/pong.png)
-# Pong
-
-- Campo rettangolare
-- **Pallina**: si muove a 45°, rimbalza su bordi lunghi e barrette
-- **Barrette**: si muovono solo verticalmente
-- **Punti**: segnati quando la pallina esce dal campo
-
----
-
-![](images/misc/frogger.png)
-# Frogger
-
-- **Rana** guidata dall'utente, salta in 4 direzioni: ↕ ↔
-- Deve attraversare la strada, senza essere investita dai **camion**
-- Deve attraversare il fiume, saltando sui **tronchi**
-
----
-
-![](images/misc/invaders.png)
-# Space invaders
-
-- **Cannone**: l'utente lo sposta in orizzontale; spara verso l'alto, contro gli alieni
-- **Alieni**: si muovono tutti nella stessa direzione; percorso a serpentina; sparano verso il basso, contro il cannone
-- **Muri**: si ditruggono lentamente dove colpiti
-
----
-
 ![](images/misc/tents.png)
 # Tents puzzle
 
@@ -342,16 +370,6 @@ pip3 install thonny pygame
 >
 
 <http://www.brainbashers.com/tentshelp.asp>
-
----
-
-![](images/misc/donkey-kong.png)
-# Donkey Kong
-
-- Maro può camminare sulle piattaforme
-- Può saltare, se è su una piattaforma
-- Deve evitare i barili
-- Cade quando esce dalla piattaforma
 
 ---
 

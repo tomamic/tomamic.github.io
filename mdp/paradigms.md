@@ -46,8 +46,8 @@
     - <monica.mordonini@unipr.it>
     - <gianfranco.lombardo@unipr.it>
 - **Slides and videos**
-    - <http://sowide.ce.unipr.it/teaching/linguaggi/>
     - <https://tomamic.github.io/#paradigmi>
+    - <http://sowide.ce.unipr.it/teaching/linguaggi/>
 - **Textbooks**
     - M. Gabbrielli, S. Martini (2011) - *Linguaggi di programmazione - Principi e paradigmi* - ISBN:978-8838665738
     - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - <http://learnyouahaskell.com/>
@@ -63,7 +63,7 @@
     - Can be presented to the class, if finished in time
 - ② **Test** about the course matters
     - Final test, including questions and coding exercises
-    - Or… participating actively and continuously into lab exercises and classes during the lessons period
+    - Or… participating actively and continuously into lab activities and classes during the lessons period
 
 ---
 
@@ -84,18 +84,18 @@
 
 ---
 
-# The Top 10
+# Language popularity
 
-![](images/dev/lang-rank.png)
-![](images/dev/lang-spectrum.png)
+![large](images/dev/lang-github.svg)
 
 >
 
-[Redmonk](https://redmonk.com/sogrady/)
-– [Spectrum](https://spectrum.ieee.org/top-programming-languages/)
-– [PYPL](https://pypl.github.io/PYPL.html)
-– [Tiobe](https://www.tiobe.com/tiobe-index/)
-– [SO survey](https://survey.stackoverflow.co/)
+[Octoverse](https://octoverse.github.com/)
+— [SO survey](https://survey.stackoverflow.co/)
+— [Redmonk](https://redmonk.com/sogrady/)
+— [PYPL](https://pypl.github.io/PYPL.html)
+— [Spectrum](https://spectrum.ieee.org/top-programming-languages/)
+— [Tiobe](https://www.tiobe.com/tiobe-index/)
 
 ---
 
@@ -262,7 +262,7 @@
 - Prescriptive style
     - Define the instructions to execute and their precise order
 - Instructions can…
-    - Modify the content of memory (*assignment*)
+    - Modify the content of memory (*re-assignment*)
     - Jump to other instructions
 - *Program = Data + Algorithm*
     - Declare all variables and their data type
@@ -300,8 +300,8 @@
 # Object-oriented programming
 
 - Objects incapsulate both state and behaviour
-    - Abstract data type
-- Program realized through message passing among objects
+    - *Abstract data type*
+- Program realized through *message passing* among objects
 - Encapsulation, composition, inheritance, polimorphism
     - Nowadays, composition is favored over inheritance
 - *Simula, Smalltalk, C++, Java*
@@ -347,14 +347,14 @@
 
 # Functional programming
 
-- Program: calculating the result of a function
+- Program: calculating the result of a *function*
     - Each value in domain → unique value in codomain
     - No side effects, referential integrity
     - Idempotence
-- Variable: name for an immutable value
-    - No assignment instructions
+- Variable: name for an *immutable* value
+    - No re-assignment instructions
 - Techniques
-    - Higher-order functions (functions as parameters / return values)
+    - *Higher-order* functions (functions as parameters / return values)
     - Recursion
     - Linked lists
 - *Lisp, Caml, Haskell*
@@ -366,7 +366,7 @@
 - **Parallel / concurrent**
     - Mechanisms for identifying and syncronizing concurrent tasks
     - Channels, async messaging, RMI, coroutines, threads, actors, agents…
-    - *Go, Scala*
+    - *Go, Scala, Erlang*
 - **Event driven**
     - No sequence of instructions
     - Reactions to events, either internal or external
