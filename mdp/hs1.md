@@ -113,7 +113,7 @@ def some_integral(a: float, b: float, n: int) -> float:
         total += dx * some_func(a + dx * i)
     return total
 
-area = integral(1, 10, 1_000_000)
+area = some_integral(1, 10, 1_000_000)
 print(area)
 ```
 
