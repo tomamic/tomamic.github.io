@@ -92,9 +92,8 @@ def rq(x: int) -> int:
 
 >
 
-[integral.py](https://github.com/tomamic/fondcpp/blob/main/integral.py)
-– [integral.cpp](https://github.com/tomamic/fondcpp/blob/main/integral.cpp)
-
+[integral.py](https://github.com/tomamic/paradigmi/blob/main/integral.py)
+– [integral.cpp](https://github.com/tomamic/paradigmi/blob/main/integral.cpp)
 
 ---
 
@@ -104,7 +103,7 @@ def rq(x: int) -> int:
 def some_func(x: float) -> float:
     return x * x + x
 
-def integral(a: float, b: float, n: int) -> float:
+def some_integral(a: float, b: float, n: int) -> float:
     """Estimate the area beneath the curve some_func, between the
     abscissas a and b; the region is approximated as n rectangles.
     """
