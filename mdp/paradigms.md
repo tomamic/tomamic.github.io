@@ -409,7 +409,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 - **Scripting**
     - Dynamic typing
     - DRY principle - Don't Repeat Yourself
-    - *JavaScript, PHP, Python, Ruby, Shell, Lua*
+    - *JavaScript, Python, PHP, Ruby, Shell, Lua*
 
 ---
 
