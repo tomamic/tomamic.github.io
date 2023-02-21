@@ -5,11 +5,15 @@
 
 # Course outline
 
-- ① Introduction to formal languages
-    - ⇒ Learn to work correctly with structured and semi-structured text
-- ② Programming paradigms
+- ① Introduction to **formal languages**
+    - ⇒ Learn to work correctly with text
+    - Both structured and semi-structured
+- ② Programming **paradigms**
     - ⇒ Think and develop with a multi-paradigm mindset
     - Fit for Big Data, distributed and parallel systems
+
+·
+
 - **Teachers**
     - <michele.tomaiuolo@unipr.it>
     - <monica.mordonini@unipr.it>
@@ -24,7 +28,7 @@
 - Formal grammars
 - Parsing, parser generators
 - Applications to NLP
-- **Lab** on parsing
+- *Lab* on parsing
 
 ---
 
@@ -34,12 +38,12 @@
 - Functional programming
     - Haskell, Python
 - Some blends of OOP
-    - C++, Go, Rust
+    - Go, Rust
 - Generic programming
-    - Haskell, C++ concepts, Java generics
+    - Haskell etc.
 - Meta-programming
     - Python
-- **Lab** on Haskell, Rust etc.
+- *Lab* on Haskell, Rust, Python etc.
 
 ---
 
@@ -49,6 +53,7 @@
     - <https://tomamic.github.io/#paradigmi>
     - <http://sowide.ce.unipr.it/teaching/linguaggi/>
 - **Textbooks**
+    - [Linguaggi formali - Dispensa in italiano](https://github.com/tomamic/fondinfo/wiki/T03-Linguaggi)
     - M. Gabbrielli, S. Martini (2011) - *Linguaggi di programmazione - Principi e paradigmi* - ISBN:978-8838665738
     - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - <http://learnyouahaskell.com/>
     - S. Klabnik, C. Nichols (2023) - *The Rust Programming Language* - <https://doc.rust-lang.org/book/>
@@ -99,6 +104,26 @@
 
 ---
 
+# Efficiency
+
+![large](images/dev/lang-time.svg)
+
+>
+
+[Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
+
+---
+
+# Energy consumption
+
+![large](images/dev/lang-energy.svg)
+
+>
+
+[Energy Efficiency across Programming Languages](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)
+
+---
+
 ![large](images/dev/assembly.png)
 # Low-level languages
 
@@ -119,14 +144,6 @@
     - From the computer architecture, eventually executing the program
 - Yet, they must be translated to some machine language
     - Need for compilers
-
->
-
-[The Computer Language Benchmarks Game](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python3-gcc.html)
-<br>
-[Which Programming Languages Use the Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
-<br>
-[NSA - Software Memory Safety](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF)
 
 ---
 
@@ -180,6 +197,12 @@
 - *Haskell* unites the academic functional community
 - 2010s: Mobile systems, Cloud Computing, Big Data
     - *Go, Rust, Kotlin, C#, Swift, Dart*
+
+> NSA advises organizations to consider making a strategic shift
+from languages that provide little or no inherent memory protection, such as
+C/C++, to a memory safe language when possible.
+Some examples… are C#, Go, Java, Ruby, and Swift.
+[NSA 2022 - Software Memory Safety](https://media.defense.gov/2022/Nov/10/2003112742/-1/-1/0/CSI_SOFTWARE_MEMORY_SAFETY.PDF)
 
 ---
 
@@ -244,11 +267,11 @@
 
 - **Imperative / procedural**
     - Cobol, Fortran, Algol, C, Pascal
+    - Basic, Perl
 - **Object-oriented**
     - Simula, Smalltalk, Eiffel, Delphi
-    - C++, Java, C#, Go, Swift, Rust, ...
-- **Dynamic / Scripting**
-    - Basic, Perl, PHP, Javascript, Python, Shell, Lua
+    - C++, Java, C#, Go, Swift, Rust
+    - PHP, Javascript, Python…
 - **Functional**
     - Lisp, Scheme, ML, Haskell, Erlang
 - **Logic**
@@ -386,7 +409,7 @@
 - **Scripting**
     - Dynamic typing
     - DRY principle - Don't Repeat Yourself
-    - *JavaScript, PHP, Python, Ruby, shell*
+    - *JavaScript, PHP, Python, Ruby, Shell, Lua*
 
 ---
 
