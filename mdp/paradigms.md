@@ -10,6 +10,10 @@
 - ② Programming paradigms
     - ⇒ Think and develop with a multi-paradigm mindset
     - Fit for Big Data, distributed and parallel systems
+- **Teachers**
+    - <michele.tomaiuolo@unipr.it>
+    - <monica.mordonini@unipr.it>
+    - <gianfranco.lombardo@unipr.it>
 
 ---
 
@@ -39,12 +43,8 @@
 
 ---
 
-# Teachers and material
+# Texts and material
 
-- **Teachers**
-    - <michele.tomaiuolo@unipr.it>
-    - <monica.mordonini@unipr.it>
-    - <gianfranco.lombardo@unipr.it>
 - **Slides and videos**
     - <https://tomamic.github.io/#paradigmi>
     - <http://sowide.ce.unipr.it/teaching/linguaggi/>

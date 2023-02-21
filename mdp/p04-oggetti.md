@@ -162,21 +162,6 @@ def main():
 
 ---
 
-# 💡️ Variabili locali, parametri, campi
-
-- *Campi*: memorizzano i dati caratteristici di una istanza
-    - Ogni pallina ha la sua posizione `(self._x, self._y)` <br> e la sua velocità `(self._dx, self._dy)`
-- *Parametri*: passano altri valori ad un metodo
-    - Se alcuni dati necessari non sono nei campi
-- *Variabili locali*: memorizzano risultati parziali
-    - Generati durante l'elaborazione del metodo
-    - Nomi cancellati dopo l'uscita dal metodo
-- *Variabili globali*: definite fuori da tutte le funzioni
-    - Usare sono se strettamente necessario
-    - Meglio avere qualche parametro in più, per le funzioni
-
----
-
 # 🧪 Metodi con parametri
 
 - Metodo per più spostamenti consecutivi
@@ -196,6 +181,85 @@ b1 = Ball(50, 50)
 b1.multiple_move(3)
 b1.multiple_move(2)
 ```
+
+---
+
+# 💡️ Variabili locali, parametri, campi
+
+- *Campi*: memorizzano i dati caratteristici di una istanza
+    - Ogni pallina ha la sua posizione `(self._x, self._y)` <br> e la sua velocità `(self._dx, self._dy)`
+- *Parametri*: passano altri valori ad un metodo
+    - Se alcuni dati necessari non sono nei campi
+- *Variabili locali*: memorizzano risultati parziali
+    - Generati durante l'elaborazione del metodo
+    - Nomi cancellati dopo l'uscita dal metodo
+- *Variabili globali*: definite fuori da tutte le funzioni
+    - Usare sono se strettamente necessario
+    - Meglio avere qualche parametro in più, per le funzioni
+
+---
+
+![](images/misc/hiccup.png)
+# 🧪 Personaggio D&D
+
+- Consideriamo un personaggio fantasy
+- Ha un nome distintivo
+- Inizia il gioco con un numero casuale di “punti ferita”
+
+``` py
+class Character:
+    def __init__(self, name: str):
+        self._name = name
+        self._hp = randint(15, 30)  # hit points
+
+    def describe(self) -> str:
+        return f"I'm {self._name}. I have {self._hp} hit points."
+```
+
+---
+
+# 🧪 Gestione dei punti
+
+- Quando viene colpito, il personaggio perde alcuni punti
+- Quando viene curato, ne recupera alcuni
+- Il personaggio muore quando termina i punti ferita
+- Non può più essere curato
+
+``` py
+class Character: # …
+    def hit(self, damage: int) -> None:
+        self._hp = max(self._hp - damage, 0)
+
+    def heal(self, cure: int) -> None:
+        if (self.alive()):
+            self._hp = min(self._hp + cure, 20)
+
+    def alive(self) -> bool:
+        return self._hp > 0
+```
+
+---
+
+# Utilizzo del personaggio
+
+- Il costruttore richiede sono il nome
+- Infliggiamo tre ferite casuali ed una cura casuale
+
+``` py
+c = Character("Hero")
+print(c.describe())
+
+for _ in range(3):
+    c.hit(randint(5, 10))
+    print(c.describe())
+
+c.heal(randint(5, 10))
+print(c.describe())
+
+print(c.alive())
+```
+
+<https://tomamic.github.io/pyodide/?p04_dnd.py>
 
 ---
 
