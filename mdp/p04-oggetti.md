@@ -207,7 +207,7 @@ b1.multiple_move(2)
 - Inizia il gioco con un numero casuale di “punti ferita”
 
 ``` py
-class Character:
+class Fighter:
     def __init__(self, name: str):
         self._name = name
         self._hp = randint(15, 30)  # hit points
@@ -226,7 +226,7 @@ class Character:
 - Non può più essere curato
 
 ``` py
-class Character: # …
+class Fighter: # …
     def hit(self, damage: int) -> None:
         self._hp = max(self._hp - damage, 0)
 
@@ -246,7 +246,7 @@ class Character: # …
 - Infliggiamo tre ferite casuali ed una cura casuale
 
 ``` py
-c = Character("Hero")
+c = Fighter("Hero")
 print(c.describe())
 
 for _ in range(3):
