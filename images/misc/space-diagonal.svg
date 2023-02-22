@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="120.1mm" height="144.2mm" version="1.1" viewBox="0 0 120.1 144.2" xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(-27.58 -9.913)">
   <path d="m137.6 47.62v47.62l-26.46 58.21-74.08-36.75v-53.21l26.46-52.92 74.08 37.04" fill="#ff0" fill-opacity=".4977" stroke="#008000"/>
@@ -14,12 +13,11 @@
    </g>
   </g>
   <g font-family="sans-serif" font-size="12px" stroke-width=".2646">
-   <text x="39.620911" y="32.915897">a</text>
-   <text x="111.97512" y="33.069973">b</text>
-   <text x="69.919922" y="108.89394">d</text>
-   <text x="76.613304" y="52.742088">x</text>
-   <text x="139.37326" y="78.296432">c</text>
-   <text x="25.768707" y="94.074005" stroke="#ffff" fill="#ffff">.</text>
+   <text x="39.620911" y="32.915897">w</text>
+   <text x="111.97512" y="33.069973">l</text>
+   <text x="69.919922" y="108.89394">d?</text>
+   <text x="76.613304" y="52.742088">z</text>
+   <text x="26.768707" y="94.074005">h</text>
   </g>
  </g>
 </svg>
