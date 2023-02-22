@@ -12,7 +12,7 @@
     - ⇒ Think and develop with a multi-paradigm mindset
     - Fit for Big Data, distributed and parallel systems
 
-·
+*—*
 
 - **Teachers**
     - <michele.tomaiuolo@unipr.it>

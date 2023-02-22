@@ -12,12 +12,12 @@
     <path d="m63.5 63.5v-52.92" stroke-width=".2"/>
    </g>
   </g>
-  <g font-family="sans-serif" font-size="12px" stroke-width=".2646">
+  <g font-family="serif" font-size="12px" stroke-width=".2646">
    <text x="39.620911" y="32.915897">w</text>
    <text x="111.97512" y="33.069973">l</text>
    <text x="69.919922" y="108.89394">d?</text>
    <text x="76.613304" y="52.742088">z</text>
-   <text x="26.768707" y="94.074005">h</text>
+   <text x="27.768707" y="94.074005">h</text>
   </g>
  </g>
 </svg>
