@@ -92,8 +92,8 @@ def rq(x: int) -> int:
 
 >
 
-[integral.py](https://github.com/tomamic/paradigmi/blob/main/integral.py)
-– [integral.cpp](https://github.com/tomamic/paradigmi/blob/main/integral.cpp)
+[integral.py](https://github.com/tomamic/paradigmi/blob/master/integral.py)
+– [integral.cpp](https://github.com/tomamic/paradigmi/blob/master/integral.cpp)
 
 ---
 
