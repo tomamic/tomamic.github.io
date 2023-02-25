@@ -372,7 +372,7 @@ println!("{}", value10);
 ![large](images/dev/trpl04-06.svg)
 # Slice
 
-- A `String` or `Vec` own its elements, allocated in the heap
+- A `String` or `Vec` owns its elements, allocated in the heap
 - A slice is a view on these elements
     - A reference to a contiguous sequence of elements in a collection
 - String slice: `&str`
@@ -1132,8 +1132,8 @@ pub fn greet(name: &str) {  // Rust, available to JS
 ```
 
 ``` sh
-$ cargo install wasm-pack
-$ wasm-pack build --target web`
+$ cargo install wasm-pack --no-default-features
+$ wasm-pack build --target web
 ```
 
 >

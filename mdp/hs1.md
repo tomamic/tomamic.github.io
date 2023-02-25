@@ -166,28 +166,6 @@ print(cube(4))
 
 ---
 
-![](images/misc/histogram.svg)
-# Exercise – Before we start
-
-- Write a Pyhton function
-    - Given a list of *positive* ints...
-    - How many times does the maximum change?
-- Like counting the skyscrapers' tops
-    - … which can be seen, looking from left to right
-
-``` py
-from random import shuffle
-values = list(range(1, 6))
-shuffle(values)  # e.g., [3, 1, 4, 2, 5]
-```
-
-``` py
-def count_tops(values: list[int]) -> int:
-    # …
-```
-
----
-
 # Haskell
 
 ---
@@ -1006,19 +984,6 @@ def fib_unb():
 See also: <https://docs.python.org/3/library/functools.html>
 <br>
 See also: <https://docs.python.org/3/library/operator.html>
-
----
-
-![](images/misc/histogram.svg)
-# Ex.: Generator for skyscrapers
-
-- ① Write a Python *iterator*
-    - Instantiated over a list of ints
-    - Return values: each new maximum
-    - Tops seen looking from left to right
-- ② Rewrite as a Python *generator*
-- Run both versions over a random list
-    - Print all generated values
 
 ---
 
