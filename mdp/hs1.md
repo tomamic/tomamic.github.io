@@ -1034,16 +1034,16 @@ Prelude> [x | x <- [50..100], x `mod` 7 == 3]
 
 ``` hs
 Prelude> let boomBangs xs = [if x < 10 then "BOOM!"
-                      else "BANG!" | x <- xs, odd x]
+                             else "BANG!" | x <- xs, odd x]
 Prelude> boomBangs [7..13]
 ["BOOM!","BOOM!","BANG!","BANG!"]
 ```
 
 ``` hs
-    Prelude> let removeNonUppercase st = [c | c <- st,
-                                    c `elem` ['A'..'Z']]
-    Prelude> removeNonUppercase "IdontLIKEFROGS"
-    "ILIKEFROGS"
+Prelude> let removeNonUppercase st = [c | c <- st,
+                                      c `elem` ['A'..'Z']]
+Prelude> removeNonUppercase "IdontLIKEFROGS"
+"ILIKEFROGS"
 ```
 
 ---
