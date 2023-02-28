@@ -882,7 +882,7 @@ print(c.alive())
 
 - 1st param of each method is conventionally named `self`
 - Value of `self` is assigned *automatically*
-- It represents the *object*, whose method is called
+- It represents the *object*, whose method is invoked
 - In Python, a method call is interpreted this way:
 
 ``` py
