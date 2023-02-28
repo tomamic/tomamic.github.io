@@ -970,7 +970,6 @@ def fib_list(max):
 ``` py
 class Fib:
     '''iterator that yields Fibonacci numbers'''
-
     def __init__(self, max):
         self._max = max
 
@@ -1036,7 +1035,6 @@ def fib(max):
 ``` py
 def fib_unb():
     '''generator that yields Fibonacci numbers'''
-
     a, b = 0, 1
     while True:
         yield(a)
