@@ -1011,7 +1011,6 @@ class Fib:
 ``` py
 def fib(max):
     '''generator that yields Fibonacci numbers'''
-
     a, b = 0, 1
     while a <= max:
         yield(a)  # ~ append in fib_list, but lazy
