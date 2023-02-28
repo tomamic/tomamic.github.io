@@ -170,24 +170,23 @@ print(cube(4))
 
 ---
 
-![](images/hist/haskell-curry.jpg)
+![](images/hist/haskell-curry.jpg) [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry), 1900-1982 <br> Mathematical logics
 # Haskell
 
 - **Pure functional language**
-    - Named after *Haskell Curry*
-    - Mathematical logics, 1900-1982
 - Joint effort of the main research groups
-    - [1987 Conf. FPCA, Portland, Oregon](https://dl.acm.org/doi/pdf/10.1145/1238844.1238856)
-- Currently, very *popular* functional language
+    - [1987 Conf. FPCA, Portland, Oregon](https://simon.peytonjones.org/history-of-haskell/)
+- Currently, most *popular* functional language
 - Compiled to native code, no virtual machine
     - Concise, declarative, efficient
 - Static typing, type inference
-    - Type variables, typeclasses, type constaints
+    - Type variables, typeclasses, type constraints
 - Lazy evaluation, currying, pattern matching…
 - **Vast influence on other languages**
 
 ---
 
+![large](images/dev/lang-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
 # Haskell influence graph
 
 ![](images/dev/haskell-graph.svg)
@@ -256,7 +255,7 @@ $ ghci
 ```
 
 ``` hs
-ghci> 2 ^ 3
+Prelude> 2 ^ 3
 8
 ```
 
@@ -280,13 +279,13 @@ ghci> 2 ^ 3
     - Call with *prefix* notation, using parentheses
 
 ``` hs
-ghci> div 5 3
+Prelude> div 5 3
 1
-ghci> 5 `div` 3
+Prelude> 5 `div` 3
 1
-ghci> 5 `mod` 3
+Prelude> 5 `mod` 3
 2
-ghci> (/) 5 3
+Prelude> (/) 5 3
 2.5
 ```
 
@@ -305,10 +304,10 @@ doubleUs x y = doubleMe x + doubleMe y
 - In GHCi enter: `:l baby`
 
 ``` hs
-ghci> :l baby
-ghci> doubleMe 5
+Prelude> :l baby
+Prelude> doubleMe 5
 10
-ghci> doubleUs 4 3
+Prelude> doubleUs 4 3
 14
 ```
 
@@ -331,8 +330,8 @@ k = k + 1    -- error!
 
 
 ``` hs
-ghci> let doubleMe x = x + x
-ghci> doubleMe 5
+Prelude> let doubleMe x = x + x
+Prelude> doubleMe 5
 10
 ```
 
@@ -349,8 +348,8 @@ ghci> doubleMe 5
 - Lists are denoted by square brackets and the values in the lists are separated by commas
 
 ``` hs
-ghci> let lostNumbers = [12,99,37]
-ghci> lostNumbers
+Prelude> let lostNumbers = [12,99,37]
+Prelude> lostNumbers
 [12,99,37]
 ```
 
@@ -381,13 +380,13 @@ The character type is denoted as a character between single quotes
 - This is done by using the `++` operator
 
 ``` hs
-ghci> [1,2,3,4] ++ [9,10,11,12]
+Prelude> [1,2,3,4] ++ [9,10,11,12]
 [1,2,3,4,9,10,11,12]
-ghci> [1,2,3] ++ [4]
+Prelude> [1,2,3] ++ [4]
 [1,2,3,4]
-ghci> "hello" ++ " " ++ "world"
+Prelude> "hello" ++ " " ++ "world"
 "hello world"
-ghci> ['w','o'] ++ ['o','t']
+Prelude> ['w','o'] ++ ['o','t']
 "woot"
 ```
 
@@ -406,9 +405,9 @@ Even if you're adding an element to the end of a list with `++`, you have to sur
     - Instead, prepending is “instantaneous”
 
 ``` hs
-ghci> 'A':" SMALL CAT"
+Prelude> 'A':" SMALL CAT"
 "A SMALL CAT"
-ghci> 5:[1,2,3,4,5]
+Prelude> 5:[1,2,3,4,5]
 [5,1,2,3,4,5]
 ```
 
@@ -453,9 +452,9 @@ The previous list stays unchanged, can be reused
 - The indices start at `0`
 
 ``` hs
-ghci> "Steve Buscemi" !! 6
+Prelude> "Steve Buscemi" !! 6
 'B'
-ghci> [9.4,33.2,96.2,11.2,23.25] !! 1
+Prelude> [9.4,33.2,96.2,11.2,23.25] !! 1
 33.2
 ```
 
@@ -466,14 +465,14 @@ ghci> [9.4,33.2,96.2,11.2,23.25] !! 1
 # Lists of lists
 
 ``` hs
-ghci> let b = [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
-ghci> b
+Prelude> let b = [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
+Prelude> b
 [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
-ghci> b ++ [[1,1,1,1]]
+Prelude> b ++ [[1,1,1,1]]
 [[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3],[1,1,1,1]]
-ghci> [6,6,6]:b
+Prelude> [6,6,6]:b
 [[6,6,6],[1,2,3,4],[5,3,3,3],[1,2,2,3,4],[1,2,3]]
-ghci> b !! 2
+Prelude> b !! 2
 [1,2,2,3,4]
 ```
 
@@ -492,13 +491,13 @@ ghci> b !! 2
     - If they are equal then the second elements are compared, etc.
 
 ``` hs
-ghci> [3,2,1] > [2,1,0]
+Prelude> [3,2,1] > [2,1,0]
 True
-ghci> [3,2,1] > [3,10,100]
+Prelude> [3,2,1] > [3,10,100]
 False
-ghci> [3,4,2] > [3,4]
+Prelude> [3,4,2] > [3,4]
 True
-ghci> [3,4,2] == [3,4,2]
+Prelude> [3,4,2] == [3,4,2]
 True
 ```
 
@@ -516,13 +515,13 @@ True
 - `init` takes a list and returns everything except its last element
 
 ``` hs
-ghci> head [5,4,3,2,1]
+Prelude> head [5,4,3,2,1]
 5
-ghci> tail [5,4,3,2,1]
+Prelude> tail [5,4,3,2,1]
 [4,3,2,1]
-ghci> last [5,4,3,2,1]
+Prelude> last [5,4,3,2,1]
 1
-ghci> init [5,4,3,2,1]
+Prelude> init [5,4,3,2,1]
 [5,4,3,2]
 ```
 
@@ -531,7 +530,7 @@ ghci> init [5,4,3,2,1]
 # List errors
 
 ``` hs
-ghci> head []
+Prelude> head []
 *** Exception: Prelude.head: empty list
 ```
 
@@ -547,13 +546,13 @@ ghci> head []
 - `reverse` reverses a list
 
 ``` hs
-ghci> length [5,4,3,2,1]
+Prelude> length [5,4,3,2,1]
 5
-ghci> null [1,2,3]
+Prelude> null [1,2,3]
 False
-ghci> null []
+Prelude> null []
 True
-ghci> reverse [5,4,3,2,1]
+Prelude> reverse [5,4,3,2,1]
 [1,2,3,4,5]
 ```
 
@@ -567,13 +566,13 @@ ghci> reverse [5,4,3,2,1]
 - Take `0` elements → empty list
 
 ``` hs
-ghci> take 3 [5,4,3,2,1]
+Prelude> take 3 [5,4,3,2,1]
 [5,4,3]
-ghci> take 1 [3,9,3]
+Prelude> take 1 [3,9,3]
 [3]
-ghci> take 5 [1,2]
+Prelude> take 5 [1,2]
 [1,2]
-ghci> take 0 [6,6,6]
+Prelude> take 0 [6,6,6]
 []
 ```
 
@@ -585,11 +584,11 @@ ghci> take 0 [6,6,6]
 - It drops the number of elements from the beginning of the list
 
 ``` hs
-ghci> drop 3 [8,4,2,1,5,6]
+Prelude> drop 3 [8,4,2,1,5,6]
 [1,5,6]
-ghci> drop 0 [1,2,3,4]
+Prelude> drop 0 [1,2,3,4]
 [1,2,3,4]
-ghci> drop 100 [1,2,3,4]
+Prelude> drop 100 [1,2,3,4]
 []
 ```
 
@@ -602,9 +601,9 @@ ghci> drop 100 [1,2,3,4]
     - Usually called as *infix* f.: easier to read
 
 ``` hs
-ghci> 4 `elem` [3,4,5,6]
+Prelude> 4 `elem` [3,4,5,6]
 True
-ghci> 10 `elem` [3,4,5,6]
+Prelude> 10 `elem` [3,4,5,6]
 False
 ```
 
@@ -618,13 +617,13 @@ False
 - `minimum` returns the smallest
 
 ``` hs
-ghci> sum [5,2,1,6,3,2,5,7]
+Prelude> sum [5,2,1,6,3,2,5,7]
 31
-ghci> product [6,2,1,2]
+Prelude> product [6,2,1,2]
 24
-ghci> minimum [8,4,2,1,5,6]
+Prelude> minimum [8,4,2,1,5,6]
 1
-ghci> maximum [1,9,2,3,4]
+Prelude> maximum [1,9,2,3,4]
 9
 ```
 
@@ -637,11 +636,11 @@ ghci> maximum [1,9,2,3,4]
     - Integers, characters…
 
 ``` hs
-ghci> [1..10]
+Prelude> [1..10]
 [1,2,3,4,5,6,7,8,9,10]
-ghci> ['a'..'z']
+Prelude> ['a'..'z']
 "abcdefghijklmnopqrstuvwxyz"
-ghci> ['K'..'Z']
+Prelude> ['K'..'Z']
 "KLMNOPQRSTUVWXYZ"
 ```
 
@@ -655,11 +654,11 @@ ghci> ['K'..'Z']
     - Works only for arithmetic sequences
 
 ``` hs
-ghci> [2,4..20]  -- Even numbers between 1 and 20
+Prelude> [2,4..20]  -- Even numbers between 1 and 20
 [2,4,6,8,10,12,14,16,18,20]
-ghci> [3,6..20]  -- Every third number between 1 and 20
+Prelude> [3,6..20]  -- Every third number between 1 and 20
 [3,6,9,12,15,18]
-ghci> [5,4..1]   -- Negative step: you can't just do `[5..1]`
+Prelude> [5,4..1]   -- Negative step: you can't just do `[5..1]`
 [5,4,3,2,1]
 ```
 
@@ -685,9 +684,9 @@ ghci> [5,4..1]   -- Negative step: you can't just do `[5..1]`
 - `cycle` takes a list and cycles it into an infinite list
 
 ``` hs
-ghci> take 10 (cycle [1,2,3])
+Prelude> take 10 (cycle [1,2,3])
 [1,2,3,1,2,3,1,2,3,1]
-ghci> take 11 (cycle "LOL ")
+Prelude> take 11 (cycle "LOL ")
 "LOL LOL LOL"
 ```
 
@@ -699,18 +698,18 @@ ghci> take 11 (cycle "LOL ")
     - It's like cycling a list with only one element
 
 ``` hs
-ghci> take 10 (repeat 5)
+Prelude> take 10 (repeat 5)
 [5,5,5,5,5,5,5,5,5,5]
 ```
 
 - Although it's simpler to just use the `replicate` function if you want some number of the same element in a list
 
 ``` hs
-ghci> replicate 3 10
+Prelude> replicate 3 10
 [10,10,10]
-ghci> replicate 3 "LOL "
+Prelude> replicate 3 "LOL "
 ["LOL ","LOL ","LOL "]
-ghci> concat (replicate 3 "LOL ")
+Prelude> concat (replicate 3 "LOL ")
 "LOL LOL LOL "
 ```
 
@@ -1006,7 +1005,7 @@ See also: <https://docs.python.org/3/library/operator.html>
     - `S = {2·x | x ∈ N, x ≤ 10}`
 
 ``` hs
-ghci> [x*2 | x <- [1..10]]
+Prelude> [x*2 | x <- [1..10]]
 [2,4,6,8,10,12,14,16,18,20]
 ```
 
@@ -1025,7 +1024,7 @@ ghci> [x*2 | x <- [1..10]]
 - E.g.: all numbers from 50 to 100 whose remainder when divided with the number 7 is 3
 
 ``` hs
-ghci> [x | x <- [50..100], x `mod` 7 == 3]
+Prelude> [x | x <- [50..100], x `mod` 7 == 3]
 [52,59,66,73,80,87,94]
 ```
 
@@ -1041,16 +1040,16 @@ ghci> [x | x <- [50..100], x `mod` 7 == 3]
 # Examples of comprehensions
 
 ``` hs
-ghci> let boomBangs xs = [if x < 10 then "BOOM!"
+Prelude> let boomBangs xs = [if x < 10 then "BOOM!"
                              else "BANG!" | x <- xs, odd x]
-ghci> boomBangs [7..13]
+Prelude> boomBangs [7..13]
 ["BOOM!","BOOM!","BANG!","BANG!"]
 ```
 
 ``` hs
-ghci> let removeNonUppercase st = [c | c <- st,
+Prelude> let removeNonUppercase st = [c | c <- st,
                                       c `elem` ['A'..'Z']]
-ghci> removeNonUppercase "IdontLIKEFROGS"
+Prelude> removeNonUppercase "IdontLIKEFROGS"
 "ILIKEFROGS"
 ```
 
@@ -1061,7 +1060,7 @@ ghci> removeNonUppercase "IdontLIKEFROGS"
 - We can include several predicates
 
 ``` hs
-ghci> [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
+Prelude> [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
 [10,11,12,14,16,17,18,20]
 ```
 
@@ -1070,7 +1069,7 @@ ghci> [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
     - Then join them by the output function
 
 ``` hs
-ghci> [x*y | x <- [2,5,10], y <- [8,10,11]]
+Prelude> [x*y | x <- [2,5,10], y <- [8,10,11]]
 [16,20,22,40,50,55,80,100,110]
 ```
 
@@ -1115,9 +1114,9 @@ ghci> [x*y | x <- [2,5,10], y <- [8,10,11]]
     - `snd` takes a pair and returns its second component
 
 ``` hs
-ghci> fst (8,11)
+Prelude> fst (8,11)
 8
-ghci> snd ("Wow", False)
+Prelude> snd ("Wow", False)
 False
 ```
 
@@ -1132,9 +1131,9 @@ False
     - E.g.: to traverse two lists simultaneously
 
 ``` hs
-ghci> zip [1,2,3,4,5] [5,5,5,5,5]
+Prelude> zip [1,2,3,4,5] [5,5,5,5,5]
 [(1,5),(2,5),(3,5),(4,5),(5,5)]
-ghci> zip [1..5] ["one", "two", "three", "four", "five"]
+Prelude> zip [1..5] ["one", "two", "three", "four", "five"]
 [(1,"one"),(2,"two"),(3,"three"),(4,"four"),(5,"five")]
 ```
 
@@ -1146,7 +1145,7 @@ ghci> zip [1..5] ["one", "two", "three", "four", "five"]
 - Haskell is *lazy*: zip finite lists with infinite lists
 
 ``` hs
-ghci> zip [1..] ["apple", "orange", "cherry", "mango"]
+Prelude> zip [1..] ["apple", "orange", "cherry", "mango"]
 [(1,"apple"),(2,"orange"),(3,"cherry"),(4,"mango")]
 ```
 
@@ -1192,13 +1191,13 @@ ghci> zip [1..] ["apple", "orange", "cherry", "mango"]
     - `::` is read as “*has type of*”
 
 ``` hs
-ghci> :t 'a'
+Prelude> :t 'a'
 'a' :: Char
-ghci> :t 4 == 5
+Prelude> :t 4 == 5
 4 == 5 :: Bool
-ghci> :t "HELLO!"
+Prelude> :t "HELLO!"
 "HELLO!" :: [Char]
-ghci> :t (True, 'a')
+Prelude> :t (True, 'a')
 (True, 'a') :: (Bool, Char)
 ```
 
@@ -1245,7 +1244,7 @@ addThree x y z = x + y + z
 factorial :: Integer -> Integer
 factorial n = product [1..n]
 
-ghci> factorial 50
+Prelude> factorial 50
 30414093201713378043612608166064768844377641568960512000000000000
 ```
 
@@ -1263,9 +1262,9 @@ circumference r = 2 * pi * r
 circumference' :: Double -> Double
 circumference' r = 2 * pi * r
 
-ghci> circumference 4.0
+Prelude> circumference 4.0
 25.132742
-ghci> circumference' 4.0
+Prelude> circumference' 4.0
 25.132741228718345
 ```
 
@@ -1294,7 +1293,7 @@ ghci> circumference' 4.0
 - What is the type of the `head` function?
 
 ``` hs
-ghci> :t head
+Prelude> :t head
 head :: [a] -> a
 ```
 
@@ -1336,7 +1335,7 @@ int main () {
 - What is the type of the `fst` function?
 
 ``` hs
-ghci> :t fst
+Prelude> :t fst
 fst :: (a, b) -> a
 ```
 
@@ -1356,7 +1355,7 @@ fst :: (a, b) -> a
     - The type of those two values must be a member of `Eq`
 
 ``` hs
-ghci> :t (==)
+Prelude> :t (==)
 (==) :: (Eq a) => a -> a -> Bool
 ```
 
@@ -1396,11 +1395,11 @@ ghci> :t (==)
     - A type that can be `GT, LT, EQ`
 
 ``` hs
-ghci> :t (>)
+Prelude> :t (>)
 (>) :: (Ord a) => a -> a -> Bool
-ghci> "Abrakadabra" `compare` "Zebra"
+Prelude> "Abrakadabra" `compare` "Zebra"
 LT
-ghci> 5 `compare` 3
+Prelude> 5 `compare` 3
 GT
 ```
 
@@ -1415,11 +1414,11 @@ GT
     - Returns its *string* representation
 
 ```haskell
-ghci> show 3
+Prelude> show 3
 "3"
-ghci> show 5.334
+Prelude> show 5.334
 "5.334"
-ghci> show True
+Prelude> show True
 "True"
 ```
 
@@ -1433,13 +1432,13 @@ ghci> show True
 - `read` takes a *string* and returns a member of `Read`
 
 ``` hs
-ghci> read "True" || False
+Prelude> read "True" || False
 True
-ghci> read "8.2" + 3.8
+Prelude> read "8.2" + 3.8
 12.0
-ghci> read "5" - 2
+Prelude> read "5" - 2
 3
-ghci> read "[1,2,3,4]" ++ [3]
+Prelude> read "[1,2,3,4]" ++ [3]
 [1,2,3,4,3]
 ```
 
@@ -1451,15 +1450,15 @@ ghci> read "[1,2,3,4]" ++ [3]
     - Add `::` at the end of the expression and then specify a type
 
 ```haskell
-ghci> read "5" :: Int
+Prelude> read "5" :: Int
 5
-ghci> read "5" :: Float
+Prelude> read "5" :: Float
 5.0
-ghci> (read "5" :: Float) * 4
+Prelude> (read "5" :: Float) * 4
 20.0
-ghci> read "[1,2,3,4]" :: [Int]
+Prelude> read "[1,2,3,4]" :: [Int]
 [1,2,3,4]
-ghci> read "(3, 'a')" :: (Int, Char)
+Prelude> read "(3, 'a')" :: (Int, Char)
 (3, 'a')
 ```
 
@@ -1474,13 +1473,13 @@ ghci> read "(3, 'a')" :: (Int, Char)
     - Types include: `Bool, Char, Ordering, Int, Integer…`
 
 ```haskell
-ghci> ['a'..'e']
+Prelude> ['a'..'e']
 "abcde"
-ghci> [LT..GT]
+Prelude> [LT..GT]
 [LT,EQ,GT]
-ghci> [3..5]
+Prelude> [3..5]
 [3,4,5]
-ghci> succ 'B'
+Prelude> succ 'B'
 'C'
 ```
 
