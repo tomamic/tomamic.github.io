@@ -810,6 +810,93 @@ c is a           # True, same object in memory
 [2, 0, 0] > [1, 2, 0]  # True: 2 > 1
 [2, 1, 0] > [2, 0, 1]  # True: 2 == 2, 1 > 0
 ```
+
+---
+
+![](images/misc/hiccup.png)
+# D&D Character
+
+- Let's create a **class** for some fantasy character
+- It has a distinctive name
+- It starts the game with random “hit points”
+
+``` py
+class Fighter:
+    def __init__(self, name: str):
+        self._name = name
+        self._hp = randint(15, 30)  # hit points
+        # private fields named with leading `_`
+
+    def describe(self) -> str:
+        return f"I'm {self._name}. I have {self._hp} hit points."
+```
+
+---
+
+# 🧪 Methods for points
+
+- When it's hit, the character looses some points
+- When it's healed, it gets some points back
+- It dies when it finishes its points
+- It cannot be healed anymore
+
+``` py
+class Fighter: # …
+    def hit(self, damage: int) -> None:
+        self._hp = max(self._hp - damage, 0)
+
+    def heal(self, cure: int) -> None:
+        if self.alive():
+            self._hp = min(self._hp + cure, 20)
+
+    def alive(self) -> bool:
+        return self._hp > 0
+```
+
+---
+
+# Instantiation and use
+
+- The constructor requires just the name, as param
+- Let's inflic 3 wounds and a healing, randomly
+
+``` py
+c = Fighter("Hero")  # use the class for instantiation
+print(c.describe())
+
+for _ in range(3):
+    c.hit(randint(5, 10))
+    print(c.describe())
+
+c.heal(randint(5, 10))
+print(c.describe())
+
+print(c.alive())
+```
+
+<https://tomamic.github.io/pyodide/?p04_dnd.py>
+
+---
+
+# The magical self
+
+- 1st param of each method is conventionally named `self`
+- Value of `self` is assigned *automatically*
+- It represents the *object*, whose method is called
+- In Python, a method call is interpreted this way:
+
+``` py
+c1 = Fighter("Hero")
+c1.hit(7)
+```
+
+``` py
+# ⚠️ Python internals, DON'T do this!
+c1 = object.__new__(Fighter)
+Fighter.__init__(c1, "Hero")
+Fighter.hit(c1, 7)
+```
+
 ---
 
 # Python ranges

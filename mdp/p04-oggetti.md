@@ -231,7 +231,7 @@ class Fighter: # …
         self._hp = max(self._hp - damage, 0)
 
     def heal(self, cure: int) -> None:
-        if (self.alive()):
+        if self.alive():
             self._hp = min(self._hp + cure, 20)
 
     def alive(self) -> bool:
@@ -242,7 +242,7 @@ class Fighter: # …
 
 # Utilizzo del personaggio
 
-- Il costruttore richiede sono il nome
+- Il costruttore richiede solo il nome
 - Infliggiamo tre ferite casuali ed una cura casuale
 
 ``` py
