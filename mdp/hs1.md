@@ -819,6 +819,7 @@ c is a           # True, same object in memory
 - Let's create a **class** for some fantasy character
 - It has a distinctive name
 - It starts the game with random “hit points”
+- The constructor requires just the name, as param
 
 ``` py
 class Fighter:
@@ -829,6 +830,9 @@ class Fighter:
 
     def describe(self) -> str:
         return f"I'm {self._name}. I have {self._hp} hit points."
+
+c = Fighter("Hero")  # use the class for instantiation
+print(c.describe())
 ```
 
 ---
@@ -857,7 +861,6 @@ class Fighter: # …
 
 # Instantiation and use
 
-- The constructor requires just the name, as param
 - Let's inflic 3 wounds and a healing, randomly
 
 ``` py
