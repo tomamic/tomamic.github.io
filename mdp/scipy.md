@@ -1100,8 +1100,8 @@ https://docs.scipy.org/doc/numpy-1.16.0/reference/routines.random.html
 array([5, 3, 2, 4, 1, 0]])
 
 >>> np.random.choice(["one", "two"], (2, 3))
->>> array([['two', 'one', 'one'],
-   ['two', 'two', 'one']], dtype='<U3')
+array([['two', 'one', 'one'],
+       ['two', 'two', 'one']], dtype='<U3')
 ```
 
 ---
