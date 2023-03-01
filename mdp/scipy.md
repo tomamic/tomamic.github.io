@@ -1028,8 +1028,8 @@ array([[1., 2.],
 array([0., 0., 0., 0.])
 
 >>> np.ones((2, 3), dtype=np.int16)  # dtype can also be specified
-array([[[1, 1, 1],
-        [1, 1, 1]], dtype=int16)
+array([[1, 1, 1],
+       [1, 1, 1]], dtype=int16)
 
 >>> np.empty((2, 3))  # uninitialized, output may vary
 array([[3.73603959e-262, 6.02658058e-154, 6.55490914e-260],
