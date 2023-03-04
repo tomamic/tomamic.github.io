@@ -1757,7 +1757,7 @@ heron2 a b c =
 ---
 
 ![](images/fun/haskell-logo.svg)
-# Ex.: Max of two values
+# Exercise
 
 - Write a Haskell `maxOfTwo` function
 - Two parameters
