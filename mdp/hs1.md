@@ -1756,14 +1756,7 @@ heron2 a b c =
 
 ---
 
-![](images/fun/haskell-logo.svg)
 # Exercise
-
-- Write a Haskell `maxOfTwo` function
-- Two parameters
-- Return the maximum of the two
-- Generic parameters
-    - What's the needed type constraint?
 
 ---
 
