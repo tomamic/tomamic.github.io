@@ -1478,7 +1478,7 @@ Prelude> :t (==)
     - A member of `Ord` must first be member of `Eq`
     - All types so far are part of `Ord` (except for f.s)
 - The `compare` f. takes two `Ord` members of the same type
-    - sIt returns an `Ordering`
+    - It returns an `Ordering`
     - A type that can be `GT, LT, EQ`
 
 ``` hs
