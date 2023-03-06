@@ -240,7 +240,7 @@ Prelude> quicksort "the quick brown fox jumps over the lazy dog"
 ---
 
 ![](images/comp/divide-et-impera.svg)
-# Merge Sort
+# Merge Sort in Python
 
 ``` py
 def merge(v1: list, b1, e1,  # beg, end
@@ -265,13 +265,13 @@ def merge_sort(v: list, beg, end: int):
 
 ---
 
-![large](images/comp/merge-sort.svg) Split in rosso; merge in verde
-# Ex.: Merge sort
+![large](images/comp/merge-sort.svg) Split is red; merge is green
+# Merge Sort idea
 
-- Define a `merge` function in Haskell
+- A `merge` function
     - Takes two *sorted* lists
     - Returns a sorted list, with all the elems
-- Define a `mergeSort` function in Haskell
+- A `mergeSort` function
     - Takes a list
     - Splits it at half
     - Sorts each part, recursively
