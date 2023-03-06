@@ -239,8 +239,12 @@ Prelude> quicksort "the quick brown fox jumps over the lazy dog"
 
 ---
 
-![](images/comp/divide-et-impera.svg)
-# Merge Sort in Python
+![large](images/comp/merge.svg)
+# Merging in Python
+
+- Take two *sorted* lists
+- Produce a sorted list, with all the elems
+- At each step, choose one of the two head elements
 
 ``` py
 def merge(v1: list, b1, e1,  # beg, end
@@ -254,6 +258,15 @@ def merge(v1: list, b1, e1,  # beg, end
     return result
 ```
 
+---
+
+![large](images/comp/merge-sort.svg) Split is red; merge is green
+# Merge Sort in Python
+
+- Take a list, split it at half
+- *Sort* each part, recursively
+- *Merge* the two sorted parts
+
 ``` py
 def merge_sort(v: list, beg, end: int):
     if end - beg <= 1: return
@@ -265,17 +278,12 @@ def merge_sort(v: list, beg, end: int):
 
 ---
 
-![large](images/comp/merge-sort.svg) Split is red; merge is green
-# Merge Sort idea
+![](images/comp/divide-et-impera.svg)
+# Divide et impera
 
-- A `merge` function
-    - Takes two *sorted* lists
-    - Returns a sorted list, with all the elems
-- A `mergeSort` function
-    - Takes a list
-    - Splits it at half
-    - Sorts each part, recursively
-    - Merges the two sorted parts
+- At each step, the problem space is halved
+- Complexity is optimal
+- But merge requires additional memory
 
 >
 
@@ -340,19 +348,6 @@ loop:
     - Once ready to perform the next recursive step...
     - The current *stack frame* is not needed any more!
 - **Optimization**: *the compiler reuses the frame* for the next recursive step
-
----
-
-# Ex.: Reverse with tail recursion
-
-``` hs
-reverse' :: [a] -> [a]
-reverse' [] = []
-reverse' (x:xs) = reverse' xs ++ [x]
-```
-
-- Inefficient
-- Define `reverse` with tail recursion
 
 ---
 
