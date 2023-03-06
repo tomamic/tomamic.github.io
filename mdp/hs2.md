@@ -692,24 +692,12 @@ Prelude> takeWhile (/=' ') "elephants know how to party"
 
 ---
 
-# Ex.: Odd squares
-
-- Sum of all odd squares that are smaller than 10,000
-- Laziness: map over and filter an infinite list
-
->
-
-166650
-
----
-
 # Collatz sequences
 
 - Take a natural number `n`
 - If `n` is even, divide it by `2`
 - If it's odd, multiply it by `3` and then add `1`
 - Take the resulting number and apply the same thing to it...
-- *Conjecture*: for all starting numbers, the chains finish at the number `1` (edge, cycle `1-4-2-1`)
 
 ``` hs
 collatz :: (Integral a) => a -> [a]
@@ -719,21 +707,22 @@ collatz n
     | odd n  =  n:collatz (n*3 + 1)
 ```
 
+---
+
+![large](images/fun/collatz-xkcd.png)
+# Collatz conjecture
+
+- For all starting numbers
+	- The chains finish at the number `1`
+	- Edge: cycle `1-4-2-1`
+	
 >
 
 https://www.jasondavies.com/collatz-graph/
 
 ---
 
-![large](images/fun/collatz-xkcd.png)
-# Ex.: Collatz
-
-- For all starting numbers between 1 and 100...
-- How many Collatz chains have a length greater than 15?
-
->
-
-66
+# Exercise
 
 ---
 
