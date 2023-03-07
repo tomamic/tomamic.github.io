@@ -83,29 +83,29 @@
   </font>
  </defs>
  <defs class="EmbeddedBulletChars">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
  </defs>
  <g class="Page" ooo:name="page19">
   <g class="com.sun.star.drawing.TextShape">
-   
+
     <rect class="BoundingBox" x="8250" y="17000" width="4751" height="1490" fill="none"/>
     <path d="m10625 18489h-2375v-1489h4750v1489h-2375z" fill="#fff" fill-opacity=".698" stroke="#fff" stroke-opacity=".698"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="917px" font-weight="700"><tspan class="TextPosition" x="8500" y="18042"><tspan fill="rgb(0,0,0)">et impera</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="11206" y="15074" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="cb" x1="11307" x2="12409" y1="15175" y2="16277" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -113,10 +113,10 @@
       </linearGradient>
      </defs>
      <path d="m11858 16277h-551v-1102h1102v1102h-551z" style="fill:url(#cb)"/>
-    
+
     <path d="m11858 16277h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="11655" y="15952"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bq" x1="11207" x2="12309" y1="15075" y2="16177" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -124,15 +124,15 @@
       </linearGradient>
      </defs>
      <path d="m11758 16177h-551v-1102h1102v1102h-551z" style="fill:url(#bq)"/>
-    
+
     <path d="m11758 16177h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="11555" y="15852"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="12309" y="15074" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bf" x1="12410" x2="13512" y1="15175" y2="16277" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -140,10 +140,10 @@
       </linearGradient>
      </defs>
      <path d="m12961 16277h-551v-1102h1102v1102h-551z" style="fill:url(#bf)"/>
-    
+
     <path d="m12961 16277h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12758" y="15952"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="au" x1="12310" x2="13412" y1="15075" y2="16177" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -151,15 +151,15 @@
       </linearGradient>
      </defs>
      <path d="m12861 16177h-551v-1102h1102v1102h-551z" style="fill:url(#au)"/>
-    
+
     <path d="m12861 16177h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12658" y="15852"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16443" y="15072" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="aj" x1="16544" x2="17646" y1="15173" y2="16275" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -167,10 +167,10 @@
       </linearGradient>
      </defs>
      <path d="m17095 16275h-551v-1102h1102v1102h-551z" style="fill:url(#aj)"/>
-    
+
     <path d="m17095 16275h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16906" y="15950"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="y" x1="16444" x2="17546" y1="15073" y2="16175" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -178,15 +178,15 @@
       </linearGradient>
      </defs>
      <path d="m16995 16175h-551v-1102h1102v1102h-551z" style="fill:url(#y)"/>
-    
+
     <path d="m16995 16175h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16806" y="15850"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="17545" y="15072" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="n" x1="17646" x2="18748" y1="15173" y2="16275" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -194,10 +194,10 @@
       </linearGradient>
      </defs>
      <path d="m18197 16275h-551v-1102h1102v1102h-551z" style="fill:url(#n)"/>
-    
+
     <path d="m18197 16275h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18025" y="15950"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="c" x1="17546" x2="18648" y1="15073" y2="16175" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -205,15 +205,15 @@
       </linearGradient>
      </defs>
      <path d="m18097 16175h-551v-1102h1102v1102h-551z" style="fill:url(#c)"/>
-    
+
     <path d="m18097 16175h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17925" y="15850"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="18647" y="15072" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="a" x1="18748" x2="19850" y1="15173" y2="16275" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -221,10 +221,10 @@
       </linearGradient>
      </defs>
      <path d="m19299 16275h-551v-1102h1102v1102h-551z" style="fill:url(#a)"/>
-    
+
     <path d="m19299 16275h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19142" y="15950"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ca" x1="18648" x2="19750" y1="15073" y2="16175" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -232,15 +232,15 @@
       </linearGradient>
      </defs>
      <path d="m19199 16175h-551v-1102h1102v1102h-551z" style="fill:url(#ca)"/>
-    
+
     <path d="m19199 16175h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19042" y="15850"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="13411" y="15074" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bz" x1="13512" x2="14614" y1="15175" y2="16277" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -248,10 +248,10 @@
       </linearGradient>
      </defs>
      <path d="m14063 16277h-551v-1102h1102v1102h-551z" style="fill:url(#bz)"/>
-    
+
     <path d="m14063 16277h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13860" y="15952"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="by" x1="13412" x2="14514" y1="15075" y2="16177" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -259,15 +259,15 @@
       </linearGradient>
      </defs>
      <path d="m13963 16177h-551v-1102h1102v1102h-551z" style="fill:url(#by)"/>
-    
+
     <path d="m13963 16177h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13760" y="15852"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="9979" y="14950" width="1453" height="1454" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bx" x1="10080" x2="11431" y1="15051" y2="16402" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -275,10 +275,10 @@
       </linearGradient>
      </defs>
      <path d="m10612 16259-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#bx)"/>
-    
+
     <path d="m10612 16259-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#808080"/>
     <text class="TextShape" transform="rotate(15 10500 15892)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10500" y="15892"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bw" x1="9980" x2="11331" y1="14951" y2="16302" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -286,15 +286,15 @@
       </linearGradient>
      </defs>
      <path d="m10512 16159-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#bw)"/>
-    
+
     <path d="m10512 16159-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#000"/>
     <text class="TextShape" transform="rotate(15 10400 15792)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10400" y="15792"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="15216" y="14949" width="1453" height="1454" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bv" x1="15317" x2="16668" y1="15050" y2="16401" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -302,10 +302,10 @@
       </linearGradient>
      </defs>
      <path d="m15849 16258-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#bv)"/>
-    
+
     <path d="m15849 16258-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#808080"/>
     <text class="TextShape" transform="rotate(15 15751 15895)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15751" y="15895"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bu" x1="15217" x2="16568" y1="14950" y2="16301" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -313,13 +313,13 @@
       </linearGradient>
      </defs>
      <path d="m15749 16158-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#bu)"/>
-    
+
     <path d="m15749 16158-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#000"/>
     <text class="TextShape" transform="rotate(15 15651 15795)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15651" y="15795"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.CustomShape">
-   
+
     <rect class="BoundingBox" x="13352" y="15900" width="5713" height="3457" fill="none"/>
     <path d="m16429 17102 137 5 136 7 135 11 134 13 131 15 130 18 127 21 125 23 121 26 119 28 114 30 111 33 106 35 102 37 97 39 92 40 87 43 82 44 76 46 70 47 65 49 58 50 52 51 45 51 39 53 32 54 26 54 19 54 12 55 5 55-2 55-8 55-16 54-22 55-29 53-35 54-42 52-49 51-55 51-61 49-67 48-73 47-79 45-84 43-90 42-95 40-99 38-104 35-109 34-112 32-116 29-120 27-123 24-126 22-129 20-131 17-132 14-135 12-135 9-137 6-137 3-137 1-138-2-136-5-137-7-135-11-133-12-132-16-130-18-127-21-125-23-121-26-118-28-115-30-110-33-107-35-102-37-97-38-92-41-87-43-82-44-76-46-70-47-64-49-59-49-51-51-46-52-39-53-32-53-26-55-19-54-12-55-5-55 2-55 8-55 16-54 22-55 29-53 35-53 42-53 49-51 55-51 61-49 67-48 73-46 79-46 84-43 90-42 94-40 100-37 104-36 108-34 113-32 116-29 120-27 123-24 126-22 128-20 131-17 172-1095 780 1052z" fill="#c0c0c0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#c0c0c0" stroke-linejoin="round" stroke-width="100">
     <path d="m16429 17102 51 2"/>
@@ -604,7 +604,7 @@
    </g>
   </g>
   <g class="com.sun.star.drawing.CustomShape">
-   
+
     <rect class="BoundingBox" x="10667" y="16082" width="8398" height="3275" fill="none"/>
     <path d="m14566 17332 111-32 114-31 119-28 121-26 125-23 127-21 130-18 131-15 134-13 135-11 136-7 137-5 137-2 138 1 137 3 137 6 135 9 134 12 133 14 131 17 129 19 126 22 123 25 119 27 117 29 112 31 109 34 104 36 100 38 94 40 90 42 84 43 79 45 73 47 68 48 61 49 55 50 48 52 42 52 36 53 29 54 22 54 15 55 9 55 2 55-5 55-12 54-19 55-26 54-32 53-39 53-45 52-52 51-58 50-64 49-70 47-76 46-82 44-87 42-92 41-97 39-102 37-107 35-110 33-115 30-118 28-121 26-125 23-127 21-130 18-132 15-133 13-135 11-136 7-137 5-138 2-137-1-137-3-137-6-135-9-135-12-132-14-131-17-129-19-126-22-123-25-120-27-116-29-113-32-108-33-104-36-100-38-95-40-89-42-84-43-79-45-73-47-68-48-61-49-55-50-48-52-42-52-36-53-29-54-22-54-16-55-8-55-2-55 5-55 12-55 19-54 26-54 32-54 39-52 45-52 52-51 58-50 64-49 70-47-3107-1383 3749 1099z" fill="#c0c0c0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#c0c0c0" stroke-linejoin="round" stroke-width="100">
     <path d="m14566 17332 49-14"/>
@@ -797,7 +797,7 @@
     <path d="m14360 17272 49 14"/>
     <path d="m14458 17300 49 15"/>
     <path d="m14556 17329 10 3"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="14922" y="17809" fill="rgb(192,192,192)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="13997" y="18401"><tspan fill="rgb(192,192,192)">Confronti sempre tra</tspan></tspan><tspan class="TextPosition" x="15060" y="18993"><tspan fill="rgb(192,192,192)">primi valori</tspan></tspan></tspan></text>
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="14922" y="17809" fill="rgb(192,192,192)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="13997" y="18401"><tspan fill="rgb(192,192,192)">Always compare the</tspan></tspan><tspan class="TextPosition" x="15060" y="18993"><tspan fill="rgb(192,192,192)">two heads</tspan></tspan></tspan></text>
     <path d="m14466 17232 111-32 114-31 119-28 121-26 125-23 127-21 130-18 131-15 134-13 135-11 136-7 137-5 137-2 138 1 137 3 137 6 135 9 134 12 133 14 131 17 129 19 126 22 123 25 119 27 117 29 112 31 109 34 104 36 100 38 94 40 90 42 84 43 79 45 73 47 68 48 61 49 55 50 48 52 42 52 36 53 29 54 22 54 15 55 9 55 2 55-5 55-12 54-19 55-26 54-32 53-39 53-45 52-52 51-58 50-64 49-70 47-76 46-82 44-87 42-92 41-97 39-102 37-107 35-110 33-115 30-118 28-121 26-125 23-127 21-130 18-132 15-133 13-135 11-136 7-137 5-138 2-137-1-137-3-137-6-135-9-135-12-132-14-131-17-129-19-126-22-123-25-120-27-116-29-113-32-108-33-104-36-100-38-95-40-89-42-84-43-79-45-73-47-68-48-61-49-55-50-48-52-42-52-36-53-29-54-22-54-16-55-8-55-2-55 5-55 12-55 19-54 26-54 32-54 39-52 45-52 52-51 58-50 64-49 70-47-3107-1383 3749 1099z" fill="#ff0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#800000" stroke-linejoin="round" stroke-width="100">
     <path d="m14466 17232 49-14"/>
     <path d="m14564 17204 13-4 36-10"/>
@@ -989,13 +989,13 @@
     <path d="m14260 17172 49 14"/>
     <path d="m14358 17200 49 15"/>
     <path d="m14456 17229 10 3"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="14822" y="17709" fill="rgb(0,0,0)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="13897" y="18301"><tspan fill="rgb(0,0,0)">Confronti sempre tra</tspan></tspan><tspan class="TextPosition" x="14960" y="18893"><tspan fill="rgb(0,0,0)">primi valori</tspan></tspan></tspan></text>
-   
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="14822" y="17709" fill="rgb(0,0,0)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="13897" y="18301"><tspan fill="rgb(0,0,0)">Always compare the</tspan></tspan><tspan class="TextPosition" x="14960" y="18893"><tspan fill="rgb(0,0,0)">two heads</tspan></tspan></tspan></text>
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="10194" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bt" x1="10295" x2="11397" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1003,10 +1003,10 @@
       </linearGradient>
      </defs>
      <path d="m10846 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bt)"/>
-    
+
     <path d="m10846 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10643" y="6455"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bs" x1="10195" x2="11297" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1014,15 +1014,15 @@
       </linearGradient>
      </defs>
      <path d="m10746 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bs)"/>
-    
+
     <path d="m10746 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10543" y="6355"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="11296" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="br" x1="11397" x2="12499" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1030,10 +1030,10 @@
       </linearGradient>
      </defs>
      <path d="m11948 6780h-551v-1102h1102v1102h-551z" style="fill:url(#br)"/>
-    
+
     <path d="m11948 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="11745" y="6455"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bp" x1="11297" x2="12399" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1041,15 +1041,15 @@
       </linearGradient>
      </defs>
      <path d="m11848 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bp)"/>
-    
+
     <path d="m11848 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="11645" y="6355"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="12398" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bo" x1="12499" x2="13601" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1057,10 +1057,10 @@
       </linearGradient>
      </defs>
      <path d="m13050 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bo)"/>
-    
+
     <path d="m13050 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12847" y="6455"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bn" x1="12399" x2="13501" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1068,15 +1068,15 @@
       </linearGradient>
      </defs>
      <path d="m12950 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bn)"/>
-    
+
     <path d="m12950 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12747" y="6355"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="13501" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bm" x1="13602" x2="14704" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1084,10 +1084,10 @@
       </linearGradient>
      </defs>
      <path d="m14153 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bm)"/>
-    
+
     <path d="m14153 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13950" y="6455"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bl" x1="13502" x2="14604" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1095,15 +1095,15 @@
       </linearGradient>
      </defs>
      <path d="m14053 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bl)"/>
-    
+
     <path d="m14053 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13850" y="6355"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="14603" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bk" x1="14704" x2="15806" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1111,10 +1111,10 @@
       </linearGradient>
      </defs>
      <path d="m15255 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bk)"/>
-    
+
     <path d="m15255 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15083" y="6455"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bj" x1="14604" x2="15706" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1122,15 +1122,15 @@
       </linearGradient>
      </defs>
      <path d="m15155 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bj)"/>
-    
+
     <path d="m15155 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="14983" y="6355"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="15706" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bi" x1="15807" x2="16909" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1138,10 +1138,10 @@
       </linearGradient>
      </defs>
      <path d="m16358 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bi)"/>
-    
+
     <path d="m16358 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16201" y="6455"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bh" x1="15707" x2="16809" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1149,15 +1149,15 @@
       </linearGradient>
      </defs>
      <path d="m16258 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bh)"/>
-    
+
     <path d="m16258 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16101" y="6355"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16808" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bg" x1="16909" x2="18011" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1165,10 +1165,10 @@
       </linearGradient>
      </defs>
      <path d="m17460 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bg)"/>
-    
+
     <path d="m17460 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17271" y="6455"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="be" x1="16809" x2="17911" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1176,15 +1176,15 @@
       </linearGradient>
      </defs>
      <path d="m17360 6680h-551v-1102h1102v1102h-551z" style="fill:url(#be)"/>
-    
+
     <path d="m17360 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17171" y="6355"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="17910" y="5577" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bd" x1="18011" x2="19113" y1="5678" y2="6780" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1192,10 +1192,10 @@
       </linearGradient>
      </defs>
      <path d="m18562 6780h-551v-1102h1102v1102h-551z" style="fill:url(#bd)"/>
-    
+
     <path d="m18562 6780h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18373" y="6455"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="bc" x1="17911" x2="19013" y1="5578" y2="6680" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1203,15 +1203,15 @@
       </linearGradient>
      </defs>
      <path d="m18462 6680h-551v-1102h1102v1102h-551z" style="fill:url(#bc)"/>
-    
+
     <path d="m18462 6680h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18273" y="6355"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="9367" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="bb" x1="9468" x2="10570" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1219,10 +1219,10 @@
       </linearGradient>
      </defs>
      <path d="m10019 8434h-551v-1102h1102v1102h-551z" style="fill:url(#bb)"/>
-    
+
     <path d="m10019 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9816" y="8109"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ba" x1="9368" x2="10470" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1230,15 +1230,15 @@
       </linearGradient>
      </defs>
      <path d="m9919 8334h-551v-1102h1102v1102h-551z" style="fill:url(#ba)"/>
-    
+
     <path d="m9919 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9716" y="8009"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="10469" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="az" x1="10570" x2="11672" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1246,10 +1246,10 @@
       </linearGradient>
      </defs>
      <path d="m11121 8434h-551v-1102h1102v1102h-551z" style="fill:url(#az)"/>
-    
+
     <path d="m11121 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10918" y="8109"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ay" x1="10470" x2="11572" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1257,15 +1257,15 @@
       </linearGradient>
      </defs>
      <path d="m11021 8334h-551v-1102h1102v1102h-551z" style="fill:url(#ay)"/>
-    
+
     <path d="m11021 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10818" y="8009"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="11572" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ax" x1="11673" x2="12775" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1273,10 +1273,10 @@
       </linearGradient>
      </defs>
      <path d="m12224 8434h-551v-1102h1102v1102h-551z" style="fill:url(#ax)"/>
-    
+
     <path d="m12224 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12021" y="8109"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="aw" x1="11573" x2="12675" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1284,15 +1284,15 @@
       </linearGradient>
      </defs>
      <path d="m12124 8334h-551v-1102h1102v1102h-551z" style="fill:url(#aw)"/>
-    
+
     <path d="m12124 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="11921" y="8009"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="12674" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="av" x1="12775" x2="13877" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1300,10 +1300,10 @@
       </linearGradient>
      </defs>
      <path d="m13326 8434h-551v-1102h1102v1102h-551z" style="fill:url(#av)"/>
-    
+
     <path d="m13326 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13123" y="8109"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="at" x1="12675" x2="13777" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1311,15 +1311,15 @@
       </linearGradient>
      </defs>
      <path d="m13226 8334h-551v-1102h1102v1102h-551z" style="fill:url(#at)"/>
-    
+
     <path d="m13226 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13023" y="8009"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="15430" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="as" x1="15531" x2="16633" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1327,10 +1327,10 @@
       </linearGradient>
      </defs>
      <path d="m16082 8434h-551v-1102h1102v1102h-551z" style="fill:url(#as)"/>
-    
+
     <path d="m16082 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15910" y="8109"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ar" x1="15431" x2="16533" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1338,15 +1338,15 @@
       </linearGradient>
      </defs>
      <path d="m15982 8334h-551v-1102h1102v1102h-551z" style="fill:url(#ar)"/>
-    
+
     <path d="m15982 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15810" y="8009"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16532" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="aq" x1="16633" x2="17735" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1354,10 +1354,10 @@
       </linearGradient>
      </defs>
      <path d="m17184 8434h-551v-1102h1102v1102h-551z" style="fill:url(#aq)"/>
-    
+
     <path d="m17184 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17027" y="8109"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ap" x1="16533" x2="17635" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1365,15 +1365,15 @@
       </linearGradient>
      </defs>
      <path d="m17084 8334h-551v-1102h1102v1102h-551z" style="fill:url(#ap)"/>
-    
+
     <path d="m17084 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16927" y="8009"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="17635" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ao" x1="17736" x2="18838" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1381,10 +1381,10 @@
       </linearGradient>
      </defs>
      <path d="m18287 8434h-551v-1102h1102v1102h-551z" style="fill:url(#ao)"/>
-    
+
     <path d="m18287 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18098" y="8109"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="an" x1="17636" x2="18738" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1392,15 +1392,15 @@
       </linearGradient>
      </defs>
      <path d="m18187 8334h-551v-1102h1102v1102h-551z" style="fill:url(#an)"/>
-    
+
     <path d="m18187 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17998" y="8009"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="18737" y="7231" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="am" x1="18838" x2="19940" y1="7332" y2="8434" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1408,10 +1408,10 @@
       </linearGradient>
      </defs>
      <path d="m19389 8434h-551v-1102h1102v1102h-551z" style="fill:url(#am)"/>
-    
+
     <path d="m19389 8434h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19200" y="8109"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="al" x1="18738" x2="19840" y1="7232" y2="8334" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1419,15 +1419,15 @@
       </linearGradient>
      </defs>
      <path d="m19289 8334h-551v-1102h1102v1102h-551z" style="fill:url(#al)"/>
-    
+
     <path d="m19289 8334h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19100" y="8009"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="9091" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ak" x1="9192" x2="10294" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1435,10 +1435,10 @@
       </linearGradient>
      </defs>
      <path d="m9743 10087h-551v-1102h1102v1102h-551z" style="fill:url(#ak)"/>
-    
+
     <path d="m9743 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9540" y="9762"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ai" x1="9092" x2="10194" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1446,15 +1446,15 @@
       </linearGradient>
      </defs>
      <path d="m9643 9987h-551v-1102h1102v1102h-551z" style="fill:url(#ai)"/>
-    
+
     <path d="m9643 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9440" y="9662"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="10194" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ah" x1="10295" x2="11397" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1462,10 +1462,10 @@
       </linearGradient>
      </defs>
      <path d="m10846 10087h-551v-1102h1102v1102h-551z" style="fill:url(#ah)"/>
-    
+
     <path d="m10846 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10643" y="9762"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ag" x1="10195" x2="11297" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1473,15 +1473,15 @@
       </linearGradient>
      </defs>
      <path d="m10746 9987h-551v-1102h1102v1102h-551z" style="fill:url(#ag)"/>
-    
+
     <path d="m10746 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10543" y="9662"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="11847" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="af" x1="11948" x2="13050" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1489,10 +1489,10 @@
       </linearGradient>
      </defs>
      <path d="m12499 10087h-551v-1102h1102v1102h-551z" style="fill:url(#af)"/>
-    
+
     <path d="m12499 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12296" y="9762"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ae" x1="11848" x2="12950" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1500,15 +1500,15 @@
       </linearGradient>
      </defs>
      <path d="m12399 9987h-551v-1102h1102v1102h-551z" style="fill:url(#ae)"/>
-    
+
     <path d="m12399 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12196" y="9662"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="12950" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ad" x1="13051" x2="14153" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1516,10 +1516,10 @@
       </linearGradient>
      </defs>
      <path d="m13602 10087h-551v-1102h1102v1102h-551z" style="fill:url(#ad)"/>
-    
+
     <path d="m13602 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13399" y="9762"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="ac" x1="12951" x2="14053" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1527,15 +1527,15 @@
       </linearGradient>
      </defs>
      <path d="m13502 9987h-551v-1102h1102v1102h-551z" style="fill:url(#ac)"/>
-    
+
     <path d="m13502 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13299" y="9662"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="15154" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="ab" x1="15255" x2="16357" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1543,10 +1543,10 @@
       </linearGradient>
      </defs>
      <path d="m15806 10087h-551v-1102h1102v1102h-551z" style="fill:url(#ab)"/>
-    
+
     <path d="m15806 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15634" y="9762"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="aa" x1="15155" x2="16257" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1554,15 +1554,15 @@
       </linearGradient>
      </defs>
      <path d="m15706 9987h-551v-1102h1102v1102h-551z" style="fill:url(#aa)"/>
-    
+
     <path d="m15706 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15534" y="9662"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16257" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="z" x1="16358" x2="17460" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1570,10 +1570,10 @@
       </linearGradient>
      </defs>
      <path d="m16909 10087h-551v-1102h1102v1102h-551z" style="fill:url(#z)"/>
-    
+
     <path d="m16909 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16752" y="9762"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="x" x1="16258" x2="17360" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1581,15 +1581,15 @@
       </linearGradient>
      </defs>
      <path d="m16809 9987h-551v-1102h1102v1102h-551z" style="fill:url(#x)"/>
-    
+
     <path d="m16809 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16652" y="9662"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="17910" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="w" x1="18011" x2="19113" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1597,10 +1597,10 @@
       </linearGradient>
      </defs>
      <path d="m18562 10087h-551v-1102h1102v1102h-551z" style="fill:url(#w)"/>
-    
+
     <path d="m18562 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18373" y="9762"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="v" x1="17911" x2="19013" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1608,15 +1608,15 @@
       </linearGradient>
      </defs>
      <path d="m18462 9987h-551v-1102h1102v1102h-551z" style="fill:url(#v)"/>
-    
+
     <path d="m18462 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18273" y="9662"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="19013" y="8884" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="u" x1="19114" x2="20216" y1="8985" y2="10087" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1624,10 +1624,10 @@
       </linearGradient>
      </defs>
      <path d="m19665 10087h-551v-1102h1102v1102h-551z" style="fill:url(#u)"/>
-    
+
     <path d="m19665 10087h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19476" y="9762"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="t" x1="19014" x2="20116" y1="8885" y2="9987" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1635,15 +1635,15 @@
       </linearGradient>
      </defs>
      <path d="m19565 9987h-551v-1102h1102v1102h-551z" style="fill:url(#t)"/>
-    
+
     <path d="m19565 9987h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19376" y="9662"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="8816" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="s" x1="8917" x2="10019" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1651,10 +1651,10 @@
       </linearGradient>
      </defs>
      <path d="m9468 11741h-551v-1102h1102v1102h-551z" style="fill:url(#s)"/>
-    
+
     <path d="m9468 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9265" y="11416"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="r" x1="8817" x2="9919" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1662,15 +1662,15 @@
       </linearGradient>
      </defs>
      <path d="m9368 11641h-551v-1102h1102v1102h-551z" style="fill:url(#r)"/>
-    
+
     <path d="m9368 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="9165" y="11316"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="10194" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="q" x1="10295" x2="11397" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1678,10 +1678,10 @@
       </linearGradient>
      </defs>
      <path d="m10846 11741h-551v-1102h1102v1102h-551z" style="fill:url(#q)"/>
-    
+
     <path d="m10846 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10643" y="11416"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="p" x1="10195" x2="11297" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1689,15 +1689,15 @@
       </linearGradient>
      </defs>
      <path d="m10746 11641h-551v-1102h1102v1102h-551z" style="fill:url(#p)"/>
-    
+
     <path d="m10746 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="10543" y="11316"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="11847" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="o" x1="11948" x2="13050" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1705,10 +1705,10 @@
       </linearGradient>
      </defs>
      <path d="m12499 11741h-551v-1102h1102v1102h-551z" style="fill:url(#o)"/>
-    
+
     <path d="m12499 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12296" y="11416"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="m" x1="11848" x2="12950" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1716,15 +1716,15 @@
       </linearGradient>
      </defs>
      <path d="m12399 11641h-551v-1102h1102v1102h-551z" style="fill:url(#m)"/>
-    
+
     <path d="m12399 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="12196" y="11316"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="13225" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="l" x1="13326" x2="14428" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1732,10 +1732,10 @@
       </linearGradient>
      </defs>
      <path d="m13877 11741h-551v-1102h1102v1102h-551z" style="fill:url(#l)"/>
-    
+
     <path d="m13877 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13674" y="11416"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="k" x1="13226" x2="14328" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1743,15 +1743,15 @@
       </linearGradient>
      </defs>
      <path d="m13777 11641h-551v-1102h1102v1102h-551z" style="fill:url(#k)"/>
-    
+
     <path d="m13777 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="13574" y="11316"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="14879" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="j" x1="14980" x2="16082" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1759,10 +1759,10 @@
       </linearGradient>
      </defs>
      <path d="m15531 11741h-551v-1102h1102v1102h-551z" style="fill:url(#j)"/>
-    
+
     <path d="m15531 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15359" y="11416"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="i" x1="14880" x2="15982" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1770,15 +1770,15 @@
       </linearGradient>
      </defs>
      <path d="m15431 11641h-551v-1102h1102v1102h-551z" style="fill:url(#i)"/>
-    
+
     <path d="m15431 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="15259" y="11316"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16257" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="h" x1="16358" x2="17460" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1786,10 +1786,10 @@
       </linearGradient>
      </defs>
      <path d="m16909 11741h-551v-1102h1102v1102h-551z" style="fill:url(#h)"/>
-    
+
     <path d="m16909 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16752" y="11416"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="g" x1="16258" x2="17360" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1797,15 +1797,15 @@
       </linearGradient>
      </defs>
      <path d="m16809 11641h-551v-1102h1102v1102h-551z" style="fill:url(#g)"/>
-    
+
     <path d="m16809 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="16652" y="11316"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="17910" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="f" x1="18011" x2="19113" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1813,10 +1813,10 @@
       </linearGradient>
      </defs>
      <path d="m18562 11741h-551v-1102h1102v1102h-551z" style="fill:url(#f)"/>
-    
+
     <path d="m18562 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18373" y="11416"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="e" x1="17911" x2="19013" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1824,15 +1824,15 @@
       </linearGradient>
      </defs>
      <path d="m18462 11641h-551v-1102h1102v1102h-551z" style="fill:url(#e)"/>
-    
+
     <path d="m18462 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18273" y="11316"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="19288" y="10538" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="d" x1="19389" x2="20491" y1="10639" y2="11741" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -1840,10 +1840,10 @@
       </linearGradient>
      </defs>
      <path d="m19940 11741h-551v-1102h1102v1102h-551z" style="fill:url(#d)"/>
-    
+
     <path d="m19940 11741h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19751" y="11416"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="b" x1="19289" x2="20391" y1="10539" y2="11641" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#ff6" offset=".45"/>
@@ -1851,136 +1851,136 @@
       </linearGradient>
      </defs>
      <path d="m19840 11641h-551v-1102h1102v1102h-551z" style="fill:url(#b)"/>
-    
+
     <path d="m19840 11641h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19651" y="11316"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="11573" y="6661" width="3052" height="653" fill="none"/>
     <path d="m14604 6681-2523 459" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m11573 7232 563 81-64-355-499 274z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="14584" y="6661" width="3052" height="653" fill="none"/>
     <path d="m14604 6681 2523 459" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m17635 7232-499-274-64 355 563-81z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="10195" y="8314" width="1399" height="572" fill="none"/>
     <path d="m11573 8334-899 359" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m10195 8885 568-33-133-335-435 368z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="11553" y="8314" width="1399" height="572" fill="none"/>
     <path d="m11573 8334 899 359" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m12951 8885-435-368-133 335 568 33z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="16258" y="8314" width="1399" height="572" fill="none"/>
     <path d="m17636 8334-899 359" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m16258 8885 568-33-133-335-435 368z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="17616" y="8314" width="1399" height="572" fill="none"/>
     <path d="m17636 8334 899 359" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m19014 8885-435-368-133 335 568 33z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="9368" y="9968" width="848" height="572" fill="none"/>
     <path d="m10195 9988-398 265" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m9368 10539 549-150-199-299-350 449z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="10175" y="9968" width="572" height="572" fill="none"/>
     <path d="m10195 9988 186 186" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m10746 10539-255-509-254 254 509 255z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="12307" y="9968" width="665" height="572" fill="none"/>
     <path d="m12951 9988-252 216" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m12307 10539 527-214-234-274-293 488z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="12931" y="9968" width="848" height="572" fill="none"/>
     <path d="m12951 9988 398 265" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m13778 10539-350-449-199 299 549 150z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="15431" y="9968" width="848" height="572" fill="none"/>
     <path d="m16258 9988-398 265" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m15431 10539 549-150-199-299-350 449z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="16238" y="9968" width="572" height="572" fill="none"/>
     <path d="m16258 9988 186 186" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m16809 10539-255-509-254 254 509 255z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="18463" y="9968" width="572" height="572" fill="none"/>
     <path d="m19014 9988-186 186" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m18463 10539 509-255-254-254-255 509z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.LineShape">
-   
+
     <rect class="BoundingBox" x="18994" y="9968" width="848" height="572" fill="none"/>
     <path d="m19014 9988 398 265" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="40"/>
     <path d="m19841 10539-350-449-199 299 549 150z"/>
-   
+
   </g>
   <g class="com.sun.star.drawing.TextShape">
-   
+
     <rect class="BoundingBox" x="8226" y="12261" width="4025" height="1490" fill="none"/>
     <path d="m10238 13750h-2012v-1489h4024v1489h-2012z" fill="#fff" fill-opacity=".698" stroke="#fff" stroke-opacity=".698"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="917px" font-weight="700"><tspan class="TextPosition" x="8476" y="13303"><tspan fill="rgb(0,0,0)">Divide...</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.TextShape">
-   
+
     <rect class="BoundingBox" x="20170" y="5578" width="4135" height="1217" fill="none"/>
-    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="6267" fill="rgb(0,0,0)"><tspan>Costo</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> n</tspan></tspan></tspan></text>
-   
+    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="6267" fill="rgb(0,0,0)"><tspan>Cost</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> n</tspan></tspan></tspan></text>
+
   </g>
   <g class="com.sun.star.drawing.TextShape">
-   
+
     <rect class="BoundingBox" x="20170" y="7235" width="4135" height="1217" fill="none"/>
-    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="7924" fill="rgb(0,0,0)"><tspan>Costo</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> 2</tspan><tspan font-family="Times New Roman, serif" font-style="italic">·</tspan><tspan font-family="Times New Roman, serif" font-style="italic">n/2</tspan></tspan></tspan></text>
-   
+    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="7924" fill="rgb(0,0,0)"><tspan>Cost</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> 2</tspan><tspan font-family="Times New Roman, serif" font-style="italic">·</tspan><tspan font-family="Times New Roman, serif" font-style="italic">n/2</tspan></tspan></tspan></text>
+
   </g>
   <g class="com.sun.star.drawing.TextShape">
-   
+
     <rect class="BoundingBox" x="20170" y="8885" width="4135" height="1217" fill="none"/>
-    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="9574" fill="rgb(0,0,0)"><tspan>Costo</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> 4</tspan><tspan font-family="Times New Roman, serif" font-style="italic">·</tspan><tspan font-family="Times New Roman, serif" font-style="italic">n/4</tspan></tspan></tspan></text>
-   
+    <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20420" y="9574" fill="rgb(0,0,0)"><tspan>Cost</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> </tspan><tspan font-family="Times New Roman, serif" font-style="italic">∝</tspan><tspan font-family="Times New Roman, serif" font-style="italic"> 4</tspan><tspan font-family="Times New Roman, serif" font-style="italic">·</tspan><tspan font-family="Times New Roman, serif" font-style="italic">n/4</tspan></tspan></tspan></text>
+
   </g>
   <g class="com.sun.star.drawing.CustomShape">
-   
+
     <rect class="BoundingBox" x="19450" y="10064" width="5713" height="4292" fill="none"/>
     <path d="m22014 12108 137-6 137-3h138l137 3 137 6 135 8 135 11 133 13 132 17 129 18 126 22 124 24 121 26 117 29 113 31 110 33 105 35 101 38 96 39 91 41 85 43 81 45 74 46 69 48 62 49 57 50 50 51 44 52 37 53 31 54 23 54 17 55 11 54 3 55-3 55-11 55-17 55-24 54-30 54-38 52-43 53-51 51-56 50-63 49-69 47-74 47-81 44-85 43-91 41-96 40-101 37-105 36-110 33-113 31-118 28-120 27-124 24-127 21-129 19-131 16-134 13-134 11-136 8-137 6-137 3h-138l-137-3-137-6-135-8-135-11-133-13-132-17-129-18-126-22-124-24-121-26-117-29-113-31-110-33-105-35-101-38-96-39-91-41-85-43-81-45-74-46-69-48-62-49-57-50-50-51-44-52-37-53-31-54-23-54-17-55-11-54-3-55 3-55 11-55 17-55 24-54 30-53 38-53 43-53 51-51 56-50 63-49 69-47 74-47 81-44 85-43 91-41 96-40 101-37 105-36 110-33 113-31 118-28 120-27-1044-2006 1959 1894z" fill="#c0c0c0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#c0c0c0" stroke-linejoin="round" stroke-width="100">
     <path d="m22014 12108 51-2"/>
@@ -2148,7 +2148,7 @@
     <path d="m21852 11952 37 35"/>
     <path d="m21926 12023 36 35"/>
     <path d="m21999 12094 15 14"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="20784" y="12808"><tspan fill="rgb(192,192,192)">Ad ogni passo</tspan></tspan><tspan class="TextPosition" x="20284" y="13400"><tspan fill="rgb(192,192,192)">la lista viene divisa</tspan></tspan><tspan class="TextPosition" x="21226" y="13992"><tspan fill="rgb(192,192,192)">nel mezzo</tspan></tspan></tspan></text>
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="20784" y="12808"><tspan fill="rgb(192,192,192)">At each step</tspan></tspan><tspan class="TextPosition" x="20284" y="13400"><tspan fill="rgb(192,192,192)">the list is split</tspan></tspan><tspan class="TextPosition" x="21226" y="13992"><tspan fill="rgb(192,192,192)">in the middle</tspan></tspan></tspan></text>
     <path d="m21914 12008 137-6 137-3h138l137 3 137 6 135 8 135 11 133 13 132 17 129 18 126 22 124 24 121 26 117 29 113 31 110 33 105 35 101 38 96 39 91 41 85 43 81 45 74 46 69 48 62 49 57 50 50 51 44 52 37 53 31 54 23 54 17 55 11 54 3 55-3 55-11 55-17 55-24 54-30 54-38 52-43 53-51 51-56 50-63 49-69 47-74 47-81 44-85 43-91 41-96 40-101 37-105 36-110 33-113 31-118 28-120 27-124 24-127 21-129 19-131 16-134 13-134 11-136 8-137 6-137 3h-138l-137-3-137-6-135-8-135-11-133-13-132-17-129-18-126-22-124-24-121-26-117-29-113-31-110-33-105-35-101-38-96-39-91-41-85-43-81-45-74-46-69-48-62-49-57-50-50-51-44-52-37-53-31-54-23-54-17-55-11-54-3-55 3-55 11-55 17-55 24-54 30-53 38-53 43-53 51-51 56-50 63-49 69-47 74-47 81-44 85-43 91-41 96-40 101-37 105-36 110-33 113-31 118-28 120-27-1044-2006 1959 1894z" fill="#ff0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#800000" stroke-linejoin="round" stroke-width="100">
     <path d="m21914 12008 51-2"/>
     <path d="m22016 12004 35-2h16"/>
@@ -2315,8 +2315,8 @@
     <path d="m21752 11852 37 35"/>
     <path d="m21826 11923 36 35"/>
     <path d="m21899 11994 15 14"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="20684" y="12708"><tspan fill="rgb(0,0,0)">Ad ogni passo</tspan></tspan><tspan class="TextPosition" x="20184" y="13300"><tspan fill="rgb(0,0,0)">la lista viene divisa</tspan></tspan><tspan class="TextPosition" x="21126" y="13892"><tspan fill="rgb(0,0,0)">nel mezzo</tspan></tspan></tspan></text>
-   
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="20684" y="12708"><tspan fill="rgb(0,0,0)">At each step</tspan></tspan><tspan class="TextPosition" x="20184" y="13300"><tspan fill="rgb(0,0,0)">the list is split</tspan></tspan><tspan class="TextPosition" x="21126" y="13892"><tspan fill="rgb(0,0,0)">in the middle</tspan></tspan></tspan></text>
+
   </g>
  </g>
 </svg>

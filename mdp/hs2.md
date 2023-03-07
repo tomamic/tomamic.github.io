@@ -351,6 +351,10 @@ loop:
 
 ---
 
+# Exercise
+
+---
+
 # Higher order functions
 
 ---
@@ -715,14 +719,10 @@ collatz n
 - For all starting numbers
 	- The chains finish at the number `1`
 	- Edge: cycle `1-4-2-1`
-	
+
 >
 
 https://www.jasondavies.com/collatz-graph/
-
----
-
-# Exercise
 
 ---
 
@@ -750,16 +750,24 @@ Prelude> (listOfFuns !! 4) 5
 - Usually, surrounded by parentheses
 
 ``` hs
-numLongChains :: Int
-numLongChains = length (filter (\xs -> length xs > 15)
-                               (map collatz [1..100]))
+longWords :: String -> [String]
+longWords ws = filter (\xs -> length xs > 3) (words ws)
 ```
+
+``` hs
+Prelude> longWords "elephants know how to party"
+["elephants","know","party"]
+```
+
+>
+
+`words` splits a string on whitespaces
 
 ---
 
 # Lambdas and currying
 
-- The expression `(\xs -> length xs > 15)` returns a f.
+- The expression `(\xs -> length xs > 3)` returns a f.
 - Functional programmers often replace lambdas with currying and partial application
     - `map (+3) [1,6,3,2]`
     - `map (\x -> x + 3) [1,6,3,2]`
@@ -793,6 +801,10 @@ f a b c = a * b + c
 
 f' a b = \c -> a * b + c
 ```
+
+---
+
+# Exercise
 
 ---
 
@@ -1024,48 +1036,12 @@ required argument
 
 ---
 
-![](images/misc/three-brothers.png)
-# Ex. Maximum with tail recursion
-
-- Find the maximum in a list, in *Haskell*
-- Define a tail recursive function
-    - Parameters: the list and an accumulator
-    - The accumulator holds the maximum so far
-
->
-
-Try and use guards, if, max
-
----
-
-![](images/misc/histogram.svg)
-# Ex. Skyscrapers in Haskell
-
-- Given a list of unique positive integers values...
-- How many times does the maximum change?
-- Adapt to Haskell, with tail recursion
-
-``` py
-from random import shuffle
-values = list(range(1, 6))
-shuffle(values)  # e.g., [3, 1, 4, 2, 5]
-
-highest, count = 0, 0
-for v in values:
-    if v > highest:
-        highest = v
-        count += 1
-print(highest, count)
-```
-
->
-
-From left to right, how many “rooftops” are visible? (In the figure: 6)
+# Exercise
 
 ---
 
 ![](images/fun/foldl.png)
-# Ex. Alternative sum function
+# Alternative sum function
 
 ``` hs
 Prelude> sum [3, 5, 2, 1]

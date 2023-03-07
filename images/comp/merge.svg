@@ -49,22 +49,22 @@
   </font>
  </defs>
  <defs class="EmbeddedBulletChars">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
  </defs>
  <g class="Page" ooo:name="page19">
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="18197" y="14334" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="p" x1="18298" x2="19400" y1="14435" y2="15537" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -72,10 +72,10 @@
       </linearGradient>
      </defs>
      <path d="m18849 15537h-551v-1102h1102v1102h-551z" style="fill:url(#p)"/>
-    
+
     <path d="m18849 15537h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18646" y="15212"><tspan fill="rgb(128,128,128)">D</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="h" x1="18198" x2="19300" y1="14335" y2="15437" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -83,15 +83,15 @@
       </linearGradient>
      </defs>
      <path d="m18749 15437h-551v-1102h1102v1102h-551z" style="fill:url(#h)"/>
-    
+
     <path d="m18749 15437h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="18546" y="15112"><tspan fill="rgb(0,0,0)">D</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="19300" y="14334" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="g" x1="19401" x2="20503" y1="14435" y2="15537" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -99,10 +99,10 @@
       </linearGradient>
      </defs>
      <path d="m19952 15537h-551v-1102h1102v1102h-551z" style="fill:url(#g)"/>
-    
+
     <path d="m19952 15537h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19749" y="15212"><tspan fill="rgb(128,128,128)">G</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="f" x1="19301" x2="20403" y1="14335" y2="15437" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -110,15 +110,15 @@
       </linearGradient>
      </defs>
      <path d="m19852 15437h-551v-1102h1102v1102h-551z" style="fill:url(#f)"/>
-    
+
     <path d="m19852 15437h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="19649" y="15112"><tspan fill="rgb(0,0,0)">G</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="23434" y="14332" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="e" x1="23535" x2="24637" y1="14433" y2="15535" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -126,10 +126,10 @@
       </linearGradient>
      </defs>
      <path d="m24086 15535h-551v-1102h1102v1102h-551z" style="fill:url(#e)"/>
-    
+
     <path d="m24086 15535h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="23897" y="15210"><tspan fill="rgb(128,128,128)">C</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="d" x1="23435" x2="24537" y1="14333" y2="15435" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -137,15 +137,15 @@
       </linearGradient>
      </defs>
      <path d="m23986 15435h-551v-1102h1102v1102h-551z" style="fill:url(#d)"/>
-    
+
     <path d="m23986 15435h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="23797" y="15110"><tspan fill="rgb(0,0,0)">C</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="24536" y="14332" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="c" x1="24637" x2="25739" y1="14433" y2="15535" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -153,10 +153,10 @@
       </linearGradient>
      </defs>
      <path d="m25188 15535h-551v-1102h1102v1102h-551z" style="fill:url(#c)"/>
-    
+
     <path d="m25188 15535h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="25016" y="15210"><tspan fill="rgb(128,128,128)">E</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="b" x1="24537" x2="25639" y1="14333" y2="15435" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -164,15 +164,15 @@
       </linearGradient>
      </defs>
      <path d="m25088 15435h-551v-1102h1102v1102h-551z" style="fill:url(#b)"/>
-    
+
     <path d="m25088 15435h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="24916" y="15110"><tspan fill="rgb(0,0,0)">E</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="25638" y="14332" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="a" x1="25739" x2="26841" y1="14433" y2="15535" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -180,10 +180,10 @@
       </linearGradient>
      </defs>
      <path d="m26290 15535h-551v-1102h1102v1102h-551z" style="fill:url(#a)"/>
-    
+
     <path d="m26290 15535h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="26133" y="15210"><tspan fill="rgb(128,128,128)">F</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="o" x1="25639" x2="26741" y1="14333" y2="15435" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -191,15 +191,15 @@
       </linearGradient>
      </defs>
      <path d="m26190 15435h-551v-1102h1102v1102h-551z" style="fill:url(#o)"/>
-    
+
     <path d="m26190 15435h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="26033" y="15110"><tspan fill="rgb(0,0,0)">F</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="20402" y="14334" width="1205" height="1205" fill="none"/>
-    
+
      <defs>
       <linearGradient id="n" x1="20503" x2="21605" y1="14435" y2="15537" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -207,10 +207,10 @@
       </linearGradient>
      </defs>
      <path d="m21054 15537h-551v-1102h1102v1102h-551z" style="fill:url(#n)"/>
-    
+
     <path d="m21054 15537h-551v-1102h1102v1102h-551z" fill="none" stroke="#808080"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20851" y="15212"><tspan fill="rgb(128,128,128)">H</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="m" x1="20403" x2="21505" y1="14335" y2="15437" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -218,15 +218,15 @@
       </linearGradient>
      </defs>
      <path d="m20954 15437h-551v-1102h1102v1102h-551z" style="fill:url(#m)"/>
-    
+
     <path d="m20954 15437h-551v-1102h1102v1102h-551z" fill="none" stroke="#000"/>
     <text class="TextShape"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="20751" y="15112"><tspan fill="rgb(0,0,0)">H</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="16970" y="14210" width="1453" height="1454" fill="none"/>
-    
+
      <defs>
       <linearGradient id="l" x1="17071" x2="18422" y1="14311" y2="15662" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -234,10 +234,10 @@
       </linearGradient>
      </defs>
      <path d="m17603 15519-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#l)"/>
-    
+
     <path d="m17603 15519-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#808080"/>
     <text class="TextShape" transform="rotate(15 17491 15152)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17491" y="15152"><tspan fill="rgb(128,128,128)">A</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="k" x1="16971" x2="18322" y1="14211" y2="15562" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#0f0" offset=".45"/>
@@ -245,15 +245,15 @@
       </linearGradient>
      </defs>
      <path d="m17503 15419-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#k)"/>
-    
+
     <path d="m17503 15419-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#000"/>
     <text class="TextShape" transform="rotate(15 17391 15052)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="17391" y="15052"><tspan fill="rgb(0,0,0)">A</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.RectangleShape">
-   
+
     <rect class="BoundingBox" x="22207" y="14209" width="1453" height="1454" fill="none"/>
-    
+
      <defs>
       <linearGradient id="j" x1="22308" x2="23659" y1="14310" y2="15661" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#808080" offset=".45"/>
@@ -261,10 +261,10 @@
       </linearGradient>
      </defs>
      <path d="m22840 15518-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#j)"/>
-    
+
     <path d="m22840 15518-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#808080"/>
     <text class="TextShape" transform="rotate(15 22742 15155)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="22742" y="15155"><tspan fill="rgb(128,128,128)">B</tspan></tspan></tspan></text>
-    
+
      <defs>
       <linearGradient id="i" x1="22208" x2="23559" y1="14210" y2="15561" gradientUnits="userSpaceOnUse">
        <stop style="stop-color:#f00" offset=".45"/>
@@ -272,13 +272,13 @@
       </linearGradient>
      </defs>
      <path d="m22740 15418-532-143 286-1065 1064 286-286 1065-532-143z" style="fill:url(#i)"/>
-    
+
     <path d="m22740 15418-532-143 286-1065 1064 286-286 1065-532-143z" fill="none" stroke="#000"/>
     <text class="TextShape" transform="rotate(15 22642 15055)"><tspan class="TextParagraph" font-family="Times New Roman, serif" font-size="564px" font-weight="400"><tspan class="TextPosition" x="22642" y="15055"><tspan fill="rgb(0,0,0)">B</tspan></tspan></tspan></text>
-   
+
   </g>
   <g class="com.sun.star.drawing.CustomShape">
-   
+
     <rect class="BoundingBox" x="20343" y="15160" width="5713" height="3457" fill="none"/>
     <path d="m23420 16362 137 5 136 7 135 11 134 13 131 15 130 18 127 21 125 23 121 26 119 28 114 30 111 33 106 35 102 37 97 39 92 40 87 43 82 44 76 46 70 47 65 49 58 50 52 51 45 51 39 53 32 54 26 54 19 54 12 55 5 55-2 55-8 55-16 54-22 55-29 53-35 54-42 52-49 51-55 51-61 49-67 48-73 47-79 45-84 43-90 42-95 40-99 38-104 35-109 34-112 32-116 29-120 27-123 24-126 22-129 20-131 17-132 14-135 12-135 9-137 6-137 3-137 1-138-2-136-5-137-7-135-11-133-12-132-16-130-18-127-21-125-23-121-26-118-28-115-30-110-33-107-35-102-37-97-38-92-41-87-43-82-44-76-46-70-47-64-49-59-49-51-51-46-52-39-53-32-53-26-55-19-54-12-55-5-55 2-55 8-55 16-54 22-55 29-53 35-53 42-53 49-51 55-51 61-49 67-48 73-46 79-46 84-43 90-42 94-40 100-37 104-36 108-34 113-32 116-29 120-27 123-24 126-22 128-20 131-17 172-1095 780 1052z" fill="#c0c0c0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#c0c0c0" stroke-linejoin="round" stroke-width="100">
     <path d="m23420 16362 51 2"/>
@@ -563,7 +563,7 @@
    </g>
   </g>
   <g class="com.sun.star.drawing.CustomShape">
-   
+
     <rect class="BoundingBox" x="17658" y="15342" width="8398" height="3275" fill="none"/>
     <path d="m21557 16592 111-32 114-31 119-28 121-26 125-23 127-21 130-18 131-15 134-13 135-11 136-7 137-5 137-2 138 1 137 3 137 6 135 9 134 12 133 14 131 17 129 19 126 22 123 25 119 27 117 29 112 31 109 34 104 36 100 38 94 40 90 42 84 43 79 45 73 47 68 48 61 49 55 50 48 52 42 52 36 53 29 54 22 54 15 55 9 55 2 55-5 55-12 54-19 55-26 54-32 53-39 53-45 52-52 51-58 50-64 49-70 47-76 46-82 44-87 42-92 41-97 39-102 37-107 35-110 33-115 30-118 28-121 26-125 23-127 21-130 18-132 15-133 13-135 11-136 7-137 5-138 2-137-1-137-3-137-6-135-9-135-12-132-14-131-17-129-19-126-22-123-25-120-27-116-29-113-32-108-33-104-36-100-38-95-40-89-42-84-43-79-45-73-47-68-48-61-49-55-50-48-52-42-52-36-53-29-54-22-54-16-55-8-55-2-55 5-55 12-55 19-54 26-54 32-54 39-52 45-52 52-51 58-50 64-49 70-47-3107-1383 3749 1099z" fill="#c0c0c0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#c0c0c0" stroke-linejoin="round" stroke-width="100">
     <path d="m21557 16592 49-14"/>
@@ -756,7 +756,7 @@
     <path d="m21351 16532 49 14"/>
     <path d="m21449 16560 49 15"/>
     <path d="m21547 16589 10 3"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="21913" y="17069" fill="rgb(192,192,192)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="20988" y="17661"><tspan fill="rgb(192,192,192)">Confronti sempre tra</tspan></tspan><tspan class="TextPosition" x="22051" y="18253"><tspan fill="rgb(192,192,192)">primi valori</tspan></tspan></tspan></text>
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="21913" y="17069" fill="rgb(192,192,192)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="20988" y="17661"><tspan fill="rgb(192,192,192)">Always compare the</tspan></tspan><tspan class="TextPosition" x="22051" y="18253"><tspan fill="rgb(192,192,192)">two heads</tspan></tspan></tspan></text>
     <path d="m21457 16492 111-32 114-31 119-28 121-26 125-23 127-21 130-18 131-15 134-13 135-11 136-7 137-5 137-2 138 1 137 3 137 6 135 9 134 12 133 14 131 17 129 19 126 22 123 25 119 27 117 29 112 31 109 34 104 36 100 38 94 40 90 42 84 43 79 45 73 47 68 48 61 49 55 50 48 52 42 52 36 53 29 54 22 54 15 55 9 55 2 55-5 55-12 54-19 55-26 54-32 53-39 53-45 52-52 51-58 50-64 49-70 47-76 46-82 44-87 42-92 41-97 39-102 37-107 35-110 33-115 30-118 28-121 26-125 23-127 21-130 18-132 15-133 13-135 11-136 7-137 5-138 2-137-1-137-3-137-6-135-9-135-12-132-14-131-17-129-19-126-22-123-25-120-27-116-29-113-32-108-33-104-36-100-38-95-40-89-42-84-43-79-45-73-47-68-48-61-49-55-50-48-52-42-52-36-53-29-54-22-54-16-55-8-55-2-55 5-55 12-55 19-54 26-54 32-54 39-52 45-52 52-51 58-50 64-49 70-47-3107-1383 3749 1099z" fill="#ff0" fill-opacity=".502" stroke="#fff" stroke-opacity=".502"/><g fill="none" stroke="#800000" stroke-linejoin="round" stroke-width="100">
     <path d="m21457 16492 49-14"/>
     <path d="m21555 16464 13-4 36-10"/>
@@ -948,8 +948,8 @@
     <path d="m21251 16432 49 14"/>
     <path d="m21349 16460 49 15"/>
     <path d="m21447 16489 10 3"/>
-    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="21813" y="16969" fill="rgb(0,0,0)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="20888" y="17561"><tspan fill="rgb(0,0,0)">Confronti sempre tra</tspan></tspan><tspan class="TextPosition" x="21951" y="18153"><tspan fill="rgb(0,0,0)">primi valori</tspan></tspan></tspan></text>
-   
+    </g><text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="494px" font-weight="400"><tspan class="TextPosition" x="21813" y="16969" fill="rgb(0,0,0)"><tspan>Merge: </tspan><tspan font-style="italic">O(n)</tspan></tspan><tspan class="TextPosition" x="20888" y="17561"><tspan fill="rgb(0,0,0)">Always compare the</tspan></tspan><tspan class="TextPosition" x="21951" y="18153"><tspan fill="rgb(0,0,0)">two heads</tspan></tspan></tspan></text>
+
   </g>
  </g>
 </svg>
