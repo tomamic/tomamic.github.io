@@ -2110,7 +2110,7 @@ plt.show()
 names = ['group_a', 'group_b', 'group_c']
 values = [1, 10, 100]
 
-plt.figure(1, figsize=(9, 3))  # inches
+plt.figure(figsize=(9, 3))  # inches
 
 plt.subplot(131)  # rows, cols, index
 plt.bar(names, values)
