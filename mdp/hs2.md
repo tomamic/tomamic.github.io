@@ -59,7 +59,7 @@ Example list of numbers, check out how this would work on them: [2,5,1]
 
 # Maximum with max
 
-- `max` takes two numbers and returns the bigger
+- `max` takes two values and returns the bigger
 
 ``` hs
 maximum' :: (Ord a) => [a] -> a
@@ -717,8 +717,8 @@ collatz n
 # Collatz conjecture
 
 - For all starting numbers
-	- The chains finish at the number `1`
-	- Edge: cycle `1-4-2-1`
+  - The chains finish at the number `1`
+  - Edge: cycle `1-4-2-1`
 
 >
 
