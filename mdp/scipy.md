@@ -1685,16 +1685,18 @@ array([700., 1500.])
 >>> w, v = np.linalg.eig(a)
 >>> w  # eigenvalues
 array([-0.37228132, 5.37228132])
->>> np.linalg.det(w[0] * np.eye(2) - a)  # det(λI − A) = 0
+>>> np.linalg.det(w[0] * np.eye(2) - a)
 0.0
 >>> v  # eigenvectors: normalized, in columns (⚠️)
 array([[-0.82456484, -0.41597356],
        [ 0.56576746, -0.90937671]])
 >>> np.sum(v**2, axis=0)  # magnitude = 1
 array([1., 1.])
->>> a @ v.T[0] - w[0] * v.T[0]  # ∀i, A·vᵢ == λᵢvᵢ
+>>> a @ v.T[0] - w[0] * v.T[0]
 array([0, 0])
 ```
+
+`$$ \forall_i, det(λ_i I − A) = 0, A·vᵢ = λᵢvᵢ $$`
 
 ---
 
@@ -2347,7 +2349,8 @@ plt.show()
     - Evaluate the degree of each node
     - Evaluate and plot the distribution of degrees
 - Compare the distributions with a power-law function
-    - `y = a·x⁻ᵏ`, `2≤k≤3`
+
+`$$ y = a \cdot x^{-k}, 2 \leq k \leq 3 $$`
 
 >
 
