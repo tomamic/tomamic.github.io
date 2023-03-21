@@ -879,6 +879,29 @@ Also in C++, `operator()` can be overloaded, to create a so-called *function obj
 
 ---
 
+
+# Python operators as functions
+
+- The `operator` module defines f.s representing operators
+
+``` py
+>>> from operator import add, mul
+>>> add(2, 3)
+5
+>>> list(map(add, [3, 5, 2, 1], [2, 5, 3]))
+[5, 10, 5]
+>>> list(map(mul, [3, 5, 2, 1], [2, 5, 3]))
+[6, 25, 6]
+>>> list(map(pow, [3, 5, 2, 1], [2, 5, 3]))
+[9, 3125, 8]
+```
+
+>
+
+Used on multiple lists, `map` works ~ like `zipWith`
+
+---
+
 # Multiprocessing
 
 - Module for working with multiple processes
@@ -918,29 +941,6 @@ Example: [PaNDEMON](https://github.com/tomamic/paradigmi/blob/master/python/pand
 
 ---
 
-
-# Python operators as functions
-
-- The `operator` module defines f.s representing operators
-
-``` py
->>> from operator import add, mul
->>> add(2, 3)
-5
->>> list(map(add, [3, 5, 2, 1], [2, 5, 3]))
-[5, 10, 5]
->>> list(map(mul, [3, 5, 2, 1], [2, 5, 3]))
-[6, 25, 6]
->>> list(map(pow, [3, 5, 2, 1], [2, 5, 3]))
-[9, 3125, 8]
-```
-
->
-
-Used on multiple lists, `map` works ~ like `zipWith`
-
----
-
 # Lambda functions
 
 - Anonymous function, body is a *single expression*
@@ -959,7 +959,7 @@ Used on multiple lists, `map` works ~ like `zipWith`
 
 >
 
-Example: [behaviours of GUI widgets](https://github.com/tomamic/fondinfo/blob/master/examples/p5_tk_fifteen.py)
+Example: [behaviours of GUI widgets](https://github.com/tomamic/paradigmi/blob/master/python/x6_boardgame_tk.py)
 
 ---
 
@@ -1028,6 +1028,35 @@ required argument
 >>> d = {"x":"14", "base":16}
 >>> int(**d)
 20
+```
+
+---
+
+# Filtering in Python
+
+- `filter` is a built-in feature
+    - Takes a predicate and an iterable
+- `takewhile` is defined in the `itertools` module
+    - Takes a predicate and an iterable
+- In many cases, a *comprehension* offers an alternative option
+
+``` py
+>>> "".join(takewhile(lambda x: x != " ",
+                      "elephants know how to party"))
+"elephants"
+```
+
+---
+
+# Generator expression
+
+- Sort of *lazy* list comprehension
+- Same syntax, simply without squared brackes
+- It requires parentheses, if not already present
+
+``` py
+>>> "".join(x for x in "IdontLIKEFROGS" if x.isupper())
+"ILIKEFROGS"
 ```
 
 ---
