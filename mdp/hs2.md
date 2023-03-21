@@ -965,8 +965,8 @@ Example: [behaviours of GUI widgets](https://github.com/tomamic/paradigmi/blob/m
 
 # Partial with built-ins
 
-- In Python, most f.s accept indifferently positional params, or keyword params
-- However, *some built-in f.s and operators* accept only positional params
+- In Python, most f.s accept indifferently *positional* params, or *keyword* params
+- However, *some built-in f.s* and operators accept only positional params
     - Cannot partially apply (or even pass) params by name
 - Ex. signature: `divmod(x, y, /)`
     - Params before `/` have to be passed in a fixed order
