@@ -1226,17 +1226,7 @@ Reducing with a non-associative f. is discouraged in Python
 
 ---
 
-![](images/misc/histogram.svg)
-# Ex. Skyscrapers in Haskell
-
-- Given a list of unique positive integers values...
-- How many times does the maximum change?
-- Can you compute it with a single fold?
-- Then, redo the exercise in Python
-
->
-
-From left to right, how many “rooftops” are visible? (In the example: 6)
+# Exercise
 
 ---
 
