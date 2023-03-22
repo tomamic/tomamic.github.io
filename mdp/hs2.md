@@ -216,9 +216,9 @@ quicksort (x:xs) =
 ```
 
 ``` hs
-Prelude> quicksort [5,1,9,4,6,7,3]
+ghci> quicksort [5,1,9,4,6,7,3]
 [1,3,4,5,6,7,9]
-Prelude> quicksort "the quick brown fox jumps over the lazy dog"
+ghci> quicksort "the quick brown fox jumps over the lazy dog"
 "        abcdeeefghhijklmnoooopqrrsttuuvwxyz"
 ```
 
@@ -300,7 +300,7 @@ factorial n = n * factorial (n - 1)
 ```
 
 ``` hs
-Prelude> factorial 3
+ghci> factorial 3
 6
 ```
 
@@ -320,9 +320,9 @@ factorial' n = fact_tr n 1
 ```
 
 ``` hs
-Prelude> factorial' 3
+ghci> factorial' 3
 6
-Prelude> fact_tr 3 1
+ghci> fact_tr 3 1
 6
 ```
 
@@ -378,9 +378,9 @@ loop:
 - In reality, the following two calls are equivalent:
 
 ``` hs
-Prelude> max 4 5
+ghci> max 4 5
 5
-Prelude> (max 4) 5
+ghci> (max 4) 5
 5
 ```
 
@@ -451,11 +451,11 @@ multThree :: (Num a) => a -> (a -> (a -> a))  -- same as above
 - By calling functions with too few parameters, we're creating new functions on the fly
 
 ``` hs
-Prelude> let multTwoWith9 = multThree 9
-Prelude> multTwoWith9 2 3
+ghci> let multTwoWith9 = multThree 9
+ghci> multTwoWith9 2 3
 54
-Prelude> let multWith18 = multTwoWith9 2
-Prelude> multWith18 10
+ghci> let multWith18 = multTwoWith9 2
+ghci> multWith18 10
 180
 ```
 
@@ -519,15 +519,15 @@ applyTwice f x = f (f x)
 # Example of high-order function
 
 ``` hs
-Prelude> applyTwice (+3) 10
+ghci> applyTwice (+3) 10
 16
-Prelude> applyTwice (++ " HAHA") "HEY"
+ghci> applyTwice (++ " HAHA") "HEY"
 "HEY HAHA HAHA"
-Prelude> applyTwice ("HAHA " ++) "HEY"
+ghci> applyTwice ("HAHA " ++) "HEY"
 "HAHA HAHA HEY"
-Prelude> applyTwice (multThree 2 2) 9
+ghci> applyTwice (multThree 2 2) 9
 144
-Prelude> applyTwice (3:) [1]
+ghci> applyTwice (3:) [1]
 [3,3,1]
 ```
 
@@ -560,15 +560,15 @@ map' f (x:xs) = f x : map' f xs
 - These could be achieved with a list comprehension, but `map` can be more readable
 
 ``` hs
-Prelude> map (+3) [1,5,3,1,6]
+ghci> map (+3) [1,5,3,1,6]
 [4,8,6,4,9]
-Prelude> map (++ "!") ["BIFF", "BANG", "POW"]
+ghci> map (++ "!") ["BIFF", "BANG", "POW"]
 ["BIFF!","BANG!","POW!"]
-Prelude> map (replicate 3) [3..6]
+ghci> map (replicate 3) [3..6]
 [[3,3,3],[4,4,4],[5,5,5],[6,6,6]]
-Prelude> map (map (^2)) [[1,2],[3,4,5,6],[7,8]]
+ghci> map (map (^2)) [[1,2],[3,4,5,6],[7,8]]
 [[1,4],[9,16,25,36],[49,64]]
-Prelude> map fst [(1,2),(3,5),(6,3),(2,6),(2,5)]
+ghci> map fst [(1,2),(3,5),(6,3),(2,6),(2,5)]
 [1,3,6,2,2]
 ```
 
@@ -592,11 +592,11 @@ filter' p (x:xs)
 # Using filter
 
 ``` hs
-Prelude> filter (>3) [1,5,3,2,1,6,4,3,2,1]
+ghci> filter (>3) [1,5,3,2,1,6,4,3,2,1]
 [5,6,4]
-Prelude> filter even [1..10]
+ghci> filter even [1..10]
 [2,4,6,8,10]
-Prelude> filter (`elem` ['a'..'z']) "u LaUgH aT mE BeCaUsE I aM diFfeRent"
+ghci> filter (`elem` ['a'..'z']) "u LaUgH aT mE BeCaUsE I aM diFfeRent"
 "uagameasadifeent"
 ```
 
@@ -648,14 +648,14 @@ zipWith' f (x:xs) (y:ys) = f x y : zipWith' f xs ys
 - Pretty similar to the normal zip, with a joining function
 
 ``` hs
-Prelude> zipWith (+) [4,2,5,6] [2,6,2,3]
+ghci> zipWith (+) [4,2,5,6] [2,6,2,3]
 [6,8,7,9]
-Prelude> zipWith max [6,3,2,1] [7,3,1,5]
+ghci> zipWith max [6,3,2,1] [7,3,1,5]
 [7,3,2,5]
-Prelude> zipWith (++) ["foo ", "bar ", "baz "]
+ghci> zipWith (++) ["foo ", "bar ", "baz "]
                       ["fighters", "hoppers", "aldrin"]
 ["foo fighters","bar hoppers","baz aldrin"]
-Prelude> zipWith (zipWith (*)) [[1,2,3],[3,5,6],[2,3,4]]
+ghci> zipWith (zipWith (*)) [[1,2,3],[3,5,6],[2,3,4]]
                                [[3,2,2],[3,4,5],[5,4,3]]
 [[3,4,6],[9,20,30],[10,12,12]]
 ```
@@ -675,9 +675,9 @@ flip' f y x = f x y
 ```
 
 ``` hs
-Prelude> flip zip [1,2,3,4,5] "hello"
+ghci> flip zip [1,2,3,4,5] "hello"
 [('h',1),('e',2),('l',3),('l',4),('o',5)]
-Prelude> zipWith (flip div) [2,2..] [10,8,6,4,2]
+ghci> zipWith (flip div) [2,2..] [10,8,6,4,2]
 [5,4,3,2,1]
 ```
 
@@ -690,7 +690,7 @@ Prelude> zipWith (flip div) [2,2..] [10,8,6,4,2]
 - Once an element is found for which the predicate doesn't hold, it stops
 
 ``` hs
-Prelude> takeWhile (/=' ') "elephants know how to party"
+ghci> takeWhile (/=' ') "elephants know how to party"
 "elephants"
 ```
 
@@ -736,8 +736,8 @@ https://www.jasondavies.com/collatz-graph/
     - Returns a f. that takes one param
 
 ``` hs
-Prelude> let listOfFuns = map (*) [0..]
-Prelude> (listOfFuns !! 4) 5
+ghci> let listOfFuns = map (*) [0..]
+ghci> (listOfFuns !! 4) 5
 20
 ```
 
@@ -755,7 +755,7 @@ longWords ws = filter (\xs -> length xs > 3) (words ws)
 ```
 
 ``` hs
-Prelude> longWords "elephants know how to party"
+ghci> longWords "elephants know how to party"
 ["elephants","know","party"]
 ```
 
@@ -774,11 +774,11 @@ Prelude> longWords "elephants know how to party"
 - Like normal functions, lambdas can take any number of parameters:
 
 ``` hs
-Prelude> :set +m
-Prelude> let xs = zipWith (\a b -> (a * 30 + 3) / b)
-Prelude|                  [5,4,3,2,1] [1,2,3,4,5]
-Prelude|
-Prelude> xs
+ghci> :set +m
+ghci> let xs = zipWith (\a b -> (a * 30 + 3) / b)
+|                  [5,4,3,2,1] [1,2,3,4,5]
+|
+ghci> xs
 [153.0,61.5,31.0,15.75,6.6]
 ```
 
@@ -1073,7 +1073,7 @@ required argument
 # Alternative sum function
 
 ``` hs
-Prelude> sum [3, 5, 2, 1]
+ghci> sum [3, 5, 2, 1]
 11
 ```
 
@@ -1108,7 +1108,7 @@ sum' xs = foldl (\acc x -> acc + x) 0 xs
 ```
 
 ``` hs
-Prelude> sum' [3,5,2,1]
+ghci> sum' [3,5,2,1]
 11
 ```
 
@@ -1268,13 +1268,13 @@ Reducing with a non-associative f. is discouraged in Python
     - There are also `scanl1` and `scanr1`
 
 ``` hs
-Prelude> scanl (+) 0 [3,5,2,1]
+ghci> scanl (+) 0 [3,5,2,1]
 [0,3,8,10,11]
-Prelude> scanr (+) 0 [3,5,2,1]
+ghci> scanr (+) 0 [3,5,2,1]
 [11,8,3,1,0]
-Prelude> scanl1 (\acc x -> if x > acc then x else acc) [3,4,5,3,7,9,2,1]
+ghci> scanl1 (\acc x -> if x > acc then x else acc) [3,4,5,3,7,9,2,1]
 [3,4,5,5,7,9,9,9]
-Prelude> scanl (flip (:)) [] [3,2,1]
+ghci> scanl (flip (:)) [] [3,2,1]
 [[],[3],[2,3],[1,2,3]]
 ```
 
@@ -1292,9 +1292,9 @@ Prelude> scanl (flip (:)) [] [3,2,1]
 sqrtSums :: Int
 sqrtSums = length (takeWhile (<1000) (scanl1 (+) (map sqrt [1..]))) + 1
 
-Prelude> sqrtSums
+ghci> sqrtSums
 131
-Prelude> sum (map sqrt [1..131])  -- try also 130
+ghci> sum (map sqrt [1..131])  -- try also 130
 1005.0942035344083
 ```
 
@@ -1333,7 +1333,7 @@ f $ x = f x
     - Map f. application over a list of f.s
 
 ``` hs
-Prelude> map ($ 3) [(4+), (10*), (^2), sqrt]
+ghci> map ($ 3) [(4+), (10*), (^2), sqrt]
 [7.0,30.0,9.0,1.7320508075688772]
 ```
 
@@ -1368,9 +1368,9 @@ f . g = \x -> f (g x)
     - Ex.: turn a list of numbers into negative numbers
 
 ``` hs
-Prelude> map (negate . abs) [5,-3,-6,7,-3,2]
+ghci> map (negate . abs) [5,-3,-6,7,-3,2]
 [-5,-3,-6,-7,-3,-2]
-Prelude> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2]
+ghci> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2]
 [-5,-3,-6,-7,-3,-2]
 ```
 
@@ -1382,9 +1382,9 @@ Prelude> map (\x -> negate (abs x)) [5,-3,-6,7,-3,2]
 - `f (g (h x))` is equivalent to `(f . g . h) x`
 
 ``` hs
-Prelude> map (negate . sum . tail) [[1..5],[3..6],[1..7]]
+ghci> map (negate . sum . tail) [[1..5],[3..6],[1..7]]
 [-14,-15,-27]
-Prelude> map (\xs -> negate (sum (tail xs))) [[1..5],[3..6],[1..7]]
+ghci> map (\xs -> negate (sum (tail xs))) [[1..5],[3..6],[1..7]]
 [-14,-15,-27]
 ```
 
