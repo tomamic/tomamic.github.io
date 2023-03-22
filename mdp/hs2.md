@@ -1084,9 +1084,10 @@ ghci> sum [3, 5, 2, 1]
 
 # Folding
 
-- Recursion on lists, common code structure
+- Tail recursion on lists, common code structure
     - Usually empty list as edge case
     - `x:xs` pattern, action on head and recursion on rest
+    - Accumulator param for partial result
 - Behaviour encapsulated in *folding* f.s
     - Similar to the `map` f., only they reduce a list to some single value
 - A fold takes a binary f., a starting value (accumulator) and a list
