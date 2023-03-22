@@ -1317,18 +1317,23 @@ f $ x = f x
 - Normal f. application (putting a space between two things) has a really high precedence
 - The `$` f. has the *lowest precedence* (and right associativity)
 - It's mostly a convenience f., to spare so many parentheses
+- Same as an opening parenthesis, closed at the far right side
 
 ---
 
 # Using dollar
 
-- Same as a parentheses, closed at the far right side
-    - `sqrt (3 + 4 + 9)`
-    - `sqrt $ 3 + 4 + 9`
-    - `sum (map sqrt [1..130])`
-    - `sum $ map sqrt [1..130]`
-    - `sum (filter (> 10) (map (*2) [2..10]))`
-    - `sum $ filter (> 10) $ map (*2) [2..10]`
+``` hs
+sqrt (3 + 4 + 9)
+sqrt $ 3 + 4 + 9
+
+sum (map sqrt [1..130])
+sum $ map sqrt [1..130]
+
+sum (filter (> 10) (map (*2) [2..10]))
+sum $ filter (> 10) $ map (*2) [2..10]
+```
+
 - Apart from getting rid of parentheses...
     - `$` means that f. application is *yet another* f.
     - Map f. application over a list of f.s
