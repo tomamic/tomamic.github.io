@@ -362,47 +362,6 @@ inPhoneBook name pnumber pbook = (name,pnumber) `elem` pbook
 
 ---
 
-![](images/misc/address-book.png)
-# Ex.: Search in phone book
-
-- Implement a f. for `PhoneBook`
-- `getPhoneNumber :: Name -> PhoneBook -> PhoneNumber`
-- Different patterns
-    - `x:xs`
-    - `((k,v):xs)`
-- Result if name not found:
-    - `""`
-    - `error "No phone number for " ++ name`
-    - Change signature to return `Maybe PhoneNumber`
-- Recursion, tail recursion, fold
-
----
-
-![](images/oop/ball-object.svg) ![](images/oop/ball-uml.svg) Class diagram UML
-# Ex.: Bouncing ball
-
-- Mimic the following Python datatype, in Haskell *functional* style
-- Implement a `move` f., for advancing a step and bouncing at borders
-
-``` py
-ARENA_W, ARENA_H = 320, 240
-BALL_W, BALL_H = 20, 20
-
-class Ball:
-    def __init__(self, x: int, y: int):
-        self._x = x
-        self._y = y
-        self._dx = 5
-        self._dy = 5
-    # ...
-```
-
->
-
-<http://www.ce.unipr.it/brython/?p2_oop_ball.py>
-
----
-
 # Randomness
 
 - The `System.Random` module has all needed f.s, including `random`
