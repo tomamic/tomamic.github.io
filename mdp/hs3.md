@@ -30,9 +30,9 @@ data Shape = Circle Float Float Float
     - Fields are actually params
 
 ``` hs
-Prelude> :t Circle
+ghci> :t Circle
 Circle :: Float -> Float -> Float -> Shape
-Prelude> :t Rectangle
+ghci> :t Rectangle
 Rectangle :: Float -> Float -> Float -> Float -> Shape
 ```
 
@@ -52,9 +52,9 @@ surface (Rectangle x1 y1 x2 y2)
 ```
 
 ``` hs
-Prelude> surface $ Circle 10 20 10
+ghci> surface $ Circle 10 20 10
 314.15927
-Prelude> surface $ Rectangle 0 0 100 100
+ghci> surface $ Rectangle 0 0 100 100
 10000.0
 ```
 
@@ -73,9 +73,9 @@ data Shape = Circle Float Float Float
 ```
 
 ``` hs
-Prelude> Circle 10 20 5
+ghci> Circle 10 20 5
 Circle 10.0 20.0 5.0
-Prelude> Rectangle 50 230 60 90
+ghci> Rectangle 50 230 60 90
 Rectangle 50.0 230.0 60.0 90.0
 ```
 
@@ -100,9 +100,9 @@ surface (Rectangle (Point x1 y1) (Point x2 y2))
 ```
 
 ``` hs
-Prelude> surface (Rectangle (Point 0 0) (Point 100 100))
+ghci> surface (Rectangle (Point 0 0) (Point 100 100))
 10000.0
-Prelude> surface (Circle (Point 0 0) 24)
+ghci> surface (Circle (Point 0 0) 24)
 1809.5574
 ```
 
@@ -121,7 +121,7 @@ nudge (Rectangle (Point x1 y1) (Point x2 y2)) a b
 ```
 
 ``` hs
-Prelude> nudge (Circle (Point 34 34) 10) 5 10
+ghci> nudge (Circle (Point 34 34) 10) 5 10
 Circle (Point 39.0 44.0) 10.0
 ```
 
@@ -138,7 +138,7 @@ baseRect width height = Rectangle (Point 0 0) (Point width height)
 ```
 
 ``` hs
-Prelude> nudge (baseRect 40 100) 60 23
+ghci> nudge (baseRect 40 100) 60 23
 Rectangle (Point 60.0 23.0) (Point 100.0 123.0)
 ```
 
@@ -155,9 +155,9 @@ data Person = Person String String Int Float
 ```
 
 ``` hs
-Prelude> let guy = Person "Buddy" "Finklestein" 43 184.2
+ghci> let guy = Person "Buddy" "Finklestein" 43 184.2
                           "526-2928" "Chocolate"
-Prelude> guy
+ghci> guy
 Person "Buddy" "Finklestein" 43 184.2 "526-2928" "Chocolate"
 ```
 
@@ -175,7 +175,7 @@ flavor      (Person _ _ _ _ _ flavor   ) = flavor
 ```
 
 ``` hs
-Prelude> :t flavor
+ghci> :t flavor
 flavor :: Person -> String
 ```
 
@@ -197,9 +197,9 @@ data Person = Person { firstName :: String
 ```
 
 ``` hs
-Prelude> :t flavor
+ghci> :t flavor
 flavor :: Person -> String
-Prelude> :t firstName
+ghci> :t firstName
 firstName :: Person -> String
 ```
 
@@ -217,12 +217,12 @@ data Maybe a = Nothing | Just a
 ```
 
 ``` hs
-Prelude> import Data.Maybe
-Prelude Data.Maybe> isJust Nothing
+ghci> import Data.Maybe
+ Data.Maybe> isJust Nothing
 False
-Prelude Data.Maybe> fromJust (Just 5)
+ Data.Maybe> fromJust (Just 5)
 5
-Prelude Data.Maybe> fromMaybe 0 Nothing
+ Data.Maybe> fromMaybe 0 Nothing
 0
 ```
 
@@ -231,18 +231,18 @@ Prelude Data.Maybe> fromMaybe 0 Nothing
 # Maybe for reading and finding
 
 ``` hs
-Prelude> import Text.Read
-Prelude Text.Read> readMaybe "5" :: Maybe Int
+ghci> import Text.Read
+ Text.Read> readMaybe "5" :: Maybe Int
 Just 5
-Prelude Text.Read> readMaybe "??" :: Maybe Int
+ Text.Read> readMaybe "??" :: Maybe Int
 Nothing
 ```
 
 ``` hs
-Prelude> import Data.List
-Prelude Data.List> elemIndex 0 [1,4,0,3,2]
+ghci> import Data.List
+ Data.List> elemIndex 0 [1,4,0,3,2]
 Just 2
-Prelude Data.List> elemIndex 0 [1,4,3,2]
+ Data.List> elemIndex 0 [1,4,3,2]
 Nothing
 ```
 
@@ -259,11 +259,11 @@ data Maybe' = Nothing' | Just' Int
 ```
 
 ``` hs
-Prelude> :t Just' 84
+ghci> :t Just' 84
 Just' 84 :: Maybe'
-Prelude> :t Nothing'
+ghci> :t Nothing'
 Nothing' :: Maybe'
-Prelude> Just' "Hello"
+ghci> Just' "Hello"
 ...
     Couldn't match expected type ‘Int’ with actual type ‘[Char]’
 ```
@@ -301,15 +301,15 @@ data Person = Person { firstName :: String
 ```
 
 ``` hs
-Prelude> let mikeD = Person {firstName = "Michael",
+ghci> let mikeD = Person {firstName = "Michael",
                      lastName = "Diamond", age = 43}
-Prelude> "mikeD is: " ++ show mikeD
+ghci> "mikeD is: " ++ show mikeD
 "mikeD is: Person {firstName = \"Michael\",
                    lastName = \"Diamond\", age = 43}"
-Prelude> read "Person {firstName =\"Michael\",
+ghci> read "Person {firstName =\"Michael\",
                lastName =\"Diamond\", age = 43}" :: Person
 Person {firstName = "Michael", lastName = "Diamond", age = 43}
-Prelude> read "Person {firstName =\"Michael\",
+ghci> read "Person {firstName =\"Michael\",
                lastName =\"Diamond\", age = 43}" == mikeD
 True
 ```
@@ -330,11 +330,11 @@ data Day = Monday | Tuesday | Wednesday | Thursday
 ```
 
 ``` hs
-Prelude> succ Friday
+ghci> succ Friday
 Saturday
-Prelude> Friday >= Wednesday
+ghci> Friday >= Wednesday
 True
-Prelude> minBound :: Day
+ghci> minBound :: Day
 Monday
 ```
 
@@ -373,8 +373,8 @@ cabal install --lib random
 ```
 
 ``` hs
-Prelude> import System.Random
-Prelude System.Random> :t random
+ghci> import System.Random
+ System.Random> :t random
 random :: (Random a, RandomGen g) => g -> (a, g)
 ```
 
@@ -391,11 +391,11 @@ random :: (Random a, RandomGen g) => g -> (a, g)
     - `StdGen`: instance of `RandomGen`
 
 ``` hs
-Prelude> :t mkStdGen
+ghci> :t mkStdGen
 mkStdGen :: Int -> StdGen
-Prelude> random (mkStdGen 100) :: (Int, StdGen)
+ghci> random (mkStdGen 100) :: (Int, StdGen)
 (-1352021624,651872571 1655838864)
-Prelude> random (mkStdGen 100) :: (Int, StdGen)
+ghci> random (mkStdGen 100) :: (Int, StdGen)
 (-1352021624,651872571 1655838864)
 ```
 
@@ -420,9 +420,9 @@ threeCoins gen =
 ```
 
 ``` hs
-Prelude> threeCoins (mkStdGen 21)
+ghci> threeCoins (mkStdGen 21)
 (True,True,True)
-Prelude> threeCoins (mkStdGen 943)
+ghci> threeCoins (mkStdGen 943)
 (True,False,True)
 ```
 
@@ -440,9 +440,9 @@ randoms' gen = let (value, newGen) = random gen
 ```
 
 ``` hs
-Prelude> take 5 $ randoms (mkStdGen 11) :: [Int]
+ghci> take 5 $ randoms (mkStdGen 11) :: [Int]
 [-1807975507,545074951,-1015194702,-1622477312,-502893664]
-Prelude> take 5 $ randoms (mkStdGen 11) :: [Bool]
+ghci> take 5 $ randoms (mkStdGen 11) :: [Bool]
 [True,True,True,True,False]
 ```
 
@@ -453,16 +453,16 @@ Prelude> take 5 $ randoms (mkStdGen 11) :: [Bool]
 - `randomR`: single random value within a defined range
 
 ``` hs
-Prelude> randomR (1,6) (mkStdGen 123456)
+ghci> randomR (1,6) (mkStdGen 123456)
 (4,645041272 40692)
-Prelude> randomR (1,6) (mkStdGen 654321)
+ghci> randomR (1,6) (mkStdGen 654321)
 (6,412237752 40692)
 ```
 
 - `randomRs`: stream of random values within a defined range
 
 ``` hs
-Prelude> take 10 $ randomRs ('a','z') (mkStdGen 3) :: [Char]
+ghci> take 10 $ randomRs ('a','z') (mkStdGen 3) :: [Char]
 "ndkxbvmomg"
 ```
 
@@ -516,9 +516,9 @@ Protip: `runhaskell` runs a program (`.hs`) on the fly
 # I/O actions
 
 ``` hs
-Prelude> :t print
+ghci> :t print
 print :: Show a => a -> IO ()
-Prelude> :t print "hello, world"
+ghci> :t print "hello, world"
 print "hello, world" :: IO ()
 ```
 
@@ -555,7 +555,7 @@ main = do
 # Getting data
 
 ``` hs
-Prelude> :t getLine
+ghci> :t getLine
 getLine :: IO String
 ```
 
@@ -717,7 +717,7 @@ main = do
 - `sequence` transforms that list into an I/O action
 
 ``` hs
-Prelude> sequence (map print [1,2,3])
+ghci> sequence (map print [1,2,3])
 1
 2
 3
@@ -737,12 +737,12 @@ Prelude> sequence (map print [1,2,3])
 - `mapM_` does the same, only it throws away the result and returns `()`
 
 ``` hs
-Prelude> mapM print [1,2,3]
+ghci> mapM print [1,2,3]
 1
 2
 3
 [(),(),()]
-Prelude> mapM_ print [1,2,3]
+ghci> mapM_ print [1,2,3]
 1
 2
 3
@@ -968,11 +968,11 @@ data Either a b = Left a | Right b
 ```
 
 ``` hs
-Prelude> Right 20
+ghci> Right 20
 Right 20
-Prelude> :t Right 'a'
+ghci> :t Right 'a'
 Right 'a' :: Either a Char
-Prelude> :t Left True
+ghci> :t Left True
 Left True :: Either Bool b
 ```
 
@@ -1022,9 +1022,9 @@ data List a = Empty
     - `:` is a constructor for lists (params: value, list)
 
 ``` hs
-Prelude> Empty
+ghci> Empty
 Empty
-Prelude> 4 `Cons` (5 `Cons` Empty)
+ghci> 4 `Cons` (5 `Cons` Empty)
 Cons 4 (Cons 5 Empty)
 ```
 
@@ -1043,9 +1043,9 @@ data List' = Empty'
 ```
 
 ``` hs
-Prelude> Empty'
+ghci> Empty'
 Empty'
-Prelude> 4 `Cons'` (5 `Cons'` Empty')
+ghci> 4 `Cons'` (5 `Cons'` Empty')
 Cons' 4 (Cons' 5 Empty')
 ```
 
@@ -1096,9 +1096,9 @@ treeInsert x (Node a left right)
 - Use a fold to build up a tree from a list
 
 ``` hs
-Prelude> let nums = [8,6,4,1,7,3,5]
-Prelude> let numsTree = foldr treeInsert EmptyTree nums
-Prelude> numsTree
+ghci> let nums = [8,6,4,1,7,3,5]
+ghci> let numsTree = foldr treeInsert EmptyTree nums
+ghci> numsTree
 Node 5 (Node 3 ...
 ```
 
@@ -1116,9 +1116,9 @@ treeElem x (Node a left right)
 ```
 
 ``` hs
-Prelude> 8 `treeElem` numsTree
+ghci> 8 `treeElem` numsTree
 True
-Prelude> 100 `treeElem` numsTree
+ghci> 100 `treeElem` numsTree
 False
 ```
 
@@ -1184,11 +1184,11 @@ instance Show TrafficLight where
 ```
 
 ``` hs
-Prelude> Red == Yellow
+ghci> Red == Yellow
 False
-Prelude> Red `elem` [Red, Yellow, Green]
+ghci> Red `elem` [Red, Yellow, Green]
 True
-Prelude> [Red, Yellow, Green]
+ghci> [Red, Yellow, Green]
 [Red light,Yellow light,Green light]
 ```
 
@@ -1249,7 +1249,7 @@ instance Functor [] where
 ```
 
 ``` hs
-Prelude> fmap (*2) [1..3]  -- same as map
+ghci> fmap (*2) [1..3]  -- same as map
 [2,4,6]
 ```
 
@@ -1284,13 +1284,13 @@ instance Functor Maybe where
 - If it's a single value packed up in a `Just`, then we apply the function on the contents of the `Just`
 
 ``` hs
-Prelude> fmap (++ " LOOK MA, INSIDE JUST") Nothing
+ghci> fmap (++ " LOOK MA, INSIDE JUST") Nothing
 Nothing
-Prelude> fmap (++ " LOOK MA, INSIDE JUST") (Just "Stg serious.")
+ghci> fmap (++ " LOOK MA, INSIDE JUST") (Just "Stg serious.")
 Just "Stg serious. LOOK MA, INSIDE JUST"
-Prelude> fmap (*2) (Just 200)
+ghci> fmap (*2) (Just 200)
 Just 400
-Prelude> fmap (*2) Nothing
+ghci> fmap (*2) Nothing
 Nothing
 ```
 
@@ -1306,9 +1306,9 @@ instance Functor Tree where
 ```
 
 ``` hs
-Prelude> fmap (*4) EmptyTree
+ghci> fmap (*4) EmptyTree
 EmptyTree
-Prelude> fmap (*4) (foldr treeInsert EmptyTree [5,7,3,2,1,7])
+ghci> fmap (*4) (foldr treeInsert EmptyTree [5,7,3,2,1,7])
 Node 28 (Node 4 EmptyTree (Node 8 EmptyTree ...
 ```
 
