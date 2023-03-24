@@ -819,19 +819,6 @@ eiqgcxykivpudlsvvjpg
 
 ---
 
-![](images/misc/bingo-balls.png)
-# Ex.: Guess the number
-
-- Extract a secret number, just once, between 1 and 90
-- The user has to guess it, repeadetly
-    - For any try, provide a suggestion to the user
-    - Tell if the guess is below or above the secret
-- In addition to the exercise
-    - Count and tell the number of tries
-    - Allow no more than 10 tries
-
----
-
 # Basic operations on files
 
 - Basic operations on file:
