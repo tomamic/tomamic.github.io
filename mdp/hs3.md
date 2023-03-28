@@ -378,7 +378,7 @@ cabal install --lib random
 
 ``` hs
 ghci> import System.Random
- System.Random> :t random
+ghci> :t random
 random :: (Random a, RandomGen g) => g -> (a, g)
 ```
 
