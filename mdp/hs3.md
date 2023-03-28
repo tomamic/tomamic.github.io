@@ -218,11 +218,11 @@ data Maybe a = Nothing | Just a
 
 ``` hs
 ghci> import Data.Maybe
- Data.Maybe> isJust Nothing
+ghci> isJust Nothing
 False
- Data.Maybe> fromJust (Just 5)
+ghci> fromJust (Just 5)
 5
- Data.Maybe> fromMaybe 0 Nothing
+ghci> fromMaybe 0 Nothing  -- 0 as default val
 0
 ```
 
