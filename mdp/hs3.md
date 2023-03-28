@@ -362,6 +362,10 @@ inPhoneBook name pnumber pbook = (name,pnumber) `elem` pbook
 
 ---
 
+# Exercise
+
+---
+
 # Randomness
 
 - The `System.Random` module has all needed f.s, including `random`
