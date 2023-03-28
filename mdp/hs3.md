@@ -232,17 +232,17 @@ ghci> fromMaybe 0 Nothing  -- 0 as default val
 
 ``` hs
 ghci> import Text.Read
- Text.Read> readMaybe "5" :: Maybe Int
+ghci> readMaybe "5" :: Maybe Int
 Just 5
- Text.Read> readMaybe "??" :: Maybe Int
+ghci> readMaybe "??" :: Maybe Int
 Nothing
 ```
 
 ``` hs
 ghci> import Data.List
- Data.List> elemIndex 0 [1,4,0,3,2]
+ghci> elemIndex 0 [1,4,0,3,2]
 Just 2
- Data.List> elemIndex 0 [1,4,3,2]
+ghci> elemIndex 0 [1,4,3,2]
 Nothing
 ```
 
