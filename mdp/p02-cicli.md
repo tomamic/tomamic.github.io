@@ -451,7 +451,7 @@ Altrimenti controllare se `b` è minore di `c`
 <br>
 Altrimenti…
 <br>
-<https://tomamic.github.io/pyodide/?py1_min3.py>
+<https://tomamic.github.io/pyodide/?p02_min3.py>
 
 ---
 
@@ -515,7 +515,7 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 
 >
 
-<https://tomamic.github.io/pyodide/?p01_secret.py>
+<https://tomamic.github.io/pyodide/?p02_secret.py>
 
 ---
 
