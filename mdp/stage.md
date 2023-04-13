@@ -1,5 +1,5 @@
 ![](images/misc/videogames.png)
-# Creare un videogioco in Python o Go
+# Creare un videogioco in Python
 ## Stage formativo — 12-16 giugno 2023 <br> Ingegneria dell'Informazione
 
 ---
@@ -88,6 +88,6 @@ Ven    | Completamento del gioco
 - Go: *Documentazione e tour* - <https://golang.org/doc/>
 - A.A. Donovan e B.W. Kernighan: *The Go Programming Language*, Addison-Wesley, 2015, 978-0134190440
 
-[**Progetti**](intro.html#/12)
+[**Progetti**](progetti.html)
 
 
