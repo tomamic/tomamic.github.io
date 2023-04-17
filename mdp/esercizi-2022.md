@@ -250,14 +250,14 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 # 2.8 Coordinate polari
 
 - Usare la funzione `from_polar`
-  - Conversione da coordinate polari a cartesiane
-  - <https://tomamic.github.io/pyodide/?p03_polar.py>
+    - Conversione da coordinate polari a cartesiane
+    - <https://tomamic.github.io/pyodide/?p03_polar.py>
 - Trovare la posizione di 12 punti attorno all'origine
-  - Distanza dall'origine: 100 px
-  - Separati di 30° tra loro
+    - Distanza dall'origine: 100 px
+    - Separati di 30° tra loro
 - Scrivere i 12 punti su console testuale
 - Mostrare i 12 punti come pallini su un canvas
-  - Traslare i punti, in modo che l'origine sia nel centro del canvas
+    - Traslare i punti, in modo che l'origine sia nel centro del canvas
 
 >
 
@@ -269,7 +269,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 # 2.9 Animazione circolare
 
 - Visualizzare un cerchio giallo in un punto casuale
-  - Sarà il centro di rotazione
+    - Sarà il centro di rotazione
 - Visualizzare un cerchio blu che ruota attorno a quello giallo
     - Moto circolare uniforme, velocità angolare costante
 - 💡 Per la posizione del cerchio blu: coordinate polari
