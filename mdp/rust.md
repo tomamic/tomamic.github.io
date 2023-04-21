@@ -96,9 +96,9 @@ fn main() {
 
 - Variables are immutable by default
     - Enforced by compiler
-- Consts are global
-    - Vs immutable variables
-    - Initialized with static value (compile time)
+- Consts (vs immutable variables)
+    - Set with static value (*compile time*)
+    - Can be in global scope
 
 ``` rs
 fn main() {
