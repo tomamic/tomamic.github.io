@@ -948,22 +948,21 @@ askForNumber gen = do
 # Guess, purer
 
 ``` hs
-process :: StdGen -> [String] -> [String]
-process gen guesses =
+process :: [Int] -> [String] -> [String]
+process secrets guesses =
     "Which number (1-10) am I thinking of?":
-        check newGen (show secret) guesses
-    where
-        (secret, newGen) = randomR (1,10) gen :: (Int, StdGen)
+        check secrets guesses
 
-check :: StdGen -> String -> [String] -> [String]
-check _ _ ("":_) = []
-check gen secret (guess:guesses)
-    | guess == secret = "You are correct!":process gen guesses
-    | otherwise = ("Sorry, it was " ++ secret):process gen guesses
+check :: [Int] -> [String] -> [String]
+check _ ("":_) = []
+check (secret:secrets) (guess:guesses)
+    | guess == show secret = ["You are correct!"]
+    | otherwise = ("Sorry, it was " ++ show secret) : process secrets guesses
 
 main = do
     gen <- getStdGen
-    interact $ unlines . (process gen) . lines
+    let secrets = randomRs (1,10) gen
+    interact $ unlines . (process secrets) . lines
 ```
 
 ---
