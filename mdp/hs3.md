@@ -1010,6 +1010,54 @@ Left True :: Either Bool b
 
 ---
 
+# Haskell array
+
+- Fixed in size
+- Support efficient random access
+- Creating array from list : `listArray`
+    - 1st arg.: a pair for bounds of index
+    - 2nd arg.: list with actual values
+
+``` hs
+import Data.Array
+listArray (0, 6) [1, 4, 0, 6, 0, 7, 0]
+```
+
+- Creating from (index, value) pairs: `array`
+- E.g., table of squares of the integers from `1` to `10`.
+
+``` hs
+array (1, 10) [(i, i * i) | i <- [1..10]]
+```
+
+---
+
+# Indexing elements
+
+- Op. `!` to access array elements
+    - `a!3` to access element with index 3 in array `a`
+- *Multidimensional arrays*, using pairs of coordinates
+- E.g., 10×10 multiplication table
+
+``` hs
+array ((1,1), (10,10)) [((i,j), i*j) | i <-[1..10], j <- [1..10]]
+```
+
+---
+
+# Immutability
+
+- Haskell arrays are also immutable
+- Op. `//` : create a new array, with certain elements changed
+- E.g. `a1` based on `a0`, diagonal elements replaced by `0`
+- If `a0` no longer needed, compiler may avoid creating a copy
+
+``` hs
+a1 = a0//[((i,i), 0) | i <- [1..n]]
+```
+
+---
+
 # Recursive data structures
 
 - One value of some type contains values of that type...
