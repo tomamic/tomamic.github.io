@@ -504,58 +504,61 @@ randint (nmin, nmax) gen = (val, nxt) where
 
 # Input and output
 
-- Imperative languages: series of steps to execute
-- Functional programming: defining what stuff is
-- Haskell is a purely functional language
+- *Imperative programming* : series of steps to execute
+- *Functional programming* : defining what stuff is
+- Haskell: purely functional language
     - A f. can't change some state, or produce side-effects
     - Result based only on the params
-    - Called twice with same params: same result
-- I/O ops require changing some state
-    - Haskell separates the pure part of the program...
-    - from the impure, which does all the dirty work...
-    - like talking to the keyboard and the screen
+- But, I/O ops require side effects and changing some state
+    - Executed twice with same params: different results
+    - No idempotence, no referential integrity
+- The *impure* part of Haskell does all the dirty work
+    - Like talking to the keyboard and the screen
 
 ---
 
 ![](images/algo/helloworld.png)
 # Hello, world!
 
-- Up until now, we've always loaded our functions into GHCI to test them
-- Let's write our first Haskell program (`helloworld.hs`)
+- Load functions into GHCI to test them
+    - Up until now, we've always done this way
+- Let's write our first program: `helloworld.hs`
 
 ``` hs
-main = print "hello, world"
+main = putStrLn "Hello, world!"
 ```
 
 - And now let's build and run it
 
 ``` shell
-$ ghc --make helloworld
+$ ghc helloworld.hs
 [1 of 1] Compiling Main             ( helloworld.hs, helloworld.o )
 Linking helloworld ...
 $ ./helloworld
-"hello, world"
+Hello, world!
 ```
 
 >
 
-Protip: `runhaskell` runs a program (`.hs`) on the fly
+Protip: run a program on the fly
+<br>
+`runhaskell helloworld.hs`
 
 ---
 
 # I/O actions
 
 ``` hs
-ghci> :t print
-print :: Show a => a -> IO ()
-ghci> :t print "hello, world"
-print "hello, world" :: IO ()
+ghci> :t putStrLn
+putStrLn :: String -> IO ()
+ghci> :t putStrLn "Hello, world!"
+putStrLn "Hello, world!" :: IO ()
 ```
 
 - *I/O action*: action with side-effects
     - E.g., reading input or writing to screen
     - And may also contain some result value
-- `print` takes a value and returns an *I/O action*
+- `putStrLn` takes a string and returns an *I/O action*
     - Result type `()` -- empty tuple, aka *unit*
 - I/O action performed when named as **`main`**
     - And the program is run
@@ -564,14 +567,14 @@ print "hello, world" :: IO ()
 
 # Sequence of actions
 
-- One I/O action seems limiting...
+- One I/O action seems limiting
 - Use **`do`** syntax to glue together several I/O actions into one
 
 ``` hs
 main = do
-    print "Hello, what's your name?"
+    putStrLn "Hello, what's your name?"
     name <- getLine
-    print ("Hey " ++ name ++ ", you rock!")
+    putStrLn ("Hey " ++ name ++ ", you rock!")
 ```
 
 - This reads like an imperative program
@@ -590,7 +593,8 @@ getLine :: IO String
 ```
 
 - What does "`name <- getLine`" mean?
-    - Perform the I/O action `getLine` (get a line from *stdin*)
+    - Perform the I/O action `getLine`
+    - I.e., get a line from *stdin*
     - Then bind its result value to `name`
 - I/O action: ~ *box* to send into the real, impure world
     - Do something there
@@ -642,7 +646,7 @@ main = do
     if null line
         then return ()
         else do
-            print $ reverseWords line
+            putStrLn $ reverseWords line
             main
 
 reverseWords :: String -> String
@@ -670,7 +674,7 @@ reverseWords = unwords . map reverse . words
 main = do
     a <- return "hell"     -- hey, just use let!
     b <- return "yeah!"    -- hey, just use let!
-    print $ a ++ " " ++ b
+    putStrLn $ a ++ " " ++ b
 ```
 
 ---
@@ -888,8 +892,8 @@ main = do
 - Like a control flow statement, but actually a normal f.
 - It takes a boolean value and an I/O action
     - If value is `True`, it returns the same I/O action
-    - If it's `False`, it returns `return ()` -- void action
-- Encapsulates `if ... else return ()` pattern
+    - If it's `False`, it returns void action : `return ()`
+- Encapsulates `if … else return ()` pattern
 
 ``` hs
 import Control.Monad (when)
@@ -934,13 +938,14 @@ main = do
 askForNumber :: StdGen -> IO ()
 askForNumber gen = do
     let (secret, newGen) = randomR (1,10) gen :: (Int, StdGen)
-    print "Which number (1-10) am I thinking of?"
+    putStrLn "Which number (1-10) am I thinking of?"
     guess <- getLine
-    when (not $ null guess) $ do
-        if secret == (read guess)
-            then print "You are correct!"
-            else print $ "Sorry, it was " ++ show secret
-        askForNumber newGen
+    when (not $ null guess) $
+        if guess == show secret
+        then putStrLn "You are correct!"
+        else do
+            putStrLn $ "Sorry, it was " ++ show secret
+            askForNumber newGen
 ```
 
 ---
@@ -950,8 +955,7 @@ askForNumber gen = do
 ``` hs
 process :: [Int] -> [String] -> [String]
 process secrets guesses =
-    "Which number (1-10) am I thinking of?":
-        check secrets guesses
+    "Which number (1-10) am I thinking of?" : check secrets guesses
 
 check :: [Int] -> [String] -> [String]
 check _ ("":_) = []

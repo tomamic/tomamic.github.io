@@ -19,7 +19,7 @@
 
 >
 
-<http://design.inf.unisi.ch/sites/default/files/seminar-niko-matsiakis-rustoverview.pdf>
+<https://design.inf.usi.ch/sites/default/files/seminar-niko-matsiakis-rustoverview.pdf>
 <br>
 <https://www.ibm.com/developerworks/library/os-developers-know-rust/index.html>
 
@@ -139,7 +139,7 @@ let x = x.to_string();  // ok, changing type is idiomatic
 - Signed
     - `i8, i16, i32, i64, i128`
     - `isize`, platform dependent
-- Unigned
+- Unsigned
     - `u8, u16, u32, u64, u128`
     - `usize`, platform dependent, for indexing
 - Floating point
@@ -231,13 +231,13 @@ let (a, b) = tup_impl;  // unpacking
 
 ``` rs
 fn rand_int(nmin: i32, nmax: i32, seed: u32) -> (i32, u32) {
-    let range = (nmax + 1 - nmin) as u32;
-    let val = nmin + (seed % range) as i32;
     let mut seed : u32 = seed;
     // From "Xorshift RNGs" by George Marsaglia
     seed ^= seed << 13;
     seed ^= seed >> 17;
     seed ^= seed << 5;
+    let range = (nmax + 1 - nmin) as u32;
+    let val = nmin + (seed % range) as i32;
     (val, seed)
 }
 
