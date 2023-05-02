@@ -1049,11 +1049,11 @@ array ((1,1), (10,10)) [((i,j), i*j) | i <-[1..10], j <- [1..10]]
 
 - Haskell arrays are also immutable
 - Op. `//` : create a new array, with certain elements changed
-- E.g. `a1` based on `a0`, diagonal elements replaced by `0`
+- E.g. `a1` based on `a0`, diagonal even elements replaced by `0`
 - If `a0` no longer needed, compiler may avoid creating a copy
 
 ``` hs
-a1 = a0//[((i,i), 0) | i <- [1..n]]
+a1 = a0 // [((i,i), 0) | i <- [1..n], even i]
 ```
 
 ---
