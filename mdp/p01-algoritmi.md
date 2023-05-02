@@ -647,10 +647,6 @@ $$result = m \cdot i + q$$
 - Se invece `r` è fuori range
     - Mostrare un messaggio d'errore
 
->
-
-<https://tomamic.github.io/pyodide/?p01_circle.py>
-
 ---
 
 ![large](images/algo/holy-grail.jpg)
@@ -689,8 +685,6 @@ print(now.year, now.month, now.day)
 Nell'anno corrente, l'utente ha già avuto il compleanno?
 <br>
 Espressione booleana composta con `and`, `or`, `not`…
-<br>
-<https://tomamic.github.io/pyodide/?p01_age.py>
 
 ---
 
@@ -706,8 +700,6 @@ Espressione booleana composta con `and`, `or`, `not`…
 >
 
 Cominciare a disegnare un solo quadrato grigio, in posizione casuale
-<br>
-<https://tomamic.github.io/pyodide/?p01_randsquares.py>
 
 ---
 
@@ -721,10 +713,6 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 - Il colore varia gradualmente dal nero fino al verde saturo
     - Dall'alto verso il basso
 
->
-
-<https://tomamic.github.io/pyodide/?p01_greencol.py>
-
 ---
 
 # Cerchi in riga
@@ -736,10 +724,6 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
     - Da sinistra verso destra
 
 ![](images/misc/blue-row.svg)
-
->
-
-<https://tomamic.github.io/pyodide/?p01_bluerow.py>
 
 ---
 
@@ -756,8 +740,6 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 >
 
 Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
-<br>
-<https://tomamic.github.io/pyodide/?p01_redcircles.py>
 
 ---
 
