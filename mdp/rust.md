@@ -354,7 +354,7 @@ pub enum Result<T, E> {
 
 ``` rs
 let v = vec![1, 2, 3];  // convenient macro for init
-// let mut v = Vec::new();
+// let mut v = Vec::<i32>::new();
 // v.push(1); v.push(2); v.push(3);
 
 let val10: Option<&i32> = v.get(10);
