@@ -1068,7 +1068,7 @@ a1 = a0 // [((i,i), 0) | i <- [1..n], even i]
     - and a list (`5:[]`) on its right side
 - A list can be:
     - An empty list, or
-    - An element joined together with a `:` with another list
+    - An element joined together with another list by a `:`
 
 ---
 
@@ -1106,7 +1106,7 @@ Cons 4 (Cons 5 Empty)
 
 ``` hs
 data List' = Empty'
-             | Cons' Int (List')
+             | Cons' Int List'
              deriving (Show, Read, Eq, Ord)
 ```
 
@@ -1151,7 +1151,7 @@ singleton x = Node x EmptyTree EmptyTree
 treeInsert :: (Ord a) => a -> Tree a -> Tree a
 treeInsert x EmptyTree = singleton x
 treeInsert x (Node a left right)
-    | x == a = Node x left right
+    | x == a = Node a left right
     | x < a  = Node a (treeInsert x left) right
     | x > a  = Node a left (treeInsert x right)
 ```

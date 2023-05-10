@@ -90,6 +90,12 @@
 - **Rana** guidata dall'utente, salta in 4 direzioni: ↕ ↔
 - Deve attraversare la strada, senza essere investita dai **camion**
 - Deve attraversare il fiume, saltando sui **tronchi**
+    - La rana viene trascinata, se è su un tronco
+    - La rana affoga nell'acqua
+
+>
+
+<https://tomamic.github.io/images/sprites/frogger.png>
 
 ---
 

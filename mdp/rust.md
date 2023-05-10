@@ -433,6 +433,7 @@ if let Some(max) = config_max {
 - `if, while`
     - Conditions don’t have parentheses
     - Both can be used as expressions (w/o semicolon)
+    - `while` is always evaluated as *unit* `()`
 
 ``` rs
 let condition = true;
@@ -527,8 +528,8 @@ let turbo_parsed = "10".parse::<i32>().unwrap();
 ```
 
 - Splitting
-    - Use `split` method (given a separtor char)
-    - Otherwise, `split_whitespace`
+    - Use `split` method (given a separator char)
+    - Otherwise, `split_whitespace` or `lines`
 
 ---
 
@@ -641,12 +642,12 @@ fn main() {
 ```
 fn main() {
     let s = String::from("hello");  // s comes into scope
-    takes_ownership(s);  // value moved into the function, no longer valid here
+    take_ownership(s);  // value moved into the function, no longer valid here
     let x = 5;  // x comes into scope
     let y = add_five(x);  // primitive, copied
 }  // x, y, s go out of scope; s value already moved, nothing special happens
 
-fn takes_ownership(some_string: String) {  // some_string comes into scope
+fn take_ownership(some_string: String) {  // some_string comes into scope
     println!("{}", some_string);
 }  // some_string goes out of scope, the string is dropped
 
@@ -664,7 +665,7 @@ fn add_five(some_integer: i32) {  // some_integer comes into scope
 - Verbose and noisy, with a lot of parameters
 
 ``` rs
-fn takes_and_return_ownership(some_string: String) -> String {
+fn take_and_return_ownership(some_string: String) -> String {
     println!("{}", some_string);
     some_string  // some_string is returned (moved) to the calling function
 }
@@ -706,7 +707,8 @@ fn calculate_length(s: &String) -> usize {
 
 # Borrowed values
 
-- Values cannot be modified through their owner variable, while being borrowed
+- While a value is being borrowed…
+    - Its original owner variable *can't* modify it
 
 ``` rs
 let mut x = 5;
@@ -749,8 +751,8 @@ fn change(some_string: &mut String) {
     - **①** Either, *any number of immutable references*
     - **②** Or, *only one mutable reference*
     - (But not both)
-- Rules enforced by the *borrow checker*
-    - At compile time
+- Rules enforced at *compile time*
+    - By the *borrow checker*
 
 ---
 
@@ -785,7 +787,8 @@ fn no_dangle() -> String {  // solution: move out the String, directly
 - `Option` enum to encapsulate nullable refs
 
 > Null reference has led to innumerable errors, vulnerabilities, and system crashes, which have probably
-caused a billion dollars of pain and damage in the last forty years (Tony Hoare, 2009, inventor of null reference, in Algol)
+caused a billion dollars of pain and damage in the last forty years.
+> *(Tony Hoare, 2009, inventor of null reference, in Algol)*
 
 ---
 
@@ -798,7 +801,7 @@ v.push(6);
 println!("{}", first);
 ```
 
-- The borrow checker is your friend
+- *The borrow checker is your friend!*
     - What if the vector needs reallocation?
     - Enclose the `first` ref in a block `{ … }`
 
