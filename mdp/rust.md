@@ -1302,13 +1302,13 @@ for _ in 0..10 {
 
 # More Rust
 
-- Error handling
-- Smart pointers
-    - Box, reference counting
-- Interior mutability
-- Deref e Drop traits
-- Concurrency
-- Unsafe Rust (Rustonomicon)
+- [Error handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
+- [Smart pointers](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html)
+    - `Box`, reference counting
+    - `Deref` and `Drop` traits
+    - `RefCell`, interior mutability
+- [Concurrency](https://doc.rust-lang.org/book/ch16-00-concurrency.html)
+- [Unsafe Rust – Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - …
 - [Compare C to RUST](http://slideplayer.com/slide/12176638/)
 - [Examples on GitHub](https://github.com/smike86/RUSTExamples)
