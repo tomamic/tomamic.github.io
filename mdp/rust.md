@@ -970,6 +970,7 @@ fn main() {
 
 ---
 
+![](images/oop/animals.png)
 # Trait
 
 - A `trait` defines an abstract interface
@@ -982,56 +983,103 @@ pub trait Animal {
 }
 ```
 
+>
+
+<https://doc.rust-lang.org/book/ch17-02-trait-objects.html>
+
 ---
 
+![](images/oop/polymorphism.png)
 # Trait implementation
 
 ``` rs
 pub struct Dog {
     name: String
 }
+impl Dog {
+    pub fn new(name: &str) -> Dog {
+        Dog{ name: name.to_string() }
+    }
+}
 impl Animal for Dog {
     fn say(&self) {
         println!("I'm {} Dog. I say WOOF!", self.name);
     }
 }
-```
 
-- Same for `Cat, Pig`
+// Same for `Cat, Pig`
+```
 
 ---
 
-# Boxed abstract objects
+# Generics and trait bounds
 
-- Types implementing a trait may have different size
-    - Stack allocation not possible (size unknown to compiler)
-    - Thus, they are often “boxed”
-- A “box” takes *ownership* of data in the *heap*
-    - When a box goes out of scope, its content is dropped
-    - Similar to *C++* `unique_ptr`
+``` rs
+pub struct Farm<T: Animal> {
+    pub animals: Vec<T>
+}
+impl<T: Animal> Farm<T> {
+    pub fn run(&self) {
+        for animal in self.animals.iter() {
+            animal.say();
+        }
+    }
+}
+```
+
+---
+
+# Compile time polymorphism
+
+- **Trait bounds**
+    - Resolved by compiler, to some concrete type
+    - Similar to Haskell *type constraints*
+
+``` rs
+fn main() {
+    // error: mismatched types
+    let farm = Farm{ animals: vec![
+        Dog::new("Danny"),
+        Cat::new("Candy") ]};
+    farm.run();
+}
+```
+
+---
+
+![](images/oop/peppa.png)
+# Boxed trait objects
+
+- Trait objects perform **dynamic dispatch**
+    - `dyn` is a *fat pointer*, to *data* and *vtable*
+- Concrete types may have different size
+    - Size unknown to compiler
+    - Stack allocation not possible
+    - Thus, they are often *“boxed”*
 
 ``` rs
 fn main() {
     let v: Vec<Box<dyn Animal>> = vec![
-        Box::new(Dog{ name: String::from("Danny") }),
-        Box::new(Cat{ name: String::from("Candy") }),
-        Box::new(Pig{ name: String::from("Peppa") })];
+        Box::new(Dog::new("Danny")),
+        Box::new(Cat::new("Candy")),
+        Box::new(Pig::new("Peppa")),
+        Box::new(Pig::new("George"))];
     for a in v { a.say(); }
 }
 ```
 
 ---
 
-# More ref types
+# Ref types
 
-- `Rc`
-    - Reference counting, for a shared resource
+- **`Box`** -- Takes *ownership* of data in the *heap*
+    - When a box goes out of scope, its content is dropped
+    - Similar to *C++* `unique_ptr`
+- **`Rc`** -- Reference counting, for a shared resource
     - Similar to *C++* `shared_ptr`
-- `Arc`
-    - Atomic reference counting
+- **`Arc`** -- Atomic reference counting
     - Safe for multi-threading
-- `RefCell`
-    - Borrowing rules enforced *at runtime*
+- **`RefCell`** -- Borrowing rules enforced *at runtime*
     - `borrow, borrow_mut` methods to access the value
     - The program may `panic`
 
@@ -1057,8 +1105,13 @@ fn main() {
 # Cargo
 
 - Build system and package manager
-    - `cargo new hello-cargo`
-    - `cargo build`
+
+``` sh
+$ cargo new hello-cargo
+$ cd hello-cargo
+$ cargo build
+```
+
 - To use external [crates](https://crates.io) (modules)
     - List dependencies and versions in `Cargo.toml`
     - E.g. Including the popular `rand` *crate*
@@ -1084,7 +1137,7 @@ rand = "0.8.5"
     - Binary instruction format for a virtual machine
 - Safe, sandboxed execution environment
 - Portable compilation target
-    - Deployment on the web <br> Running in browsers, alongside *JS*
+    - Running in web browsers, alongside *JS*
     - Also, non-web embeddings (see [WASI](https://github.com/WebAssembly/WASI))
 - Efficient and fast
     - Stack machine, near native speed
@@ -1127,7 +1180,6 @@ use wasm_bindgen::prelude::*;
 extern {
     pub fn alert(s: &str);  // JS function, available to Rust
 }
-
 #[wasm_bindgen]
 pub fn greet(name: &str) {  // Rust, available to JS
     alert(&format!("Hello, {}!", name));
@@ -1154,7 +1206,7 @@ $ wasm-pack build --target web
 - Fearless
     - Fix your code while you’re working on it
     - Rather than after shipped to production
-- Objective : write code free of subtle bugs
+- Goal: write code free of subtle bugs
     - Easy to refactor w/o introducing new bugs
 - Tools for modeling concurrent problems
     - Message passing concurrency
@@ -1169,19 +1221,17 @@ $ wasm-pack build --target web
 use std::thread;
 use std::time::Duration;
 fn main() {
-    let handle = thread::spawn(|| { //  Anonymous function (Closure)
-        // Code in async thread
-        for i in 1..10 {
+    let handle = thread::spawn(|| { // Anonymous function (Closure)
+        for i in 1..10 {            // Code in async thread
             println!("hi number {} from the spawned thread!", i);
             thread::sleep(Duration::from_millis(100));
         }
     });
-    // Code in main thread
-    for i in 1..5 {
+    for i in 1..5 {                 // Code in main thread
         println!("hi number {} from the main thread!", i);
         thread::sleep(Duration::from_millis(100));
     }
-    handle.join().unwrap(); //wait for async thread ends
+    handle.join().unwrap();         // Wait for async thread to end
 }
 ```
 
@@ -1222,7 +1272,7 @@ for _ in 0..10 {
 # Multiple owners
 
 - Cases when a single value might have multiple owners
-- `Arc` : reference counting
+- `Arc` : *reference counting*
     - Tracking the number of references to a value
     - To know if a value is still in use
     - Zero references ⇒ value cleaned up
@@ -1242,10 +1292,10 @@ for _ in 0..10 {
 # Sharing a mutex
 
 ``` rs
-let m = Arc::new(Mutex::new(0));  // multiple owners
+let m = Arc::new(Mutex::new(0));  // Multiple owners
 let mut handles = vec![];
 for _ in 0..10 {
-    let m_ref = Arc::clone(&m);  // increment the count of owners
+    let m_ref = Arc::clone(&m);  // Increment the count of owners
     let handle = thread::spawn(move || {
         let mut counter = m_ref.lock().unwrap();
         *counter += 1;
@@ -1258,11 +1308,11 @@ for _ in 0..10 {
 
 # Data race
 
-- These three behaviors occur, together:
+- These *three* behaviors occur, together:
     - Two or more pointers access the same data at the same time
     - At least one of the pointers is being used to write to the data
     - There’s no mechanism being used to synchronize access to the data
-- Data races cause undefined behavior
+- Data races cause *undefined behavior*
 - Difficult to diagnose and fix
     - Especially when tracked down at runtime
 - Rust prevents this problem from happening
@@ -1284,8 +1334,7 @@ use std::thread; use std::sync::mpsc::channel;
 
 ``` rs
 // Create a shared channel that can be sent along from many threads
-// `tx` is the sending half, `rx` is the receiving half
-let (tx, rx) = channel();
+let (tx, rx) = channel();  // `tx`: sending half, `rx`: receiving half
 for i in 0..10 {
     let tx = tx.clone();
     thread::spawn(move || {

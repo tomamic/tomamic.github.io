@@ -27,8 +27,8 @@
     - *Quine* (self-generating program)
 
 ``` py
->>>s = 's = %r\nprint(s%%s)'
->>>print(s%s)
+>>> s = 's = %r\nprint(s%%s)'
+>>> print(s%s)
 
 s = 's = %r\nprint(s%%s)'
 print(s%s)
@@ -563,7 +563,7 @@ class Example(Base):
 - Body of class is isolated
 
 ``` py
-body= """
+body = """
     def __init__(self, name):
         self.name = name
     def whoami(self):
@@ -589,7 +589,7 @@ clsdict = type.__prepare__('Example', (Base,))
 
 # Class definition: step 3
 
-- Body is executed, in the context of clsdict
+- Body is executed, in the context of `clsdict`
 
 ``` py
 exec(body, globals(), clsdict)
