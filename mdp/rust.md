@@ -1187,7 +1187,7 @@ pub fn greet(name: &str) {  // Rust, available to JS
 ```
 
 ``` sh
-$ cargo install wasm-pack --no-default-features
+$ cargo install wasm-pack
 $ wasm-pack build --target web
 ```
 
@@ -1312,14 +1312,13 @@ for _ in 0..10 {
     - Two or more pointers access the same data at the same time
     - At least one of the pointers is being used to write to the data
     - There’s no mechanism being used to synchronize access to the data
-- Data races cause *undefined behavior*
-- Difficult to diagnose and fix
+- *Undefined behavior*, difficult to diagnose and fix
+    - Errors may be frustrating at times
     - Especially when tracked down at runtime
-- Rust prevents this problem from happening
+- Rust *prevents* this problem from happening
     - Won’t even compile code with possible data races!
-- Errors may be frustrating at times
     - Rust compiler points out a potential bug early!
-    - At compile time rather than at runtime
+    - At *compile time* rather than at runtime
     - Shows exactly where the problem is
 
 ---
