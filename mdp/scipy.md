@@ -659,6 +659,29 @@ print(val)
 
 ---
 
+# 🥷 Defaultdict
+
+- Dictionary with *default constructor*
+    - When accessing a non-existing key…
+    - Its value is automatically constructed
+
+``` py
+from collections import defaultdict
+
+credits = defaultdict(int, {"mic": 9})
+
+while name := input("Name? "):
+    val = int(input("Credits? "))
+    credits[name] += val  # `credits[name]` defaults to 0
+    print(credits)
+```
+
+>
+
+<https://docs.python.org/3/library/collections.html#collections.defaultdict>
+
+---
+
 ![large](images/fun/rollinz.jpg)
 # 🥷 Set
 

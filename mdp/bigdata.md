@@ -158,33 +158,32 @@
 # MapReduce, pseudo-code
 
 ``` py
-def map_f(filename: str) -> [(str, int)]:
-    counts = {}
+def map_f(filename: str) -> list[tuple[str, int]]:
+    counts = defaultdict(int)  # dict, values default to 0
     with open(filename) as f:
         for word in f.read().split():
-            counts[word] = 1 + counts.get(word, 0)
+            counts[word] += 1
     return list(counts.items())
 
-def reduce_f(item: (str, [int])) -> (str, int):
+def reduce_f(item: tuple[str, list[int]]) -> tuple[str, int]:
     key, values = item  # key: a word; values: a list of counts
     return key, sum(values)
 ```
 
 - How to match `map` results with `reduce` input?
-	- Intermediate results need to be *partitioned*
-	- Put together intermediate results having the same key
+  - Intermediate results need to be *partitioned*
+  - Put together intermediate results having the same key
 
 ---
 
 # MapReduce, simplistic framework
 
 ``` py
-def partition(interm: [(str, int)]) -> [(str, [int])]:
+def partition(interm: list[tuple[str, int]]) -> list[tuple[str, list[int]]]:
     # interm: results of map phase, chained together
-    counts = {}
+    counts = defaultdict(list)  # dict, values default to []
     for key, val in interm:
-        if key in counts: counts[key].append(val)
-        else: counts[key] = [val]
+        counts[key].append(val)
     return list(counts.items())
 
 def main():
@@ -386,17 +385,16 @@ export PYSPARK_DRIVER_PYTHON_OPTS=notebook
 ```
 
 ``` sh
-Python 3.7.5 (default, Nov 20 2019, 09:21:52)
-[GCC 9.2.1 20191008] on linux
-Type "help", "copyright", "credits" or "license" for more information.
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 2.4.4
+   /__ / .__/\_,_/_/ /_/\_\   version 3.3.2
       /_/
 
-Using Python version 3.7.5 (default, Nov 20 2019 09:21:52)
+Using Python version 3.10.6 (default, Nov 14 2022 16:10:14)
+Spark context Web UI available at http://127.0.0.1:4040.
+Spark context available as 'sc'.
 SparkSession available as 'spark'.
 >>>
 ```
@@ -410,13 +408,13 @@ SparkSession available as 'spark'.
 ##sc = SparkContext.getOrCreate()
 
 import random
-num_samples = 1000000
+num_samples = 1_000_000
 
 def inside(p):
     x, y = random.random(), random.random()
     return x*x + y*y < 1
 
-count = sc.parallelize(range(0, num_samples)).filter(inside).count()
+count = sc.parallelize(range(num_samples)).filter(inside).count()
 
 pi = 4 * count / num_samples
 print(pi)
@@ -489,9 +487,9 @@ print(pi)
 # Workflow
 
 - The general workflow for working with RDDs is as follows
-    - **(1)** Create an RDD from a data source
-    - **(2)** Apply transformations to an RDD
-    - **(3)** Apply actions to an RDD
+    - **①** Create an RDD from a data source
+    - **②** Apply transformations to an RDD
+    - **③** Apply actions to an RDD
 
 ---
 
@@ -634,5 +632,5 @@ print(document_length)
 [1, 2, 3, 4, 5]
 ```
 
-- Cause the driver to run out of memory
+- May cause the driver to run out of memory
 - To inspect large RDDs, use `take`
