@@ -311,10 +311,6 @@ class Turtle(Actor):
 - Se si scontra con un veicolo, la rana muore
     - Oppure torna alla posizione di partenza
 
->
-
-<https://tomamic.github.io/pyodide/?p05_frog.py>
-
 ---
 
 ![](images/misc/space-invaders-school.png)
@@ -329,10 +325,6 @@ class Turtle(Actor):
     - Se si scontra con un alieno, entrambi si rimuovono dal gioco
 - Nella funzione `tick`, generare casualmente dei `Bullet`
 
->
-
-<https://tomamic.github.io/pyodide/?p05_alien.py>
-
 ---
 
 ![](images/misc/super-mario.jpg)
@@ -346,8 +338,3 @@ class Turtle(Actor):
 - Quando `Mario` collide con una piattaforma...
     - Si sposta al bordo più vicino della piattaforma
     - Se atterra sul bordo superiore, da lì può saltare
-
->
-
-<https://tomamic.github.io/pyodide/?p05_mario.py>
-

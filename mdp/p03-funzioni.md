@@ -308,10 +308,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
     - Invoca la funzione `ellipse_area` con questi parametri
     - Stampa il risultato ottenuto
 
->
-
-<https://tomamic.github.io/pyodide/?p03_ellipse.py>
-
 ---
 
 ![](images/misc/random-circles.svg)
@@ -321,10 +317,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 - Quando mouse cliccato, prendere la posizione del mouse da `g2d`
 - Se il mouse è vicino all'angolo `(0, 0)`, chiedere conferma e poi chiudere l'applicazione
 - Altrimenti, disegnare un cerchio, con raggio fisso e colore casuale
-
->
-
-<https://tomamic.github.io/pyodide/?p03_circles.py>
 
 ---
 
@@ -337,10 +329,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
     - Permettere alla pallina di superare i bordi laterali, p.es. di *100px*
     - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
 - Al click del mouse, la pallina inverte la direzione
-
->
-
-<https://tomamic.github.io/pyodide/?p03_vehicle.py>
 
 ---
 
@@ -356,10 +344,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
     - Quando la pallina scende, non si sposta in orizzontale
     - Quando si sposta in orizzontale, non scende
 
->
-
-<https://tomamic.github.io/pyodide/?p03_alien.py>
-
 ---
 
 ![](images/misc/bouncing-ball.jpg)
@@ -369,10 +353,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
     - La pallina subisce una accelerazione costante verso il basso
     - Ad ogni frame, aggiungere una piccola costante a `dy`
     - Simile all'effetto della gravità
-
->
-
-<https://tomamic.github.io/pyodide/?p03_gravity.py>
 
 ---
 
@@ -389,8 +369,6 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 >
 
 Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
-<br>
-<https://tomamic.github.io/pyodide/?p03_nframes.py>
 
 ---
 
@@ -408,8 +386,6 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 >
 
 <https://en.wikipedia.org/wiki/Rotation_(mathematics)#Two_dimensions>
-<br><br>
-<https://tomamic.github.io/pyodide/?p03_polar.py>
 
 ---
 
@@ -425,8 +401,6 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_pen.py>
-<br><br>
 ∑ angoli interni di poligono n lati = π · (n-2)
 <br>
 ∑ angoli esterni = 2π

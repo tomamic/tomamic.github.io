@@ -410,10 +410,6 @@ def tick():
     - Creare un oggetto con dati forniti dall'utente
     - Visualizzare area e distanza focale dell'ellisse
 
->
-
-<https://tomamic.github.io/pyodide/?p04_ellipse.py>
-
 ---
 
 ![](images/misc/frogger.png)
@@ -427,10 +423,6 @@ def tick():
     - Il veicolo si sposta sempre di pochi pixel, solo in orizzontale
     - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
 
->
-
-<https://tomamic.github.io/pyodide/?p04_vehicle.py>
-
 ---
 
 ![](images/misc/frogger.png)
@@ -440,10 +432,6 @@ def tick():
 - La pallina si muove solo dopo il click del mouse
 - Esegue i suoi comportamenti già definiti, ma solo per 5 fotogrammi
 - Dopo 5 fotogrammi si ferma, in attesa di una nuova pressione del tasto
-
->
-
-<https://tomamic.github.io/pyodide/?p04_nframes.py>
 
 ---
 
@@ -456,10 +444,6 @@ def tick():
     - Si sposta di qualche pixel verso il basso
     - Poi cambia direzione orizzontale
 - Fare in modo che, in ogni frame, lo spostamento sia solo orizzontale, o solo verticale, ma *non* diagonale
-
->
-
-<https://tomamic.github.io/pyodide/?p04_aliens.py>
 
 ---
 
@@ -482,7 +466,3 @@ def tick():
 - Implementare il movimento in un metodo `move()`
 - Campi: `xc`, `yc`, `i`
     - `i` conta i passi; se eccede il limite, torna a 0
-
->
-
-<https://tomamic.github.io/pyodide/?p04_spiral.py>

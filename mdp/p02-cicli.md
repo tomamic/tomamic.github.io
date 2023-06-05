@@ -430,10 +430,6 @@ for i in range(5):
 - La sequenza termina quando l'utente immette il valore 0
 - Alla fine, visualizzare la resistenza equivalente, sia nel caso di resistenze disposte in serie, che in parallelo
 
->
-
-<https://tomamic.github.io/pyodide/?p02_resistors.py>
-
 ---
 
 ![](images/misc/three-brothers.png)
@@ -450,8 +446,6 @@ Controllare prima di tutto se `a` è minore degli altri due
 Altrimenti controllare se `b` è minore di `c`
 <br>
 Altrimenti…
-<br>
-<https://tomamic.github.io/pyodide/?p02_min3.py>
 
 ---
 
@@ -466,8 +460,6 @@ Altrimenti…
 >
 
 Naturalmente, senza usare `math.sqrt`
-
-<https://tomamic.github.io/pyodide/?p02_perfect.py>
 
 ---
 
@@ -487,8 +479,6 @@ Cominciare a creare una riga di riquadri tutti neri
 Poi creare una griglia, con due cicli annidati
 <br>
 Lasciare tra i riquadri un piccolo margine
-<br>
-<https://tomamic.github.io/pyodide/?p02_grid.py>
 
 ---
 
@@ -501,8 +491,6 @@ Lasciare tra i riquadri un piccolo margine
 >
 
 Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
-<br>
-<https://tomamic.github.io/pyodide/?p02_watch.py>
 
 ---
 
@@ -512,10 +500,6 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 - Generare all'inizio del programma un numero “segreto” a caso tra 1 e 90
 - Chiedere ripetutamente all'utente di immettere un numero, finché non indovina quello generato
 - Ad ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
-
->
-
-<https://tomamic.github.io/pyodide/?p02_secret.py>
 
 ---
 
@@ -536,6 +520,4 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 Basta memorizzare tre coppie di coordinate cartesiane
 <br>
 Non è richiesto l'uso della grafica
-<br>
-<https://tomamic.github.io/pyodide/?p02_monster.py>
 
