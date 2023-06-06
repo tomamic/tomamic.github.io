@@ -164,7 +164,7 @@ def print_game(game: BoardGame):
     cols, rows = game.size()
     for y in range(rows):
         for x in range(cols):
-            print(game.value_at(x, y), end="\t")
+            print(game.read(x, y), end="\t")
         print()
     print(game.status())
 

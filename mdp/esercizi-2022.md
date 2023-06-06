@@ -861,9 +861,9 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - `__init__`
     - Riempire una matrice con i numeri da `1` a `w*h`, in ordine
     - Mescolare la matrice: scambiare coppie di celle scelte a caso
-- `play_at`
+- `play`
     - Segnare in memoria come *marcate* le celle scelte dall'utente
-- `value_at`
+- `read`
     - Numero presente nella cella, come `str`
     - Mostrare “`!`” dopo il numero, se la cella è stata *marcata* dall'utente
 - `finished`
@@ -929,7 +929,7 @@ Dispense: [Hex e bin](https://github.com/tomamic/fondinfo/wiki/T02-Codifica#hex-
 - Creare una sottoclasse di `BoardGame`
 - Incapsulare la matrice del campo minato
 - Memorizzare inoltre le celle attualmente già scoperte
-- Metodi `__init__, play_at, value_at, finished`…
+- Metodi `__init__, play, read, finished`…
 - Per ora, gioco senza bandierine
 
 >
@@ -1200,7 +1200,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Matrice simile ad esercizio 10.4
     - Numeri e quadrati corrispondenti, mescolati
 - L'utente sceglie un numero e subito dopo il suo quadrato
-    - Due chiamate `play_at` successive
+    - Due chiamate `play` successive
     - Se associazione giusta → numeri eliminati
     - Altrimenti → conteggiato un errore
 - Nel messaggio finale, comunicare il numero di errori fatti
@@ -1209,7 +1209,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 Memorizzare almeno l'ultima posizione scelta
 <br>
-Tramite `value_at`, possibilmente, marcarla con un puntino
+Tramite `read`, possibilmente, marcarla con un puntino
 
 ---
 
