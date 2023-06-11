@@ -14,8 +14,7 @@
 - George Polya, [“How to solve it”](https://www.dropbox.com/s/86ua0v7mbr6tkgm/Polya_How-to-solve-it.pdf?dl=1), 1945
 - Soluzione di problemi (matematici): processo raramente lineare
 
-> Example. Find the diagonal of a rectangular parallelepiped of which the length, the
-width, and the height are known. *(Polya, pag. 23)*
+> Esempio. Trovare la diagonale di un parallelepipedo rettangolo, di cui sono note lunghezza, larghezza e altezza. *(Polya, pag. 23)*
 
 ---
 
@@ -26,9 +25,9 @@ width, and the height are known. *(Polya, pag. 23)*
     - Quali dati, incognite, condizioni?
     - Figure, notazione… *modello*
 
-> Make things as simple as possible, but not simpler. *(A. Einstein)*
+> Bisognerebbe rendere tutto il più semplice possibile, ma non troppo semplice. *(A. Einstein)*
 
-> For every complex problem there is an answer that is clear, simple… and wrong. *(H.L. Mencken)*
+> Per ogni problema complesso c'è sempre una soluzione chiara, semplice… e sbagliata! *(H.L. Mencken)*
 
 ---
 
