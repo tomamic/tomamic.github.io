@@ -8,7 +8,7 @@
 
 ---
 
-![](images/dev/problem-solving.svg) ![](images/hist/polya.jpg)
+![](images/hist/polya.jpg)
 # 💡️ Problem solving
 
 - George Polya, [“How to solve it”](https://www.dropbox.com/s/86ua0v7mbr6tkgm/Polya_How-to-solve-it.pdf?dl=1), 1945
@@ -28,6 +28,8 @@
 > Bisognerebbe rendere tutto il più semplice possibile, ma non troppo semplice. *(A. Einstein)*
 
 > Per ogni problema complesso c'è sempre una soluzione chiara, semplice… e sbagliata! *(H.L. Mencken)*
+
+Ad esempio, per il calcolo della diagonale di un parallelepipedo, <br> una buona figura può dare suggerimenti importanti
 
 ---
 
