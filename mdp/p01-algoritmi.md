@@ -80,7 +80,7 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 
 ---
 
-![](images/algo/spaghetti-flowchart.svg) ⚠️ **Spaghetti code** <br> Don't do this!
+![](images/algo/spaghetti-flowchart.svg)
 # 💡️ Diagramma di flusso
 
 - **Flow-chart**: *grafo orientato*, nodi + archi
