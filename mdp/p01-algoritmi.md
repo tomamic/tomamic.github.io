@@ -42,7 +42,7 @@ width, and the height are known. *(Polya, pag. 23)*
 - **➌ Do.** Implementare il progetto
     - Realizzare il sistema da sperimentare
 
-> If you can't solve a problem… then there is an easier problem you can solve: find it. *(G. Polya)*
+> Se non riesci a risolvere un problema, ce ne sarà uno più facile che puoi risolvere: trovalo. *(G. Polya)*
 
 > [La risposta è dentro di te… (Quelo)](https://www.youtube.com/watch?v=WGQ7JZRZ65M)
 
@@ -57,7 +57,7 @@ width, and the height are known. *(Polya, pag. 23)*
 
 > Vi scrivo una lunga lettera perché non ho tempo di scriverne una breve. *(Voltaire)*
 
-> Perfection is reached not when there is no longer anything to add, but when there is no longer anything to take away. *(De Saint-Exupéry)*
+> La perfezione si raggiunge non quando non c'è più niente da aggiungere, ma quando non c'è più niente da togliere. *(De Saint-Exupéry)*
 
 > La scultura è quella che si fa per forza di levare. *(Michelangelo)*
 
