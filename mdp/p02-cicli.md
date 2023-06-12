@@ -246,7 +246,7 @@ True
 ---
 
 ![](images/algo/words.svg)
-# 🧪 Confronto tra due stringhe
+# 🧪 Ordine tra due stringhe
 
 ``` py
 a = input("First word? ")
