@@ -323,26 +323,40 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 ![](images/misc/frogger.png)
 # Movimento orizzontale
 
-- Mostrare una pallina che si muove in orizzontale
-    - Variabile `dx` indica lo spostamento da effettuare ad ogni ciclo
-- La pallina riappare dal bordo opposto, dopo un po' di tempo
-    - Permettere alla pallina di superare i bordi laterali, p.es. di *100px*
-    - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
-- Al click del mouse, la pallina inverte la direzione
+- Mostrare una tartaruga che si muove in orizzontale
+    - Var. `dx`: spostamento ad ogni frame
+- Riappare dal bordo opposto, dopo un po'
+    - Permettere di superare i bordi laterali
+    - Se supera di 100px il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
+- Al click del mouse, la tartaruga inverte la direzione
+- Ritagliare l'immagine da `sprites.png`
+
+``` py
+g2d.draw_image_clip("sprites.png", (x, y), (0, 20), (20, 20))
+```
+
+>
+
+<https://github.com/tomamic/fondinfo#images-and-sounds>
 
 ---
 
 ![](images/misc/space-invaders-school.png)
 # Alieno
 
-- Mostrare una pallina che si muove a serpentina
+- Mostrare un alieno che si muove a serpentina
 - Normalmente si sposta solo in orizzontale
 - Quando arriva ad un bordo laterale…
-    - La pallina scende di qualche pixel
+    - L'alieno scende di qualche pixel
     - Inverte la sua direzione orizzontale
 - Evitare gli spostamenti in diagonale
-    - Quando la pallina scende, non si sposta in orizzontale
+    - Quando l'alieno scende, non si sposta in orizzontale
     - Quando si sposta in orizzontale, non scende
+- Ritagliare l'immagine del fantasma da `sprites.png`
+
+``` py
+g2d.draw_image_clip("sprites.png", (x, y), (20, 0), (20, 20))
+```
 
 ---
 
@@ -386,7 +400,8 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 >
 
 <https://en.wikipedia.org/wiki/Rotation_(mathematics)#Two_dimensions>
-
+<br>
+<br>
 <https://tomamic.github.io/pyodide/?p03_polar.py>
 
 ---
@@ -406,6 +421,7 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 ∑ angoli interni di poligono n lati = π · (n-2)
 <br>
 ∑ angoli esterni = 2π
-
+<br>
+<br>
 <https://tomamic.github.io/pyodide/?p03_pen.py>
 
