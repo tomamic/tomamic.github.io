@@ -368,13 +368,23 @@ func (b *Ball) Move() {
 
 ---
 
+# Metodi getter
+
+``` go
+func (b *Ball) Position() Point {
+    return Point{b.x, b.y}
+}
+
+func (b *Ball) Size() Point {
+    return Point{b.w, b.h}
+}
+```
+
+---
+
 # Applicazione
 
 ``` go
-func (b *Ball) Position() Rect {
-    return Rect{b.x, b.y, b.w, b.h}
-}
-
 func main() {
     b1 := NewBall(Point{40, 80})  // Create two objects,
     b2 := NewBall(Point{80, 40})  // instances of the Ball class
@@ -404,8 +414,8 @@ func tick() {
     ClearCanvas()            // BG
     b1.Move()
     b2.Move()
-    FillRect(b1.Position())  // FG
-    FillRect(b2.Position())  // FG
+    FillRect(b1.Position(), b1.Size())  // FG
+    FillRect(b2.Position(), b2.Size())  // FG
 }
 
 func main() {

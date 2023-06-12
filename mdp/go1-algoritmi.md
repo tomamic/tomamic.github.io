@@ -189,13 +189,12 @@ Alert("The sum is ", total)
 
 ``` go
 type Point struct{ X, Y int }
-type Rect struct{ X, Y, W, H int }
 type Color struct{ R, G, B int }
 ```
 
 ``` go
-center := Point{150, 100}
-rectangle := Rect{150, 100, 200, 200}  // square
+center := Point{320, 240}     // x, y
+size := Point{640, 480}       // width, height
 myBlue := Color{10, 10, 200}  // each component in 0..255
 ```
 
@@ -211,7 +210,7 @@ InitCanvas(Point{640, 480})
 // red + green = yellow
 SetColor(Color{255, 255, 0})
 // left, top, width, height
-FillRect(Rect{150, 100, 250, 200})
+FillRect(Point{150, 100}, Point{250, 200})
 
 SetColor(Color{0, 0, 255})
 // center, radius
@@ -487,7 +486,7 @@ for i := 0; i < 5; i++ {
     y := x
     red := i * 60
     SetColor(Color{red, 0, 0})
-    FillRect(Rect{x, y, 140, 140})
+    FillRect(Point{x, y}, Point{140, 140})
 }
 ```
 

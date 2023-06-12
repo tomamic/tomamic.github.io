@@ -163,7 +163,7 @@ func tick() {
     ClearCanvas() // BG
     for _, b := range balls {
         b.Move()
-        FillRect(b.Position()) // FG
+        FillRect(b.Position(), b.Size()) // FG
     }
 }
 func main() {
