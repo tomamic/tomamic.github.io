@@ -190,6 +190,28 @@ else:
 
 ---
 
+![](images/algo/calc.svg)
+# 🧪 Operazioni aritmetiche
+
+``` py
+a = float(input())
+b = float(input())
+op = input()
+
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a * b)
+elif op == "/" and b != 0:
+    print(a / b)
+else:
+    print("Operation not allowed")
+```
+
+---
+
 # 🧪 Confronto tra stringhe
 
 - Confronto tra stringhe, in ordine *lessicografico*
@@ -224,7 +246,7 @@ True
 ---
 
 ![](images/algo/words.svg)
-# 🧪 Selezione: elif
+# 🧪 Confronto tra due stringhe
 
 ``` py
 a = input("First word? ")
@@ -242,28 +264,6 @@ else:
 - No `switch`, no `do-while`
 
 > There should be one -- and preferably only one -- obvious way to do it *(ZoP)*
-
----
-
-![](images/algo/calc.svg)
-# 🧪 Operazioni aritmetiche
-
-``` py
-a = float(input())
-b = float(input())
-op = input()
-
-if op == "+":
-    print(a + b)
-elif op == "-":
-    print(a - b)
-elif op == "*":
-    print(a * b)
-elif op == "/" and b != 0:
-    print(a / b)
-else:
-    print("Operation not allowed")
-```
 
 ---
 

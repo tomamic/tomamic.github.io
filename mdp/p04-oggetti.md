@@ -146,10 +146,10 @@ b2 = Ball(180, 140)
 
 def tick():
     g2d.clear_canvas()
-    b1.move()
-    b2.move()
     g2d.draw_image("ball.png", b1.pos())
     g2d.draw_image("ball.png", b2.pos())
+    b1.move()
+    b2.move()
 
 def main():
     g2d.init_canvas((ARENA_W, ARENA_H))
