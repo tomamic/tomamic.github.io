@@ -359,8 +359,8 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 ![](images/misc/frogger.png)
 # Movimento per 5 fotogrammi
 
-- Mostrare una pallina che si muove in orizzontale
-    - Variabile `dx` indica lo spostamento da effettuare ad ogni ciclo
+- Mostrare una pallina che si muove in verticale
+    - Variabile `dy` indica lo spostamento da effettuare ad ogni frame
 - La pallina si muove solo dopo il click del mouse
     - Si sposta solo per 5 fotogrammi
     - Dopo si ferma, fino a nuova pressione
@@ -387,6 +387,8 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 
 <https://en.wikipedia.org/wiki/Rotation_(mathematics)#Two_dimensions>
 
+<https://tomamic.github.io/pyodide/?p03_polar.py>
+
 ---
 
 ![](images/misc/polygon.png)
@@ -404,3 +406,6 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 ∑ angoli interni di poligono n lati = π · (n-2)
 <br>
 ∑ angoli esterni = 2π
+
+<https://tomamic.github.io/pyodide/?p03_pen.py>
+
