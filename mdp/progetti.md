@@ -33,7 +33,7 @@
     - Agli incroci svoltano casualmente
     - Ma non tornano mai indietro!
 - *Biscotti*
-    - Pac-Man deve mangiarli tutti, per terminare il gioco
+    - Pac-Man vince se li mangia tutti
 - *SuperBiscotti*
     - Danno per breve tempo a Pac-Man il potere di mangiare i fantasmi
 
@@ -51,7 +51,7 @@
     - Mario ci atterra dall'alto
     - Non si possono attraversare in nessuna direzione
 - *Avversari*
-    - Si muovono sulle piattaforme come Mario, ma scelgono casualmente la direzione
+    - Movimenti come Mario, ma scelti casualmente
     - Uccidono Mario se lo urtano, ma muoiono se Mario ci salta sopra
 
 ---
@@ -76,11 +76,11 @@
 ![](images/misc/moon-patrol.png)
 # Moon Patrol
 
-- Animazione in parallasse degli sfondi
-- `Rover`: si muove sul terreno, salta, spara verso destra e verso l'alto
-- `Buche`: il rover ci può cadere dentro
-- `Rocce`: ostacoli, che possono essere colpiti
-- `Alieni`: sparano in basso e possono essere colpiti
+- Animazione in *parallasse* degli sfondi
+- **Rover** : si muove sul terreno, salta, spara verso destra e verso l'alto
+- **Buche** : il rover ci può cadere dentro
+- **Rocce** : ostacoli, che possono essere colpiti
+- **Alieni** : sparano in basso e possono essere colpiti
 
 ---
 
@@ -88,8 +88,8 @@
 # Frogger
 
 - **Rana** guidata dall'utente, salta in 4 direzioni: ↕ ↔
-- Deve attraversare la strada, senza essere investita dai **camion**
-- Deve attraversare il fiume, saltando sui **tronchi**
+- *Fase 1* : attraversare la strada, evitando i **camion**
+- *Fase 2* : attraversare il fiume, saltando sui **tronchi**
     - La rana viene trascinata, se è su un tronco
     - La rana affoga nell'acqua
 
@@ -113,10 +113,10 @@
 ![](images/misc/donkey-kong.png)
 # Donkey Kong
 
-- Mario può camminare sulle piattaforme
-- Può saltare, se è su una piattaforma
-- Deve evitare i barili
-- Cade quando esce dalla piattaforma
+- **Mario** : guidato dall'utente, cade se non è su una piattaforma
+- **Piattaforme** : ci si può camminare e saltare sopra
+- **Scale** : ci si può arrampicare
+- **Barili** : rotolano e rimbalzano; sono mortali
 
 ---
 
@@ -147,11 +147,11 @@
 ![](images/misc/minesweeper.png)
 # Campo minato
 
-- N <b>mine nascoste</b> a caso in tabella rettangolare
+- N **mine nascoste** a caso in tabella rettangolare
 - Ad ogni turno, l'utente scopre una casella:
-    - Mina → <i>partita persa</i>
-    - Solo N caselle coperte (con mine) → <i>partita vinta</i>
-    - Altrimenti, <i>conteggio mine</i> nelle 8 caselle adiacenti
+    - Mina → *partita persa*
+    - Solo N caselle coperte (con mine) → *partita vinta*
+    - Altrimenti, *conteggio mine* nelle 8 caselle adiacenti
 
 ---
 
@@ -182,9 +182,9 @@
 # Slitherlink
 
 - Regole
-    - Connect adjacent dots with vertical or horizontal lines to make a single loop
-    - The numbers indicate how many lines surround it, while empty cells may be surrounded by any number of lines
-    - The loop never crosses itself and never branches off
+    - Collegare dei punti adiacenti con linee verticali o orizzontali per creare un singolo anello
+    - I numeri indicano quante linee li circondano, mentre le celle bianche possono essere circondate da linee in numero qualsiasi
+    - L'anello non si incrocia mai con se stesso e non si biforca
 
 >
 
@@ -198,9 +198,9 @@
 # Hitori
 
 - Regole
-    - Color cells so no number appears more than once in a row or column
-    - The sides of black cells never touch
-    - White cells form a continuous network
+    - Annerire le celle in modo che nessun numero appaia più volte in una riga o colonna
+    - I lati delle celle nere non possono toccarsi
+    - Le celle bianche formano una rete continua
 - Ad ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
     - Controllare la violazione delle regole
     - Controllare il completamento del gioco (ogni numero: correttamente annerito o cerchiato)
@@ -214,7 +214,7 @@
 ![](images/misc/akari.svg)
 # Akari - Light up
 
-- Scopo: <b>illuminare</b> tutte le celle bianche
+- Scopo: *illuminare* tutte le celle bianche
     - Una lampada illumina tutte le celle visibili sulla sua riga e la sua colonna
     - Due lampade non possono illuminarsi a vicenda
     - Vincolo numerico: # lampade nelle 4 celle adiacenti

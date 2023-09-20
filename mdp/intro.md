@@ -129,17 +129,12 @@ Applicazioni testuali e con grafica
     - [**Thonny**](https://www.thonny.org/), ambiente Python, *battery included*
     - Playground [Python](https://tomamic.github.io/pyodide/)
 - Opzionalmente
-    - [*Termux*](https://f-droid.org/packages/com.termux/) e [*Termux:X11*](https://ivonblog.com/en-us/posts/termux-x11/) su Android
+    - [*Termux*](https://github.com/tomamic/fondinfo/wiki/Termux) su Android
     - [*Ubuntu*](http://releases.ubuntu.com/22.04/) in una [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [WikiHow](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
 
 ``` sh
 ## Ubuntu, Debian etc.
 sudo apt install python3-pip python3-tk python3-pygame thonny
-
-## Termux
-pkg install tur-repo
-pkg install python-pip python-pygame
-pip install thonny
 ```
 
 ---
