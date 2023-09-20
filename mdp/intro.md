@@ -52,9 +52,8 @@ Applicazioni testuali e con grafica
 ![](images/dev/lab.jpg)
 # ℹ️ Istruzioni per i laboratori
 
-- Attivare l'account personale per l'accesso ai lab
-    - <http://www.cedi.unipr.it/gestioneaccounts>
-- Esercitazioni ogni lunedì
+- Esercitazioni in lab ogni lunedì
+    - Proprio PC, o postazioni in lab
 - Esercizi da cominciare in lab e continuare a casa, *individualmente*
 - *Verifica* esercitazioni
     - Alla fine di ogni esercitazione, consegna dei programmi secondo le indicazioni del docente
@@ -130,13 +129,17 @@ Applicazioni testuali e con grafica
     - [**Thonny**](https://www.thonny.org/), ambiente Python, *battery included*
     - Playground [Python](https://tomamic.github.io/pyodide/)
 - Opzionalmente
-    - [F-Droid](https://f-droid.org/), [*Termux*](https://wiki.termux.com/) e [Ubuntu](https://udroid-rc.gitbook.io/) su Android
+    - [*Termux*](https://f-droid.org/packages/com.termux/) e [*Termux:X11*](https://ivonblog.com/en-us/posts/termux-x11/) su Android
     - [*Ubuntu*](http://releases.ubuntu.com/22.04/) in una [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [WikiHow](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
 
 ``` sh
 ## Ubuntu, Debian etc.
-sudo apt install python3-pip python3-tk
-pip3 install thonny pygame
+sudo apt install python3-pip python3-tk python3-pygame thonny
+
+## Termux
+pkg install tur-repo
+pkg install python-pip python-pygame
+pip install thonny
 ```
 
 ---
