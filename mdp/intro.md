@@ -129,7 +129,7 @@ Applicazioni testuali e con grafica
     - [**Thonny**](https://www.thonny.org/), ambiente Python, *battery included*
     - Playground [Python](https://tomamic.github.io/pyodide/)
 - Opzionalmente
-    - [*Termux*](https://github.com/tomamic/fondinfo/wiki/Termux) su Android
+    - [*Termux*](https://github.com/tomamic/fondinfo/wiki/X02-Termux) su Android
     - [*Ubuntu*](http://releases.ubuntu.com/22.04/) in una [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [WikiHow](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
 
 ``` sh
