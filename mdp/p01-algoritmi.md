@@ -603,23 +603,29 @@ g2d.main_loop()
 
 ---
 
-![](images/misc/red-squares.svg)
+![](images/algo/linearity.svg)
 # 💡 Linearità
 
 - Legame lineare tra una grandezza (p.es. $pos$) e $i$
 
-$$result = m \cdot i + q$$
+$$v = m \cdot i + q$$
 
 - Per determinare $q$, si valuta il primo caso: $i = 0$
 - Per determinare $m$, si valuta l'ultimo caso: $i = n - 1$
 - Con $i$ intero, $m$ è la differenza tra due istanze
     - P.es. la distanza tra due quadrati
 
-. . .
+---
 
-- ❓ Ricavare i valori di $q$ ed $m$ per l'esempio dei quadrati
-    - Primo quadrato: $pos = 0$; ultimo: $pos = L - l$
+![](images/misc/red-squares.svg)
+# 🧪 Sequenza di n quadrati
+
+- ❓ Ricavare i valori di $q$ ed $m$ per una sequenza di $n$ quadrati
+	- $n$ scelto dall'utente
+    - Primo quadrato: $pos = 0$
+    - Ultimo quadrato: $pos = L - l$
     - $L$: lato del canvas noto, $l$: lato dei quadrati noto
+- ❓ E se volessimo aggiungere un margine di $10$ pixel?
 
 ---
 
