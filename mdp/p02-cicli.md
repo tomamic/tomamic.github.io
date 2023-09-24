@@ -78,7 +78,7 @@ print("The sum is", total)
 ``` py
 n = int(input("How many values? "))
 total = 0
-count = 0
+count = 0  # counting from 0 to n-1
 
 while count < n:
     val = int(input("Val? "))
@@ -142,6 +142,31 @@ for i in range(1, n + 1):
 #     total += i
 #     i += 1
 ```
+
+---
+
+![](images/fun/times-table.svg)
+# 🧪 Cicli e annidamento
+
+- Stampare la tavola pitagorica
+- Primo passo: stampare una sola riga
+
+``` py
+y = int(input("Insert a value: "))
+for x in range(1, 11):
+    print(x * y, end="\t")  # ends with tabulation
+```
+
+``` py
+for y in range(1, 11):
+    for x in range(1, 11):
+        print(x * y, end="\t")
+    print()  # normally, ends with newline
+```
+
+>
+
+<https://tomamic.github.io/pyodide/?p02_tables.py>
 
 ---
 
@@ -350,31 +375,6 @@ for val in values:
 - Ciclo `for` per qualsiasi tipo di sequenza
     - `list`, `str`, `tuple`, `range`…
 - Ad ogni iterazione, a `val` è assegnato un elemento di `values`
-
----
-
-![](images/fun/times-table.svg)
-# 🧪 Cicli e annidamento
-
-- Stampare la tavola pitagorica
-- Primo passo: stampare una sola riga
-
-``` py
-y = int(input("Insert a value: "))
-for x in range(1, 11):
-    print(x * y, end="\t")  # ends with tabulation
-```
-
-``` py
-for y in range(1, 11):
-    for x in range(1, 11):
-        print(x * y, end="\t")
-    print()  # normally, ends with newline
-```
-
->
-
-<https://tomamic.github.io/pyodide/?p02_tables.py>
 
 ---
 

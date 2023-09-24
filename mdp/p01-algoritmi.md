@@ -451,14 +451,17 @@ print(cos(pi / 6))  # √3 / 2
 
 - *Python Standard Library*
     - <http://docs.python.org/library/>
-- In `random`, ci sono anche:
-    - `randrange`, `random`, `choice`…
+    - `randint`, `randrange`, `random`, `choice`…
 
 ``` py
-from random import randint
+from random import randint, randrange
+
 die1 = randint(1, 6)  # like rolling a die
 die2 = randint(1, 6)  # like rolling a die
 print(die1, die2)
+
+one_of_three = randrange(3)  # 0, 1, or 2
+print(one_of_three)
 ```
 
 ---
@@ -553,7 +556,7 @@ for r in (200, 175, 150):
 
 ``` py
 for r in (200, 175, 150):
-    g2d.set_color((randint(0, 255), randint(0, 255), randint(0, 255)))
+    g2d.set_color((randrange(256), randrange(256), randrange(256)))
     g2d.draw_circle((200, 200), r)
 ```
 
@@ -562,17 +565,17 @@ for r in (200, 175, 150):
 # ⭐ Intervallo di valori
 
 - **`range`** : intervallo di valori aperto a destra
-    - Estremi: inferiore *incluso* , superiore *escluso*
-    - Con un solo parametro, l'intervallo parte da `0`
+    - Estremi: inferiore *incluso* (0), superiore *escluso*
+    - Se estremo inferiore ≠ 0, servono due parametri
 - *`reversed`* : sequenza rovesciata
 
 ``` py
-for i in range(1, 6):  # (1, 2, 3, 4, 5)
+for i in range(5):  # (0, 1, 2, 3, 4)
     print(i)
 ```
 
 ``` py
-for i in reversed(range(1, 6)):  # (5, 4, 3, 2, 1)
+for i in reversed(range(5)):  # (4, 3, 2, 1, 0)
     print(i)
 ```
 
@@ -625,7 +628,7 @@ $$v = m \cdot i + q$$
     - Primo quadrato: $pos = 0$
     - Ultimo quadrato: $pos = L - l$
     - $L$: lato del canvas noto, $l$: lato dei quadrati noto
-- ❓ E se volessimo aggiungere un margine di $10$ pixel?
+- ❓ E se volessimo aggiungere un margine di $10$ pixel attorno a tutto il disegno?
 
 ---
 
@@ -743,10 +746,6 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
     - Dal rosso del livello più esterno
     - Fino al nero del livello più interno
 - Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
-
->
-
-Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 ---
 

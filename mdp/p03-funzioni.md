@@ -29,7 +29,6 @@ https://thevaluable.dev/abstraction-type-software-example/
 
 ![large](images/dev/map-levels.svg)
 
-
 ---
 
 ![](images/fun/function.png)
@@ -48,7 +47,7 @@ def hypotenuse(a, b):
 - Suddivisione di un problema in sotto-problemi
     - Astrazione rispetto all'implementazione
     - Generalizzazione e separazione della soluzione
-    - Calcolo basato su parametri di I/O, modello
+    - Calcolo basato su parametri, modello
 
 ---
 
@@ -76,12 +75,11 @@ print("3rd side:", side3)
 # 💡 Funzione principale
 
 - Preferibile, per limitare le **variabili globali**
-- Senza `return`, *procedura*
+- *Procedura*, senza `return` (risultato `None`)
 
 ``` py
 def hypotenuse(a, b):
-    c = (a ** 2 + b ** 2) ** 0.5
-    return c
+    return (a ** 2 + b ** 2) ** 0.5
 
 def main():
     side1 = float(input("1st side? "))
@@ -116,69 +114,6 @@ def main():
     inc(x)  # what's `x` now? print it
 
 main()
-```
-
----
-
-# 🧪 Risultato in tupla
-
-``` py
-def divmod_(a, b):
-    quotient = a // b
-    reminder = a % b
-    return (quotient, reminder)  # ❗ return a tuple
-
-result = divmod_(5, 2)  # a tuple
-q, r = result  # ❗ sequence unpacking
-```
-
->
-
-<https://docs.python.org/3/library/functions.html#divmod>
-
----
-
-# 💡 Documentazione di funzione
-
-- **Annotazioni**: utili per documentare il tipo di param. e risultato
-    - Ma non c'è verifica!
-- **Docstring**: descrizione testuale di una funzione
-- **`help`**: funzione per visualizzare la documentazione
-
-``` py
-def hypotenuse(leg1: float, leg2: float) -> float:
-    '''
-    Return the hypotenuse of a right triangle,
-    given both its legs (catheti).
-    '''
-    return (leg1 ** 2 + leg2 ** 2) ** 0.5
-```
-
->
-
-<https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html>
-
----
-
-![](images/hist/mcnulty.png) Kay McNulty : subroutine per ENIAC
-# 🧪 Procedura
-
-- Funzione senza `return`, solo I/O ed effetti collaterali
-    - *Astrazione*, per riuso e leggibilità
-    - Riduce i livelli di annidamento
-    - Risultato implicito `None`
-
-``` py
-def print_row(y: int, size: int):
-    for x in range(1, size + 1):
-        print(x * y, end="\t")
-    print()
-
-def print_table(size: int):
-    for y in range(1, size + 1):
-        print_row(y, size)
-
-print_table(10)
 ```
 
 ---
@@ -231,6 +166,47 @@ if g2d.current_keys(): print(g2d.current_keys())
 
 ---
 
+# 💡 Documentazione di funzione
+
+- **Annotazioni**: utili per documentare il tipo di param. e risultato
+    - Ma non c'è verifica!
+- **Docstring**: descrizione testuale di una funzione
+- **`help`**: funzione per visualizzare la documentazione
+
+``` py
+def hypotenuse(leg1: float, leg2: float) -> float:
+    '''
+    Return the hypotenuse of a right triangle,
+    given both its legs (catheti).
+    '''
+    return (leg1 ** 2 + leg2 ** 2) ** 0.5
+```
+
+>
+
+<https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html>
+
+---
+
+![](images/hist/mcnulty.png) Kay McNulty : subroutine per ENIAC
+# 🧪 Risultato in tupla
+
+``` py
+def divmod_(a: int, b: int) -> tuple[int, int]:
+    quotient = a // b
+    reminder = a % b
+    return (quotient, reminder)  # ❗ return a tuple
+
+result = divmod_(5, 2)  # a tuple
+q, r = result  # ❗ sequence unpacking
+```
+
+>
+
+<https://docs.python.org/3/library/functions.html#divmod>
+
+---
+
 ![](images/oop/anim-bounce.png)
 # 🧪 Funzione per rimbalzi
 
@@ -240,7 +216,7 @@ if g2d.current_keys(): print(g2d.current_keys())
 
 ``` py
 def move_ball(x: int, y: int,
-              dx: int, dy: int) -> (int, int, int, int):
+              dx: int, dy: int) -> tuple[int, int, int, int]:
     if not 0 <= x + dx <= ARENA_W - BALL_W:
         dx = -dx
     if not 0 <= y + dy <= ARENA_H - BALL_H:
@@ -272,7 +248,7 @@ def move_ball(x: int, y: int,
 # 💡 Funzioni non idempotenti
 
 - Esempio di semplificazione
-    - `p = rq(x) + rq(y) * (rq(x) – rq(x))`
+    - `p = rq(x) + rq(y) * (rq(x) - rq(x))`
     - `p = rq(x) + rq(y) * (0)`
     - `p = rq(x) + 0`
     - `p = rq(x)`

@@ -87,17 +87,39 @@ Proprietà    | Not
 -------------|--------
 Complemento  | `$\lnot \lnot A \equiv A$`
 
-Proprietà    | And                       | Or
--------------|---------------------------|--------------------------
-Commutativa  | `$A \cdot B \equiv B \cdot A$`         | `$A + B \equiv B + A$`
-Associativa  | `$(A \cdot B) \cdot C \equiv A \cdot (B \cdot C)$`     | `$(A+B)+C \equiv A+(B+C)$`
-Distributiva | `$A+(B \cdot C) \equiv (A+B) \cdot (A+C)$` | `$A \cdot (B+C) \equiv (A \cdot B)+(A \cdot C)$`
-Idempotenza  | `$A \cdot A \equiv A$`             | `$A + A \equiv A$`
-Identità     | `$A \cdot 1 \equiv A$`             | `$A + 0 \equiv A$`
-Del limite   | `$A \cdot 0 \equiv 0$`             | `$A + 1 \equiv 1$`
-Assorbimento | `$A \cdot (A+B) \equiv A$`         | `$A + (A \cdot B) \equiv A$`
-Inverso      | `$A \cdot \lnot A \equiv 0$`            | `$A + \lnot A \equiv 1$`
-De Morgan    | `$\lnot (A \cdot B \cdot C \dots) \equiv \lnot A+ \lnot B+ \lnot C \dots$` | `$\lnot (A+B+C \dots) \equiv \lnot A \cdot  \lnot B \cdot  \lnot C \dots$`
+Proprietà    | And                                                | Or
+-------------|----------------------------------------------------|--------------------------
+Commutativa  | `$A \cdot B \equiv B \cdot A$`                     | `$A + B \equiv B + A$`
+Associativa  | `$(A \cdot B) \cdot C \equiv A \cdot (B \cdot C)$` | `$(A+B)+C \equiv A+(B+C)$`
+Distributiva | `$A+(B \cdot C) \equiv (A+B) \cdot (A+C)$`         | `$A \cdot (B+C) \equiv (A \cdot B)+(A \cdot C)$`
+Idempotenza  | `$A \cdot A \equiv A$`                             | `$A + A \equiv A$`
+Identità     | `$A \cdot 1 \equiv A$`                             | `$A + 0 \equiv A$`
+Del limite   | `$A \cdot 0 \equiv 0$`                             | `$A + 1 \equiv 1$`
+Assorbimento | `$A \cdot (A+B) \equiv A$`                         | `$A + (A \cdot B) \equiv A$`
+Inverso      | `$A \cdot \lnot A \equiv 0$`                       | `$A + \lnot A \equiv 1$`
+De Morgan    | `$\lnot (A \cdot B \cdot C \dots) \equiv \lnot A + \lnot B + \lnot C \dots$` | `$\lnot (A+B+C \dots) \equiv \lnot A \cdot \lnot B \cdot \lnot C \dots$`
+
+---
+
+# 🔬 Dimostrazioni
+
+- De Morgan per And: `$\lnot (A \cdot B) \equiv \lnot A+ \lnot B$`
+
+$A$ | $B$ | $\lnot A$ | $\lnot B$ | $A \cdot B$ | $\lnot (A \cdot B)$ | $\lnot A + \lnot B$
+----|-----|-----------|-----------|-------------|---------------------|--------------------
+0   | 0   | 1         | 1         | 0           | 1                   | 1
+0   | 1   | 1         | 0         | 0           | 1                   | 1
+1   | 0   | 0         | 1         | 0           | 1                   | 1
+1   | 1   | 0         | 0         | 1           | 0                   | 0
+
+- De Morgan per Or: `$\lnot (A+B) \equiv \lnot A \cdot \lnot B$`
+
+$A$ | $B$ | $\lnot A$ | $\lnot B$ | $A + B$ | $\lnot (A+B)$ | $\lnot A \cdot \lnot B$
+----|-----|-----------|-----------|---------|---------------|------------------------
+0   | 0   | 1         | 1         | 0       | 1             | 1
+0   | 1   | 1         | 0         | 1       | 0             | 0
+1   | 0   | 0         | 1         | 1       | 0             | 0
+1   | 1   | 0         | 0         | 1       | 0             | 0
 
 ---
 
