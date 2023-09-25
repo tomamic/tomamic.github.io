@@ -198,8 +198,9 @@ else:
 # 🧪 elif
 
 - `elif` : contrazione di `else if`
+    - Clausola `else` che contiene un altro `if`
 - Permette di ridurre l'annidamento
-- Varie condizioni alternative allo stesso livello
+    - Varie condizioni alternative allo stesso livello
 - Se nessuna condizione vera, eseguito `else`
 
 
@@ -285,7 +286,6 @@ else:
     print("The words are equal")
 ```
 
-- `elif`: clausola `else` che contiene un altro `if`
 - No `switch`, no `do-while`
 
 > There should be one -- and preferably only one -- obvious way to do it *(ZoP)*
