@@ -391,7 +391,6 @@ for val in values:
     - ⇒ *Traslazione* : aggiungere costanti ad `$x, y$`
     - `$x = x_0 + r\cdot cos\theta$` <br> `$y = y_0 + r\cdot sin\theta$`
 
-
 ---
 
 ![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)

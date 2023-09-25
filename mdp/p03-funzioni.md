@@ -291,7 +291,7 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 - Definire una funzione `tick`
 - Quando mouse cliccato, prendere la posizione del mouse da `g2d`
-- Se il mouse è vicino all'angolo `(0, 0)`, chiedere conferma e poi chiudere l'applicazione
+- Se il mouse è vicino al centro del canvas, chiedere conferma e poi chiudere l'applicazione
 - Altrimenti, disegnare un cerchio, con raggio fisso e colore casuale
 
 ---
@@ -362,42 +362,36 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 
 ---
 
-![](images/misc/rotation.svg) Raster: senso orario
-# 🥷 Funzione di rotazione
+![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
+# 🧪 Coordinate polari
 
-- Definire una funzione `rotate`
-    - Per ruotare un punto rispetto all'origine
-- Parametri
-    - Posizione del punto da ruotare
-    - Angolo di rotazione, in radianti
-- Risultato
-    - Posizione del punto ruotato
+- Definire una funzione `to_polar`
+    - Trasformare coordinate cartesiane in coordinate polari
+- Definire una funzione `from_polar`
+    - Trasformare coordinate polari in coordinate cartesiane
 
 >
 
-<https://en.wikipedia.org/wiki/Rotation_(mathematics)#Two_dimensions>
-<br>
+<https://github.com/tomamic/fondinfo/wiki/P02-Cicli#coordinate-polari>
 <br>
 <https://tomamic.github.io/pyodide/?p03_polar.py>
 
 ---
 
-![](images/misc/polygon.png)
+![](images/fun/polygon.svg)
 # 🥷 Disegno di un poligono
 
-- Definire una funzione `next_pos`
+- Definire una funzione `move_from`
     - Effetto: spostamento in una certa direzione
-    - Parametri: posizione di partenza, angolo e lunghezza del segmento
+    - Parametri: posizione di partenza, angolo e lunghezza dello spostamento
     - Risultato: posizione di arrivo
-- Usare la funzione `next_pos` per tracciare un triangolo equilatero
-    - Provare a tracciare altri poligoni regolari
+    - 💡 Si può sfruttare `from_polar` (es. precedente)
+- Definire una funzione `draw_polygon`
+	- Parametri: numero dei lati, centro e raggio del cerchio circoscritto
+	- Trovare i vertici attorno al centro con `move_from`
+	- Unire i vertici per disegnare il poligono
 
 >
 
-∑ angoli interni di poligono n lati = π · (n-2)
-<br>
-∑ angoli esterni = 2π
-<br>
-<br>
-<https://tomamic.github.io/pyodide/?p03_pen.py>
+<https://tomamic.github.io/pyodide/?p03_polygon.py>
 
