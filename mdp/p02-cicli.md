@@ -384,24 +384,27 @@ for val in values:
 - Noti ipotenusa e angolo di un triangolo rettangolo
     - Con `cos` e `sin` si ricavano i cateti
 - **Coordinate polari** di un punto: `$(r, \theta)$`
-    - Noti distanza dall'origine e angolo…
-    - Si ricavano le *coordinate cartesiane* `$(x, y)$`
+    - Distanza dall'origine e angolo
+- Coord. *polari* `$(r, \theta)$` ⇒ coord. *cartesiane* `$(x, y)$`
     - `$x = r\cdot cos\theta$` <br> `$y = r\cdot sin\theta$`
+- Infatti, $x, y, r$ formano un triangolo rettangolo
+    - $x$ : cateto adiacente all'angolo
+    - $y$ : cateto opposto all'angolo
+    - $r$ : ipotenusa
 
 ---
 
 ![](images/fun/move-around.svg)
 # 🧪 Angoli sul canvas
 
-- Se spostamento `$(r, \theta)$` avviene <br> rispetto a un punto `$(x_0, y_0)$` ≠ origine
-    - ⇒ *Traslazione* : aggiungere costanti ad `$x, y$`
+- Spostamento `$(r, \theta)$` rispetto a punto `$(x_0, y_0) ≠ (0, 0)$`
+- ⇒ *Traslazione*
     - `$x = x_0 + r\cdot cos\theta$` <br> `$y = y_0 + r\cdot sin\theta$`
-- In alcuni problemi, variabili come *coordinate polari*
-    - Angoli misurati *sotto* l'asse delle ascisse
+- Es. 4 punti: stessa distanza dal centro, angoli diversi
 
 ``` py
 r = 100
-x0, y0 = 200, 200
+x0, y0 = 200, 200  # center
 for angle in (0, 15, 30, 45):
     x = x0 + r * cos(radians(angle))
     y = y0 + r * sin(radians(angle))
