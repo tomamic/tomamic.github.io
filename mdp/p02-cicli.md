@@ -386,7 +386,7 @@ for val in values:
 - **Coordinate polari** di un punto: `$(r, \theta)$`
     - Distanza dall'origine e angolo
 - Coord. *polari* `$(r, \theta)$` ⇒ coord. *cartesiane* `$(x, y)$`
-    - `$x = r\cdot cos\theta$` <br> `$y = r\cdot sin\theta$`
+    - `$\begin{cases}x = r\cdot cos\theta \\ y = r\cdot sin\theta\end{cases}$`
 - Infatti, $x, y, r$ formano un triangolo rettangolo
     - $x$ : cateto adiacente all'angolo
     - $y$ : cateto opposto all'angolo
@@ -397,9 +397,9 @@ for val in values:
 ![](images/fun/move-around.svg)
 # 🧪 Angoli sul canvas
 
-- Spostamento `$(r, \theta)$` rispetto a punto `$(x_0, y_0) ≠ (0, 0)$`
-- ⇒ *Traslazione*
-    - `$x = x_0 + r\cdot cos\theta$` <br> `$y = y_0 + r\cdot sin\theta$`
+- Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0) ≠ (0, 0)$`
+    - ⇒ *Traslazione*
+    - `$\begin{cases}x = x_0 + r\cdot cos\theta \\ y = y_0 + r\cdot sin\theta\end{cases}$`
 - Es. 4 punti: stessa distanza dal centro, angoli diversi
 
 ``` py
@@ -468,7 +468,7 @@ Naturalmente, senza usare `math.sqrt`
 # Griglia di colori
 
 - Chiedere all'utente dei valori per `rows` e `cols`
-- Mostrare una griglia di rettangoli di dimensione `rows×cols`
+- Mostrare una griglia `rows×cols` di rettangoli
 - Partire da un rettangolo nero in alto a sinistra
 - In orizzontale, aumentare gradatamente la componente di blu
 - In verticale, aumentare gradatamente la componente di verde
