@@ -29,15 +29,15 @@
     <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="504" y="284.431">
       <tspan x="504" y="284.431">r·sinϑ</tspan>
     </text>
-    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="356" y="252.431">
-      <tspan x="356" y="252.431">(x₀, y₁)</tspan>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="356" y="252.245">
+      <tspan x="356" y="252.245">(x₀, y₀)</tspan>
     </text>
     <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="324.431">
       <tspan x="480" y="324.431">(x, y)</tspan>
     </text>
-    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="356.431">
-      <tspan x="360" y="356.431">x = x₀+r·cosϑ</tspan>
-      <tspan x="360" y="372.431">y = y₁+r·sinϑ</tspan>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="356.245">
+      <tspan x="360" y="356.245">x = x₀+r·cosϑ</tspan>
+      <tspan x="360" y="372.245">y = y₀+r·sinϑ</tspan>
     </text>
     <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="430" y="304.431">
       <tspan x="430" y="304.431">r</tspan>
