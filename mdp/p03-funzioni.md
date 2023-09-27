@@ -378,20 +378,15 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 
 ---
 
-![](images/fun/polygon.svg)
+![](images/fun/polygon.svg) ![](images/fun/move-around.svg)
 # 🥷 Disegno di un poligono
 
-- Definire una funzione `move_from`
+- Definire una funzione `move_around`
     - Effetto: spostamento in una certa direzione
-    - Parametri: posizione di partenza, angolo e lunghezza dello spostamento
+    - Parametri: posizione di partenza, lunghezza e angolo dello spostamento
     - Risultato: posizione di arrivo
     - 💡 Si può sfruttare `from_polar` (es. precedente)
 - Definire una funzione `draw_polygon`
-	- Parametri: numero dei lati, centro e raggio del cerchio circoscritto
-	- Trovare i vertici attorno al centro con `move_from`
-	- Unire i vertici per disegnare il poligono
-
->
-
-<https://tomamic.github.io/pyodide/?p03_polygon.py>
-
+    - Parametri: numero dei lati, centro e raggio del cerchio circoscritto
+    - Trovare i vertici attorno al centro con `move_around`
+    - Unire i vertici per disegnare il poligono

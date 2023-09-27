@@ -387,26 +387,25 @@ for val in values:
     - Noti distanza dall'origine e angolo…
     - Si ricavano le *coordinate cartesiane* `$(x, y)$`
     - `$x = r\cdot cos\theta$` <br> `$y = r\cdot sin\theta$`
-- Se spostamento `$(r, \theta)$` avviene <br> rispetto a un punto `$(x_0, y_0)$` ≠ origine
-    - ⇒ *Traslazione* : aggiungere costanti ad `$x, y$`
-    - `$x = x_0 + r\cdot cos\theta$` <br> `$y = y_0 + r\cdot sin\theta$`
 
 ---
 
-![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
+![](images/fun/move-around.svg)
 # 🧪 Angoli sul canvas
 
+- Se spostamento `$(r, \theta)$` avviene <br> rispetto a un punto `$(x_0, y_0)$` ≠ origine
+    - ⇒ *Traslazione* : aggiungere costanti ad `$x, y$`
+    - `$x = x_0 + r\cdot cos\theta$` <br> `$y = y_0 + r\cdot sin\theta$`
 - In alcuni problemi, variabili come *coordinate polari*
-    - Coord. cartesiane alla fine, per disegnare
-- Sul piano *raster*, la `y` cresce verso il basso
     - Angoli misurati *sotto* l'asse delle ascisse
 
 ``` py
 r = 100
-for i in range(5):
-    angle = i * (pi / 18)  # 10°
-    x, y = r * cos(angle), r * sin(angle)
-    g2d.draw_circle((x, y), 2)
+x0, y0 = 200, 200
+for angle in (0, 15, 30, 45):
+    x = x0 + r * cos(radians(angle))
+    y = y0 + r * sin(radians(angle))
+    g2d.draw_line((x0, y0), (x, y))
 ```
 
 >
