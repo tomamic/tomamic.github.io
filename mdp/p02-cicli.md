@@ -45,8 +45,8 @@ while count <= n:
 ![](images/algo/sum1n.svg)
 # 🧪 Somma numeri consecutivi
 
-- *Problem solving*: sommare i numeri da 1 ad `n`
-    - Devo almeno saper contare fino ad `n`
+- *Problem solving*: sommare i numeri da 1 a `n`
+    - Devo almeno saper contare fino a `n`
 - Occorre tenere traccia del *totale parziale*
 
 ``` py
@@ -374,7 +374,7 @@ for val in values:
 
 - Ciclo `for` per qualsiasi tipo di sequenza
     - `list`, `str`, `tuple`, `range`…
-- Ad ogni iterazione, a `val` è assegnato un elemento di `values`
+- A ogni iterazione, a `val` è assegnato un elemento di `values`
 
 ---
 
@@ -500,7 +500,7 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 
 - Generare all'inizio del programma un numero “segreto” a caso tra 1 e 90
 - Chiedere ripetutamente all'utente di immettere un numero, finché non indovina quello generato
-- Ad ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
+- A ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
 
 ---
 
@@ -509,9 +509,9 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 
 - Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
     - Le righe e le colonne sono numerate da 0 a 4
-- Un tesoro ed un mostro sono nascosti in due posizioni casuali *diverse*, all'inizio del gioco
+- Un tesoro e un mostro sono nascosti in due posizioni casuali *diverse*, all'inizio del gioco
     - Non si sovrappongono tra loro, nè con l'angolo del giocatore
-- Ad ogni turno:
+- A ogni turno:
     - Chiedere al giocatore una direzione (`w/a/s/d`)
     - Se capita sulla cella del tesoro, ha vinto
     - Se capita sulla cella del mostro, ha perso

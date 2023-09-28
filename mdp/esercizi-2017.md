@@ -53,11 +53,11 @@ Cominciare a disegnare un solo cerchio grigio, in posizione casuale
 - Far variare il colore dei cerchi
     - Dal rosso del livello più esterno
     - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 >
 
-Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Per iniziare, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 ---
 
@@ -177,7 +177,7 @@ Creare una lista (array) di 10 elementi, inizialmente tutti posti a `0`
 <br>
 Ciascun elemento è il contatore per una certa cifra
 <br>
-Attenzione alla distinzione tra il tipo `str` ed il tipo `int`!
+Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
@@ -231,7 +231,7 @@ Lasciare tra i riquadri un piccolo margine
 - Partire dall'esempio del rettangolo in moto orizzontale
     - Spostamento costante denominato `dx`
 - Fare in modo che il movimento sia in diagonale
-    - Ad ogni turno, aggiungere ad una variabile `y`...
+    - A ogni turno, aggiungere a una variabile `y`...
     - Una quantità costante `dy`
 - Quando la pallina raggiunge il bordo destro, non lo supera
     - La `x` rimane fissa al valore massimo
@@ -334,8 +334,8 @@ Configurazione: `str` con i 3 simboli correnti
 - Partire dalla classe dell'esercizio 3.1
     - Memorizzare la ordinata iniziale `y0`
 - Modificare il metodo `move`
-    - L'ordinata oscilla sinusoidalmente attorno ad `y0`
-    - Sommare ad `y0` un valore proporzionale a `sin(k * x)`
+    - L'ordinata oscilla sinusoidalmente attorno a `y0`
+    - Sommare a `y0` un valore proporzionale a `sin(k * x)`
 - Visualizzare l'animazione di due palline
 
 ---
@@ -347,7 +347,7 @@ Configurazione: `str` con i 3 simboli correnti
 - Aggiungere un corrispondente metodo *getter*
     - Per ottenere dall'esterno il colore della pallina
     - Restituire il colore come una tupla (tripla RGB)
-- Creare diverse palline ed inserirle in una lista
+- Creare diverse palline e inserirle in una lista
 - Rappresentare graficamente il movimento di tutte le palline
     - Per ogni frame, in un ciclo `for`, chiamare il metodo `move` di ogni pallina
     - Rappresentare un rettangolo o un cerchio colorato nella posizione aggiornata di ogni pallina
@@ -391,7 +391,7 @@ Configurazione: `str` con i 3 simboli correnti
     - Eliminare però il rimbalzo
     - Quando arriva sul fondo dello schermo, si ferma lì
 - Aggiungere alla classe un metodo per saltare
-    - `jump`, imposta `dy` ad un certo valore, negativo
+    - `jump`, imposta `dy` a un certo valore, negativo
     - Poi agirà di nuovo la gravità
     - Si può saltare solo dal fondo dello schermo
 
@@ -472,7 +472,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Rendere `Jumper` (es. 3.9) una sottoclasse di `Actor`
 - Istanziare un oggetto `Arena`
 - Inserire in gioco solo una istanza di `Jumper`
-- Permettere all'utente di comandarne i movimenti ed i salti
+- Permettere all'utente di comandarne i movimenti e i salti
 
 >
 
@@ -486,7 +486,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Partire dall'esercizio 4.5
 - Creare `Platform` come sottoclasse di `Actor`
     - Personaggio immobile nel gioco
-- In caso di collisione tra Mario (`Jumper`) ed una piattaforma
+- In caso di collisione tra Mario (`Jumper`) e una piattaforma
     - Posizionare Mario esattamente sopra alla piattaforma
 - *Miglioramento*: collisione valida solo se...
     - Il punto in mezzo ai piedi di Mario è dentro la piattaforma
@@ -633,7 +633,7 @@ The Zen of Python
     - Controllare se è passato il giorno del compleanno
 - Nella funzione `main`
     - Chiedere all'utente i dati, per istanziare `Person`
-    - Chiedere la data odierna ed invocare `age`
+    - Chiedere la data odierna e invocare `age`
 
 ---
 
@@ -794,7 +794,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 - Creare una classe `Skyscrapers`
     - Matrice predefinita, in un campo
 - `play_at(x, y)`
-    - Ad ogni chiamata, incrementare il valore nella cella
+    - A ogni chiamata, incrementare il valore nella cella
     - Quando il valore arriva al massimo, poi torna a 0 (cella vuota)
 - `get_val(x, y)`
     - Restituisce il contenuto di una cella, come testo
@@ -890,7 +890,7 @@ Usare la ricorsione -- Simile ad es. 5.7 del 2011, su Github
 - Stato del gioco: 4 bool, inizialmente *false*
     - Ciascun personaggio (contadino, cavolo, capra, lupo) ha uno stato booleano
     - È sulla sponda di arrivo, o no?
-- Ad ogni mossa, cambia il primo bool (*il contadino attraversa*)
+- A ogni mossa, cambia il primo bool (*il contadino attraversa*)
     - Anche un altro bool può cambiare, se ha lo stesso valore del primo (*un personaggio si può spostare, se sta assieme al contadino*)
     - Scartare gli stati del gioco vietati o già valutati
 
@@ -967,7 +967,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 # 🥷 11.2 Ulteriori suggerimenti
 
 - Provare tutte le possibili permutazioni su una riga o colonna
-    - Limitarsi alle celle e ad i valori liberi
+    - Limitarsi alle celle e a i valori liberi
     - Considerare tutti i vincoli e le regole (metodo `wrong_marks`)
     - Una sola soluzione valida, per la riga o colonna? Fissare tutti i valori
 - Attivare il completamento tramite click su una cella di bordo (dove ci possono essere i vincoli)

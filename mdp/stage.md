@@ -52,7 +52,7 @@ Ven    | Completamento del gioco
 
 # Come iscriversi?
 
-- Lo stage è **gratuito**, ma limitato ad un numero massimo di 60 studenti
+- Lo stage è **gratuito**, ma limitato a un numero massimo di 60 studenti
 - Per iscriversi, entro il **15 maggio**, inviare richiesta a: <stage@ce.unipr.it> (tel. 0521-905708)
     - Da ciascuna scuola saranno inizialmente ammessi al massimo 6 studenti
     - Gli studenti in sovrannumero saranno tenuti in attesa e ammessi solo nel caso di posti disponibili

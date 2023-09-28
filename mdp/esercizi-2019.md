@@ -50,7 +50,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 - Chiedere all'utente un numero `n`
 - Disegnare `n` rettangoli
     - Ciascuno con posizione, dimensione e colore casuale
-    - Ciascuno con un ombra grigia spostata a destra ed in basso di 5 pixel
+    - Ciascuno con un ombra grigia spostata a destra e in basso di 5 pixel
 
 >
 
@@ -151,7 +151,7 @@ Partire dalla formula `fahr = cels * 1.8 + 32`
 # 2.2 Box
 
 - Classe che modella un riquadro
-    - Due campi privati, per largezza ed altezza: `_width`, `_heigth`
+    - Due campi privati, per largezza e altezza: `_width`, `_heigth`
     - Due metodi, per ottenere area e perimetro: `area`, `perimeter`
 - Nel corpo principale del programma, creare e usare un riquadro
     - Chiedere all'utente le dimensioni del riquadro
@@ -163,8 +163,8 @@ Partire dalla formula `fahr = cels * 1.8 + 32`
 # 2.3 Triangolo di cifre
 
 - Leggere un numero intero positivo `n` (< 10)
-- Per ciascun valore `y` tra 1 ed `n`...
-- Stampare una riga con le cifre da 1 ad `y`
+- Per ciascun valore `y` tra 1 e `n`...
+- Stampare una riga con le cifre da 1 a `y`
 
 ``` text
 1
@@ -197,7 +197,7 @@ Poi racchiudere tutto in un ciclo for esterno
 # 2.5 Animazione pallina
 
 - Partire dall'esempio dell'animazione orizzontale, senza classi
-    - Quando la pallina arriva ad uno dei 4 bordi...
+    - Quando la pallina arriva a uno dei 4 bordi...
     - Cambia direzione di 90°, in senso orario
     - Es. Arrivata al bordo destro, vira verso il basso
 - Mostrare l'animazione di una pallina su un canvas
@@ -210,7 +210,7 @@ Poi racchiudere tutto in un ciclo for esterno
 - Creare una classe `TurningBall`
     - A partire dalla classe `Ball` vista a lezione
 - Modificare il metodo `move`
-    - Quando la pallina arriva ad uno dei 4 bordi...
+    - Quando la pallina arriva a uno dei 4 bordi...
     - Vira la direzione di 90°, in senso orario
     - Es. Arrivata al bordo destro, vira verso il basso
 
@@ -286,7 +286,7 @@ Usare un ciclo `for` sulla stringa
 # 3.3 Lista di palline
 
 - Partire dalla classe `FallingBall` dell'esercizio 2.8
-- Anzichè una solo pallina, crearne diverse ed inserirle in una lista
+- Anzichè una solo pallina, crearne diverse e inserirle in una lista
 - Rappresentare graficamente il movimento di tutte le palline
     - Per ogni frame, in un ciclo `for`, chiamare il metodo `move` di ogni pallina
     - Rappresentare un cerchio o un rettangolo colorato nella posizione aggiornata di ogni pallina
@@ -335,10 +335,10 @@ Usare un ciclo `for` sulla stringa
 
 - Cambiare il file con le icone dei personaggi
 - Animazioni del rover, opzionali
-    - Per il rover, visualizzare icone diverse durante il salto ed i movimenti
+    - Per il rover, visualizzare icone diverse durante il salto e i movimenti
     - Nel metodo `symbol`, utilizzare lo stato del personaggio per scegliere l'icona
 - Sfondo e parallasse, opzionali
-    - Ad ogni frame, spostare verso sinistra la posizione di disegno dello sfondo
+    - A ogni frame, spostare verso sinistra la posizione di disegno dello sfondo
     - Disegnare il terreno e due livelli di sfondo, con velocità diverse
 
 >
@@ -403,14 +403,14 @@ Usare questi file:
 
 >
 
-Aggiungere ciascun valore ad una lista inizialmente vuota, con `append`
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
 # 4.5 Triangolo di lettere
 
 - Leggere un numero intero positivo `n` (<=26)
-- Per ciascun valore `y` tra 1 ed `n`...
+- Per ciascun valore `y` tra 1 e `n`...
 - Stampare una riga con le ultime `y` lettere dell'alfabeto
 
 ``` text
@@ -476,7 +476,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Trasforma in maiuscolo tutto il testo compreso tra asterischi
 - Es. “`I want *this text* to be uppercase`” <br>
   → “`I want THIS TEXT to be uppercase`”
-- Applicare la funzione ad ogni riga di un file di testo
+- Applicare la funzione a ogni riga di un file di testo
 - Generare un file di output con il testo modificato
 
 ---
@@ -533,7 +533,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 16 valori
 # 5.7 Moon Patrol, proiettili
 
 - Il rover, a comando, spara proiettili
-- Ad ogni comando, viene sparato un proiettile verso destra ed uno verso l'alto
+- A ogni comando, viene sparato un proiettile verso destra e uno verso l'alto
 - Le rocce possono essere distrutte dai proiettili del rover
 - Le rocce più grandi devono essere colpite due volte
 
@@ -632,7 +632,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Color cells so no number appears more than once in a row or column
     - The sides of black cells never touch
     - White cells form a continuous network
-- Ad ogni mossa, l'utente può:
+- A ogni mossa, l'utente può:
     - Annerire un numero, oppure
     - Cerchiarlo
 
@@ -681,7 +681,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 - Estensioni *opzionali* del gioco
     - Secondo rover, per giocare in coppia, con l'uso di tasti diversi
-    - Cannoni ed altri avversari sul percorso
+    - Cannoni e altri avversari sul percorso
     - Punteggio, livelli, bonus ed estensioni *a fantasia*
 
 ---
@@ -690,7 +690,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 - Classe `MoonPatrolGame`, per gestire il gioco *Moon Patrol*
     - Inizializzare i personaggi, prendendo i dati da un file di configurazione
-    - Incapsulare personaggi ed arena
+    - Incapsulare personaggi e arena
     - Controllare la conclusione della partita, positiva o negativa
     - Guardare l'esempio nei commenti in `bounce`
 - Classe `MoonPatrolGui` per la rappresentazione del gioco
@@ -827,9 +827,9 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 # 8.7 Puzzle di Cindy
 
 - Piano di gioco: `2n+1` celle allineate
-    - Si parte con `n` pedine rosse tutte a sinistra, `n` pedine verdi tutte a destra, ed una cella libera in mezzo
+    - Si parte con `n` pedine rosse tutte a sinistra, `n` pedine verdi tutte a destra, e una cella libera in mezzo
     - Le pedine rosse si possono spostare solo a destra, quelle verdi solo a sinistra (senza poter tornare indietro)
-- Ad ogni mossa, una qualsiasi pedina può:
+- A ogni mossa, una qualsiasi pedina può:
     - Avanzare di una posizione, se davanti ha una cella libera
     - Oppure scavalcare esattamente una pedina dell'altro colore, se c'è una cella libera subito dopo
 - L'applicazione deve trovare *automaticamente* le mosse per invertire la posizione di tutte le pedine
@@ -848,7 +848,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - *Suggerimento*
     - Creare una matrice booleana temporanea
     - Trovare la prima cella bianca e segnare a `True` la sua posizione nella matrice
-    - Segnare anche le celle bianche ad essa adiacenti
+    - Segnare anche le celle bianche a essa adiacenti
     - Proseguire a segnare le celle adiacenti in maniera ricorsiva
     - Infine contare tutte le celle segnate
 
@@ -904,7 +904,7 @@ Partire dalla formula `fahr = cels * 1.8 + 32`
 
 >
 
-Aggiungere ciascun valore ad una lista inizialmente vuota, con `push_back`
+Aggiungere ciascun valore a una lista inizialmente vuota, con `push_back`
 
 ---
 
@@ -922,7 +922,7 @@ Aggiungere ciascun valore ad una lista inizialmente vuota, con `push_back`
 # 9.6 Triangolo di lettere (C++)
 
 - Leggere un numero intero positivo `n` (<=26)
-- Per ciascun valore `y` tra 1 ed `n`...
+- Per ciascun valore `y` tra 1 e `n`...
 - Stampare una riga con le ultime `y` lettere dell'alfabeto
 
 ``` text
@@ -1010,16 +1010,16 @@ Si può definire prima una funzione ausiliaria booleana `char_in_string`, per co
 ![](images/hist/eratostenes.jpg)
 # 10.5 Crivello di Eratostene (C++)
 
-- Trovare tutti i numeri primi fino ad `n`, scelto dall'utente
+- Trovare tutti i numeri primi fino a `n`, scelto dall'utente
 - Algoritmo
     - Inizializzare un `vector<bool>` con `n` valori `true`
-    - Per ciascun numero `x` tra `2` ed `n` (ancora a `true` nella lista)...
+    - Per ciascun numero `x` tra `2` e `n` (ancora a `true` nella lista)...
     - Mettere a `false` i multipli di `x` (escluso `x` stesso)
     - Alla fine, gli elementi rimasti a `true` corrisponderanno ai numeri primi cercati
 
 >
 
-Usare un `vector<int>` è problematico ed inefficiente
+Usare un `vector<int>` è problematico e inefficiente
 
 ---
 

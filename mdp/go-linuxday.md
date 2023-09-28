@@ -317,7 +317,7 @@ Come in *C*, ma *senza* “aritmetica”
 ---
 
 ![](images/oop/cookie-cutter.png)
-# Tipi ed oggetti
+# Tipi e oggetti
 
 - Ogni *oggetto* ha un tipo *`struct`* di origine, ~ *classe*
     - Stessa forma iniziale (campi e metodi) a tutti i suoi oggetti
@@ -420,7 +420,7 @@ func main() {
 # Slice
 
 - Sequenza di elementi, dello stesso **tipo**
-    - L'intera lista (*slice*) può essere assegnata ad una variabile, così diamo un **nome** alla lista
+    - L'intera lista (*slice*) può essere assegnata a una variabile, così diamo un **nome** alla lista
 - I singoli elementi sono **numerati**
     - Gli indici partono da 0!
 
@@ -441,7 +441,7 @@ resultsByMonth := make([]int, 12)  // 12 times 0
 ![](images/fun/wile-coyote.png)
 # Accesso agli elementi
 
-- **Attenzione ad usare indici validi!**
+- **Attenzione a usare indici validi!**
     - *Lunghezza* attuale di una lista `s`: `len(s)`
     - Elementi *numerati* da `0` a `len(s)-1`
 
@@ -477,7 +477,7 @@ for _, value := range grocery {
 // }
 ```
 
-- Ad ogni iterazione, a `value` è assegnato un diverso elemento della lista `grocery`
+- A ogni iterazione, a `value` è assegnato un diverso elemento della lista `grocery`
 - `index` e/o `value` possono essere omessi (sostituiti con `_`)
 
 ---
@@ -505,7 +505,7 @@ for _, x := range "Hello, 🌐!" {
 
 - Selezione degli elementi tra...
     - il primo indice (*compreso*)...
-    - ed il secondo indice (*escluso*)
+    - e il secondo indice (*escluso*)
 
 ``` go
 months := []string{"Jan", "Feb", "Mar",
@@ -774,7 +774,7 @@ func (b *Ball) Collide(other Actor) {
 
 - *Downcast*: `other.(*Ghost)`
     - Converte l'oggetto `other` come istanza di `Ghost`
-    - Restituisce un riferimento a `Ghost` ed un `bool`
+    - Restituisce un riferimento a `Ghost` e un `bool`
 
 ---
 

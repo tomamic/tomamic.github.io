@@ -51,7 +51,7 @@
 - Da preferire quando:
     - Dati organizzati secondo **modelli** predefiniti
     - **Grandi** : fino e oltre TByte, memoria secondaria
-    - **Condivisi** : accesso da app. ed utenti diversi
+    - **Condivisi** : accesso da app. e utenti diversi
     - **Persistenti** : tempo di vita > esecuzione app.
 - Da evitare quando:
     - Insieme dati piccolo e semplice
@@ -180,8 +180,8 @@
 - Si creano **associazioni** tra entità **distinte**, tramite condivisione di attributi
     - Le righe di diverse tabelle hanno domini in comune
 - Es. Database universitario
-    - `Studenti` ed `esami` sono associati tramite gli attributi `matricola` e `studente`
-    - `Insegnamenti` ed `esami` sono associati tramite gli attributi `insegnamento` e `codice`
+    - `Studenti` e `esami` sono associati tramite gli attributi `matricola` e `studente`
+    - `Insegnamenti` e `esami` sono associati tramite gli attributi `insegnamento` e `codice`
 - Semplicità: forza del modello relazionale!
 
 ---

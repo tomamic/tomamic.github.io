@@ -97,7 +97,7 @@ Applicazioni testuali e con grafica
 - *➋* Prova sull'*Introduzione alla programmazione* (lab)
     - Svolgimento esercitazioni in laboratorio, oppure…
     - Prova in appelli usuali (~3 ore)
-- Le due prove si possono svolgere in tempi diversi e ciascuna resta valida per l'intero anno (fino ad ottobre)
+- Le due prove si possono svolgere in tempi diversi e ciascuna resta valida per l'intero anno (fino a ottobre)
 - Il voto finale è determinato:
     - per 1/4 dalla teoria
     - per 3/4 dalla programmazione
@@ -146,5 +146,5 @@ sudo apt install python3-pip python3-tk python3-pygame thonny
 - 🔬 Approfondimento e analisi
 - 💡️ Nuova idea, buona pratica
 - ⚠️ Attenzione, errore comune
-- 🥷 Concetto avanzato od opzionale
+- 🥷 Concetto avanzato o opzionale
 - 🏊️ Esercizio per lo studente

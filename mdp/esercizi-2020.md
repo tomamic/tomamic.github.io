@@ -65,11 +65,11 @@ Usare la funzione `sqrt` del modulo `math`
 - Far variare il colore dei cerchi
     - Dal rosso del livello più esterno
     - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 >
 
-Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Per iniziare, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 ---
 
@@ -118,7 +118,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
-- Ad ogni turno:
+- A ogni turno:
     - Viene estratto un numero segreto
     - A sorte tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
@@ -166,15 +166,15 @@ Con `s = (a+b+c) / 2`, semiperimetro
 - Nella parte principale del programma:
     - Creare un oggetto triangolo, con lati forniti all'utente
     - Invocare i metodi `area` e `perimeter` sull'oggetto
-    - Infine mostrare l'area ed il perimetro del triangolo
+    - Infine mostrare l'area e il perimetro del triangolo
 
 ---
 
 # 2.3 Triangolo di cifre
 
 - Leggere un numero intero positivo `n` (< 10)
-- Per ciascun valore `y` tra 1 ed `n`...
-- Stampare una riga con le cifre da 1 ad `y`
+- Per ciascun valore `y` tra 1 e `n`...
+- Stampare una riga con le cifre da 1 a `y`
 
 ``` text
 1
@@ -208,7 +208,7 @@ Poi racchiudere tutto in un ciclo for esterno
 - Partire dall'esempio dell'animazione orizzontale, senza classi
     - Aggiungere anche una componente di velocità verticale (`dy`)
 - In seguito, aggiungere l'effetto della gravità
-    - Accelerazione: ad ogni passo si somma un piccolo valore *costante* alla velocità verticale
+    - Accelerazione: a ogni passo si somma un piccolo valore *costante* alla velocità verticale
     - `g = 0.4`
     - `dy += g`
     - Quando si tocca il fondo, cambiare il segno di `dy`
@@ -291,7 +291,7 @@ I caratteri si possono confrontare con `<=`
 
 - Partire dalla prima classe `Ball`, vista a lezione
     - Rinominare la classe come `ColoredBall`
-- Assegnare ad ogni pallina un colore
+- Assegnare a ogni pallina un colore
     - Nel costruttore, scegliere il colore casualmente
 - Aggiungere un metodo per ottenere il colore di una pallina
 
@@ -300,7 +300,7 @@ I caratteri si possono confrontare con `<=`
 # 3.3 Lista di palline
 
 - Partire dalla classe `ColoredBall` dell'esercizio 3.2
-- Anzichè una solo pallina, crearne diverse ed inserirle in una lista
+- Anzichè una solo pallina, crearne diverse e inserirle in una lista
 - Rappresentare graficamente il movimento di tutte le palline
     - Per ogni frame, in un ciclo `for`, chiamare il metodo `move` di ogni pallina
     - Rappresentare un cerchio o un rettangolo colorato nella posizione aggiornata di ogni pallina
@@ -364,7 +364,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
 # 3.7 Bubble Bobble, animazione [P1]
 
 - Cambiare il file con le icone dei personaggi
-- Per il draghetto, visualizzare icone diverse durante il salto ed i movimenti
+- Per il draghetto, visualizzare icone diverse durante il salto e i movimenti
 - Nel metodo `symbol`, utilizzare lo stato del personaggio per scegliere l'icona
 
 >
@@ -419,7 +419,7 @@ Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
 # 4.3 Righe di testo
 
 - Definire una funzione `long_lines`
-    - Parametri: una lista di stringhe ed una soglia intera
+    - Parametri: una lista di stringhe e una soglia intera
     - Risultato: numero di stringhe più lunghe della soglia
 - Nella funzione `main`
     - Chiedere all'utente di digitare delle righe di testo
@@ -440,7 +440,7 @@ Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
     - *Metodo* per contare le righe più lunghe di una certa soglia (parametro)
 - Nella parte principale del programma
     - Istanziare un oggetto di tipo `Text`
-    - Chiedere all'utente delle righe di testo ed inserirle nell'oggetto
+    - Chiedere all'utente delle righe di testo e inserirle nell'oggetto
     - L'input termina quando l'utente inerisce una riga vuota
     - Chiedere all'utente un valore soglia
     - Mostrare il numero di righe più lunga della soglia
@@ -568,7 +568,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Se `r == 2`, sommare 1 alla `y` attuale (basso)
     - Se `r == 3`, sottrarre 1 alla `x` attuale (sinistra)
 - Dopo ogni passo, scrivere in un file di testo una riga
-    - La riga conterrà `r`, `x` ed `y`, separati da virgola
+    - La riga conterrà `r`, `x` e `y`, separati da virgola
 
 ---
 
@@ -614,12 +614,12 @@ elif x1_dragon >= x2_platform - margin:
 
 - Gli avversari si muovono come il draghetto
 - Ma si muovono casualmente
-    - In base ad una scelta casuale, chiamano i metodi `go_left`, `go_right` ecc.
+    - In base a una scelta casuale, chiamano i metodi `go_left`, `go_right` ecc.
 - Uccidono il draghetto se lo urtano
 
 >
 
-Eventualmente, draghetto ed avversari possono estendere una classe base comune, che implementa una sola volta tutte le funzionalità condivise
+Eventualmente, draghetto e avversari possono estendere una classe base comune, che implementa una sola volta tutte le funzionalità condivise
 
 ---
 
@@ -684,7 +684,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Altrimenti:
     - Seguire un percorso spezzato di 4 parti
     - Ciascuna parte lunga 1/3 del parametro
-    - Ad ogni parte, applicare ricorsivamente lo stesso pattern
+    - A ogni parte, applicare ricorsivamente lo stesso pattern
 - Sfruttare la funzione `move_pen` del seguente esercizio
     - <http://www.ce.unipr.it/brython/?x2_fun_pen.py>
 
@@ -727,7 +727,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Regole
     - Ogni riga o colonna ha celle bianche e nere in egual numero
     - 3 celle contigue non possono avere lo stesso colore
-- Ad ogni mossa, l'utente può segnare una cella come:
+- A ogni mossa, l'utente può segnare una cella come:
     - Bianca, oppure
     - Nera, oppure
     - Grigia (indecisa)
@@ -856,7 +856,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 - Classe `BubbleBobbleGame`, per gestire il gioco *Bubble Bobble*
     - Inizializzare i personaggi, prendendo i dati da un file di configurazione
-    - Incapsulare personaggi ed arena
+    - Incapsulare personaggi e arena
     - Controllare la conclusione della partita, positiva o negativa
 - Classe `BubbleBobbleGui` per la rappresentazione del gioco
     - Disegno immagini e funzionalità legate a `g2d`
@@ -989,7 +989,7 @@ Prima versione: chiedere e controllare solo il nome
 - Far variare il colore dei cerchi
     - Dal rosso del livello più esterno
     - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 ---
 
@@ -1017,7 +1017,7 @@ Con `s = (a+b+c) / 2`, semiperimetro
 # 9.5 Righe di testo (C++)
 
 - Definire una funzione `long_lines`
-    - Parametri: una lista di stringhe ed una soglia intera
+    - Parametri: una lista di stringhe e una soglia intera
     - Risultato: numero di stringhe più lunghe della soglia
 - Nella funzione `main`
     - Chiedere all'utente di digitare delle righe di testo
@@ -1124,7 +1124,7 @@ Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
 - Nella parte principale del programma:
     - Creare un oggetto triangolo, con lati forniti all'utente
     - Invocare i metodi `area` e `perimeter` sull'oggetto
-    - Infine mostrare l'area ed il perimetro del triangolo
+    - Infine mostrare l'area e il perimetro del triangolo
 
 ---
 

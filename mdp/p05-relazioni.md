@@ -332,7 +332,7 @@ class Turtle(Actor):
 
 - Classe `Mario` da `Turtle` dell'es. `bounce`
 - Considerare l'accelerazione di gravità
-    - Ad ogni mossa, aggiungere *costante* `g` a `dy` (es. `0.5`)
+    - A ogni mossa, aggiungere *costante* `g` a `dy` (es. `0.5`)
     - Permettere a `Mario` di saltare solo quando è sul fondo
 - Aggiungere `Wall`, personaggio immobile
 - Quando `Mario` collide con una piattaforma...

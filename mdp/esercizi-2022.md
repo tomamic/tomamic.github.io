@@ -51,7 +51,7 @@ Cominciare a disegnare un solo cerchio, in posizione casuale
 - Chiedere all'utente un numero `n`
 - Disegnare `n` rettangoli
     - Ciascuno con posizione, dimensione e colore casuale
-    - Ciascuno con un ombra grigia spostata a destra ed in basso di 5 pixel
+    - Ciascuno con un ombra grigia spostata a destra e in basso di 5 pixel
 
 >
 
@@ -219,7 +219,7 @@ Poi racchiudere tutto in un ciclo for esterno
 - Scrivere una funzione `estimate_mark`
     - Parametri: *numero crediti*, *ore di studio*
 - Stimare il voto atteso per un esame, supponendo che...
-    - Ad ogni credito corrispondano ~ 25h di studio
+    - A ogni credito corrispondano ~ 25h di studio
     - Il voto sia direttamente proporzionale allo studio
 - Nel `main`, chiamare la funzione con valori forniti all'utente e mostrare il voto stimato
     - Tenere l'uso della console per I/O fuori da `estimate_work`
@@ -321,7 +321,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 - Partire dalla classe `Ball` vista a lezione
 - Modificare il metodo `move`
-    - Quando la pallina arriva ad uno dei 4 bordi...
+    - Quando la pallina arriva a uno dei 4 bordi...
     - Vira la direzione di 90°, in senso orario
     - Es. Arrivata al bordo destro, vira verso il basso
     - Arrivata al bordo inferiore, vira verso sinistra
@@ -359,7 +359,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 - Partire dalla classe `Ball` vista a lezione
 - Creare una lista di oggetti, inizialmente vuota
-- Ad ogni click del mouse, aggiungere un oggetto nel *centro* del canvas
+- A ogni click del mouse, aggiungere un oggetto nel *centro* del canvas
 - Ciascuno nel costruttore sceglie (e mantiene per sempre) uno sprite casuale
   - Tra questi 4: pallina, tartaruga, fantasma visibile, o invisibile
   - [sprites.png](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
@@ -457,7 +457,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 # 4.4 Distanze dall'origine
 
-- Chiedere all'utente `w` ed `h`, interi
+- Chiedere all'utente `w` e `h`, interi
 - Per ogni valore di `x` tra `0` e `w-1`
 - Per ogni valore di `y` tra `0` e `h-1`
 - Calcolare il quadrato della distanza di `(x, y)` dall'origine
@@ -507,7 +507,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 ![](images/misc/solar-system.png)
 # 4.7 Classe dei pianeti
 
-- Oggetto che ruota attorno ad un centro di rotazione
+- Oggetto che ruota attorno a un centro di rotazione
 - Campi per la posizione, in coordinate polari
 - Campi per *velocità angolare*, *centro di rotazione*, *colore*
 - Metodo `move` per fare un passo
@@ -671,7 +671,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 ![](images/misc/numbers.png)
 # 6.2 Conteggio di valori
 
-- Chiedere all'utente un valore minimo ed un valore massimo
+- Chiedere all'utente un valore minimo e un valore massimo
 - Chiedere all'utente una sequenza di numeri interi
     - La sequenza termina all'inserimento di una riga vuota (sentinella)
     - Un valore più piccolo del minimo viene sostituito dal minimo
@@ -690,7 +690,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 - Definire una funzione ricorsiva
     - Riceve come parametro un numero naturale `n`
     - Se `n` è minore di 10, `n` è il risultato
-    - Altrimenti, calcola la somma `s` delle cifre di `n`… <br> ed opera ricorsivamente sulle cifre di `s`
+    - Altrimenti, calcola la somma `s` delle cifre di `n`… <br> e opera ricorsivamente sulle cifre di `s`
 - Esempi
     - *f(41)=4+1=5*
     - *f(327)=f(12)=f(3)=3*
@@ -882,7 +882,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-Aggiungere ciascun valore ad una lista inizialmente vuota, con `append`
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
@@ -1039,7 +1039,7 @@ Si può mescolare una lista semplice, con soli valori da 1 a 26 <br> Poi inserir
 - Se lo spazio non è troppo piccolo…
     - Sceglie un colore casuale
     - Disegna due *cerchi speciali* spostati a destra e sinistra, con raggio dimezzato
-    - Disegna due *cerchi speciali* spostati in alto ed in basso, con raggio ridotto a ⅓
+    - Disegna due *cerchi speciali* spostati in alto e in basso, con raggio ridotto a ⅓
 - Aggiungere poi alla funzione un parametro `level`
     - Per decidere il livello massimo di ricorsione
 
@@ -1062,7 +1062,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-Può essere utile un campo `expected`, che memorizza ed incrementa il valore atteso
+Può essere utile un campo `expected`, che memorizza e incrementa il valore atteso
 
 ---
 

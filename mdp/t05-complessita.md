@@ -233,7 +233,7 @@ def selection_sort(v: list, beg, end):
 
 # ⭐ Analisi Selection Sort
 
-- Ad ogni ciclo principale, si seleziona il valore minore
+- A ogni ciclo principale, si seleziona il valore minore
 - Caso peggiore: lista rovesciata
     - Numero di confronti `$\frac{n(n-1)}{2}$`
     - Complessità **`$O(n^2)$`**
@@ -320,7 +320,7 @@ def quick_sort(v: list, beg, end):
 - ➌ Stesso algoritmo sulle 2 parti (ricorsione)
 - Complessità *caso migliore, o medio* : **`$O(n\log_2 n)$`**
     - *Se* il pivot è circa mediano…
-    - Ad ogni passo la dimensione si dimezza
+    - A ogni passo la dimensione si dimezza
     - Dopo `$k$` passi: `$2^k$` liste di dimensione `$\frac{n}{2^k}$`
     - Infine, `$k=\log_2 n$`: `$n$` liste di dimensione `$1$`
 
@@ -426,7 +426,7 @@ def merge_sort(v: list, beg, end: int):
 ---
 
 ![](images/comp/knapsack.svg)
-# ⭐ Problemi P ed NP
+# ⭐ Problemi P e NP
 
 - Problemi **P** : $\exists$ algoritmo *deterministico polinomiale*
 - **NP** : $\exists$ algoritmo *non-deterministico polinomiale*
@@ -454,7 +454,7 @@ def merge_sort(v: list, beg, end: int):
 ![](images/comp/classes.svg)
 # ⭐ Problemi NP-completi
 
-- Ogni problema NP può essere ricondotto ad un problema **NP-completo** con algoritmo deterministico *polinomiale*
+- Ogni problema NP può essere ricondotto a un problema **NP-completo** con algoritmo deterministico *polinomiale*
     - *Lower-bound* deterministico esponenziale per uno dei problemi NP-completi? *`$\Rightarrow P \neq NP$`*
     - Oppure, *soluzione* con algoritmo deterministico polinomiale? *`$\Rightarrow P=NP$`*
 - Esempio: *Knapsack*

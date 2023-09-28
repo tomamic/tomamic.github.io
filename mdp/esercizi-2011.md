@@ -41,7 +41,7 @@ Controllare prima di tutto se `a` è minore degli altri due, altrimenti controll
 
 >
 
-Provare ad usare sia il ciclo while che il ciclo do-while
+Provare a usare sia il ciclo while che il ciclo do-while
 
 ---
 
@@ -85,7 +85,7 @@ Ripetere le prime 4 operazioni usando dei `float`
 
 Lunghezza di una variabile `word` di tipo stringa: `word.size()`
 <br>
-Provare ad usare sia il ciclo `while` che il ciclo `do-while`
+Provare a usare sia il ciclo `while` che il ciclo `do-while`
 
 ---
 
@@ -98,7 +98,7 @@ Provare ad usare sia il ciclo `while` che il ciclo `do-while`
 
 Moltiplicare tra loro i primi `n` numeri
 <br>
-Memorizzare in una variabile il risultato parziale, ad ogni ciclo, moltiplicarla per il nuovo numero
+Memorizzare in una variabile il risultato parziale, a ogni ciclo, moltiplicarla per il nuovo numero
 
 ---
 
@@ -125,7 +125,7 @@ Conversione: F = 32 + (9/5)·C
 # 2.2 Triangolo di cifre
 
 - Leggere un numero intero positivo `n`
-- Per ciascun valore `x` tra `1` ed `n`...
+- Per ciascun valore `x` tra `1` e `n`...
 - Stampare una riga con `x` ripetizioni di `x`
 
 ``` text
@@ -149,7 +149,7 @@ Poi racchiudere tutto in un ciclo `for` esterno
 
 - Leggere una riga di testo
     - `string line; getline(cin, line);`
-- Contare il numero di lettere maiuscole ed il numero di lettere minuscole presenti
+- Contare il numero di lettere maiuscole e il numero di lettere minuscole presenti
 
 >
 
@@ -181,7 +181,7 @@ Librerie: `<cstdlib>`, `<ctime>`
 ![](images/misc/uncle-scrooge.png)
 # 2.5 Interesse composto
 
-- Calcolare l'interesse composto di un certo capitale ad un certo tasso d'interesse, per un certo numero di anni (dati dall'utente)
+- Calcolare l'interesse composto di un certo capitale a un certo tasso d'interesse, per un certo numero di anni (dati dall'utente)
 - Es. per 100€ di capitale, l'interesse (4,5%) del primo anno sarà di 4,5€, da aggiungere al capitale
 
 ``` text
@@ -264,12 +264,12 @@ Se necessario, provare prima a leggere i caratteri da console
 
 - Leggere da file una sequenza di numeri, di lunghezza arbitraria, fino alla fine del file
     - Tutti i numeri in un vettore `v` → `n = v.size()`
-- Ripetutamente, chiedere all'utente una coppia di numeri, `a` e `b`, compresi tra `1` ed `n`
+- Ripetutamente, chiedere all'utente una coppia di numeri, `a` e `b`, compresi tra `1` e `n`
 - Visualizzare la somma dei valori della sequenza iniziale con indice compreso tra `a-1` e `b-1`
 
 >
 
-L'utente preferisce indici tra `1` ed `n`
+L'utente preferisce indici tra `1` e `n`
 <br>
 Invece il vettore richiede indici tra `0` e `n-1`
 
@@ -399,7 +399,7 @@ Memorizzare internamente solo le coordinate cartesiane
 ![](images/misc/risk-board-game.png)
 # 4.5 Lancio dadi
 
-- Come es. 2.4, ma ad ogni giocata l'attaccante (A) lancia 3 dadi, il difensore (D) 2 dadi
+- Come es. 2.4, ma a ogni giocata l'attaccante (A) lancia 3 dadi, il difensore (D) 2 dadi
 - Una funzione (due vector come parametri) confronta a coppie i dadi: il dado migliore di A con quello migliore di D, poi il dado medio di A con quello peggiore di D
 - I dadi di ciascun giocatore vanno ordinati:
     - `sort(v.begin(), v.end())`
@@ -473,11 +473,11 @@ Oppure distinguere maiuscole e minuscole...
     - Restituire risultato con errore minore di `0.0001`
 - In un ciclo, trovare approssimazioni successive:
     - Due variabili `low`, `high`: inizio e fine intervallo di stima
-    - (intervallo iniziale: da `0` ad `x`, oppure da `0` ad `1`, se `x < 1`)
+    - (intervallo iniziale: da `0` a `x`, oppure da `0` a `1`, se `x < 1`)
     - Si pone la stima `y` a metà intervallo
-    - Se `y*y - x > 0`, nel seguito si considera solo la prima metà dell'intervallo (da `low` ad `y`)
-    - Altrimenti solo la seconda metà (da `y` ad `high`)
-    - Ad ogni iterazione si dimezza l'intervallo residuo
+    - Se `y*y - x > 0`, nel seguito si considera solo la prima metà dell'intervallo (da `low` a `y`)
+    - Altrimenti solo la seconda metà (da `y` a `high`)
+    - A ogni iterazione si dimezza l'intervallo residuo
 
 ---
 
@@ -488,7 +488,7 @@ Oppure distinguere maiuscole e minuscole...
     - Parametro `x`: `float`
     - Parametro inizio intervallo di stima: `float`
     - Parametro fine intervallo di stima: `float`
-- Bisezione: invocare ad ogni livello la funzione su un intervallo dimezzato
+- Bisezione: invocare a ogni livello la funzione su un intervallo dimezzato
 
 ---
 
@@ -499,7 +499,7 @@ Oppure distinguere maiuscole e minuscole...
     - radius: `float`
     - Costruttore con parametri: centro (ptr) e raggio
     - Metodi per calcolo area e perimetro
-- Gestire un vettore di puntatori a punti ed un vettore di puntatori a cerchi
+- Gestire un vettore di puntatori a punti e un vettore di puntatori a cerchi
     - Centro dei cerchi: uno dei punti del primo vettore
     - Diversi cerchi possono condividere lo stesso centro
     - Cambiando le coordinate di un singolo punto...
@@ -567,8 +567,8 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 ![](images/misc/akari.svg)
 # “Akari” - Light up
 
-- Scopo: disporre delle lampade (cerchi), fino ad illuminare tutte le celle
-- Una lampada illumina le celle sulla sua riga e la sua colonna, fino ad una cella nera o al bordo esterno
+- Scopo: disporre delle lampade (cerchi), fino a illuminare tutte le celle
+- Una lampada illumina le celle sulla sua riga e la sua colonna, fino a una cella nera o al bordo esterno
 - Ogni cella bianca può ospitare una lampada, ma:
     - Un numero indica quante lampade devono trovarsi nelle celle adiacenti (in orizzontale e verticale)
     - Due lampade non possono illuminarsi a vicenda

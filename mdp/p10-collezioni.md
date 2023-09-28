@@ -88,7 +88,7 @@ print(count_tree(tree))
 - Metodi `add` e `discard`
     - Aggiunta e rimozione
 - Operatori `in`, `|` e `&`
-    - Appartenenza, unione ed intersezione
+    - Appartenenza, unione e intersezione
 
 ``` py
 numbers = {1, 4, 5}
@@ -231,7 +231,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
     - I *documenti*, caratterizzati da un nome e da un contenuto testuale (classe derivata)
     - Le *cartelle*, caratterizzate da un nome e da una lista di nodi contenuti (classe derivata)
 - Creare una gerarchia delle tre classi: `Node`, `Document`, `Folder`
-- Nel corpo principale del programma, istanziare ed organizzare vari nodi (senza input dell'utente)
+- Nel corpo principale del programma, istanziare e organizzare vari nodi (senza input dell'utente)
     - Ricreare con gli oggetti la struttura raffigurata a fianco
 
 >
@@ -313,7 +313,7 @@ print(prod2.prefix())
     - Generare in memoria un albero di oggetti di tipo **Expression**
 - Mostrare il valore dell'espressione, usando `eval`
 - Mostrare la rappresentazione infissa, usando `infix`
-    - Aggiungere un metodo `infix` ad **Expression**
+    - Aggiungere un metodo `infix` a **Expression**
 
 >
 

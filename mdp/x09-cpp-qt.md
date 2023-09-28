@@ -257,7 +257,7 @@ Notepad::Notepad() {
 
 - **Accoppiamento lasco**
     - Un oggetto emette un *segnale*, ma non sa quali *slot* lo ricevono
-    - Molti segnali ad un singolo slot, un segnale a molti slot
+    - Molti segnali a un singolo slot, un segnale a molti slot
 - **Type safe**
     - *Firma* di segnale e slot collegati deve corrispondere (per numero e tipo di parametri)
     - Se la firma di uno slot è più corta, trascura degli argomenti che riceve
@@ -562,7 +562,7 @@ void AnalogClock::paintEvent(QPaintEvent *event) {
 }
 ```
 
-`QTimer`: periodicamente emette segnale `timeout`, da associare ad uno (o più) slot
+`QTimer`: periodicamente emette segnale `timeout`, da associare a uno (o più) slot
 
 Metodo `paintEvent` per ridisegno di un widget, con oggetto `painter`
 
@@ -700,7 +700,7 @@ Progetto: *Application* → *Qt Widgets Application*
     - Se il cambiamento può interessare altri oggetti
 - Emesso segnale → slot connessi eseguiti subito
     - Come una normale chiamata a metodo
-    - Codice seguente ad `emit` eseguito dopo aver eseguito tutti gli slot connessi al segnale
+    - Codice seguente a `emit` eseguito dopo aver eseguito tutti gli slot connessi al segnale
     - Se più slot, eseguiti in sequenza arbitraria
 - Esistono anche connessioni asincrone (*queued*)
     - Codice dopo `emit` eseguito subito, poi gli slot
@@ -759,7 +759,7 @@ void RightPushButton::mouseReleaseEvent(QMouseEvent* e) {
 
 - **`QButtonGroup`**: raggruppamento *logico* di bottoni
 - Non fornisce **nessuna rappresentazione** *visuale*
-- Utile per associare i bottoni ad un indice intero
+- Utile per associare i bottoni a un indice intero
     - Definisce il segnale **`buttonClicked`**, che trasmette come parametro l'indice del bottone
     - Possibile connettere questo segnale anziché il segnale `clicked` di ciascun bottone
 - Utile anche per raggruppare bottoni radio

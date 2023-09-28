@@ -386,7 +386,7 @@ Premessa | Conseguenza
 - Un predicato può essere trasformato in una proposizione in due modi
     - Sostituendo la variabili con valori
     - Oppure, *quantificando* le sue variabili
-- Una variabile legata ad un quantificatore si dice *vincolata*, altrimenti *libera*
+- Una variabile legata a un quantificatore si dice *vincolata*, altrimenti *libera*
 - I quantificatori logici sono due
     - Quantificatore **universale**
     - Quantificatore **esistenziale**
@@ -443,7 +443,7 @@ Premessa | Conseguenza
 
 ---
 
-![](images/hist/plato-aristotle.jpg) Platone ed Aristotele <br> ~350 a.C.
+![](images/hist/plato-aristotle.jpg) Platone e Aristotele <br> ~350 a.C.
 # 🧪 Sillogismi aristotelici
 
 - Modus ponens con quantificatori
@@ -513,7 +513,7 @@ Alcuni predicati sono definiti a partire da un dato `$k$`, anzichè da 1
 - **(1)** Il predicato per `$n=1$` è vero, infatti:
     - `$G(1) = \frac{1 \cdot (1+1)}{2} = 1$`
 - **(2)** Supponiamo `$P(n)$` vero, ne segue `$P(n+1)$` vero, infatti:
-    - Per la somma fino ad `$n+1$`, bisogna aggiungere un termine:
+    - Per la somma fino a `$n+1$`, bisogna aggiungere un termine:
     - `$1 + 2 + ... + n + n+1 = G(n) + n+1 = \\ \frac{n \cdot (n+1)}{2} + n+1 = \frac{n^2 + 3n + 2}{2} = \\ \frac{(n+1) \cdot (n+2)}{2} = G(n+1)$`
 - Quindi la formula vale `$\forall n$`
 
@@ -546,7 +546,7 @@ Alcuni predicati sono definiti a partire da un dato `$k$`, anzichè da 1
     - `$distratto(Io)$`
 - *Conclusione*: “Io sono un genio”
     - `$genio(Io)$` – **Doh!** 😕
-- Attenzione ad usare l'implicazione giusta!
+- Attenzione a usare l'implicazione giusta!
     - `$P \implies Q$`: condizione sufficiente, ma non necessaria
     - “Tutti gli svedesi sono biondi” …
 

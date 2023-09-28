@@ -58,7 +58,7 @@ All'inizio del programma: `from math import sqrt`
 
 Moltiplicare tra loro i primi `n` numeri
 
-Memorizzare in una variabile il risultato parziale; ad ogni ciclo, moltiplicarla per il nuovo numero
+Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla per il nuovo numero
 
 ---
 
@@ -119,7 +119,7 @@ r = randrange(4)  # something between 0 and 3
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
-- Ad ogni turno:
+- A ogni turno:
     - Viene estratto a sorte un numero segreto tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
     - Se indovina, gli viene sommato l'importo puntato
@@ -153,7 +153,7 @@ Usare un ciclo `for` sulla stringa
 
 >
 
-Aggiungere ciascun valore ad una lista inizialmente vuota, con `append`
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
@@ -193,7 +193,7 @@ Con `s = (a + b + c)/2`, semiperimetro
 
 Cominciare a disegnare un grosso quadrato nero
 <br>
-Poi, inserire l'operazione di disegno un ciclo, aggiungendo ad ogni passo `10` (p.es.) al livello di verde, e togliendo lo stesso valore al lato
+Poi, inserire l'operazione di disegno un ciclo, aggiungendo a ogni passo `10` (p.es.) al livello di verde, e togliendo lo stesso valore al lato
 <br>
 Infine, determinare automaticamente le variazioni migliori per lato e colore, prima di iniziare il ciclo
 
@@ -219,8 +219,8 @@ Lasciare tra i riquadri un piccolo margine
 # 2.6 Triangolo di cifre
 
 - Leggere un numero intero positivo `n` (< 10)
-- Per ciascun valore `y` tra 1 ed `n`...
-- Stampare una riga con le cifre da 1 ad `y`
+- Per ciascun valore `y` tra 1 e `n`...
+- Stampare una riga con le cifre da 1 a `y`
 
 ``` text
 1
@@ -243,7 +243,7 @@ Poi racchiudere tutto in un ciclo for esterno
 # 2.7 Nomi sopra e sotto la media
 
 - Chiedere all'utente una sequenza di dati, come coppie *(nome, valore)*
-    - Ciascun nome (`str`) è associato ad un valore (`int`)
+    - Ciascun nome (`str`) è associato a un valore (`int`)
     - La sequenza termina quando il nome è vuoto
 - Calcolare e mostrare il valore medio
 - Elencare i nomi con valori sotto alla media
@@ -306,10 +306,10 @@ Opzionalmente, nel costruttore ricevere come parametri `x` e `y` iniziali, da cu
 # 3.2 Pianeta in rivoluzione
 
 - Aggiungere ai dati di `Planet` (es. 3.1) una velocità angolare `omega`
-    - Gradi di rotazione del pianeta attorno all'origine, ad ogni turno
+    - Gradi di rotazione del pianeta attorno all'origine, a ogni turno
 - Aggiungere un metodo `move`
     - Pianeta percorre un piccolo arco attorno all'origine
-    - Ad ogni chiamata, sommare `omega` all'attuale `theta`
+    - A ogni chiamata, sommare `omega` all'attuale `theta`
 - In `main` (*senza grafica*), creare un pianeta
     - Ciclicamente, chiamare il metodo `move` del pianeta...
     - E stampare la posizione restituita dal metodo `pos`
@@ -325,7 +325,7 @@ Opzionalmente, nel costruttore ricevere come parametri `x` e `y` iniziali, da cu
     - Quando esce dallo schermo, rientra dalla parte opposta
 - Aggiungere al rettangolo un effetto di gravità
     - Definire una variabile `dy`: componente di velocità verticale (inizialmente `0`)
-    - Ad ogni ciclo, aggiungere a `dy` una piccola quantità costante (es. `g = 0.4`)
+    - A ogni ciclo, aggiungere a `dy` una piccola quantità costante (es. `g = 0.4`)
     - Quando si tocca il fondo, cambiare il segno di `dy`
 
 ---
@@ -349,7 +349,7 @@ L'asse *y* può rimanere orientato verso il basso
 # 3.5 Lista di pianeti
 
 - Aggiungere ai dati del pianeta (es. 3.4) anche un colore come tupla `RGB`, con un corrispondente metodo *getter*
-- Anzichè un solo pianeta, crearne diversi ed inserirli in una lista
+- Anzichè un solo pianeta, crearne diversi e inserirli in una lista
 - Rappresentare graficamente il movimento di tutti i pianeti
     - Per ogni frame, in un ciclo `for`, chiamare il metodo `move` di ogni pianeta
     - Rappresentare un cerchio colorato nella posizione aggiornata di ogni pianeta
@@ -362,7 +362,7 @@ L'asse *y* può rimanere orientato verso il basso
 - Scrivere una classe `Exam` per rappresentare gli esami sostenuti in un corso di studio
     - Parametri del costruttore: *nome esame* ; *numero crediti* ; *data* (es. “`2016-10-14`”); *voto* (da 18 a 30)
 - Fornire metodo `estimate_work` per stimare le ore di studio, supponendo che...
-    - Ad ogni credito corrispondano ~ 25h di studio
+    - A ogni credito corrispondano ~ 25h di studio
     - Il voto sia direttamente proporzionale allo studio
 - Nel `main`, istanziare un esame con valori forniti all'utente, invocare il metodo e mostrare il valore stimato
 
@@ -444,7 +444,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Mantenere stessi campi e metodi
 - Aggiungere un campo `g` (`float`)
     - Accelerazione di gravità, costante, verso il basso
-    - Ad ogni esecuzione, il metodo `move` aggiunge `g` a `dy`
+    - A ogni esecuzione, il metodo `move` aggiunge `g` a `dy`
 - Nel `main`: istanziare un oggetto `FallingBall`
     - Chiamare ciclicamente `move`
     - Visualizzare un rettangolo (o una immagine) nella posizione attuale
@@ -458,7 +458,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Definire una classe `Plane`, come sottoclasse di `SimpleActor`
     - Implementare un semplice movimento orizzontale ciclico
 - Nel programma principale, creare una *lista di personaggi misti* (palline e aerei)
-    - Chiamare il metodo `move` di ciascuno ad ogni ciclo
+    - Chiamare il metodo `move` di ciascuno a ogni ciclo
     - Visualizzare un rettangolo per ogni personaggio
 
 ``` py
@@ -477,7 +477,7 @@ class SimpleActor:
 - Gestire le collisioni nel metodo `collide`
     - Un oggetto `Plane` inverte la direzione, quando urta un oggetto `FallingBall`
 - Nel programma principale, creare una *arena con personaggi misti* (palline e aerei)
-    - Chiamare il metodo `tick` dell'arena ad ogni ciclo
+    - Chiamare il metodo `tick` dell'arena a ogni ciclo
     - Visualizzare un rettangolo per ogni personaggio
 
 ``` py
@@ -515,7 +515,7 @@ Usare lo stesso *offset* anche per ritagliare la parte giusta dall'immagine di s
     - `r = h / 2, xc = x + w / 2, yc = y + h / 2`
 - Dividere il riquadro in due metà
 - Applicare a ciascuno dei due riquadri il processo, ricorsivamente
-- Ad ogni livello, invertire il colore del cerchio disegnato
+- A ogni livello, invertire il colore del cerchio disegnato
 
 >
 
@@ -547,7 +547,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Nel `main`, in un ciclo
     - Chiedere all'utente le coordinate per la prossima mossa
     - Visualizzare lo stato risultante
-    - Comunicare l'eventuale conclusione della partita ed il vincitore
+    - Comunicare l'eventuale conclusione della partita e il vincitore
 
 ---
 
@@ -603,7 +603,7 @@ class Turtle(Actor):
 # 5.2 Muri impenetrabili
 
 - Creare classe `Wall`, sottoclasse di `Actor`
-    - Rettangolo immobile ed impenetrabile
+    - Rettangolo immobile e impenetrabile
     - Campi: `x`, `y`, `w`, `h`
 - Modificare `Ball` del modulo `bounce`
     - Scivola sul muro, senza rimbalzare
@@ -687,7 +687,7 @@ Solo stampa caratteri: non servono liste, nè matrici
 
 Tenere traccia della direzione attuale (*∆y*, *∆x*)
 <br>
-Avanzare fino al bordo o ad una cella già visitata,
+Avanzare fino al bordo o a una cella già visitata,
 <br>
 poi cambiare la direzione in senso orario
 <br><br>
@@ -765,7 +765,7 @@ print(prod2.prefix())                     #      / \
     - Tutti dello stesso tipo... ⇒
     - Tutte le celle sono occupate o sotto attacco
 - In particolare, il programma deve posizionare automaticamente `K` cavalli su una scacchiera `N×N`
-    - L'utente sceglie `K` ed `N`
+    - L'utente sceglie `K` e `N`
     - Ogni cella deve essere occupata, oppure sotto attacco
     - Usare il *backtracking*
 
@@ -926,8 +926,8 @@ print(prod2.prefix())                     #      / \
 ![](images/misc/akari.svg)
 # “Akari” - Light up
 
-- Scopo: disporre delle lampade, fino ad illuminare tutte le celle
-- Una lampada illumina le celle sulla sua riga e la sua colonna, fino ad una cella nera o al bordo esterno
+- Scopo: disporre delle lampade, fino a illuminare tutte le celle
+- Una lampada illumina le celle sulla sua riga e la sua colonna, fino a una cella nera o al bordo esterno
 - Ogni cella bianca può ospitare una lampada, ma:
     - Un numero indica quante lampade devono trovarsi nelle celle adiacenti (in orizzontale e verticale)
     - Due lampade non possono illuminarsi a vicenda

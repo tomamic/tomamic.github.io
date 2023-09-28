@@ -126,7 +126,7 @@ L'utente chiude lo stream della console premendo:
 # 2.2 Conteggio a ritroso
 
 - Leggere un numero positivo `n`
-- Per ciascun valore `y` tra `n` ed 1...
+- Per ciascun valore `y` tra `n` e 1...
 - Stampare una riga con `y` ripetizioni di `y`
 
 ``` text
@@ -140,11 +140,11 @@ L'utente chiude lo stream della console premendo:
 
 Usare due cicli for annidati
 <br>
-All'inizio fissare `y` pari ad un certo valore e scrivere una sola riga; es.: `y = 4 → “4444”`
+All'inizio fissare `y` pari a un certo valore e scrivere una sola riga; es.: `y = 4 → “4444”`
 <br>
 Poi racchiudere tutto in un ciclo for esterno, per variare `y`:
 <br>
-`y` parte da `n`, arriva ad 1, ad ogni passo decresce di 1
+`y` parte da `n`, arriva a 1, a ogni passo decresce di 1
 
 ---
 
@@ -175,7 +175,7 @@ Segnare in una variabile booleana se si è all'interno delle parentesi
 # 2.5 Tre carte
 
 - All'inizio l'utente ha 10 monete
-- Ad ogni turno:
+- A ogni turno:
     - Viene estratto a sorte un numero segreto tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
     - Se indovina, gli viene sommato l'importo puntato
@@ -339,7 +339,7 @@ Bastano due cicli for annidati, senza liste
 - Scrivere una classe `Exam` per rappresentare gli esami sostenuti in un corso di studio
     - Parametri del costruttore: *nome esame*; *numero crediti*; *data* (es. “`2012-10-14`”); *voto* (da 18 a 30)
 - Fornire un metodo pubblico `estimateWork` per stimare le ore di studio, supponendo che...
-    - Ad ogni credito corrispondano ~ 25h di studio
+    - A ogni credito corrispondano ~ 25h di studio
     - Il voto sia direttamente proporzionale allo studio
 - Nel `main`, istanziare un esame con valori forniti all'utente, invocare il metodo e mostrare il valore stimato
 
@@ -386,7 +386,7 @@ Si può usare una lista come pseudo-matrice, oppure una lista di liste
 >
 
 Tenere traccia della direzione attuale (*∆y*, *∆x*) <br>
-Avanzare fino al bordo o ad una cella già visitata, <br>
+Avanzare fino al bordo o a una cella già visitata, <br>
 poi cambiare la direzione in senso orario
 
 ---
@@ -438,8 +438,8 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
     - All'inizio: `min = 1; max = 2;`
     - Si pone la stima `x` a metà intervallo e si calcola `f(x)`
     - Se l'errore è accettabile, `x` è il risultato
-    - Altrimenti se `f` cambia segno tra `min` ed `x`, si ripete il ciclo considerando solo la prima metà dell'intervallo
-    - Altrimenti solo la seconda metà (da `x` ad `max`)
+    - Altrimenti se `f` cambia segno tra `min` e `x`, si ripete il ciclo considerando solo la prima metà dell'intervallo
+    - Altrimenti solo la seconda metà (da `x` a `max`)
 
 ---
 
@@ -451,7 +451,7 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
     - Trovare *x* t.c. *|f(x)| < 0.001*
 - Definire una funzione ricorsiva di bisezione
     - Parametri necessari: *inizio intervallo* di ricerca, *fine intervallo* di ricerca
-    - Invocare ad ogni livello la funzione su un intervallo dimezzato
+    - Invocare a ogni livello la funzione su un intervallo dimezzato
 
 ---
 
@@ -532,7 +532,7 @@ Es. Avanzare seguendo il muro alla propria sinistra
 - Due giocatori, bianco e nero
     - All'inizio: 2 pedine bianche e 2 nere nelle celle centrali, incrociate
 - A turno, ciascun giocatore aggiunge una pedina
-    - Se, tra la nuova pedina ed un'altra pedina dello stesso giocatore, c'è una **fila continua** di pedine avversarie, queste cambiano tutte colore (vale nelle 8 direzioni)
+    - Se, tra la nuova pedina e un'altra pedina dello stesso giocatore, c'è una **fila continua** di pedine avversarie, queste cambiano tutte colore (vale nelle 8 direzioni)
     - Si può mettere una pedina solo in una cella vuota, solo se si **catturano** pedine avversarie
 - Se non ci sono mosse, si passa il turno
     - Ma, se ci sono mosse, non si può passare

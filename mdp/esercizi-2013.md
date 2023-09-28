@@ -143,8 +143,8 @@ All'inizio del programma: `import random`
 # 2.2 Triangolo di cifre
 
 - Leggere un numero intero positivo `n` (< 10)
-- Per ciascun valore `y` tra 1 ed `n`...
-- Stampare una riga con le cifre da 1 ad `y`
+- Per ciascun valore `y` tra 1 e `n`...
+- Stampare una riga con le cifre da 1 a `y`
 
 ``` text
 1
@@ -290,7 +290,7 @@ Da stringa `line` a lista di char `v`: `v = list(line)`
 # 3.3 Box
 
 - Classe che modella un riquadro
-    - Due campi privati, per largezza ed altezza: `width`, `heigth`
+    - Due campi privati, per largezza e altezza: `width`, `heigth`
     - Due metodi, per ottenere area e perimetro: `area`, `perimeter`
 - Nel corpo principale del programma, creare e usare un riquadro
     - Chiedere all'utente le dimensioni del riquadro
@@ -374,11 +374,11 @@ Valutare l'uso di un ciclo `while`, anzichè `for`
 ![](images/hist/eratostenes.jpg)
 # 3.8 Crivello di Eratostene
 
-- Funzione che calcola la lista di numeri primi fino ad `n`
+- Funzione che calcola la lista di numeri primi fino a `n`
     - Parametro: `n`
     - Risultato: lista, contenente i numeri primi trovati
 - Algoritmo
-    - Inserire tutti i numeri da `2` fino ad `n` in una lista
+    - Inserire tutti i numeri da `2` fino a `n` in una lista
     - Per ciascun numero `x` nella lista...
     - Togliere dalla lista i multipli di `x` (escluso `x` stesso)
     - I numeri rimanenti sono i numeri primi cercati
@@ -441,7 +441,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-Ad ogni turno: aggiungere nuova coppia `(x, y)` per elemento di testa, rimuovere elemento di coda
+A ogni turno: aggiungere nuova coppia `(x, y)` per elemento di testa, rimuovere elemento di coda
 <br>
 Es. `v.insert(0, new_pos), v.pop()`
 <br>
@@ -473,7 +473,7 @@ O viceversa `v.append(new_pos), v.pop(0)`
 - Nel `main`, in un ciclo
     - Chiedere all'utente le coordinate per la prossima mossa
     - Visualizzare lo stato risultante
-    - Comunicare l'eventuale conclusione della partita ed il vincitore
+    - Comunicare l'eventuale conclusione della partita e il vincitore
 
 ---
 
@@ -525,14 +525,14 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 # 4.7 Fila di riquadri
 
 - Classe che modella una fila verticale di riquadri
-    - Riquadri (larghezza ed altezza): uno sotto all'altro, ciascuno allineato orizzontalmente al centro
+    - Riquadri (larghezza e altezza): uno sotto all'altro, ciascuno allineato orizzontalmente al centro
     - Metodo: aggiunta di un riquadro
     - Metodo: calcolo area totale (somma delle aree)
     - Metodo: calcolo riquadro virtuale contenente l'intera fila: `w = max(wᵢ)`, `h = Σ hᵢ`
 - Nel `main`, in un ciclo
-    - Chiedere larghezza ed altezza all'utente
+    - Chiedere larghezza e altezza all'utente
     - Creare un riquadro di quelle dimensioni e aggiungerlo alla fila
-    - Calcolare largezza ed altezza del riquadro virtuale
+    - Calcolare largezza e altezza del riquadro virtuale
     - Calcolare la percentuale di spazio inutilizzato
 
 ---
@@ -645,7 +645,7 @@ Definire costanti, es. `const int VALUES = 90`
 
 Per il serpente, usare una lista di tuple, ossia coppie (x, y)
 <br>
-Ad ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
+A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
@@ -718,9 +718,9 @@ Ad ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la cod
 ![](images/misc/tents.png)
 # Tents puzzle
 
-- Posizionare tende sulla griglia, in modo che ogni albero sia *assegnato* ad una tenda
-    - Inizialmente, nessun albero è assegnato ad una tenda
-    - Tenda adiacente (in orizzontale o verticale) ad un solo albero non assegnato ⇒ albero *assegnato* a quella tenda
+- Posizionare tende sulla griglia, in modo che ogni albero sia *assegnato* a una tenda
+    - Inizialmente, nessun albero è assegnato a una tenda
+    - Tenda adiacente (in orizzontale o verticale) a un solo albero non assegnato ⇒ albero *assegnato* a quella tenda
     - Tante tende, quanti sono gli alberi
 - Le tende non possono toccarsi tra loro, nemmeno in diagonale
 - Vincoli numerici fuori dalla griglia: numero di tende nella riga o colonna
@@ -820,8 +820,8 @@ private:
 
 - Opzione per marcare automaticamente le celle con *prato*
     - Vincolo di riga/colonna pari alle tende già poste: tutte le celle libere sono *prato*
-    - Cella libera vicina ad una tenda (anche diagonalmente): *prato*
-    - Cella non adiacente ad un albero (non assegnato): *prato*
+    - Cella libera vicina a una tenda (anche diagonalmente): *prato*
+    - Cella non adiacente a un albero (non assegnato): *prato*
 - Mossa automatica a richiesta
     - Vincolo di riga/colonna pari alla somma delle celle libere e delle tende già poste: le celle libere sono *tende*
     - Albero senza tende attorno, con una sola cella libera adiacente: *tenda*

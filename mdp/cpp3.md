@@ -37,7 +37,7 @@
 # Funzioni template e compilatori
 
 - Molti compilatori non supportano la compilazione separata e richiedono che la definizione della funzione template sia nello stesso file in cui viene usata, prima della prima invocazione
-- È possibile mettere la definizione della funzione template in un file separato ed includere questo file
+- È possibile mettere la definizione della funzione template in un file separato e includere questo file
 
 ---
 
@@ -330,7 +330,7 @@ class F
 
 # Tipi di iteratori
 
-- Gli iteratori sono classificati secondo il tipo di operazioni ad essi applicabili
+- Gli iteratori sono classificati secondo il tipo di operazioni a essi applicabili
     - Forward iterators: si può applicare l’operazione ++
     - Bidirectional iterators: si possono applicare le operazioni ++ e --
     - Random access iterators: si possono applicare le operazioni ++ e -- e si può accedere a qualsiasi elemento in un solo passo

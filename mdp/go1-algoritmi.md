@@ -339,8 +339,8 @@ if op == "+" {
 
 - Condizione di *permanenza* nel ciclo
 - Controllo *preliminare*: possibile che il corpo non sia mai eseguito
-- *Problem solving*: sommare tutti i numeri da 1 ad `n`
-    - Devo almeno saper contare fino ad `n`
+- *Problem solving*: sommare tutti i numeri da 1 a `n`
+    - Devo almeno saper contare fino a `n`
 
 ``` go
 n := ToInt(Prompt("n?"))
@@ -613,11 +613,11 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 - Far variare il colore dei cerchi
       - Dal rosso del livello più esterno
       - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 >
 
-Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Per iniziare, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 ---
 
@@ -626,7 +626,7 @@ Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo
 
 - Generare all'inizio del programma un numero “segreto” a caso tra 1 e 90
 - Chiedere ripetutamente all'utente di immettere un numero, finché non indovina quello generato
-- Ad ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
+- A ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
 
 ---
 
@@ -664,8 +664,8 @@ Usare `math.Sin` e `math.Cos` per determinare le posizioni in cui disegnare
 
 - Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
     - Le righe e le colonne sono numerate da 0 a 4
-- Un tesoro ed un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
-- Ad ogni turno, il giocatore:
+- Un tesoro e un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
+- A ogni turno, il giocatore:
     - Sceglie una direzione verso cui spostarsi (alto, basso, sinistra, destra)
     - Se capita sulla cella del tesoro, ha vinto
     - Se capita sulla cella del mostro, ha perso

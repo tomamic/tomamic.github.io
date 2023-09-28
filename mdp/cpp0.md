@@ -423,7 +423,7 @@ vector<int> last_two = {vals.end()-2 , vals.end()};  // [4, 5]
 ---
 
 ![large](images/fun/iterator.png)
-# 🔬 Iteratori ed algoritmi
+# 🔬 Iteratori e algoritmi
 
 ``` cpp
 // insert at index 1, other elems shift
@@ -492,7 +492,7 @@ int main() {
 }
 ```
 
-- ⚠️ Attenzione ad usare `getline` dopo estrazione (`>>`)
+- ⚠️ Attenzione a usare `getline` dopo estrazione (`>>`)
     - `cin` contiene subito `\n` ⇒ `getline` dà stringa vuota
     - Scartare `\n` residuo : `cin.ignore()`
 
@@ -527,7 +527,7 @@ public:
 ---
 
 ![](images/oop/balls.png)
-# ⭐ Creazione ed uso degli oggetti
+# ⭐ Creazione e uso degli oggetti
 
 ``` cpp
 int main() {
@@ -679,7 +679,7 @@ class Cat : public Animal {
 ---
 
 ![](images/oop/peppa.png)
-# 🔬 Lista di puntatori ad oggetti
+# 🔬 Lista di puntatori a oggetti
 
 ``` cpp
 auto d = Dog("Danny");

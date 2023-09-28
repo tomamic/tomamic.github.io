@@ -8,7 +8,7 @@
 # Sistema operativo
 
 - Avviato automaticamente all'accensione
-- Intermediario tra utente, applicazioni ed hardware
+- Intermediario tra utente, applicazioni e hardware
 - Funzionalità: a lotti (*batch*), o interattivi
 - Accesso utenti: mono-utente, o multi-utente
 - Gestione risorse: mono-programmazione, *multi-programmazione* (time-sharing), *multi-elaborazione* (multi-core...)
@@ -72,7 +72,7 @@
 # Paginazione
 
 - Memoria divisa in pagine di uguale dimensione
-- Ad ogni programma in esecuzione assegnato un certo numero di pagine
+- A ogni programma in esecuzione assegnato un certo numero di pagine
 - Quando l’istruzione da eseguire non è in memoria primaria (**page fault**)…
     - Se necessario, una pagina viene spostata da memoria primaria a secondaria
     - La pagina che contiene l’istruzione viene trasferita in memoria primaria
@@ -89,7 +89,7 @@
 - **BIOS** (Basic I/O System, firmware)
     - Diagnostica e inizializzazione dispositivi interni (es. controllo memoria)
     - Avvio sistema operativo (da Boot Sector)
-- **Driver**: programmi software che permettono l’accesso ad una specifica periferica
+- **Driver**: programmi software che permettono l’accesso a una specifica periferica
 - In genere periferiche caratterizzate da:
     - Velocità gestione dati << CPU
     - Invio dati saltuario e imprevedibile

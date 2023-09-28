@@ -121,7 +121,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
-- Ad ogni turno:
+- A ogni turno:
     - Viene estratto a sorte un numero segreto tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
     - Se indovina, gli viene sommato l'importo puntato
@@ -160,7 +160,7 @@ Con `s = (a + b + c) / 2`, semiperimetro
 ![](images/repr/binary-tunnel.jpg)
 # 2.2 Conteggio di 0 e 1
 
-- Definire una funzione che conta separatamente il numero di cifre `0` ed `1` presenti in un testo
+- Definire una funzione che conta separatamente il numero di cifre `0` e `1` presenti in un testo
     - Parametro: stringa di testo da elaborare
     - Risultato: tupla dei due valori conteggiati
 - Invocarla da una funzione `main`
@@ -203,8 +203,8 @@ Nella funzione, usare un ciclo `for` sulla stringa
 # 2.5 Animazione pallina
 
 - Partire dall'esempio dell'animazione orizzontale, senza classi
-    - Aggiungere ad ogni turno anche uno spostamento verticale
-    - Quando la pallina arriva ad uno dei 4 bordi...
+    - Aggiungere a ogni turno anche uno spostamento verticale
+    - Quando la pallina arriva a uno dei 4 bordi...
     - Ricompare dal bordo opposto
 - Direzione di movimento scelta dall'utente
     - All'inizio chiedere all'utente `dx` e `dy`
@@ -231,7 +231,7 @@ Usare una variabile globale per contare i fotogrammi
 
 - Partire dalla classe `Ball` vista a lezione
 - Modificare il metodo `move`
-    - Quando la pallina arriva ad uno dei 4 bordi...
+    - Quando la pallina arriva a uno dei 4 bordi...
     - Ricompare dal bordo opposto
 
 ---
@@ -322,7 +322,7 @@ Usare un ciclo `for` sulla stringa
 
 >
 
-Aggiungere ciascun valore ad una lista inizialmente vuota, con `append`
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
@@ -330,7 +330,7 @@ Aggiungere ciascun valore ad una lista inizialmente vuota, con `append`
 # 3.5 Nomi sopra e sotto la media
 
 - Chiedere all'utente una sequenza di dati, come coppie *(nome, valore)*
-    - Ciascun nome (`str`) è associato ad un valore (`int`)
+    - Ciascun nome (`str`) è associato a un valore (`int`)
     - La sequenza termina quando il nome è vuoto
 - Calcolare e mostrare il valore medio
 - Elencare i nomi con valori sotto alla media
@@ -379,7 +379,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 <br>
 Se lunghezza `< 2`: la lista resta uguale
 <br>
-Altrimenti: la lista di output è ottenuta rovesciando la lista di input, ad esclusione del primo elemento (ricorsione); al risultato si concatena infine il primo elemento della lista di input
+Altrimenti: la lista di output è ottenuta rovesciando la lista di input, a esclusione del primo elemento (ricorsione); al risultato si concatena infine il primo elemento della lista di input
 
 ---
 
@@ -387,7 +387,7 @@ Altrimenti: la lista di output è ottenuta rovesciando la lista di input, ad esc
 # 4.2 Tabelline in file
 
 - Chiedere all'utente un numero `n`
-- Stampare a video la tavola pitagorica, fino ad `n`
+- Stampare a video la tavola pitagorica, fino a `n`
     - In ciascuna riga, valori separati da virgola
 - Salvare la stessa tavola in un file
 
@@ -408,7 +408,7 @@ Altrimenti: la lista di output è ottenuta rovesciando la lista di input, ad esc
 
 Usare l'operazione `split` su stringa
 <br>
-Se necessario, provare prima ad elaborare un file con un solo valore per riga
+Se necessario, provare prima a elaborare un file con un solo valore per riga
 
 ---
 
@@ -450,7 +450,7 @@ Memorizzare i valori in una lista
     - `r = h/2; xc = x + w/2; yc = y + h/2`
 - Dividere il riquadro in due metà
 - Applicare a ciascuno dei due riquadri il processo, ricorsivamente
-- Ad ogni livello, cambiare o alternare il colore del cerchio disegnato
+- A ogni livello, cambiare o alternare il colore del cerchio disegnato
 - Non disegnare cerchi più piccoli di un pixel
 
 >
@@ -507,7 +507,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 - Leggere da un file i dati di una lista di *veicoli* (*elicotteri* o *ambulanze*, es. 5.2)
     - In ogni riga ci sono i dati completi di un veicolo, compreso il tipo
-    - Istanziare ed accodare un oggetto per ogni riga
+    - Istanziare e accodare un oggetto per ogni riga
 - Poi, in un ciclo, chiedere all'utente il punto in cui intervenire
 - Il sistema sceglie il veicolo più rapido per l'intervento
 - Comunica all'utente:
@@ -534,9 +534,9 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 - L'utente sceglie dim. scacchiera (`≥5`)
 - Allocare matrice quadrata di interi (tutti 0)
-- In un ciclo, chiedere all'utente `x` ed `y`
+- In un ciclo, chiedere all'utente `x` e `y`
     - Segnare nella cella il numero di mosse fatte
-    - Si può giocare solo nelle celle vuote, ad “L” dall'ultima giocata
+    - Si può giocare solo nelle celle vuote, a “L” dall'ultima giocata
     - Dopo ogni mossa, stampare la matrice aggiornata
     - Controllare se la matrice è piena
 
@@ -624,7 +624,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 # 6.4 Percorso del cavallo, classe
 
 - Incapsulare il gioco 5.5 in una classe
-- Campi per matrice ed altro
+- Campi per matrice e altro
 - Metodi
     - `play_at(x, y)` per giocare nella data posizione
     - `get_val(x, y)` per conoscere il valore nella data posizione
@@ -650,7 +650,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 - Gioco con due rane, guidate con tasti diversi (ma possibilmente stessa classe)
 - Veicoli e zattere con aspetto e dimesione diversa (ma possibilmente stessa classe)
-- Tartarughe che si sommergono, coccodrilli ed altri personaggi
+- Tartarughe che si sommergono, coccodrilli e altri personaggi
 - Conteggio delle rane salve, per la conclusione
 - Punti, livelli e bonus vari
 - Altre estensioni, a fantasia
@@ -708,7 +708,7 @@ Scegliere il tipo di matrice da utilizzare
 
 - Classe `FroggerGame`, per gestire il gioco Frogger
     - Inizializzare i personaggi, prendendo i dati da un file di configurazione
-    - Incapsulare personaggi ed arena
+    - Incapsulare personaggi e arena
     - Controllare la conclusione della partita, positiva o negativa
     - Guardare l'esempio nei commenti in `bounce_anim`
 - Classe `FroggerGui` per la rappresentazione del gioco
@@ -740,7 +740,7 @@ Scegliere il tipo di matrice da utilizzare
     - Parametri del costruttore: righe e colonne della matrice, numero di mine
     - Metodi `play_at`, `get_val`
     - Utilizzare il gioco da console testuale
-- Ad ogni turno, l'utente sceglie una cella
+- A ogni turno, l'utente sceglie una cella
     - Mostrare la matrice, con tutti e soli i conteggi fatti nelle celle già scelte
     - Non mostrare le celle non ancora scelte
 
@@ -812,7 +812,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
 >
 
-Per migliorare le prestazioni, ad ogni scelta, ordinare le alternative dando priorità alle celle più chiuse
+Per migliorare le prestazioni, a ogni scelta, ordinare le alternative dando priorità alle celle più chiuse
 <br>
 https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
@@ -831,7 +831,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 - Nella parte principale del programma:
     - Creare un oggetto triangolo, con lati forniti all'utente
     - Invocare i metodi `area` e `perimeter` sull'oggetto
-    - Infine mostrare l'area ed il perimetro del triangolo
+    - Infine mostrare l'area e il perimetro del triangolo
 
 >
 
@@ -872,7 +872,7 @@ Ricordarsi che in C++ vale: `char('a' + 3) == 'd'`
     - Quante `A`? Quante `B`? ecc.
 - Considerare nel totale le sole lettere dell'alfabeto, senza cifre e altri simboli
 - Conteggiare assieme le stesse lettere, scritte sia in maiuscolo che minuscolo
-    - `A` assieme ad `a`; `B` assieme a `b`; ecc.
+    - `A` assieme a `a`; `B` assieme a `b`; ecc.
 
 ---
 
@@ -896,11 +896,11 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 ![](images/hist/eratostenes.jpg)
 # 10.5 Crivello di Eratostene in C++
 
-- Definire e testare funzione che calcola la lista di numeri primi fino ad `n`
+- Definire e testare funzione che calcola la lista di numeri primi fino a `n`
     - Parametro: `n`
     - Risultato: `vector<int>`
 - Algoritmo
-    - Inserire i numeri da `2` ad `n` in una lista
+    - Inserire i numeri da `2` a `n` in una lista
     - Per ciascun numero `x` nella lista...
     - Togliere dalla lista i multipli di `x` (escluso `x` stesso)
     - I numeri rimanenti sono i numeri primi cercati

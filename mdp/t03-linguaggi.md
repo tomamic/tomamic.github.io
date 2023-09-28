@@ -17,7 +17,7 @@
     - Interpreti …
 - Paradigmatici nella teoria
     - Molti problemi riducibili ad *appartenenza*
-    - Una stringa appartiene ad un linguaggio?
+    - Una stringa appartiene a un linguaggio?
 
 >
 
@@ -91,7 +91,7 @@
 
 # 💡️ Operazioni su linguaggi
 
-- `$L_1$` ed `$L_2$` linguaggi su `$\Sigma^\star$` (due insiemi di stringhe)
+- `$L_1$` e `$L_2$` linguaggi su `$\Sigma^\star$` (due insiemi di stringhe)
 - *Unione*
     - `$L_1 \cup L_2 := \{x \in \Sigma^\star : x \in L_1 \lor x \in L_2\}$`
 - *Intersezione*
@@ -331,7 +331,7 @@
     - `$S \to Ab | b \\ A \to aAa | aa$`
 - Produzioni di `$G_{23}$`
     - `$S \to Ab \\ A \to Aaa | \varepsilon$`
-- Tre grammatiche, tutte con alfabeti `$\{a, b\}$`, `$\{S, A\}$` ed assioma `$S$`
+- Tre grammatiche, tutte con alfabeti `$\{a, b\}$`, `$\{S, A\}$` e assioma `$S$`
 - ❓ `$G_{21}, G_{22}, G_{23}$` sono equivalenti? Generare i 3 *alberi delle frasi*
     - Generano tutte il linguaggio `$\{a^{2n}b\}$`
 
@@ -526,8 +526,8 @@ Esempio con `$G_1$`: `$S \to b | aA; A \to aS$`
     * Si prende `$a^m b^m, m>k \to |uv|<m$`, sono tutte `$a$`…
 - ⇒ `$L := \{a^n b^n c^n : n \geq 0\}$` non è CF
     * Si prende `$a^m b^m c^m, m>k \to |vwx|<m$`
-    * Se `$v$` ed `$x$` con più simboli diversi, `$u v^2 w x^2 y$` con simboli mescolati
-    * Se `$v$` ed `$x$` con un solo simbolo, `$u v^2 w x^2 y$` con numero diverso di `$a, b, c$`
+    * Se `$v$` e `$x$` con più simboli diversi, `$u v^2 w x^2 y$` con simboli mescolati
+    * Se `$v$` e `$x$` con un solo simbolo, `$u v^2 w x^2 y$` con numero diverso di `$a, b, c$`
     * In entrambi i casi la nuova stringa `$z' \notin L$`
 
 ---
@@ -576,7 +576,7 @@ Esempio con `$G_1$`: `$S \to b | aA; A \to aS$`
 
 - **Correttezza sui tipi**
     - Quali tipi di dato possono essere elaborati?
-    - Quali operatori applicabili ad ogni dato?
+    - Quali operatori applicabili a ogni dato?
     - Quali regole per definire nuovi tipi e operatori?
 - **Semantica operazionale**
     - Qual è l'effetto di ogni azione elementare?
@@ -647,7 +647,7 @@ Algoritmo di Euclide per MCD
     - Dimensioni maggiori, ma possibile includere solo funzionalità utilizzate
 - **Collegamento dinamico**
     - Librerie condivise da diverse applicazioni
-    - Installazione ed aggiornamento unici
+    - Installazione e aggiornamento unici
     - Caricate in memoria una sola volta
 
 ---

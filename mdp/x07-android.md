@@ -8,7 +8,7 @@
 # QPython
 
 - App scaricabile dallo *store* Android
-    - Gratuita ed open source
+    - Gratuita e open source
     - Supporta Python 2
     - Include ed estende Py4A, per l'accesso al dispositivo
     - Include vari moduli, tra cui Kivy

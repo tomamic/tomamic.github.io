@@ -92,7 +92,7 @@ Lunghezza di una variabile `line` di tipo stringa: `len(line)`
 
 Memorizzare in una variabile `fact` il risultato parziale
 <br>
-Ad ogni ciclo, moltiplicare `fact` per il nuovo numero
+A ogni ciclo, moltiplicare `fact` per il nuovo numero
 
 ---
 
@@ -118,7 +118,7 @@ Si può sfruttare l'operatore `%` (resto della divisione)
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
-- Ad ogni turno:
+- A ogni turno:
     - Viene estratto a sorte un numero segreto tra 1 e 3
     - L'utente sceglie quante monete puntare e su quale numero
     - Se indovina, gli viene sommato l'importo puntato
@@ -141,7 +141,7 @@ secret = randint(1, 3)
 # 2.1 Conteggio di 0 e 1
 
 - Chiedere una riga di testo all'utente
-- Contare separatamente il numero di cifre `0` ed `1` presenti
+- Contare separatamente il numero di cifre `0` e `1` presenti
 
 >
 
@@ -161,7 +161,7 @@ Creare una lista (array) di 26 elementi, inizialmente tutti posti a `0`
 <br>
 Ciascun elemento è il contatore per una certa lettera
 <br>
-L'indice del contatore corrispondente ad una lettera `val` può essere ottenuto come `ord(val) - ord('A')`
+L'indice del contatore corrispondente a una lettera `val` può essere ottenuto come `ord(val) - ord('A')`
 
 ---
 
@@ -201,7 +201,7 @@ Con `s = (a+b+c)/2`, semiperimetro
 
 Cominciare a disegnare un grosso quadrato nero
 <br>
-Poi, inserire l'operazione di disegno un ciclo, aggiungendo ad ogni passo `10` (p.es.) al livello di verde, e togliendo lo stesso valore al lato
+Poi, inserire l'operazione di disegno un ciclo, aggiungendo a ogni passo `10` (p.es.) al livello di verde, e togliendo lo stesso valore al lato
 <br>
 Infine, determinare automaticamente le variazioni migliori per lato e colore, prima di iniziare il ciclo
 
@@ -309,7 +309,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 - Nella parte principale del programma:
     - Creare un oggetto triangolo, con lati forniti all'utente
     - Invocare i metodi `area` e `perimeter` sull'oggetto
-    - Infine mostrare l'area ed il perimetro del triangolo
+    - Infine mostrare l'area e il perimetro del triangolo
 
 ---
 
@@ -328,12 +328,12 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 ![](images/misc/space-invaders-school.png)
 # 3.3 Classe degli invasori spaziali
 
-- Creare una classe `Invader`, che contenga i dati ed il comportamento dell'alieno
+- Creare una classe `Invader`, che contenga i dati e il comportamento dell'alieno
     - Campi privati: `x`, `y`, `dx`
     - Metodo `move`, per avanzare
     - Metodo `rect`, per ottenere la posizione attuale
 - Istanziare un oggetto `Invader` e farlo muovere sullo schermo
-    - Chiamare il metodo `move` ad ogni ciclo
+    - Chiamare il metodo `move` a ogni ciclo
     - Visualizzare un rettangolo nella posizione corrispondente
 
 >
@@ -349,7 +349,7 @@ Definire nella classe delle opportune costanti
 - Creare inizialmente una lista di alieni, con posizioni di partenza diverse
     - Memorizzare la posizione di partenza di ciascun alieno in opportuni campi privati
     - Lasciare a ciascun alieno uno spazio orizzontale di movimento di 150 pixel, a destra della posizione di partenza
-- Farli avanzare tutti ad ogni ciclo, chiamando il metodo `move` di ciascuno di essi
+- Farli avanzare tutti a ogni ciclo, chiamando il metodo `move` di ciascuno di essi
 
 ---
 
@@ -383,7 +383,7 @@ Definire nella classe delle opportune costanti
     - Trasforma in maiuscolo tutto il testo compreso tra asterischi
 - Es. “`I want *this text* to be uppercase`” <br>
   → “`I want THIS TEXT to be uppercase`”
-- Applicare la funzione ad ogni riga di un file di testo
+- Applicare la funzione a ogni riga di un file di testo
 - Generare un file di output con il testo modificato
 
 >
@@ -462,7 +462,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 - Nel `main` del programma, gestire una lista di figure, permettendo ciclicamente all'utente di:
     - Inserire una nuova figura (rettangolo o cerchio)
     - Rimuovere una figura, dato il suo indice
-- Ad ogni ciclo, mostrare la lista delle figure e calcolarne l'area totale
+- A ogni ciclo, mostrare la lista delle figure e calcolarne l'area totale
 
 ---
 
@@ -474,7 +474,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
     - Le *cartelle*, caratterizzate da un nome e da una lista di nodi contenuti (classe derivata)
 - Creare una gerarchia delle tre classi: `Node`, `Document`, `Folder`
     - Le cartelle dovrebbero avere un metodo `add_node(n: Node)`
-- Nel corpo principale del programma, istanziare ed organizzare vari nodi (senza input dell'utente)
+- Nel corpo principale del programma, istanziare e organizzare vari nodi (senza input dell'utente)
     - Ricreare con gli oggetti la struttura raffigurata a fianco
 
 ---
@@ -533,8 +533,8 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 - Su una scacchiera `N×N`, un cavallo parte da una casella d'angolo
     - `N` scelto dall'utente
-- Ad ogni mossa, il cavallo si muove ad *L*
-    - Due caselle in avanti ed una di lato
+- A ogni mossa, il cavallo si muove a *L*
+    - Due caselle in avanti e una di lato
 - Trovare un percorso che visiti tutte le caselle, senza ripetizioni
     - Usare il *backtracking*
 - Mostrare la scacchiera (in forma testuale), con l'ordine di visita di ogni casella
@@ -694,7 +694,7 @@ elif x1_dragon >= x2_platform - DX:
     - Color cells so no number appears more than once in a row or column
     - The sides of black cells never touch
     - White cells form a continuous network
-- Ad ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
+- A ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
     - A console, mostrare un `#` dopo i numeri anneriti, un `!` dopo i numeri cerchiati
     - Controllare la violazione delle regole
     - Controllare il completamento del gioco (ogni numero: correttamente annerito o cerchiato)
@@ -754,7 +754,7 @@ private:
 - Aggiungere una *interfaccia grafica* al progetto
     - Creare una sottoclasse di `QWidget` o `QMainWindow`
     - Interfaccia adattabile a dimensioni diverse del gioco
-    - Ad ogni click, cambiare l'annotazione della cella (nero / cerchio / niente)
+    - A ogni click, cambiare l'annotazione della cella (nero / cerchio / niente)
     - Mostrare i numeri confermati su sfondo verde, anzichè cerchiati
 - **Riuso** - Classe del puzzle (*modello*) definita in modo generico
     - Usabile sia da interfaccia grafica che da console

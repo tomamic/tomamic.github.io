@@ -276,7 +276,7 @@ class Fifteen(BoardGame):
 ![](images/hist/typewriter.png)
 # ⭐ Scrittura su file
 
-- Funzione **`open`** per accedere ad un file (di testo)
+- Funzione **`open`** per accedere a un file (di testo)
     - Modalità *scrittura* o *lettura*: `"w"`, o `"r"`
 - Blocco **`with`**: alla fine *chiude* il file
     - Anche in caso di errore
@@ -540,7 +540,7 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 
 Tenere traccia della direzione attuale (∆y, ∆x)
 <br>
-Avanzare fino al bordo o ad una cella già visitata,
+Avanzare fino al bordo o a una cella già visitata,
 <br>
 poi cambiare la direzione in senso orario
 <br><br>

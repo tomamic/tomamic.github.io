@@ -75,7 +75,7 @@ Può essere utile una variabile booleana
 
 Moltiplicare tra loro i primi `n` numeri
 <br>
-Memorizzare in una variabile il risultato parziale; ad ogni ciclo, moltiplicarla per il nuovo numero
+Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla per il nuovo numero
 
 ---
 
@@ -172,7 +172,7 @@ Non occorre disegnare
 # 2.3 Riquadro
 
 - Classe che modella un riquadro
-    - Campi privati per *largezza* ed *altezza*
+    - Campi privati per *largezza* e *altezza*
     - Metodo calcolare l'area: `area`
     - Metodo calcolare il perimetro: `perimeter`
 - Nel corpo principale del programma, creare e usare un riquadro
@@ -323,7 +323,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 - Ridenominare come `PacMan` la classe `Turtle` dell'esempio `bounce`
 - Il personaggio cambia direzione solo in alcuni punti
 - Nel metodo `control`
-    - Svolta solo se `x` ed `y` entrambe multiple di 8
+    - Svolta solo se `x` e `y` entrambe multiple di 8
     - Solo alto, basso, sinistra, destra; no diagonali
 
 >
@@ -653,8 +653,8 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 # 6.4 Pac-Man, gioco e GUI [P1]
 
 - Classe `PacManGame`, per gestire il gioco *Pac-Man*
-    - Inizializzare i personaggi ed i muri <br> Opzionalmente: per vari livelli, letti da file (…)
-    - Incapsulare personaggi ed arena
+    - Inizializzare i personaggi e i muri <br> Opzionalmente: per vari livelli, letti da file (…)
+    - Incapsulare personaggi e arena
     - Controllare la conclusione della partita, positiva o negativa
 - Classe `PacManGui` per la rappresentazione del gioco
     - Disegno immagini e funzionalità legate a `g2d`
@@ -952,7 +952,7 @@ Memorizzare il punto di partenza, oppure l'intero percorso
 # 9.1 Liste annidate, massimo
 
 - Definire una funzione *ricorsiva*
-    - Parametri: lista contenente parole semplici ed altre liste di parole
+    - Parametri: lista contenente parole semplici e altre liste di parole
     - Risultato: parola maggiore, anche nelle liste annidate
 - Ricerca del massimo: parola maggiore, in ordine alfabetico
     - Una parola semplice si confronta con il massimo precedente
@@ -1016,7 +1016,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 # 9.5 Quadrato magico
 
 - Chiedere all'utente `n`
-- Generare le permutazioni dei numeri da `1` ad `n²`
+- Generare le permutazioni dei numeri da `1` a `n²`
     - Come anagrammi, ma `list[int]` anziché `str`
 - Elencare quelle che sono *quadrati magici* `n×n`
     - Stessa somma in tutte le righe, colonne e diagonali: *numero magico*
@@ -1057,7 +1057,7 @@ Eseguibile nei casi `n ≤ 3`, poi troppo inefficiente
 - Controlla se una delle celle già segnate impedisce la soluzione del gioco
     - *Non si può risolvere il gioco senza ripulire una cella*
     - ➊ Almeno un vincolo violato per *eccesso* di linee, oppure di `×`
-    - ➋ Biforcazione o incrocio di linee, attorno ad un `+`
+    - ➋ Biforcazione o incrocio di linee, attorno a un `+`
     - ➌ Un circuito chiuso non include tutte le linee
 - Può restituire `False` anche se la partita non è finita
     - Non ci sono violazioni evidenti, dovute ai segni già inseriti
@@ -1077,7 +1077,7 @@ Con la GUI, attivare questa funzionalità alla pressione del tasto `u`
 # 10.1 Liste annidate, conteggio
 
 - Definire una funzione *ricorsiva*
-    - Parametri: lista contenente stringhe semplici ed altre liste annidate
+    - Parametri: lista contenente stringhe semplici e altre liste annidate
     - Risultato: conteggio di tutte le stringhe presenti, anche nelle liste annidate
 - Dimensione di una lista appiattita: conteggio delle stringhe semplici + dimensioni delle liste annidate
     - Una stringa semplice conta `1`
@@ -1097,9 +1097,9 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 - Chiedere all'utente un numero `n`
 - Generare `n` punti casuali su un piano cartesiano virtuale (non disegnarli)
-    - Valori `int` di `x` ed `y` compresi tra `-10` e `10`
+    - Valori `int` di `x` e `y` compresi tra `-10` e `10`
 - Salvare tutti i dati in un file
-    - Un punto (`x` ed `y`) per ogni riga
+    - Un punto (`x` e `y`) per ogni riga
 
 >
 

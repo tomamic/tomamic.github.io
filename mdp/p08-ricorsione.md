@@ -6,7 +6,7 @@
 
 # 💡️ Programmazione ricorsiva
 
-- Molti linguaggi consentono ad una funzione (o procedura) di chiamare se stessa
+- Molti linguaggi consentono a una funzione (o procedura) di chiamare se stessa
 - Chiamata ricorsiva, diretta o indiretta
 
 ![](images/fun/recursion.svg)
@@ -24,7 +24,7 @@ def factorial(n: int) -> int:
     return result
 ```
 
-- Ad ogni invocazione di una funzione, viene creato nello **stack** un nuovo record
+- A ogni invocazione di una funzione, viene creato nello **stack** un nuovo record
 - **Contesto locale** alla particolare attivazione della funzione stessa
 
 >
@@ -58,7 +58,7 @@ def factorial(n: int) -> int:
 
 >
 
-Ai primordi (Fortran 66 ecc.) solo allocazione statica <br> Spazio fisso ed unico per dati locali ad una funzione → no ricorsione
+Ai primordi (Fortran 66 ecc.) solo allocazione statica <br> Spazio fisso e unico per dati locali a una funzione → no ricorsione
 
 ---
 
@@ -84,7 +84,7 @@ Ai primordi (Fortran 66 ecc.) solo allocazione statica <br> Spazio fisso ed unic
     - Allocazione *statica* in alcuni linguaggi
 - Visibilità **locale** alla funzione
     - Variabili locali e parametri
-    - Allocazione *automatica* di spazio in *stack* ad ogni attivazione della funzione (possibile la ricorsione)
+    - Allocazione *automatica* di spazio in *stack* a ogni attivazione della funzione (possibile la ricorsione)
 - Visibilità locale al blocco (es. `if`): non in Python!
 
 ---
@@ -223,7 +223,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-Provare ad usare sia l'iterazione che la ricorsione
+Provare a usare sia l'iterazione che la ricorsione
 <br>
 Euclide: MCD(a, b) = a, se b = 0;
 <br>
@@ -241,7 +241,7 @@ MCD(a, b) = MCD(b, a mod b), se b > 0
     - Trovare *x* t.c. *|f(x)| < 0.001*
 - Definire una funzione ricorsiva di bisezione
     - Parametri necessari: *inizio intervallo* di ricerca, *fine intervallo* di ricerca
-    - Invocare ad ogni livello la funzione su un intervallo dimezzato
+    - Invocare a ogni livello la funzione su un intervallo dimezzato
 
 >
 

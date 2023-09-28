@@ -57,11 +57,11 @@ $$`
 
 # 💡️ Codifica dell’informazione
 
-- Codifica: regole di corrispondenza per passare da un certo codice ad un altro
+- Codifica: regole di corrispondenza per passare da un certo codice a un altro
 - Corrispondenza biunivoca
     - Tra una stringa di un codice
     - E una stringa di un altro codice
-- Ad una certa stringa in un alfabeto ricco di simboli, corrisponde una stringa più lunga in un alfabeto più ridotto
+- A una certa stringa in un alfabeto ricco di simboli, corrisponde una stringa più lunga in un alfabeto più ridotto
 
 ---
 
@@ -134,7 +134,7 @@ $$`
 
 - Gruppo di 4 bit: 16 configurazioni diverse
     - *Disposizioni con ripetizione*: `$2^4 = 16$`
-- Ciascuna configurazione corrisponde ad uno dei 16 simboli esadecimali
+- Ciascuna configurazione corrisponde a uno dei 16 simboli esadecimali
 
 ---
 
@@ -459,7 +459,7 @@ y >> shift  # y = y / (2 ** shift)
     - Primi 256 code-point = *Latin1*
 - Attualmente >30 sistemi di scrittura
     - Rappresentazione di *geroglifici* e caratteri *cuneiformi*
-    - Da *emoticon* **:-)** ad *emoji* **☺️**: ideogrammi per espressioni facciali, oggetti comuni, posti, eventi meteo e animali
+    - Da *emoticon* **:-)** a *emoji* **☺️**: ideogrammi per espressioni facciali, oggetti comuni, posti, eventi meteo e animali
     - Proposta per *Klingon* (da Star Trek… rifiutata!)
 
 >
@@ -516,7 +516,7 @@ y >> shift  # y = y / (2 ** shift)
 - **Immagine raster** : suddivisa in una griglia di punti
     - Ogni punto (**pixel**) descritto da un codice
     - Il codice individua il colore
-- **Profondità**: # bit assegnati ad ogni pixel
+- **Profondità**: # bit assegnati a ogni pixel
     - Per rappresentarne il colore
     - 1, 2, 8, 12, 16, 24, 32… bit per pixel (*bpp*)
     - Es. 8 bit per `$256 (=2^8)$` possibili colori
@@ -828,7 +828,7 @@ Palette (RGBQUAD)
 - *HTTP*: HyperText Transfer Protocol
     - Protocollo testuale per trasferire risorse multimediali
 - *URL*: Uniform Resource Locator
-    - Riferimento ad una risorsa in rete
+    - Riferimento a una risorsa in rete
     - Per HTTP, include: host; porta (80); percorso; query (dopo `?`); *id* frammento (dopo `#`)
 
 ![](images/repr/uri-diagram.svg)

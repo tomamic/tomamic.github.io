@@ -25,7 +25,7 @@
 # Generate & Test
 
 - Tecnica per risolvere problemi di soddisfacimento di vincoli
-- Si assegna un *valore* ad ogni variabile
+- Si assegna un *valore* a ogni variabile
 - Si verifica se tutti i *vincoli* sono soddisfatti
     - Se i vincoli sono *soddisfatti* ⇒ trovata una *soluzione*
     - Altrimenti, si prova con valori diversi
@@ -151,7 +151,7 @@ def place_queens(board: list, y=0) -> bool:
 - Piano di gioco: `2n+1` celle allineate
     - Si parte con `n` pedine rosse a sinistra, `n` pedine verdi a destra
     - Le rosse si possono sempre spostare solo a destra, le verdi solo a sinistra
-- Ad ogni mossa, una qualsiasi pedina può:
+- A ogni mossa, una qualsiasi pedina può:
     - Avanzare di una posizione, se davanti ha una cella libera
     - Oppure scavalcare esattamente una pedina dell'altro colore, se c'è una cella libera subito dopo
 - L'applicazione deve trovare *automaticamente* le mosse per invertire la posizione di tutte le pedine
@@ -429,7 +429,7 @@ class Position:
 # Strategie di Min e Max
 
 - L'algoritmo *Minimax* attraversa l'albero completo del gioco
-    - Assegna un valore di utilità ad ogni possibile *foglia* dell'albero del gioco
+    - Assegna un valore di utilità a ogni possibile *foglia* dell'albero del gioco
     - Poi aggiorna ricorsivamente il valore di utilità dei nodi superiori
     - Il valore di utilità si propaga verso l'alto
 - *Minimax* assicura la miglior scelta possibile
@@ -534,10 +534,10 @@ $$`
 - La **funzione di valutazione** fornisce una stima della bontà di una mossa
 - Per esempio, nel gioco degli scacchi la stima si può basare sul valore dei pezzi dei due giocatori
     - Pedone 1, cavallo e alfiere 3, torre 5, regina 9
-- Il test di terminazione prova ad interrompere la ricerca
+- Il test di terminazione prova a interrompere la ricerca
     - Livello che rispetta il limite di tempo a disposizione
 - Tuttavia, una brusca terminazione della ricerca può fornire cattivi risultati
-    - Specie se associata ad una funzione di valutazione non molto sofisticata
+    - Specie se associata a una funzione di valutazione non molto sofisticata
 
 ---
 
@@ -651,7 +651,7 @@ function negamax(node, depth, color) is
     - Senza esplorare completamente ogni ramo dell'albero
 - Tecnica di potatura *Alpha-Beta Pruning*
     - Se un giocatore può fare una mossa verso un nodo `$n$`
-    - Ma ad un livello più alto nell'albero può fare una scelta migliore
+    - Ma a un livello più alto nell'albero può fare una scelta migliore
     - Allora il nodo `$n$` non sarà mai raggiunto
 
 ---
@@ -737,10 +737,10 @@ function negamax(node, depth, color) is
 
 - Un nodo foglia ha `$\alpha = \beta = f$`
     - Valore della funzione di utilità `$f$`
-- Ad un nodo di *Max*
+- A un nodo di *Max*
     - `$\alpha$` = valore di utilità maggiore, tra nodi figli
     - `$\beta$` = `$\beta$` del nodo genitore
-- Ad un nodo di *Min*
+- A un nodo di *Min*
     - `$\alpha$` = `$\alpha$` del nodo genitore
     - `$\beta$` = valore di utilità minore, tra nodi figli
 - Per ogni nodo, dovrebbe valere
@@ -751,7 +751,7 @@ function negamax(node, depth, color) is
 
 # Utilità e soglie
 
-- La ricerca alpha-beta aggiorna i valori di α e β ad ogni nodo
+- La ricerca alpha-beta aggiorna i valori di α e β a ogni nodo
 - Pota i rami
 - Cioè, termina le chiamate ricorsive
 - Quando determina che il valore dell'attuale nodo
@@ -847,8 +847,8 @@ function negamax(node, depth, α, β, color) is
 # Efficacia di potatura alpha–beta
 
 - Efficacia altamente dipendente dall'ordine di analisi dei nodi
-- Vantaggioso provare ad esaminare prima i nodi più promettenti
-- *Se* si riescono ad ordinare i nodi, allora…
+- Vantaggioso provare a esaminare prima i nodi più promettenti
+- *Se* si riescono a ordinare i nodi, allora…
     - Alpha–beta deve esaminare solo `$O(b^{d/2})$` nodi
     - Invece di `$O(b^d)$`, per il *Minimax*
     - Cioè, il fattore di *branching* effettivo diventa `$b^{1/2}=\sqrt{b}$`

@@ -58,7 +58,7 @@ while (getline(file1, line)) {
 
 - Si può gestire una stringa come uno stream
     - `istringstream`, `ostringstream` in libreria `<sstream>`
-    - Per estrarre valori ed inserire valori, rispettivamente
+    - Per estrarre valori e inserire valori, rispettivamente
 
 ``` cpp
 /* Split a text into a sequence of strings */
@@ -191,7 +191,7 @@ void FloatVector::expand_capacity() {
 
 ![](images/fun/linked-list.svg)
 
-- Ciascun **nodo** contiene un *valore* della lista ed un *puntatore* al nodo successivo
+- Ciascun **nodo** contiene un *valore* della lista e un *puntatore* al nodo successivo
     - Accesso casuale: `O(n)`
     - Aggiunta o rimozione in testa all'array: `O(1)`
     - Aggiunta o rimozione in fondo all'array: `O(n)`, oppure `O(1)` se noto ultimo nodo

@@ -74,7 +74,7 @@ Time &dinnerTime = sunset;
 
 ---
 
-# Interfaccia ed implementazione
+# Interfaccia e implementazione
 
 - L’*interfaccia* di una classe consiste di
     - Dichiarazioni delle funzioni membro pubbliche
@@ -966,10 +966,10 @@ int main()  {  C c; }
 
 # The slicing problem
 
-- Assegnamento di un oggetto di una classe derivata ad una *variabile della sua classe base*
+- Assegnamento di un oggetto di una classe derivata a una *variabile della sua classe base*
     - Variabili e funzioni membro aggiunte dalla classe derivata vengono perse
 - Il problema può essere risolto usando:
-    - *Puntatori ad oggetti*
+    - *Puntatori a oggetti*
     - *Funzioni virtuali*
 
 ---
@@ -996,7 +996,7 @@ int main()  {  C c; }
 - Oggetti di tutte le classi di una gerarchia trattati come oggetti della *classe base*
 - Risultato:
     - Scrittura di programmi più semplici (meno *branching logic*)
-    - Favorito il testing ed il mantenimento del codice
+    - Favorito il testing e il mantenimento del codice
 
 ---
 

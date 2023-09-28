@@ -59,7 +59,7 @@ def hypotenuse(a, b):
     - Parametri e variabili hanno **ambito locale**
     - Non visibili nel resto del programma
     - Nomi uguali, definiti in ambiti diversi, restano distinti
-- ⚠️ Ricordarsi di assegnare il risultato ad una variabile
+- ⚠️ Ricordarsi di assegnare il risultato a una variabile
     - ~ bicchiere per raccogliere la spremuta 🥤
 
 ``` py
@@ -300,7 +300,7 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 # Movimento orizzontale
 
 - Mostrare una tartaruga che si muove in orizzontale
-    - Var. `dx`: spostamento ad ogni frame
+    - Var. `dx`: spostamento a ogni frame
 - Riappare dal bordo opposto, dopo un po'
     - Permettere di superare i bordi laterali
     - Se supera di 100px il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
@@ -322,7 +322,7 @@ g2d.draw_image_clip("sprites.png", (x, y), (0, 20), (20, 20))
 
 - Mostrare un alieno che si muove a serpentina
 - Normalmente si sposta solo in orizzontale
-- Quando arriva ad un bordo laterale…
+- Quando arriva a un bordo laterale…
     - L'alieno scende di qualche pixel
     - Inverte la sua direzione orizzontale
 - Evitare gli spostamenti in diagonale
@@ -341,7 +341,7 @@ g2d.draw_image_clip("sprites.png", (x, y), (20, 0), (20, 20))
 
 - Usando la funzione `tick` e variabili globali, mostrare una pallina che si muove e rimbalza sui bordi
     - La pallina subisce una accelerazione costante verso il basso
-    - Ad ogni frame, aggiungere una piccola costante a `dy`
+    - A ogni frame, aggiungere una piccola costante a `dy`
     - Simile all'effetto della gravità
 
 ---
@@ -350,15 +350,15 @@ g2d.draw_image_clip("sprites.png", (x, y), (20, 0), (20, 20))
 # Movimento per 5 fotogrammi
 
 - Mostrare una pallina che si muove in verticale
-    - Variabile `dy` indica lo spostamento da effettuare ad ogni frame
+    - Variabile `dy` indica lo spostamento da effettuare a ogni frame
 - La pallina si muove solo dopo il click del mouse
     - Si sposta solo per 5 fotogrammi
     - Dopo si ferma, fino a nuova pressione
-- Invertire la direzione ad ogni avvio del movimento
+- Invertire la direzione a ogni avvio del movimento
 
 >
 
-Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
+Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 
 ---
 

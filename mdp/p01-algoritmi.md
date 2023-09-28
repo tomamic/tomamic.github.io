@@ -4,7 +4,7 @@
 
 ---
 
-# Problemi ed algoritmi
+# Problemi e algoritmi
 
 ---
 
@@ -148,7 +148,7 @@ In un dizionario di 100k parole, alla peggio si provano tutte
 # 💡️ Ricerca binaria
 
 - Dizionario: parole *ordinate*
-- Approccio più intelligente: ad ogni passo si dimezza lo spazio di ricerca
+- Approccio più intelligente: a ogni passo si dimezza lo spazio di ricerca
 
 ``` text
 SpazioDiRicerca = Intero dizionario
@@ -172,7 +172,7 @@ Un dizionario di 100k parole si può dimezzare solo 17 volte (2¹⁷ > 100k)
 # 💡️ Complessità e calcolabilità
 
 - **Complessità**
-    - Relazione tra la quantità di dati in ingresso ed il **costo di elaborazione**
+    - Relazione tra la quantità di dati in ingresso e il **costo di elaborazione**
     - Costo in termini di risorse: tempo, memoria ecc.
     - Algoritmi *non trattabili*: costo esponenziale
 - **Calcolabilità**
@@ -260,7 +260,7 @@ True
 ![](images/algo/var-label.svg)
 # 🔬 Variabile
 
-- **Nome** associato ad un certo **valore**
+- **Nome** associato a un certo **valore**
     - 🏷️ *Etichetta* → *oggetto*
 - Oggetto assegnato a più variabili
     - Non viene copiato, ma riceve più etichette
@@ -547,7 +547,7 @@ g2d.draw_circle((200, 200), r)
 - Numero di iterazioni = lunghezza della sequenza
     - Opera su tuple, stringhe, intervalli…
 - Variabile di iterazione
-    - Ad ogni iterazione, assegnato un valore dalla sequenza
+    - A ogni iterazione, assegnato un valore dalla sequenza
 
 ``` py
 for r in (200, 175, 150):
@@ -623,7 +623,7 @@ $$v = m \cdot i + q$$
 ![](images/misc/red-squares.svg)
 # 🧪 Sequenza di n quadrati
 
-- ❓ Ricavare i valori di $q$ ed $m$ per una sequenza di $n$ quadrati
+- ❓ Ricavare i valori di $q$ e $m$ per una sequenza di $n$ quadrati
 	- $n$ scelto dall'utente
     - Primo quadrato: $pos = 0$
     - Ultimo quadrato: $pos = L - l$
@@ -745,7 +745,7 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 - Far variare il colore dei cerchi
     - Dal rosso del livello più esterno
     - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 ---
 

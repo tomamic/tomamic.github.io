@@ -133,7 +133,7 @@ Liv. | Definizione   | Descrizione
 
 - Sistema per condivisione di informazioni ipertestuali
 - Uno dei modi più diffusi di utilizzare la rete Internet
-- Permette agli utenti di Internet di pubblicare e accedere a documenti **HTML**, raggiungibili ad una certa **URL** via **HTTP**
+- Permette agli utenti di Internet di pubblicare e accedere a documenti **HTML**, raggiungibili a una certa **URL** via **HTTP**
 - Si basa su due programmi: *web server* e *web client (browser)*
 - 1990: Tim Berners-Lee @ CERN, x doc scientifici
 - 1993: Marc Andreessen @ Mosaic/Netscape, primo browser grafico
@@ -189,8 +189,8 @@ Liv. | Definizione   | Descrizione
 ![](images/repr/html5-logo.svg) ![](images/sys/pacman-js.png)
 # Linguaggio JavaScript
 
-- Netscape: interattività ad HTML
-    - Reagire ad eventi
+- Netscape: interattività per HTML
+    - Reagire a eventi
     - Controllare dati
     - Modificare elementi HTML
 - Completamente diverso da Java
@@ -233,7 +233,7 @@ Liv. | Definizione   | Descrizione
 - Copre diverse funzioni generali
     - Annotazione di risorse esistenti
     - Invio di messaggi a bulletin board, newsgroup, mailing list, o gruppi di articoli simili
-    - Aggiunta di dati ad un database
+    - Aggiunta di dati a un database
     - Invio dati (es. form) a processo che li gestisca
 - Url = processo che gestirà l’entità acclusa
     - Applicaz. server, o gateway per altri protocolli

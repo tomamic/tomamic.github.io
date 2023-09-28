@@ -1,14 +1,14 @@
 ![](images/oop/modules.png)
-# Sistemi ad oggetti
+# Sistemi a oggetti
 ## Introduzione all'informatica
 
 ---
 
-# Sistema software ad oggetti
+# Sistema software a oggetti
 
 - Sistema procedurale
     - Insieme di procedure che si chiamano tra loro
-- Sistema ad oggetti
+- Sistema a oggetti
     - Insieme di *oggetti* che si scambiano *messaggi*
     - Per richiedere ad altri l’esecuzione di servizi
 - La complessità diminuisce tanto più quanto…
@@ -34,7 +34,7 @@
 # Modularità e astrazione
 
 - Modularità e testabilità
-    - Oggetto, completo di dati ed operazioni, inserito facilmente tra gli altri componenti di un sistema
+    - Oggetto, completo di dati e operazioni, inserito facilmente tra gli altri componenti di un sistema
     - Codice di un oggetto scritto e mantenuto indipendentemente dal resto
     - Più facile isolare e risolvere i problemi
 - Information-hiding e **astrazione**
@@ -86,7 +86,7 @@
 - Può essere *composizione* o *aggregazione*
     - **Composizione**: ciclo di vita dell'oggetto contenuto determinato dal contenitore (legame *whole-part*, *owns-a*)
     - **Aggregazione**: oggetto contenuto non rigidamente legato al contenitore
-- Spesso nel codice non è chiara la differenza tra contenimento ed un più generica associazione
+- Spesso nel codice non è chiara la differenza tra contenimento e un più generica associazione
 
 ---
 
@@ -147,7 +147,7 @@
 
 # Ereditarità e riusabilità
 
-- Strutture dati ed algoritmi possono essere implementati in funzione della classe `Shape`
+- Strutture dati e algoritmi possono essere implementati in funzione della classe `Shape`
     - Anzichè di una specifica classe derivata, come `Rectangle`
     - Ad esempio, l'ordinamento può sfruttare il fatto che tutte le figure hanno un area
 - Massimizzazione di riuso e flessibilità
@@ -198,9 +198,9 @@
 - Una interfaccia è una classe astratta pura
     - Tutti i metodi sono astratti
     - Implementazione in classe concreta
-    - Libertà su come memorizzare stato ed implementare metodi
+    - Libertà su come memorizzare stato e implementare metodi
 - Usando le interfacce
-    - Migliore pulizia del modello ed aderenza alla realtà modellata
+    - Migliore pulizia del modello e aderenza alla realtà modellata
     - Possibilità di migliorare la riusabilità
 
 ---

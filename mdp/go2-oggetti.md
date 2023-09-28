@@ -300,7 +300,7 @@ Come in *C*, ma *senza* “aritmetica”
 ---
 
 ![](images/oop/cookie-cutter.png)
-# Classi ed oggetti
+# Classi e oggetti
 
 - Ogni *oggetto* ha una **classe** di origine
     - La classe dà la stessa forma iniziale (campi e metodi) a tutti i suoi oggetti
@@ -431,7 +431,7 @@ func main() {
 
 - *Campi*: memorizzano i dati caratteristici di una istanza
     - Ogni pallina ha la sua posizione `(x, y)` e la sua direzione `(dx, dy)`
-- *Parametri*: passano altri valori ad un metodo
+- *Parametri*: passano altri valori a un metodo
     - Se alcuni dati necessari non sono nei campi
 - *Variabili locali*: memorizzano risultati parziali
     - Generati durante l'elaborazione del metodo
@@ -480,7 +480,7 @@ Lasciare tra i riquadri un piccolo margine
 # 2.3 Movimento orizzontale
 
 - Mostrare una pallina che si muove in orizzontale
-    - Variabile `dx` indica lo spostamento da effettuare ad ogni ciclo
+    - Variabile `dx` indica lo spostamento da effettuare a ogni ciclo
 - La pallina riappare dal bordo opposto, dopo un po' di tempo
     - Permettere alla `x` della pallina di superare i bordi laterali
     - Fissare dei margini esterni di `100px` (p.es.) rispetto ai bordi dell'arena
@@ -499,7 +499,7 @@ Lasciare tra i riquadri un piccolo margine
 
 >
 
-Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
+Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 
 ---
 
@@ -554,7 +554,7 @@ Incrementare (o decrementare) un contatore ad ogni chiamata a `tick`
 ---
 
 ![](images/misc/spiral-circles.png)
-# 🥷 2.9 Spirale ad oggetti
+# 🥷 2.9 Spirale a oggetti
 
 - Mostrare l'*animazione* di un cerchio lungo una spirale
 - Realizzare una classe per gestire dati e comportamento del cerchio

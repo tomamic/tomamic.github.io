@@ -77,7 +77,7 @@ Non c'è input dell'utente
 >
 
 Media quadratica: `√(∑(xᵢ²)/n)` <br>
-Per la radice, usare la funzione `sqrt` oppure elevare ad esponente `0.5` <br>
+Per la radice, usare la funzione `sqrt` oppure elevare a esponente `0.5` <br>
 All'inizio del programma: `from math import sqrt`
 
 ---
@@ -105,7 +105,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
     - Ogni nuovo elemento nella successione di Fibonacci è ottenuto sommando i due precedenti
     - Partendo con 1 e 1, i primi elementi saranno:
     - 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
-- Chiedere all'utente due numeri: `n` ed `x`
+- Chiedere all'utente due numeri: `n` e `x`
 - Mostrare tutti i numeri di Fibonacci minori di `n`
 - Inoltre, calcolare la somma di tutti quelli divisibili per `x`
 
@@ -120,8 +120,8 @@ Ispirato da: <https://projecteuler.net/problem=2>
 
 - Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
     - Le righe e le colonne sono numerate da 0 a 4
-- Un tesoro ed un mostro sono nascosti in posizione casuale, all'inizio del gioco
-- Ad ogni turno, il giocatore:
+- Un tesoro e un mostro sono nascosti in posizione casuale, all'inizio del gioco
+- A ogni turno, il giocatore:
     - Sceglie una direzione verso cui spostarsi (alto, basso, sinistra, destra)
     - Se capita sulla cella del tesoro, ha vinto
     - Se capita sulla cella del mostro, ha perso
@@ -163,7 +163,7 @@ Creare una lista (array) di 10 elementi, inizialmente tutti posti a `0`
 
 Ciascun elemento è il contatore per una certa cifra
 
-Attenzione alla distinzione tra il tipo `str` ed il tipo `int`!
+Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
@@ -197,7 +197,7 @@ Attenzione alla distinzione tra il tipo `str` ed il tipo `int`!
 
 Cominciare a disegnare un grosso cerchio rosso
 <br>
-Poi, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Poi, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 <br>
 Infine, determinare automaticamente, prima del ciclo, le variazioni migliori per raggio e colore
 
@@ -267,16 +267,16 @@ Bastano due cicli for annidati, senza liste
 ![](images/hist/eratostenes.jpg)
 # 2.9 Crivello di Eratostene
 
-- Trovare tutti i numeri primi fino ad `n`, scelto dall'utente
+- Trovare tutti i numeri primi fino a `n`, scelto dall'utente
 - Algoritmo
     - Creare una lista di `bool`, tutti inizialmente a `True`
-    - Per ciascun numero `x` tra `2` ed `n` (ancora a `True` nella lista)...
+    - Per ciascun numero `x` tra `2` e `n` (ancora a `True` nella lista)...
     - Mettere a `False` i multipli di `x` (escluso `x` stesso)
     - Gli elementi rimasti a `True` sono i numeri primi cercati
 
 >
 
-Usare una lista di `int` è problematico ed inefficiente
+Usare una lista di `int` è problematico e inefficiente
 
 ---
 
@@ -342,7 +342,7 @@ Aggiungere un metodo `name`, per ottenere il nome completo
     - Metodo `move`, per avanzare (movimento ciclico in orizzontale, come es. 3.3)
     - Metodo `rect`, per ottenere la posizione attuale
 - Istanziare un oggetto `Car` e farlo muovere sullo schermo
-    - Chiamare il metodo `move` ad ogni ciclo
+    - Chiamare il metodo `move` a ogni ciclo
     - Visualizzare un rettangolo nella posizione corrispondente
 
 >
@@ -356,7 +356,7 @@ Definire nella classe delle opportune costanti
 
 - Riusare la classe `Car` (es. 3.4)
 - Creare inizialmente una lista di macchine, con posizioni di partenza e direzioni diverse
-- Farle avanzare tutte ad ogni ciclo, chiamando il metodo `move` di ciascuna di esse
+- Farle avanzare tutte a ogni ciclo, chiamando il metodo `move` di ciascuna di esse
 - Visualizzare sullo schermo un rettangolo per ciascuna macchina
 
 ---
@@ -433,9 +433,9 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
     - Campi privati: `x`, `y`, `dx`, `xmin`, `xmax`
     - Metodo `move`, per avanzare
     - Metodo `rect`, per ottenere la posizione attuale
-- Movimento dall'alto verso il basso, a *zig zag* o *slalom* tra `xmin` ed `xmax`
+- Movimento dall'alto verso il basso, a *zig zag* o *slalom* tra `xmin` e `xmax`
 - Istanziare un oggetto `Skier` e farlo muovere sullo schermo
-    - Chiamare il metodo `move` ad ogni ciclo
+    - Chiamare il metodo `move` a ogni ciclo
     - Visualizzare un rettangolo nella posizione corrispondente
 
 ---
@@ -448,7 +448,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
     - Metodo astratto `rect`
 - Ridefinire `Car` (es. 3.4) e `Skier` (es. 4.2) come sottoclassi di `Actor`
 - Nel programma principale, creare una lista di personaggi misti (macchine e sciatori)
-    - Chiamare il metodo `move` di ciascuno ad ogni ciclo
+    - Chiamare il metodo `move` di ciascuno a ogni ciclo
     - Visualizzare un rettangolo nella posizione corrispondente
 
 ---
@@ -511,7 +511,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
     - Le *cartelle*, caratterizzate da un nome e da una lista di nodi contenuti (classe derivata)
 - Creare una gerarchia delle tre classi: `Node`, `Document`, `Folder`
     - Le cartelle dovrebbero avere un metodo `add_node(n: Node)`
-- Nel corpo principale del programma, istanziare ed organizzare vari nodi (senza input dell'utente)
+- Nel corpo principale del programma, istanziare e organizzare vari nodi (senza input dell'utente)
     - Ricreare con gli oggetti la struttura raffigurata a fianco
 
 ---
@@ -534,9 +534,9 @@ Nell'esempio, sommare: `8 + 12 + 7`
 # 4.9 Puzzle di Cindy
 
 - Piano di gioco: `2n+1` celle allineate
-    - Si parte con `n` pedine rosse tutte a sinistra, `n` pedine verdi tutte a destra, ed una cella libera in mezzo
+    - Si parte con `n` pedine rosse tutte a sinistra, `n` pedine verdi tutte a destra, e una cella libera in mezzo
     - Le pedine rosse si possono spostare solo a destra, quelle verdi solo a sinistra (senza poter tornare indietro)
-- Ad ogni mossa, una qualsiasi pedina può:
+- A ogni mossa, una qualsiasi pedina può:
     - Avanzare di una posizione, se davanti ha una cella libera
     - Oppure scavalcare esattamente una pedina dell'altro colore, se c'è una cella libera subito dopo
 - L'applicazione deve trovare *automaticamente* le mosse per invertire la posizione di tutte le pedine
@@ -732,7 +732,7 @@ Es. 4.3 Gioco a console - Partire dagli esempi `fifteen` in C++, `tictactoe` in 
 ![](images/misc/slitherlink-solved.png)
 # Slitherlink
 
-- Ad ogni mossa, permettere all'utente di scegliere una posizione dove:
+- A ogni mossa, permettere all'utente di scegliere una posizione dove:
     - Aggiungere una linea (mostrare `-` o `|`)
     - Escluderne la presenza (mostrare `x`)
     - (L'utente posiziona liberamente le linee)

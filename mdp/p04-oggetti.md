@@ -16,7 +16,7 @@
 ---
 
 ![](images/oop/cookie-cutter.png)
-# 💡️ Classi ed oggetti
+# 💡️ Classi e oggetti
 
 - Ogni *oggetto* ha una **classe** di origine
     - La classe dà la stessa forma iniziale (campi e metodi) a tutti i suoi oggetti
@@ -188,7 +188,7 @@ b1.multiple_move(2)
 
 - *Campi*: memorizzano i dati caratteristici di una istanza
     - Ogni pallina ha la sua posizione `(self._x, self._y)` <br> e la sua velocità `(self._dx, self._dy)`
-- *Parametri*: passano altri valori ad un metodo
+- *Parametri*: passano altri valori a un metodo
     - Se alcuni dati necessari non sono nei campi
 - *Variabili locali*: memorizzano risultati parziali
     - Generati durante l'elaborazione del metodo
@@ -243,7 +243,7 @@ class Fighter: # …
 # Utilizzo del personaggio
 
 - Il costruttore richiede solo il nome
-- Infliggiamo tre ferite casuali ed una cura casuale
+- Infliggiamo tre ferite casuali e una cura casuale
 
 ``` py
 c = Fighter("Hero")
@@ -333,7 +333,7 @@ balls.append(Ball(120, 120))
 
 # Personaggio Ghost
 
-- Ad ogni mossa, sceglie una direzione completamente casuale
+- A ogni mossa, sceglie una direzione completamente casuale
     - Non servono campi `dx`, `dy`
 - Ogni tanto sparisce o ricompare (cambiando la sua icona)
 
@@ -459,7 +459,7 @@ def tick():
 ---
 
 ![](images/misc/spiral-circles.png)
-# 🥷 Spirale ad oggetti
+# 🥷 Spirale a oggetti
 
 - Mostrare l'*animazione* di un cerchio lungo una spirale
 - Realizzare una classe per gestire dati e comportamento del cerchio

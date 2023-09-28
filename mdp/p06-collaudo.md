@@ -32,7 +32,7 @@
     - Anomalie ed errori (manutenzione *correttiva*, ~20%)
     - Mutamenti dell’ambiente (manutenzione *adattativa*, ~20%)
 - Sviluppo iterativo e metodologie agili
-    - Rilascio frequente ed incrementale
+    - Rilascio frequente e incrementale
     - <http://agilemanifesto.org/>
 
 ---
@@ -596,7 +596,7 @@ python -m unittest discover
     - Un test case per ogni gruppo di parametri?
     - In alcune applicazioni, enorme quantità di test!
 - Soluzione semplicistica: test contenente un ciclo
-    - Ad ogni iterazione, preparato un gruppo di parametri diversi
+    - A ogni iterazione, preparato un gruppo di parametri diversi
     - Eseguite le istruzioni da testare sui nuovi parametri
     - Problema: il test si blocca al primo errore
 
@@ -677,7 +677,7 @@ class TurtleTest(TestCase):
     - Codice che completa correttamente l'esecuzione nei casi normali...
     - Ma che anche in situazioni eccezionali mostra il comportamento atteso
 - Come verificare che una eccezione attesa sia effettivamente sollevata?
-    - Usare il metodo `assertRaises` direttamente, passando una funzione ed i parametri
+    - Usare il metodo `assertRaises` direttamente, passando una funzione e i parametri
     - Oppure creare un *contesto* con `with`
 - Esempio: `sqrt` solleva effettivamente una eccezione attesa?
 

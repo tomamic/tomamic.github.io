@@ -75,11 +75,11 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 - Far variare il colore dei cerchi
       - Dal rosso del livello più esterno
       - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore ad ogni passo
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 >
 
-Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Per iniziare, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 ---
 
@@ -88,7 +88,7 @@ Per iniziare, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo
 
 - Generare all'inizio del programma un numero “segreto” a caso tra 1 e 90
 - Chiedere ripetutamente all'utente di immettere un numero, finché non indovina quello generato
-- Ad ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
+- A ogni tentativo, dire se il numero immesso è maggiore o minore del numero segreto
 
 ---
 
@@ -126,8 +126,8 @@ Usare `math.Sin` e `math.Cos` per determinare le posizioni in cui disegnare
 
 - Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
     - Le righe e le colonne sono numerate da 0 a 4
-- Un tesoro ed un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
-- Ad ogni turno, il giocatore:
+- Un tesoro e un mostro sono nascosti in due posizioni casuali, all'inizio del gioco
+- A ogni turno, il giocatore:
     - Sceglie una direzione verso cui spostarsi (alto, basso, sinistra, destra)
     - Se capita sulla cella del tesoro, ha vinto
     - Se capita sulla cella del mostro, ha perso
@@ -208,7 +208,7 @@ from math import sqrt
 
 Cominciare a disegnare un grosso cerchio rosso
 
-Poi, inserire l'operazione di disegno un ciclo, togliendo ad ogni passo `10` (p.es.) al raggio e al livello di rosso
+Poi, inserire l'operazione di disegno un ciclo, togliendo a ogni passo `10` (p.es.) al raggio e al livello di rosso
 
 Infine, determinare automaticamente, prima del ciclo, le variazioni migliori per raggio e colore
 
@@ -271,7 +271,7 @@ xc, yc, r, angle = 320, 240, 40, 0.0
 
 - Mostrare una pallina che si muove in orizzontale
 - La pallina rimbalza sui bordi
-    - Memorizzare in una variabile `dx` lo spostamento orizzontale da effettuare ad ogni ciclo
+    - Memorizzare in una variabile `dx` lo spostamento orizzontale da effettuare a ogni ciclo
     - Cambiare segno a `dx` quando `x < 0` oppure `x + w > screen_width`
 
 ---
@@ -280,9 +280,9 @@ xc, yc, r, angle = 320, 240, 40, 0.0
 # 2.9 Pallina con gravità (*)
 
 - All'esercizio precedente, aggiungere l'effetto di gravità
-    - Memorizzare in una variabile `dy` lo spostamento verticale da effettuare ad ogni ciclo
+    - Memorizzare in una variabile `dy` lo spostamento verticale da effettuare a ogni ciclo
     - La pallina parte con `dy = 0`
-    - `dy` aumenta costantemente, ad ogni ciclo
+    - `dy` aumenta costantemente, a ogni ciclo
     - Cambiare segno a `dy` quando `y + h > screen_height`
 
 ---

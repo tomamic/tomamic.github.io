@@ -4,7 +4,7 @@
 
 ---
 
-# Liste ed indici
+# Liste e indici
 
 ---
 
@@ -44,7 +44,7 @@ for val in values:
 8   27  125 343 1331
 ```
 
-- Ad ogni iterazione, a `val` è assegnato un elemento di `values`
+- A ogni iterazione, a `val` è assegnato un elemento di `values`
 - Ciclo `for` per qualsiasi tipo di sequenza
     - `list`, `str`, `tuple`, `range`…
 
@@ -53,7 +53,7 @@ for val in values:
 ![](images/fun/wile-coyote.png)
 # ⭐ Accesso agli elementi
 
-- **Attenzione ad usare indici validi!**
+- **Attenzione a usare indici validi!**
     - *Lunghezza* attuale di una lista `s`: `len(s)`
     - Elementi *numerati* da `0` a `len(s)-1`
 
@@ -374,7 +374,7 @@ z = list(zip(grocery, quantities))  # if you *really* need a list
 
 - Accoppia un indice crescente con i valori di una sequenza
 - Genera sequenza *lazy* di coppie
-- Iterazioni con valore ed indice assieme
+- Iterazioni con valore e indice assieme
 
 ``` py
 grocery = ["spam", "egg", "bacon", "sausage"]
@@ -416,7 +416,7 @@ print(grocery)     # ['spam', 'egg', 'bacon']
 
 - Parametri: funzione `f`, sequenza `l`
     - *(Funzione di ordine superiore)*
-- `f` applicata ad ogni valore in `l`
+- `f` applicata a ogni valore in `l`
 - Risultato: sequenza *lazy* dei risultati
 
 ``` py
@@ -459,7 +459,7 @@ for v in filter(pos, vals):
 
 - **Espressione**: codice la cui valutazione produce un valore
     - Adatta a parte destra di un assegnamento (*rvalue*)
-- Molte **istruzioni** Python non corrispondono ad un valore
+- Molte **istruzioni** Python non corrispondono a un valore
     - `if`, `while`, `for`, `def`, `class` *non* sono espressioni
     - Assegnamenti `=`, `+=` ecc. *non* sono espressioni
 - Esiste un `if` speciale, come espressione
@@ -555,7 +555,7 @@ True
 # Istogramma con barre orizzontali
 
 - Chiedere all'utente una lista di valori positivi
-    - Fino ad inserimento del valore `0` (sentinella)
+    - Fino a inserimento del valore `0` (sentinella)
 - Mostrare un istogramma
     - Lunghezza orizzontale di ciascuna barra proporzionale al valore corrispondente
     - La barra più lunga occupa tutto lo spazio disponibile in orizzontale

@@ -112,7 +112,7 @@ $q_3$         | $q_2$ | $q_1$
     - `$L(M) = \{x \in \Sigma^\star : \delta(q_0, x) \in F\}$`
 - FSM riconoscono tutti e soli i *linguaggi REG*
 - Grammatica equiv. a FSM di esempio:
-    - Ad ogni stato corrisponde un simbolo non terminale <br>
+    - A ogni stato corrisponde un simbolo non terminale <br>
     `$q_0: S, q_1: A, q_2: B, q_3: C$`
     - *$\varepsilon$-prod* per stati finali
 
@@ -276,7 +276,7 @@ $q_2$ |         |          |          |       |                   |
 # 💡️ Macchina di Turing (TM)
 
 - Automa con testina di scrittura/lettura su nastro bidirezionale “illimitato”
-- Ad ogni passo:
+- A ogni passo:
     - Si trova in un certo stato
     - Legge un simbolo dal nastro
 - In base alla f. di transizione (deterministica):

@@ -72,7 +72,7 @@ UniPR, riquadro News</a>.</p>
 <p id="par2">Il secondo paragrafo. Torna al
 <a href="#par1">primo paragrafo.</a></p>
 
-<!-- si può attribuire un id ad ogni elemento, ma dev'essere univoco nella pagina -->
+<!-- si può attribuire un id a ogni elemento, ma dev'essere univoco nella pagina -->
 
 <blockquote cite="http://www.faqs.org/">
   <p>The BLOCKQUOTE element contains text quoted
@@ -181,7 +181,7 @@ UniPR, riquadro News</a>.</p>
 - Mentre uno stesso valore di `class` può essere attribuito a molti elementi su una pagina...
 - `id` deve essere unico all’interno del documento!
 - Non si può applicare uno stesso valore di `id` a più elementi
-- Si possono assegnare più classi ad un solo elemento, separate da spazio. Es.
+- Si possono assegnare più classi a un solo elemento, separate da spazio. Es.
     - `<p class="news gossip">Bla bla.</p>`
 
 ---
@@ -216,7 +216,7 @@ UniPR, riquadro News</a>.</p>
 ![](images/repr/browser-war.jpg)
 # Cascading Style Sheets
 
-> In principio il web era popolato di semantici tag p ed h1; ma presto arrivarono font, center, color; le tabelle nascoste erano in agguato; era già scoppiata la Guerra dei Browser, tra Netscape e IE.
+> In principio il web era popolato di semantici tag p e h1; ma presto arrivarono font, center, color; le tabelle nascoste erano in agguato; era già scoppiata la Guerra dei Browser, tra Netscape e IE.
 
 - Dopo specifiche W3C per HTML 4.0 e stili, tendenza a miglior supporto di standard
 - CSS: migliore semantica e lavoro risparmiato
@@ -261,7 +261,7 @@ p { margin-left: 20px }
 
 # Sintassi degli stili
 
-- La più semplice regola css è composta di tre parti: un **selettore**, una **proprietà** ed un **valore**:
+- La più semplice regola css è composta di tre parti: un **selettore**, una **proprietà** e un **valore**:
     - `selector { property: value }`
     - Selettore: es. un elemento html da ridefinire
     - Proprietà: aspetto cui assegnare nuovo valore

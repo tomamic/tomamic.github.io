@@ -148,7 +148,7 @@
 # Campo minato
 
 - N **mine nascoste** a caso in tabella rettangolare
-- Ad ogni turno, l'utente scopre una casella:
+- A ogni turno, l'utente scopre una casella:
     - Mina → *partita persa*
     - Solo N caselle coperte (con mine) → *partita vinta*
     - Altrimenti, *conteggio mine* nelle 8 caselle adiacenti
@@ -201,7 +201,7 @@
     - Annerire le celle in modo che nessun numero appaia più volte in una riga o colonna
     - I lati delle celle nere non possono toccarsi
     - Le celle bianche formano una rete continua
-- Ad ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
+- A ogni mossa, permettere all'utente di annerire un numero, oppure cerchiarlo
     - Controllare la violazione delle regole
     - Controllare il completamento del gioco (ogni numero: correttamente annerito o cerchiato)
 
@@ -228,9 +228,9 @@
 ![](images/misc/tents.png)
 # Tents puzzle
 
-- Posizionare tende sulla griglia, in modo che ogni albero sia *assegnato* ad una tenda
-    - Inizialmente, nessun albero è assegnato ad una tenda
-    - Tenda adiacente (in orizzontale o verticale) ad un solo albero non assegnato ⇒ albero *assegnato* a quella tenda
+- Posizionare tende sulla griglia, in modo che ogni albero sia *assegnato* a una tenda
+    - Inizialmente, nessun albero è assegnato a una tenda
+    - Tenda adiacente (in orizzontale o verticale) a un solo albero non assegnato ⇒ albero *assegnato* a quella tenda
     - Tante tende, quanti sono gli alberi
 - Le tende non possono toccarsi tra loro, nemmeno in diagonale
 - Vincoli numerici fuori dalla griglia: numero di tende nella riga o colonna
@@ -261,7 +261,7 @@
 - Regole
     - Ogni riga o colonna ha celle bianche e nere in egual numero
     - 3 celle contigue non possono avere lo stesso colore
-- Ad ogni mossa, l'utente può segnare una cella come:
+- A ogni mossa, l'utente può segnare una cella come:
     - Bianca, oppure
     - Nera, oppure
     - Grigia (indecisa)

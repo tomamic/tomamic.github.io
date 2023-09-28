@@ -100,7 +100,7 @@ int main() {
 - `for`
 - `do/while`
 - `switch`
-- Programmazione ad oggetti: tende ad essere meno strutturata di quella procedurale
+- Programmazione a oggetti: tende a essere meno strutturata di quella procedurale
 
 ---
 
@@ -123,7 +123,7 @@ int main() {
 - Funzioni `inline`
     - Generata una copia della funzione ogni volta che questa viene utilizzata
     - Evita l’overhead del chiamare la funzione
-    - Utile per funzioni brevi ed usate spesso
+    - Utile per funzioni brevi e usate spesso
 
 ---
 
@@ -209,7 +209,7 @@ int main() {
 
 # Puntatori e allocazione dinamica
 
-- L’operatore new crea una variabile dinamica e restituisce un puntatore ad essa
+- L’operatore new crea una variabile dinamica e restituisce un puntatore a essa
     - Esempio:
     - `int *p;`
     - `p = new int;`
@@ -289,7 +289,7 @@ int main() {
     - Valore ritornato
     - Modificatore const
     - Call-by-value vs. call-by-reference
-- Funzionalità importante della programmazione ad oggetti: è corretto che se una stessa operazione può essere applicata a tipi di dati differenti, il nome dell’operazione non cambi
+- Funzionalità importante della programmazione a oggetti: è corretto che se una stessa operazione può essere applicata a tipi di dati differenti, il nome dell’operazione non cambi
 
 ---
 
@@ -423,7 +423,7 @@ cin.getline(c, 80);
 
 - Le C-strings sono convertite automaticamente in oggetti string
     - Inizializzazione di un oggetto string con una C-string
-    - Assegnamento di una C-string ad un oggetto string
+    - Assegnamento di una C-string a un oggetto string
     - Concatenazione di oggetti string e C-strings
 - Non c’è conversione automatica di oggetti string in C-strings
     - Funzione membro `c_str()`
