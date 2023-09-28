@@ -181,7 +181,7 @@ if pt1 != pt2:
 # ⭐ Forma canonica PS
 
 - **Prodotto di Somme**: prendere le righe a 0, *negate*
-    - `$F(A, B, C) := (A+B+C) \cdot \\ (A+ \lnot B+C) \cdot ( \lnot A+B+C)$`
+    - `$F(A, B, C) := (A+B+ \lnot C) \cdot \\ (A+ \lnot B+C) \cdot ( \lnot A+B+C)$`
 - *Principio*: quali input rendono `$\lnot F$` vera?
     - `$\lnot F(A, B, C) := ( \lnot A \cdot  \lnot B \cdot C) + \\ ( \lnot A \cdot B \cdot  \lnot C) + (A \cdot  \lnot B \cdot  \lnot C)$`
     - `$F(A, B, C) := \lnot (( \lnot A \cdot  \lnot B \cdot C) + \\ ( \lnot A \cdot B \cdot  \lnot C) + (A \cdot  \lnot B \cdot  \lnot C))$`
