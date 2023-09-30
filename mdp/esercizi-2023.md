@@ -66,7 +66,7 @@
 - Disegnare una linea spezzata, come nell'esercizio precedente
 - Variare progressivamente il tono di grigio
     - Il primo segmento ha sempre colore `(50, 50, 50)`
-    - L'ultimo segmento ha sempre colore `(150, 150, 150)`
+    - L'ultimo segmento ha sempre colore `(200, 200, 200)`
     - Indipendentemente dal numero di segmenti
 
 ---
