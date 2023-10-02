@@ -4,7 +4,7 @@
 
 ---
 
-# Esercitazione 1 (09-25)
+# Esercitazione 1 (2023-09-25)
 
 ---
 
@@ -123,3 +123,155 @@ Usare la funzione `sqrt` del modulo `math`
 - Il disegno termina quando…
     - Il centro dell'ultimo cerchio disegnato è vicino al centro del canvas
     - Distanza minore di 20
+
+
+---
+
+# Esercitazione 2 (2023-10-03)
+
+---
+
+![](images/misc/triangle-notations.svg)
+# 2.1 Funzione, Erone
+
+- Definire una funzione `heron` per il calcolo dell'area di un triangolo
+    - Parametri: tre lati come `float`
+    - Risultato: area come `float`
+- Invocare la funzione dalla shell interattiva
+- Aggiungere poi al programma una funzione `main`
+    - Chiedere all'utente le misure dei tre lati
+    - Poi chiamare `heron` con questi parametri
+    - Infine mostrare all'utente il risultato
+
+>
+
+[Formula di Erone](http://en.wikipedia.org/wiki/Heron%27s_formula): $area = \sqrt{s \cdot (s-a) \cdot (s-b) \cdot (s-c)}, s = \frac{a+b+c}{2}$
+<br>
+Tenere le operazioni di I/O fuori dalla funzione `heron`
+
+---
+
+![](https://tomamic.github.io/images/oop/anim-right.png)
+# 2.2 Svolta casuale
+
+- Partire dall'animazione della pallina vista a lezione
+    - Direzione iniziale, verso destra di 2 px
+    - Senza rimbalzi
+    - Partire dal centro di un canvas 400×400
+- Aggiungere un cambio di direzione casuale
+    - Nuova direzione: alto, basso, destra, o sinistra
+    - Possibilmente, escludere la direzione opposta a quella attuale
+- Cambiare direzione solo in certi punti
+    - Quando `x` e `y` sono entrambe multiple di 8
+
+---
+
+![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
+# 2.3 Scelta sprite
+
+- Continuare l'esercizio precedente
+- Disegnare un fantasma anzichè una pallina
+    - Ritagliare l'immagine da `sprites.png`
+    - [`g2d.draw_image_clip`](https://github.com/tomamic/fondinfo#images-and-sounds)
+- Casualmente, il fantasma cambia sprite
+    - In posizioni multiple di 8, con probabilità 1/5
+    - Se è visibile diventa invisibile e viceversa
+    - Mantiene lo stesso sprite fino al prossimo cambiamento casuale
+
+>
+
+Usare una variabile globale booleana, `visible`
+
+---
+
+# 2.4 Tabella delle distanze
+
+- Considerare due variabili: `x` e `y`
+    - Ciascuna variabile compresa tra 0 e 4
+    - Generare tutti i possibili accoppiamenti
+- Mostrare in tabella il valore di $x^2+y$
+    - Una riga per ogni valore di `y`
+    - Una colonna per ogni valore di `x`
+
+``` text
+0   1   4   9   16
+1   2   5   10  17
+2   3   6   11  18
+3   4   7   12  19
+4   5   8   13  20
+```
+
+>
+
+Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con `y` costante
+
+---
+
+![](https://tomamic.github.io/images/misc/circle-grid.svg)
+# 2.5 Griglia di cerchi
+
+- Su canvas quadrato, disegnare griglia `n×n` di cerchi
+    - `n` scelto dall'utente
+    - I cerchi sono adiacenti e occupano tutto il canvas
+- Il colore dei cerchi varia linearmente
+    - In ogni riga: rosso nullo nel primo cerchio, <br> saturo nell'ultimo
+    - In ogni colonna: verde nullo nel primo cerchio, <br> saturo nell'ultimo
+
+---
+
+![](images/misc/slope.svg) $y = m·x + q$
+# 2.6 Segmento e retta
+
+- Definire *funzione* `slope` per una retta
+    - Parametri: due punti attraversati
+    - Risultato: coefficiente angolare `m`
+    - $m = \frac{\Delta y}{\Delta x}$
+- Definire *funzione* `intercept` per una retta
+    - Parametri: due punti attraversati
+    - Risultato: quota all'origine `q`
+    - Nota $m$, si sfrutta $y1 = m·x1 + q$
+- In una *funzione* `main`
+    - Chiedere all'utente le coordinate di due punti
+    - Chiamare le due funzioni e mostrare i risultati
+    - Controllare prima se la retta è verticale
+
+---
+
+![large](images/misc/gold-price.svg)
+# 2.7 Media, uno ogni tre
+
+- Leggere, attraverso un ciclo, una sequenza di numeri naturali
+    - Il valore `-1` termina la sequenza
+- Calcolare il valore medio, considerando solo un valore ogni 3, tra quelli inseriti
+    - Tenere un conteggio; il conteggio corrente è multiplo di 3?
+
+>
+
+Attenzione: il numero negativo non fa media
+
+---
+
+![](images/misc/leap-centuries.svg)
+# 2.8 Anni bisestili
+
+- Chiedere all'utente di inserire un anno
+- Dire se è bisestile oppure no
+- Ripetere tutto ciclicamente, finchè l'utente non inserisce il valore `0`
+
+>
+
+Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli anni secolari (quelli divisibili per 100) che non sono divisibili per 400
+<br>
+<https://it.wikipedia.org/wiki/Anno_bisestile#Definizione>
+
+---
+
+![](images/fun/polygon.svg)
+# 2.9 Poligono regolare
+
+- Disegnare un poligono regolare
+    - Come in questo esercizio: <br> <https://github.com/tomamic/fondinfo/wiki/P03-Funzioni#disegno-di-un-poligono>
+- Fare in modo che il primo vertice sia in alto, sopra al centro
+- Variare inoltre linearmente il colore dei lati
+    - Il rosso è saturo per il primo lato, nullo per l'ultimo lato
+    - Il blu è nullo per il primo lato, saturo per l'ultimo lato
