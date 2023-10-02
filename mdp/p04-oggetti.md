@@ -331,15 +331,36 @@ balls.append(Ball(120, 120))
 
 ---
 
+![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
 # Personaggio Ghost
 
-- A ogni mossa, sceglie una direzione completamente casuale
-    - Non servono campi `dx`, `dy`
-- Ogni tanto sparisce o ricompare (cambiando la sua icona)
+- Ogni tanto sparisce o ricompare (cambiando *sprite*)
 
 ``` py
 class Ghost:  # …
+    def __init__(self):
+        self._w, self._h = 20, 20
+        self._x, self._y = ARENA_W // 2, ARENA_H // 2
+        self._visible = True
 
+    def sprite(self):
+        if self._visible:
+            return 20, 0
+        return 20, 20
+```
+
+- Metodo `sprite`: dove si trova lo *sprite* desiderato
+    - All'interno dell'immagine complessiva
+
+---
+
+# Direzione casuale
+
+- A ogni mossa, sceglie una direzione completamente casuale
+    - Variabili locali `dx`, `dy`, *non campi*
+
+``` py
+class Ghost:  # …
     def move(self):
         dx = choice([-4, 0, 4])
         dy = choice([-4, 0, 4])
@@ -350,32 +371,17 @@ class Ghost:  # …
             self._visible = not self._visible
 ```
 
-❓ Perchè viene preso il resto della divisione `%`?
+- ❓ Perchè viene preso il resto della divisione `%`?
+- ❓ Come limitare la scelta alle sole 4 direzioni principali ↔↕?
 
 ---
 
-![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
 # Scelta dello sprite
-
-``` py
-class Ghost:  # …
-    def sprite(self):
-        if self._visible:
-            return 20, 0
-        return 20, 20
-```
-
-- Posizione dove si trova lo *sprite* desiderato
-    - All'interno dell'immagine complessiva
-
----
-
-# Disegno dei fantasmi
 
 ``` py
 ghosts = []
 for _ in range(5):
-    ghosts.append(Ghost((randrange(ARENA_W), randrange(ARENA_H))))
+    ghosts.append(Ghost())
 
 def tick():
     g2d.clear_canvas()
