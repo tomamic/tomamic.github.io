@@ -261,13 +261,9 @@ True
 
 ---
 
-# 🔬 Tabella ASCII
+# Tabella ASCII
 
-![large](images/repr/ascii.svg)
-
-- In ogni riga 16 caratteri con codici consecutivi
-- Codice di un carattere: si contano tutti quelli che lo precedono
-    - Es. `S` @ `x=3`, `y=5` ⇒ `ord("S") == y * 16 + x == 83`
+![large](images/repr/ascii-large.svg)
 
 ---
 
