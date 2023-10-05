@@ -222,15 +222,24 @@ if pt1 != pt2:
     - Valgono le proprietà già viste
 - Esempio di formalizzazione
     - `$P_1 :=$` “Gold is in Chest1” <br> `$P_2 :=$` “Gold is in Chest2” <br> `$P_3 :=$` “Gold is in Chest3”
-    - `$\lnot P₂ \land (P₁ \lor P₃) \land \lnot P₃ \equiv P₁ \land \lnot P₂ \land \lnot P₃$`
+    - `$\lnot P_2 \land (P_1 \lor P_3) \land \lnot P_3 \equiv$` *(proprietà distributiva)* <br>
+       `$\lnot P_2 \land (P_1 \land \lnot P_3 \lor P_3 \land \lnot P_3) \equiv$` *(proprietà dell'inverso)* <br>
+       `$P_1 \land \lnot P_2 \land \lnot P_3$`
 
 ---
+
+`$P$` | `$Q$` | `$P \implies Q$`
+------|-------|---------
+ F    |  F    |  T
+ F    |  T    |  T
+ T    |  F    |  F
+ T    |  T    |  T
 
 # 💡️ Implicazione logica
 
 - **Connettivo condizionale**: esprime il legame “se ... allora”
-    - `$P :=$` “io penso” (*premessa*)
-    - `$Q :=$` “io esisto” (*conseguenza*)
+    - `$P :=$` “io penso” (*premessa*, o *antecedente*)
+    - `$Q :=$` “io esisto” (*conclusione*, o *conseguente*)
     - `$P \implies Q$`: “se penso allora esisto”
 - `$P \implies Q$` si può leggere anche nei seguenti modi:
     - Da `$P$` segue `$Q$`
@@ -244,12 +253,12 @@ if pt1 != pt2:
 
 # 🧪 Verità dell'implicazione
 
-`$P$` | `$Q$` | `$P \implies Q$` | `$\lnot P \lor Q$`
-----|-----|---------|---------
- F  |  F  |  T      |  T
- F  |  T  |  T      |  T
- T  |  F  |  F      |  F
- T  |  T  |  T      |  T
+`$P$` | `$Q$` | `$P \implies Q$` | `$Q \implies P$` | `$\lnot P \lor Q$`
+------|-------|------------------|------------------|---
+ F    |  F    |  T               | T                | T
+ F    |  T    |  T               | F                | T
+ T    |  F    |  F               | T                | F
+ T    |  T    |  T               | T                | T
 
 - `$P \implies Q$` è falsa solo in un caso: `$P$` vera e `$Q$` falsa
     - `$\lnot (P \implies Q) \equiv (P \land \lnot Q)$`
@@ -292,7 +301,7 @@ if pt1 != pt2:
 
 - *Modus ponens*: schema di ragionamento
 
-Premessa | Conseguenza
+Premesse | Conclusione
 ---------|------------
 `$(P \implies Q)$` vera <br> `$P$` vera | `$Q$` vera
 
@@ -312,7 +321,7 @@ Premessa | Conseguenza
 - `$((P \implies R) \land (R \implies Q) \land P) \implies Q$`
 - Schema di ragionamento
 
-Premessa | Conseguenza
+Premesse | Conclusione
 ---------|------------
 `$(P \implies R)$` vera <br> `$(R \implies Q)$` vera <br> `$P$` vera | `$Q$` vera
 
@@ -340,7 +349,7 @@ Premessa | Conseguenza
 - Se è vera l’implicazione `$( \lnot Q \implies \lnot P)$` ed è vera `$P$`, allora è vera anche `$Q$`
 - *Modus tollens*: schema di ragionamento
 
-| Premessa | Conseguenza |
+| Premesse | Conclusione |
 |----------|-------------|
 | `$( \lnot Q \implies \lnot P)$` vera <br> `$P$` vera | `$Q$` vera |
 
@@ -495,7 +504,7 @@ De Morgan | `$(A \cap B)' = A' \cup B'$` | `$\lnot (P \land Q) \equiv \lnot P \l
     - **(2)** `$\forall n$`, supponendo `$P(n)$` vero, segue che anche `$P(n+1)$` è vero
     - Allora `$P(n)$` risulta vero `$\forall n$`
 
-Premessa | Conseguenza
+Premesse | Conclusione
 ---------|------------
 `$P(1)$` <br> `$\forall n, P(n) \implies P(n+1)$` | `$\forall n, P(n)$`
 
