@@ -278,7 +278,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-# Esercitazione 3 (2023-10-10)
+# Esercitazione 3 (2023-10-09)
 
 ---
 
