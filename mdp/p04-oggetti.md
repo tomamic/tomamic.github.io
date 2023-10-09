@@ -268,18 +268,20 @@ print(c.alive())
 
 - Sequenza *mutabile* di valori *omogenei*
 
-```
+``` py
 grocery = ["spam", "eggs", "beans"]
-grocery.append("sausage")  # add "sausage" at the end, size grows
-grocery.remove("eggs")  # remove "eggs", size shrinks
+grocery.append("sausage")  # add "sausage" at the end
+print(len(grocery))  # 4
+grocery.remove("eggs")  # remove "eggs"
+print(len(grocery))  # 3
 
 for product in grocery:
-    print(product.upper())
+    print(product.capitalize())
 ```
 
 - Istruzione `for` per cicli su sequenze di valori
 - Ogni stringa è un oggetto, di class `str`
-- `upper` è un metodo della classe `str`
+- `capitalize` è un metodo della classe `str`
 
 ---
 

@@ -339,13 +339,13 @@ print(msg)
 
 ``` py
 >>> grocery = ["spam", "egg", "beans"]
->>> grocery.append("sausage")  # add "sausage" at the end, size grows
->>> len(grocery)
+>>> grocery.append("sausage")  # add "sausage" at the end
+>>> len(grocery)  # size has grown
 4
 >>> "egg" in grocery  # membership test
 True
->>> grocery.remove("egg")  # remove "egg", size shrinks
->>> len(grocery)
+>>> grocery.remove("egg")  # remove "egg"
+>>> len(grocery)  # size has shrunk
 3
 >>> grocery
 ["spam", "beans", "sausage"]
@@ -361,16 +361,13 @@ values = [2, 3, 5, 7, 11]
 
 for val in values:
     cube = val ** 3
-    print(cube, end="\t")
+    print(cube)  # 8 27 125 343 1331
 ```
 
-``` text
-8   27  125 343 1331
-```
-
+- A ogni iterazione
+    - A `val` è assegnato un elemento di `values`
 - Ciclo `for` per qualsiasi tipo di sequenza
     - `list`, `str`, `tuple`, `range`…
-- A ogni iterazione, a `val` è assegnato un elemento di `values`
 
 ---
 
