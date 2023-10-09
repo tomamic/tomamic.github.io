@@ -393,7 +393,7 @@ Premesse | Conclusione
 # ⭐ Quantificatori
 
 - Un predicato può essere trasformato in una proposizione in due modi
-    - Sostituendo la variabili con valori
+    - Sostituendo le variabili con valori
     - Oppure, *quantificando* le sue variabili
 - Una variabile legata a un quantificatore si dice *vincolata*, altrimenti *libera*
 - I quantificatori logici sono due

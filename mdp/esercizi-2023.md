@@ -275,3 +275,130 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 - Variare inoltre linearmente il colore dei lati
     - Il rosso è saturo per il primo lato, nullo per l'ultimo lato
     - Il blu è nullo per il primo lato, saturo per l'ultimo lato
+
+---
+
+# Esercitazione 3 (2023-10-10)
+
+---
+
+![](images/misc/triangle-notations.svg)
+# 3.1 Classe triangolo
+
+- Creare una classe `Triangle`
+    - Campi: misure dei tre lati
+    - Metodo per il calcolo del perimetro
+    - Metodo per il calcolo dell'area
+- Definire una funzione `main`
+    - Chiedere all'utente le misure dei tre lati
+    - Istanziare un oggetto di classe `Triangle`
+    - Usarne i metodi per calcolare perimetro e area
+    - Mostrare all'utente i risultati
+
+>
+
+$area = \sqrt{s \cdot (s-a) \cdot (s-b) \cdot (s-c)}, s = \frac{a+b+c}{2}$
+
+---
+
+![](images/oop/ball-object.svg) ![](images/oop/ball-uml.svg) Class diagram UML
+# 3.2 Pallina al centro
+
+- Modificare la classe `Ball` presente negli esempi
+- Parte al centro, in direzione casuale
+    - Alto, basso, sinistra, destra
+    - Costruttore senza parametri (oltre a `self`)
+- Arrivata al bordo, riparte dal centro
+    - Direzione casuale
+- Gestire l'animazione di una pallina
+    - Come nel codice di esempio
+
+---
+
+![](images/oop/ball-object.svg) ![](images/oop/ball-uml.svg) Class diagram UML
+# 3.3 Ritorno a casa
+
+- Riprendere l'esercizio precedente
+- Parametri del costruttore per posizione iniziale
+    - La posizione iniziale è la *home* della pallina
+- Arrivata al bordo, la pallina riparte dalla sua *home*
+    - Anzichè dal centro
+- Creare ed animare due palline
+    - Con due *home* diverse
+
+---
+
+![](images/misc/slope.svg)
+# 3.4 Funzione distanza
+
+- Definire una funzione `distance`
+    - Dati gli estremi, come due tuple
+    - Calcolare la lunghezza del segmento
+- Definire una funzione `main`
+    - Chiedere all'utente le posizioni dei due punti
+    - Chiamare la funzione `distance`
+    - Mostrare all'utente il risultato
+
+---
+
+![](images/misc/slope.svg)
+# 3.5 Classe segmento
+
+- Creare una classe `Segment`
+    - Campi: posizioni dei due estremi
+    - Metodo per il calcolo della lunghezza $d$
+    - Metodo per il calcolo della pendenza $m$
+    - Metodo per il calcolo dell'intercetta $q$ <br> considerando la retta passante dai due punti
+- Definire una funzione `main`
+    - Chiedere all'utente le posizioni dei due punti
+    - Istanziare un oggetto di classe `Segment`
+    - Usarne i metodi per calcolare $d,  m, q$
+    - Mostrare all'utente i risultati
+
+---
+
+![](images/misc/characters.png)
+# 3.6 Punti e spazi
+
+- Data una stringa inserita dall'utente
+- Contare i punti
+- Contare gli spazi
+
+---
+
+![](images/misc/characters.png)
+# 3.7 Codici pari e dispari
+
+- Data una stringa inserita dall'utente
+- Stampare i codici Unicode di tutti i suoi caratteri
+- Contare le minuscole con codice Unicode dispari
+    - `a, c, e…`
+- Contare le minuscole con codice Unicode pari
+    - `b, d, f…`
+- Es. `"Python"`: 3 minuscole con codice pari, 2 con codice dispari
+
+---
+
+![](images/algo/guard.png)
+# 3.8 Sentinella
+
+- Riprendere l'esercizio precedente
+- Continuare il conteggio su più righe di testo inserite dall'utente
+- Il programma si interrompe quando l'utente inserisce una riga vuota
+- Mostrare i due conteggi complessivi
+    - Minuscole con codice dispari
+    - Minuscole con codice pari
+
+---
+
+![](images/misc/three-cards.png)
+# 3.9 Tre carte
+
+- All'inizio l'utente ha 10 monete
+- A ogni turno:
+    - Viene estratto un numero segreto
+    - A sorte tra 1 e 3
+    - L'utente sceglie quante monete puntare e su quale numero
+    - Se indovina, gli viene sommato l'importo puntato
+    - Altrimenti gli viene sottratto lo stesso importo
+- Il gioco termina quando l'utente perde tutto o si ritira
