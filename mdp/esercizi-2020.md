@@ -381,7 +381,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/slope.svg) y = m·x + b
+![](images/misc/slope.svg) y = m·x + q
 # 4.1 Segmento e retta
 
 - Definire *funzione* `slope` per una retta
@@ -389,7 +389,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
     - Risultato: coefficiente angolare `m`
 - Definire *funzione* `intercept` per una retta
     - Parametri: due punti attraversati
-    - Risultato: quota all'origine `b`
+    - Risultato: quota all'origine `q`
 - In una *funzione* `main`
     - Chiedere all'utente le coordinate di due punti
     - Chiamare le due funzioni e mostrare i risultati
@@ -398,7 +398,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
 
 `m = (y2-y1) / (x2-x1)`
 <br>
-Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
+Nota `m`, `q` si ottiene da `y1 = m·x1 + q`
 
 ---
 
