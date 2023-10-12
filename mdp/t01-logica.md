@@ -148,6 +148,39 @@ if pt1 != pt2:
 
 ---
 
+| `a`     | `a == True` || `not a` | `a == False`
+|---------|-------------||---------|---
+| `True`  | `True`      || `False` | `False`
+| `False` | `False`     || `True`  | `True`
+
+# 🤢️ Booleani e code smell
+
+- ⚠️ Confrontare var booleana `a` e `True`?
+    - `a` ha già lo stesso valore del confronto!
+
+``` py
+if a: …  # instead of “if a == True: …”
+```
+
+``` py
+if not a: …  # instead of “if a == False: …”
+```
+
+- ⚠️ Attenzione ai risultati booleani prodotti con `if`
+
+``` py
+if radius > 50:
+    big_enough = True
+else:
+    big_enough = False  # Too verbose and convoluted!
+```
+
+``` py
+big_enough = radius > 50  # rhs expression holds the value, already
+```
+
+---
+
 | `$A$` | `$B$` | `$C$` | `$F$` | |
 |---|---|---|---|-------------------|
 | 0 | 0 | 0 | 1 | → *SP* |
