@@ -402,3 +402,158 @@ $area = \sqrt{s \cdot (s-a) \cdot (s-b) \cdot (s-c)}, s = \frac{a+b+c}{2}$
     - Se indovina, gli viene sommato l'importo puntato
     - Altrimenti gli viene sottratto lo stesso importo
 - Il gioco termina quando l'utente perde tutto o si ritira
+
+---
+
+# Esercitazione 4 (2023-10-16)
+
+---
+
+![](images/fun/polygon.svg)
+# 4.1 Lato poligono
+
+- Definire una funzione `polygon_side`
+    - Parametro: raggio cerchio circoscritto $r$
+    - Parametro: numero di lati $n$
+    - Risultato: lunghezza del lato $l$
+    - $l = 2 \cdot r \cdot \sin \frac{\pi}{n}$
+- Definire una funzione `main`
+    - Chiedere all'utente $r$ e $n$
+    - Invocare la funzione `polygon_side`
+    - Mostrare il risultato
+
+---
+
+![](images/fun/polygon.svg)
+# 4.2 Classe poligono
+
+- Definire una classe `Polygon`
+- Campi, da inizializzare:
+    - Raggio cerchio circoscritto, $r$
+    - Numero di lati, $n$
+- Metodi per calcolare:
+    - Lunghezza lato, $l = 2 \cdot r \cdot \sin \frac{\pi}{n}$
+    - Apotema, $a = r \cdot \cos \frac{\pi}{n}$
+- Definire una funzione `main`
+    - Chiedere all'utente $r$ e $n$
+    - Creare una istanza di `Polygon`
+    - Eseguirne i metodi necessari
+    - Mostrare all'utente $l$ e $a$
+
+---
+
+![](images/misc/blue-row.svg)
+# 4.3 Cerchi blu
+
+- Chiedere all'utente un numero $n$
+- Disegnare una riga di $n$ cerchi blu
+    - Affiancati, su canvas 500×500
+    - Intensità di blu linearmente crescente
+- Disegno simile alla figura, però…
+    - Lasciare un margine di 25px rispetto ai bordi laterali del canvas
+    - Intensità di blu del primo cerchio: 50
+    - Intensità dell'ultimo: 200
+
+---
+
+![](images/repr/ascii.svg)
+# 4.4 Tabella ASCII
+
+- Mostrare in tabella i caratteri ASCII
+    - 8 righe × 16 colonne
+- In ogni posizione $(x, y)$, calcolare $i = 16·y + x$
+    - Se il codice $i$ è stampabile (tra 32 e 126)… <br>
+      Mostrare il carattere corrispondente al codice $i$
+    - Altrimenti mostrare un punto
+
+``` txt
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+  ! " # $ % & ' ( ) * + , - . /
+0 1 2 3 4 5 6 7 8 9 : ; < = > ?
+@ A B C D E F G H I J K L M N O
+P Q R S T U V W X Y Z [ \ ] ^ _
+` a b c d e f g h i j k l m n o
+p q r s t u v w x y z { | } ~ .
+```
+
+---
+
+![](images/oop/ball-object.svg)
+# 4.5 Movimento a yo-yo
+
+- Modificare la classe `Ball` presente negli esempi
+- Alla creazione, assume una direzione casuale
+    - Alto, basso, sinistra, destra
+    - Parametri per posizione di partenza (*home*)
+- Quando si allontana di 100px dalla sua *home*…
+    - Prende la direzione opposta
+- Ogni tanto, riparte dalla stessa *home*
+    - Ma in direzione ortogonale alla precedente
+    - Con probabilità 1/300, ad ogni frame
+- Gestire l'animazione di due palline
+    - Come nel codice di esempio
+
+>
+
+Le palline possono anche uscire dal canvas
+
+---
+
+# 4.6 Lista di palline
+
+- Riprendere l'esercizio precedente
+- Gestire l'animazione di una lista di 4 palline
+    - Posizioni predefinite dal programma
+- Ogni tanto, aggiungere un'altra pallina
+    - A ogni frame, può succedere con probabilità 1/300
+    - Posizione di partenza casuale
+
+---
+
+![](images/misc/characters.png)
+# 4.7 Gruppi di lettere
+
+- Definire una funzione `count_groups`
+    - Parametro: una stringa di testo
+    - Contare quante lettere sono nel gruppo `A-M`
+    - Contare quante lettere sono nel gruppo `N-Z`
+    - *Case unsensitive* : sia maiuscole che minuscole
+    - Risultato: una coppia con entrambi i conteggi
+- Definire una funzione `main`
+    - Chiedere un testo all'utente
+    - Invocare la funzione
+    - Mostrare il numero di lettere in `A-M`
+    - Mostrare il numero di lettere in `N-Z`
+
+---
+
+![](images/algo/guard.png)
+# 4.8 Sentinella su righe
+
+- Sfruttare la funzione `count_groups`
+    - Senza modifiche
+- Continuare il conteggio su più righe di testo inserite dall'utente
+- Il conteggio si interrompe quando l'utente inserisce una riga vuota
+- Mostrare i risultati complessivi
+    - Lettere in gruppo `A-M` totali
+    - Lettere in gruppo `N-Z` totali
+
+---
+
+# 4.9 Cerchi sovrapposti
+
+- Disegnare dei cerchi casuali
+    - Posizione e colore casuale
+    - Tutti di raggio 20
+- Il numero dei cerchi non è fissato
+    - Il programma termina quando…
+    - L'ultimo cerchio si sovrappone a uno dei precedenti <br>
+      (valutare la distanza tra i centri)
+
+>
+
+Memorizzare in una lista le posizioni dei cerchi
+<br>
+Usare una variabile booleana per segnare il caso di sovrapposizione
+
