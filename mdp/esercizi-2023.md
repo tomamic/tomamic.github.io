@@ -557,3 +557,146 @@ Memorizzare in una lista le posizioni dei cerchi
 <br>
 Usare una variabile booleana per segnare il caso di sovrapposizione
 
+---
+
+# Esercitazione 5 (2023-10-23)
+
+---
+
+![](images/oop/border.png)
+# 5.1 Movimento diagonale
+
+- Modificare `Ball` nell'esempio `bounce`
+- Quando la pallina raggiunge un bordo laterale, non lo supera
+    - La *x* rimane fissa al valore limite
+    - La *y* può ancora cambiare
+- Quando raggiunge il bordo in alto o in basso, non lo supera
+    - La *y* rimane al valore limite
+    - La *x* può ancora cambiare
+- Il movimento termina in un angolo
+- Creare una arena contenente solo una pallina
+
+---
+
+![](images/oop/border.png)
+# 5.2 Controllo da tastiera
+
+- Riprendere l'esercizio precedente
+- Controllare la pressione dei tasti freccia
+    - Impostare solo *dx* (non dy), se premuta una freccia orizzontale
+    - Impostare solo *dy* (non dx), se premuta una freccia verticale
+    - Nella funzione di gestione tasti, non modificare nè x, nè y
+- Lontano dai bordi, il movimento rimane sempre in una delle quattro direzioni diagonali
+    - Quando la pallina raggiunge uno dei bordi, non lo supera
+    - Ma continua a muoversi sul bordo, fino all'angolo
+
+---
+
+![](images/misc/histogram.svg)
+# 5.3 Skyscrapers, da sinistra
+
+- Chiedere all'utente una sequenza in numeri naturali
+- La sequenza termina quando l'utente inserisce un valore negativo
+- Quante volte cambia il massimo?
+
+>
+
+Da sinistra a destra, quanti “tetti” si vedono? (Nell'esempio: 6)
+<br>
+Non usare nessuna lista
+
+---
+
+![](images/misc/histogram.svg)
+# 5.4 Skyscrapers, da destra
+
+- Chiedere all'utente una sequenza in numeri naturali
+- La sequenza termina quando l'utente inserisce un valore negativo
+- Quante volte cambia il massimo, osservando la sequenza al contrario?
+
+>
+
+Da destra a sinistra, quanti “tetti” si vedono? (Nell'esempio: 5)
+<br>
+La funzione `reversed` restituisce una sequenza rovesciata
+
+---
+
+# 5.5 Ghost
+
+- Modificare `Ghost` nell'esempio `bounce`
+- Parte dal centro del canvas
+- Direzione casuale
+    - Solo verticale o orizzontale
+    - Senza tornare indietro
+- Alla pressione del tasto `"h"`
+    - Ritorna al centro dello schermo
+    - Continua i movimenti casuali
+- Creare un'arena con solo un fantasma
+
+---
+
+![](images/misc/troll-key.png)
+# 5.6 Maiuscole tra asterischi
+
+- Scrivere una funzione che:
+    - Riceve in input una stringa di testo
+    - Produce in output la stesso testo, ma...
+    - Trasforma in maiuscolo tutto il testo compreso tra asterischi
+- Es. “I want *this text* to be uppercase”
+    - → “I want THIS TEXT to be uppercase”
+- Da una funzione `main`, applicare la funzione su una stringa inserita dall'utente
+
+>
+
+Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un asterisco finale
+<br>
+Non usare gli indici sulla stringa
+
+---
+
+![](images/misc/donkey-kong.png)
+# 5.7 Donkey Kong: Mario
+
+- Creare `Mario` come sottoclasse di `Actor`
+    - Simile a Turtle, ma con la gravità
+    - Quando arriva sul fondo dello schermo, si ferma lì
+- Saltare, alla pressione di ⬆️
+    - Valore negativo a velocità verticale
+    - Poi agirà di nuovo la gravità
+    - Si può saltare solo dal fondo dello schermo
+- Creare una arena con un solo personaggio
+    - Disegnato come rettangolo grigio
+
+>
+
+<https://archive.org/details/donkey-kong-original-edition-e-vc>
+
+---
+
+![](images/misc/donkey-kong.png)
+# 5.8 Donkey Kong: piattaforme
+
+- Creare `Platform` come sottoclasse di `Actor`
+    - Personaggio immobile nel gioco
+- In caso di collisione tra *Mario* e una piattaforma
+    - Posizionare Mario esattamente sopra alla piattaforma
+- Miglioramento: collisione valida solo se...
+    - Il punto in mezzo ai piedi di *Mario* è dentro la piattaforma
+- Creare le piattaforme a partire dalla lista fornita
+
+---
+
+![](images/misc/donkey-kong.png)
+# 5.9 Donkey Kong: sprite
+
+- Disegnare lo sfondo di Donkey Kong
+    - Anzichè cancellare il canvas
+- Usare gli sprite di Donkey Kong
+    - Diversi per movimenti verso destra e sinistra
+    - Diversi per i salti
+
+>
+
+<https://github.com/tomamic/sprites>
+
