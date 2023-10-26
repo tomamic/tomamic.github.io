@@ -76,7 +76,7 @@
 # 💡️ Definizione di linguaggi
 
 - Approccio **algebrico** : *espressioni regolari*
-    - Linguaggio costruito a partire da linguaggi più elementari, con operazioni su linguaggi
+    - Linguaggio costruito con operazioni su linguaggi più elementari
 - Approccio **generativo** : *grammatiche*
     - Regole per la generazione di stringhe appartenenti al linguaggio
 - Approccio **riconoscitivo** : *automi*
