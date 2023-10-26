@@ -192,8 +192,8 @@ main()
 
 ``` py
 txt = "Monty Python's Flying Circus"
-txt[3]    # 't'
-txt[-2]   # 'u'
+txt[3]    # "t"
+txt[-2]   # "u"
 txt[6:12] # "Python"
 txt[-6:]  # "Circus"
 
@@ -216,7 +216,7 @@ line = input("Text? ").lower()
 digits, vowels = 0, 0
 
 for c in line:
-    if '0' <= c <= '9':  # char comparison
+    if "0" <= c <= "9":  # char comparison
         digits += 1
     elif c in "aeiou":  # membership test
         vowels += 1
@@ -239,9 +239,9 @@ text = input("Text? ")
 inside = False
 
 for c in text:
-    if c == '<' and not inside:
+    if c == "<" and not inside:
         inside = True
-    elif c == '>' and inside:
+    elif c == ">" and inside:
         inside = False
         print()
     elif inside:
@@ -267,7 +267,7 @@ text = input("Text? ")
 counters = [0] * 10
 
 for c in text:
-    if '0' <= c <= '9':
+    if "0" <= c <= "9":
         counters[int(c)] += 1
 
 print(counters)
@@ -340,7 +340,7 @@ squares = [x ** 2 for x in range(5)]  # [0, 1, 4, 9, 16]
 ```
 
 ``` py
-nums = [int(c) for c in "h3ll0 w0rld" if '0' <= c <= '9']
+nums = [int(c) for c in "h3ll0 w0rld" if "0" <= c <= "9"]
 # [3, 0, 0]
 ```
 
@@ -361,10 +361,10 @@ quantities = ["100 g", "6 pc", "200 g", "too much"]
 
 for p, q in zip(grocery, quantities):  # unpacking
     print(p, q, end=" § ")
-# 'spam' '100 g' § 'egg' '6 pc' § 'beans' '200 g' §
+# spam 100 g § egg 6 pc § beans 200 g §
 
 z = list(zip(grocery, quantities))  # if you *really* need a list
-# [('spam', '100 g'), ('egg', '6 pc'), ('beans', '200 g')]
+# [("spam", "100 g"), ("egg", "6 pc"), ("beans", "200 g")]
 ```
 
 ---
@@ -384,7 +384,7 @@ for i, val in enumerate(grocery):  # ~ zip(range(4), grocery)
 # 0 spam § 1 egg § 2 bacon § 3 sausage §
 
 e = list(enumerate(grocery))  # if you *really* need a list
-[(0, 'spam'), (1, 'egg'), (2, 'bacon'), (3, 'sausage')]
+[(0, "spam"), (1, "egg"), (2, "bacon"), (3, "sausage")]
 ```
 
 ---
@@ -397,16 +397,16 @@ e = list(enumerate(grocery))  # if you *really* need a list
 
 ``` py
 grocery = ["spam", "bacon", "egg"]
-s1 = sorted(grocery)           # ['bacon', 'egg', 'spam']
-s2 = sorted(grocery, key=len)  # ['egg', 'spam', 'bacon']
-rev = list(reversed(grocery))  # ['egg', 'bacon', 'spam']
-print(grocery)                 # ['spam', 'bacon', 'egg']
+s1 = sorted(grocery)           # ["bacon", "egg", "spam"]
+s2 = sorted(grocery, key=len)  # ["egg", "spam", "bacon"]
+rev = list(reversed(grocery))  # ["egg", "bacon", "spam"]
+print(grocery)                 # ["spam", "bacon", "egg"]
 ```
 
 ``` py
 grocery.sort()     # in-place
 grocery.reverse()  # in-place
-print(grocery)     # ['spam', 'egg', 'bacon']
+print(grocery)     # ["spam", "egg", "bacon"]
 ```
 
 ---
@@ -465,7 +465,7 @@ for v in filter(pos, vals):
 - Esiste un `if` speciale, come espressione
 
 ``` py
-val = 'boom' if 5 % 2 == 0 else 'bang'`
+val = "boom" if 5 % 2 == 0 else "bang"`
 ```
 
 - Da v3.8: *assegnamento* `:=` speciale, come espressione
@@ -483,7 +483,7 @@ while (v := float(input("val? "))) >= 0:  # sentinel
 - Costanti e numeri *falsy*
     - `None`, `False`, `0`, `0.0` ecc.
 - Sequenze *falsy*
-    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+    - `""`, `()`, `[]`, `{}`, `set()`, `range(0)`
 - Altri oggetti, normalmente *truthy*
     - Decide metodo `__bool__`, o `__len__`
 
@@ -526,7 +526,7 @@ True
 ``` py
 >>> from random import choice, sample, shuffle
 >>> choice("aeiou")
-'e'
+"e"
 ```
 
 - **`shuffle`** : mescolamento casuale di una lista (*in place*)
@@ -542,7 +542,7 @@ True
 
 ``` py
 >>> sample("aeiou", 3)  # a sequence and an int
-['e', 'o', 'i']  # result is a list
+["e", "o", "i"]  # result is a list
 ```
 
 ---

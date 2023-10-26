@@ -172,7 +172,7 @@
     - `[a-zABC]` = qualsiasi lettera minuscola oppure `A`, `B`, o `C`
 - `[^...]` per escludere uno qualsiasi dei caratteri in parentesi
     - `[^0-9]` = qualsiasi carattere non numerico
-- Simboli speciali per identificare classi di caratteri
+- Sequenze speciali per identificare classi di caratteri
     - `\d` = numerico, ossia `[0-9]`
     - `\s` = `[ \t\r\n\f]`
     - `\w` = `[0-9a-zA-Z_]`
