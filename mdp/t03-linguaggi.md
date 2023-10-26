@@ -114,7 +114,7 @@
 - *Stella di Kleene*
     - `$L^\star := \bigcup_{n=0}^∞ L^n, $`
     - Concatenazione arbitraria di‌ stringhe di `$L$`
-    - `$L^\star$`: chiusura riflessiva e transitiva di `$L$` rispetto a `$\cdot$`
+    - `$L^\star$`: chiusura di `$L$` rispetto a `$\cdot$`
 
 ---
 
