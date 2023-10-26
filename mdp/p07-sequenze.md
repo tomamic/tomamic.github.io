@@ -444,7 +444,7 @@ Più sequenze, se servono come parametri per `f`
 
 ``` py
 def odd(x): return x % 2 == 1
-def pos(x): return x % 2 == 1
+def pos(x): return x > 0
 
 vals = [4, 5, -6, 0, -7, 8]
 for v in filter(odd, vals):
