@@ -20,7 +20,7 @@
 
 >
 
-[Winston W. Royce, 1970](http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf) - [Robert L. Glass, 2001](http://www.eng.auburn.edu/~kchang/comp6710/readings/Forgotten_Fundamentals_IEEE_Software_May_2001.pdf)
+[Winston W. Royce, 1970](https://univpr-my.sharepoint.com/:b:/g/personal/michele_tomaiuolo_unipr_it/EQfW_uuaEK1CqznE8JhlhPYB_0to41SqFooYximIZLitxw?e=Znuk0A) - [Robert L. Glass, 2001](http://www.eng.auburn.edu/~kchang/comp6710/readings/Forgotten_Fundamentals_IEEE_Software_May_2001.pdf)
 
 ---
 
@@ -55,7 +55,7 @@
 - **Efficienza**: usa bene le risorse di calcolo
 - **Scalabilità**: migliori prestazioni con più risorse
 - **Sicurezza**: riservatezza, autenticazione, autorizzazione, accounting
-- **Facilità d’uso**: interfaccia utente permette di interagire in modo naturale
+- **Usabilità**: interfaccia utente permette di interagire in modo naturale
 
 ---
 
