@@ -700,3 +700,128 @@ Non usare gli indici sulla stringa
 
 <https://github.com/tomamic/sprites>
 
+---
+
+# Esercitazione 6 (2023-10-30)
+
+---
+
+# 6.1 Lettere iniziali uguali
+
+- Scrivere una funzione `len_common_prefix`
+    - Parametri: due stringhe da confrontare
+    - Risultato: numero di lettere iniziali uguali tra le due stringhe
+- Scrivere una funzione `main`
+    - Chiedere all'utente due stringhe di testo
+    - Invocare `len_common_prefix` sulle due stringhe
+    - Mostrare all'utente il risultato
+- Es. `“carta”` vs. `“carota”` → 3 (`“car”`)
+
+---
+
+# 6.2 Valori sopra la media
+
+- Chiedere all'utente una sequenza di interi, terminata da 0
+    - Il valore 0 non fa parte della sequenza
+- Calcolare e mostrare il valore medio
+- Elencare i valori sopra (o uguali) alla media
+
+>
+
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
+
+---
+
+![](images/fun/bike-lock.png)
+# 6.3 Configurazioni di simboli
+
+- Scrivere una funzione per generare tutte le configurazioni di lunghezza 3
+    - Parametri: `str` contenente l'insieme dei simboli validi (presenti su ogni ruota)
+    - Risultato: lista di `str` (configurazioni)
+- Possibile approccio
+    - Usare 3 cicli `for` annidati
+    - Ogni `for` scorre tutto l'insieme di simboli
+    - Una configurazione è una `str`, ottenuta concatenando i 3 simboli correnti
+- Per test, fornire in input le vocali `"AEIOU"`, per ottenere:
+    - `["AAA", "AAE", "AAI", "AAO", "AAU", "AEA", "AEE", "AEI", "AEO", "AEU", "AIA", ...`
+
+---
+
+![](images/misc/histogram-rot.svg)
+# 6.4 Istogramma in orizzontale
+
+- Leggere da un file una sequenza di valori (positivi)
+- Mostrare un istogramma, in un canvas 600×600
+    - Larghezza di ciascuna barra proporzionale al valore corrispondente
+    - La barra più lunga occupa tutto lo spazio disponibile
+    - L'altezza del canvas è divisa equamente tra le barre
+
+>
+
+Memorizzare i valori in una lista
+
+---
+
+# 6.5 Classe per quadratiche
+
+- Definire una classe delle espressioni quadratiche
+- Campi per memorizzare i tre coefficienti
+- Metodo per valutare l'espressione in un punto dato
+    - Parametro per il valore di *x*
+- Nella parte principale del programma
+    - Chiedere all'utente i coefficienti per istanziare un unico oggetto
+    - In un ciclo, valutare l'espressione per vari valori *x* inseriti dall'utente
+
+![large](images/misc/quadratic.svg)
+
+---
+
+# 6.6 Classe per polinomi
+
+- Definire una classe delle espressioni polinomiali
+- Campo per la *lista* dei coefficienti
+    - Parametro del costruttore
+    - Lunghezza: *n+1* (*n*: grado)
+- Metodo per valutare l'espressione in un punto dato
+    - Parametro per il valore di *x*
+- Nella parte principale del programma
+    - Chiedere all'utente i coefficienti per istanziare un unico oggetto
+    - In un ciclo, valutare l'espressione per vari valori *x* inseriti dall'utente
+
+![large](images/misc/polynomial.svg)
+
+---
+
+![](images/misc/donkey-kong.png)
+# 6.7 Donkey Kong: scale
+
+- Inserire in gioco personaggi immobili per le scale
+    - Non occorre disegnarli, sono nell'immagine di sfondo
+- Gestire tutte le scale come complete, senza considerare quelle interrotte
+- Mario può arrampicarsi sulle scale quando è in collisione
+    - Centro dei piedi dentro al rettangolo della scala
+    - Rettangolo della scala più grande dell'immagine, per arrivare sopra alla piattaforma
+
+---
+
+![](images/misc/donkey-kong.png)
+# 6.8 Donkey Kong: barili
+
+- I barili sono generati casualmente in alto
+- Si muovono in orizzontale sulle piattaforme
+- Fuori dalle piattaforme, cadono
+- Se arrivano ai lati dello schermo, rimbalzano
+- Se si scontrano con Mario, lo uccidono
+- Se incontrano una scala, casualmente possono decidere di scendere
+- Quando arrivano in basso, escono dal gioco
+
+---
+
+![](images/misc/donkey-kong.png)
+# 6.9 Donkey Kong: dati da file
+
+- Ottenere le posizioni di piattaforme e scale da file
+- File testuale (`.txt`) fornito
+- Una scala o una piattaforma per ogni riga
+    - Tipo, x, y, w, h
+
