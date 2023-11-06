@@ -550,14 +550,15 @@ def swap_elements(v: list, i: int, j: int):
 
 ``` py
 import unittest
-from p04_ball import Ball
+from p05_bounce import Ball
 
 class SimpleBallTest(unittest.TestCase):
 
-    def test_corner(self):
-        b = Ball(300, 220)  # dx = 5, dy = 5
-        b.move()
-        self.assertTrue(b.pos() == (295, 215))
+    def test_corner(self):  # …
+        ball = Ball((460, 340))  # dx = 4, dy = 4
+        ball.move(arena)  # dx = -4, dy = -4
+        ball.move(arena)
+        self.assertEqual(ball.pos(), (452, 332))
 
 if __name__ == '__main__':
     unittest.main()
