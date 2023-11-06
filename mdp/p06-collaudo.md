@@ -610,16 +610,16 @@ python -m unittest discover
 ``` py
 class ParamBallTest(unittest.TestCase):
 
-    def test_move(self):
-        test_values = ( (40, 80, 45, 85),
-                        (40, 215, 45, 220),
-                        (40, 220, 45, 215),
-                        (295, 80, 300, 85),
-                        (300, 80, 295, 85) )
+    def test_move(self): # …
+        test_values = ( (40, 80, 44, 84),
+                        (40, 215, 44, 219),
+                        (40, 340, 44, 336),
+                        (295, 80, 299, 84),
+                        (460, 80, 456, 84) )
         for param in test_values:
             x0, y0, x1, y1 = param
             b = Ball(x0, y0)
-            b.move()
+            b.move(arena)
             self.assertTrue(b.pos() == (x1, y1))
 ```
 
