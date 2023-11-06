@@ -306,7 +306,7 @@
 - Ogni nodo ha tanti figli, quante sono le *produzioni* applicabili
 - Ogni figlio è una *forma di frase*
 - Le foglie sono stringhe del linguaggio, con soli simboli *terminali*
-- Produzioni con la stessa parte sx: raggruppate con `$|$`
+- Produzioni con la stessa parte sx: raggruppate con “`$|$`”
 - `$G_{11} := <\{a,b\}, \{F\}, P_{11}, F>$`
 - `$P_{11} := \{F \to ab, F \to aFb\} = \{F \to ab | aFb\}$`
 
@@ -317,7 +317,7 @@
 
 
 - `$G_{12} := <\{a,b\}, \{F,G\}, P_{12}, F>$`
-- `$P_{12} := \{F \to ab, F \to aG, G \to Fb\} = \\ \{F \to ab | aG, G \to Fb\}$`
+- `$P_{12} := \\ \{F \to ab, F \to aG, G \to Fb\} = \\ \{F \to ab | aG, G \to Fb\}$`
 - `$G_{11}$` e `$G_{12}$` sono equivalenti
     - Generano lo stesso linguaggio
 
