@@ -459,9 +459,9 @@ def f():
     - White-box testing: impossibile per grandi sistemi
     - Test case scelti in base alle specifiche dei requisiti
 - Desiderata: trovare errori...
-    - Funzionali: otteniamo i risultati attesi per dati input di un metodo?
-    - Interfaccia: dati passati correttamente tra i metodi?
-    - Efficienza: il metodo è abbastanza veloce?
+    - *Funzionali* : risultati corretti, per dati input di un metodo?
+    - *Interfaccia* : dati passati correttamente tra i metodi?
+    - *Efficienza* : il metodo è abbastanza veloce?
 
 ---
 

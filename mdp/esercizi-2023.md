@@ -825,3 +825,131 @@ Memorizzare i valori in una lista
 - Una scala o una piattaforma per ogni riga
     - Tipo, x, y, w, h
 
+---
+
+# Esercitazione 7 (2023-11-06)
+
+---
+
+# 7.1 Riempimento
+
+- Definire una funzione con due parametri
+    - Una lista di numeri
+    - Un indice per la lista
+- Riempire con `1` la regione attorno all'indice dato
+    - Cella data e celle adiacenti, finchè contenenti `0`
+    - Arrivati a celle diverse da `0`, il riempimento si blocca
+
+``` txt
+0022000000002000
+→        ^
+0022111111112000
+```
+
+---
+
+![](images/misc/histogram.svg)
+# 7.2 Istogramma con barre verticali
+
+- Leggere da un file una sequenza di valori (positivi)
+- Mostrare un istogramma, in un canvas 600×600
+    - Altezza di ciascuna barra proporzionale al valore corrispondente
+    - La barra più alta occupa tutto lo spazio disponibile
+    - Barre in verde, per valori sotto alla media
+    - Barre in rosso, per valori sopra (o uguali) alla media
+    - La larghezza del canvas è divisa equamente per le barre
+
+---
+
+# 7.3 Numeri tra parentesi
+
+- Leggere riga per riga un file di testo
+- Riscrivere a console i numeri racchiusi tra parentesi
+    - Se tra parentesi tonde ci sono solo cifre
+- Eseguire un ciclo `for` su ogni riga
+
+``` txt
+Some text (123) 0th3r (t3xt) (25) etc.
+→
+123
+25
+```
+
+---
+
+![](images/misc/measure-tape.png)
+# 7.4 Lunghezza parole
+
+- Leggere il file `license.txt`, riga per riga
+- Separare le parole di ogni riga con `split`
+    - In alternativa: *regex* per eliminare punteggiatura
+- Contare le parole con diverse lunghezze, tra 1 e 20
+    - Quante parole di lunghezza 1?
+    - Quante parole di lunghezza 2? 3? … 20?
+
+---
+
+![](images/misc/college-student.jpg)
+# 7.5 Classe studente
+
+- Scrivere classe per uno *studente*, rappresentata così:
+    - *Matricola* dello studente, testuale
+    - *Lista degli esami* sostenuti, con *data* e *crediti* (inizialmente vuota)
+- *Metodo* per aggiungere un nuovo esame
+    - Parametri: *data* (testuale, es.: `"2023-10-06"`) e *crediti*
+    - Aggiungere una tupla alla lista degli esami
+- *Metodo* per ottenere la somma dei crediti acquisiti tra *due date* scelte (parametri)
+
+>
+
+Due date si possono confrontare direttamente come testo
+
+---
+
+![](images/misc/college-student.jpg)
+# 7.6 Esami da file
+
+- Istanziare un oggetto studente (esercizio precedente)
+- Leggere tutti gli esami da un file
+    - In ogni riga: data e crediti, separati da spazio
+- In un ciclo, chiedere poi all'utente due date
+    - Per ogni coppia di date…
+    - Calcolare la somma dei crediti acquisiti in quel periodo
+
+---
+
+![](images/misc/donkey-kong.png)
+# 7.7 Donkey Kong: scale
+
+- *Scale e salti*
+    - Mario non può saltare, mentre è attaccato a una scala
+    - Mario non può attaccarsi a una scala, mentre salta
+- *Scale interrotte*
+    - Mario non può passare
+    - Barili possono passare
+
+---
+
+![](images/misc/donkey-kong.png)
+# 7.8 Donkey Kong: fuoco
+
+- Quando i barili arrivano in basso a sx, possono:
+    - Infuocarsi, oppure…
+    - Uscire dal gioco
+- *Barili infuocati*
+    - Si muovono in orizzontale, casualmente
+    - Se incontrano una scala, casualmente possono decidere di salire
+    - Superano anche le scale interrotte
+
+---
+
+![](images/misc/donkey-kong.png)
+# 7.9 Donkey Kong: fine partita
+
+- Creare sottoclasse di `Arena` per *Donkey Kong*
+    - Metodo per controllare la *vittoria* (Mario in cima)
+    - Metodo per controllare la *sconfitta* (Mario muore)
+    - Metodo `__init__` per *inizializzare* i personaggi
+- Creare una classe di GUI
+    - Per la visualizzazione del gioco
+- [Esempio BounceGame](https://tomamic.github.io/pyodide/?p05_bouncegame.py)
