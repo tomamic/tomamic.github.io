@@ -713,9 +713,9 @@ def test_sqrt_domain(self):
 class SimpleBallTest(unittest.TestCase):
 
     def setUp(self):
-        self.b1 = Ball(80, 40)
-        self.b2 = Ball(40, 80)
-        self.b3 = Ball(120, 20)
+        self.b1 = Ball((80, 40))
+        self.b2 = Ball((40, 80))
+        self.b3 = Ball((120, 20))
 ```
 
 ---
