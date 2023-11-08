@@ -106,10 +106,8 @@ def print_game(game: BoardGame):
 def console_play(game: BoardGame):
     print_game(game)
     while not game.finished():
-        x = int(input("x? "))
-        y = int(input("y? "))
-        action = input("action? ")
-        game.play(x, y, action)
+        x, y, action = input("x y action?\n").split()
+        game.play(int(x), int(y), action)
         print_game(game)
 ```
 
