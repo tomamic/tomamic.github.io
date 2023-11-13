@@ -106,8 +106,9 @@ grocery.pop()               # remove (and return) last element
 grocery.insert(1, "bacon")  # other elements shift
 removed = grocery.pop(1)    # remove (and return) element at index
 
-if "egg" in grocery:       # True, grocery contains "egg"
-    grocery.remove("egg")  # remove an element by value
+i = grocery.index("egg")    # 1, index of "egg" in grocery
+if "egg" in grocery:        # True, grocery contains "egg"
+    grocery.remove("egg")   # remove an element by value
 ```
 
 ---
