@@ -394,7 +394,7 @@ Vedremo che `$P_3$` rende la grammatica di tipo 0, RE
 
 >
 
-<http://www.ce.unipr.it/brython/?p10_polish.py>
+<https://tomamic.github.io/pyodide/?p10_polish.py>
 
 ---
 
@@ -477,7 +477,7 @@ digit := "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 
 >
 
-<http://www.ce.unipr.it/brython/?p10_polish.py>
+<https://tomamic.github.io/pyodide/?p10_polish.py>
 
 ---
 

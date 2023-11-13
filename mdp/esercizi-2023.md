@@ -658,9 +658,10 @@ Non usare gli indici sulla stringa
 ![](images/misc/donkey-kong.png)
 # 5.7 Donkey Kong: Mario
 
+- *Primo progetto* (in coppia o da soli)
 - Creare `Mario` come sottoclasse di `Actor`
     - Simile a Turtle, ma con la gravità
-    - Quando arriva sul fondo dello schermo, si ferma lì
+    - Se cade a fondo schermo, si ferma lì
 - Saltare, alla pressione di ⬆️
     - Valore negativo a velocità verticale
     - Poi agirà di nuovo la gravità
@@ -953,3 +954,160 @@ Due date si possono confrontare direttamente come testo
 - Creare una classe di GUI
     - Per la visualizzazione del gioco
 - [Esempio BounceGame](https://tomamic.github.io/pyodide/?p05_bouncegame.py)
+
+---
+
+# Esercitazione 8 (2023-11-13)
+
+---
+
+![](images/fun/matryoshka.png)
+# 8.1 Radice comune con ricorsione
+
+- Scrivere funzione ricorsiva `len_common_prefix`
+    - Parametri: due stringhe da confrontare
+    - Risultato: numero di lettere iniziali uguali tra le due stringhe
+    - Come es. 6.1
+- Se una stringa è vuota, il risultato è 0
+- Se le prime due lettere sono diverse, il risultato è 0
+- Altrimenti:
+    - Considerare le stringhe senza la prima lettera
+    - Risultato: 1 + lunghezza radice comune tra stringhe ridotte
+
+>
+
+Saranno accettate solo soluzioni ricorsive
+
+---
+
+# 8.2 Riempimento su riga
+
+- Considerare una matrice di `int`, memorizzata in una lista semplice
+    - Simile all'esempio fornito
+- Chiedere all'utente una posizione `(x, y)`
+- Riempirre di `1` le celle a destra e sinistra di quella selezionata
+    - Cella data e celle adiacenti, finchè contenenti `0`
+    - Arrivati a celle diverse da `0`, il riempimento si blocca
+
+``` txt
+00220000
+02000022
+00200020
+00222200
+00000000
+02200002
+```
+
+---
+
+# 8.3 Riempimento su colonna
+
+- Similmente all'esercizio precedente, però su colonna
+- Riempirre di `1` le celle sopra e sotto a quella selezionata
+    - Cella data e celle adiacenti, finchè contenenti `0`
+    - Arrivati a celle diverse da `0`, il riempimento si blocca
+
+---
+
+# 8.4 Matrice da file
+
+- Leggere da file il contenuto di una matrice
+    - Semplice lista di `int`
+    - Matrice simile a esercizio 8.2
+    - Ogni carattere del file è un numero della matrice
+- Ricevare le dimensioni della matrice dal file
+    - N. colonne: lunghezza prima riga
+    - N. righe: n. righe del file
+- Mostrare la matrice
+- Mostrare il numero di colonne e righe
+
+>
+
+Attenzione al `\n` a fine riga
+
+---
+
+![](images/fun/htree.png)
+# 8.5 Albero di H
+
+- Disegnare ricorsivamente un *H-Tree*
+- Partire da un centro e una lunghezza assegnati
+- Se lunghezza < 3 pixel: niente, finito
+- Altrimenti
+    - Disegnare un segmento orizzontale e due verticali, come in figura
+    - I tre segmenti hanno uguale lunghezza
+- Attorno a ogni estremo dei segmenti verticali…
+    - Ripetere il disegno ricorsivamente
+    - Ma con lunghezza dei segmenti dimezzata
+
+---
+
+![](images/hist/eratostenes.jpg)
+# 8.6 Crivello di Eratostene
+
+- Trovare tutti i numeri primi ≤ `n`, scelto dall'utente
+- Inizialmente, ci sono tutti i numeri da `2` a `n`
+- Ciclicamente, per ciascuno dei valori presenti
+    - Lo si conferma come numero primo
+    - Si eliminano tutti i suoi multipli
+- In pratica
+    - Si prende il `2` e si eliminano i suoi multipli
+    - Si prende il `3` (ancora presente) e si eliminano i multipli
+    - Il `4` non c'è più, quindi si prende il `5`, ecc.
+- Alla fine, restano solo i numeri primi
+
+>
+
+Preferibile usare una lista di `bool`, mettendo a `False` i numeri non primi
+<br>
+Usare una list di `int`, con vere rimozioni, sarebbe problematico e inefficiente
+<br>
+<https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Pseudocode>
+
+---
+
+# 8.7 Gioco dei dispari
+
+- Creare una sottoclasse di `BoardGame`
+- `__init__` – Matrice con tutti i numeri da `1` a `w*h`, mescolati
+- `play` – Memorizzare come *marcate* le celle scelte dall'utente
+    - Ad esempio, cambiare il segno al numero
+- `read` – Contenuto di una cella, come `str`
+    - Aggiungere “`!`” al testo, se cella *marcata*
+- `finished` – Sono stati *marcati* tutti e soli i numeri dispari?
+    - Oppure, *marcato* per errore un numero pari?
+- `status` – Messaggio per partita in corso, vinta, o persa
+
+---
+
+![](images/dev/bug-feature.png)
+# 8.8 Donkey Kong: test
+
+- Testare le funzionalità del gioco Donkey Kong
+- In particolare
+    - Movimento dei personaggi
+    - Collisioni tra personaggi
+    - Vittoria e sconfitta
+- Per esempio
+    - Mario non salta, mentre si arrampica
+    - Mario non si arrampica, mentre salta
+
+>
+
+<https://tomamic.github.io/pyodide/?p06_bouncetest.py>
+
+---
+
+![](images/misc/handwriting.jpg)
+# 8.9 Donkey Kong: bella copia
+
+- **Codice leggibile**
+    - *Costanti*, anzichè numeri “*magici*” sparsi nel codice
+    - *Nomi esplicativi*, semplici, in inglese
+    - *Regole di stile* : `variable_name`, `function_name`, `ClassName`, `CONSTANT_NAME`
+    - *Commenti*, quando utili: *function annotation*, *docstring*
+- **Codice ben organizzato**
+    - *No copia&incolla* del codice: funzioni parametrizzate e/o cicli
+    - *Programmazione strutturata* : preferibilmente, cicli senza `break`
+    - *OOP* : *incapsulamento*, *ereditarietà*, *polimorfismo*
+    - ❗ Accedere ai campi solo all'interno della classe stessa
