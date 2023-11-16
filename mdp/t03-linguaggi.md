@@ -421,7 +421,6 @@ Vedremo che `$P_3$` rende la grammatica di tipo 0, RE
 
 - Controllo di *palindromi*, *bilanciamento di parentesi* e varie *simmetrie*
     - Es.: `$\{a^nb^n : n \geq 1\}$` gen. da `$S \to aSb | ab$` (CF)
-    - Es.: L. parentesi bilanciate gen. da `$S \to SS | (S) | ε$`
     - Ma non: `$\{a^n b^n c^n : n \geq 1\}$` (CS) *✶*
 - **Linguaggi di programmazione** comuni: grammatiche CF
     - Parentesi bilanciate: `$S \to SS | (S) | ε$`
