@@ -532,8 +532,11 @@ $$`
 # Valutazione per gli scacchi
 
 - La **funzione di valutazione** fornisce una stima della bontà di una mossa
-- Per esempio, nel gioco degli scacchi la stima si può basare sul valore dei pezzi dei due giocatori
-    - Pedone 1, cavallo e alfiere 3, torre 5, regina 9
+- Per esempio, per scacchi: valore dei pezzi dei due giocatori
+    - *Pedone* : 1
+    - *Cavallo e alfiere* : 3
+    - *Torre* : 5
+    - *Regina* : 9
 - Il test di terminazione prova a interrompere la ricerca
     - Livello che rispetta il limite di tempo a disposizione
 - Tuttavia, una brusca terminazione della ricerca può fornire cattivi risultati
@@ -676,7 +679,7 @@ function negamax(node, depth, color) is
 - Consideriamo un nodo `$n$` nell'albero
 - Il giocatore si muoverà verso quel nodo?
 - Se c'è una scelta migliore
-    - Alivello del nodo genitore
+    - A livello del nodo genitore
     - A in ogni livello superiore...
 - Allora `$n$` non sarà mai raggiunto durante il gioco
 
@@ -686,10 +689,10 @@ function negamax(node, depth, color) is
 
 - La potatura Alpha–Beta prende il nome dai seguenti due parametri
     - Descrivono i limiti registrati per i valori che appaiono lungo il cammino
-- **`$\alpha$`** = valore della scelta migliore trovata finora (valore più alto)
-    - In ogni punto lungo il cammino in cui la scelta spetta a *Max*
-- **`$\beta$`** = valore della scelta migliore trovata finora (valore più basso)
-    - In ogni punto lungo il cammino in cui la scelta spetta a *Min*
+- **`$\alpha$`** = valore più alto trovato finora da *Max*
+    - In ogni punto del cammino in cui gioca *Max*
+- **`$\beta$`** = valore più basso trovato finora da *Min*
+    - In ogni punto del cammino in cui gioca *Min*
 
 ---
 
@@ -728,7 +731,7 @@ function negamax(node, depth, color) is
 - Ricerca *Minimax* : depth-first
     - Considerare solo i nodi lungo un singolo percorso nell'albero
     - Parametri `$\alpha$` e `$\beta$` calcolati per ogni punto del percorso
-- => Deve sempre valere `$α < β$`
+- ⇒ Deve sempre valere `$α < β$`
     - Quando vanno in contraddizione, si taglia
 
 ---
@@ -737,10 +740,10 @@ function negamax(node, depth, color) is
 
 - Un nodo foglia ha `$\alpha = \beta = f$`
     - Valore della funzione di utilità `$f$`
-- A un nodo di *Max*
+- Per un nodo di *Max*
     - `$\alpha$` = valore di utilità maggiore, tra nodi figli
     - `$\beta$` = `$\beta$` del nodo genitore
-- A un nodo di *Min*
+- Per un nodo di *Min*
     - `$\alpha$` = `$\alpha$` del nodo genitore
     - `$\beta$` = valore di utilità minore, tra nodi figli
 - Per ogni nodo, dovrebbe valere
@@ -751,12 +754,12 @@ function negamax(node, depth, color) is
 
 # Utilità e soglie
 
-- La ricerca alpha-beta aggiorna i valori di α e β a ogni nodo
+- La ricerca alpha-beta aggiorna i valori di $\alpha$ e $\beta$ a ogni nodo
 - Pota i rami
 - Cioè, termina le chiamate ricorsive
 - Quando determina che il valore dell'attuale nodo
-- Sia peggiore di quello di α, per Max, o...
-- Sia peggiore di quello di β, per Min
+- Sia peggiore di quello di $\alpha$, per *Max*, o...
+- Sia peggiore di quello di $\beta$, per *Min*
 
 ---
 
