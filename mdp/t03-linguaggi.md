@@ -402,18 +402,18 @@ Vedremo che `$P_3$` rende la grammatica di tipo 0, RE
 # ⭐ Classificazione di Chomsky
 
 - **Tipo 0**: grammatiche **RE**, *ricorsivam. enumerabili*
-    - `$alpha Abeta  \to gamma $` (*non limitate*)
+    - `$\alpha A\beta  \to \gamma $` (*non limitate*)
 - **Tipo 1**: grammatiche **CS**, *contestuali*
-    - `$alpha Abeta  \to alpha gamma beta$`
+    - `$\alpha A\beta  \to \alpha \gamma \beta$`
 - **Tipo 2**: grammatiche **CF**, *non contestuali*
-    - `$A \to gamma$`
+    - `$A \to \gamma$`
 - **Tipo 3**: grammatiche **REG**, *regolari*
     - `$A \to aB$`, oppure `$A \to b$`, oppure `$A \to \varepsilon$` (REG destre)
     - Coincide con classe dei linguaggi definiti da *regex*
 
 >
 
-`$A, B \in V_n; a, b \in V_t; alpha , beta , gamma  \in V^\star$`
+`$A, B \in V_n; a, b \in V_t; \alpha , \beta , \gamma  \in V^\star$`
 
 ---
 
@@ -512,7 +512,7 @@ Esempio con `$G_1$`: `$S \to b | aA; A \to aS$`
 # 🥷 Pumping lemma CF
 
 - Formalmente, `$\forall L$` non contestuale...
-    - `$\exists k : \forall z \in L, |z| \geq k \\ \exists u,v,w,x,y : z=uvwxy, |vwx| \leq k,|vx| \geq 1 \\ u v^i w x^i y \in L, \forall i \geq 0$`
+    - `$\exists k : \forall z \in L, |z| \geq k \\ \exists u,v,w,x,y : \\ z=uvwxy, |vwx| \leq k,|vx| \geq 1 \\ u v^i w x^i y \in L, \forall i \geq 0$`
 - In ogni stringa abbastanza lunga,
     - ci sono due parti che si possono
     - ripetere assieme, restando in `$L$`
