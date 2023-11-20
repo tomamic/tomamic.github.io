@@ -1111,3 +1111,152 @@ Usare una list di `int`, con vere rimozioni, sarebbe problematico e inefficiente
     - *Programmazione strutturata* : preferibilmente, cicli senza `break`
     - *OOP* : *incapsulamento*, *ereditarietà*, *polimorfismo*
     - ❗ Accedere ai campi solo all'interno della classe stessa
+
+---
+
+# Esercitazione 9 (2023-11-20)
+
+---
+
+# 9.1 Matrice casuale
+
+- Chiedere all'utente le dimensioni `w, h` di una matrice
+- Riempirla con lettere minuscole casuali, con possibili ripetizioni
+- Salvare la matrice, riga per riga, in un file di testo (*CSV*)
+    - Caratteri separati da virgola, senza virgola a fine riga
+- In un ciclo
+    - Chiedere un carattere all'utente
+    - Contare quante volte è presente ovunque nella matrice
+    - E quante volte è presente nelle celle di bordo <br> (celle in prima o ultima colonna, o riga)
+
+``` txt
+a,c,r,a
+r,r,t,a
+t,r,e,f
+```
+
+---
+
+![](images/fun/matryoshka.png)
+# 9.2 Massimo con ricorsione
+
+- Definire una funzione ricorsiva `max_char`
+    - Cerca, in una stringa di testo, il carattere con codice Unicode massimo
+- Se il testo ha lunghezza 1, l'unico carattere è quello massimo
+- Altrimenti il carattere con codice massimo è pari al maggiore tra:
+    - Il primo carattere
+    - Il carattere con codice massimo tra tutti gli altri (ricorsione)
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+<br>
+Confrontare testo con testo, senza usare `ord`
+
+---
+
+![](images/misc/recur-polygon.svg)
+# 9.3 Poligono ricorsivo
+
+- Riprendere l'esempio del poligono
+    - https://tomamic.github.io/pyodide/?p03_polygon.py
+- Se il raggio è più piccolo di 5, non disegnare niente
+- Altrimenti, disegnare il poligono
+- Poi, centrato in ogni vertice…
+    - Disegnare ricorsivamente…
+    - Un poligono con raggio ridotto a ⅓
+
+---
+
+![](images/misc/random-walk.svg)
+# 9.4 Passeggiata casuale
+
+- Chiedere all'utente un numero `n`
+- A partire dalla posizione `x = 0, y = 0`
+- Compiere `n` passi, ciascuno in una direzione casuale
+    - Estrarre un numero casuale `r` tra 0 e 3
+    - Se `r == 0`, sottrarre 1 alla `y` attuale (alto)
+    - Se `r == 1`, sommare 1 alla `x` attuale (destra)
+    - Se `r == 2`, sommare 1 alla `y` attuale (basso)
+    - Se `r == 3`, sottrarre 1 alla `x` attuale (sinistra)
+- Dopo ogni passo, scrivere in un file di testo una riga
+    - La riga conterrà `r`, `x` e `y`, separati da virgola
+
+---
+
+# 9.5 Analisi di risultati casuali
+
+- Leggere i dati dal file generato nell'esercizio precedente
+- Contare quante volte, in tutto, è stata presa ciascuna direzione
+    - Quante volte verso l'alto? Quante verso destra? Ecc.
+    - Alla fine, mostrare i `4` risultati dei conteggi
+- Trovare la distanza euclidea del punto più lontano dall'origine
+
+>
+
+Per conteggiare i vari risultati, si può usare una lista di 4 elementi
+<br>
+Ciascun elemento nella lista è un contatore, per una delle direzioni
+
+---
+
+![](images/fun/bike-lock.png)
+# 9.6 Lucchetto a combinazione
+
+- Generare tutte le “combinazioni” di lunghezza `n`
+    - Parametro: numero `n` di ruote del lucchetto
+    - Parametro: `str` con i simboli presenti su ogni ruota
+    - Risultato: `list[str]` con le combinazioni
+- Algoritmo:
+    - Zero ruote: l'unica “combinazione” è la stringa vuota: `[""]`
+    - Altrimenti: per ogni elemento della prima ruota...
+    - Concatenarlo con tutte le “combinazioni” sulle ruote rimanenti (ricorsione)
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](images/misc/akari.svg)
+# 9.7 Akari - Light up
+
+- *Secondo progetto* (in coppia o da soli)
+- Scopo: disporre delle lampade, fino a illuminare tutte le celle
+- Una lampada illumina le celle sulla sua riga e la sua colonna, fino a una cella nera o al bordo esterno
+- Ogni cella bianca può ospitare una lampada, ma:
+    - Un numero indica quante lampade devono trovarsi nelle celle adiacenti (in orizzontale e verticale)
+    - Due lampade non possono illuminarsi a vicenda
+
+>
+
+<https://www.nikoli.co.jp/en/puzzles/akari/>
+<br>
+<https://www.brainbashers.com/lightup.asp>
+<br>
+<https://en.wikipedia.org/wiki/Light_Up_(puzzle)>
+<br>
+
+---
+
+# 9.8 Akari - Funzionalità di base
+
+- Inizializzare la matrice come nell'esempio
+    - La matrice può essere rettangolare (*rows ≠ cols*)
+    - Si può usare `5` per cella nera libera
+- `play` - Mettere/togliere una lampada (*bulb*) in una cella
+    - L'utente posiziona liberamente le lampade
+    - In tutte le celle, tranne quelle nere
+    - Anche se non sono mosse corrette
+- `read` - Contenuto di una cella in forma testuale
+    - Lampada: `"@"`
+    - Cella illuminata: `"+"`
+
+---
+
+# 9.9 Akari - Soluzione
+
+- `finished` - Il gioco è stato completamente risolto?
+    - Celle bianche tutte illuminate
+    - Vincoli numerici rispettati
+    - Lampade non si illuminano a vicenda

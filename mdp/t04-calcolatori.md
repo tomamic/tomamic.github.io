@@ -139,7 +139,7 @@ $q_3$         | $q_2$ | $q_1$
 - `$Q := \{q_0, \dots, q_n\}$`: insieme finito non vuoto di stati
 - `$F \subseteq Q$`: insieme di stati finali accettanti
 - `$q_0 \in Q$`: stato iniziale
-- `$delta: Q \times \Sigma \to P(Q)$`: funz. transizione<br>Determina l'*insieme* di stati successivi
+- `$\delta: Q \times \Sigma \to P(Q)$`: funz. transizione<br>Determina l'*insieme* di stati successivi
     - `$P(Q)$`: insieme delle parti di `$Q$`
     - Insieme di tutti i possibili sottoins. di `$Q$`
 
