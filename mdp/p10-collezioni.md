@@ -13,19 +13,27 @@
 
 ![](images/fun/linked-list.svg)
 
-- *Albero*
-    - Vuoto / `None`, oppure...
-    - Nodo di testa, seguito da più alberi
+``` py
+class ListNode:
+    def __init__(self, data, next: ListNode):
+        self.data = data
+        self.next = next
+```
 
 ---
 
 ![](images/comp/binary-tree.svg)
 # Albero binario
 
-- Può essere costruito su nodi simili a questi
-- Alberi vuoti: `None`
+- *Albero*
+    - Vuoto / `None`, oppure...
+    - Nodo di testa, seguito da più alberi
+- *Albero binario*
+    - Costruito su nodi simili a questi
+    - Due figli per ogni nodo
+    - Alberi vuoti: `None`
 
-```
+``` py
 class TreeNode:
     def __init__(self, data,
                  left: TreeNode, right: TreeNode):
@@ -44,7 +52,7 @@ class TreeNode:
     - Un `Document` (*foglia*)
     - Oppure un `Folder`, con vari nodi figlio
 
-```
+``` py
 class Node:
     pass
 class Document(Node):
@@ -63,15 +71,16 @@ class Folder(Node):
 # Liste annidate
 
 - Casi semplici di alberi : liste annidate
+    - Tipo param es.: `T = list["T"] | int`
 
-```
+``` py
 def count_tree(t) -> int:
+    if not isinstance(t, list):
+        return 1
+    # return sum(count_tree(v) for v in t)
     count = 0
-    if isinstance(t, list):
-        for v in t:
-            count += count_tree(v)
-    else:
-        count += 1
+    for v in t:
+        count += count_tree(v)
     return count
 
 tree = [[1, 2, [3, 4], [5]], 6]
