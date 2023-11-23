@@ -4,91 +4,6 @@
 
 ---
 
-# 💡️ Tipo di dato ricorsivo
-
-- Un valore può *contenere* valori dello stesso tipo
-- *Lista collegata*
-    - Vuota / `None`, oppure...
-    - Nodo di testa, seguito da una lista collegata
-
-![](images/fun/linked-list.svg)
-
-``` py
-class ListNode:
-    def __init__(self, data, next: ListNode):
-        self.data = data
-        self.next = next
-```
-
----
-
-![](images/comp/binary-tree.svg)
-# Albero binario
-
-- *Albero*
-    - Vuoto / `None`, oppure...
-    - Nodo di testa, seguito da più alberi
-- *Albero binario*
-    - Costruito su nodi simili a questi
-    - Due figli per ogni nodo
-    - Alberi vuoti: `None`
-
-``` py
-class TreeNode:
-    def __init__(self, data,
-                 left: TreeNode, right: TreeNode):
-        self.data = data
-        self.left = left
-        self.right = right
-```
-
----
-
-![](images/misc/sample-file-system.png)
-# Documenti e cartelle
-
-- Albero che rappresenti una gerarchia di documenti
-- Nodo dell'albero
-    - Un `Document` (*foglia*)
-    - Oppure un `Folder`, con vari nodi figlio
-
-``` py
-class Node:
-    pass
-class Document(Node):
-    def __init__(self, name: str, data: str):
-        self._name = name
-        self._data = data
-class Folder(Node):
-    def __init__(self, name: str, children: list[Node]):
-        self._name = name
-        self._children = children
-```
-
----
-
-![](images/comp/list-tree.svg)
-# Liste annidate
-
-- Casi semplici di alberi : liste annidate
-    - Tipo param es.: `T = list["T"] | int`
-
-``` py
-def count_tree(t) -> int:
-    if not isinstance(t, list):
-        return 1
-    # return sum(count_tree(v) for v in t)
-    count = 0
-    for v in t:
-        count += count_tree(v)
-    return count
-
-tree = [[1, 2, [3, 4], [5]], 6]
-print(count_tree(tree))
-```
-
----
-
 ![](images/fun/rollinz.jpg)
 # 🥷 Insieme
 
@@ -206,6 +121,142 @@ transition = {("Q0", "a"): {"Q0"},
 new_states = set()
 for state in states:
     new_states |= transition.get((state, symbol), set())
+```
+
+---
+
+# 💡️ Tipo di dato ricorsivo
+
+- Un valore può *contenere* valori dello stesso tipo
+- *Lista collegata (linked list)*
+    - Vuota / `None`, oppure...
+    - Nodo di testa, seguito da una *lista collegata*
+
+![](images/fun/linked-list.svg)
+
+``` py
+class ListNode:
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next  # ListNode | None
+
+    def __str__(self) -> str:
+        return f"<{self.data} {self.next}>"
+```
+
+---
+
+![](images/comp/binary-tree.svg)
+# Albero binario
+
+- *Albero*
+    - Vuoto / `None`, oppure...
+    - Nodo di testa, seguito da più alberi
+- *Albero binario*
+    - Due figli per ogni nodo
+
+``` py
+class TreeNode:
+    def __init__(self, data, left=None, right=None):
+        self.data = data
+        self.left = left    # TreeNode | None
+        self.right = right  # TreeNode | None
+
+    def __str__(self) -> str:
+        return f"<{self.data} {self.left} {self.right}>"
+```
+
+---
+
+![](images/comp/sorted-tree.svg)
+# Albero ordinato
+
+``` py
+def insert(tree, val) -> TreeNode:
+    if tree == None:
+        tree = TreeNode(val)
+    elif val < tree.data:
+        tree.left = insert(tree.left, val)
+    elif val > tree.data:
+        tree.right = insert(tree.right, val)
+    return tree
+
+def flatten(tree) -> list:
+    if tree == None:
+        return []
+    return flatten(tree.left) + [tree.data] + flatten(tree.right)
+```
+
+- Albero ordinato come `set`, *senza ripetizioni*
+
+---
+
+![](images/comp/sorted-tree.svg)
+# Ricerca binaria
+
+``` py
+def contains(tree, val) -> bool:
+    if tree == None:
+        return False
+    if val == tree.data:
+        return True
+    subtree = tree.left if val < tree.data else tree.right
+    return contains(subtree, val)
+```
+
+``` py
+t = None
+for v in [7, 5, 5, 9, 6, 2, 3, 11]:
+    t = insert(t, v)
+print(t)
+print(flatten(t))
+print(contains(t, 4))
+print(contains(t, 5))
+```
+
+---
+
+![](images/misc/sample-file-system.png)
+# Documenti e cartelle
+
+- Albero che rappresenti una gerarchia di documenti
+- Nodo dell'albero
+    - Un `Document` (*foglia*)
+    - Oppure un `Folder`, con vari nodi figlio
+
+``` py
+class Node:
+    pass
+class Document(Node):
+    def __init__(self, name: str, data: str):
+        self._name = name
+        self._data = data
+class Folder(Node):
+    def __init__(self, name: str, children: list[Node]):
+        self._name = name
+        self._children = children
+```
+
+---
+
+![](images/comp/list-tree.svg)
+# Liste annidate
+
+- Casi semplici di alberi : liste annidate
+    - Tipo param es.: `T = list["T"] | int`
+
+``` py
+def count_tree(t) -> int:
+    if not isinstance(t, list):
+        return 1
+    # return sum(count_tree(v) for v in t)
+    count = 0
+    for v in t:
+        count += count_tree(v)
+    return count
+
+tree = [[1, 2, [3, 4], [5]], 6]
+print(count_tree(tree))
 ```
 
 ---
