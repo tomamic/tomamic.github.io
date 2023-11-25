@@ -290,7 +290,7 @@ Invece il vettore richiede indici tra `0` e `n-1`
 
 ---
 
-![](images/misc/interpolation.png)
+![](images/misc/interpolation.svg)
 # 3.5 Interpolazione
 
 - Leggere da un file una serie di numeri reali e memorizzarli in un vettore

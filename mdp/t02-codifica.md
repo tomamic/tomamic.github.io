@@ -221,7 +221,7 @@ blank_bin = 0b100000  # 32(dec)
 
 i = int("20", 16)  # i is 32(dec)
 j = int("0x20", 0)  # base inferred by prefix
-txt = hex(32)  # '0x20'
+txt = hex(32)  # "0x20"
 ```
 
 ---
@@ -388,8 +388,8 @@ $$`
 x = 0b1011  # bin value (11 dec)
 y = 0x2A    # hex value (42 dec)
 
-bin(42)     # '0b101010', a string
-hex(42)     # '0x2a', a string
+bin(42)     # "0b101010", a string
+hex(42)     # "0x2a", a string
 
 x & y       # bitwise AND (applied for each couple of bits)
 x | y       # bitwise OR
@@ -446,7 +446,7 @@ y >> shift  # y = y / (2 ** shift)
     - *Code Page 437* per PC (DOS) in Nord America
     - Possibile mischiare testo in inglese e francese (anche se in Francia *CP850*)
     - Ma non assieme greco (*CP737*), russo ecc.
-- **ISO 8859**, estensioni standard per ASCII ad 8 bit
+- **ISO 8859**, estensioni standard per ASCII a 8 bit
     - ISO 8859-1 (o Latin1): Lingue dell’Europa Occidentale
     - ISO 8859-2: Lingue dell’Europa Orientale
     - ISO 8859-5: Alfabeto cirillico
@@ -506,6 +506,27 @@ y >> shift  # y = y / (2 ** shift)
 
 ---
 
+# 🧪️ UTF-8 in Python
+
+- Tipo **`bytes`** : sequenza immutabile di byte
+    - Metodo `encode` per codificare `str` → `bytes`
+    - Metodo `decode` per decodificare `bytes` → `str`
+    - Formati `"utf-8"`, `"utf-32-be"`…
+- Metodo `hex` per rappresentare `bytes`
+    - Separatore tra i byte, opzionale
+    - Operazione inversa con `bytes.fromhex`
+- Inserire code-point hex in una stringa: `\x…`, `\u…` e `\U…`
+
+``` py
+>>> txt = "My 2¢ 😉"  # or: "My 2\u00a2 \U0001f609"
+>>> enc = txt.encode("utf-8")  # `bytes`
+>>> enc.hex(" ")
+"4d 79 20 32 c2 a2 20 f0 9f 98 89"
+>>> enc.decode("utf-8")  # back to `str`
+"My 2¢ 😉"
+```
+
+---
 
 ![](images/repr/guybrush.png)
 # Immagini
@@ -604,6 +625,31 @@ Palette (RGBQUAD)
 >
 
 <http://tomamic.github.io/data/redbrick.bmp>
+
+---
+
+# 🧪 File binari in Python
+
+- Dati come *sequenza di byte*, tipo `bytes`
+
+``` py
+with open("redbrick.bmp", "rb") as bmp:
+    data = bmp.read()  # whole file
+```
+
+- Lettura file dal web, in binario
+
+``` py
+from urllib.request import urlopen
+with urlopen("http://tomamic.github.io/data/redbrick.bmp") as bmp:
+    header = bmp.read(0x36)   # 54 bytes
+    palette = bmp.read(0x40)  # 64 bytes, 16 colors
+    while (line := bmp.read(16)):
+        print(line.hex(" "))
+```
+
+- Esercizio: stampare i colori della palette
+    - Slice del primo colore: `palette[0:4]`
 
 ---
 
