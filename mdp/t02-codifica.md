@@ -518,7 +518,7 @@ y >> shift  # y = y / (2 ** shift)
 - Inserire code-point hex in una stringa: `\x…`, `\u…` e `\U…`
 
 ``` py
->>> txt = "My 2¢ 😉"  # or: "My 2\u00a2 \U0001f609"
+>>> txt = "My 2¢ 😉"  # or: "My 2\xa2 \U0001f609"
 >>> enc = txt.encode("utf-8")  # `bytes`
 >>> enc.hex(" ")
 "4d 79 20 32 c2 a2 20 f0 9f 98 89"
@@ -631,25 +631,23 @@ Palette (RGBQUAD)
 # 🧪 File binari in Python
 
 - Dati come *sequenza di byte*, tipo `bytes`
-
-``` py
-with open("redbrick.bmp", "rb") as bmp:
-    data = bmp.read()  # whole file
-```
-
-- Lettura file dal web, in binario
+    - File locale: `open("redbrick.bmp", "rb")`
 
 ``` py
 from urllib.request import urlopen
 with urlopen("http://tomamic.github.io/data/redbrick.bmp") as bmp:
-    header = bmp.read(0x36)   # 54 bytes
-    palette = bmp.read(0x40)  # 64 bytes, 16 colors
-    while (line := bmp.read(16)):
-        print(line.hex(" "))
+    header = bmp.read(54)
+    w = int.from_bytes(header[18:22], byteorder="little")
+    h = int.from_bytes(header[22:26], byteorder="little")
+    bpp = int.from_bytes(header[28:30], byteorder="little")
+    palette = bmp.read((2 ** bbp) * 4)  # 16 colors, 64 bytes
+    for i in range(h):
+        print(bmp.read(w * bpp // 8).hex(" "))
 ```
 
-- Esercizio: stampare i colori della palette
-    - Slice del primo colore: `palette[0:4]`
+>
+
+<https://tomamic.github.io/pyodide/?p09_bmp.py>
 
 ---
 

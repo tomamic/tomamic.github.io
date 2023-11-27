@@ -308,14 +308,25 @@ $q_2$ |         |          |          |       |                   |
 ![large](images/comp/tm-aaabbbccc.svg)
 # 🧪 TM per aⁿbⁿcⁿ
 
-- ➊ Avanza verso destra fino alla prima `$a$`; marcala con `$X$`
-    - Se invece di `$a$` trovi `$b$` o `$c$`: *errore*
-    - Se non ci sono `$a$`, `$b$`, `$c$`: *fine*
-- ➋ Avanza verso destra fino alla prima `$b$`; marcala con `$Y$`
-    - Se non c'è nessuna `$b$`: *errore*
-- ➌ Avanza verso destra fino alla prima `$c$`; marcala con `$Z$`
-    - Se non c'è nessuna `$c$`: *errore*
-- ➍ Torna a sinistra fino alla prima `$X$` incontrata; ritorna allo stato ➊
+- ① Marca la `$a$` con `$X$`
+    - Scorri a destra fino alla prima `$b$`
+    - Superando le `$a$` e le `$Y$`
+- ② Marca la `$b$` con `$Y$`
+    - Scorri a destra fino alla prima `$c$`
+    - Superando le `$b$` e le `$Z$`
+- ③ Marca la `$c$` con `$Z$`
+- ④ Scorri a sinistra fino alla prima `$X$`
+    - Superando le `$Z$`, `$b$`, `$Y$`, `$a$`
+- ⑤…⑨ Ripetizioni di ①…④
+- ⑩ Simbolo `$Y$` a dx di `$X$`: `$a$` finite
+    - Scorri a destra fino a `$\$$`
+    - Superando `$Y$` e `$Z$`
+
+---
+
+# 🧪 Diagramma per aⁿbⁿcⁿ
+
+![large](images/comp/tm-anbncn.png)
 
 ---
 
@@ -429,13 +440,13 @@ $q_2$ |         |          |          |       |                   |
 - Funz. `k` definita in `paradox.py` (Python è *Turing completo*)
 
 ``` py
-from absurd import halt  😲
+from absurd import halt  # 😲
 def k(file):
     if halt(file, file):
         while True: pass
     else:
         return False
-k('paradox.py')  # this very file!
+k("paradox.py")  # this very file!
 ```
 
 - Altri problemi indecidibili (corollari)
