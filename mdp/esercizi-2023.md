@@ -1384,7 +1384,7 @@ Usare una lista di 26 contatori
 - Permettere di marcare una cella con un punto
     - Segnala l'assenza di lampada (secondo l'utente)
     - A scelta: click con tasto destro
-    - Altrimenti, a rotazione: *empty-bulb-mark*
+    - Altrimenti, a rotazione: *empty-bulb-mark-empty…*
 - [Esempi di partite, da caricare](<https://github.com/tomamic/paradigmi/tree/master/cpp2016/akari/games>)
 
 ---
