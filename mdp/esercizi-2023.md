@@ -1260,3 +1260,159 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - Celle bianche tutte illuminate
     - Vincoli numerici rispettati
     - Lampade non si illuminano a vicenda
+
+---
+
+# Esercitazione 10 (2023-11-27)
+
+---
+
+![](images/fun/matryoshka.png)
+# 10.1 Potenze con ricorsione
+
+- Definire una funzione ricorsiva per calcolare la potenza intera positiva di un numero
+- Per qualsiasi numero $x$, $x^0 = 1$
+- La potenza $n$-esima di un numero $x$ si può calcolare come:
+    - $x^n = x \cdot x^{n-1}$, per $n > 0$
+- In una funzione main
+    - Chiedere i dati all'utente
+    - Mostrare il risultato
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+<br>
+IEEE definisce anche $0^0 = 1$, anzichè indeterminato
+
+---
+
+![](images/misc/sin-cos.png) ![](images/misc/interpolation.svg)
+# 10.2 Classe FastSin
+
+- Definire una classe `FastSin`
+    - All'inizializzazione, precalcola il valore della funzione `sin` tra 0 e 359°
+    - Lista di 360 valori precalcolati
+- Metodo `eval` con parametro `x` (`float`)
+    - Restituisce una approssimazione del `sin`, recuperandolo dalla lista
+- *Opzionalmente*, interpolare tra i due valori più vicini
+    - Ricavare la retta tra i due punti più vicini ad `x` disponibili, calcolare in `x`
+    - <https://en.wikipedia.org/wiki/Linear_interpolation>
+
+---
+
+![](images/misc/sierpinski-rgb.svg)
+# 10.3 Quadratini in RGB
+
+- Scrivere una funzione ricorsiva di disegno
+    - Parametri: `x`, `y`, `s` (posizione e lato)
+- Nel quadrato, identificare 3 quadratini di lato `s/2` disposti a triangolo: due adiacenti e il terzo sopra
+- Se i quadratini sono abbastanza piccoli (p.es. `<= 16`)
+    - → Colorarli rispettivamente in rosso, verde e blu (senza ricorsione)
+- Altrimenti: *ricorsione*
+    - Ripetere la suddivisione per ciascuno dei tre quadratini
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](images/fun/neighborhood4.png)
+# 10.4 Massimo in vicinato
+
+- Scrivere una funzione `max_neighbor`
+    - Parametri: matrice di `int`, con `w` e `h`
+    - Risultato: nuova matrice, stesse dimensioni
+- In ogni cella, il risultato è il *massimo* dell'intorno
+    - 5 valori: cella stessa e 4 adiacenti
+    - Attenzione: 4 valori ai bordi, 3 valori agli angoli
+- Definire una funzione `main`
+    - Leggere la matrice da un file CSV `"input.txt"`
+    - Attivare `max_neighbor`
+    - Scrivere il risultato in un file CSV `"output.txt"`
+
+---
+
+![](images/comp/list-tree.svg) Però, stringhe al posto di interi
+# 10.5 Liste annidate, ricerca
+
+- Definire una funzione *ricorsiva*
+    - Parametro: una parola, o liste annidate contenenti parole (`T = str | list["T"]`)
+    - Parametro: una parola da cercare
+    - Risultato `bool`: la parola è contenuta nella collezione?
+- Ricerca ricorsiva
+    - Una parola semplice può corrispondere o meno a quella cercata
+    - In una lista, si cerca ricorsivamente in ogni elemento
+- Esempio : `["Ann", ["Bart", ["Carol", "Cindy"], "Bob", "Art"], ["Bea"], "Bill"]`
+    - `"Cindy"` → `True`, `"Conrad"` → `False`
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+# 10.6 Lunghezza media
+
+- Leggere per intero il file “`licence.txt`”
+- Calcolare la lunghezza media delle parole…
+    - Raggruppate in base alla loro prima lettera
+    - Indifferentemente, maiuscola o minuscola (*case-insensitive*)
+- Per esempio
+    - Le parole che iniziano con “`a`” hanno lunghezza media 3.74
+    - Quelle con “`b`” hanno lunghezza media 2.77
+    - Quelle con “`c`” hanno lunghezza media 7.00 …
+
+``` py
+import re
+words = re.findall(r"\w+", "Bla, bla (and that's it!).")
+print(words)
+```
+
+>
+
+Usare una lista di 26 contatori
+
+---
+
+# 10.7 Akari - Lettura da file
+
+- Nell'inizializzazione
+    - Parametro: nome del file
+    - Leggere la matrice da file
+    - Dimensioni inferite dal file stesso
+- Permettere di marcare una cella con un punto
+    - Segnala l'assenza di lampada (secondo l'utente)
+    - A scelta: click con tasto destro
+    - Altrimenti, a rotazione: *empty-bulb-mark*
+- [Esempi di partite, da caricare](<https://github.com/tomamic/paradigmi/tree/master/cpp2016/akari/games>)
+
+---
+
+# 10.8 Akari - Aiuto per vincoli
+
+- Metodo di aiuto per i vincoli numerici
+- Vincolo `N` già circondato da `N` lampade:
+    - Marcare con punti tutte le celle libere
+- Vincolo `N` circondato da `M` lampade ed esattamente `N-M` celle libere
+    - posizionare lampade in tutte le celle libere
+- Attivare al click su vincolo
+
+---
+
+# 10.9 Akari - Unica fonte
+
+- Cercare una cella vuota e non illuminata, non illuminabile da altre fonti
+    - Posizionare lì una lampada
+- Cercare una cella marcata con punto non illuminata, che sia illuminabile da una sola fonte
+    - Una sola cella libera visibile, sia in riga che colonna
+    - Posizionare una lampada nella fonte
+- Completare anche bulb e mark obbligati attorno a tutte le celle nere
+    - Solo mosse ovvie (es. 10.8)
+- Dalla gui, alla pressione di un tasto, p.es. “`a`”
+
+>
+
+<https://www.ce.unipr.it/ruffle/?akary-rules.swf>
+<br>
+<https://www.ce.unipr.it/people/tomamic/files/akari-techniques.html>
