@@ -637,12 +637,13 @@ Palette (RGBQUAD)
 from urllib.request import urlopen
 with urlopen("http://tomamic.github.io/data/redbrick.bmp") as bmp:
     header = bmp.read(54)
-    w = int.from_bytes(header[18:22], byteorder="little")
-    h = int.from_bytes(header[22:26], byteorder="little")
-    bpp = int.from_bytes(header[28:30], byteorder="little")
-    palette = bmp.read((2 ** bbp) * 4)  # 16 colors, 64 bytes
-    for i in range(h):
-        print(bmp.read(w * bpp // 8).hex(" "))
+    img_pos = int.from_bytes(header[10:14], "little")
+    pal_pos = int.from_bytes(header[14:18], "little") + 14
+    w = int.from_bytes(header[18:22], "little")
+    h = int.from_bytes(header[22:26], "little")
+    bpp = int.from_bytes(header[28:30], "little")
+    row_len = -4 * (-w  * bpp // 32)  # ceil division, 4-byte alignment
+    bmp.read(pal_pos - 54)  # consume remaining header, if any
 ```
 
 >
