@@ -1413,6 +1413,6 @@ Usare una lista di 26 contatori
 
 >
 
-<https://www.ce.unipr.it/ruffle/?akary-rules.swf>
+<https://www.ce.unipr.it/ruffle/?akary_rules.swf>
 <br>
 <https://www.ce.unipr.it/people/tomamic/files/akari-techniques.html>
