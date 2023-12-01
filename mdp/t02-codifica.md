@@ -628,22 +628,44 @@ Palette (RGBQUAD)
 
 ---
 
-# 🧪 File binari in Python
+# 🧪 Lettura BMP in Python
 
 - Dati come *sequenza di byte*, tipo `bytes`
-    - File locale: `open("redbrick.bmp", "rb")`
 
 ``` py
-from urllib.request import urlopen
-with urlopen("http://tomamic.github.io/data/redbrick.bmp") as bmp:
+with open("redbrick.bmp", "rb") as bmp:
     header = bmp.read(54)
     img_pos = int.from_bytes(header[10:14], "little")
     pal_pos = int.from_bytes(header[14:18], "little") + 14
     w = int.from_bytes(header[18:22], "little")
     h = int.from_bytes(header[22:26], "little")
     bpp = int.from_bytes(header[28:30], "little")
-    row_len = -4 * (-w  * bpp // 32)  # ceil division, 4-byte alignment
+    colors = (img_pos - pal_pos) // 4
+    row_len = -4 * (w * bpp // -32)  # `ceil div`, 4-byte align
     bmp.read(pal_pos - 54)  # consume remaining header, if any
+    for c in range(colors):
+        print(f"Color {c}:", bmp.read(4).hex(" "))
+    for y in reversed(range(h)):
+        print(f"Row {y}:", bmp.read(row_len).hex(" "))
+```
+
+---
+
+# 🧪 Disegno BMP in g2d
+
+``` py
+with open("redbrick.bmp", "rb") as bmp:
+    header = bmp.read(54)  # …
+    palette = [bmp.read(4) for _ in range(colors)]
+    for y in reversed(range(h)):
+        row = bmp.read(row_len)
+        for x in range(w):
+            if bpp == 4:
+                pix = row[x // 2]  # 2 pixels in a byte
+                pix = pix // 16 if x % 2 == 0 else pix % 16
+                b, g, r, _ = palette[pix]
+                g2d.set_color((r, g, b))
+            g2d.draw_rect((x, y), (1, 1))
 ```
 
 >
