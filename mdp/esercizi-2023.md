@@ -1251,6 +1251,8 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - `read` - Contenuto di una cella in forma testuale
     - Lampada: `"@"`
     - Cella illuminata: `"+"`
+    - Celle nere: `"⓿", "❶", "❷", "❸", "❹", "⬤"`
+    - Punto: `"·"`
 
 ---
 
@@ -1381,10 +1383,10 @@ Usare una lista di 26 contatori
     - Parametro: nome del file
     - Leggere la matrice da file
     - Dimensioni inferite dal file stesso
-- Permettere di marcare una cella con un punto
+- Permettere di marcare/smarcare una cella con un punto (*dot*)
     - Segnala l'assenza di lampada (secondo l'utente)
     - A scelta: click con tasto destro
-    - Altrimenti, a rotazione: *empty-bulb-mark-empty…*
+    - Altrimenti, a rotazione: *empty-bulb-dot-empty…*
 - [Esempi di partite, da caricare](<https://github.com/tomamic/paradigmi/tree/master/cpp2016/akari/games>)
 
 ---
