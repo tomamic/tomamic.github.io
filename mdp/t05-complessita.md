@@ -154,7 +154,7 @@ def binary_search(v: list, value, beg, end) -> int:
 - Algoritmi di ordinamento *divide et impera*, ricorsivi
     - Complessità `$n\log_2(n)$`
     - Complessità instrinseca del problema
-- Ricordarsi che `$\log_a(n) = \frac{\log_b(n)}{\log_b(a)}$`, con `${\log_b(a)}$` costante
+- Ricordarsi che `$\log_a(n) = \frac{\log_b(n)}{\log_b(a)}$`, con `${\log_b(a)}$` costante ([dim.](https://it.wikipedia.org/wiki/Logaritmo#Cambiamento_di_base))
     - ⇒ La base del logaritmo non cambia la complessità
 
 ---
