@@ -332,7 +332,8 @@ def quick_sort(v: list, beg, end):
 - Complessità *caso peggiore* : **`$O(n^2)$`**
     - Lista già ordinata, o rovesciata
     - Tutti gli elementi finiscono dalla stessa parte del pivot
-    - Dipende da scelta pivot, ma esiste sempre
+- Il caso peggiore dipende da scelta pivot
+    - Ma esiste sempre
 
 ---
 
@@ -443,7 +444,7 @@ def merge_sort(v: list, beg, end: int):
 
 - Sappiamo che *`$P \subseteq NP$`* <br> (DTM: caso particolare di NTM)
 - **Ma non è dimostrato che `$P \neq NP$`, né che `$P=NP$`**
-    - Millenium Prize Problems: 1M$
+    - [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems): 1M$
     - Se *`$P=NP$`*, risolvere un rompicapo o verificarlo: stessa classe di complessità
 - *Problemi di classe EXP* : risolti in tempo esponenziale da una DTM
     - Sappiamo che *`$NP \subseteq EXP$`* <br> (NTM: simulata da DTM in tempo esponenziale)
