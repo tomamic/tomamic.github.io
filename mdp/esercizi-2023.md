@@ -1418,3 +1418,198 @@ Usare una lista di 26 contatori
 <https://www.ce.unipr.it/ruffle/?akari_rules>
 <br>
 <https://www.ce.unipr.it/people/tomamic/files/akari-techniques.html>
+
+---
+
+# Esercitazione 11 (2023-12-04)
+
+---
+
+# 11.1 Lista di cifre
+
+- Scrivere ed usare una funzione
+- Parametro: numero intero positivo `n`
+- Risultato: una lista di `int`, con le singole cifre di `n`
+    - Prima le unità, poi le decine ecc.
+- Es. `2435` → `[5, 3, 4, 2]`
+- *Non è ammesso* rappresentare il numero come `str`
+    - Se `n` è `0`, restituire subito `[0]`
+    - Altrimenti, usare ripetutamente la divisione intera per 10 e il resto
+- Opzionalmente, nella funzione `main`…
+    - Verificare che la lista sia corretta
+    - Moltiplicare gli elementi per potenze di 10 e sommare
+
+---
+
+# 11.2 Somma di cifre
+
+- Scrivere e usare una funzione ricorsiva
+    - Parametro: un numero naturale `n`
+    - Risultato: un numero naturale, di una sola cifra
+- Elaborazione
+    - Se `n` è minore di 10, `n` è il risultato
+    - Altrimenti, calcola la somma `s` delle cifre di `n`… <br> e opera ricorsivamente sulle cifre di `s`
+- Esempi
+    - *f(41)=4+1=5*
+    - *f(327)=f(12)=f(3)=3*
+    - Infatti, *3+2+7=12* e *1+2=3*
+- *É richiesto* il riuso della funzione definita nell'esercizio precedente
+
+---
+
+![](images/fun/bw-circles.svg)
+# 11.3 Cerchi annidati
+
+- Funzione che disegna *cerchi annidati*
+    - Parametri: *centro*, *raggio* e *colore*
+- Disegna in ogni caso un cerchio sul canvas
+    - Come specificato dai parametri
+- Poi, se lo spazio non è troppo piccolo…
+    - Un cerchio *nero* contiene due cerchi bianchi,<br>raggio ½, disposti in verticale
+    - Un cerchio *bianco* contiene due cerchi neri,<br>raggio ½, disposti in orizzontale
+    - Ricorsivamente, come in figura
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](images/misc/sample-file-system.png)
+# 11.4 Documento più grande
+
+- Partire dall'esempio di cartelle e documenti
+- Aggiungere metodo `largest` ai *nodi*
+    - Risultato: `(size, relative_path)` del doc più grande nei sottonodi
+- Astratto nella classe base
+- Per un *documento*: dimensione del suo contenuto, suo nome
+- Per una *cartella*: risultato maggiore, tra i sottonodi
+    - Inserisce il suo nome davanti al path
+- Rispetto alla struttura raffigurata a fianco
+    - Cercare il `largest` a partire dalla cartella radice
+
+>
+
+<https://tomamic.github.io/pyodide/?p10_folders.py>
+
+---
+
+![](images/fun/neighborhood4.png)
+# 11.5 Cleanup
+
+- Scrivere e usare una sottoclasse di `BoardGame`
+- Semplice implementazione del gioco *Cleanup*
+- Ad ogni mossa, 4 celle cambiano stato
+    - Celle adiacenti, in orizzontale e vericale
+    - Stato: accesa → spenta → accesa → spenta…
+    - La cella centrale selezionata resta *invariata*
+- Matrice iniziale di dimensioni configurabili
+    - Prima di iniziare, vengono fatte un certo numero di mosse casuali
+    - Agiscono come quelle fatte dall'utente
+    - Memorizzare la matrice come lista semplice
+- La partita termina quando la matrice è tutta pulita
+
+>
+
+<https://www.ce.unipr.it/ruffle/?cleanup>
+
+---
+
+# 11.6 Paint
+
+- Scrivere e usare una sottoclasse di `BoardGame`
+- Partire con una matrice vuota di dimensioni configurabili
+    - Memorizzare la matrice come lista semplice
+- Ad ogni mossa dell'utente riempire con `1` la *cella selezionata*, se ≠ 0
+- Riempire anche le 4 *celle adiacenti*, in orizzontale e verticale, se ≠ 0
+    - Proseguire *ricorsivamente* a riempire le celle adiacenti, a cascata
+    - Riempire l'intera regione, fino a raggiungere valori ≠ 0
+
+``` txt
+00220000    00221111
+02000022    02111122
+00200020 -> 00211120
+00222200    00222200
+00000000    00000000
+02200002    02200002
+```
+
+---
+
+![](images/misc/dead-end.jpg)
+# 11.7 Akari - Vicolo cieco
+
+- Metodo booleano `unsolvable`, senza parametri
+- Controlla se una delle celle già segnate impedisce la soluzione del gioco
+    - *Non si può risolvere il gioco senza ripulire una cella*
+    - ➊ Almeno un vincolo violato per *eccesso* di lampade, oppure di marcature
+    - ➋ Lampadine che si illuminano a vicenda
+    - ➌ Celle marcate ma non illuminabili…
+- Può restituire `False` anche se la partita non è finita
+    - Non ci sono violazioni evidenti, dovute ai segni già inseriti
+    - Ci sono però delle celle ancora non segnate
+
+>
+
+Con la GUI, attivare questa funzionalità alla pressione del tasto `u`
+
+---
+
+# 11.8 Akari - Suggerimenti
+
+- Cercare una mossa “ragionata”
+    - Come un umano, seguendo la logica
+- Creare una *copia* della partita e scegliere una cella *vuota*
+- *Provare* a segnare lì una lampada 💡
+    - Applicare gli automatismi delle scorse esercitazioni
+    - Se regole violate (`unsolvable`) → punto  `·`!
+- *Provare* a segnare un punto `·`
+    - Applicare gli automatismi delle scorse esercitazioni (8.6)
+    - Se regole violate (`unsolvable`) → lampada 💡!
+- Se in *entrambi i casi* qualche altra cella prende lo stesso segno…
+    - → confermare il segno (lampada o punto)!
+
+>
+
+Provare se i suggerimenti risolvono puzzle di diverse dimensioni
+<br>
+Con la GUI, attivare questa funzionalità alla pressione del tasto `h`
+<br>
+⚠️ Se una ipotesi non risulta `unsolvable`, non è detto che sia giusta; non si possono trarre conclusioni!
+
+---
+
+# Akari - Mosse per assurdo
+
+``` py
+from copy import deepcopy
+
+# choose (x, y): a free cell
+copy1 = deepcopy(self)
+copy2 = deepcopy(self)
+
+copy1.move(x, y, "")         # place `bulb` on the 1st copy
+copy1.mark_auto()            # mark *all* obvious cells
+if copy1.unsolvable():
+    self.play(x, y, "flag")  # place `dot` on the real game
+
+copy2.move(x, y, "flag")     # place `dot` on the 2nd copy
+# …
+```
+
+---
+
+![](images/misc/handwriting.jpg)
+# 11.9 Akari - Bella copia e test
+
+- **Codice leggibile**
+    - *Costanti*, anzichè numeri “*magici*” sparsi nel codice
+    - *Nomi esplicativi*, semplici, in inglese
+    - *Regole di stile* : `variable_name`, `function_name`, `ClassName`, `CONSTANT_NAME`
+    - *Commenti*, quando utili: *function annotation*, *docstring*
+- **Codice ben organizzato**
+    - *No copia&incolla* del codice: funzioni parametrizzate e/o cicli
+    - *Programmazione strutturata* : preferibilmente, cicli senza `break`
+    - *OOP* : *incapsulamento*, *ereditarietà*, *polimorfismo*
+- **Unit test**
+    - *Testare* ciascuna delle funzionalità implementate

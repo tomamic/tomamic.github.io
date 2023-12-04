@@ -21,7 +21,7 @@
 # 🧪 Ricerca lineare
 
 - Ricerca in lista (*array*) non necessariamente ordinata
-- Per omogeneità: algoritmi di queste slide operano tutti nel range `[beg, end)`
+- Per omogeneità: algoritmi di queste slide operano tutti nell'intervallo `[beg, end)`
 
 ``` py
 def linear_search(v: list, value, beg, end) -> int:
