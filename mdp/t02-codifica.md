@@ -633,6 +633,23 @@ Palette (RGBQUAD)
 - Dati come *sequenza di byte*, tipo `bytes`
 
 ``` py
+def ifb(data: bytes) -> int:
+    return int.from_bytes(data, "little")
+```
+
+``` py
+with open(fname, "rb") as bmfile:
+    head = bmfile.read(54)
+    img_pos, pal_pos = ifb(head[10:14]), ifb(head[14:18]) + 14
+    w, h, bpp = ifb(head[18:22]), ifb(head[22:26]), ifb(head[28:30])
+    colors = (img_pos - pal_pos) // 4
+    row_len = -4 * (w * bpp // -32)  # `ceil div`, 4-byte align
+    bmfile.read(pal_pos - 54)  # consume remaining header, if any
+    palette = [bmfile.read(4) for _ in range(colors)]
+    image = [bmfile.read(row_len) for _ in range(h)]
+```
+
+``` py
 with open("redbrick.bmp", "rb") as bmp:
     header = bmp.read(54)
     img_pos = int.from_bytes(header[10:14], "little")
@@ -643,29 +660,34 @@ with open("redbrick.bmp", "rb") as bmp:
     colors = (img_pos - pal_pos) // 4
     row_len = -4 * (w * bpp // -32)  # `ceil div`, 4-byte align
     bmp.read(pal_pos - 54)  # consume remaining header, if any
-    for c in range(colors):
-        print(f"Color {c}:", bmp.read(4).hex(" "))
-    for y in reversed(range(h)):
-        print(f"Row {y}:", bmp.read(row_len).hex(" "))
+    palette = [bmfile.read(4) for _ in range(colors)]
+    image = [bmfile.read(row_len) for _ in range(h)]
 ```
+
+>
+
+<https://tomamic.github.io/pyodide/?p09_bmp.py>
 
 ---
 
 # 🧪 Disegno BMP in g2d
 
 ``` py
-with open("redbrick.bmp", "rb") as bmp:
-    header = bmp.read(54)  # …
-    palette = [bmp.read(4) for _ in range(colors)]
-    for y in reversed(range(h)):
-        row = bmp.read(row_len)
-        for x in range(w):
-            if bpp == 4:
-                pix = row[x // 2]  # 2 pixels in a byte
-                pix = pix // 16 if x % 2 == 0 else pix % 16
-                b, g, r, _ = palette[pix]
-                g2d.set_color((r, g, b))
-            g2d.draw_rect((x, y), (1, 1))
+for i, v in enumerate(palette):
+    print(f"Color {i:3}:", v.hex(" "))
+for i, v in enumerate(image):
+    print(f"Row {i:3}:", v.hex(" "))
+```
+
+``` py
+for y, row in enumerate(reversed(image)):
+    for x in range(w):
+        if bpp == 4:
+            pix = row[x // 2]  # 2 pixels per byte
+            pix = pix // 16 if x % 2 == 0 else pix % 16
+            b, g, r, _ = palette[pix]
+            g2d.set_color((r, g, b))
+        g2d.draw_rect((x, y), (1, 1))
 ```
 
 >
