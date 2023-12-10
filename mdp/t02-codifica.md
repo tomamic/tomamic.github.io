@@ -633,35 +633,18 @@ Palette (RGBQUAD)
 - Dati come *sequenza di byte*, tipo `bytes`
 
 ``` py
-def ifb(data: bytes) -> int:
-    return int.from_bytes(data, "little")
-```
-
-``` py
-with open(fname, "rb") as bmfile:
-    head = bmfile.read(54)
-    img_pos, pal_pos = ifb(head[10:14]), ifb(head[14:18]) + 14
-    w, h, bpp = ifb(head[18:22]), ifb(head[22:26]), ifb(head[28:30])
-    colors = (img_pos - pal_pos) // 4
-    row_len = -4 * (w * bpp // -32)  # `ceil div`, 4-byte align
-    bmfile.read(pal_pos - 54)  # consume remaining header, if any
-    palette = [bmfile.read(4) for _ in range(colors)]
-    image = [bmfile.read(row_len) for _ in range(h)]
-```
-
-``` py
 with open("redbrick.bmp", "rb") as bmp:
-    header = bmp.read(54)
-    img_pos = int.from_bytes(header[10:14], "little")
-    pal_pos = int.from_bytes(header[14:18], "little") + 14
-    w = int.from_bytes(header[18:22], "little")
-    h = int.from_bytes(header[22:26], "little")
-    bpp = int.from_bytes(header[28:30], "little")
-    colors = (img_pos - pal_pos) // 4
+    head = bmp.read(54)
+    img_pos = int.from_bytes(head[10:14], "little")
+    head_len = int.from_bytes(head[14:18], "little") + 14
+    w = int.from_bytes(head[18:22], "little")
+    h = int.from_bytes(head[22:26], "little")
+    bpp = int.from_bytes(head[28:30], "little")
+    colors = (img_pos - head_len) // 4
     row_len = -4 * (w * bpp // -32)  # `ceil div`, 4-byte align
-    bmp.read(pal_pos - 54)  # consume remaining header, if any
-    palette = [bmfile.read(4) for _ in range(colors)]
-    image = [bmfile.read(row_len) for _ in range(h)]
+    bmp.read(head_len - 54)  # consume remaining header, if any
+    palette = [bmp.read(4) for _ in range(colors)]
+    image = [bmp.read(row_len) for _ in range(h)]
 ```
 
 >
