@@ -109,6 +109,8 @@ removed = grocery.pop(1)    # remove (and return) element at index
 i = grocery.index("egg")    # 1, index of "egg" in grocery
 if "egg" in grocery:        # True, grocery contains "egg"
     grocery.remove("egg")   # remove an element by value
+
+grocery.clear()             # remove everything, grocery is empty now
 ```
 
 ---

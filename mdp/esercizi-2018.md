@@ -49,7 +49,7 @@ Usare la funzione `sqrt` del modulo `math`
 
 ---
 
-![](images/misc/diagonal-squares.png)
+![](images/misc/diagonal-squares.svg)
 # 1.4 Quadrati in diagonale
 
 - Chiedere all'utente un numero `n`

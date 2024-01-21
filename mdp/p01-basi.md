@@ -1,5 +1,5 @@
 ![](images/algo/rubik-cube.png)
-# Algoritmi in Python 3
+# Basi
 ## Introduzione alla programmazione
 
 ---
@@ -124,61 +124,7 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 
 ---
 
-![](images/comp/haystack.png)
-# 💡️ Indovina la parola
-
-- L'utente sceglie una parola segreta dal dizionario
-- Il programma deve indovinarla
-
-``` text
-X = Prima parola nel dizionario
-Finchè non hai indovinato:
-    Chiedi all'utente: “È {X} la tua parola segreta?”
-    Se “Sì!”: Finito!
-    Altrimenti: X = Parola successiva
-```
-
->
-
-In un dizionario di 100k parole, alla peggio si provano tutte
-
----
-
-![large](images/comp/binary-search.svg)
-# 💡️ Ricerca binaria
-
-- Dizionario: parole *ordinate*
-- Approccio più intelligente: a ogni passo si dimezza lo spazio di ricerca
-
-``` text
-SpazioDiRicerca = Intero dizionario
-Finchè non hai indovinato:
-    X = Parola a metà di SpazioDiRicerca
-    Chiedi: “È {X} la parola segreta?”
-    Se “Sì!”: finito!
-    Altrimenti:
-        Chiedi: “{X} vieno dopo di essa?”
-        Se “Sì”: Scarta 2ᵃ metà di SpazioDiRicerca
-        Altrimenti: Scarta 1ᵃ metà di SpazioDiRicerca
-```
-
->
-
-Un dizionario di 100k parole si può dimezzare solo 17 volte (2¹⁷ > 100k)
-
----
-
-![](images/comp/orders.svg)
-# 💡️ Complessità e calcolabilità
-
-- **Complessità**
-    - Relazione tra la quantità di dati in ingresso e il **costo di elaborazione**
-    - Costo in termini di risorse: tempo, memoria ecc.
-    - Algoritmi *non trattabili*: costo esponenziale
-- **Calcolabilità**
-    - Distinguere i problemi **non risolvibili**
-    - Paradossi: “*Questa frase è falsa*”
-    - Indecidibilità della *terminazione*
+# Python
 
 ---
 
@@ -196,42 +142,43 @@ Un dizionario di 100k parole si può dimezzare solo 17 volte (2¹⁷ > 100k)
 # 🧪 Shell interattiva
 
 - Installare [Thonny](https://thonny.org/) o usare il [Playground](https://tomamic.github.io/pyodide/) online
-- Python si presenta con una [interfaccia REPL](https://pyodide.org/en/stable/console.html)
-    - Read-Eval-Print Loop
-- Un **tipo di dato** specifica un insieme di *valori* e le *operazioni* ammesse
-    - `int, float, bool, str`
-    - Operazioni aritmetiche e logiche, confronti
+    - In basso, interfaccia interattiva *REPL* (Read-Eval-Print Loop)
+- **Tipo di dato** : insieme di *valori* + *operazioni* ammesse
+- Tipi numerici: **`int`** o **`float`**, per numeri interi o razionali
+    - Operazioni di base: `+, -, *, /`
+    - Divisione intera, resto, potenza: `//, %, **`
+- Commenti descrittivi, dopo `#` : non valutati
 
 ``` py
->>> 3 + 4
-7
->>> 3 / 4
-0.75
->>> 4 == 5  # Do not confuse with assignment!
-False
->>> 2 < 3 or not True
-True
+>>> 9 / 4
+2.25
+>>> 9 // 4  # floor division: ⌊9/4⌋, try also -9 // 4
+2
+>>> 9 % 4  # reminder is always positive
+1
+>>> 2 ** 1000  # no limits (but memory)
+107150860718626[…]837205668069376
 ```
 
 ---
 
-# 🧪 Valori numerici e booleani
+# 🧪 Valori booleani
 
-- Tipi **`int`** o **`float`**, per numeri interi o reali
-    - Operazioni di base: `+, -, *, /`
-    - Divisione intera, resto, potenza: `//, %, **`
-    - Confronti: `==, !=, <, <=, >, >=`
 - Tipo **`bool`**, per valori booleani: `True, False`
-    - Operazioni consentite: `and, or, not`
-    - I confronti danno un risultato booleano
+    - Operatori logici: `and, or, not` (→ [Logica](t01-logica.html))
+- Confronti: `==, !=, <, <=, >, >=`
+    - Solo tra valori omogenei; risultato booleano
+    - Confronti concatenabili, sottinteso `and`
 
 ``` py
->>> -7 // 3    # floor division: ⌊-7/3⌋
--3
->>> -7 % 3     # reminder is always positive
-2
->>> 2 ** 1000  # no limits (but memory)
-107150[…]069376
+>>> 4 == 5
+False
+>>> 4 != 5 and not False
+True
+>>> 3 < 5 < 7
+True
+>>> 3 < 5 and 5 < 7  # idem
+True
 ```
 
 ---
@@ -239,10 +186,10 @@ True
 ![large](images/algo/assign.png)
 # ⭐ Assegnamento
 
-- Una **variabile** serve per ricordare il risultato di una *espressione*
+- Una **variabile** serve per ricordare un risultato utile
 - *Assegnamento* : operatore **`=`**
     - Alla sinistra un *nome*
-    - Alla destra un *valore*
+    - Alla destra una espressione (→ *valore*)
 - **⚠️ Non confondere**
     - Confronto di *uguaglianza* : operatore **`==`**
 
@@ -265,16 +212,16 @@ True
 - Oggetto assegnato a più variabili
     - Non viene copiato, ma riceve più etichette
 - Il **tipo** dipende dal valore attualmente assegnato
-    - Una var. non dev'essere *dichiarata*
+    - Una var non dev'essere *dichiarata*
     - Ma dev'essere *inizializzata* prima dell'uso
-- *Riassegnamento*
-    - Var. già esistente, associata a nuovo valore
+- *Riassegnamento* : nuovo valore a var già esistente
 
 ``` py
 >>> x = 100            # Variables: all_lower_case
 >>> next_position = x  # Use explicative names!
 >>> DELTA_X = 5        # Constants: ALL_UPPER_CASE
 >>> x += DELTA_X       # Shortcut for: `x = x + DELTA_X`
+>>> a, b = 5, 8        # Multiple assignments
 ```
 
 ---
@@ -283,9 +230,9 @@ True
 
 - Tipo **`str`** per sequenze di caratteri *Unicode*
 - Racchiuse tra apici doppi, o singoli
-- Sequenza speciale `\n` per carattere “*a capo*”
-- Concatenazione: `+`
-- Lunghezza: `len`
+- Concatenazione: operatore `+`
+- Test di appartenenza (sottostringa): operatore `in`
+- Lunghezza: *funzione* `len`
 
 ``` py
 >>> str1 = "Monty Python's "
@@ -293,8 +240,78 @@ True
 >>> result = str1 + str2
 >>> result
 "Monty Python's Flying Circus"
+>>> "Py" in result
+True
 >>> len(result)
 28
+```
+
+---
+
+# ⭐ Funzioni predefinite
+
+- Funzioni [built-in](https://docs.python.org/3/library/functions.html): `max, min, abs, len`…
+- Funzioni per conversione di tipo (*cast*): `int, float, str`…
+- Parametri tra *parentesi*, separati da *virgola*
+- Tipicamente, risultato assegnato a variabile
+
+``` py
+>>> max(3, 5)
+5
+>>> m = min(6, 4)
+>>> m
+4
+>>> "5" + 3
+TypeError: can only concatenate str (not "int") to str
+>>> int("5") + 3
+8
+>>> "5" + str(3)
+"53"
+```
+
+---
+
+# ⭐ Metodi
+
+- In Python tutti i valori sono *oggetti*
+    - Tipi diversi → operazioni diverse, come *metodi*
+- Attivazione di un metodo su un oggetto
+    - Oggetto e metodo separati da “`.`”
+    - Poi parametri tra parentesi
+    - Tipicamente, risultato assegnato a variabile
+- [Metodi di oggetti `str`](https://docs.python.org/3/library/stdtypes.html#string-methods): `upper`, `lower`…
+
+``` py
+>>> txt = "Monty Python"
+>>> uc = txt.upper()  # new string returned, `txt` unchanged
+>>> uc
+"MONTY PYTHON"
+>>> lc = txt.lower()
+>>> lc
+"monty python"
+
+---
+
+![](images/fun/shopping-list.png)
+# ⭐ Lista
+
+- Sequenza *mutabile* di valori *omogenei*
+- Elementi tra **quadre**, separati da *virgole*
+- Aggiunta, rimozione: `append, remove`
+- Lunghezza: `len` ­– Test di appartenenza: `in`
+
+``` py
+>>> grocery = ["spam", "egg", "beans"]
+>>> grocery.append("sausage")  # add "sausage" at the end
+>>> len(grocery)  # size has grown
+4
+>>> "egg" in grocery  # membership test
+True
+>>> grocery.remove("egg")  # remove "egg"
+>>> len(grocery)  # size has shrunk
+3
+>>> grocery
+["spam", "beans", "sausage"]
 ```
 
 ---
@@ -345,6 +362,10 @@ print("The sum is", total)
 
 ---
 
+# Moduli
+
+---
+
 ![large](images/oop/raster-coord.png) ![large](images/repr/color-mixing.svg)
 # ⭐ Disegno su canvas
 
@@ -357,7 +378,7 @@ print("The sum is", total)
 - Nel [playground](https://tomamic.github.io/pyodide/?p01_draw.py), versione integrata
 - *Esecuzione locale*
     - Copiare nella cartella di lavoro <br> il file `g2d.py`, dal [repository fondinfo](https://github.com/tomamic/fondinfo/archive/master.zip)
-- [**Documentazione**](https://github.com/tomamic/fondinfo#g2d)
+- [**Documentazione g2d**](https://github.com/tomamic/fondinfo#g2d)
 
 ---
 
@@ -374,9 +395,10 @@ print("The sum is", total)
     - *Colore*: `(red, green, blue)` <br> Ogni componente nel range `0..255`
 
 ``` py
-center_pt = (320, 240)
+center_pt = (320, 240)  # packing
 window_size = (640, 480)
 bluette_color = (47, 102, 207)
+x, y = center_pt  # unpacking
 ```
 
 ---
@@ -424,6 +446,27 @@ g2d.main_loop()
 
 ---
 
+# 🧪 Finestre di dialogo
+
+- `g2d.prompt`: richiesta di *input*, in finestra, risultato `str`
+- `g2d.alert`: visualizzazione *messaggio*, singolo parametro `str`
+- `g2d.confirm`: richiesta di *conferma*, risultato `bool`
+
+``` py
+import g2d
+
+g2d.init_canvas((600, 400))
+
+name = g2d.prompt("What's your name?")
+g2d.alert("Hello, " + name + "!")
+
+g2d.main_loop()
+```
+
+- [**Documentazione g2d**](https://github.com/tomamic/fondinfo#g2d)
+
+---
+
 ![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
 # 🧪 Battery included 🔋
 
@@ -454,14 +497,14 @@ print(cos(pi / 6))  # √3 / 2
     - `randint`, `randrange`, `random`, `choice`…
 
 ``` py
-from random import randint, randrange
+from random import randint, randrange, choice
 
 die1 = randint(1, 6)  # like rolling a die
 die2 = randint(1, 6)  # like rolling a die
-print(die1, die2)
 
 one_of_three = randrange(3)  # 0, 1, or 2
-print(one_of_three)
+
+letter = choice("abc")  # "a", "b", or "c" -- any kind of sequence
 ```
 
 ---
@@ -481,11 +524,11 @@ print(one_of_three)
 > Readability counts *(The Zen of Python)*
 
 ``` py
-radius = int(g2d.prompt("Radius? [50-99]"))
+r = int(g2d.prompt("Radius? [50-99]"))
 
-if 50 <= radius and radius <= 99:
+if 50 <= r and r <= 99:
     g2d.set_color((0, 0, 255))
-    g2d.draw_circle((200, 200), radius)
+    g2d.draw_circle((200, 200), r)
 
 g2d.set_color((255, 255, 0))
 g2d.draw_circle((200, 200), 25)
@@ -500,11 +543,11 @@ g2d.draw_circle((200, 200), 25)
     - Eseguita sse la condizione non è verificata
 
 ``` py
-radius = int(g2d.prompt("Radius? [50-99]"))
+r = int(g2d.prompt("Radius? [50-99]"))
 
-if 50 <= radius and radius <= 99:
+if 50 <= r <= 99:  # i.e.: 50 <= r and r <= 99
     g2d.set_color((0, 0, 255))
-    g2d.draw_circle((200, 200), radius)
+    g2d.draw_circle((200, 200), r)
 else:
     g2d.alert("Out of range!")
 
@@ -514,7 +557,31 @@ g2d.draw_circle((200, 200), 25)
 
 >
 
-<https://tomamic.github.io/pyodide/?p01_else.py>
+I confronti possono essere concatenati; `and` sottinteso
+<br>
+<https://tomamic.github.io/pyodide/?p01_ifelse.py>
+
+---
+
+![](images/algo/dice.svg)
+# ⭐ Selezione: elif
+
+- `elif` : contrazione di `else if`
+    - Selezione tra *molteplici* alternative
+    - Se nessuna condizione vera, eseguito `else`
+- Es. Lancio di *due dadi* → 3 alternative
+    - Vittoria del 1° dado, del 2°, o pareggio
+
+``` py
+from random import randint
+a, b = randint(1, 6), randint(1, 6)  # roll 2 dice
+if a > b:
+    print("The first die wins.")
+elif a < b:
+    print("The second die wins.")
+else:
+    print("The dice are equal. It's a draw.")
+```
 
 ---
 
@@ -542,21 +609,25 @@ g2d.draw_circle((200, 200), r)
 
 ---
 
-# ⭐ Ciclo su sequenza: for
+![](images/misc/rock-cubes.png)
+# ⭐ Iterazione: for
 
-- Numero di iterazioni = lunghezza della sequenza
-    - Opera su tuple, stringhe, intervalli…
+- Opera solo su **sequenze e iterabili**
+    - `list, tuple, str, range`…
+    - Num. iterazioni = lunghezza sequenza
 - Variabile di iterazione
-    - A ogni iterazione, assegnato un valore dalla sequenza
+    - A ogni iterazione, nuovo valore da sequenza
 
 ``` py
-for r in (200, 175, 150):
-    print(r)
+values = [2, 3, 5, 7, 11]
+for val in values:  # list
+    print(val ** 3)  # 8 27 125 343 1331
 ```
 
 ``` py
-for r in (200, 175, 150):
-    g2d.set_color((randrange(256), randrange(256), randrange(256)))
+for r in (200, 175, 150):  # tuple
+    color = (randrange(256), randrange(256), randrange(256))
+    g2d.set_color(color)
     g2d.draw_circle((200, 200), r)
 ```
 
@@ -570,12 +641,12 @@ for r in (200, 175, 150):
 - *`reversed`* : sequenza rovesciata
 
 ``` py
-for i in range(5):  # (0, 1, 2, 3, 4)
+for i in range(5):  # 0, 1, 2, 3, 4
     print(i)
 ```
 
 ``` py
-for i in reversed(range(5)):  # (4, 3, 2, 1, 0)
+for i in reversed(range(5)):  # 4, 3, 2, 1, 0
     print(i)
 ```
 
@@ -589,10 +660,11 @@ import g2d
 
 g2d.init_canvas((500, 500))
 
-for i in range(4):  # (0, 1, 2, 3)
-    red = i * 85
-    pos = i * 100
+for i in range(4):  # 0, 1, 2, 3
+    red = i * 85    # proportional to i
     g2d.set_color((red, 0, 0))
+
+    pos = i * 100   # proportional to i
     g2d.draw_rect((pos, pos), (200, 200))
 
 g2d.main_loop()
@@ -606,32 +678,6 @@ g2d.main_loop()
 
 ---
 
-![](images/algo/linearity.svg)
-# 💡 Linearità
-
-- Legame lineare tra una grandezza (p.es. $pos$) e $i$
-
-$$v = m \cdot i + q$$
-
-- Per determinare $q$, si valuta il primo caso: $i = 0$
-- Per determinare $m$, si valuta l'ultimo caso: $i = n - 1$
-- Con $i$ intero, $m$ è la differenza tra due istanze
-    - P.es. la distanza tra due quadrati
-
----
-
-![](images/misc/red-squares.svg)
-# 🧪 Sequenza di n quadrati
-
-- ❓ Ricavare i valori di $q$ e $m$ per una sequenza di $n$ quadrati
-	- $n$ scelto dall'utente
-    - Primo quadrato: $pos = 0$
-    - Ultimo quadrato: $pos = L - l$
-    - $L$: lato del canvas noto, $l$: lato dei quadrati noto
-- ❓ E se volessimo aggiungere un margine di $10$ pixel attorno a tutto il disegno?
-
----
-
 # 🏊 Esercizi
 
 ---
@@ -639,10 +685,17 @@ $$v = m \cdot i + q$$
 ![](images/misc/handshake.svg)
 # Hello, admin!
 
-- Programma che scrive “`Hello world`”
-- In una versione successiva del programma…
-- Chiedere il nome all'utente e aggiungere tale nome al messaggio di saluto
-- Se il nome dell'utente è “`admin`”, mostrare inoltre il messaggio speciale “`At your command`”
+- Scrivere un programma in un file `hello.py`
+- Chiedere il nome all'utente
+- Inserire tale nome in un messaggio di saluto, p.es.:
+
+``` txt
+What's your name? Adam
+Hello, Adam!
+```
+
+- Se il nome dell'utente è “`admin`”…
+    - Mostrare inoltre il messaggio speciale “`At your command`”
 
 ---
 
@@ -650,7 +703,7 @@ $$v = m \cdot i + q$$
 # Cerchio
 
 - Chiedere all'utente il valore del raggio `r` di un cerchio
-    - `r` reale compreso tra 0 e 200
+    - `r` razionale compreso tra 0 e 200
 - Se `r` è valido
     - Visualizzare il cerchio, al centro del canvas
     - Mostrare il valore dell'area e della circonferenza
@@ -677,24 +730,38 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
+![](images/misc/calendar-cols.jpg)
 # Calcolo dell'età
 
-- Chiedere all'utente la data di nascita
+- Chiedere all'utente la sua data di nascita
+    - Anno, mese e giorno
+- Chiedere all'utente la data di oggi
     - Anno, mese e giorno
 - Comunicare l'età esatta attuale
     - Numero di compleanni già compiuti
-
-``` py
-from datetime import date
-now = date.today()
-print(now.year, now.month, now.day)
-```
 
 >
 
 Nell'anno corrente, l'utente ha già avuto il compleanno?
 <br>
 Espressione booleana composta con `and`, `or`, `not`…
+
+---
+
+![](images/misc/three-brothers.png)
+# Minore e maggiore
+
+- Generare e stampare tre numeri interi casuali: `a`, `b`, `c`
+- Ciascuno compreso tra 1 e 6
+- Determinare e mostrare qual è il minore dei tre
+
+>
+
+Controllare prima di tutto se `a` è minore degli altri due
+<br>
+Altrimenti controllare se `b` è minore di `c`
+<br>
+Altrimenti…
 
 ---
 
@@ -713,54 +780,12 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 
 ---
 
-![](images/misc/green-col.svg)
-# Quadrati in colonna
-
-- Chiedere all'utente un numero `n`
-- Disegnare una colonna verticale di `n` quadrati
-    - Sfruttare tutta l'altezza del canvas
-    - Lasciare un pixel vuoto tra l'uno e l'altro
-- Il colore varia gradualmente dal nero fino al verde saturo
-    - Dall'alto verso il basso
-
----
-
-# Cerchi in riga
-
-- Chiedere all'utente un numero `n`
-- Disegnare una fila orizzontale di `n` cerchi
-    - Sfruttare tutta la larghezza del canvas
-- Il colore varia gradualmente dal nero fino al blu saturo
-    - Da sinistra verso destra
-
-![](images/misc/blue-row.svg)
-
----
-
-![](images/misc/red-circles.svg)
-# Cerchi concentrici
-
-- Chiedere all'utente il numero di cerchi da disegnare
-- Disegnare i cerchi con raggio gradualmente decrescente, ma tutti con lo stesso centro
-- Far variare il colore dei cerchi
-    - Dal rosso del livello più esterno
-    - Fino al nero del livello più interno
-- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
-
----
-
-![](images/misc/red-squares.svg)
+![](images/misc/diagonal-squares.svg)
 # Quadrati in diagonale
 
-- Disegnare `n` quadrati, `n` scelto da utente
-- Quadrati disposti in diagonale
-- Occupano intero canvas quadrato
-    - Canvas predefinito, p.es. 500×500
-- Quadrati sovrapposti per metà del loro lato `l`
-   - `l` non predefinito, dipende da `n`
-
->
-
-Rivedere esempio simile: analisi ancora valida ma `l` dipende da `n`
-<br>
-Sovrapposizione per metà lato → distanza tra due quadrati $m = \frac{l}{2}$
+- Chiedere all'utente un numero `n`
+- Su un canvas 500×500, disegnare `n` quadrati
+    - Tutti con lato di 50 pixel
+    - Disposti lungo la diagonale, in modo da condividere sempre un vertice
+    - Ciascuno con un colore casuale
+- Opzionalmente, determinare il lato in modo da occupare tutta la diagonale

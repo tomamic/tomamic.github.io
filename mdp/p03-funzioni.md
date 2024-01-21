@@ -269,6 +269,79 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 ---
 
+# Angoli
+
+---
+
+![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
+# 🧪 Coordinate polari
+
+- Noti ipotenusa e angolo di un triangolo rettangolo
+    - Con `cos` e `sin` si ricavano i cateti
+- **Coordinate polari** di un punto: `$(r, \theta)$`
+    - Distanza dall'origine e angolo
+- Coord. *polari* `$(r, \theta)$` ⇒ coord. *cartesiane* `$(x, y)$`
+    - `$\begin{cases}x = r\cdot cos\theta \\ y = r\cdot sin\theta\end{cases}$`
+- Infatti, $x, y, r$ formano un triangolo rettangolo
+    - $x$ : cateto adiacente all'angolo
+    - $y$ : cateto opposto all'angolo
+    - $r$ : ipotenusa
+
+>
+
+<https://github.com/tomamic/fondinfo/wiki/P03-Cicli#coordinate-polari>
+
+---
+
+![](images/fun/move-around.svg)
+# 🧪 Angoli sul canvas
+
+- Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0) ≠ (0, 0)$`
+    - ⇒ *Traslazione*
+    - `$\begin{cases}x = x_0 + r\cdot cos\theta \\ y = y_0 + r\cdot sin\theta\end{cases}$`
+- In modulo `math`, funzioni `sin`, `cos`, `radians`…
+- Es. 4 punti: stessa distanza dal centro, angoli diversi
+
+``` py
+r = 100
+x0, y0 = 200, 200  # center
+for angle in (0, 15, 30, 45):
+    x = x0 + r * cos(radians(angle))
+    y = y0 + r * sin(radians(angle))
+    g2d.draw_line((x0, y0), (x, y))
+```
+
+>
+
+<https://tomamic.github.io/pyodide/?p03_angles.py>
+
+---
+
+![](images/fun/move-around.svg)
+# Funzioni su coord polari
+
+- Funzione `move_around`
+    - Effetto: spostamento in una certa direzione
+    - Parametri: posizione di partenza, lunghezza e angolo dello spostamento
+    - Risultato: posizione di arrivo
+
+```
+def from_polar(plr: Polar) -> Point:
+    r, a = plr
+    return (r * cos(a), r * sin(a))
+
+def move_around(start: Point, length: float, angle: float) -> Point:
+    x, y = start
+    dx, dy = from_polar((length, angle))
+    return x + dx, y + dy
+```
+
+>
+
+<https://tomamic.github.io/pyodide/?p03_polar.py>
+
+---
+
 # 🏊 Esercizi
 
 ---
@@ -362,31 +435,18 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 
 ---
 
-![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
-# 🧪 Coordinate polari
-
-- Definire una funzione `to_polar`
-    - Trasformare coordinate cartesiane in coordinate polari
-- Definire una funzione `from_polar`
-    - Trasformare coordinate polari in coordinate cartesiane
-
->
-
-<https://github.com/tomamic/fondinfo/wiki/P02-Cicli#coordinate-polari>
-<br>
-<https://tomamic.github.io/pyodide/?p03_polar.py>
-
----
-
 ![](images/fun/polygon.svg) ![](images/fun/move-around.svg)
 # 🥷 Disegno di un poligono
 
-- Definire una funzione `move_around`
-    - Effetto: spostamento in una certa direzione
-    - Parametri: posizione di partenza, lunghezza e angolo dello spostamento
-    - Risultato: posizione di arrivo
-    - 💡 Si può sfruttare `from_polar` (es. precedente)
 - Definire una funzione `draw_polygon`
     - Parametri: numero dei lati, centro e raggio del cerchio circoscritto
     - Trovare i vertici attorno al centro con `move_around`
     - Unire i vertici per disegnare il poligono
+
+---
+
+![](images/misc/classical-watch.jpg)
+# 🥷 Orologio classico
+
+- Disegnare 12 tacche a raggiera, come in un orologio classico
+- Miglioramento: disegnare anche le tacche dei minuti, più piccole

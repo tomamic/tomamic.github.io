@@ -43,39 +43,45 @@ A volte, *specifica incompleta*: certe configurazioni di ingressi non possono ve
 
 ---
 
-# 💡️ Operatori di base
+# 💡️ Operatori logici
 
 - Algebra di Boole: basata su un insieme di operatori
+
+Operatore | Simbolo   | Simbolo alternativo
+----------|-----------|---
+**And**   | `$\land$` | `$\cdot$`
+**Or**    | `$\lor$`  | `$+$`
+**Not**   | `$\lnot$` | Sovralinea
+
 - Semplici funzioni, specificate con tabelle di verità
 
-`$A$` | `$B$` | `$A \land B$` | `$A \lor B$` | `$A \oplus B$` | `$A \uparrow B$` | `$A \downarrow B$`
-------|-------|---------|---------|---------|---------|---
-0     | 0     | 0       | 0       | 0       | 1       | 1
-0     | 1     | 0       | 1       | 1       | 1       | 0
-1     | 0     | 0       | 1       | 1       | 1       | 0
-1     | 1     | 1       | 1       | 0       | 0       | 0
-
-`$A$` | `$\lnot A$`
-------|---
-0     | 1
-1     | 0
+`$A$` | `$B$` | `$A \land B$` | `$A \lor B$` | `$\lnot A$`
+------|-------|---------------|--------------|------------
+0     | 0     | 0             | 0            | 1
+0     | 1     | 0             | 1            | 1
+1     | 0     | 0             | 1            | 0
+1     | 1     | 1             | 1            | 0
 
 ---
 
-# 💡️ Espressione booleana
-
-- Operatori possono essere combinati in espressioni
-- Altra forma di definizione di funzioni booleane
-- Es. `$F_2(A, B, C) = A \cdot B + C$`
+# 💡️ Altri operatori comuni
 
 Operatore | Simbolo | Simbolo alternativo
 ----------|---------|---
-And       | `$\land$`     | `$\cdot$`
-Or        | `$\lor$`     | `$+$`
-Not       | `$\lnot$`     | Sovralinea
 Xor       | `$⊕$`     |
 Nand      | `$\uparrow$`     | `$\bar\land$`
 Nor       | `$\downarrow$`   | `$\bar\lor$`
+
+`$A$` | `$B$` | `$A \oplus B$` | `$A \uparrow B$` | `$A \downarrow B$`
+------|-------|----------------|------------------|-------------------
+0     | 0     | 0              | 1                | 1
+0     | 1     | 1              | 1                | 0
+1     | 0     | 1              | 1                | 0
+1     | 1     | 0              | 0                | 0
+
+- Operatori possono essere combinati in *espressioni*
+    - Altra forma di definizione di funzioni booleane
+    - Es. `$F_2(A, B, C) = A \cdot B + C$`
 
 ---
 

@@ -4,214 +4,109 @@
 
 ---
 
-# 🧪 Conteggio naïve
+# Stringhe
 
-- Primo tentativo, ma conta il programmatore
+---
+
+# 🧪 Confronto tra stringhe
+
+- Confronto tra stringhe, in ordine *lessicografico*
+    - `<, <=, >, >=, ==, !=`
+    - Confronto deciso dal primo carattere diverso
+- Primi 128 codici *Unicode* == *ASCII*
+    - Prima le cifre, poi le maiuscole, infine le minuscole
+- Operatore **`in`**: test di appartenenza (sottostringa)
 
 ``` py
-print(1)
-print(2)
-print(3)  # ...
-```
-
-- Secondo tentativo, un po' meglio
-
-``` py
-count = 1
-
-print(count)
-count = count + 1
-
-print(count)
-count = count + 1  # ...
+>>> "art" < "arc"
+False
+>>> "arT" < "arc"
+True
+>>> "Py" in "Monthy Python"
+True
+>>> chr(83)
+'S'
+>>> ord("S")
+83
 ```
 
 ---
 
-![](images/algo/count.svg)
-# 🧪 Iterazione: conteggio
+# Tabella ASCII
 
-``` py
-n = int(input("n?"))
-count = 1
-
-while count <= n:
-    print(count)
-    count += 1
-```
+![large](images/repr/ascii-large.svg)
 
 ---
 
-![](images/algo/sum1n.svg)
-# 🧪 Somma numeri consecutivi
+![](images/misc/characters.png)
+# Cicli su stringhe
 
-- *Problem solving*: sommare i numeri da 1 a `n`
-    - Devo almeno saper contare fino a `n`
-- Occorre tenere traccia del *totale parziale*
+- Il ciclo `for` scorre i valori di qualsiasi *sequenza*
+- Una stringa è una *sequenza* di caratteri
+- Ogni carattere è ancora di tipo `str`, lunghezza 1
 
 ``` py
-# Sum of the numbers from 1 to n
-n = int(input("n? "))
-total = 0
-count = 1
-while count <= n:
-    total += count
-    count += 1
+for c in "Python":
+    print(ord(c))
+```
 
-print("The sum is", total)
+``` py
+line = input("Text? ").lower()
+digits, vowels = 0, 0
+for c in line:
+    if "0" <= c <= "9":  # char comparison
+        digits += 1
+    elif c in "aeiou":  # membership test
+        vowels += 1
 ```
 
 >
 
-<http://it.wikipedia.org/wiki/Gauss#Biografia>
-<br>
-<https://tomamic.github.io/pyodide/?p02_sumn.py>
+<https://tomamic.github.io/pyodide/?p02_vowels.py>
 
 ---
 
-![](images/algo/average.svg)
-# 🧪 Media n campioni
+![](images/algo/words.svg)
+# 🧪 Ordine tra due stringhe
 
-- Non numeri consecutivi
-- Ma `n` valori forniti dall'utente
-
-``` py
-n = int(input("How many values? "))
-total = 0
-count = 0  # counting from 0 to n-1
-
-while count < n:
-    val = int(input("Val? "))
-    total += val
-    count += 1
-
-if count != 0:
-    print("The average is", total / count)
-```
-
->
-
-<https://tomamic.github.io/pyodide/?p02_average.py>
-
----
-
-![](images/algo/sentinel.svg)
-# ⭐ Ciclo con sentinella
-
-- Sommare valori, senza sapere quanti
-- Valore sentinella `-1` per terminare
+- L'utente fornisce due stringhe → 3 alternative
+    - Sono in ordine
+    - Sono invertite
+    - Sono uguali
 
 ``` py
-total = 0
-count = 0
-val = int(input("Val? (-1 to finish) "))
+a = input("First word? ")
+b = input("Second word? ")
 
-while val != -1:
-    total += val
-    count += 1
-    val = int(input("Val? (-1 to finish) "))
-
-if count != 0:
-    print("The average is", total / count)
-```
-
->
-
-<https://tomamic.github.io/pyodide/?p02_sentinel.py>
-
----
-
-![](images/algo/sum1n.svg)
-# 🧪 Ciclo di conteggio
-
-- Più comodo e leggibile contare con un `for`
-- Consigliato, in caso di sequenze o intervalli noti
-- Non adatto ai cicli con sentinella
-
-``` py
-# Add up numbers from 1 to n
-n = int(input("How many values? "))
-
-total = 0
-for i in range(1, n + 1):
-    total += i
-
-# total = 0
-# i = 1
-# while i < n + 1:
-#     total += i
-#     i += 1
-```
-
----
-
-![](images/fun/times-table.svg)
-# 🧪 Cicli e annidamento
-
-- Stampare la tavola pitagorica
-- Primo passo: stampare una sola riga
-
-``` py
-y = int(input("Insert a value: "))
-for x in range(1, 11):
-    print(x * y, end="\t")  # ends with tabulation
-```
-
-``` py
-for y in range(1, 11):
-    for x in range(1, 11):
-        print(x * y, end="\t")
-    print()  # normally, ends with newline
-```
-
->
-
-<https://tomamic.github.io/pyodide/?p02_tables.py>
-
----
-
-![](images/algo/dice.svg)
-# 🧪 Due dadi
-
-- Vittoria del primo, del secondo, oppure pareggio
-- Se il primo non vince, c'è un'altra condizione
-- `if` annidato
-
-``` py
-from random import randint
-a = randint(1, 6)
-b = randint(1, 6)
-print(a, b)
-
-if a > b:
-    print("The first die wins.")
+if a < b:
+    print("The words are ordered")
+elif a > b:
+    print("The words are inverted")
 else:
-    if a < b:
-        print("The second die wins.")
+    print("The words are equal")
+```
+
+---
+
+![](images/algo/words.svg)
+# 🧪 Senza elif
+
+- Se la prima stringa non precede la seconda…
+    - C'è un'altra condizione, `if` annidato
+    - Codice più complicato, meno leggibile
+    - Molte condizioni → annidamento crescente
+
+``` py
+a = input("First word? ")
+b = input("Second word? ")
+
+if a < b:
+    print("The words are ordered")
+else:
+    if a > b:
+        print("The words are inverted")
     else:
-        print("The dice are equal. It's a draw.")
-```
-
----
-
-![](images/algo/dice.svg)
-# 🧪 elif
-
-- `elif` : contrazione di `else if`
-    - Clausola `else` che contiene un altro `if`
-- Permette di ridurre l'annidamento
-    - Varie condizioni alternative allo stesso livello
-- Se nessuna condizione vera, eseguito `else`
-
-
-```
-# …
-if a > b:
-    print("The first die wins.")
-elif a < b:
-    print("The second die wins.")
-else:
-    print("The dice are equal. It's a draw.")
+        print("The words are equal")
 ```
 
 ---
@@ -238,179 +133,307 @@ else:
 
 ---
 
-# 🧪 Confronto tra stringhe
+# Controllo di stampa
 
-- Confronto tra stringhe, in ordine *lessicografico*
-    - `<, <=, >, >=, ==, !=`
-    - Confronto deciso dal primo carattere diverso
-- Primi 128 codici *Unicode* == *ASCII*
-    - Prima le cifre, poi le maiuscole, infine le minuscole
+- Caratteri speciali in stringhe
+    - `\n` : ritorno a capo
+    - `\t` : tabulazione orizzontale
+- Parametri opzionali per `print`
+    - `end` : sequenza finale, default `\n`
+    - `sep` : separatore tra parametri, default *spazio*
 
 ``` py
->>> "art" < "arc"
-False
->>> "first" < "second"
-True
->>> "Second" <  "first"
-True
->>> chr(83)
-'S'
->>> ord("S")
-83
+>>> print("one\ttwo\tthree\nfour\tfive\tsix")
+one     two     three
+four    five    six
+>>> for i in range(3):
+        print(1, 2, 3, sep=".", end=";")
+1.2.3;1.2.3;1.2.3;
 ```
 
 ---
 
-# Tabella ASCII
-
-![large](images/repr/ascii-large.svg)
-
----
-
-![](images/algo/words.svg)
-# 🧪 Ordine tra due stringhe
-
-``` py
-a = input("First word? ")
-b = input("Second word? ")
-
-if a < b:
-    print("The words are ordered")
-elif a > b:
-    print("The words are inverted")
-else:
-    print("The words are equal")
-```
-
-- No `switch`, no `do-while`
-
-> There should be one -- and preferably only one -- obvious way to do it *(ZoP)*
-
----
-
-![](images/misc/characters.png)
-# 🧪 Cicli su stringhe
-
-- Il ciclo `for` scorre i valori di qualsiasi sequenza
-- Una stringa è una sequenza di caratteri
-
-``` py
-line = input("Text? ").lower()
-digits, vowels = 0, 0
-
-for c in line:
-    if "0" <= c <= "9":  # char comparison
-        digits += 1
-    elif c in "aeiou":  # membership test
-        vowels += 1
-```
-
->
-
-<https://tomamic.github.io/pyodide/?p02_vowels.py>
-
----
-
-# 💡 Stringhe formattate
+# Stringhe formattate
 
 - Concatenazione di stringhe : op. `+`
     - Complesso comporre stringhe con molti dati
 - Alternativa : *stringhe formattate*, o *f-string*
     - `f` prima di virgolette
     - Espressioni in stringa, tra graffe
-    - Sostituite da loro rappesentazione testuale
+    - Sostituite da loro rappresentazione testuale
 
 ``` py
 radius = 2.5
 area = math.pi * radius**2
-# msg = ("The area of the circle with radius " + str(radius) +
-#        " is " + str(area) + ".")
-msg = f"The area of the circle with radius {radius} is {area}."
+# msg = ("The circle with radius " + str(radius) +
+#        " has area " + str(area) + ".")
+msg = f"The circle with radius {radius} has area {area}."
 print(msg)
 ```
 
 ---
 
-![](images/fun/shopping-list.png)
-# ⭐ Lista
+# Cicli e linearità
 
-- Sequenza *mutabile* di valori *omogenei*
-- Lunghezza variabile nel tempo, non fissata
+---
+
+![](images/algo/linearity.svg)
+# 💡 Linearità
+
+- In un ciclo `for i in range(n)…`
+- Legame lineare tra una grandezza $v$ e $i$
+
+$$v = m \cdot i + q$$
+
+- Se noti il primo e l'ultimo valore: $v_{first}, v_{last}$
+    - `$\begin{cases}v_{first} = m \cdot 0 + q, (i = 0) \\ v_{last} = m \cdot (n-1) + q, (i = n-1)\end{cases}$`
+    - `$\implies \begin{cases}q = v_{first} \\ m = \frac{v_{last} - v_{first}}{n-1}\end{cases}$`
+- Visto che $i$ è intero, $m$ è la differenza tra due istanze
+    - P.es. se $v$ è la posizione di quadrati disegnati in sequenza
+    - ⇒ $m$ è la distanza tra due quadrati successivi
+
+---
+
+![](images/misc/red-squares.svg)
+# 🧪 Sequenza di n quadrati
+
+- Disegnare una sequenza di $n$ quadrati
+    - $L$: lato canvas noto, $l$: lato quadrati noto
+    - ⇒ Posizioni primo e ultimo quadrato: $v_{first} = 0, v_{last} = L - l$
 
 ``` py
->>> grocery = ["spam", "egg", "beans"]
->>> grocery.append("sausage")  # add "sausage" at the end
->>> len(grocery)  # size has grown
-4
->>> "egg" in grocery  # membership test
-True
->>> grocery.remove("egg")  # remove "egg"
->>> len(grocery)  # size has shrunk
-3
->>> grocery
-["spam", "beans", "sausage"]
+pos_fst, pos_lst = 0, L - l
+pos_m = (pos_lst - pos_fst) / max(n - 1, 1)  # ⚠️ div by 0
+for i in range(n):
+    pos = pos_m * i + pos_fst
+    g2d.draw_rect((pos, pos), (l, l))
 ```
 
+- ❓ Colore da nero fino a rosso
+- ❓ Margine di $10$ pixel attorno a disegno
+
+>
+
+<https://tomamic.github.io/pyodide/?p02_squares.py>
+
 ---
 
-![](images/misc/rock-cubes.png)
-# ⭐ Cicli su liste: for
+![](images/fun/times-table.svg)
+# Cicli e annidamento
+
+- Stampare la tavola pitagorica
+- Primo passo: stampare una sola riga
 
 ``` py
-values = [2, 3, 5, 7, 11]
-
-for val in values:
-    cube = val ** 3
-    print(cube)  # 8 27 125 343 1331
+y = int(input("Insert a value: "))
+for x in range(1, 11):
+    print(x * y, end="\t")  # keep printing on the same line
+print()  # print just a `newline`
 ```
 
-- A ogni iterazione
-    - A `val` è assegnato un elemento di `values`
-- Ciclo `for` per qualsiasi tipo di sequenza
-    - `list`, `str`, `tuple`, `range`…
-
----
-
-![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
-# 🧪 Coordinate polari
-
-- Noti ipotenusa e angolo di un triangolo rettangolo
-    - Con `cos` e `sin` si ricavano i cateti
-- **Coordinate polari** di un punto: `$(r, \theta)$`
-    - Distanza dall'origine e angolo
-- Coord. *polari* `$(r, \theta)$` ⇒ coord. *cartesiane* `$(x, y)$`
-    - `$\begin{cases}x = r\cdot cos\theta \\ y = r\cdot sin\theta\end{cases}$`
-- Infatti, $x, y, r$ formano un triangolo rettangolo
-    - $x$ : cateto adiacente all'angolo
-    - $y$ : cateto opposto all'angolo
-    - $r$ : ipotenusa
-
----
-
-![](images/fun/move-around.svg)
-# 🧪 Angoli sul canvas
-
-- Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0) ≠ (0, 0)$`
-    - ⇒ *Traslazione*
-    - `$\begin{cases}x = x_0 + r\cdot cos\theta \\ y = y_0 + r\cdot sin\theta\end{cases}$`
-- Es. 4 punti: stessa distanza dal centro, angoli diversi
+- Poi, ripetere tutto per le 10 righe
 
 ``` py
-r = 100
-x0, y0 = 200, 200  # center
-for angle in (0, 15, 30, 45):
-    x = x0 + r * cos(radians(angle))
-    y = y0 + r * sin(radians(angle))
-    g2d.draw_line((x0, y0), (x, y))
+for y in range(1, 11):
+    for x in range(1, 11):
+        print(x * y, end="\t")
+    print()
 ```
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_angles.py>
+<https://tomamic.github.io/pyodide/?p02_tables.py>
+
+---
+
+![](images/misc/color-grid.svg) ![](images/oop/raster-tile.png)
+# Griglia di colori
+
+- Mostrare una griglia `rows×cols` di rettangoli
+    - In orizzontale, blu cresce da 0 a 255
+    - In verticale, verde cresce da 0 a 255
+- Due cicli annidati, come tabelline
+    - Valori lineari rispetto a `x` o `y`
+
+``` py
+w, h = CANVAS_W / max(cols, 1), CANVAS_H / max(rows, 1)
+g, b = 255 / max(rows - 1, 1), 255 / max(cols - 1, 1)
+for y in range(rows):
+    for x in range(cols):
+        g2d.set_color((0, g * y, b * x))
+        g2d.draw_rect((w * x, h * y), (w, h))
+```
+
+>
+
+<https://tomamic.github.io/pyodide/?p02_grid.py>
+
+---
+
+# Cicli con sentinella
+
+---
+
+![](images/misc/rock-cubes.png)
+# Sentinella
+
+- Acquisire valori di input, in ciclo
+    - Ciascun valore viene elaborato
+- Finché valori diversi dal valore *sentinella*
+    - Il valore *sentinella* non deve essere elaborato
+    - Qui è `-1`, ma importa che si distingua da dati
+
+``` py
+v = int(input("Value (-1 to end)? "))
+while v != -1:
+    print(v ** 3)  # <-- in general, process v here
+    v = int(input("Value (-1 to end)? "))
+```
+
+- Codice di input presente due volte
+    - Prima di cominciare il ciclo
+    - Dopo aver elaborato il valore corrente
+
+---
+
+# Cicli for e while
+
+- Si usa `for` per tutte le sequenze e gli iterabili
+    - `range, tuple, str, list`… Più semplice e chiaro!
+- Si usa `while` con sentinella o in casi più particolari
+- Es. conteggio da `0` a `n-1`
+    - `while`: contatore inizializzato e incrementato a mano
+
+``` py
+n = int(input("n? "))
+for count in range(n):
+    print(count)
+```
+
+``` py
+n = int(input("n? "))
+count = 0
+while count < n:
+    print(count)
+    count += 1
+```
+
+---
+
+# Sentinella con conteggio
+
+``` py
+count = 0
+v = int(input("Value (-1 to end)? "))
+while v != -1:
+    count += 1
+    print(v ** 3)  # <-- process here v as needed
+    v = int(input("Value (-1 to end)? "))
+print("Number of processed values:", count)
+```
+
+---
+
+![](images/algo/sentinel.svg)
+# Totale parziale
+
+- Sommare tutti i valori in input, fino a sentinella
+- Variabile per totale parziale
+    - Acquisito nuovo valore → aggiunto al totale
+- Come quando aggiorniamo il costo di un *carrello*
+
+``` py
+total = 0
+v = int(input("Value (-1 to end)? "))
+while v != -1:  # -1 is the sentinel
+    total += v
+    v = int(input("Value (-1 to end)? "))
+print("Sum of all values:", total)
+```
+
+- ❓ Contare i valori e calcolare la media
+
+>
+
+<https://tomamic.github.io/pyodide/?p02_sentinel.py>
+
+---
+
+# Acquisizione in lista
+
+- Acquisire valori in numero non noto
+- *Sentinella* per terminare: p.es. riga vuota
+
+``` py
+values = []  # list of floats
+val = input("Val? (empty line to finish) ")
+
+while val != "":
+    values.append(float(val))  # float values
+    val = input("Val? (empty line to finish) ")
+```
+
+- Evitare di memorizzare tutti i dati, quando possibile
+    - Efficienza, scalabilità a *Big Data*
+    - Esempio: calcolo della media, senza lista
 
 ---
 
 # 🏊 Esercizi
+
+---
+
+![](images/misc/green-col.svg)
+# Quadrati in colonna
+
+- Chiedere all'utente un numero `n`
+- Disegnare una colonna verticale di `n` quadrati
+    - Sfruttare tutta l'altezza del canvas
+    - Lasciare un pixel vuoto tra l'uno e l'altro
+- Il colore varia gradualmente dal nero fino al verde saturo
+    - Dall'alto verso il basso
+
+---
+
+![](images/misc/blue-row.svg)
+# Cerchi in riga
+
+- Chiedere all'utente un numero $n$
+- Disegnare una fila orizzontale di $n$ cerchi
+    - Sfruttare tutta la larghezza del canvas
+- Il colore varia gradualmente dal nero fino al blu saturo
+    - Da sinistra verso destra
+
+
+---
+
+![](images/misc/red-circles.svg)
+# Cerchi concentrici
+
+- Chiedere all'utente un numero $n$
+- Disegnare $n$ cerchi concentrici
+    - Al centro di un canvas quadrato di lato $L$
+    - Diametro decrescente, da $L$ fino a $L/n$
+    - Colore da rosso (cerchio esterno) a nero
+- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
+
+---
+
+![](images/misc/red-squares.svg)
+# Quadrati in diagonale
+
+- Disegnare $n$ quadrati, $n$ scelto da utente
+- Quadrati disposti in diagonale
+- Occupano intero canvas quadrato
+    - Lato del canvas $L$ predefinito, p.es. 500
+- Quadrati sovrapposti per metà del loro lato $l$
+   - $l$ non predefinito, dipende da $n$
+
+>
+
+Rivedere esempio simile: analisi ancora valida ma bisogna calcolare $l$
+<br>
+In $L$ ci dovranno stare esattamente $n+1$ semilati ($l/2$)
 
 ---
 
@@ -426,20 +449,30 @@ for angle in (0, 15, 30, 45):
 
 ---
 
-![](images/misc/three-brothers.png)
-# Minore e maggiore
+![](images/algo/words.svg)
+# Ordine tra due stringhe
 
-- Generare e stampare tre numeri interi casuali: `a`, `b`, `c`
-- Ciascuno compreso tra 1 e 6
-- Determinare e mostrare qual è il minore dei tre
+- Chiedere all'utente due stringhe di testo
+- Comunicare se le stringhe:
+    1. Sono fornite in ordine, oppure…
+    2. Sono invertite, oppure…
+    3. Sono uguali
+
+---
+
+![](images/algo/sum1n.svg)
+# 🧪 Somma di Gauss
+
+- Chiedere all'utente un numero naturale $n$
+- Sommare tutti i numeri da $1$ a $n$
+- Occorre tenere traccia del *totale parziale*
+- Preferibile ciclo `for` o `while`?
 
 >
 
-Controllare prima di tutto se `a` è minore degli altri due
+Per esercizio, si richede di usare un ciclo. Ma [Gauss](https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia) ha fatto di meglio 💡
 <br>
-Altrimenti controllare se `b` è minore di `c`
-<br>
-Altrimenti…
+<https://tomamic.github.io/pyodide/?p02_sumn.py>
 
 ---
 
@@ -454,37 +487,6 @@ Altrimenti…
 >
 
 Naturalmente, senza usare `math.sqrt`
-
----
-
-![](images/misc/color-grid.svg) ![](images/oop/raster-tile.png)
-# Griglia di colori
-
-- Chiedere all'utente dei valori per `rows` e `cols`
-- Mostrare una griglia `rows×cols` di rettangoli
-- Partire da un rettangolo nero in alto a sinistra
-- In orizzontale, aumentare gradatamente la componente di blu
-- In verticale, aumentare gradatamente la componente di verde
-
->
-
-Cominciare a creare una riga di riquadri tutti neri
-<br>
-Poi creare una griglia, con due cicli annidati
-<br>
-Lasciare tra i riquadri un piccolo margine
-
----
-
-![](images/misc/classical-watch.jpg) ![](images/misc/trigonometry.svg)
-# 🥷 Orologio classico
-
-- Disegnare 12 tacche a raggiera, come in un orologio classico
-- Miglioramento: disegnare anche le tacche dei minuti, più piccole
-
->
-
-Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 
 ---
 
@@ -514,4 +516,3 @@ Usare `math.sin` e `math.cos` per determinare le posizioni in cui disegnare
 Basta memorizzare tre coppie di coordinate cartesiane
 <br>
 Non è richiesto l'uso della grafica
-
