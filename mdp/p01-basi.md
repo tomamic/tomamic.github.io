@@ -150,11 +150,11 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 - Commenti descrittivi, dopo `#` : non valutati
 
 ``` py
->>> 9 / 4
-2.25
->>> 9 // 4  # floor division: ⌊9/4⌋, try also -9 // 4
-2
->>> 9 % 4  # reminder is always positive
+>>> 7 / 2
+3.5
+>>> 7 // 2  # floor division: ⌊7/2⌋, try also -7 // 2
+3
+>>> 7 % 2  # reminder positive, try also -7 % 2
 1
 >>> 2 ** 1000  # no limits (but memory)
 107150860718626[…]837205668069376
@@ -194,7 +194,7 @@ True
     - Confronto di *uguaglianza* : operatore **`==`**
 
 ``` py
->>> pi = 3.14  # Assignment
+>>> pi = 3.14  # assignment
 >>> radius = 2.2
 >>> area = pi * (radius ** 2)
 >>> area
@@ -217,18 +217,18 @@ True
 - *Riassegnamento* : nuovo valore a var già esistente
 
 ``` py
->>> x = 100            # Variables: all_lower_case
->>> next_position = x  # Use explicative names!
->>> DELTA_X = 5        # Constants: ALL_UPPER_CASE
->>> x += DELTA_X       # Shortcut for: `x = x + DELTA_X`
->>> a, b = 5, 8        # Multiple assignments
+>>> x = 100            # variables: all_lower_case
+>>> next_position = x  # use explicative names!
+>>> DELTA_X = 5        # constants: ALL_UPPER_CASE
+>>> x += DELTA_X       # shortcut for: `x = x + DELTA_X`
+>>> a, b = 5, 8        # multiple assignments
 ```
 
 ---
 
 # 🧪 Stringhe di testo
 
-- Tipo **`str`** per sequenze di caratteri *Unicode*
+- Tipo **`str`** per sequenze di caratteri
 - Racchiuse tra apici doppi, o singoli
 - Concatenazione: operatore `+`
 - Test di appartenenza (sottostringa): operatore `in`
@@ -275,7 +275,7 @@ TypeError: can only concatenate str (not "int") to str
 
 - In Python tutti i valori sono *oggetti*
     - Tipi diversi → operazioni diverse, come *metodi*
-- Attivazione di un metodo su un oggetto
+- Attivazione di un metodo di un oggetto
     - Oggetto e metodo separati da “`.`”
     - Poi parametri tra parentesi
     - Tipicamente, risultato assegnato a variabile
@@ -289,6 +289,7 @@ TypeError: can only concatenate str (not "int") to str
 >>> lc = txt.lower()
 >>> lc
 "monty python"
+```
 
 ---
 
@@ -341,12 +342,11 @@ Right. Off you go, Lancelot .
 ![](images/algo/sum3.svg)
 # 🧪 Somma di tre numeri
 
-- **⚠️ Attenzione ai tipi**
-    - ❓ Cosa succede, senza conversione in `float`?
+- Salvare il programma seguente come “`sum3.py`”
+- Eseguire, cliccando il bottone ▶️
+    - Oppure da riga di comando: `python sum3.py`
 
 ``` py
-# File sum3.py - to run: python3 sum3.py
-
 a = float(input("Insert 1st val: "))
 b = float(input("Insert 2nd val: "))
 c = float(input("Insert 3rd val: "))
@@ -355,6 +355,9 @@ total = a + b + c
 
 print("The sum is", total)
 ```
+
+- **⚠️ Attenzione ai tipi**
+    - ❓ Cosa succede, senza conversione in `float`?
 
 >
 
@@ -398,7 +401,7 @@ print("The sum is", total)
 center_pt = (320, 240)  # packing
 window_size = (640, 480)
 bluette_color = (47, 102, 207)
-x, y = center_pt  # unpacking
+x, y = center_pt  # sequence unpacking
 ```
 
 ---
@@ -470,31 +473,33 @@ g2d.main_loop()
 ![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
 # 🧪 Battery included 🔋
 
-- Python ha già molti moduli inclusi
-    - Non necessitano d'installazione
-- **`import …`** : importa intero *namespace* del modulo
-- **`from … import …`** : importa solo alcuni nomi
-- `import` all'inizio, per evidenziare dipendenze
+- Modulo [`math`](https://docs.python.org/3/library/math.html) in *Python Standard Library*
+    - Non necessita d'installazione
+    - `sin, pi, sqrt, round`…
 
 ``` py
 import math  # use namespace `math` as prefix
-y = math.sin(math.pi / 6)  # 30°
+y = math.sin(math.radians(30))  # 30°
 print(y)  # 1 / 2
 ```
 
 ``` py
 from math import cos, pi  # no prefix for `cos`, `pi`
-print(cos(pi / 6))  # √3 / 2
+print(cos(pi / 6))  # 30° → √3 / 2
 ```
+
+- `import` all'inizio, per evidenziare dipendenze
+    - **`import …`** : intero *namespace* del modulo
+    - **`from … import …`** : solo alcuni nomi
 
 ---
 
 ![](images/misc/dice.png)
 # 🧪 Random 🎲
 
-- *Python Standard Library*
-    - <http://docs.python.org/library/>
-    - `randint`, `randrange`, `random`, `choice`…
+- Modulo [`random`](https://docs.python.org/3/library/random.html) in *Python Standard Library*
+    - Non necessita d'installazione
+    - `randint, randrange, random, choice, shuffle`…
 
 ``` py
 from random import randint, randrange, choice
@@ -504,7 +509,7 @@ die2 = randint(1, 6)  # like rolling a die
 
 one_of_three = randrange(3)  # 0, 1, or 2
 
-letter = choice("abc")  # "a", "b", or "c" -- any kind of sequence
+prime = choice([2, 3, 5, 7, 11, 13])  # one from a sequence
 ```
 
 ---
@@ -557,8 +562,6 @@ g2d.draw_circle((200, 200), 25)
 
 >
 
-I confronti possono essere concatenati; `and` sottinteso
-<br>
 <https://tomamic.github.io/pyodide/?p01_ifelse.py>
 
 ---
