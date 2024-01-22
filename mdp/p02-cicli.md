@@ -4,7 +4,7 @@
 
 ---
 
-# Stringhe
+# Cicli e stringhe
 
 ---
 
@@ -136,16 +136,20 @@ else:
 # Controllo di stampa
 
 - Caratteri speciali in stringhe
-    - `\n` : ritorno a capo
-    - `\t` : tabulazione orizzontale
-- Parametri opzionali per `print`
-    - `end` : sequenza finale, default `\n`
-    - `sep` : separatore tra parametri, default *spazio*
+    - `\n` : ritorno a capo (codice 10 dec)
+    - `\t` : tabulazione orizzontale (codice 9 dec)
 
 ``` py
 >>> print("one\ttwo\tthree\nfour\tfive\tsix")
 one     two     three
 four    five    six
+```
+
+- Parametri opzionali per `print`
+    - `end` : sequenza finale, default `\n`
+    - `sep` : separatore tra parametri, default *spazio*
+
+``` py
 >>> for i in range(3):
         print(1, 2, 3, sep=".", end=";")
 1.2.3;1.2.3;1.2.3;

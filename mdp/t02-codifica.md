@@ -602,7 +602,7 @@ BITMAP INFO HEADER (40)
 4   Dimensione struttura
 4+4 Larghezza e altezza immagine
 2   Piani (non usato)
-2   # bit per pixel
+2   Profondità (bpp, bit per pixel)
 4+4 Compressione e dim. img (0 senza compressione)
 4+4 Risoluzione orizz. e vert. (pixel per metro)
 4+4 # colori in palette e # colori importanti
@@ -610,11 +610,16 @@ Palette (RGBQUAD)
 4   Blue, Green, Red, Riservato
 ```
 
+- Normale header: $54$ byte – Ogni colore in palette: $4$ byte
+
 ---
 
 # 🧪 Es. Redbrick.BMP
 
 ![large](images/repr/redbrick-dump.png)
+
+- Ogni riga occupa sempre un multiplo di 4 byte (con *padding*)
+- Dimensione file: `$54 + 4\cdot colors + ⌈w\cdot bpp / 32⌉\cdot 4\cdot h$` byte
 
 ---
 
