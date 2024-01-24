@@ -448,5 +448,6 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 ![](images/misc/classical-watch.jpg)
 # 🥷 Orologio classico
 
-- Disegnare 12 tacche a raggiera, come in un orologio classico
-- Miglioramento: disegnare anche le tacche dei minuti, più piccole
+- Definire una funzione `draw_clock`
+    - Disegnare 12 tacche a raggiera, come in un orologio classico
+    - Miglioramento: disegnare anche le tacche dei minuti, più piccole

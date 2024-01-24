@@ -453,17 +453,6 @@ In $L$ ci dovranno stare esattamente $n+1$ semilati ($l/2$)
 
 ---
 
-![](images/algo/words.svg)
-# Ordine tra due stringhe
-
-- Chiedere all'utente due stringhe di testo
-- Comunicare se le stringhe:
-    1. Sono fornite in ordine, oppure…
-    2. Sono invertite, oppure…
-    3. Sono uguali
-
----
-
 ![](images/algo/sum1n.svg)
 # 🧪 Somma di Gauss
 
@@ -474,7 +463,7 @@ In $L$ ci dovranno stare esattamente $n+1$ semilati ($l/2$)
 
 >
 
-Per esercizio, si richede di usare un ciclo. Ma [Gauss](https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia) ha fatto di meglio 💡
+Per esercizio, si richiede di usare un ciclo. Ma [Gauss](https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia) ha fatto di meglio 💡
 <br>
 <https://tomamic.github.io/pyodide/?p02_sumn.py>
 

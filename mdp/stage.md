@@ -1,6 +1,6 @@
 ![](images/misc/videogames.png)
 # Creare un videogioco in Python
-## Stage formativo — 12-16 giugno 2023 <br> Ingegneria dell'Informazione
+## Stage formativo — 10-14 giugno 2024 <br> Ingegneria dell'Informazione
 
 ---
 
@@ -11,9 +11,6 @@
 - Senza particolari prerequisiti
 - **Corso introduttivo alla programmazione**: ognuno imparerà qualcosa
 - … Ma utili eventuali precedenti esperienze, con qualsiasi linguaggio
-- Per tutti, ma soprattutto per gli studenti senza esperienza di programmazione
-    - Consigliate (*!*) le esercitazioni pomeridiane
-    - Tutti i giorni dello stage - h.14:00-17:00
 - Ai più esperti è invece richiesto di svolgere a turno il ruolo di *tutor aggiunto*
     - Risulta sull'attestato finale
 
@@ -24,9 +21,9 @@
 
 - Ogni mattina, dalle 9:00 alle 13:00
     - ~ *un'ora* di lezione e *tre* di lavoro al computer
-    - Lavoro in autonomia, ma assistito dall'insegnante
-- Ogni pomeriggio, dalle 14:00 alle 17:00
-    - Possibilità di assistenza per gli esercizi
+    - Lavoro in autonomia, ma assistito dagli insegnanti
+- Ogni pomeriggio, dalle 14:00 alle 16:00
+    - Assistenza per gli esercizi
 
 Giorno | Argomento
 -------|----------
