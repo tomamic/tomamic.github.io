@@ -363,6 +363,50 @@ print("Sum of all values:", total)
 
 ---
 
+![](images/algo/sum1n.svg)
+# 🧪 Somma di Gauss
+
+- Sommare tutti i naturali da $1$ a $n$, dato
+- *Totale parziale*, ma meglio `for` su `range` dato
+- Verificare risultato con la formula di Gauss
+
+`$$\sum_{k=1}^n k = \frac{n(n+1)}{2}$$`
+
+``` py
+n = int(input("n? "))
+total = 0
+for i in range(1, n + 1):
+    total += i
+```
+
+>
+
+<https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia>
+<br>
+<https://tomamic.github.io/pyodide/?p02_gauss.py>
+
+---
+
+# Ricerca del massimo
+
+- Trovare il massimo in una sequenza di valori
+- Variabile per massimo temporaneo
+    - Valore iniziale: `-math.inf` (`$-\infty$`)
+    - Aggiornata ogni volta che si trova un valore migliore
+
+``` py
+from math import inf
+largest = -inf  # -∞
+for v in [3, 7, 5, 6]:
+    if v > largest:
+        largest = v
+print(largest)
+```
+
+❓ Come adattare al ciclo con sentinella?
+
+---
+
 # Acquisizione in lista
 
 - Acquisire valori in numero non noto
@@ -453,19 +497,20 @@ In $L$ ci dovranno stare esattamente $n+1$ semilati ($l/2$)
 
 ---
 
-![](images/algo/sum1n.svg)
-# 🧪 Somma di Gauss
 
-- Chiedere all'utente un numero naturale $n$
-- Sommare tutti i numeri da $1$ a $n$
-- Occorre tenere traccia del *totale parziale*
-- Preferibile ciclo `for` o `while`?
+# Somma di potenze di 2
+
+- Chiedere all'utente un numero $n$
+- Sommare le prime $n$ potenze di 2
+    - $2^0 + 2^1 + ... + 2^{n-1}$
+- Tenere il conto di un *totale parziale*
+- Verificare risultato con questa formula (sempre di Gauss)
+
+`$$\sum_{k=0}^{n-1} 2^k = 2^n - 1$$`
 
 >
 
-Per esercizio, si richiede di usare un ciclo. Ma [Gauss](https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia) ha fatto di meglio 💡
-<br>
-<https://tomamic.github.io/pyodide/?p02_sumn.py>
+Preferibile `for` o `while`?
 
 ---
 
