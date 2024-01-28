@@ -25,7 +25,7 @@ True
 >>> "Py" in "Monthy Python"
 True
 >>> chr(83)
-'S'
+"S"
 >>> ord("S")
 83
 ```
