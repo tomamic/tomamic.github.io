@@ -466,11 +466,16 @@ def tick():
 
 ---
 
-![](images/misc/spiral-circles.png)
+![](images/misc/spiral-circles.svg)
 # 🥷 Spirale a oggetti
 
-- Mostrare l'*animazione* di un cerchio lungo una spirale
-- Realizzare una classe per gestire dati e comportamento del cerchio
-- Implementare il movimento in un metodo `move()`
-- Campi: `xc`, `yc`, `i`
-    - `i` conta i passi; se eccede il limite, torna a 0
+- Mostrare un cerchio in movimento
+- Percorso a spirale, in $N$ passi
+    - Il cerchio ruota attorno al centro del canvas
+    - A distanza crescente dal centro del canvas
+    - Raggio del cerchio: crescente
+    - Colore: dal rosso al blu
+- Realizzare una classe per il cerchio
+    - Metodo `move` per movimento di un passo
+    - Metodi *getter* per posizione, raggio e colore
+    - Campo contatore; se eccede il limite $N$, torna a 0

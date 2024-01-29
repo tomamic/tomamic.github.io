@@ -553,7 +553,7 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 
 ---
 
-![](images/misc/spiral-circles.png)
+![](images/misc/spiral-circles.svg)
 # 🥷 2.9 Spirale a oggetti
 
 - Mostrare l'*animazione* di un cerchio lungo una spirale

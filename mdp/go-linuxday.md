@@ -141,7 +141,7 @@ FillCircle(Point{200, 200}, 25)
 
 ---
 
-![](images/misc/red-squares.png)
+![](images/misc/red-squares.svg)
 # ⏩ Iterazione: for
 
 - Versione più semplice: sostituisce `while`, assente
@@ -160,7 +160,7 @@ for i < 5 {
 
 ---
 
-![](images/misc/red-squares.png)
+![](images/misc/red-squares.svg)
 # ⏩ Sequenza di quadrati
 
 ``` go

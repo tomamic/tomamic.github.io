@@ -37,7 +37,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/random-circles.png)
+![](images/misc/random-circles.svg)
 # 1.3 Cerchi casuali
 
 - Chiedere all'utente il numero di cerchi da disegnare

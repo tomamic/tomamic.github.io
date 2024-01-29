@@ -30,7 +30,7 @@ Sappiamo che il segno si ripete ogni 12 anni
 
 ---
 
-![](images/misc/random-circles.png)
+![](images/misc/random-circles.svg)
 # 1.3 Cerchi casuali
 
 - Chiedere all'utente un numero `n`
@@ -180,7 +180,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-triangle.png)
+![](images/misc/xmas-triangle.svg)
 # 2.3 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -343,7 +343,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 ---
 
-![](images/misc/xmas-tree.png)
+![](images/misc/xmas-tree.svg)
 # 3.5 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`

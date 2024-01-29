@@ -57,7 +57,7 @@ Usare la funzione `sqrt` del modulo `math`
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svg)
 # 1.4 Cerchi concentrici graduali
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -193,7 +193,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-triangle.png)
+![](images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -253,7 +253,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-tree.png)
+![](images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -323,7 +323,7 @@ Usare una lista di 10 elementi per tenere i conteggi
 
 ---
 
-![](images/misc/random-circles.png)
+![](images/misc/random-circles.svg)
 # 3.5 Tiro al bersaglio
 
 - Definire una classe `TargetShooting`
@@ -981,7 +981,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svg)
 # 9.3 Cerchi concentrici graduali (C++)
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -1304,13 +1304,14 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 ---
 
-![](images/misc/gray-squares.png) Quattro grigi, ripetuti 3 volte
+![](images/misc/gray-squares.svg) Quattro grigi, ripetuti 2 volte
 # 11.6 Ripetizioni di grigi
 
 - Chiedere all'utente una sequenza di valori e memorizzarli in una lista
     - Un valore non compreso tra 0 e 255 termina la sequenza
-- Disegnare `3 * n` quadrati di lato decrescente:
+- Chiedere all'utente un numero `m` di ripetizioni
+- Disegnare `m * n` quadrati di lato decrescente:
     - `n` è la lunghezza della lista
     - Ciascun quadrato colorato con un livello di grigio…
     - Usando in sequenza i valori della lista
-    - Ossia, ripetere `3` volte l'intera sequenza di `n` colori
+    - Ossia, ripetere `m` volte l'intera sequenza di `n` colori

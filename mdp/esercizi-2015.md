@@ -184,7 +184,7 @@ Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svg)
 # 2.4 Cerchi concentrici
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -203,7 +203,7 @@ Infine, determinare automaticamente, prima del ciclo, le variazioni migliori per
 
 ---
 
-![](images/misc/color-grid.png) ![](images/oop/raster-tile.png)
+![](images/misc/color-grid.svg) ![](images/oop/raster-tile.png)
 # 2.5 Griglia di colori
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -399,7 +399,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/misc/palette-circles.png)
+![](images/misc/palette-circles.svg)
 # 3.9 Tavolozza di colori
 
 - Leggere da un file una sequenza di colori

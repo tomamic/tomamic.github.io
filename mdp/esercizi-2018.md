@@ -64,7 +64,7 @@ Determinare il lato di ogni quadrato in base alla dimensione del canvas
 
 ---
 
-![](images/misc/green-squares.png)
+![](images/misc/green-squares.svg)
 # 1.5 Sequenza di quadrati
 
 - Chiedere all'utente un numero `n`
@@ -189,7 +189,7 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/xmas-triangle.png)
+![](images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -254,7 +254,7 @@ Il metodo `go` riavvia solo il conteggio, ma non sposta la pallina
 
 ---
 
-![](images/misc/xmas-tree.png)
+![](images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`

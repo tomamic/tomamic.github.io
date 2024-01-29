@@ -475,7 +475,7 @@ for i := 1; i < 11; i++ {
 
 ---
 
-![](images/misc/red-squares.png)
+![](images/misc/red-squares.svg)
 # Sequenza di quadrati
 
 ``` go
@@ -590,7 +590,7 @@ Espressione booleana composta con **AND**, **OR**, **NOT**
 
 ---
 
-![](images/misc/random-squares.png)
+![](images/misc/random-squares.svg)
 # 1.4 Quadrati casuali
 
 - Chiedere all'utente un numero `n`
@@ -605,7 +605,7 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svg)
 # 1.5 Cerchi concentrici
 
 - Chiedere all'utente il numero di cerchi da disegnare

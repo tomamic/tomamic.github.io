@@ -52,7 +52,7 @@ Espressione booleana composta con `and`, `or`, `not`...
 
 ---
 
-![](images/misc/random-squares.png)
+![](images/misc/random-squares.svg)
 # 1.4 Quadrati casuali
 
 - Chiedere all'utente un numero `n`
@@ -67,7 +67,7 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svng)
 # 1.5 Cerchi concentrici
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -195,7 +195,7 @@ from math import sqrt
 
 ---
 
-![](images/misc/red-circles.png)
+![](images/misc/red-circles.svg)
 # 2.4 Cerchi concentrici
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -247,7 +247,7 @@ Poi invertire il verso delle righe con indice dispari
 
 ---
 
-![](images/misc/spiral-circles.png)
+![](images/misc/spiral-circles.svg)
 # 2.7 Spirale (*)
 
 - Disegnare una sequenza di cerchi (`n` scelto dall'utente) lungo una spirale

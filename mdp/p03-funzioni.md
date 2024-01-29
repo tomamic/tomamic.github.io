@@ -39,8 +39,10 @@ https://thevaluable.dev/abstraction-type-software-example/
     - **`return`** per terminare e restituire un risultato
 
 ``` py
+from math import sqrt
+
 def hypotenuse(a, b):
-    c = (a ** 2 + b ** 2) ** 0.5
+    c = sqrt(a ** 2 + b ** 2)
     return c
 ```
 
@@ -79,7 +81,8 @@ print("3rd side:", side3)
 
 ``` py
 def hypotenuse(a, b):
-    return (a ** 2 + b ** 2) ** 0.5
+    c = sqrt(a ** 2 + b ** 2)
+    return c
 
 def main():
     side1 = float(input("1st side? "))
@@ -155,10 +158,7 @@ def main():
 - **`g2d.current_keys`**: *tutti i tasti attualmente premuti*
     - Risultato: sequenza di `str` – [Possibili valori](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)
     - Es.: `"q", "1", "ArrowLeft", "Enter", "Spacebar", "LeftButton"`
-
-``` py
-if g2d.current_keys(): print(g2d.current_keys())
-```
+- **`g2d.close_canvas`**: *chiude il  canvas, termina l'esecuzione*
 
 >
 
@@ -188,7 +188,7 @@ def hypotenuse(leg1: float, leg2: float) -> float:
 
 ---
 
-![](images/hist/mcnulty.png) Kay McNulty : subroutine per ENIAC
+![](images/hist/mcnulty.png) Kay McNulty <br> Subroutine per ENIAC
 # 🧪 Risultato in tupla
 
 ``` py
@@ -278,34 +278,35 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 - Noti ipotenusa e angolo di un triangolo rettangolo
     - Con `cos` e `sin` si ricavano i cateti
+- Sul piano cartesiano (o *raster*)
+    - $x$ cateto adiacente, $y$ opposto, $r$ ipotenusa
 - **Coordinate polari** di un punto: `$(r, \theta)$`
     - Distanza dall'origine e angolo
-- Coord. *polari* `$(r, \theta)$` ⇒ coord. *cartesiane* `$(x, y)$`
+- Coord. *polari* `$(r, \theta)$` ⇒ *cartesiane* `$(x, y)$`
     - `$\begin{cases}x = r\cdot cos\theta \\ y = r\cdot sin\theta\end{cases}$`
-- Infatti, $x, y, r$ formano un triangolo rettangolo
-    - $x$ : cateto adiacente all'angolo
-    - $y$ : cateto opposto all'angolo
-    - $r$ : ipotenusa
+- Coord. *cartesiane* `$(x, y)$` ⇒ *polari* `$(r, \theta)$`
+    - `$\begin{cases}r = \sqrt{x^2 + y^2} = hypot(x, y) \\ \theta = atan2(y, x)\end{cases}$`
 
 >
 
-<https://github.com/tomamic/fondinfo/wiki/P03-Cicli#coordinate-polari>
+<https://github.com/tomamic/fondinfo/wiki/P03-Funzioni#coordinate-polari>
 
 ---
 
 ![](images/fun/move-around.svg)
 # 🧪 Angoli sul canvas
 
-- Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0) ≠ (0, 0)$`
-    - ⇒ *Traslazione*
-    - `$\begin{cases}x = x_0 + r\cdot cos\theta \\ y = y_0 + r\cdot sin\theta\end{cases}$`
-- In modulo `math`, funzioni `sin`, `cos`, `radians`…
+- Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0)$`
+    - *Traslazione*
+- In modulo `math`, funzioni utili
+    - `sin, cos, radians`
+    - `hypot, atan2, dist`
 - Es. 4 punti: stessa distanza dal centro, angoli diversi
 
 ``` py
 r = 100
 x0, y0 = 200, 200  # center
-for angle in (0, 15, 30, 45):
+for angle in [0, 15, 30, 45]:
     x = x0 + r * cos(radians(angle))
     y = y0 + r * sin(radians(angle))
     g2d.draw_line((x0, y0), (x, y))
@@ -320,20 +321,19 @@ for angle in (0, 15, 30, 45):
 ![](images/fun/move-around.svg)
 # Funzioni su coord polari
 
-- Funzione `move_around`
-    - Effetto: spostamento in una certa direzione
-    - Parametri: posizione di partenza, lunghezza e angolo dello spostamento
-    - Risultato: posizione di arrivo
-
 ```
+def to_polar(pt: Point) -> Polar:
+    x, y = pt
+    return (hypot(x, y), atan2(y, x))
+
 def from_polar(plr: Polar) -> Point:
     r, a = plr
     return (r * cos(a), r * sin(a))
 
 def move_around(start: Point, length: float, angle: float) -> Point:
-    x, y = start
+    x0, y0 = start
     dx, dy = from_polar((length, angle))
-    return x + dx, y + dy
+    return x0 + dx, y0 + dy
 ```
 
 >
@@ -363,9 +363,13 @@ def move_around(start: Point, length: float, angle: float) -> Point:
 # Cerchi al click
 
 - Definire una funzione `tick`
-- Quando mouse cliccato, prendere la posizione del mouse da `g2d`
-- Se il mouse è vicino al centro del canvas, chiedere conferma e poi chiudere l'applicazione
-- Altrimenti, disegnare un cerchio, con raggio fisso e colore casuale
+- Quando il mouse viene cliccato…
+- Se il mouse è vicino al centro del canvas…
+    - Chiedere conferma all'utente
+    - Se confermato, chiudere l'applicazione
+- Altrimenti…
+    - Disegnare un cerchio nella posizione del click
+    - Con raggio fisso e colore casuale
 
 ---
 
@@ -374,7 +378,7 @@ def move_around(start: Point, length: float, angle: float) -> Point:
 
 - Mostrare una tartaruga che si muove in orizzontale
     - Var. `dx`: spostamento a ogni frame
-- Riappare dal bordo opposto, dopo un po'
+- Quando esce da un bordo, riappare dal bordo opposto, dopo un po'
     - Permettere di superare i bordi laterali
     - Se supera di 100px il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
 - Al click del mouse, la tartaruga inverte la direzione
@@ -436,7 +440,7 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 ---
 
 ![](images/fun/polygon.svg) ![](images/fun/move-around.svg)
-# 🥷 Disegno di un poligono
+# Disegno di un poligono
 
 - Definire una funzione `draw_polygon`
     - Parametri: numero dei lati, centro e raggio del cerchio circoscritto
@@ -451,3 +455,16 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 - Definire una funzione `draw_clock`
     - Disegnare 12 tacche a raggiera, come in un orologio classico
     - Miglioramento: disegnare anche le tacche dei minuti, più piccole
+
+---
+
+![](images/misc/spiral-circles.svg)
+# 🥷 Percorso a spirale
+
+- Mostrare un cerchio in movimento
+- Percorso a spirale, in $N$ passi
+    - Il cerchio ruota attorno al centro del canvas
+    - A distanza crescente dal centro del canvas
+    - Raggio del cerchio: crescente
+    - Colore: dal rosso al blu
+- Usare un contatore; se eccede il limite $N$, torna a 0

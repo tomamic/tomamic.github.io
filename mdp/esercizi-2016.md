@@ -180,7 +180,7 @@ Con `s = (a + b + c)/2`, semiperimetro
 
 ---
 
-![](images/misc/green-squares.png)
+![](images/misc/green-squares.svg)
 # 2.4 Sequenza di quadrati
 
 - Chiedere all'utente il numero di quadrati da disegnare

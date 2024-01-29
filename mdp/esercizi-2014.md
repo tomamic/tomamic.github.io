@@ -188,7 +188,7 @@ Con `s = (a+b+c)/2`, semiperimetro
 
 ---
 
-![](images/misc/green-squares.png)
+![](images/misc/green-squares.svg)
 # 2.4 Sequenza di quadrati
 
 - Chiedere all'utente il numero di quadrati da disegnare
@@ -240,7 +240,7 @@ Poi invertire il verso delle righe con indice dispari
 
 ---
 
-![](images/misc/spiral-circles.png)
+![](images/misc/spiral-circles.svg)
 # 2.7 Spirale
 
 - Disegnare una sequenza di cerchi (`n` scelto dall'utente) lungo una spirale
@@ -396,8 +396,8 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/misc/gray-squares.png)
-# 3.8 Ripetizioni di grigifigcaption: Quattro grigi, ripetuti 3 volte
+![](images/misc/gray-squares.svg)
+# 3.8 Ripetizioni di grigifigcaption: Quattro grigi, ripetuti 2 volte
 
 - Chiedere all'utente una sequenza di valori e memorizzarli in una lista
     - La sequenza termina quando l'utente inserisce un valore non compreso tra 0 e 255
@@ -409,7 +409,7 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/misc/palette-circles.png)
+![](images/misc/palette-circles.svg)
 # 3.9 Tavolozza di colori
 
 - Leggere da un file una sequenza di colori

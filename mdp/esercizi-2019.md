@@ -58,7 +58,7 @@ Fare in modo che i rettangoli e le ombre siano tutti all'interno nel canvas
 
 ---
 
-![](images/misc/green-squares.png)
+![](images/misc/green-squares.svg)
 # 1.5 Sequenza di quadrati
 
 - Chiedere all'utente un numero `n`
@@ -183,7 +183,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-triangle.png)
+![](images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -243,7 +243,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-tree.png)
+![](images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`
