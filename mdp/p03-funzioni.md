@@ -269,7 +269,7 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 ---
 
-# Angoli
+# Funzioni trigonometriche
 
 ---
 
@@ -294,22 +294,21 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 ---
 
 ![](images/fun/move-around.svg)
-# 🧪 Angoli sul canvas
+# 🧪 Raggi sul canvas
 
 - Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0)$`
     - *Traslazione*
 - In modulo `math`, funzioni utili
     - `sin, cos, radians`
     - `hypot, atan2, dist`
-- Es. 4 punti: stessa distanza dal centro, angoli diversi
+- Es. 4 raggi: stesso centro, stesso raggio, angoli diversi
 
 ``` py
-r = 100
-x0, y0 = 200, 200  # center
-for angle in [0, 15, 30, 45]:
-    x = x0 + r * cos(radians(angle))
-    y = y0 + r * sin(radians(angle))
-    g2d.draw_line((x0, y0), (x, y))
+def draw_rays(x0: int, y0: int, r: int):
+    for angle in [0, 15, 30, 45]:
+        x = x0 + r * cos(radians(angle))
+        y = y0 + r * sin(radians(angle))
+        g2d.draw_line((x0, y0), (x, y))
 ```
 
 >
@@ -321,10 +320,11 @@ for angle in [0, 15, 30, 45]:
 ![](images/fun/move-around.svg)
 # Funzioni su coord polari
 
+- Funzioni più generali, astrazione migliore
+
 ```
-def to_polar(pt: Point) -> Polar:
-    x, y = pt
-    return (hypot(x, y), atan2(y, x))
+Point = tuple[float, float]  # Pt in cartesian coords (x, y)
+Polar = tuple[float, float]  # Pt in polar coords (r, angle)
 
 def from_polar(plr: Polar) -> Point:
     r, a = plr
@@ -335,6 +335,8 @@ def move_around(start: Point, length: float, angle: float) -> Point:
     dx, dy = from_polar((length, angle))
     return x0 + dx, y0 + dy
 ```
+
+- ❓ Riscrivere `draw_rays`, usando `move_around`
 
 >
 
@@ -449,7 +451,7 @@ Incrementare (o decrementare) un contatore a ogni chiamata a `tick`
 
 ---
 
-![](images/misc/classical-watch.jpg)
+![](images/misc/classical-watch.jpg) ![](images/fun/move-around.svg)
 # 🥷 Orologio classico
 
 - Definire una funzione `draw_clock`
