@@ -423,35 +423,45 @@ def tick():
 ![](images/misc/frogger.png)
 # Animazione di un veicolo
 
-- Creare un veicolo modificando la classe `Ball` vista a lezione
-- Eseguire l'animazione
-    - Per ogni frame, chiamare il metodo `move` del veicolo
-    - Rappresentare un rettangolo nella posizione aggiornata del veicolo
-- Modificare però il metodo `move`
-    - Il veicolo si sposta sempre di pochi pixel, solo in orizzontale
-    - Se supera 100px oltre il bordo destro, ricompare a 100px prima del bordo sinistro e viceversa
-
----
-
-![](images/misc/frogger.png)
-# Pallina con conteggio
-
-- Partire di nuovo dalla classe `Ball` vista a lezione
-- La pallina si muove solo dopo il click del mouse
-- Esegue i suoi comportamenti già definiti, ma solo per 5 fotogrammi
-- Dopo 5 fotogrammi si ferma, in attesa di una nuova pressione del tasto
+- Creare una classe `Vehicle`
+    - Partire dalla classe `Ball` vista a lezione
+    - Il movimento però è solo orizzontale
+- Se il veicolo supera i 100px oltre il bordo destro…
+    - Riappare a 100px prima del bordo sinistro
+- Se il veicolo supera i 100px oltre il bordo sinistro…
+    - Riappare a 100px dopo il bordo destro
+- Eseguire l'animazione di due veicoli
+    - Uno in movimento verso destra (→)
+    - L'altro verso sinistra (←)
+    - Rappresentare ciascun veicolo con un rettangolo
 
 ---
 
 ![](images/misc/space-invaders-school.png)
 # Animazione di alieni
 
-- Partire di nuovo dalla classe `Ball` vista a lezione
-- Il movimento di base però è solo orizzontale
+- Creare una classe `Alien`
+    - Partire dalla classe `Ball` vista a lezione
+    - Il movimento di base però è solo orizzontale
 - Arrivato al bordo, il personaggio:
     - Si sposta di qualche pixel verso il basso
     - Poi cambia direzione orizzontale
 - Fare in modo che, in ogni frame, lo spostamento sia solo orizzontale, o solo verticale, ma *non* diagonale
+
+---
+
+![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
+# Fantasma con conteggio
+
+- Partire dalla classe `Ghost` vista a lezione
+- Il fantasma normalmente è fermo
+- Casualmente, con probabilità $\frac{1}{100}$, si avvia
+    - Sceglie una direzione a caso<br>(orizzontale, verticale, o diagonale)
+    - Mantiene la stessa direzione per 10 frame
+    - Poi si ferma di nuovo
+- Mentre il fantasma si sposta, è semi-trasparente
+    - Altrimenti, è visibile
+- Aggiungere al fantasma campi per contatore e per direzione
 
 ---
 
