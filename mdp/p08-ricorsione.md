@@ -13,19 +13,22 @@
 
 ---
 
-![](images/fun/factorial.svg) ![](images/fun/stack.svg)
+`$$\begin{cases}0! = 1 \\ n! = n · (n-1)!, n>0\end{cases}$$` ![](images/fun/stack.svg)
 # ⭐ Fattoriale, ricorsione
 
 ``` py
 def factorial(n: int) -> int:
-    result = 1
-    if n > 0:
+    if n == 0:
+        result = 1
+    else:
         result = n * factorial(n - 1)
     return result
+
 ```
 
 - A ogni invocazione di una funzione, viene creato nello **stack** un nuovo record
 - **Contesto locale** alla particolare attivazione della funzione stessa
+- Eseguire con il debugger di *Thonny*
 
 >
 

@@ -290,10 +290,8 @@ txt = hex(32)  # "0x20"
 
 ---
 
-# 💡️ Numeri reali
+# 💡️ Numeri razionali
 
-- Insieme continuo, per grandezze analogiche
-    - Rappresentabili solo in modo approssimato
 - Parte frazionaria: somma di potenze negative della base
 
 `$$
@@ -303,6 +301,11 @@ $$`
 - Due rappresentazioni *alternative*
     - **Virgola fissa**: segno, parte intera, parte decimale
     - **Virgola mobile**: segno, mantissa, esponente
+- In base 10, [notazione scientifica](https://it.wikipedia.org/wiki/Notazione_scientifica)
+    - Numero espresso come: `$m \times 10^n$`
+    - `$m$` *mantissa*, `$n$` *esponente*
+    - Forma normalizzata: `$1 \leq m < 10$`
+    - P.es. Numero di Avogadro: `$N_A=6.02214076 \times 10^{23}$`
 
 ---
 
@@ -335,14 +338,14 @@ $$`
 
 # ⭐ Virgola mobile
 
-- Numero espresso come: `$r = ±(1+f)·2^e$`
-    - **`$e$`** è l'esponente intero (o caratteristica), `$n_1$` bit
+- Numero espresso come: `$r = ±(1+f) \times 2^n$`
+    - **`$n$`** è l'esponente intero (o caratteristica), `$n_1$` bit
     - **`$f$`** è la parte frazionaria (`$0 \leq f < 1$`), `$n_2$` bit
-    - `$2$` è la base, `$1+f$` è anche detto *mantissa*
+    - `$2$` è la base, `$m = 1+f$` è anche detto *mantissa*
 - Precisione variabile lungo l’asse reale; p.es.:
-    - `$f \in \{0, \frac{1}{4}, \frac{2}{4}, \frac{3}{4}\}$`, 2 bit <br> `$e \in \{-2, -1, 0, 1\}$`, 2 bit
+    - `$f \in \{0, \frac{1}{4}, \frac{2}{4}, \frac{3}{4}\}$`, 2 bit <br> `$n \in \{-2, -1, 0, 1\}$`, 2 bit
 
-![large](images/repr/float4.png)
+![large](images/repr/float4.svg)
 
 >
 

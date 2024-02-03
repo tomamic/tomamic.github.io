@@ -136,9 +136,8 @@ def tick():
     ##if x + dx > ARENA_W: ...
     x += dx  # Update ball's position
 
-def main():
-    g2d.init_canvas((ARENA_W, ARENA_H))
-    g2d.main_loop(tick)  # call tick 30 times/second
+g2d.init_canvas((ARENA_W, ARENA_H))
+g2d.main_loop(tick)  # call tick 30 times/second
 ```
 
 >
@@ -179,12 +178,49 @@ def hypotenuse(leg1: float, leg2: float) -> float:
     Return the hypotenuse of a right triangle,
     given both its legs (catheti).
     '''
-    return (leg1 ** 2 + leg2 ** 2) ** 0.5
+    return sqrt(leg1 ** 2 + leg2 ** 2)
+
+---
+
+# 💡 Funzioni in moduli
+
+- Ogni file Python è un *modulo*: nome del file, senza `.py`
+- Se importato altrove, esecuzione `main` sotto condizione
+
+``` py
+# file `mymath.py`
+def hypotenuse(leg1: float, leg2: float) -> float:
+    return sqrt(leg1 ** 2 + leg2 ** 2)
+
+def main():  # Use or test the hypotenuse function
+    print(hypotenuse(3, 4))
+
+if __name__ == "__main__":  # file executed directly, or imported?
+    main()  # `main` not called, if file imported as module
 ```
 
->
+``` py
+>>> import mymath  # nothing printed
+>>> mymath.hypotenuse(4, 3)
+5
+```
 
-<https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html>
+---
+
+# 💡 Condizioni d'errore
+
+- Precondizioni per attivazione non soddisfatte
+- ⇒ Errore, instruzione **`raise`**
+- Es. Triangolo errato
+
+``` py
+def triangle_perimeter(a: float, b: float, c: float) -> float:
+    if a > b + c or b > a + c or c > a + b:
+        raise ValueError("Not a triangle")
+    return a + b + c
+
+print(triangle_perimeter(4, 2, 1))
+```
 
 ---
 
