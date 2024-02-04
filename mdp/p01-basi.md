@@ -162,13 +162,14 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 
 ---
 
-# 🧪 Valori booleani
+# 🧪 Valori booleani e None
 
 - Tipo **`bool`**, per valori booleani: `True, False`
     - Operatori logici: `and, or, not` (→ [Logica](t01-logica.html))
 - Confronti: `==, !=, <, <=, >, >=`
     - Solo tra valori omogenei; risultato booleano
     - Confronti concatenabili, sottinteso `and`
+- Valore **`None`**, unico del tipo `NoneType`: *niente*
 
 ``` py
 >>> 4 == 5
@@ -217,6 +218,7 @@ True
 - *Riassegnamento* : nuovo valore a var già esistente
 
 ``` py
+>>> x = None           # no actual value, yet…
 >>> x = 100            # variables: all_lower_case
 >>> next_position = x  # use explicative names!
 >>> DELTA_X = 5        # constants: ALL_UPPER_CASE
@@ -250,7 +252,7 @@ True
 
 # ⭐ Funzioni predefinite
 
-- Funzioni [built-in](https://docs.python.org/3/library/functions.html): `max, min, abs, len`…
+- Funzioni [built-in](https://docs.python.org/3/library/functions.html): `max, min, abs, len, round`…
 - Funzioni per conversione di tipo (*cast*): `int, float, str`…
 - Parametri tra *parentesi*, separati da *virgola*
 - Tipicamente, risultato assegnato a variabile
@@ -293,25 +295,25 @@ TypeError: can only concatenate str (not "int") to str
 
 ---
 
-![](images/fun/shopping-list.png)
+![](images/fun/shopping-list.png) [Spam…](https://www.youtube.com/watch?v=Gxtsa-OvQLA)
 # ⭐ Lista
 
-- Sequenza *mutabile* di valori *omogenei*
-- Elementi tra **quadre**, separati da *virgole*
+- Sequenza **mutabile** di valori *omogenei*
+- Elementi tra *quadre*, separati da *virgole*
 - Aggiunta, rimozione: `append, remove`
 - Lunghezza: `len` ­– Test di appartenenza: `in`
 
 ``` py
->>> grocery = ["spam", "egg", "beans"]
->>> grocery.append("sausage")  # add "sausage" at the end
->>> len(grocery)  # size has grown
+>>> groceries = ["spam", "egg", "beans"]
+>>> groceries.append("sausage")  # add "sausage" at the end
+>>> len(groceries)  # size has grown
 4
->>> "egg" in grocery  # membership test
+>>> "egg" in groceries  # membership test
 True
->>> grocery.remove("egg")  # remove "egg"
->>> len(grocery)  # size has shrunk
+>>> groceries.remove("egg")  # remove "egg"
+>>> len(groceries)  # size has shrunk
 3
->>> grocery
+>>> groceries
 ["spam", "beans", "sausage"]
 ```
 
@@ -470,22 +472,22 @@ g2d.main_loop()
 
 ---
 
-![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
+![](images/misc/scicalc.jpg) [☞ `math`](https://docs.python.org/3/library/math.html)
 # 🧪 Battery included 🔋
 
 - Modulo [`math`](https://docs.python.org/3/library/math.html) in *Python Standard Library*
     - Non necessita d'installazione
-    - `sin, pi, sqrt, round`…
+    - `sqrt, log, sin, pi, e, inf`…
 
 ``` py
 import math  # use namespace `math` as prefix
-y = math.sin(math.radians(30))  # 30°
-print(y)  # 1 / 2
+y = math.sqrt(4)
+print(y)  # 2.0
 ```
 
 ``` py
-from math import cos, pi  # no prefix for `cos`, `pi`
-print(cos(pi / 6))  # 30° → √3 / 2
+from math import sqrt  # no prefix for `sqrt`
+print(sqrt(4))
 ```
 
 - `import` all'inizio, per evidenziare dipendenze
@@ -494,7 +496,7 @@ print(cos(pi / 6))  # 30° → √3 / 2
 
 ---
 
-![](images/misc/dice.png)
+![](images/misc/dice.png) [☞ `random`](https://docs.python.org/3/library/random.html)
 # 🧪 Random 🎲
 
 - Modulo [`random`](https://docs.python.org/3/library/random.html) in *Python Standard Library*

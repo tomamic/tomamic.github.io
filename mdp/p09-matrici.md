@@ -303,8 +303,8 @@ with open("squares.txt", "w") as squares:
     - *Similmente* a lista di stringhe
 
 ``` py
-with open("shopping_list.txt") as grocery_file:
-    for line in grocery_file:
+with open("shopping_list.txt") as groceries_file:
+    for line in groceries_file:
         # process line
         # line = line.strip()
         print(line, ":", len(line))

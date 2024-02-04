@@ -581,16 +581,16 @@ using std::vector;
 // ...
 
 // initialization list
-vector<string> grocery = {"spam", "egg", "beans"};
-cout << grocery[1] << endl;  // egg
-cout << grocery.size() << endl;  // 3
-grocery[0] = "sausage";  // replace an elem
+vector<string> groceries = {"spam", "egg", "beans"};
+cout << groceries[1] << endl;  // egg
+cout << groceries.size() << endl;  // 3
+groceries[0] = "sausage";  // replace an elem
 
-grocery.push_back("bacon");  // add elem to the end
-grocery.pop_back();  // remove last elem
+groceries.push_back("bacon");  // add elem to the end
+groceries.pop_back();  // remove last elem
 
-grocery.insert(begin(grocery) + 1, "bacon");  // other elems shift
-grocery.erase(begin(grocery) + 1);  // remove elem at index
+groceries.insert(begin(groceries) + 1, "bacon");  // other elems shift
+groceries.erase(begin(groceries) + 1);  // remove elem at index
 ```
 
 >
@@ -602,8 +602,8 @@ grocery.erase(begin(grocery) + 1);  // remove elem at index
 # Cicli for, range-based
 
 ``` cpp
-for (auto product : grocery) {
-    // for each product in grocery
+for (auto product : groceries) {
+    // for each product in groceries
     cout << product << endl;
 }
 ```

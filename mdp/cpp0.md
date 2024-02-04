@@ -337,13 +337,13 @@ vector<int> rainfall_data = {13, 24, 18, 15};
 ```
 
 ``` cpp
-vector<string> grocery = {"spam", "egg", "beans"};  // init list
-cout << grocery[1] << "\n";  // egg
-cout << grocery.size() << "\n";  // 3 -- also for strings
-grocery[0] = "sausage";  // replace an elem
+vector<string> groceries = {"spam", "egg", "beans"};  // init list
+cout << groceries[1] << "\n";  // egg
+cout << groceries.size() << "\n";  // 3 -- also for strings
+groceries[0] = "sausage";  // replace an elem
 
-grocery.push_back("bacon");  // add elem to the end
-grocery.pop_back();  // remove last elem
+groceries.push_back("bacon");  // add elem to the end
+groceries.pop_back();  // remove last elem
 ```
 
 >
@@ -427,9 +427,9 @@ vector<int> last_two = {vals.end()-2 , vals.end()};  // [4, 5]
 
 ``` cpp
 // insert at index 1, other elems shift
-grocery.insert(grocery.begin() + 1, "bacon");
+groceries.insert(groceries.begin() + 1, "bacon");
 // remove elem at index 1, other elems shift back
-grocery.erase(grocery.begin() + 1);
+groceries.erase(groceries.begin() + 1);
 ```
 
 ``` cpp
@@ -437,9 +437,9 @@ grocery.erase(grocery.begin() + 1);
 ```
 
 ``` cpp
-auto pos = find(grocery.begin(), grocery.end(), "egg");
-if (pos != grocery.end()) {
-    grocery.erase(pos);  // grocery contains "egg", remove it
+auto pos = find(groceries.begin(), groceries.end(), "egg");
+if (pos != groceries.end()) {
+    groceries.erase(pos);  // groceries contains "egg", remove it
 }
 ```
 

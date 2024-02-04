@@ -114,18 +114,18 @@ Third value for step, possibly negative
 # Insertion and removal
 
 ``` py
-grocery = ["spam", "egg", "beans"]
+groceries = ["spam", "egg", "beans"]
 
-grocery[0] = "sausage"      # replace an element
+groceries[0] = "sausage"      # replace an element
 
-grocery.append("bacon")     # add an element to the end
-grocery.pop()               # remove (and return) last element
+groceries.append("bacon")     # add an element to the end
+groceries.pop()               # remove (and return) last element
 
-grocery.insert(1, "bacon")  # other elements shift
-removed = grocery.pop(1)    # remove (and return) element at index
+groceries.insert(1, "bacon")  # other elements shift
+removed = groceries.pop(1)    # remove (and return) element at index
 
-if "egg" in grocery:       # True, grocery contains "egg"
-    grocery.remove("egg")  # remove an element by value
+if "egg" in groceries:       # True, groceries contains "egg"
+    groceries.remove("egg")  # remove an element by value
 ```
 
 ---
@@ -217,8 +217,8 @@ a, b = b, a
 # Loops on sequences: for
 
 ``` py
-grocery = ["spam", "egg", "bacon", "sausage"]
-for product in grocery:
+groceries = ["spam", "egg", "bacon", "sausage"]
+for product in groceries:
     print(product)
 ```
 
@@ -227,7 +227,7 @@ for val in range(0, 5):
     print(val * val, end=" ")  # 0 1 4 9 16
 ```
 
-- At each iteration, a different element of `grocery` is assigned to `product`
+- At each iteration, a different element of `groceries` is assigned to `product`
 - A `for` loop can be used on any kind of sequence: list, string, tuple, range...
 - **`range`** : range of consecutive values
     - Lower end *included* (defaults to 0)
@@ -381,14 +381,14 @@ even_nums = (str(x) for x in range(12) if (x % 2) == 0)
 - In `for` cycles, using both value and index
 
 ``` py
->>> grocery = ["spam", "egg", "bacon", "sausage"]
->>> list(enumerate(grocery))
+>>> groceries = ["spam", "egg", "bacon", "sausage"]
+>>> list(enumerate(groceries))
 [(0, "spam"), (1, "egg"), (2, "bacon"), (3, "sausage")]
 ```
 
 ``` py
-grocery = ["spam", "egg", "bacon", "sausage"]
-for i, val in enumerate(grocery):
+groceries = ["spam", "egg", "bacon", "sausage"]
+for i, val in enumerate(groceries):
     print(i, val)
 ```
 
@@ -407,9 +407,9 @@ Otherwise, Python doesn't generate results immediately (*lazy*)
 - The result has the len of the shortest sequence
 
 ``` py
->>> grocery = ["spam", "egg", "bacon", "sausage"]
+>>> groceries = ["spam", "egg", "bacon", "sausage"]
 >>> quantities = ["100 g", "6 pc", "200 g", "500 g", "too much"]
->>> list(zip(grocery, quantities))
+>>> list(zip(groceries, quantities))
 [("spam", "100 g"), ("egg", "6 pc"), ("bacon", "200 g"),
 ("sausage", "500 g")]
 ```
@@ -474,21 +474,21 @@ Results in a list: only (!) to visualize them
 # Sort and reverse
 
 ``` py
->>> grocery = ["spam", "egg", "bacon", "sausage"]
->>> sorted(grocery)
+>>> groceries = ["spam", "egg", "bacon", "sausage"]
+>>> sorted(groceries)
 ['bacon', 'egg', 'sausage', 'spam']
->>> sorted(grocery, key=len)  # lengths of elements are compared
+>>> sorted(groceries, key=len)  # lengths of elements are compared
 ['egg', 'spam', 'bacon', 'sausage']
->>> list(reversed(grocery))
+>>> list(reversed(groceries))
 ['sausage', 'bacon', 'egg', 'spam']
->>> grocery
+>>> groceries
 ['spam', 'egg', 'bacon', 'sausage']
 ```
 
 ``` py
->>> grocery.sort()     # in-place
->>> grocery.reverse()  # in-place
->>> grocery
+>>> groceries.sort()     # in-place
+>>> groceries.reverse()  # in-place
+>>> groceries
 ['spam', 'sausage', 'egg', 'bacon']
 ```
 

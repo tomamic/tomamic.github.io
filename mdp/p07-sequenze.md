@@ -14,7 +14,7 @@
 - Sequenza mutabile di elementi omogenei
 
 ``` py
-grocery = ["spam", "egg", "beans"]
+groceries = ["spam", "egg", "beans"]
 rainfall_data = [13, 24, 18, 15]
 ```
 
@@ -58,14 +58,14 @@ for val in values:
     - Elementi *numerati* da `0` a `len(s)-1`
 
 ``` py
-grocery = ["spam", "egg", "beans", "bacon"]
-n = len(grocery)           # 4
-grocery[0]                 # "spam"
-grocery[1]                 # "egg"
-grocery[n-1]               # "bacon"
-grocery[1] = "ketchup"     # replace a value, len is still 4
-grocery.append("sausage")  # add to the end, len is 5
-grocery                    # guess!
+groceries = ["spam", "egg", "beans", "bacon"]
+n = len(groceries)           # 4
+groceries[0]                 # "spam"
+groceries[1]                 # "egg"
+groceries[n-1]               # "bacon"
+groceries[1] = "ketchup"     # replace a value, len is still 4
+groceries.append("sausage")  # add to the end, len is 5
+groceries                    # guess!
 ```
 
 ---
@@ -96,21 +96,21 @@ whole_year = months[:]     # Copy of the whole list
 # 🧪 Inserimento e rimozione
 
 ``` py
-grocery = ["spam", "egg", "beans"]
+groceries = ["spam", "egg", "beans"]
 
-grocery[0] = "sausage"      # replace an element
+groceries[0] = "sausage"      # replace an element
 
-grocery.append("bacon")     # add an element to the end
-grocery.pop()               # remove (and return) last element
+groceries.append("bacon")     # add an element to the end
+groceries.pop()               # remove (and return) last element
 
-grocery.insert(1, "bacon")  # other elements shift
-removed = grocery.pop(1)    # remove (and return) element at index
+groceries.insert(1, "bacon")  # other elements shift
+removed = groceries.pop(1)    # remove (and return) element at index
 
-i = grocery.index("egg")    # 1, index of "egg" in grocery
-if "egg" in grocery:        # True, grocery contains "egg"
-    grocery.remove("egg")   # remove an element by value
+i = groceries.index("egg")    # 1, index of "egg" in groceries
+if "egg" in groceries:        # True, groceries contains "egg"
+    groceries.remove("egg")   # remove an element by value
 
-grocery.clear()             # remove everything, grocery is empty now
+groceries.clear()             # remove everything, groceries is empty now
 ```
 
 ---
@@ -127,7 +127,7 @@ c = a
 c is a           # ❗ True, same object in memory
                  # (try and modify one of them...)
 d = ["sausage", "tomato"]
-grocery = c + d  # list concatenation --> new list!
+groceries = c + d  # list concatenation --> new list!
 
 # Lexicographical comparison of lists (or strings, tuples...)
 # Compare the first two *different* elements
@@ -310,8 +310,8 @@ a, b = b, a
     - *Similmente* a lista di stringhe
 
 ``` py
-with open("shopping_list.txt") as grocery_file:
-    for line in grocery_file:
+with open("shopping_list.txt") as groceries_file:
+    for line in groceries_file:
         # process line
         # line = line.strip()
         print(line, ":", len(line))
@@ -359,14 +359,14 @@ nums = [int(c) for c in "h3ll0 w0rld" if "0" <= c <= "9"]
     - Solo quando servono
 
 ``` py
-grocery = ["spam", "egg", "beans"]
+groceries = ["spam", "egg", "beans"]
 quantities = ["100 g", "6 pc", "200 g", "too much"]
 
-for p, q in zip(grocery, quantities):  # unpacking
+for p, q in zip(groceries, quantities):  # unpacking
     print(p, q, end=" § ")
 # spam 100 g § egg 6 pc § beans 200 g §
 
-z = list(zip(grocery, quantities))  # if you *really* need a list
+z = list(zip(groceries, quantities))  # if you *really* need a list
 # [("spam", "100 g"), ("egg", "6 pc"), ("beans", "200 g")]
 ```
 
@@ -380,13 +380,13 @@ z = list(zip(grocery, quantities))  # if you *really* need a list
 - Iterazioni con valore e indice assieme
 
 ``` py
-grocery = ["spam", "egg", "bacon", "sausage"]
+groceries = ["spam", "egg", "bacon", "sausage"]
 
-for i, val in enumerate(grocery):  # ~ zip(range(4), grocery)
+for i, val in enumerate(groceries):  # ~ zip(range(4), groceries)
     print(i, val, end=" § ")
 # 0 spam § 1 egg § 2 bacon § 3 sausage §
 
-e = list(enumerate(grocery))  # if you *really* need a list
+e = list(enumerate(groceries))  # if you *really* need a list
 [(0, "spam"), (1, "egg"), (2, "bacon"), (3, "sausage")]
 ```
 
@@ -399,17 +399,17 @@ e = list(enumerate(grocery))  # if you *really* need a list
 - Parametro `key`: contronto tra risultati di una *funzione*
 
 ``` py
-grocery = ["spam", "bacon", "egg"]
-s1 = sorted(grocery)           # ["bacon", "egg", "spam"]
-s2 = sorted(grocery, key=len)  # ["egg", "spam", "bacon"]
-rev = list(reversed(grocery))  # ["egg", "bacon", "spam"]
-print(grocery)                 # ["spam", "bacon", "egg"]
+groceries = ["spam", "bacon", "egg"]
+s1 = sorted(groceries)           # ["bacon", "egg", "spam"]
+s2 = sorted(groceries, key=len)  # ["egg", "spam", "bacon"]
+rev = list(reversed(groceries))  # ["egg", "bacon", "spam"]
+print(groceries)                 # ["spam", "bacon", "egg"]
 ```
 
 ``` py
-grocery.sort()     # in-place
-grocery.reverse()  # in-place
-print(grocery)     # ["spam", "egg", "bacon"]
+groceries.sort()     # in-place
+groceries.reverse()  # in-place
+print(groceries)     # ["spam", "egg", "bacon"]
 ```
 
 ---

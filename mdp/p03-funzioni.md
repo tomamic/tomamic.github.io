@@ -334,8 +334,8 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 - Spostamento `$(r, \theta)$` rispetto a `$(x_0, y_0)$`
     - *Traslazione*
-- In modulo `math`, funzioni utili
-    - `sin, cos, radians`
+- In modulo `math`, funzioni e costanti utili
+    - `sin, cos, radians, pi`
     - `hypot, atan2, dist`
 - Es. 4 raggi: stesso centro, stesso raggio, angoli diversi
 

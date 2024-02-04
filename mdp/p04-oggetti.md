@@ -269,13 +269,13 @@ print(c.alive())
 - Sequenza *mutabile* di valori *omogenei*
 
 ``` py
-grocery = ["spam", "eggs", "beans"]
-grocery.append("sausage")  # add "sausage" at the end
-print(len(grocery))  # 4
-grocery.remove("eggs")  # remove "eggs"
-print(len(grocery))  # 3
+groceries = ["spam", "eggs", "beans"]
+groceries.append("sausage")  # add "sausage" at the end
+print(len(groceries))  # 4
+groceries.remove("eggs")  # remove "eggs"
+print(len(groceries))  # 3
 
-for product in grocery:
+for product in groceries:
     print(product.capitalize())
 ```
 

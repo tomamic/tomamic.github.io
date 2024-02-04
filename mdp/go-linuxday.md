@@ -425,7 +425,7 @@ func main() {
     - Gli indici partono da 0!
 
 ``` go
-grocery := []string{"spam", "eggs", "beans"}
+groceries := []string{"spam", "eggs", "beans"}
 ```
 
 ``` go
@@ -446,17 +446,17 @@ resultsByMonth := make([]int, 12)  // 12 times 0
     - Elementi *numerati* da `0` a `len(s)-1`
 
 ``` go
-grocery := []string{"spam", "eggs", "beans"}
-n := len(grocery)      // 3
-grocery[1] = "bacon"   // replace a value, len is still 3
+groceries := []string{"spam", "eggs", "beans"}
+n := len(groceries)      // 3
+groceries[1] = "bacon"   // replace a value, len is still 3
 
-Println(grocery[0])    // "spam"
-Println(grocery[1])    // "bacon"
-Println(grocery[n-1])  // "beans"
+Println(groceries[0])    // "spam"
+Println(groceries[1])    // "bacon"
+Println(groceries[n-1])  // "beans"
 
 
-grocery = append(grocery, "sausage")  // add to the end, len is 4
-Println(grocery)                      // guess!
+groceries = append(groceries, "sausage")  // add to the end, len is 4
+Println(groceries)                      // guess!
 ```
 
 ---
@@ -465,19 +465,19 @@ Println(grocery)                      // guess!
 # Range loop su liste
 
 ``` go
-grocery := []string{"spam", "eggs", "beans"}
+groceries := []string{"spam", "eggs", "beans"}
 
-Println("Your grocery list contains:")
+Println("Your groceries list contains:")
 
-for _, value := range grocery {
+for _, value := range groceries {
     Println(value)
 }
-// for index, value := range grocery {
+// for index, value := range groceries {
 //    Println(index, value)
 // }
 ```
 
-- A ogni iterazione, a `value` è assegnato un diverso elemento della lista `grocery`
+- A ogni iterazione, a `value` è assegnato un diverso elemento della lista `groceries`
 - `index` e/o `value` possono essere omessi (sostituiti con `_`)
 
 ---

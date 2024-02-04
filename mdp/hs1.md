@@ -777,18 +777,18 @@ Third value for step, possibly negative
 # Insertion and removal
 
 ``` py
-grocery = ["spam", "egg", "beans"]
+groceries = ["spam", "egg", "beans"]
 
-grocery[0] = "sausage"      # replace an element
+groceries[0] = "sausage"      # replace an element
 
-grocery.append("bacon")     # add an element to the end
-grocery.pop()               # remove (and return) last element
+groceries.append("bacon")     # add an element to the end
+groceries.pop()               # remove (and return) last element
 
-grocery.insert(1, "bacon")  # other elements shift
-removed = grocery.pop(1)    # remove (and return) element at index
+groceries.insert(1, "bacon")  # other elements shift
+removed = groceries.pop(1)    # remove (and return) element at index
 
-if "egg" in grocery:       # True, grocery contains "egg"
-    grocery.remove("egg")  # remove an element by value
+if "egg" in groceries:       # True, groceries contains "egg"
+    groceries.remove("egg")  # remove an element by value
 ```
 
 ---
