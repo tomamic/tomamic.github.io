@@ -877,7 +877,7 @@ print(c.describe())
 print(c.alive())
 ```
 
-<https://tomamic.github.io/pyodide/?p04_dnd.py>
+<https://tomamic.github.io/pyodide/?p31_dnd.py>
 
 ---
 

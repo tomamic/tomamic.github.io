@@ -181,7 +181,7 @@ class Fifteen(BoardGame):
 
 >
 
-<https://tomamic.github.io/pyodide/?p09_fifteen.py>
+<https://tomamic.github.io/pyodide/?p42_fifteen.py>
 
 ---
 
@@ -441,7 +441,7 @@ Scrivere il minore dei due sul file di uscita
 <br>
 Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora stato scritto in output
 <br>
-<https://tomamic.github.io/pyodide/?p09_merge.py>
+<https://tomamic.github.io/pyodide/?p42_merge.py>
 
 ---
 
@@ -464,7 +464,7 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 
 >
 
-<https://tomamic.github.io/pyodide/?p09_csv.py>
+<https://tomamic.github.io/pyodide/?p42_csv.py>
 
 ---
 
@@ -488,7 +488,7 @@ Usare sempre due cicli `for` annidati: esterno su `y`, interno su `x`
 <br>
 In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 <br>
-<https://tomamic.github.io/pyodide/?p09_ascii.py>
+<https://tomamic.github.io/pyodide/?p42_ascii.py>
 
 ---
 
@@ -507,7 +507,7 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 
 >
 
-<https://tomamic.github.io/pyodide/?p09_scytale.py>
+<https://tomamic.github.io/pyodide/?p42_scytale.py>
 
 ---
 
@@ -528,7 +528,7 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 
 >
 
-<https://tomamic.github.io/pyodide/?p09_smooth.py>
+<https://tomamic.github.io/pyodide/?p42_smooth.py>
 
 ---
 
@@ -551,7 +551,7 @@ Coordinate raster, rotazione oraria di 90°: `(x', y') = (-y, x)`
 <br>
 In generale: `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin(θ) + y⋅cos(θ))`
 <br>
-<https://tomamic.github.io/pyodide/?p09_spiral.py>
+<https://tomamic.github.io/pyodide/?p42_spiral.py>
 
 ---
 
@@ -570,4 +570,4 @@ In generale: `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin(θ) + y⋅cos(θ))`
 
 <https://en.wikipedia.org/wiki/Lights_Out_(game)>
 <br>
-<https://tomamic.github.io/pyodide/?p09_lightsout.py>
+<https://tomamic.github.io/pyodide/?p42_lightsout.py>

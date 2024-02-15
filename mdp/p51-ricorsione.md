@@ -32,7 +32,7 @@ def factorial(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_factorial.py>
+<https://tomamic.github.io/pyodide/?p51_factorial.py>
 
 ---
 
@@ -111,7 +111,7 @@ def fibonacci(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_fibonacci.py>
+<https://tomamic.github.io/pyodide/?p51_fibonacci.py>
 
 ---
 
@@ -150,7 +150,143 @@ def fibonacci(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_fibonacci.py>
+<https://tomamic.github.io/pyodide/?p51_fibonacci.py>
+
+---
+
+# 💡️ Tipo di dato ricorsivo
+
+- Un valore può *contenere* valori dello stesso tipo
+- *Lista collegata (linked list)*
+    - Vuota / `None`, oppure...
+    - Nodo di testa, seguito da una *lista collegata*
+
+![](images/fun/linked-list.svg)
+
+``` py
+class ListNode:
+    def __init__(self, data, next=None):
+        self.data = data
+        self.next = next  # ListNode | None
+
+    def __str__(self) -> str:
+        return f"<{self.data} {self.next}>"
+```
+
+---
+
+![](images/comp/binary-tree.svg)
+# Albero binario
+
+- *Albero*
+    - Vuoto / `None`, oppure...
+    - Nodo di testa, seguito da più alberi
+- *Albero binario*
+    - Due figli per ogni nodo
+
+``` py
+class TreeNode:
+    def __init__(self, data, left=None, right=None):
+        self.data = data
+        self.left = left    # TreeNode | None
+        self.right = right  # TreeNode | None
+
+    def __str__(self) -> str:
+        return f"<{self.data} {self.left} {self.right}>"
+```
+
+---
+
+![](images/comp/sorted-tree.svg)
+# Albero ordinato
+
+``` py
+def insert(tree, val) -> TreeNode:
+    if tree == None:
+        tree = TreeNode(val)
+    elif val < tree.data:
+        tree.left = insert(tree.left, val)
+    elif val > tree.data:
+        tree.right = insert(tree.right, val)
+    return tree
+
+def flatten(tree) -> list:
+    if tree == None:
+        return []
+    return flatten(tree.left) + [tree.data] + flatten(tree.right)
+```
+
+- Albero ordinato come `set`, *senza ripetizioni*
+
+---
+
+![](images/comp/sorted-tree.svg)
+# Ricerca binaria
+
+``` py
+def contains(tree, val) -> bool:
+    if tree == None:
+        return False
+    if val == tree.data:
+        return True
+    subtree = tree.left if val < tree.data else tree.right
+    return contains(subtree, val)
+```
+
+``` py
+t = None
+for v in [7, 5, 5, 9, 6, 2, 3, 11]:
+    t = insert(t, v)
+print(t)
+print(flatten(t))
+print(contains(t, 4))
+print(contains(t, 5))
+```
+
+---
+
+![](images/misc/sample-file-system.png)
+# Documenti e cartelle
+
+- Albero che rappresenti una gerarchia di documenti
+- Nodo dell'albero
+    - Un `Document` (*foglia*)
+    - Oppure un `Folder`, con vari nodi figlio
+
+``` py
+class Node:
+    pass
+class Document(Node):
+    def __init__(self, name: str, data: str):
+        self._name = name
+        self._data = data
+class Folder(Node):
+    def __init__(self, name: str, children: list[Node]):
+        self._name = name
+        self._children = children
+```
+
+---
+
+![](images/comp/list-tree.svg)
+# Liste annidate
+
+- Casi semplici di alberi : liste annidate
+    - Tipo param es.: `T = list["T"] | int`
+
+``` py
+def count_tree(t) -> int:
+    if not isinstance(t, list):
+        return 1
+    # return sum(count_tree(v) for v in t)
+    count = 0
+    for v in t:
+        count += count_tree(v)
+    return count
+
+tree = [[1, 2, [3, 4], [5]], 6]
+print(count_tree(tree))
+```
 
 ---
 
@@ -173,7 +309,7 @@ Prima lettera == ultima lettera e...
 <br>
 Stringa rimanente (senza prima e ultima lettera) palindroma
 <br>
-<https://tomamic.github.io/pyodide/?p08_palindrome.py>
+<https://tomamic.github.io/pyodide/?p51_palindrome.py>
 
 ---
 
@@ -193,7 +329,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_sierpinski.py>
+<https://tomamic.github.io/pyodide/?p51_sierpinski.py>
 
 ---
 
@@ -213,7 +349,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_drawtree.py>
+<https://tomamic.github.io/pyodide/?p51_drawtree.py>
 
 ---
 
@@ -232,7 +368,7 @@ Euclide: MCD(a, b) = a, se b = 0;
 <br>
 MCD(a, b) = MCD(b, a mod b), se b > 0
 <br>
-<https://tomamic.github.io/pyodide/?p08_gcd.py>
+<https://tomamic.github.io/pyodide/?p51_gcd.py>
 
 ---
 
@@ -250,7 +386,7 @@ MCD(a, b) = MCD(b, a mod b), se b > 0
 
 <https://en.wikipedia.org/wiki/Bisection_method>
 <br>
-<https://tomamic.github.io/pyodide/?p08_bisection.py>
+<https://tomamic.github.io/pyodide/?p51_bisection.py>
 
 ---
 
@@ -270,7 +406,7 @@ MCD(a, b) = MCD(b, a mod b), se b > 0
 
 Saranno accettate esclusivamente le soluzioni ricorsive
 <br>
-<https://tomamic.github.io/pyodide/?p08_words.py>
+<https://tomamic.github.io/pyodide/?p51_words.py>
 
 ---
 
@@ -286,7 +422,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_anagram.py>
+<https://tomamic.github.io/pyodide/?p51_anagram.py>
 
 ---
 
@@ -309,4 +445,120 @@ spostare l'ultimo disco sul piolo giusto,
 <br>
 spostare ancora gli altri N-1 dischi.
 <br><br>
-<https://tomamic.github.io/pyodide/?p08_hanoi.py>
+<https://tomamic.github.io/pyodide/?p51_hanoi.py>
+
+---
+
+# Notazione polacca
+
+- Leggere una riga di testo in una stringa
+- Scrivere una funzione che valuti la stringa come una espressione, nella forma:
+    - `"+ 2 7"` (=9)
+- Gli operandi possono essere a loro volta espressioni:
+    - `"+ * 3 4 15"` (=27)
+- Scrivere una seconda funzione che trasformi l'espressione nell'abituale notazione infissa:
+    - `"((3 * 4) + 15)"`
+- Usare la ricorsione
+
+>
+
+Supporre che i “token” siano tutti separati da spazio e che gli operatori abbiano tutti cardinalità fissa
+<br>
+<https://tomamic.github.io/pyodide//?p41_polish.py>
+
+---
+
+![](images/misc/sample-file-system.png)
+# Documenti e cartelle
+
+- Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
+    - I *documenti*, caratterizzati da un nome e da un contenuto testuale (classe derivata)
+    - Le *cartelle*, caratterizzate da un nome e da una lista di nodi contenuti (classe derivata)
+- Creare una gerarchia delle tre classi: `Node`, `Document`, `Folder`
+- Nel corpo principale del programma, istanziare e organizzare vari nodi (senza input dell'utente)
+    - Ricreare con gli oggetti la struttura raffigurata a fianco
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_folders.py>
+
+---
+
+![](images/misc/sample-file-system.png)
+# Dimensione delle cartelle
+
+- Metodo `size` per tutti i nodi (es. precedente)
+    - Astratto nella classe base
+    - Per un documento, lunghezza del contenuto
+    - Per una cartella, somma delle dimensioni dei nodi contenuti
+- Calcolare dimensione, per l'esercizio precedente
+    - Inventare contenuti per i documenti presenti
+- Inoltre, metodo `print(indent: int)` per i nodi
+    - Per mostrare a terminale la struttura ad albero
+    - Metodo astratto nella classe base
+    - Mostra il nome di documenti e cartelle
+    - Indenta opportunamente i nodi, rispetto alla cartella che li contiene
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_folders.py>
+
+---
+
+![](images/comp/expression.svg)
+# Espressioni
+
+- Definire una gerarchia di classi per rappresentare espressioni matematiche
+- *Classe base* **`Expression`** con metodo astratto `eval`
+    - Senza parametri, restituisce il valore `float` dell'espressione
+- Le *sottoclassi* concrete di una espressione sono:
+    - **`Literal`**, contenente un valore costante `float`
+    - **`Sum`**, contenente due operandi, entrambi espressioni
+    - **`Product`**, contenente due operandi, entrambi espr.
+- Istanziare (senza fare *parsing*!) oggetti per rappresentare questa espressione:
+    - `5 * (3 * 2 + 4)`
+- Calcolare il valore finale, chiamando `eval` sul nodo radice
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_expression.py>
+
+---
+
+![](images/comp/expression.svg)
+# Espressioni prefisse
+
+- Aggiungere un  metodo `prefix` a `Expression` (es. precedente)
+    - Genera una stringa in notazione prefissa (operatore seguito da operandi)
+- Risultato da espressione di esempio:
+    - `"* 5 + * 3 2 4"`
+
+``` py
+prod1 = Product(Literal(3), Literal(2))
+sum1 = Sum(prod1, Literal(4))
+prod2 = Product(sum1, Literal(5))
+print(prod2.eval())
+print(prod2.prefix())
+```
+
+>
+
+<https://it.wikipedia.org/wiki/Notazione_polacca>
+<br>
+<https://tomamic.github.io/pyodide//?p41_expression.py>
+
+---
+
+![](images/comp/expression.svg)
+# Albero da stringa
+
+- Analizzare una stringa, fornita dall'utente
+    - La stringa contiene una espressione in notazione polacca, prefissa
+    - Generare in memoria un albero di oggetti di tipo **Expression**
+- Mostrare il valore dell'espressione, usando `eval`
+- Mostrare la rappresentazione infissa, usando `infix`
+    - Aggiungere un metodo `infix` a **Expression**
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_parse.py>

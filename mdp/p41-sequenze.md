@@ -158,7 +158,7 @@ def main():
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_fibonacci.py>
+<https://tomamic.github.io/pyodide/?p41_fibonacci.py>
 
 ---
 
@@ -184,7 +184,7 @@ main()
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_reset.py>
+<https://tomamic.github.io/pyodide/?p41_reset.py>
 
 ---
 
@@ -227,7 +227,7 @@ for c in line:
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_vowels.py>
+<https://tomamic.github.io/pyodide/?p13_vowels.py>
 
 ---
 
@@ -253,7 +253,7 @@ for c in text:
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_brackets.py>
+<https://tomamic.github.io/pyodide/?p41_brackets.py>
 
 ---
 
@@ -278,7 +278,7 @@ print(counters)
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_counters.py>
+<https://tomamic.github.io/pyodide/?p41_counters.py>
 
 ---
 
@@ -319,6 +319,127 @@ with open("shopping_list.txt") as groceries_file:
 
 - ⚠️ Ciascuna riga è di tipo `str`, terminante con `"\n"`
     - `strip()` toglie spaziature iniziali e finali
+
+---
+
+![](images/fun/rollinz.jpg)
+# 🥷 Insieme
+
+- Collezione non ordinata e *senza ripetizioni*
+    - Senza chiavi o indici
+- Metodi `add` e `discard`
+    - Aggiunta e rimozione
+- Operatori `in`, `|` e `&`
+    - Appartenenza, unione e intersezione
+
+``` py
+numbers = {1, 4, 5}
+numbers.add(4)  # {1, 4, 5}
+few = numbers & {4, 5, 6}  # {4, 5}, intersection
+many = numbers | {3, 4}  # {1, 3, 4, 5}, union
+
+empty_set = set()  # ⚠️ {} is an empty dict
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#set>
+
+---
+
+![](images/fun/dictionary.png)
+# 🥷 Dizionario
+
+- Chiamato anche *mappa* o *array associativo*
+- Raccolta di coppie **chiave**-**valore**
+- Chiave: *indice* per accedere al valore
+    - Le chiavi sono *uniche* (~ `list`)
+    - Tipo *`str`*, o altro tipo immutabile
+
+``` py
+tel = {"john": 4098, "terry": 4139}  # dict[str, int]
+if "john" in tel:
+    print(tel["john"])  # 4098, ⚠️ error for a missing key
+tel["graham"] = 4127
+for k, v in tel.items():
+    print(k, v)  # john 4098 ⏎ terry 4139 ⏎ graham 4127 ⏎
+```
+
+>
+
+Vedi: [get](https://docs.python.org/3/library/stdtypes.html#dict.get),
+[keys](https://docs.python.org/3/library/stdtypes.html#dict.keys),
+[values](https://docs.python.org/3/library/stdtypes.html#dict.values),
+[items](https://docs.python.org/3/library/stdtypes.html#dict.items) <br>
+<https://docs.python.org/3/library/stdtypes.html#dict>
+
+---
+
+`$\begin{pmatrix}5 & 0 & 0 & 0 \\ 0 & 8 & 0 & 0 \\ 0 & 0 & 3 & 0 \\ 0 & 6 & 0 & 0\end{pmatrix}$`
+# 🥷 Matrice sparsa
+
+- Matrice con molte celle “vuote”
+- Oppure chiavi sparse, non numeriche
+- Dizionario con chiavi di tipo *tupla*
+- Metodo `dict.get` con valore di *default*
+
+``` py
+values = {(0, 0): 5, (1, 1): 8,
+          (2, 2): 3, (1, 3): 6}  # dict[(int, int), int]
+
+x = int(input("Col? "))
+y = int(input("Row? "))
+val = values.get((x, y), 0)  # key not found → default 0
+print(val)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#dict>
+
+---
+
+# Dizionario delle transizioni
+
+- Tupla per indicizzare transizioni di FSM (macchina a stati finiti)
+- Tupla con attuale stato e attuale simbolo di input
+- Valore associato alla chiave : nuovo stato
+
+``` py
+transition = {("Q0", "a"): "Q1", ("Q0", "b"): "Q2",
+              ("Q1", "a"): "Q0", ("Q1", "b"): "Q3",
+              ("Q2", "a"): "Q3", ("Q2", "b"): "Q0",
+              ("Q3", "a"): "Q2", ("Q3", "b"): "Q1"}
+```
+
+- Ciclo di funzionamento
+
+``` py
+new_state = transition.get((state, symbol), None)
+```
+
+---
+
+# Macchina non deterministica
+
+- NFSM, non deterministica, si trova in un *insieme* di stati
+- Graffe esterne : *dizionario* delle transizioni
+    - Chiave : tupla di attuali stato e simbolo
+- Graffe interne : nuovo *insieme* di stati
+
+``` py
+states = {"Q0"}
+transition = {("Q0", "a"): {"Q0"},
+              ("Q0", "b"): {"Q0", "Q1"}}
+```
+
+- Funzionamento : `new_states` *unione* di tutti i nuovi stati
+
+``` py
+new_states = set()
+for state in states:
+    new_states |= transition.get((state, symbol), set())
+```
 
 ---
 
@@ -565,7 +686,7 @@ True
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_histogram.py>
+<https://tomamic.github.io/pyodide/?p41_histogram.py>
 
 ---
 
@@ -582,7 +703,7 @@ True
 
 Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 <br>
-<https://tomamic.github.io/pyodide/?p07_dice.py>
+<https://tomamic.github.io/pyodide/?p41_dice.py>
 
 ---
 
@@ -603,7 +724,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_merge.py>
+<https://tomamic.github.io/pyodide/?p41_merge.py>
 
 ---
 
@@ -621,7 +742,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p07_pacman.py>
+<https://tomamic.github.io/pyodide/?p41_pacman.py>
 
 ---
 
@@ -634,7 +755,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_resistors.py>
+<https://tomamic.github.io/pyodide/?p13_resistors.py>
 
 ---
 
@@ -645,3 +766,40 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 - Ciascuna riga del file contiene un valore `float`
 - Cercare il valore minimo e quello massimo nel file
 - Visualizzare i due valori
+
+---
+
+![](images/comp/fsm4.svg)
+# FSM
+
+- Simulare il comportamento della FSM in figura
+- Usare un dizionario per indicizzare le transizioni
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_fsm.py>
+
+---
+
+![](images/comp/nfsm.svg)
+# NFSM
+
+- Simulare il comportamento della FSM in figura
+- Usare un dizionario per indicizzare le transizioni
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_nfsm.py>
+
+---
+
+![](images/comp/pda3.svg)
+# PDA
+
+- Simulare il comportamento del PDA mostrato in figura
+- Usare un dizionario per indicizzare le transizioni
+- Opzionalmente, ridefinire l'automa per riconoscere stringhe di `$L := \{a^n b^{2n}\}$`
+
+>
+
+<https://tomamic.github.io/pyodide//?p41_pda.py>

@@ -705,7 +705,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-<https://tomamic.github.io/pyodide/?p10_folders.py>
+<https://tomamic.github.io/pyodide//?p41_folders.py>
 
 ---
 

@@ -33,7 +33,7 @@ def linear_search(v: list, value, beg, end) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_complexity.py>
+<https://tomamic.github.io/pyodide//?p51_complexity.py>
 
 ---
 
@@ -56,7 +56,7 @@ def binary_search(v: list, value, beg, end) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_complexity.py>
+<https://tomamic.github.io/pyodide//?p51_complexity.py>
 
 ---
 
@@ -178,7 +178,7 @@ def bubble_sort(v: list, beg, end):
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_complexity.py>
+<https://tomamic.github.io/pyodide//?p51_complexity.py>
 <br>
 <https://visualgo.net/en/sorting?slide=7>
 <br>
@@ -225,7 +225,7 @@ def selection_sort(v: list, beg, end):
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_complexity.py>
+<https://tomamic.github.io/pyodide//?p51_complexity.py>
 <br>
 <https://visualgo.net/en/sorting?slide=8>
 
@@ -266,7 +266,7 @@ def insertion_sort(v: list, beg, end, mid=1):
 
 >
 
-<https://tomamic.github.io/pyodide/?p08_complexity.py>
+<https://tomamic.github.io/pyodide//?p51_complexity.py>
 <br>
 <https://visualgo.net/en/sorting?slide=9>
 

@@ -95,7 +95,7 @@ main()  # remove, if importing the module elsewhere
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_hypotenuse.py>
+<https://tomamic.github.io/pyodide/?p21_hypotenuse.py>
 
 ---
 
@@ -142,7 +142,7 @@ g2d.main_loop(tick)  # call tick 30 times/second
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_anim.py>
+<https://tomamic.github.io/pyodide/?p21_anim.py>
 
 ---
 
@@ -264,7 +264,7 @@ def move_ball(x: int, y: int,
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_move.py>
+<https://tomamic.github.io/pyodide/?p21_move.py>
 
 ---
 
@@ -349,7 +349,7 @@ def draw_rays(x0: int, y0: int, r: int):
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_angles.py>
+<https://tomamic.github.io/pyodide/?p21_angles.py>
 
 ---
 
@@ -376,7 +376,7 @@ def move_around(start: Point, length: float, angle: float) -> Point:
 
 >
 
-<https://tomamic.github.io/pyodide/?p03_polar.py>
+<https://tomamic.github.io/pyodide/?p21_polar.py>
 
 ---
 

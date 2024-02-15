@@ -113,7 +113,7 @@ print("b2 @", b2.pos())
 
 >
 
-<https://tomamic.github.io/pyodide/?p04_ball.py>
+<https://tomamic.github.io/pyodide/?p31_ball.py>
 
 ---
 
@@ -158,7 +158,7 @@ def main():
 
 >
 
-<https://tomamic.github.io/pyodide/?p04_ball.py>
+<https://tomamic.github.io/pyodide/?p31_ball.py>
 
 ---
 
@@ -259,7 +259,7 @@ print(c.describe())
 print(c.alive())
 ```
 
-<https://tomamic.github.io/pyodide/?p04_dnd.py>
+<https://tomamic.github.io/pyodide/?p31_dnd.py>
 
 ---
 
@@ -305,7 +305,7 @@ g2d.init_canvas((ARENA_W, ARENA_H))
 g2d.main_loop(tick)
 ```
 
-<https://tomamic.github.io/pyodide/?p04_balls.py>
+<https://tomamic.github.io/pyodide/?p31_balls.py>
 
 ---
 
@@ -329,7 +329,7 @@ balls.append(Ball(80, 40))
 balls.append(Ball(120, 120))
 ```
 
-<https://tomamic.github.io/pyodide/?p04_balls.py>
+<https://tomamic.github.io/pyodide/?p31_balls.py>
 
 ---
 
@@ -393,7 +393,7 @@ def tick():
         g.move()
 ```
 
-<https://tomamic.github.io/pyodide/?p04_ghost.py>
+<https://tomamic.github.io/pyodide/?p31_ghost.py>
 
 - `g2d.draw_image_clip` disegna una porzione di immagine
     - Inefficiente caricare tante immagini separate

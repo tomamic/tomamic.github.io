@@ -953,7 +953,7 @@ Due date si possono confrontare direttamente come testo
     - Metodo `__init__` per *inizializzare* i personaggi
 - Creare una classe di GUI
     - Per la visualizzazione del gioco
-- [Esempio BounceGame](https://tomamic.github.io/pyodide/?p05_bouncegame.py)
+- [Esempio BounceGame](https://tomamic.github.io/pyodide/?p32_bouncegame.py)
 
 ---
 
@@ -1094,7 +1094,7 @@ Usare una list di `int`, con vere rimozioni, sarebbe problematico e inefficiente
 
 >
 
-<https://tomamic.github.io/pyodide/?p06_bouncetest.py>
+<https://tomamic.github.io/pyodide/?p34_bouncetest.py>
 
 ---
 
@@ -1159,7 +1159,7 @@ Confrontare testo con testo, senza usare `ord`
 # 9.3 Poligono ricorsivo
 
 - Riprendere l'esempio del poligono
-    - https://tomamic.github.io/pyodide/?p03_polygon.py
+    - https://tomamic.github.io/pyodide/?p21_polygon.py
 - Se il raggio è più piccolo di 5, non disegnare niente
 - Altrimenti, disegnare il poligono
 - Poi, centrato in ogni vertice…
@@ -1490,7 +1490,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-<https://tomamic.github.io/pyodide/?p10_folders.py>
+<https://tomamic.github.io/pyodide//?p41_folders.py>
 
 ---
 

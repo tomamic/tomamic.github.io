@@ -62,7 +62,7 @@ for c in line:
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_vowels.py>
+<https://tomamic.github.io/pyodide/?p13_vowels.py>
 
 ---
 
@@ -218,7 +218,7 @@ for i in range(n):
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_squares.py>
+<https://tomamic.github.io/pyodide/?p13_squares.py>
 
 ---
 
@@ -246,7 +246,7 @@ for y in range(1, 11):
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_tables.py>
+<https://tomamic.github.io/pyodide/?p13_tables.py>
 
 ---
 
@@ -270,7 +270,7 @@ for y in range(rows):
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_grid.py>
+<https://tomamic.github.io/pyodide/?p13_grid.py>
 
 ---
 
@@ -359,7 +359,7 @@ print("Sum of all values:", total)
 
 >
 
-<https://tomamic.github.io/pyodide/?p02_sentinel.py>
+<https://tomamic.github.io/pyodide/?p13_sentinel.py>
 
 ---
 
@@ -383,7 +383,7 @@ for i in range(1, n + 1):
 
 <https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia>
 <br>
-<https://tomamic.github.io/pyodide/?p02_gauss.py>
+<https://tomamic.github.io/pyodide/?p13_gauss.py>
 
 ---
 
@@ -435,11 +435,13 @@ while val != "":
 # Quadrati in colonna
 
 - Chiedere all'utente un numero `n`
+- In un canvas $L\times L$, con $L=500$ predefinito
 - Disegnare una colonna verticale di `n` quadrati
+    - Tutti di uguale dimensione
     - Sfruttare tutta l'altezza del canvas
-    - Lasciare un pixel vuoto tra l'uno e l'altro
 - Il colore varia gradualmente dal nero fino al verde saturo
     - Dall'alto verso il basso
+- Opzionalmente, lasciare un pixel vuoto tra un quadrato e l'altro
 
 ---
 
@@ -447,8 +449,10 @@ while val != "":
 # Cerchi in riga
 
 - Chiedere all'utente un numero $n$
+- In un canvas $L\times L$, con $L=500$ predefinito
 - Disegnare una fila orizzontale di $n$ cerchi
-    - Sfruttare tutta la larghezza del canvas
+    - Tutti di uguale dimensione
+    - Coprono tutta la larghezza del canvas
 - Il colore varia gradualmente dal nero fino al blu saturo
     - Da sinistra verso destra
 
@@ -459,21 +463,21 @@ while val != "":
 # Cerchi concentrici
 
 - Chiedere all'utente un numero $n$
-- Disegnare $n$ cerchi concentrici
-    - Al centro di un canvas quadrato di lato $L$
-    - Diametro decrescente, da $L$ fino a $L/n$
+- In un canvas $L\times L$, con $L=500$ predefinito
+- Disegnare $n$ cerchi al centro del canvas
+    - Diametro decrescente, da $L$ fino a $\frac{L}{n}$
     - Colore da rosso (cerchio esterno) a nero
-- Prima del ciclo, determinare di quanto cambiare raggio e colore a ogni passo
 
 ---
 
 ![](images/misc/red-squares.svg)
 # Quadrati in diagonale
 
-- Disegnare $n$ quadrati, $n$ scelto da utente
-- Quadrati disposti in diagonale
-- Occupano intero canvas quadrato
-    - Lato del canvas $L$ predefinito, p.es. 500
+- Chiedere all'utente un numero `n`
+- In un canvas $L\times L$, con $L=500$ predefinito
+- Disegnare sulla diagonale $n$ quadrati
+    - Tutti di uguale dimensione
+    - Coprono tutta la diagonale del canvas
 - Quadrati sovrapposti per metà del loro lato $l$
    - $l$ non predefinito, dipende da $n$
 
