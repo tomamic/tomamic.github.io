@@ -18,7 +18,7 @@
 
 ---
 
-![](images/dev/problem-solving.svg) ![](images/misc/space-diagonal.svg)
+![](images/dev/problem-solving.svg) ![](images/algo/space-diagonal.svg)
 # 💡 Analisi del problema
 
 - **➊ See.** Capire il problema
@@ -49,7 +49,7 @@ Ad esempio, per il calcolo della diagonale di un parallelepipedo, <br> una buona
 
 ---
 
-![](images/dev/problem-solving.svg) ![](images/hist/david-michelangelo.png) David di Michelangelo
+![](images/dev/problem-solving.svg) ![](images/hist/david-michelangelo.jpg) David di Michelangelo
 # 💡 … E ritorno
 
 - **➍ Check.** Controllare la soluzione
