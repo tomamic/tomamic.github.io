@@ -503,7 +503,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 4.7 Documenti e cartelle
 
 - Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
@@ -516,7 +516,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 4.8 Ultimo aggiornamento
 
 - Aggiungere a tutti i *nodi* (es. 4.7) un metodo `updated`, che riporta la data dell'ultima modifica

@@ -466,7 +466,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 4.4 Documenti e cartelle
 
 - Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)

@@ -598,7 +598,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 6.4 Profondità albero
 
 - Partire dall'esempio del file system (es. 4.5 del 2014)

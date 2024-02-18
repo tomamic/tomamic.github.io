@@ -1475,7 +1475,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 11.4 Documento più grande
 
 - Partire dall'esempio di cartelle e documenti

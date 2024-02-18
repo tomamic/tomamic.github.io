@@ -883,7 +883,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 8.4 Profondità albero
 
 - Partire dall'es. 4.5 del 2014: file system

@@ -245,7 +245,7 @@ print(contains(t, 5))
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # Documenti e cartelle
 
 - Albero che rappresenti una gerarchia di documenti
@@ -468,7 +468,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # Documenti e cartelle
 
 - Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
@@ -484,7 +484,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # Dimensione delle cartelle
 
 - Metodo `size` per tutti i nodi (es. precedente)

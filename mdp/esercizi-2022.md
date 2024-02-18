@@ -1066,7 +1066,7 @@ Può essere utile un campo `expected`, che memorizza e incrementa il valore atte
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 9.7 Profondità albero
 
 - Partire dall'albero di documenti e cartelle
@@ -1240,7 +1240,7 @@ In alternativa, usare una regex
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 10.7 Documento più grande
 
 - Partire dall'albero di *documenti e cartelle*

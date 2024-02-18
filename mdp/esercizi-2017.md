@@ -565,7 +565,7 @@ The Zen of Python
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 5.4 Profondità albero
 
 - Partire dall'esempio del file system (es. 4.5 del 2014)

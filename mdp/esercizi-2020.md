@@ -690,7 +690,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/sample-file-system.png)
+![](images/repr/file-system.svg)
 # 6.5 Documento più grande
 
 - Partire dall'es. 4.5 del 2014: file system
