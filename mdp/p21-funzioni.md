@@ -309,7 +309,7 @@ Ad esempio, con `x = 3` e `y = 4` i due risultati sono `-2` e `4`
 
 ---
 
-![](images/misc/sin-cos-tan-1.svg) ![](images/misc/sin-cos-tan-2.svg)
+![](images/fun/sin-cos-tan-1.svg) ![](images/fun/sin-cos-tan-2.svg)
 # 🧪 Coordinate polari
 
 - Noti ipotenusa e angolo di un triangolo rettangolo

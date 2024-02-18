@@ -60,7 +60,7 @@ True
 
 ---
 
-![large](images/algo/assign.png)
+![large](images/algo/assign.svg)
 # ⭐ Assegnamento
 
 - Una **variabile** serve per ricordare un risultato utile
@@ -247,7 +247,7 @@ print("The sum is", total)
 
 ---
 
-![large](images/oop/raster-coord.png) ![large](images/repr/color-mixing.svg)
+![large](images/repr/raster-coords.svg) ![large](images/repr/color-mixing.svg)
 # ⭐ Disegno su canvas
 
 - **Coordinate raster**

@@ -248,7 +248,7 @@ Se necessario, provare prima a leggere i caratteri da console
 
 ---
 
-![](images/misc/sin-cos.png)
+![](images/fun/sin-cos.png)
 # 3.2 Array, precalcolo
 
 - Riempire un array con i valori di `sin(x)`

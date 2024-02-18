@@ -157,7 +157,7 @@ Usare un ciclo `for` sulla stringa (sequenza di caratteri)
 
 ---
 
-![](images/misc/sin-cos.png)
+![](images/fun/sin-cos.png)
 # 2.2 Array, precalcolo
 
 - Riempire una lista con i valori di `sin(x)`

@@ -1288,7 +1288,7 @@ IEEE definisce anche $0^0 = 1$, anzichè indeterminato
 
 ---
 
-![](images/misc/sin-cos.png) ![](images/misc/interpolation.svg)
+![](images/fun/sin-cos.png) ![](images/misc/interpolation.svg)
 # 10.2 Classe FastSin
 
 - Definire una classe `FastSin`

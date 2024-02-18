@@ -328,7 +328,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/misc/sin-cos.png)
+![](images/fun/sin-cos.png)
 # 3.5 Oscillazione sinusoidale
 
 - Partire dalla classe dell'esercizio 3.1
