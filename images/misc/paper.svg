@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ns1="http://sozi.baierouge.fr" id="svg3342" sodipodi:docname="emyller_papyrus.svg" viewBox="0 0 370.19 382.98" sodipodi:version="0.32" version="1.0" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.46">
+  <defs id="defs3344">
+    <linearGradient id="linearGradient3340" y2="463.06" gradientUnits="userSpaceOnUse" x2="361.02" gradientTransform="matrix(6.1377 0 0 6.1377 -1749.5 -2198.4)" y1="473.86" x1="358.96" inkscape:collect="always">
+      <stop id="stop3336" style="stop-color:#a0892c" offset="0"/>
+      <stop id="stop3338" style="stop-color:#decd87" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3330" y2="462.39" gradientUnits="userSpaceOnUse" x2="349.33" gradientTransform="matrix(6.1377 0 0 6.1377 -1749.5 -2198.4)" y1="468" x1="348.67" inkscape:collect="always">
+      <stop id="stop3326" style="stop-color:#a0892c" offset="0"/>
+      <stop id="stop3328" style="stop-color:#e9ddaf" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2532" y2="421.37" gradientUnits="userSpaceOnUse" x2="342.97" gradientTransform="matrix(6.1377 0 0 6.1377 -1749.5 -2198.4)" y1="471.64" x1="339.49" inkscape:collect="always">
+      <stop id="stop2528" style="stop-color:#decd87" offset="0"/>
+      <stop id="stop3421" style="stop-color:#f4edd4" offset=".72282"/>
+      <stop id="stop2530" style="stop-color:#decd87" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2542" y2="429.43" gradientUnits="userSpaceOnUse" x2="360.85" gradientTransform="matrix(6.1377 0 0 6.1377 -1749.5 -2198.4)" y1="424.08" x1="361.7" inkscape:collect="always">
+      <stop id="stop2546" style="stop-color:#d3bc5f" offset="0"/>
+      <stop id="stop2548" style="stop-color:#a0892c" offset="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2540" y2="420.23" gradientUnits="userSpaceOnUse" x2="346.89" gradientTransform="matrix(6.1377 0 0 6.1377 -1749.5 -2198.4)" y1="429.21" x1="345.18" inkscape:collect="always">
+      <stop id="stop2536" style="stop-color:#e9ddaf" offset="0"/>
+      <stop id="stop2538" style="stop-color:#f4eed7" offset="1"/>
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview id="base" bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="-8" pagecolor="#ffffff" inkscape:showpageshadow="false" inkscape:zoom="0.82911689" inkscape:window-x="-8" inkscape:window-height="688" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer1" inkscape:cx="367.9694" inkscape:cy="161.19159" inkscape:window-width="1024" inkscape:pageopacity="0.0" inkscape:document-units="px"/>
+  <g id="layer1" inkscape:label="Camada 1" inkscape:groupmode="layer" transform="translate(-210.62 -359.19)">
+    <g id="g3423">
+      <path id="path2550" sodipodi:nodetypes="ccccc" style="fill-rule:evenodd;stroke:#000000;stroke-width:6.1377px;fill:url(#linearGradient3340)" d="m484.54 713.58c44.9 10.21 71.01-55.9 34.23-65.84l-230.86-15.36c42.65 20.37 8.68 63.23-35.55 59.25l232.18 21.95z"/>
+      <path id="path3322" sodipodi:nodetypes="ccccc" style="fill-rule:evenodd;stroke:#000000;stroke-width:6.1377px;fill:url(#linearGradient3330)" d="m518.14 647.6c-33.07-2.76-27.13 26.57-21.75 33.06l-232.62-18.43c-8.76-11.36-0.14-30.44 26.34-29.85l228.03 15.22z"/>
+      <path id="path2520" sodipodi:nodetypes="ccccc" style="fill-rule:evenodd;stroke:#000000;stroke-width:6.1377px;fill:url(#linearGradient2532)" d="m292.7 384.37c96.28 20.5-122.97 292.03-41.05 307.25l237.06 22.51c-107.02-34.87 141.23-296.64 47.67-325.79l-243.68-3.97z"/>
+      <path id="path2522" sodipodi:nodetypes="ccccc" style="fill-rule:evenodd;stroke:#000000;stroke-width:6.1377px;fill:url(#linearGradient2542)" d="m531.08 404.24c6.18 4.76 16.59 26.97-7.1 30.06l-260.42-6.54c27.72-9.57 17.5-20.08 10.6-27.5l256.92 3.98z"/>
+      <path id="path2524" sodipodi:nodetypes="ccccc" style="fill-rule:evenodd;stroke:#000000;stroke-width:6.1377px;fill:url(#linearGradient2540)" d="m529.76 388.34c-27.98 10.64-26.34 41.19-11.12 45.65l-253-6c-11.08 0.03-17.12-43.37 25.74-44.02l238.38 4.37z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Papyrus</dc:title>
+        <dc:date>2008-06-08T06:12:18</dc:date>
+        <dc:description>Just a drawing of an old papyrus</dc:description>
+        <dc:source>https://openclipart.org/detail/17299/papyrus-by-evandromyller</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>evandromyller</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>paper</rdf:li>
+            <rdf:li>papyrus</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

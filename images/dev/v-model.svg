@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="754" height="481" version="1.1" viewBox="110 197 580 370" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <marker id="Arrow1Mstart" overflow="visible" orient="auto">
+   <path transform="scale(.4) translate(10)" d="m0 0 5-5-17.5 5 17.5 5-5-5z" fill-rule="evenodd" stroke="#000" stroke-width="1pt"/>
+  </marker>
+  <marker id="Arrow2Mend" overflow="visible" orient="auto">
+   <path transform="scale(.6) rotate(180) translate(0)" d="m8.72 4.03-10.9-4.02 10.9-4.02c-1.75 2.37-1.74 5.62-6e-7 8.04z" fill-rule="evenodd" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <linearGradient id="linearGradient3134">
+   <stop stop-color="#0000f8" stop-opacity=".329" offset="0"/>
+   <stop stop-color="#0000bf" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3140" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -304 -374)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient3156" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -393 -321)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient3166" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -478 -273)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient7285" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -305 27.4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient7287" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -394 -11.9)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient7289" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.419 0 0 2.61 -479 -55.7)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+  <linearGradient id="linearGradient7319" x1="37.2" x2="189" y1="219" y2="219" gradientTransform="matrix(.417 0 0 3.15 -565 -284)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3134"/>
+ </defs>
+ <g>
+  <path d="m144 211 263 280 256-280" fill="none" stroke="#2736a5" stroke-opacity=".361" stroke-width="7.46"/>
+  <g fill="#fff" stroke="#000" stroke-linecap="square" stroke-width="2.24">
+   <rect transform="rotate(-90)" x="-288" y="133" width="63.2" height="128" rx="3.3" ry="20.5"/>
+   <rect transform="rotate(-90)" x="-376" y="186" width="63.2" height="128" rx="3.3" ry="20.5"/>
+   <rect transform="rotate(-90)" x="-461" y="233" width="63.2" height="128" rx="3.3" ry="20.5"/>
+  </g>
+  <g>
+   <rect transform="rotate(-90)" x="-288" y="132" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient3140)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="203.70944" y="242.03891" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="203.70944" y="242.03891" style="line-height:1">Requirements</tspan><tspan x="203.70944" y="259.95285" style="line-height:1">analysis</tspan></text>
+   <rect transform="rotate(-90)" x="-377" y="185" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient3156)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="258.52115" y="327.28241" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="258.52115" y="327.28241" style="line-height:1">High level</tspan><tspan x="258.52115" y="345.19635" style="line-height:1">design</tspan></text>
+   <rect transform="rotate(-90)" x="-462" y="233" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient3166)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="308.54953" y="409.65433" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="308.54953" y="409.65433" style="line-height:1">Detailed</tspan><tspan x="308.54953" y="427.56827" style="line-height:1">design</tspan></text>
+  </g>
+  <g fill="#fff" stroke="#000" stroke-linecap="square" stroke-width="2.24">
+   <rect transform="rotate(-90)" x="-289" y="534" width="63.2" height="128" rx="3.3" ry="20.5"/>
+   <rect transform="rotate(-90)" x="-377" y="495" width="63.2" height="128" rx="3.3" ry="20.5"/>
+   <rect transform="rotate(-90)" x="-462" y="451" width="63.2" height="128" rx="3.3" ry="20.5"/>
+  </g>
+  <g>
+   <rect transform="rotate(-90)" x="-289" y="533" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient7285)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="620.08997" y="242.97437" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="620.08997" y="242.97437" style="line-height:1">System</tspan><tspan x="620.08997" y="260.88831" style="line-height:1">testing</tspan></text>
+   <rect transform="rotate(-90)" x="-378" y="494" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient7287)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="579.3606" y="328.21783" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="579.3606" y="328.21783" style="line-height:1">Integration</tspan><tspan x="579.3606" y="346.13177" style="line-height:1">testing</tspan></text>
+   <rect transform="rotate(-90)" x="-463" y="450" width="63.2" height="128" rx="3.3" ry="20.5" fill="url(#linearGradient7289)" stroke="#000" stroke-linecap="square" stroke-width="2.24"/>
+   <text transform="scale(.964 1.04)" x="533.84796" y="410.58978" fill="#000000" font-family="'Bitstream Vera Sans'" font-size="17.9px" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="533.84796" y="410.58978" style="line-height:1">Unit</tspan><tspan x="533.84796" y="428.50372" style="line-height:1">testing</tspan></text>
+   <rect transform="rotate(-90)" x="-548" y="329" width="63" height="155" rx="3.29" ry="24.8" fill="#fff" stroke="#000" stroke-linecap="square" stroke-width="2.46"/>
+   <rect transform="rotate(-90)" x="-549" y="328" width="63" height="155" rx="3.29" ry="24.8" fill="url(#linearGradient7319)" stroke="#000" stroke-linecap="square" stroke-width="2.46"/>
+   <text transform="scale(.964 1.04)" x="422.51535" y="501.44147" fill="#000000" font-family="'Bitstream Vera Sans'" stroke-width="1px" text-align="center" text-anchor="middle" style="line-height:0%" xml:space="preserve"><tspan x="422.51535" y="501.44147" font-size="17.9px" style="line-height:1">Implementation</tspan></text>
+  </g>
+  <g fill="none" stroke="#000" stroke-width="2.24">
+   <path d="m271 253h253" marker-end="url(#Arrow2Mend)" marker-start="url(#Arrow1Mstart)"/>
+   <path d="m369 424h73.2" marker-end="url(#Arrow2Mend)" marker-start="url(#Arrow1Mstart)"/>
+   <path d="m333 344h142" marker-end="url(#Arrow2Mend)" marker-start="url(#Arrow1Mstart)"/>
+  </g>
+ </g>
+</svg>
