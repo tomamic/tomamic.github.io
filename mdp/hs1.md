@@ -341,7 +341,7 @@ ghci> doubleMe 5
 
 ---
 
-![](images/fun/shopping-list.jpg)
+![](images/dev/shopping-list.jpg)
 # Lists
 
 - Much like shopping lists in the real world, lists in Haskell are very useful
@@ -508,9 +508,9 @@ True
 
 - If we think of a list as a monster, here's what's what
 - `head` takes a list and returns its head
-    - The head of a list is basically its first element.
+    - The head of a list is basically its first element
 - `tail` takes a list and returns its tail
-    - In other words, it chops off a list's head.
+    - In other words, it chops off a list's head
 - `last` takes a list and returns its last element
 - `init` takes a list and returns everything except its last element
 

@@ -163,7 +163,7 @@
 
 ---
 
-![large](images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) Algol committee
+![large](images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
 # 1950s - Early languages
 
 - First languages are task specific - First compilers
