@@ -531,7 +531,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![](images/dev/lang-learn.svg) 1679 users of Slashdot
+![](images/dev/lang-learn.svg) Speed of language acquisition <br> 1679 users of Slashdot
 # Intrinsics, simplicity
 
 - Simple definition vs. simple effective use
