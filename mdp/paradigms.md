@@ -55,8 +55,8 @@
 - **Textbooks**
     - [Linguaggi formali - Dispensa in italiano](https://github.com/tomamic/fondinfo/wiki/T03-Linguaggi)
     - M. Gabbrielli, S. Martini (2011) - *Linguaggi di programmazione - Principi e paradigmi* - ISBN:978-8838665738
-    - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - <http://learnyouahaskell.com/>
-    - S. Klabnik, C. Nichols (2023) - *The Rust Programming Language* - <https://doc.rust-lang.org/book/>
+    - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - ISBN:978-1593272838 - <http://learnyouahaskell.com/>
+    - S. Klabnik, C. Nichols (2023) - *The Rust Programming Language* - ISBN:978-1718503106 - <https://doc.rust-lang.org/book/>
 
 ---
 
