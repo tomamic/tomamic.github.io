@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="22cm" height="25cm" viewBox="308 140 427 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="26cm" height="25cm" viewBox="308 140 512 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background">
@@ -10,23 +12,23 @@
     <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="360" y="210.95">
       <tspan x="360" y="210.95">Chest 1</tspan>
     </text>
-    <image x="600" y="140" width="135.248" height="140" xlink:href="paper.svg"/>
-    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="667.624" y="195.408">
-      <tspan x="667.624" y="195.408">The gold</tspan>
-      <tspan x="667.624" y="216.575">is not</tspan>
-      <tspan x="667.624" y="237.742">in 2</tspan>
+    <image x="600" y="140" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="680" y="189.403">
+      <tspan x="680" y="189.403">The gold</tspan>
+      <tspan x="680" y="217.625">is not</tspan>
+      <tspan x="680" y="245.847">in 2</tspan>
     </text>
-    <image x="600" y="320" width="135.248" height="140" xlink:href="paper.svg"/>
-    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="667.624" y="375.408">
-      <tspan x="667.624" y="375.408">The gold</tspan>
-      <tspan x="667.624" y="396.575">is in</tspan>
-      <tspan x="667.624" y="417.742">1 or 3</tspan>
+    <image x="600" y="320" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="680" y="369.403">
+      <tspan x="680" y="369.403">The gold</tspan>
+      <tspan x="680" y="397.625">is in</tspan>
+      <tspan x="680" y="425.847">1 or 3</tspan>
     </text>
-    <image x="600" y="500" width="135.248" height="140" xlink:href="paper.svg"/>
-    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="667.624" y="555.408">
-      <tspan x="667.624" y="555.408">The gold</tspan>
-      <tspan x="667.624" y="576.575">is not</tspan>
-      <tspan x="667.624" y="597.742">in here</tspan>
+    <image x="600" y="500" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="680" y="549.403">
+      <tspan x="680" y="549.403">The gold</tspan>
+      <tspan x="680" y="577.625">is not</tspan>
+      <tspan x="680" y="605.847">here</tspan>
     </text>
     <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="360" y="390.95">
       <tspan x="360" y="390.95">Chest 2</tspan>
