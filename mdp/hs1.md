@@ -1068,6 +1068,7 @@ def fib_unb():
 - `repeat(elem [,n])`
     - `repeat(10) --> 10 10 10 …`
 - `islice(iterable, stop)` <br> `islice(iterable, start, stop[, step])`
+    - Params can be `None`
 
 >
 
@@ -1127,14 +1128,14 @@ ghci> [x | x <- [50..100], x `mod` 7 == 3]
 # Examples of comprehensions
 
 ``` hs
-ghci> let boomBangs xs = [if x < 10 then "BOOM!"
+ghci> boomBangs xs = [if x < 10 then "BOOM!"
                              else "BANG!" | x <- xs, odd x]
 ghci> boomBangs [7..13]
 ["BOOM!","BOOM!","BANG!","BANG!"]
 ```
 
 ``` hs
-ghci> let removeNonUppercase st = [c | c <- st,
+ghci> removeNonUppercase st = [c | c <- st,
                                       c `elem` ['A'..'Z']]
 ghci> removeNonUppercase "IdontLIKEFROGS"
 "ILIKEFROGS"
@@ -1238,6 +1239,10 @@ ghci> zip [1..] ["apple", "orange", "cherry", "mango"]
 
 ---
 
+# Python's corner
+
+---
+
 # Zipping in Python
 
 - Python's `zip` is *lazy*, too
@@ -1256,6 +1261,106 @@ ghci> zip [1..] ["apple", "orange", "cherry", "mango"]
 1 21
 2 19
 ```
+
+---
+
+![](images/repr/child-fingers.png)
+# 🥷 Enumerate
+
+- It pairs a growing index with values in a sequence
+- It generates a *lazy* sequence of pairs
+- Iterations where both index and value are needed
+
+``` py
+groceries = ["spam", "egg", "bacon", "sausage"]
+
+for i, val in enumerate(groceries):  # ~ zip(range(4), groceries)
+    print(i, val, end=" § ")
+# 0 spam § 1 egg § 2 bacon § 3 sausage §
+
+e = list(enumerate(groceries))  # if you *really* need a list
+[(0, "spam"), (1, "egg"), (2, "bacon"), (3, "sausage")]
+```
+
+---
+
+# 🥷 Instructions and expressions
+
+- **Expression**: code which produces a value, when executed
+    - Fit for the right hand side of an assignment (*rvalue*)
+- Many Python **instructions** do not correspond to a value
+    - `if`, `while`, `for`, `def`, `class` are *not* expressions
+    - Assignments `=`, `+=` etc. are *not* expressions
+- A special `if` exists, as an expression
+
+``` py
+val = "boom" if 5 % 2 == 0 else "bang"`
+```
+
+- Since v3.8: special *assignment* `:=`, as an expression
+
+``` py
+while (v := float(input("val? "))) >= 0:  # sentinel
+    print(v ** .5)
+```
+
+---
+
+# 🥷 Thrutiness value
+
+- Each object can be cast to `bool`
+- *Falsy* constants and numbers
+    - `None`, `False`, `0`, `0.0` ecc.
+- *False* sequences
+    - `""`, `()`, `[]`, `{}`, `set()`, `range(0)`
+- Other objects, normally *truthy*
+    - Decided by their `__bool__`, or `__len__` methods
+
+``` py
+while v := input("val? "):  # sentinel, "" is falsy
+    print(float(v) ** 2)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#truth>
+
+---
+
+# Aggregation functions
+
+- Froma sequence to a single result
+- Logic operations
+    - **`all`** : logic *AND* on all *thruty* values
+    - **`any`** : logic *OR* on all *thruty* values
+- Numeric operazions
+    - **`sum`, `max`, `min`, `len`**
+    - **count** method on a sequence: number of occurrences of a value
+
+``` py
+>>> all((2, 1, 0, -1, ""))  # 0 and "" are falsy
+False
+>>> any([2, 1, 0, -1, ""])  # 2, 1 and -1 are truthy
+True
+>>> "abracadabra".count("a")
+5
+```
+
+---
+
+# Generator expressions
+
+- Like comprehensions, but lazy
+    - No square brackets
+- Often in aggregation functions
+
+``` py
+>>> sum(1 for x in [1, 3, 4, 6, 7] if x % 2 == 1)
+3
+```
+
+- Es. count mines arond a cell:
+    - <https://tomamic.github.io/pyodide/?p42_mines.py>
 
 ---
 
