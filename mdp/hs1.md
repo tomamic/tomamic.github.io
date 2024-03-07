@@ -931,12 +931,12 @@ range(5, 15, 2)
 # Fibonacci list
 
 ``` py
-def fib_list(max):
+def fib_list(stop):
     '''fill a list with Fibonacci numbers'''
     result = []
 
     a, b = 0, 1
-    while a <= max:
+    while a <= stop:
         result.append(a)
         a, b = b, a + b
 
@@ -973,17 +973,17 @@ def fib_list(max):
 ``` py
 class Fib:
     '''iterator that yields Fibonacci numbers'''
-    def __init__(self, max):
-        self._max = max
-
-    def __iter__(self):
+    def __init__(self, stop):
+        self._stop = stop
         self._a = 0
         self._b = 1
+
+    def __iter__(self):
         return self
 
     def __next__(self):
         fib = self._a
-        if fib > self._max:
+        if fib > self._stop:
             raise StopIteration
         self._a, self._b = self._b, self._a + self._b
         return fib
@@ -1011,10 +1011,10 @@ class Fib:
 # Fibonacci generator
 
 ``` py
-def fib(max):
+def fib(stop):
     '''generator that yields Fibonacci numbers'''
     a, b = 0, 1
-    while a <= max:
+    while a <= stop:
         yield(a)  # ~ append in fib_list, but lazy
         a, b = b, a + b
 ```
