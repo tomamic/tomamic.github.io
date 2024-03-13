@@ -515,25 +515,38 @@ Results in a list: only (!) to visualize them
 # Multidim lists
 - Lists of lists of ...
     - Access to elements: two or more indices (or *dimensions*)
-    - If bidimensional, called *matrices*
+    - If bidimensional, can represent *matrices*
 
 ``` py
-a = [['A', 'B', 'C', 'D'],
-     ['E', 'F', 'G', 'H'],
-     ['I', 'L', 'M', 'N']]          # 2D
-
-b = ['A', 'B', 'C', 'D',
-     'E', 'F', 'G', 'H',
-     'I', 'L', 'M', 'N']            # 1D
-
-i = y * cols + x                    # 2D -> 1D
-
-y, x = i // cols, i % cols                        # 1D -> 2D
+>>> a = [["A", "B", "C", "D"],
+         ["E", "F", "G", "H"],
+         ["I", "J", "K", "L"]]          # 2D
+>>> a[2]
+["I", "J", "K", "L"]
+>>> a[2][1]
+"J"
 ```
 
->
+---
 
-Try and print `a[2]`, `a[2][1]`, etc.
+![large](images/repr/matrix.svg)
+# Matrix in a simple list
+
+- Rows concatenated in a single list
+- Just one index: `i = x + y*cols`
+
+``` py
+>>> data = ["A", "B", "C", "D",
+            "E", "F", "G", "H",
+            "I", "J", "K", "L"]
+>>> cols, rows = 4, 3
+>>> x, y = 1, 2
+>>> data[x + y*cols]
+"J"
+```
+- Vice versa: `x, y = i % cols, i // cols`
+- `y` counts how many full rows stand before an element
+- `x` how many cells stand before an element, on its own row
 
 ---
 
@@ -1054,11 +1067,11 @@ array([0., 0., 0., 0.])
 array([[1, 1, 1],
        [1, 1, 1]], dtype=int16)
 
->>> np.empty((2, 3))  # uninitialized, output may vary
+>>> np.empty((2, 3))  # uninitialized, result may vary
 array([[3.73603959e-262, 6.02658058e-154, 6.55490914e-260],
        [5.30498948e-313, 3.14673309e-307, 1.00000000e+000]])
 
->>> np.arange(10, 30, 5)  # from 10, to 30, step 5
+>>> np.arange(10, 30, 5)  # from 10, to 30 (excl.), step 5
 array([10, 15, 20, 25])
 
 >>> np.linspace(0, 2, 5)  # 5 numbers from 0 to 2

@@ -1973,10 +1973,10 @@ def where_is(point):
     match point:
         case Point(x=0, y=0):
             print("Origin")
-        case Point(x=0, y=y):
-            print(f"Y={y}")
-        case Point(x=x, y=0):
-            print(f"X={x}")
+        case Point(x=0, y=y_):  # idiomatic: y=y
+            print(f"Y={y_}")
+        case Point(x=x_, y=0):  # idiomatic: x=x
+            print(f"X={x_}")
         case Point():
             print("Somewhere else")
         case _ :

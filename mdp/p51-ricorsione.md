@@ -480,7 +480,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_folders.py>
+<https://tomamic.github.io/pyodide//?p52_folders.py>
 
 ---
 
@@ -501,7 +501,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_folders.py>
+<https://tomamic.github.io/pyodide//?p52_folders.py>
 
 ---
 
@@ -521,7 +521,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_expression.py>
+<https://tomamic.github.io/pyodide//?p52_expression.py>
 
 ---
 
@@ -545,7 +545,7 @@ print(prod2.prefix())
 
 <https://it.wikipedia.org/wiki/Notazione_polacca>
 <br>
-<https://tomamic.github.io/pyodide//?p41_expression.py>
+<https://tomamic.github.io/pyodide//?p52_expression.py>
 
 ---
 
@@ -561,4 +561,4 @@ print(prod2.prefix())
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_parse.py>
+<https://tomamic.github.io/pyodide//?p52_parse.py>
