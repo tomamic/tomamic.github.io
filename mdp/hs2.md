@@ -185,6 +185,10 @@ repeat' x = x:repeat' x
 
 ---
 
+# Exercise
+
+---
+
 ![large](images/fun/quicksort.png)
 # Quicksort
 
