@@ -1965,7 +1965,7 @@ match point:
 
 ``` py
 @dataclasses.dataclass
-class Point:
+class Point:  # ~ struct, with init, repr… methods
     x: int
     y: int
 
