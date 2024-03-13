@@ -303,6 +303,27 @@ while (v := float(input("val? "))) >= 0:  # sentinel
 
 ---
 
+# 🥷 Truthy value
+
+- Any object can be converted to `bool`
+- *Falsy* constants and numbers
+    - `None`, `False`, `0`, `0.0`, etc.
+- *Falsy* collections
+    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+- Other objects, normally *truthy*
+    - Decided by method `__bool__`, or `__len__`
+
+``` py
+while v := input("val? "):  # sentinel, "" is falsy
+    print(float(v) ** 2)
+```
+
+>
+
+<https://docs.python.org/3/library/stdtypes.html#truth>
+
+---
+
 ![](images/dev/computer-ninja.svg)
 # List comprehension
 
@@ -715,27 +736,6 @@ empty_set = set()  # ⚠️ {} is an empty dict
 >
 
 <https://docs.python.org/3/library/stdtypes.html#set>
-
----
-
-# 🥷 Truthy value
-
-- Any object can be converted to `bool`
-- *Falsy* constants and numbers
-    - `None`, `False`, `0`, `0.0`, etc.
-- *Falsy* collections
-    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
-- Other objects, normally *truthy*
-    - Decided by method `__bool__`, or `__len__`
-
-``` py
-while v := input("val? "):  # sentinel, "" is falsy
-    print(float(v) ** 2)
-```
-
->
-
-<https://docs.python.org/3/library/stdtypes.html#truth>
 
 ---
 
