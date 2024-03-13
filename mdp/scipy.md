@@ -533,6 +533,10 @@ Results in a list: only (!) to visualize them
 
 ---
 
+# Matrices
+
+---
+
 # Multidim lists
 - Lists of lists of ...
     - Access to elements: two or more indices (or *dimensions*)
