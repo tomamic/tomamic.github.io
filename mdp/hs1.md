@@ -1424,6 +1424,13 @@ addThree :: Int -> Int -> Int -> Int
 addThree x y z = x + y + z
 ```
 
+- Python typing: params and result are separated
+
+``` py
+from typing import Callable
+FunT = Callable[[int, int, int], int]
+```
+
 ---
 
 # Integer numbers
