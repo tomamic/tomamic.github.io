@@ -6,6 +6,8 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <image x="320" y="280" width="120" height="120" xlink:href="spaghetti.svg"/>
     <g>
@@ -116,11 +118,11 @@
       <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="480,561 480,580 219.736,580 "/>
       <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="212.236,580 222.236,575 219.736,580 222.236,585 "/>
     </g>
-    <text font-size="18.0622" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="380" y="407.025">
-      <tspan x="380" y="407.025">⚠️ Spaghetti code</tspan>
+    <text font-size="27.0933" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="380" y="410.525">
+      <tspan x="380" y="410.525">⚠️ Spaghetti code</tspan>
     </text>
-    <text font-size="18.0622" style="fill: #005500; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="437.025">
-      <tspan x="380" y="437.025">Don't do this!</tspan>
+    <text font-size="27.0933" style="fill: #005500; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="440.525">
+      <tspan x="380" y="440.525">Don't do this!</tspan>
     </text>
   </g>
 </svg>

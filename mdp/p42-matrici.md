@@ -441,7 +441,7 @@ Scrivere il minore dei due sul file di uscita
 <br>
 Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora stato scritto in output
 <br>
-<https://tomamic.github.io/pyodide/?p42_merge.py>
+<https://tomamic.github.io/pyodide/?p43_merge.py>
 
 ---
 
@@ -464,7 +464,7 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 
 >
 
-<https://tomamic.github.io/pyodide/?p42_csv.py>
+<https://tomamic.github.io/pyodide/?p43_csv.py>
 
 ---
 
@@ -507,7 +507,7 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 
 >
 
-<https://tomamic.github.io/pyodide/?p42_scytale.py>
+<https://tomamic.github.io/pyodide/?p43_scytale.py>
 
 ---
 
