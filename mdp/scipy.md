@@ -1271,9 +1271,8 @@ a  # array([(6.e-08, [2, 0]), (2.e-07, [4, 0])],
 
 ---
 
+![large](images/scipy/strides.svg)
 # Strides
-
-![large](images/scipy/strides.png)
 
 ``` py
 a = np.zeros(shape=(3, 3), dtype=np.int32)
@@ -1309,6 +1308,7 @@ array([2, 8, 0, 4, 5, 1])
 
 ---
 
+![](images/scipy/strides.svg) ![large](images/scipy/strides-t.svg)
 # Transposition
 
 ``` py
@@ -1483,11 +1483,16 @@ array([6, 22, 38])
 ![](images/scipy/normalization.png)
 # Normalizing and standardizing
 
-- **Rescaling** a vector: add/sub a constant, then mult/div by a constant; e.g. `celsius = (fahrenheit - 32) * 5/9`
-- **Normalizing** : rescaling by the *min* and *range* of the vector, to bring all the elements to a common `(0, 1)` interval
-    - SVM, K-means etc.: Euclidean distance between points
-    - Features with broader ranges would dominate; e.g. age vs. income
-- **Standardizing** : rescaling by the *mean* and *stddev* of the vector, to get *normal* distributions (mean `0`, stddev `1`)
+- **Rescaling** a vector
+    - ① Add/sub a constant
+    - ② Then mult/div by a constant
+    - E.g. $celsius = (fahrenheit - 32) \cdot \frac{5}{9}$
+- **Normalizing** : rescaling by *min* & *range* of vector
+    - ⇒ all elements in `(0, 1)` interval
+    - SVM, K-means…: Euclidean distance b/w points
+    - Features with broader ranges dominate
+    - E.g. age vs. income
+- **Standardizing** : rescaling by *mean* and *stddev* of vector ⇒ *normal* distribution (mean `0`, stddev `1`)
 
 ``` py
 x = randn(1000) * 10
@@ -1502,20 +1507,19 @@ y = np.concatenate([randn(500), randn(500) + 5])
 - To work by row, transpose data
 
 ``` py
->>> b = np.arange(12).reshape(3, 4)
->>> b_min = b.min(axis=0)
->>> b_range = b.max(axis=0) - b_min
->>> (b - b_min) / b_range
-array([[0. , 0. , 0. , 0. ],
-       [0.5, 0.5, 0.5, 0.5],
-       [1. , 1. , 1. , 1. ]])
+>>> b = (np.arange(12) ** 2).reshape(3, 4)
+>>> b_min, b_max = b.min(axis=0), b.max(axis=0)
+>>> (b - b_min) / (b_max - b_min)
+array([[0.  , 0.  , 0.  , 0.  ],
+       [0.25, 0.3 , 0.33, 0.36],
+       [1.  , 1.  , 1.  , 1.  ]])
 ```
 
 ``` py
 >>> (b - b.mean(axis=0)) / b.std(axis=0)
-array([[-1.22474487, -1.22474487, -1.22474487, -1.22474487],
-       [ 0.        ,  0.        ,  0.        ,  0.        ],
-       [ 1.22474487,  1.22474487,  1.22474487,  1.22474487]])
+array([[-0.98, -1.03, -1.07, -1.09],
+       [-0.39, -0.39, -0.27, -0.23],
+       [ 1.37,  1.35,  1.34,  1.32]])
 ```
 
 ---
