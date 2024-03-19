@@ -1109,39 +1109,45 @@ array([[0, 1, 2, 3, 4, 5],
 ![large](images/scipy/stdev.svg) 68-95-99.7 rule
 # Random
 
+- Acquire a random number generator
+
+``` py
+>>> rng = np.random.default_rng()
+```
+
 ``` py
 >>> # normal Gaussian, mean=0, stddev=1
->>> np.random.randn(2, 3)
+>>> rng.normal(size=(2, 3))
 array([[-0.452, -1.295, 0.379],
        [1.134, -0.554, -1.007]])
 
->>> np.random.rand(2, 3)  # uniform in [0.0, 1.0)
+>>> rng.random((2, 3))  # uniform in [0.0, 1.0)
 array([[0.152, 0.002, 0.219],
        [0.668, 0.840, 0.236]])
-
->>> np.random.randint(0, 10, (2, 3))  # discrete uniform in [0, 10)
-array([[1, 9, 3],
-       [3, 8, 9]])
 ```
 
 >
 
-https://docs.scipy.org/doc/numpy-1.16.0/reference/routines.random.html
+<https://numpy.org/doc/stable/reference/random/index.html>
 <br>
-`np.random.normal(mean, stddev, size=(2, 3))` ::= <br> `stddev * np.random.randn(2, 3) + mean`
+`rng.normal(mean, stddev, size=(2, 3))` ::= <br> `stddev * rng.normal(size=(2, 3)) + mean`
 
 ---
 
-# Shuffle and choice
+# Choice and shuffle
 
 ``` py
->>> a = np.arange(6)
->>> np.random.shuffle(a)  # modifies the array itself
-array([5, 3, 2, 4, 1, 0]])
-
->>> np.random.choice(["one", "two"], (2, 3))
+>>> rng.choice(["one", "two"], (2, 3))
 array([['two', 'one', 'one'],
        ['two', 'two', 'one']], dtype='<U3')
+
+>>> rng.integers(0, 10, (2, 3))  # rng.choice(range(10), (2, 3))
+array([[1, 9, 3],
+       [3, 8, 9]])
+
+>>> a = np.arange(6)
+>>> rng.shuffle(a)  # modifies the array itself
+array([5, 3, 2, 4, 1, 0]])
 ```
 
 ---
