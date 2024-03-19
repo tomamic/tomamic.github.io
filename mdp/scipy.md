@@ -1963,7 +1963,7 @@ df3.to_excel('data.xlsx')
 # Histogramming
 
 ``` py
->>> s = pd.Series(np.random.randint(6, size=10))  # [0, 6)
+>>> s = pd.Series(rng.integers(6, size=10))  # [0, 6)
 >>> s
 0    4
 1    2
@@ -2023,8 +2023,8 @@ dtype: int64
                               'foo', 'bar', 'foo', 'foo'],
                        'B' : ['one', 'one', 'two', 'three',
                               'two', 'two', 'one', 'three'],
-                       'C' : np.random.randn(8),
-                       'D' : np.random.randn(8)})
+                       'C' : rng.normal(size=8),
+                       'D' : rng.normal(size=8)})
 >>> df.groupby('A').sum()  # only numeric data
             C        D
 A
@@ -2044,7 +2044,7 @@ foo  3.146492 -0.63958
 >>> df = pd.DataFrame({
         'A' : ['one', 'one', 'two', 'three'] * 3,
         'B' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
-        'C' : np.random.randn(12)})
+        'C' : rng.normal(size=12)})
 >>> pd.pivot_table(df, index='A', columns='B', values='C')
 B           bar       foo
 A
@@ -2229,8 +2229,8 @@ for label in plt.get_figlabels():
 - Numpy: `np.unique`
 
 ``` py
-dice = np.random.randint(1, 7, 100)
-dice += np.random.randint(1, 7, 100)
+dice = rng.integers(1, 7, 100)
+dice += rng.integers(1, 7, 100)
 values, counts = np.unique(dice, return_counts=True)
 print(f"{values=}\n{counts=}")
 plt.bar(values, counts)
@@ -2252,7 +2252,7 @@ counts=[3, 5, 6, 13, 9, 16, 20, 13, 7, 7, 1]
 
 ``` py
 mu, sigma = 100, 15  # try with less data
-x = mu + sigma * np.random.randn(10000)
+x = mu + sigma * rng.normal(size=10000)
 
 # histogram of data, with normalized area
 plt.hist(x, bins=50, density=True)
@@ -2281,7 +2281,7 @@ import seaborn as sns
 ```
 
 ``` py
-x = np.random.randn(100)
+x = rng.normal(size=100)
 sns.displot(x, kde=True)  # try rug=True, kind="kde"
 plt.show()
 ```
