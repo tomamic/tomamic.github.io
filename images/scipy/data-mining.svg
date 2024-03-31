@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="47cm" height="8cm" viewBox="300 444 935 151" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <image x="300" y="480" width="80" height="80" xlink:href="card-file-box.svg"/>
+    <image x="620" y="480" width="40" height="40" xlink:href="page-facing-up.svg"/>
+    <image x="640" y="500" width="40" height="40" xlink:href="page-facing-up.svg"/>
+    <image x="660" y="520" width="40" height="40" xlink:href="page-facing-up.svg"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" x1="400" y1="500" x2="423.556" y2="500"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" fill-rule="evenodd" points="431.056,500 421.056,505 423.556,500 421.056,495 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" x1="560" y1="500" x2="583.556" y2="500"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" fill-rule="evenodd" points="591.056,500 581.056,505 583.556,500 581.056,495 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" x1="740" y1="500" x2="763.556" y2="500"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" fill-rule="evenodd" points="771.056,500 761.056,505 763.556,500 761.056,495 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" x1="920" y1="500" x2="943.556" y2="500"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" fill-rule="evenodd" points="951.056,500 941.056,505 943.556,500 941.056,495 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" x1="1080" y1="500" x2="1103.56" y2="500"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #ff0000" fill-rule="evenodd" points="1111.06,500 1101.06,505 1103.56,500 1101.06,495 "/>
+    </g>
+    <g transform="matrix(0.909091,0,0,0.909091,87.2726,43.6364)">
+      <image x="960" y="480" width="60" height="60" xlink:href="puzzle-piece.svg" transform="translate(1018,538) rotate(90) translate(-1018,-538)"/>
+      <image x="988" y="508" width="60" height="60" xlink:href="puzzle-piece.svg"/>
+    </g>
+    <image x="1140" y="480" width="80" height="80" xlink:href="bulb.svg"/>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="420" y="468.75">
+      <tspan x="420" y="468.75">Selection</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="580" y="468.75">
+      <tspan x="580" y="468.75">Cleaning</tspan>
+    </text>
+    <image x="460" y="500" width="40" height="40" xlink:href="page-with-curl.svg"/>
+    <image x="480" y="520" width="40" height="40" xlink:href="page-with-curl.svg" transform="translate(500,540) rotate(30) translate(-500,-540)"/>
+    <image x="500" y="480" width="40" height="40" xlink:href="page-with-curl.svg" transform="translate(520,500) rotate(-30) translate(-520,-500)"/>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="468.75">
+      <tspan x="760" y="468.75">Transformation</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="940" y="468.75">
+      <tspan x="940" y="468.75">Mining</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1100" y="468.75">
+      <tspan x="1100" y="468.75">Interpretation</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="1020" y="588.75">
+      <tspan x="1020" y="588.75">Patterns</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="1180" y="588.75">
+      <tspan x="1180" y="588.75">Knowledge</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="500" y="588.75">
+      <tspan x="500" y="588.75">Target data</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="340" y="588.75">
+      <tspan x="340" y="588.75">Data</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="660" y="588.75">
+      <tspan x="660" y="588.75">Clean data</tspan>
+    </text>
+    <image x="800" y="480" width="80" height="80" xlink:href="bar-chart.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="840" y="588.75">
+      <tspan x="840" y="588.75">Transformed data</tspan>
+    </text>
+  </g>
+</svg>

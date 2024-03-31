@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="9cm" viewBox="189 350 711 180" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="190" y="420" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="230" y="450.039">
+        <tspan x="230" y="450.039">Editor</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="360" y="420" width="99.4" height="40" rx="6" ry="6"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="409.7" y="450.039">
+        <tspan x="409.7" y="450.039">Compiler</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="550" y="420" width="83" height="40" rx="6" ry="6"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="591.5" y="450.039">
+        <tspan x="591.5" y="450.039">Linker</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="720" y="420" width="76.4" height="40" rx="6" ry="6"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="758.2" y="450.039">
+        <tspan x="758.2" y="450.039">Loader</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="270.923" y1="440" x2="280.268" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="287.768,440 277.768,445 280.268,440 277.768,435 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="460.404" y1="440" x2="470.264" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="477.764,440 467.764,445 470.264,440 467.764,435 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="633.994" y1="440" x2="640.261" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="647.761,440 637.761,445 640.261,440 637.761,435 "/>
+    </g>
+    <image x="820" y="400" width="80" height="80" xlink:href="desktop-computer.svg"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="797.394" y1="440" x2="810.275" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="817.775,440 807.775,445 810.275,440 807.775,435 "/>
+    </g>
+    <image x="480" y="410" width="50" height="60" xlink:href="page-facing-up.svg"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke: none" x="488.65" y="426.525" width="32.7" height="26.95"/>
+      <text font-size="19.7553" style="fill: #1e90ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="505" y="447.675">
+        <tspan x="505" y="447.675">Obj</tspan>
+      </text>
+    </g>
+    <image x="650" y="410" width="50" height="60" xlink:href="page-facing-up.svg"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke: none" x="658.9" y="426.525" width="32.2" height="26.95"/>
+      <text font-size="19.7553" style="fill: #1e90ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="675" y="447.675">
+        <tspan x="675" y="447.675">Exe</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="699.995" y1="440" x2="709.281" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="716.781,440 706.781,445 709.281,440 706.781,435 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="529.666" y1="440" x2="539.264" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="546.764,440 536.764,445 539.264,440 536.764,435 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="549.97" y1="402.529" x2="561.006" y2="412.487"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="566.575,417.511 555.8,414.524 561.006,412.487 562.499,407.1 "/>
+    </g>
+    <image x="290" y="410" width="50" height="60" xlink:href="page-facing-up.svg"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke: none" x="300.95" y="426.525" width="28.1" height="26.95"/>
+      <text font-size="19.7553" style="fill: #1e90ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="315" y="447.675">
+        <tspan x="315" y="447.675">Src</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="339.993" y1="440" x2="349.273" y2="440"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="356.773,440 346.773,445 349.273,440 346.773,435 "/>
+    </g>
+    <image x="500" y="350" width="50" height="60" xlink:href="page-facing-up.svg"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke: none" x="508.65" y="366.525" width="32.7" height="26.95"/>
+      <text font-size="19.7553" style="fill: #1e90ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525" y="387.675">
+        <tspan x="525" y="387.675">Obj</tspan>
+      </text>
+    </g>
+    <image x="500" y="470" width="50" height="60" xlink:href="page-facing-up.svg"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke: none" x="511.2" y="486.525" width="27.6" height="26.95"/>
+      <text font-size="19.7553" style="fill: #1e90ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="525" y="507.675">
+        <tspan x="525" y="507.675">Lib</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="549.97" y1="477.471" x2="561.006" y2="467.513"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="566.575,462.489 562.499,472.9 561.006,467.513 555.8,465.476 "/>
+    </g>
+    <image x="210" y="390" width="40" height="40" xlink:href="pencil.svg"/>
+  </g>
+</svg>

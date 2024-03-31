@@ -147,6 +147,7 @@
           current_file = fn;
           let text = pyodide.FS.readFile("/fondinfo/" + fn, { encoding: "utf8" });
           editor.setValue(text);
+          if (history && history.replaceState) history.replaceState({}, '', `${location.pathname}?${fn}`);
         }
         update_file_list();
       }

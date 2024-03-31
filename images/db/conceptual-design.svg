@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="16cm" viewBox="319 60 401 301" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="320" y="200" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="470" y="200" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="420" y="260" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="520" y="260" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="470" y="120" width="80" height="40" rx="0" ry="0"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="510" y1="160.977" x2="510" y2="199.023"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="360" y1="180" x2="590" y2="180"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="360" y1="180" x2="360" y2="199.023"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="620" y="200" width="80" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="320" y="260" width="80" height="40" rx="0" ry="0"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="510" y1="240" x2="460" y2="260"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="510" y1="240" x2="553.779" y2="259.023"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="320" y="320" width="80" height="40" rx="0" ry="0"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="360" y1="240" x2="360" y2="260"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="360" y1="300" x2="360" y2="320"/>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="520" y="320" width="80" height="40" rx="0" ry="0"/>
+    <image x="590" y="60" width="130" height="120" xlink:href="writing-hand.svg"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x1="560" y1="300" x2="560" y2="320"/>
+  </g>
+</svg>

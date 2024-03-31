@@ -1281,12 +1281,12 @@ a  # array([(6.e-08, [2, 0]), (2.e-07, [4, 0])],
 # Strides
 
 ``` py
-a = np.zeros(shape=(3, 3), dtype=np.int32)
-a.strides  # (12, 4)
+a = np.zeros(shape=(3, 4), dtype=np.int64)
+a.strides  # (32, 8)
 ```
 
 - Problem: byte-address of cell @ `(y, x)`?
-    - `data + y * 12 + x * 4`
+    - `data + y * 32 + x * 8`
 
 ---
 
@@ -1318,20 +1318,20 @@ array([2, 8, 0, 4, 5, 1])
 # Transposition
 
 ``` py
->>> a = np.array([[2, 8, 0],
-                  [4, 5, 1]], dtype=np.int64)
->>> a.shape, a.strides
-((2, 3), (24, 8))
+>>> a = np.arange(12).reshape(3, 4)
+>>> a.shape, a.strides, a.dtype
+((3, 4), (32, 8), dtype('int64'))
 >>> a.T  # transposed view, same as a.transpose()
-array([[2, 4],
-       [8, 5],
-       [0, 1]])
+array([[ 0,  4,  8],
+       [ 1,  5,  9],
+       [ 2,  6, 10],
+       [ 3,  7, 11]])
 >>> a.T.shape, a.T.strides
-((3, 2), (8, 24))
+((4, 3), (8, 32))
 >>> a.T.ravel()
-array([2, 4, 8, 5, 0, 1])
+array([ 0, 4, 8, 1, 5, 9, 2, 6, 10, 3, 7, 11])
 >>> a.T.ravel("K")  # real order of data in memory!
-array([2, 8, 0, 4, 5, 1])
+array([ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 ```
 
 ---
@@ -1501,8 +1501,8 @@ array([6, 22, 38])
 - **Standardizing** : rescaling by *mean* and *stddev* of vector ⇒ *normal* distribution (mean `0`, stddev `1`)
 
 ``` py
-x = randn(1000) * 10
-y = np.concatenate([randn(500), randn(500) + 5])
+x = rng.normal(size=1000) * 10
+y = np.concatenate([rng.normal(size=500), rng.normal(size=500) + 5])
 ```
 
 ---
@@ -2136,11 +2136,10 @@ To use a logarithmic scale: `plt.yscale('log')`
 # Plotting data from dict
 
 ``` py
-rnd = np.random
 data = {'a': np.arange(50),
-        'c': rnd.randint(0, 20, 50),
-        'd': 100 * abs(rnd.randn(50))}
-data['b'] = data['a'] + 10 * rnd.randn(50)
+        'c': rng.integers(0, 20, 50),
+        'd': 100 * abs(rng.normal(size=50))}
+data['b'] = data['a'] + 10 * rng.normal(size=50)
 
 plt.scatter('a', 'b', c='c', s='d', data=data)
 plt.xlabel('entry a')

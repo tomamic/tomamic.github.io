@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- License: Apache. Made by googlefonts: https://github.com/googlefonts/noto-emoji -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 128 128"
+   aria-hidden="true"
+   role="img"
+   class="iconify iconify--noto"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="page-facing-up-red.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.985"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="1850"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <path
+     fill="#ffffff"
+     d="M87.85 6.19H16.8v115.45h94.62V28.8z"
+     id="path2" />
+  <g
+     fill="none"
+     stroke="#b0bec5"
+     stroke-width="3.865"
+     stroke-linecap="round"
+     stroke-miterlimit="10"
+     id="g14">
+    <path
+       d="M33.34 41.05H94.5"
+       id="path4" />
+    <path
+       d="M33.34 55.68H94.5"
+       id="path6" />
+    <path
+       d="M33.34 70.3H94.5"
+       id="path8" />
+    <path
+       d="M33.34 84.93H94.5"
+       id="path10" />
+    <path
+       d="M33.34 99.56h26.15"
+       id="path12" />
+  </g>
+  <path
+     d="M109.45 23.59L92.79 6.88A10.555 10.555 0 0 0 85.54 4h-68.5c-1.55 0-2.81 1.26-2.81 2.81v114.38c0 1.55 1.26 2.81 2.81 2.81h93.93c1.55 0 2.81-1.26 2.81-2.81V31.28c-.01-2.91-2.21-5.69-4.33-7.69zm.32 96.41H18.23V8h64.66c2.12 0 3.85 1.72 3.85 3.85v17.88h17.34c3.14 0 5.69 1.73 5.69 5.69V120z"
+     fill="#6fbff0"
+     id="path16"
+     style="fill:#008000" />
+</svg>

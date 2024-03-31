@@ -91,6 +91,7 @@
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -120,10 +121,10 @@
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="35,7"/>
+        <dia:point val="34,6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.2512,5.52444;36.7488,8.47556"/>
+        <dia:rectangle val="32.2512,4.52444;35.7488,7.47556"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -138,10 +139,10 @@ screen#</dia:string>
             <dia:real val="1.411111095824074"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35,6.73194"/>
+            <dia:point val="34,5.73194"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -151,9 +152,6 @@ screen#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="2"/>
       </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O0" connection="8"/>
-      </dia:connections>
     </dia:object>
     <dia:object type="Standard - Box" version="0" id="O2">
       <dia:attribute name="obj_pos">
@@ -226,7 +224,7 @@ screen#</dia:string>
         <dia:real val="6"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#a52a2aff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -410,10 +408,10 @@ screen#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O11">
       <dia:attribute name="obj_pos">
-        <dia:point val="35,17"/>
+        <dia:point val="34,16"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="33.0662,16.23;36.9337,17.77"/>
+        <dia:rectangle val="32.0662,15.23;35.9337,16.77"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -427,7 +425,7 @@ screen#</dia:string>
             <dia:real val="1.411111095824074"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="35,17.4375"/>
+            <dia:point val="34,16.4375"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -440,21 +438,19 @@ screen#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="2"/>
       </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O2" connection="8"/>
-      </dia:connections>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O12">
       <dia:attribute name="obj_pos">
-        <dia:point val="48,13"/>
+        <dia:point val="47,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.1125,12.23;50.8875,13.77"/>
+        <dia:rectangle val="45.4263,10.5244;48.5738,13.4756"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#Game over#</dia:string>
+            <dia:string>#Game
+over#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -463,10 +459,10 @@ screen#</dia:string>
             <dia:real val="1.411111095824074"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="48,13.4375"/>
+            <dia:point val="47,11.7319"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -476,9 +472,6 @@ screen#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="2"/>
       </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O4" connection="8"/>
-      </dia:connections>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O13">
       <dia:attribute name="obj_pos">
@@ -614,10 +607,10 @@ screen#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O17">
       <dia:attribute name="obj_pos">
-        <dia:point val="48,21"/>
+        <dia:point val="47,20"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="45.9012,20.23;50.0987,21.77"/>
+        <dia:rectangle val="44.9012,19.23;49.0987,20.77"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -631,7 +624,7 @@ screen#</dia:string>
             <dia:real val="1.411111095824074"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="48,21.4375"/>
+            <dia:point val="47,20.4375"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -644,25 +637,22 @@ screen#</dia:string>
       <dia:attribute name="valign">
         <dia:enum val="2"/>
       </dia:attribute>
-      <dia:connections>
-        <dia:connection handle="0" to="O5" connection="8"/>
-      </dia:connections>
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O18">
       <dia:attribute name="obj_pos">
-        <dia:point val="50,22"/>
+        <dia:point val="49,21"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="50,22;51.5,23.5"/>
+        <dia:rectangle val="49,21;51.5,23.5"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="50,22"/>
+        <dia:point val="49,21"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>
@@ -676,19 +666,19 @@ screen#</dia:string>
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O19">
       <dia:attribute name="obj_pos">
-        <dia:point val="37,18"/>
+        <dia:point val="36,17"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="37,18;38.5,19.5"/>
+        <dia:rectangle val="36,17;38.5,19.5"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="37,18"/>
+        <dia:point val="36,17"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>
@@ -702,19 +692,19 @@ screen#</dia:string>
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O20">
       <dia:attribute name="obj_pos">
-        <dia:point val="50,14"/>
+        <dia:point val="49,13"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="50,14;51.5,15.5"/>
+        <dia:rectangle val="49,13;51.5,15.5"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="50,14"/>
+        <dia:point val="49,13"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>
@@ -728,19 +718,19 @@ screen#</dia:string>
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O21">
       <dia:attribute name="obj_pos">
-        <dia:point val="37,8"/>
+        <dia:point val="36,7"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="37,8;38.5,9.5"/>
+        <dia:rectangle val="36,7;38.5,9.5"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="37,8"/>
+        <dia:point val="36,7"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="1.5"/>
+        <dia:real val="2.5"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>

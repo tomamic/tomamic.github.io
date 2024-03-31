@@ -282,7 +282,7 @@ def merge_sort(v: list, beg, end: int):
 
 ---
 
-![](images/comp/divide-et-impera.svg)
+![large](images/comp/divide-et-impera.svg)
 # Divide et impera
 
 - At each step, the problem space is halved

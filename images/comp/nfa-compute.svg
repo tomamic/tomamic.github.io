@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="39cm" height="42cm" viewBox="-54 39 762 824" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40cm" height="43cm" viewBox="-74 21 782 858" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs/>
+  <g id="Background"/>
   <g id="Background">
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="60" y="70.5577">
-      <tspan x="60" y="70.5577">Deterministic</tspan>
-      <tspan x="60" y="112.891">computation</tspan>
+    <text font-size="45.1556" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="80" y="69.3028">
+      <tspan x="80" y="69.3028">Deterministic</tspan>
+      <tspan x="80" y="125.747">computation</tspan>
     </text>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="70.5577">
-      <tspan x="440" y="70.5577">Nondeterministic</tspan>
-      <tspan x="440" y="112.891">computation</tspan>
+    <text font-size="45.1556" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="500" y="69.3028">
+      <tspan x="500" y="69.3028">Nondeterministic</tspan>
+      <tspan x="500" y="125.747">computation</tspan>
     </text>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="211.232">
-      <tspan x="480" y="211.232">Start</tspan>
+    <text font-size="45.1556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="217.525">
+      <tspan x="480" y="217.525">Start</tspan>
     </text>
     <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffffff" cx="380" cy="200" rx="20" ry="20"/>
     <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffffff" cx="320" cy="300" rx="20" ry="20"/>
@@ -76,16 +77,16 @@
       <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="680,789.862 675,779.862 680,782.362 685,779.862 "/>
     </g>
     <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 4; stroke: #ff0000" x1="560" y1="640" x2="560" y2="680"/>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="580" y="831.232">
-      <tspan x="580" y="831.232">Accept</tspan>
+    <text font-size="45.1556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="580" y="837.525">
+      <tspan x="580" y="837.525">Accept</tspan>
     </text>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="611.232">
-      <tspan x="320" y="611.232">Reject</tspan>
+    <text font-size="45.1556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="617.525">
+      <tspan x="320" y="617.525">Reject</tspan>
     </text>
     <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke-dasharray: 2.4; stroke: #ff0000" x1="320" y1="440" x2="320" y2="480"/>
     <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffffff" cx="60" cy="200" rx="20" ry="20"/>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="211.232">
-      <tspan x="140" y="211.232">Start</tspan>
+    <text font-size="45.1556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="217.525">
+      <tspan x="140" y="217.525">Start</tspan>
     </text>
     <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffffff" cx="60" cy="300" rx="20" ry="20"/>
     <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffffff" cx="60" cy="400" rx="20" ry="20"/>
@@ -114,9 +115,9 @@
       <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="60" y1="747.988" x2="60" y2="790.264"/>
       <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="60,797.764 55,787.764 60,790.264 65,787.764 "/>
     </g>
-    <text font-size="33.8667" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="810.065">
-      <tspan x="160" y="810.065">Accept</tspan>
-      <tspan x="160" y="852.398">or reject</tspan>
+    <text font-size="45.1556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="809.303">
+      <tspan x="160" y="809.303">Accept</tspan>
+      <tspan x="160" y="865.747">or reject</tspan>
     </text>
   </g>
 </svg>

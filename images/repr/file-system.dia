@@ -89,6 +89,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Filesystem - Folder" version="1" id="O0">
       <dia:attribute name="obj_pos">
@@ -204,7 +205,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#cmpt166#</dia:string>
+            <dia:string>#Work#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -277,7 +278,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#macm101#</dia:string>
+            <dia:string>#Personal#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -600,7 +601,7 @@
             <dia:real val="1.0583333218680555"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="13,18.8969"/>
+            <dia:point val="13,18.9233"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -673,7 +674,7 @@
             <dia:real val="1.0583333218680555"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="26,18.8969"/>
+            <dia:point val="26,18.9233"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -737,7 +738,7 @@
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#ball.txt#</dia:string>
+            <dia:string>#prod.csv#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -746,7 +747,7 @@
             <dia:real val="1.0583333218680555"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="20,23.8969"/>
+            <dia:point val="20,23.9233"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>

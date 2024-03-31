@@ -89,6 +89,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -113,7 +114,7 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="corner_radius">
-        <dia:real val="0.5"/>
+        <dia:real val="2"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O1">
@@ -172,7 +173,7 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="corner_radius">
-        <dia:real val="0.5"/>
+        <dia:real val="2"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O3">
@@ -231,7 +232,7 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="corner_radius">
-        <dia:real val="0.5"/>
+        <dia:real val="2"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O5">
@@ -290,7 +291,7 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="corner_radius">
-        <dia:real val="0.5"/>
+        <dia:real val="2"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O7">
@@ -349,7 +350,7 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="corner_radius">
-        <dia:real val="0.5"/>
+        <dia:real val="2"/>
       </dia:attribute>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O9">
