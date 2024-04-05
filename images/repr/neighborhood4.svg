@@ -1,40 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="300" version="1.1" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(0 -752)">
-  <g>
-   <rect y="752" width="300" height="300" fill="#fff"/>
-   <rect x="120" y="872" width="60" height="60" fill="#5cacff"/>
-   <g fill="#ff5959">
-    <rect x="60" y="872" width="60" height="60"/>
-    <rect x="120" y="932" width="60" height="60"/>
-    <rect x="180" y="872" width="60" height="60"/>
-    <rect x="120" y="812" width="60" height="60"/>
-   </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="11cm" viewBox="659 199 202 203" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="700" y="200" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="232.561">
+        <tspan x="720" y="232.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="740" y="200" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="232.561">
+        <tspan x="760" y="232.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="780" y="200" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800" y="232.561">
+        <tspan x="800" y="232.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="820" y="200" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="232.561">
+        <tspan x="840" y="232.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="700" y="240" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="272.561">
+        <tspan x="720" y="272.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="740" y="240" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="272.561">
+        <tspan x="760" y="272.561">N</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="780" y="240" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800" y="272.561">
+        <tspan x="800" y="272.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="820" y="240" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="272.561">
+        <tspan x="840" y="272.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="700" y="280" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="312.561">
+        <tspan x="720" y="312.561">W</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="740" y="320" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="352.561">
+        <tspan x="760" y="352.561">S</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="780" y="280" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800" y="312.561">
+        <tspan x="800" y="312.561">E</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="820" y="280" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="312.561">
+        <tspan x="840" y="312.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="700" y="320" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="352.561">
+        <tspan x="720" y="352.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="780" y="320" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800" y="352.561">
+        <tspan x="800" y="352.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="820" y="320" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="352.561">
+        <tspan x="840" y="352.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="740" y="280" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="312.561">
+        <tspan x="760" y="312.561">C</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="660" y="200" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680" y="232.561">
+        <tspan x="680" y="232.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="660" y="240" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680" y="272.561">
+        <tspan x="680" y="272.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="660" y="280" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680" y="312.561">
+        <tspan x="680" y="312.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="660" y="320" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680" y="352.561">
+        <tspan x="680" y="352.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="740" y="360" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="760" y="392.561">
+        <tspan x="760" y="392.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="700" y="360" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="392.561">
+        <tspan x="720" y="392.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="780" y="360" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="800" y="392.561">
+        <tspan x="800" y="392.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="820" y="360" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="392.561">
+        <tspan x="840" y="392.561"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="660" y="360" width="40" height="40" rx="10" ry="10"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="680" y="392.561">
+        <tspan x="680" y="392.561"></tspan>
+      </text>
+    </g>
   </g>
-  <g fill="#000000" font-family="sans-serif" font-size="31px" letter-spacing="0px" stroke-width="1px" word-spacing="0px">
-   <text transform="scale(.988 1.01)" x="140.99135" y="902.6474" style="line-height:125%" xml:space="preserve"><tspan x="140.99135" y="902.6474" font-family="Times">C</tspan></text>
-   <text transform="scale(.988 1.01)" x="140.71112" y="842.16742" style="line-height:125%" xml:space="preserve"><tspan x="140.71112" y="842.16742" font-family="Times">N</tspan></text>
-   <text transform="scale(.988 1.01)" x="203.15619" y="901.61731" style="line-height:125%" xml:space="preserve"><tspan x="203.15619" y="901.61731" font-family="Times">E</tspan></text>
-   <text transform="scale(.988 1.01)" x="143.59677" y="960.90051" style="line-height:125%" xml:space="preserve"><tspan x="143.59677" y="960.90051" font-family="Times">S</tspan></text>
-   <text transform="scale(.988 1.01)" x="76.592148" y="901.43555" style="line-height:125%" xml:space="preserve"><tspan x="76.592148" y="901.43555" font-family="Times">W</tspan></text>
-  </g>
-  <g fill="none" stroke="#000" stroke-width="2">
-   <g>
-    <path d="m240 752v300"/>
-    <path d="m180 752v300"/>
-    <path d="m120 752v300"/>
-    <path d="m60 752v300"/>
-    <path d="m300 752v300"/>
-   </g>
-   <g stroke-linecap="round" stroke-linejoin="round">
-    <path d="m0 752v300"/>
-    <path d="m300 992h-300"/>
-    <path d="m300 932h-300"/>
-    <path d="m300 872h-300"/>
-    <path d="m300 812h-300"/>
-    <path d="m300 1052h-300"/>
-    <path d="m300 752h-300"/>
-   </g>
-  </g>
- </g>
 </svg>

@@ -1,1096 +1,224 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.0"
-   width="970.4361"
-   height="906.92401"
-   id="svg3956">
-  <defs
-     id="defs3958">
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleInM"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(-0.4,-0.4)"
-         id="path3231"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleOutM"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(0.4,0.4)"
-         id="path3240"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleOutM-9"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(0.4,0.4)"
-         id="path3240-6"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleInM-8"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(-0.4,-0.4)"
-         id="path3231-5"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleOutM-1"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(0.4,0.4)"
-         id="path3240-3"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleInM-9"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(-0.4,-0.4)"
-         id="path3231-9"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleOutM-10"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(0.4,0.4)"
-         id="path3240-8"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleInM-1"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(-0.4,-0.4)"
-         id="path3231-7"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleOutM-7"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(0.4,0.4)"
-         id="path3240-65"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-    <marker
-       refX="0"
-       refY="0"
-       orient="auto"
-       id="TriangleInM-98"
-       style="overflow:visible">
-      <path
-         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
-         transform="scale(-0.4,-0.4)"
-         id="path3231-8"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
-    </marker>
-  </defs>
-  <metadata
-     id="metadata3961">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     transform="translate(114.48,89.48)"
-     id="layer1">
-    <g
-       transform="translate(-10.0439,1.4439926)"
-       id="g3007">
-      <rect
-         width="40"
-         height="289.65909"
-         x="20"
-         y="90.340912"
-         id="rect3964"
-         style="fill:#ccccff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         x="-235.18903"
-         y="48.556"
-         transform="matrix(0,-1,1,0,0,0)"
-         id="text3966"
-         xml:space="preserve"
-         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-           x="-235.18903"
-           y="48.556"
-           id="tspan3968"
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Data Pool</tspan></text>
-      <rect
-         width="40"
-         height="289.65909"
-         x="20"
-         y="-380"
-         transform="matrix(0,1,-1,0,0,0)"
-         id="rect3970"
-         style="fill:#ccffcc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         x="235.0439"
-         y="48.556007"
-         id="text3972"
-         xml:space="preserve"
-         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-           x="235.0439"
-           y="48.556007"
-           id="tspan3974"
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Instruction Pool</tspan></text>
-      <path
-         d="m 290,69.569949 0,165.436101"
-         id="path4411"
-         style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-      <g
-         transform="translate(90.17046,80)"
-         id="g4023">
-        <rect
-           width="50"
-           height="50"
-           x="120"
-           y="130"
-           id="rect3976"
-           style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           x="144.84961"
-           y="165.00781"
-           id="text3978"
-           xml:space="preserve"
-           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="144.84961"
-             y="165.00781"
-             id="tspan3980"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-      </g>
-      <g
-         id="g5793">
-        <path
-           d="m 270,234 0,2 20,0 0,-2 -20,0 z"
-           id="path4419"
-           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-        <path
-           d="m 265.384,235 6.92,-4 0,8 -6.92,-4 z"
-           id="path5799"
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-      </g>
-      <g
-         id="g5785">
-        <path
-           d="m 65,234 0,2 135,0 0,-2 -135,0 z"
-           id="path4452"
-           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-        <path
-           d="m 204.616,235 -6.92,4 0,-8 6.92,4 z"
-           id="path5791"
-           style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-      </g>
-      <text
-         x="42.773438"
-         y="47.842999"
-         id="text4974"
-         xml:space="preserve"
-         style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-           x="42.773438"
-           y="47.842999"
-           id="tspan4976"
-           style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">SISD</tspan></text>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="34cm" height="24cm" viewBox="839 159 662 462" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #4d4d4d; fill-opacity: 0.388235; stroke-opacity: 0.388235; stroke-width: 2; stroke-linejoin: round; stroke: #4d4d4d" x="840" y="160" width="260" height="180" rx="6" ry="6"/>
+    <rect style="fill: #4d4d4d; fill-opacity: 0.388235; stroke-opacity: 0.388235; stroke-width: 2; stroke-linejoin: round; stroke: #4d4d4d" x="1120" y="160" width="380" height="180" rx="6" ry="6"/>
+    <rect style="fill: #4d4d4d; fill-opacity: 0.388235; stroke-opacity: 0.388235; stroke-width: 2; stroke-linejoin: round; stroke: #4d4d4d" x="1120" y="360" width="380" height="260" rx="6" ry="6"/>
+    <rect style="fill: #4d4d4d; fill-opacity: 0.388235; stroke-opacity: 0.388235; stroke-width: 2; stroke-linejoin: round; stroke: #4d4d4d" x="840" y="360" width="260" height="260" rx="6" ry="6"/>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="980" y="260" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="289.62">
+        <tspan x="1020" y="289.62">Core</tspan>
+      </text>
     </g>
-    <rect
-       width="40"
-       height="289.65909"
-       x="484.95609"
-       y="91.784904"
-       id="rect3964-8"
-       style="fill:#ccccff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-    <text
-       x="-236.63301"
-       y="513.51208"
-       transform="matrix(0,-1,1,0,0,0)"
-       id="text3966-6"
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="-236.63301"
-         y="513.51208"
-         id="tspan3968-8"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Data Pool</tspan></text>
-    <rect
-       width="40"
-       height="289.65909"
-       x="21.443993"
-       y="-844.61517"
-       transform="matrix(0,1,-1,0,0,0)"
-       id="rect3970-7"
-       style="fill:#ccffcc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-    <text
-       x="700"
-       y="50"
-       id="text3972-2"
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="700"
-         y="50"
-         id="tspan3974-3"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Instruction Pool</tspan></text>
-    <g
-       transform="translate(449.9561,81.614449)"
-       id="g4023-7">
-      <rect
-         width="50"
-         height="50"
-         x="120"
-         y="130"
-         id="rect3976-3"
-         style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         x="144.84961"
-         y="165.00781"
-         id="text3978-0"
-         xml:space="preserve"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-           x="144.84961"
-           y="165.00781"
-           id="tspan3980-8"
-           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="980" y="180" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="210.039">
+        <tspan x="1020" y="210.039">Instr</tspan>
+      </text>
     </g>
-    <g
-       transform="translate(599.9561,81.614449)"
-       id="g4193">
-      <rect
-         width="50"
-         height="50"
-         x="120"
-         y="130"
-         id="rect4195"
-         style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         x="144.84961"
-         y="165.00781"
-         id="text4197"
-         xml:space="preserve"
-         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-           x="144.84961"
-           y="165.00781"
-           id="tspan4199"
-           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="860" y="260" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="290.039">
+        <tspan x="900" y="290.039">Data</tspan>
+      </text>
     </g>
-    <path
-       d="m 650.0721,71.535294 0,164.877816"
-       id="path4411-9"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <g
-       transform="translate(464.9561,1.4439926)"
-       id="g6024">
-      <path
-         d="m 165,234 0,2 20,0 0,-2 -20,0 z"
-         id="path4419-4"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-      <path
-         d="m 160.384,235 6.92,-4 0,8 -6.92,-4 z"
-         id="path6030"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1020" y1="220.993" x2="1020" y2="250.053"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1020,254.553 1017,248.553 1020,250.053 1023,248.553 "/>
     </g>
-    <path
-       d="m 799.9561,71.533576 0,164.879544"
-       id="path4897"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <g
-       transform="translate(464.9561,1.4439926)"
-       id="g6040">
-      <path
-         d="m 315,234 0,2 20,0 0,-2 -20,0 z"
-         id="path4905"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-      <path
-         d="m 310.384,235 6.92,-4 0,8 -6.92,-4 z"
-         id="path6046"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="940.898" y1="279.857" x2="970.129" y2="279.755"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="974.629,279.74 968.64,282.761 970.129,279.755 968.619,276.761 "/>
     </g>
-    <g
-       transform="translate(464.9561,1.4439926)"
-       id="g6016">
-      <path
-         d="m 64.6875,234.15625 0,2 28.9375,0 0,-2 -28.9375,0 z"
-         id="path4926"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-      <path
-         d="m 98.226817,235.17046 -6.92,4 0,-8 6.92,4 z"
-         id="path6022"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="900" y="210.95">
+      <tspan x="900" y="210.95">SISD</tspan>
+    </text>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1260" y="260" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="289.62">
+        <tspan x="1300" y="289.62">Core</tspan>
+      </text>
     </g>
-    <path
-       d="m 545.9561,197.44399 136,0 0,40"
-       id="path4970"
-       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <g
-       transform="translate(464.9561,1.4439926)"
-       id="g6032">
-      <path
-         d="m 216,234.15625 0,2 28.9375,0 0,-2 -28.9375,0 z"
-         id="path4972"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-      <path
-         d="m 249.54,235.17046 -6.92,4 0,-8 6.92,4 z"
-         id="path6038"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="1260" y="180" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="210.039">
+        <tspan x="1300" y="210.039">Instr 1</tspan>
+      </text>
     </g>
-    <text
-       x="509.72952"
-       y="49.286991"
-       id="text4974-0"
-       xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="509.72952"
-         y="49.286991"
-         id="tspan4976-9"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">MISD</tspan></text>
-    <path
-       d="m 545.9561,197.44399 0,39"
-       id="path5679"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <g
-       transform="translate(493.73484,384.15041)"
-       id="g3673">
-      <g
-         transform="translate(-503.77874,42.293586)"
-         id="layer1-6">
-        <rect
-           width="40"
-           height="289.65909"
-           x="20"
-           y="90.340912"
-           id="rect3964-89"
-           style="fill:#ccccff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           x="-235.18903"
-           y="48.556"
-           transform="matrix(0,-1,1,0,0,0)"
-           id="text3966-3"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="-235.18903"
-             y="48.556"
-             id="tspan3968-9"
-             style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Data Pool</tspan></text>
-        <rect
-           width="40"
-           height="289.65909"
-           x="20"
-           y="-380"
-           transform="matrix(0,1,-1,0,0,0)"
-           id="rect3970-77"
-           style="fill:#ccffcc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           x="235.0439"
-           y="48.556007"
-           id="text3972-5"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="235.0439"
-             y="48.556007"
-             id="tspan3974-2"
-             style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Instruction Pool</tspan></text>
-        <g
-           transform="translate(90.17046,-25)"
-           id="g4023-71">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="130"
-             id="rect3976-34"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="165.00781"
-             id="text3978-6"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="165.00781"
-               id="tspan3980-6"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(90.17046,-20)"
-           id="g4028">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="200"
-             id="rect3989"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="235.00781"
-             id="text3991"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="235.00781"
-               id="tspan3993"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(90.17046,-10)"
-           id="g4033">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="265"
-             id="rect3997"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="300.00781"
-             id="text3999"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="300.00781"
-               id="tspan4001"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(90.17046,0)"
-           id="g4038">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="330"
-             id="rect4005"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="365.00781"
-             id="text4007"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="365.00781"
-               id="tspan4009"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <path
-           d="m 290,70 0,285"
-           id="path4411-1"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5838">
-          <path
-             d="m 270,354 0,2 20,0 0,-2 -20,0 z"
-             id="path4413"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 265.384,355 6.92,-4 0,8 -6.92,-4 z"
-             id="path5844"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5830">
-          <path
-             d="m 270,279 0,2 20,0 0,-2 -20,0 z"
-             id="path4415"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 265.384,280 6.92,-4 0,8 -6.92,-4 z"
-             id="path5836"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5822">
-          <path
-             d="m 270,204 0,2 20,0 0,-2 -20,0 z"
-             id="path4417"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 265.384,205 6.92,-4 0,8 -6.92,-4 z"
-             id="path5828"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5814">
-          <path
-             d="m 270,129 0,2 20,0 0,-2 -20,0 z"
-             id="path4419-1"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 265.384,130 6.92,-4 0,8 -6.92,-4 z"
-             id="path5820"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5846">
-          <path
-             d="m 65,354 0,2 135,0 0,-2 -135,0 z"
-             id="path4444"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 204.616,355 -6.92,4 0,-8 6.92,4 z"
-             id="path5852"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5854">
-          <path
-             d="m 65,279 0,2 135,0 0,-2 -135,0 z"
-             id="path4448"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 204.616,280 -6.92,4 0,-8 6.92,4 z"
-             id="path5860"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5862">
-          <path
-             d="m 65,204 0,2 135,0 0,-2 -135,0 z"
-             id="path4450"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 204.616,205 -6.92,4 0,-8 6.92,4 z"
-             id="path5868"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5801">
-          <path
-             d="m 65,129 0,2 135,0 0,-2 -135,0 z"
-             id="path4452-6"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 204.616,130 -6.92,4 0,-8 6.92,4 z"
-             id="path5807"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <text
-           x="42.773438"
-           y="47.842999"
-           id="text4974-2"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="42.773438"
-             y="47.842999"
-             id="tspan4976-0"
-             style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">SIMD</tspan></text>
-      </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="1140" y="260" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1180" y="290.039">
+        <tspan x="1180" y="290.039">Data</tspan>
+      </text>
     </g>
-    <text
-       x="200"
-       y="-50"
-       id="text3972-2-0"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="200"
-         y="-50"
-         id="tspan3974-3-2"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Single Instruction</tspan></text>
-    <text
-       x="650"
-       y="-50"
-       id="text3972-2-0-0"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="650"
-         y="-50"
-         id="tspan3974-3-2-4"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Multiple Instruction</tspan></text>
-    <text
-       x="-200"
-       y="-75"
-       transform="matrix(0,-1,1,0,0,0)"
-       id="text3972-2-0-02"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="-200"
-         y="-75"
-         id="tspan3974-3-2-8"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Single Data</tspan></text>
-    <text
-       x="-625"
-       y="-75"
-       transform="matrix(0,-1,1,0,0,0)"
-       id="text3972-2-0-02-6"
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-         x="-625"
-         y="-75"
-         id="tspan3974-3-2-8-8"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Multiple Data</tspan></text>
-    <g
-       transform="translate(857.93023,772.09387)"
-       id="g4565">
-      <g
-         transform="translate(-392.97413,-345.64987)"
-         id="layer1-1">
-        <rect
-           width="40"
-           height="289.65909"
-           x="20"
-           y="90.340912"
-           id="rect3964-80"
-           style="fill:#ccccff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           x="-235.18903"
-           y="48.556"
-           transform="matrix(0,-1,1,0,0,0)"
-           id="text3966-7"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="-235.18903"
-             y="48.556"
-             id="tspan3968-0"
-             style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Data Pool</tspan></text>
-        <rect
-           width="40"
-           height="289.65909"
-           x="20"
-           y="-380"
-           transform="matrix(0,1,-1,0,0,0)"
-           id="rect3970-2"
-           style="fill:#ccffcc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-        <text
-           x="235.0439"
-           y="48.556007"
-           id="text3972-59"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="235.0439"
-             y="48.556007"
-             id="tspan3974-7"
-             style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">Instruction Pool</tspan></text>
-        <g
-           transform="translate(-15,-25)"
-           id="g4023-4">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="130"
-             id="rect3976-39"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="165.00781"
-             id="text3978-4"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="165.00781"
-               id="tspan3980-7"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(-15,-20)"
-           id="g4028-2">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="200"
-             id="rect3989-8"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="235.00781"
-             id="text3991-86"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="235.00781"
-               id="tspan3993-9"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(-15,-10)"
-           id="g4033-44">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="265"
-             id="rect3997-1"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="300.00781"
-             id="text3999-2"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="300.00781"
-               id="tspan4001-5"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(-15,0)"
-           id="g4038-2">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="330"
-             id="rect4005-0"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="365.00781"
-             id="text4007-3"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="365.00781"
-               id="tspan4009-8"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(135,-25)"
-           id="g4193-7">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="130"
-             id="rect4195-2"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="165.00781"
-             id="text4197-0"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="165.00781"
-               id="tspan4199-9"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(135,-20)"
-           id="g4201">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="200"
-             id="rect4203"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="235.00781"
-             id="text4205"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="235.00781"
-               id="tspan4207"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(135,-10)"
-           id="g4209">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="265"
-             id="rect4211"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="300.00781"
-             id="text4213"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="300.00781"
-               id="tspan4215"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <g
-           transform="translate(135,0)"
-           id="g4217">
-          <rect
-             width="50"
-             height="50"
-             x="120"
-             y="330"
-             id="rect4219"
-             style="fill:#ffcccc;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-          <text
-             x="144.84961"
-             y="365.00781"
-             id="text4221"
-             xml:space="preserve"
-             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-               x="144.84961"
-               y="365.00781"
-               id="tspan4223"
-               style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Bitstream Vera Sans">PU</tspan></text>
-        </g>
-        <path
-           d="m 185.116,70.498255 0,284.503475"
-           id="path4411-0"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5915">
-          <path
-             d="m 164.125,354 0,2 1,0 20,0 1,0 0,-2 -1,0 -20,0 -1,0 z"
-             id="path4413-0"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 160.5,355 6.92,-4 0,8 -6.92,-4 z"
-             id="path5921"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5923">
-          <path
-             d="m 165.125,279 0,2 20,0 0,-2 -20,0 z"
-             id="path4415-8"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 160.5,280 6.92,-4 0,8 -6.92,-4 z"
-             id="path5929"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5931">
-          <path
-             d="m 165.125,204 0,2 20,0 0,-2 -20,0 z"
-             id="path4417-2"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 160.5,205 6.92,-4 0,8 -6.92,-4 z"
-             id="path5937"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5939">
-          <path
-             d="m 165.125,129 0,2 20,0 0,-2 -20,0 z"
-             id="path4419-44"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 160.5,130 6.92,-4 0,8 -6.92,-4 z"
-             id="path5945"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <path
-           d="M 335,70.496525 335,355"
-           id="path4897-2"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5984">
-          <path
-             d="m 314,354 0,2 1,0 20,0 1,0 0,-2 -1,0 -20,0 -1,0 z"
-             id="path4899"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 310.384,354.99827 6.92,-4 0,8 -6.92,-4 z"
-             id="path5990"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5992">
-          <path
-             d="m 315,279 0,2 20,0 0,-2 -20,0 z"
-             id="path4901"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 310.384,279.99827 6.92,-4 0,8 -6.92,-4 z"
-             id="path5998"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g6000">
-          <path
-             d="m 315,204 0,2 20,0 0,-2 -20,0 z"
-             id="path4903"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 310.384,204.99827 6.92,-4 0,8 -6.92,-4 z"
-             id="path6006"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g6008">
-          <path
-             d="m 315,129 0,2 20,0 0,-2 -20,0 z"
-             id="path4905-1"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 310.384,129.99827 6.92,-4 0,8 -6.92,-4 z"
-             id="path6014"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5955">
-          <path
-             d="m 64.6875,204 0,2 28.9375,0 0,-2 -28.9375,0 z"
-             id="path4450-05"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 98.226817,205 -6.92,4 0,-8 6.92,4 z"
-             id="path5961"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5947">
-          <path
-             d="m 64.6875,129 0,2 28.9375,0 0,-2 -28.9375,0 z"
-             id="path4926-3"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 98.226817,130 -6.92,4 0,-8 6.92,4 z"
-             id="path5953"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5963">
-          <path
-             d="m 64.6875,279 0,2 28.9375,0 0,-2 -28.9375,0 z"
-             id="path4928"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 98.226817,280 -6.92,4 0,-8 6.92,4 z"
-             id="path5969"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <g
-           id="g5971">
-          <path
-             d="m 64.6875,354 0,2 28.9375,0 0,-2 -28.9375,0 z"
-             id="path4930"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 98.226817,355 -6.92,4 0,-8 6.92,4 z"
-             id="path5977"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <path
-           d="m 65.000002,315 152.000008,0 0,40"
-           id="path4932"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5902">
-          <path
-             d="m 216,354 0,2 28.9375,0 0,-2 L 216,354 z"
-             id="path4934"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 249.54,355 -6.92,4 0,-8 6.92,4 z"
-             id="path5908"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <path
-           d="m 65,240 152.00001,0 0,40"
-           id="path4958"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5886">
-          <path
-             d="m 216,279 0,2 28.9375,0 0,-2 L 216,279 z"
-             id="path4960"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 249.54,280 -6.92,4 0,-8 6.92,4 z"
-             id="path5892"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <path
-           d="m 65.000002,164.875 152.000008,0 0,40"
-           id="path4964"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5894">
-          <path
-             d="m 216,203.875 0,2 28.9375,0 0,-2 -28.9375,0 z"
-             id="path4966"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 249.54,204.875 -6.92,4 0,-8 6.92,4 z"
-             id="path5900"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <path
-           d="m 65.000002,90 152.000008,0 0,40"
-           id="path4970-5"
-           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-        <g
-           id="g5872">
-          <path
-             d="m 216,129 0,2 28.9375,0 0,-2 L 216,129 z"
-             id="path4972-4"
-             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
-          <path
-             d="m 249.54,130 -6.92,4 0,-8 6.92,4 z"
-             id="path5878"
-             style="fill-rule:evenodd;stroke:#000000;stroke-width:0.4pt;marker-start:none" />
-        </g>
-        <text
-           x="43.773438"
-           y="47.842999"
-           id="text4974-7"
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
-             x="43.773438"
-             y="47.842999"
-             id="tspan4976-3"
-             style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Century Schoolbook L">MIMD</tspan></text>
-      </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1300" y1="220.993" x2="1300" y2="250.053"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1300,254.553 1297,248.553 1300,250.053 1303,248.553 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" points="1180,300.977 1180,320 1420,320 1420,305.973 "/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1420,301.473 1423,307.473 1420,305.973 1417,307.473 "/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1180" y="210.95">
+      <tspan x="1180" y="210.95">MISD</tspan>
+    </text>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1380" y="260" width="80" height="36" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="288.039">
+        <tspan x="1420" y="288.039">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="1300" y1="320" x2="1300" y2="309.128"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1300,304.628 1303,310.628 1300,309.128 1297,310.628 "/>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="1380" y="180" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="210.039">
+        <tspan x="1420" y="210.039">Instr 2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="980" y="460" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="489.62">
+        <tspan x="1020" y="489.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="980" y="380" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="410.039">
+        <tspan x="1020" y="410.039">Instr</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="860" y="460" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="490.039">
+        <tspan x="900" y="490.039">Data 1</tspan>
+      </text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" points="1060.9,400 1080,400 1080,560 1069.87,559.929 "/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1065.37,559.898 1071.39,556.94 1069.87,559.929 1071.35,562.94 "/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="900" y="410.95">
+      <tspan x="900" y="410.95">SIMD</tspan>
+    </text>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="860" y="540" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="900" y="570.039">
+        <tspan x="900" y="570.039">Data 2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="980" y="540" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="569.62">
+        <tspan x="1020" y="569.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1080" y1="480" x2="1069.87" y2="479.929"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1065.37,479.898 1071.39,476.94 1069.87,479.929 1071.35,482.94 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="940.898" y1="479.857" x2="970.129" y2="479.755"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="974.629,479.74 968.64,482.761 970.129,479.755 968.619,476.761 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="940.898" y1="559.857" x2="970.129" y2="559.755"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="974.629,559.74 968.64,562.761 970.129,559.755 968.619,556.761 "/>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1260" y="460" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="489.62">
+        <tspan x="1300" y="489.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="1260" y="380" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="410.039">
+        <tspan x="1300" y="410.039">Instr 1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="1140" y="460" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1180" y="490.039">
+        <tspan x="1180" y="490.039">Data 1</tspan>
+      </text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" points="1340.9,400 1360,400 1360,560 1349.87,559.929 "/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1345.37,559.898 1351.39,556.94 1349.87,559.929 1351.35,562.94 "/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1180" y="410.95">
+      <tspan x="1180" y="410.95">MIMD</tspan>
+    </text>
+    <g>
+      <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #1e90ff" x="1140" y="540" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1180" y="570.039">
+        <tspan x="1180" y="570.039">Data 2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1260" y="540" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1300" y="569.62">
+        <tspan x="1300" y="569.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1360" y1="480" x2="1349.87" y2="479.929"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1345.37,479.898 1351.39,476.94 1349.87,479.929 1351.35,482.94 "/>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="1380" y="380" width="80" height="40" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="410.039">
+        <tspan x="1420" y="410.039">Instr 2</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1420" y1="220.995" x2="1420" y2="250.042"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1420,254.542 1417,248.542 1420,250.042 1423,248.542 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" points="1180,580.977 1180,600 1420,600 1420,589.128 "/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1420,584.628 1423,590.628 1420,589.128 1417,590.628 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="1300" y1="600" x2="1300" y2="588.135"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1300,583.635 1303,589.635 1300,588.135 1297,589.635 "/>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1380" y="540" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="569.62">
+        <tspan x="1420" y="569.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" points="1180,500.977 1180,520 1420,520 1420,509.128 "/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1420,504.628 1423,510.628 1420,509.128 1417,510.628 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" x1="1300" y1="520" x2="1300" y2="508.135"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #1e90ff" fill-rule="evenodd" points="1300,503.635 1303,509.635 1300,508.135 1297,509.635 "/>
+    </g>
+    <g>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #006600" x="1380" y="460" width="80" height="39.1631" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1420" y="489.62">
+        <tspan x="1420" y="489.62">Core</tspan>
+      </text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" points="1460.9,400 1480,400 1480,560 1469.87,559.929 "/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1465.37,559.898 1471.39,556.94 1469.87,559.929 1471.35,562.94 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" x1="1480" y1="480" x2="1468.97" y2="479.769"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ff0000" fill-rule="evenodd" points="1464.47,479.675 1470.53,476.801 1468.97,479.769 1470.41,482.8 "/>
     </g>
   </g>
 </svg>
