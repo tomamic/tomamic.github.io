@@ -231,7 +231,7 @@ if __name__ == '__main__':
 
 >
 
-<https://tomamic.github.io/pyodide/?p34_bouncetest.py>
+<https://tomamic.github.io/pyodide/?p33_bouncetest.py>
 
 ---
 
@@ -333,7 +333,7 @@ class TurtleTest(TestCase):
 
 >
 
-<https://tomamic.github.io/pyodide/?p34_bouncetest.py>
+<https://tomamic.github.io/pyodide/?p33_bouncetest.py>
 
 ---
 
