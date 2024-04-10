@@ -1131,7 +1131,7 @@ foldl' f z (x:xs) = foldl' f (f z x) xs
     - Calling `foldl (+) 0` returns a f. that takes a list
 - In general, because of currying ...
     - A f. like `foo a = bar b a` ...
-    - Can rewritten as `foo = bar b`
+    - Can be rewritten as `foo = bar b`
 
 ``` hs
 sum' :: (Num a) => [a] -> a
