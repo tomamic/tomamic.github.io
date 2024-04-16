@@ -464,7 +464,7 @@ spostare ancora gli altri N-1 dischi.
 
 Supporre che i “token” siano tutti separati da spazio e che gli operatori abbiano tutti cardinalità fissa
 <br>
-<https://tomamic.github.io/pyodide//?p41_polish.py>
+<https://tomamic.github.io/pyodide/?p41_polish.py>
 
 ---
 
@@ -480,7 +480,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_folders.py>
+<https://tomamic.github.io/pyodide/?p52_folders.py>
 
 ---
 
@@ -501,7 +501,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_folders.py>
+<https://tomamic.github.io/pyodide/?p52_folders.py>
 
 ---
 
@@ -521,7 +521,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_expression.py>
+<https://tomamic.github.io/pyodide/?p52_expr.py>
 
 ---
 
@@ -545,7 +545,7 @@ print(prod2.prefix())
 
 <https://it.wikipedia.org/wiki/Notazione_polacca>
 <br>
-<https://tomamic.github.io/pyodide//?p52_expression.py>
+<https://tomamic.github.io/pyodide/?p52_expr.py>
 
 ---
 
@@ -561,4 +561,4 @@ print(prod2.prefix())
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_parse.py>
+<https://tomamic.github.io/pyodide/?p52_parse.py>

@@ -89,6 +89,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Ellipse" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -552,15 +553,16 @@ dx, dy#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O15">
       <dia:attribute name="obj_pos">
-        <dia:point val="12,16"/>
+        <dia:point val="21,15.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="10.3788,15.3063;13.6212,16.6938"/>
+        <dia:rectangle val="19.3788,14.1713;22.6212,16.8287"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#move()#</dia:string>
+            <dia:string>#pos()
+move()#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
@@ -569,7 +571,7 @@ dx, dy#</dia:string>
             <dia:real val="1.2699999862416667"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="12,16.3938"/>
+            <dia:point val="21,15.2588"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#0000ffff"/>
@@ -585,14 +587,14 @@ dx, dy#</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O16">
       <dia:attribute name="obj_pos">
-        <dia:point val="14.2,13.4"/>
+        <dia:point val="19,12.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="12.4297,13.3297;14.292,15.5703"/>
+        <dia:rectangle val="18.9293,12.4293;21.0707,14.5707"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="14.2,13.4"/>
-        <dia:point val="12.5,15.5"/>
+        <dia:point val="19,12.5"/>
+        <dia:point val="21,14.5"/>
       </dia:attribute>
       <dia:attribute name="numcp">
         <dia:int val="1"/>

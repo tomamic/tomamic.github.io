@@ -2,6 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
 <svg width="19cm" height="11cm" viewBox="157 199 365 207" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <g>
       <rect style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ffffff" x="160" y="320" width="40" height="40" rx="0" ry="0"/>
@@ -58,9 +59,9 @@
       </text>
     </g>
     <g>
-      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #4d4d4d" x="300" y="200" width="80" height="60" rx="6" ry="6"/>
-      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="240.039">
-        <tspan x="340" y="240.039">NFSA</tspan>
+      <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #4d4d4d" x="310" y="200" width="60" height="60" rx="6" ry="6"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="242.561">
+        <tspan x="340" y="242.561">δ</tspan>
       </text>
     </g>
     <g>

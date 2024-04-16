@@ -88,34 +88,9 @@
       </dia:composite>
     </dia:attribute>
   </dia:diagramdata>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
-    <dia:object type="Standard - Image" version="0" id="O0">
-      <dia:attribute name="obj_pos">
-        <dia:point val="32,10"/>
-      </dia:attribute>
-      <dia:attribute name="obj_bb">
-        <dia:rectangle val="32,10;39.346,18"/>
-      </dia:attribute>
-      <dia:attribute name="elem_corner">
-        <dia:point val="32,10"/>
-      </dia:attribute>
-      <dia:attribute name="elem_width">
-        <dia:real val="7.3460493087768555"/>
-      </dia:attribute>
-      <dia:attribute name="elem_height">
-        <dia:real val="8"/>
-      </dia:attribute>
-      <dia:attribute name="draw_border">
-        <dia:boolean val="false"/>
-      </dia:attribute>
-      <dia:attribute name="keep_aspect">
-        <dia:boolean val="true"/>
-      </dia:attribute>
-      <dia:attribute name="file">
-        <dia:string>#elvis.svg#</dia:string>
-      </dia:attribute>
-    </dia:object>
-    <dia:object type="Standard - Text" version="1" id="O1">
+    <dia:object type="Standard - Text" version="1" id="O0">
       <dia:attribute name="obj_pos">
         <dia:point val="24.65,14.6"/>
       </dia:attribute>
@@ -148,7 +123,7 @@
         <dia:enum val="3"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O2">
+    <dia:object type="Flowchart - Box" version="0" id="O1">
       <dia:attribute name="obj_pos">
         <dia:point val="24,10"/>
       </dia:attribute>
@@ -164,8 +139,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -196,7 +180,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O3">
+    <dia:object type="Flowchart - Box" version="0" id="O2">
       <dia:attribute name="obj_pos">
         <dia:point val="26,10"/>
       </dia:attribute>
@@ -212,8 +196,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -244,7 +237,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O4">
+    <dia:object type="Flowchart - Box" version="0" id="O3">
       <dia:attribute name="obj_pos">
         <dia:point val="28,10"/>
       </dia:attribute>
@@ -260,8 +253,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -292,7 +294,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O5">
+    <dia:object type="Flowchart - Box" version="0" id="O4">
       <dia:attribute name="obj_pos">
         <dia:point val="30,10"/>
       </dia:attribute>
@@ -308,8 +310,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -340,7 +351,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O6">
+    <dia:object type="Flowchart - Box" version="0" id="O5">
       <dia:attribute name="obj_pos">
         <dia:point val="32,10"/>
       </dia:attribute>
@@ -356,8 +367,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -388,7 +408,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O7">
+    <dia:object type="Flowchart - Box" version="0" id="O6">
       <dia:attribute name="obj_pos">
         <dia:point val="30,16"/>
       </dia:attribute>
@@ -404,8 +424,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -436,7 +465,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O8">
+    <dia:object type="Flowchart - Box" version="0" id="O7">
       <dia:attribute name="obj_pos">
         <dia:point val="24,16"/>
       </dia:attribute>
@@ -452,8 +481,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -484,7 +522,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O9">
+    <dia:object type="Flowchart - Box" version="0" id="O8">
       <dia:attribute name="obj_pos">
         <dia:point val="28,16"/>
       </dia:attribute>
@@ -500,8 +538,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -532,7 +579,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O10">
+    <dia:object type="Flowchart - Box" version="0" id="O9">
       <dia:attribute name="obj_pos">
         <dia:point val="26,16"/>
       </dia:attribute>
@@ -548,8 +595,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -580,7 +636,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Flowchart - Box" version="0" id="O11">
+    <dia:object type="Flowchart - Box" version="0" id="O10">
       <dia:attribute name="obj_pos">
         <dia:point val="32,16"/>
       </dia:attribute>
@@ -596,8 +652,17 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
+      <dia:attribute name="inner_color">
+        <dia:color val="#99bfccff"/>
+      </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="corner_radius">
+        <dia:real val="0.5"/>
       </dia:attribute>
       <dia:attribute name="padding">
         <dia:real val="0"/>
@@ -628,7 +693,7 @@
         <dia:enum val="0"/>
       </dia:attribute>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O12">
+    <dia:object type="Standard - Line" version="0" id="O11">
       <dia:attribute name="obj_pos">
         <dia:point val="25,12"/>
       </dia:attribute>
@@ -652,11 +717,11 @@
         <dia:real val="0.20000000000000001"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O2" connection="13"/>
-        <dia:connection handle="1" to="O7" connection="2"/>
+        <dia:connection handle="0" to="O1" connection="13"/>
+        <dia:connection handle="1" to="O6" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O13">
+    <dia:object type="Standard - Line" version="0" id="O12">
       <dia:attribute name="obj_pos">
         <dia:point val="27,12"/>
       </dia:attribute>
@@ -680,11 +745,11 @@
         <dia:real val="0.20000000000000001"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O3" connection="13"/>
-        <dia:connection handle="1" to="O8" connection="2"/>
+        <dia:connection handle="0" to="O2" connection="13"/>
+        <dia:connection handle="1" to="O7" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O14">
+    <dia:object type="Standard - Line" version="0" id="O13">
       <dia:attribute name="obj_pos">
         <dia:point val="29,12"/>
       </dia:attribute>
@@ -708,11 +773,11 @@
         <dia:real val="0.20000000000000001"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O4" connection="13"/>
-        <dia:connection handle="1" to="O9" connection="2"/>
+        <dia:connection handle="0" to="O3" connection="13"/>
+        <dia:connection handle="1" to="O8" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O15">
+    <dia:object type="Standard - Line" version="0" id="O14">
       <dia:attribute name="obj_pos">
         <dia:point val="31,12"/>
       </dia:attribute>
@@ -736,11 +801,11 @@
         <dia:real val="0.20000000000000001"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O5" connection="13"/>
-        <dia:connection handle="1" to="O10" connection="2"/>
+        <dia:connection handle="0" to="O4" connection="13"/>
+        <dia:connection handle="1" to="O9" connection="2"/>
       </dia:connections>
     </dia:object>
-    <dia:object type="Standard - Line" version="0" id="O16">
+    <dia:object type="Standard - Line" version="0" id="O15">
       <dia:attribute name="obj_pos">
         <dia:point val="33,12"/>
       </dia:attribute>
@@ -764,9 +829,35 @@
         <dia:real val="0.20000000000000001"/>
       </dia:attribute>
       <dia:connections>
-        <dia:connection handle="0" to="O6" connection="13"/>
-        <dia:connection handle="1" to="O11" connection="2"/>
+        <dia:connection handle="0" to="O5" connection="13"/>
+        <dia:connection handle="1" to="O10" connection="2"/>
       </dia:connections>
+    </dia:object>
+    <dia:object type="Standard - Image" version="0" id="O16">
+      <dia:attribute name="obj_pos">
+        <dia:point val="33.5,9.5"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="33.5,9.5;38.5615,18.5148"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="33.5,9.5"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="5.0614585876464844"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="9.0148410797119141"/>
+      </dia:attribute>
+      <dia:attribute name="draw_border">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="keep_aspect">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="file">
+        <dia:string>#/home/mic/Documents/tomamic/images/fun/elvis.svg#</dia:string>
+      </dia:attribute>
     </dia:object>
   </dia:layer>
 </dia:diagram>

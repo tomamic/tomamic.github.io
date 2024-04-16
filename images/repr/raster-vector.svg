@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="25cm" height="35cm" viewBox="398 -182 485 684" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="559" y="179" width="322" height="322"/>
+      <image x="560" y="180" width="320" height="320" xlink:href="grinning-face.png"/>
+    </g>
+    <g>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="559" y="-181" width="322" height="322"/>
+      <image x="560" y="-180" width="320" height="320" xlink:href="grinning-face.svg"/>
+    </g>
+    <g>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="399" y="119" width="82" height="82"/>
+      <image x="400" y="120" width="80" height="80" xlink:href="grinning-face.svg"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #1e90ff" x1="481.99" y1="133.007" x2="544.224" y2="92.9988"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #1e90ff" fill-rule="evenodd" points="550.533,88.9431 544.825,98.5566 544.224,92.9988 539.417,90.1448 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #1e90ff" x1="481.99" y1="186.993" x2="544.224" y2="227.001"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #1e90ff" fill-rule="evenodd" points="550.533,231.057 539.417,229.855 544.224,227.001 544.825,221.443 "/>
+    </g>
+    <text font-size="42.3333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="-3.575">
+      <tspan x="480" y="-3.575">Vector</tspan>
+    </text>
+    <text font-size="42.3333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="356.425">
+      <tspan x="480" y="356.425">Raster</tspan>
+    </text>
+    <g transform="matrix(0.555105,0,0,0.555105,430.921,59.8188)">
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #000000" cx="144.443" cy="164.443" rx="20" ry="20"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="144.443" y="170.143">
+        <tspan x="144.443" y="170.143"></tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #a52a2a" x1="160" y1="180" x2="184.443" y2="204.443"/>
+    </g>
+  </g>
+</svg>

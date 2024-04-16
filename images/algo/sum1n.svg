@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="12cm" height="21cm" viewBox="258 37 229 405" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="13cm" height="21cm" viewBox="258 37 242 405" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
   <g id="Background"/>
   <g id="Background">
-    <image x="379.777" y="50" width="107.548" height="110" xlink:href="shopping-cart.svg"/>
     <g>
       <path style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 290 40 L 330,40 C 335.523,40 340,48.9543 340,60 C 340,71.0457 335.523,80 330,80 L 290,80 C 284.477,80 280,71.0457 280,60 C 280,48.9543 284.477,40 290,40z"/>
       <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="310" y="66.4">
@@ -34,19 +36,19 @@
     <g>
       <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="310,240 360,280 310,320 260,280 "/>
       <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="310" y="285.7">
-        <tspan x="310" y="285.7">count &lt;= n</tspan>
+        <tspan x="310" y="285.7">count ≤ n</tspan>
       </text>
     </g>
     <g>
-      <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="379.5" y="260" width="100.5" height="40" rx="0" ry="0"/>
-      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="429.75" y="277.7">
-        <tspan x="429.75" y="277.7">total += count</tspan>
-        <tspan x="429.75" y="293.7">count += 1</tspan>
+      <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="380" y="260" width="100.5" height="40" rx="0" ry="0"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="430.25" y="277.7">
+        <tspan x="430.25" y="277.7">total += count</tspan>
+        <tspan x="430.25" y="293.7">count += 1</tspan>
       </text>
     </g>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="361" y1="280" x2="368.778" y2="280"/>
-      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="376.278,280 366.278,285 368.778,280 366.278,275 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="361" y1="280" x2="369.284" y2="280"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="376.784,280 366.784,285 369.284,280 366.784,275 "/>
     </g>
     <g>
       <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="310" y1="201.002" x2="310" y2="229.264"/>
@@ -79,8 +81,17 @@
       <tspan x="280" y="320">False</tspan>
     </text>
     <g>
-      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 429.75 260 C 429.75,220 390,220.002 319.736,220.002"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 480.5 280 C 550,230 390,220.002 319.736,220.002"/>
       <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="312.236,220.002 322.236,215.002 319.736,220.002 322.236,225.002 "/>
+    </g>
+    <image x="430" y="290" width="70" height="70" xlink:href="shopping-cart.svg"/>
+    <g>
+      <ellipse style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="460" cy="310" rx="10" ry="10"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="460" y="320.039">
+        <tspan x="460" y="320.039"></tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x1="460" y1="304" x2="460" y2="316"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x1="454" y1="310" x2="466" y2="310"/>
     </g>
   </g>
 </svg>

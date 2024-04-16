@@ -88,6 +88,8 @@
       </dia:composite>
     </dia:attribute>
   </dia:diagramdata>
+  <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Flowchart - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -105,6 +107,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2.3699999862416665"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -112,55 +117,58 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="padding">
-        <dia:real val="0.5"/>
+        <dia:real val="0"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#P1#</dia:string>
+            <dia:string>#P₁#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.7638888697800927"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="32,17.4525"/>
+            <dia:point val="32,17.6281"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
           </dia:attribute>
         </dia:composite>
       </dia:attribute>
+      <dia:attribute name="text_fitting">
+        <dia:enum val="0"/>
+      </dia:attribute>
     </dia:object>
     <dia:object type="Flowchart - Document" version="1" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="35,11.9403"/>
+        <dia:point val="35,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="34.9,11.8403;37.1,14.1597"/>
+        <dia:rectangle val="34.9,11.9;37.1,14.41"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="35,11.9403"/>
+        <dia:point val="35,12"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="2"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="2.1194999814262507"/>
+        <dia:real val="2.3099999793624999"/>
       </dia:attribute>
       <dia:attribute name="line_width">
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="fill_colour">
         <dia:color val="#1e90ffff"/>
@@ -173,24 +181,24 @@
         <dia:real val="1"/>
       </dia:attribute>
       <dia:attribute name="padding">
-        <dia:real val="0.10000000000000001"/>
+        <dia:real val="0"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#R1#</dia:string>
+            <dia:string>#R₁#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.7638888697800927"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="36,13.2015"/>
+            <dia:point val="36,13.5611"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -198,10 +206,10 @@
         </dia:composite>
       </dia:attribute>
       <dia:attribute name="text_fitting">
-        <dia:enum val="1"/>
+        <dia:enum val="0"/>
       </dia:attribute>
       <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
+        <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="flip_vertical">
         <dia:boolean val="false"/>
@@ -215,13 +223,13 @@
         <dia:point val="32,17"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="31.95,12.9686;35.0008,15.8152"/>
+        <dia:rectangle val="31.95,13.1269;35.0029,15.8151"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
         <dia:point val="32,17"/>
         <dia:point val="32,15"/>
-        <dia:point val="34,13.0022"/>
-        <dia:point val="36,13.0392"/>
+        <dia:point val="34,13.1608"/>
+        <dia:point val="36,13.1978"/>
       </dia:attribute>
       <dia:attribute name="corner_types">
         <dia:enum val="0"/>
@@ -246,7 +254,7 @@
         <dia:point val="32,13"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.1138,11.1138;33.8862,14.8862"/>
+        <dia:rectangle val="30.3242,11.3242;33.6758,14.6758"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -257,10 +265,10 @@
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.1288888766592593"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="32,13.3938"/>
+            <dia:point val="32,13.3513"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -293,6 +301,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2.3699999862416665"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -300,41 +311,44 @@
         <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="padding">
-        <dia:real val="0.5"/>
+        <dia:real val="0"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#P2#</dia:string>
+            <dia:string>#P₂#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.7638888697800927"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="40,17.4525"/>
+            <dia:point val="40,17.6281"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
           </dia:attribute>
         </dia:composite>
       </dia:attribute>
+      <dia:attribute name="text_fitting">
+        <dia:enum val="0"/>
+      </dia:attribute>
     </dia:object>
     <dia:object type="Standard - BezierLine" version="0" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="36,13.0392"/>
+        <dia:point val="36,13.1978"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="36.9992,12.9686;40.05,15.8152"/>
+        <dia:rectangle val="36.9971,13.1269;40.05,15.8151"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
-        <dia:point val="36,13.0392"/>
-        <dia:point val="38,13.0022"/>
+        <dia:point val="36,13.1978"/>
+        <dia:point val="38,13.1608"/>
         <dia:point val="40,15"/>
         <dia:point val="40,17"/>
       </dia:attribute>
@@ -361,7 +375,7 @@
         <dia:point val="35,19.9403"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="34.9,19.8403;37.1,22.1597"/>
+        <dia:rectangle val="34.9,19.8403;37.1,22.1598"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
@@ -379,7 +393,7 @@
         <dia:real val="0.10000000000000001"/>
       </dia:attribute>
       <dia:attribute name="line_colour">
-        <dia:color val="#000000ff"/>
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="fill_colour">
         <dia:color val="#1e90ffff"/>
@@ -392,24 +406,24 @@
         <dia:real val="1"/>
       </dia:attribute>
       <dia:attribute name="padding">
-        <dia:real val="0.10000000000000001"/>
+        <dia:real val="0"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
           <dia:attribute name="string">
-            <dia:string>#R2#</dia:string>
+            <dia:string>#R₂#</dia:string>
           </dia:attribute>
           <dia:attribute name="font">
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.7638888697800927"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="36,21.2015"/>
+            <dia:point val="36,21.4309"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -417,10 +431,10 @@
         </dia:composite>
       </dia:attribute>
       <dia:attribute name="text_fitting">
-        <dia:enum val="1"/>
+        <dia:enum val="0"/>
       </dia:attribute>
       <dia:attribute name="flip_horizontal">
-        <dia:boolean val="false"/>
+        <dia:boolean val="true"/>
       </dia:attribute>
       <dia:attribute name="flip_vertical">
         <dia:boolean val="false"/>
@@ -496,7 +510,7 @@
         <dia:point val="40,21"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="38.1138,19.1138;41.8862,22.8862"/>
+        <dia:rectangle val="38.3242,19.3242;41.6758,22.6758"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -507,10 +521,10 @@
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.1288888766592593"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="40,21.3937"/>
+            <dia:point val="40,21.3513"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -532,7 +546,7 @@
         <dia:point val="39.5,13.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="37.0552,11.0552;41.9448,15.9448"/>
+        <dia:rectangle val="37.3278,11.3278;41.6722,15.6722"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -544,10 +558,10 @@ to#</dia:string>
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.1288888766592593"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="39.5,13.2588"/>
+            <dia:point val="39.5,13.2868"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -569,7 +583,7 @@ to#</dia:string>
         <dia:point val="32.5,20.5"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="30.0552,18.0552;34.9448,22.9448"/>
+        <dia:rectangle val="30.3278,18.3278;34.6722,22.6722"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -581,10 +595,10 @@ to#</dia:string>
             <dia:font family="sans" style="0" name="Helvetica"/>
           </dia:attribute>
           <dia:attribute name="height">
-            <dia:real val="1.2699999862416667"/>
+            <dia:real val="1.1288888766592593"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="32.5,20.2588"/>
+            <dia:point val="32.5,20.2868"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
