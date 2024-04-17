@@ -8,10 +8,11 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <image x="320" y="280" width="120" height="120" xlink:href="spaghetti.svg"/>
     <g>
-      <path style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 190 750 L 230,750 C 235.523,750 240,758.954 240,770 C 240,781.046 235.523,790 230,790 L 190,790 C 184.477,790 180,781.046 180,770 C 180,758.954 184.477,750 190,750z"/>
+      <path style="fill: #ff4040; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 190 750 L 230,750 C 235.523,750 240,758.954 240,770 C 240,781.046 235.523,790 230,790 L 190,790 C 184.477,790 180,781.046 180,770 C 180,758.954 184.477,750 190,750z"/>
       <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210" y="776.4">
         <tspan x="210" y="776.4"></tspan>
       </text>

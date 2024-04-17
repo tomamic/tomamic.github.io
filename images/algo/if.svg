@@ -2,6 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
 <svg width="13cm" height="21cm" viewBox="190 117 244 405" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <g>
       <path style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 290 120 L 330,120 C 335.523,120 340,129.402 340,141 C 340,152.598 335.523,162 330,162 L 290,162 C 284.477,162 280,152.598 280,141 C 280,129.402 284.477,120 290,120z"/>
@@ -36,7 +38,7 @@
       </text>
     </g>
     <g>
-      <path style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 290 480 L 330,480 C 335.523,480 340,488.954 340,500 C 340,511.046 335.523,520 330,520 L 290,520 C 284.477,520 280,511.046 280,500 C 280,488.954 284.477,480 290,480z"/>
+      <path style="fill: #ff4040; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 290 480 L 330,480 C 335.523,480 340,488.954 340,500 C 340,511.046 335.523,520 330,520 L 290,520 C 284.477,520 280,511.046 280,500 C 280,488.954 284.477,480 290,480z"/>
       <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="310" y="506.4">
         <tspan x="310" y="506.4">Stop</tspan>
       </text>

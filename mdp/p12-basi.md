@@ -302,7 +302,7 @@ g2d.main_loop()  # manage the window/canvas
 
 ---
 
-![](images/repr/p1_draw.png)
+![](images/repr/draw.svg)
 # 🧪 Linee e testi
 
 ``` py
@@ -348,7 +348,7 @@ g2d.main_loop()
 
 ---
 
-![](images/misc/scicalc.jpg) [☞ `math`](https://docs.python.org/3/library/math.html)
+![](images/algo/calculator.svg) [☞ `math`](https://docs.python.org/3/library/math.html)
 # 🧪 Battery included 🔋
 
 - Modulo [`math`](https://docs.python.org/3/library/math.html) in *Python Standard Library*
@@ -372,7 +372,7 @@ print(sqrt(4))
 
 ---
 
-![](images/misc/dice.png) [☞ `random`](https://docs.python.org/3/library/random.html)
+![](images/algo/red-dice.svg) [☞ `random`](https://docs.python.org/3/library/random.html)
 # 🧪 Random 🎲
 
 - Modulo [`random`](https://docs.python.org/3/library/random.html) in *Python Standard Library*

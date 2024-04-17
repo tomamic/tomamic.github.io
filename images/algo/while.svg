@@ -5,6 +5,7 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <g>
       <path style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 300 100 L 340,100 C 345.523,100 350,109.402 350,121 C 350,132.598 345.523,142 340,142 L 300,142 C 294.477,142 290,132.598 290,121 C 290,109.402 294.477,100 300,100z"/>
@@ -33,7 +34,7 @@
       </text>
     </g>
     <g>
-      <path style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 299.979 380 L 339.896,380 C 345.407,380 349.875,388.954 349.875,400 C 349.875,411.046 345.407,420 339.896,420 L 299.979,420 C 294.468,420 290,411.046 290,400 C 290,388.954 294.468,380 299.979,380z"/>
+      <path style="fill: #ff4040; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 299.979 380 L 339.896,380 C 345.407,380 349.875,388.954 349.875,400 C 349.875,411.046 345.407,420 339.896,420 L 299.979,420 C 294.468,420 290,411.046 290,400 C 290,388.954 294.468,380 299.979,380z"/>
       <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="319.938" y="406.4">
         <tspan x="319.938" y="406.4">Stop</tspan>
       </text>

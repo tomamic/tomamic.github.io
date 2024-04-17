@@ -250,7 +250,7 @@ for y in range(1, 11):
 
 ---
 
-![](images/misc/color-grid.svg) ![](images/oop/raster-tile.png)
+![](images/misc/color-grid.svg) ![](images/repr/raster-tile.svg)
 # Griglia di colori
 
 - Mostrare una griglia `rows×cols` di rettangoli
