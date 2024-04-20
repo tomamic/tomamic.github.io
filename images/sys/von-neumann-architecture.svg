@@ -4,8 +4,9 @@
   <defs/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
-    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" x="350" y="200" width="180" height="300" rx="6" ry="6"/>
+    <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #bfbfbf" x="350" y="200" width="180" height="300" rx="6" ry="6"/>
     <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #ff0000" x="360" y="210" width="160" height="140" rx="6" ry="6"/>
     <g>
       <rect style="fill: #ffffff; fill-opacity: 0.470588; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x="370" y="300" width="60" height="40" rx="6" ry="6"/>
@@ -74,8 +75,8 @@
       </text>
     </g>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="530" y1="420" x2="560.264" y2="419.683"/>
-      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="567.764,419.605 557.817,424.709 560.264,419.683 557.712,414.71 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="530" y1="420" x2="560.264" y2="419.684"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="567.764,419.605 557.817,424.71 560.264,419.684 557.712,414.71 "/>
     </g>
     <g>
       <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="570" y1="359.582" x2="539.736" y2="359.898"/>

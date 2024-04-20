@@ -89,6 +89,8 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -106,8 +108,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -132,8 +137,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -158,8 +166,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -184,8 +195,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -354,8 +368,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -380,8 +397,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -406,8 +426,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -432,8 +455,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -464,7 +490,7 @@
             <dia:point val="22.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -500,7 +526,7 @@
             <dia:point val="23.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -536,7 +562,7 @@
             <dia:point val="28.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -572,7 +598,7 @@
             <dia:point val="29.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -602,8 +628,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#add8e6ff"/>
+        <dia:color val="#ffa500ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -628,8 +657,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#add8e6ff"/>
+        <dia:color val="#ffa500ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -654,8 +686,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#add8e6ff"/>
+        <dia:color val="#ffa500ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -686,7 +721,7 @@
             <dia:point val="19.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -722,7 +757,7 @@
             <dia:point val="20.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -758,7 +793,7 @@
             <dia:point val="21.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -788,8 +823,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -850,8 +888,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -876,8 +917,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -908,7 +952,7 @@
             <dia:point val="30.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -944,7 +988,7 @@
             <dia:point val="31.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -974,8 +1018,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1006,7 +1053,7 @@
             <dia:point val="32.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1036,8 +1083,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1068,7 +1118,7 @@
             <dia:point val="33.5,11.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1098,8 +1148,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1130,7 +1183,7 @@
             <dia:point val="27.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1160,8 +1213,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1186,8 +1242,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1218,7 +1277,7 @@
             <dia:point val="28.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1254,7 +1313,7 @@
             <dia:point val="29.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1284,8 +1343,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1316,7 +1378,7 @@
             <dia:point val="30.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1346,8 +1408,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1378,7 +1443,7 @@
             <dia:point val="31.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1408,8 +1473,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1434,8 +1502,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1466,7 +1537,7 @@
             <dia:point val="24.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1502,7 +1573,7 @@
             <dia:point val="25.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1521,7 +1592,7 @@
         <dia:point val="23,6"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="17.4075,4.96531;23.0481,7.03469"/>
+        <dia:rectangle val="17.4075,5.0375;23,6.9625"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1535,7 +1606,7 @@
             <dia:real val="1.7638888697800927"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="23,6.52344"/>
+            <dia:point val="23,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -1596,8 +1667,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1628,7 +1702,7 @@
             <dia:point val="26.5,6.5475"/>
           </dia:attribute>
           <dia:attribute name="color">
-            <dia:color val="#000000ff"/>
+            <dia:color val="#ffffffff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
             <dia:enum val="1"/>
@@ -1875,8 +1949,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#90ee90ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1934,8 +2011,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#0000ffff"/>
+        <dia:color val="#ff0000ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1993,8 +2073,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#add8e6ff"/>
+        <dia:color val="#ffa500ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -2034,6 +2117,171 @@
       </dia:attribute>
       <dia:attribute name="valign">
         <dia:enum val="2"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O63">
+      <dia:attribute name="obj_pos">
+        <dia:point val="16,13"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="15.6793,12.4968;19.3207,13.5032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="16,13"/>
+        <dia:point val="19,13"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O64">
+      <dia:attribute name="obj_pos">
+        <dia:point val="19,13"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="18.6793,12.4968;22.3207,13.5032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="19,13"/>
+        <dia:point val="22,13"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O65">
+      <dia:attribute name="obj_pos">
+        <dia:point val="22,13"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="21.6793,12.4968;24.3207,13.5032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="22,13"/>
+        <dia:point val="24,13"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O66">
+      <dia:attribute name="obj_pos">
+        <dia:point val="26,13"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="25.6793,12.4968;28.3207,13.5032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="26,13"/>
+        <dia:point val="28,13"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+    </dia:object>
+    <dia:object type="Standard - Line" version="0" id="O67">
+      <dia:attribute name="obj_pos">
+        <dia:point val="28,13"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="27.6793,12.4968;34.3207,13.5032"/>
+      </dia:attribute>
+      <dia:attribute name="conn_endpoints">
+        <dia:point val="28,13"/>
+        <dia:point val="34,13"/>
+      </dia:attribute>
+      <dia:attribute name="numcp">
+        <dia:int val="1"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="start_arrow_width">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow">
+        <dia:enum val="7"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_length">
+        <dia:real val="0.5"/>
+      </dia:attribute>
+      <dia:attribute name="end_arrow_width">
+        <dia:real val="0.5"/>
       </dia:attribute>
     </dia:object>
   </dia:layer>

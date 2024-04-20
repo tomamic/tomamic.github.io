@@ -98,6 +98,7 @@
     </dia:attribute>
   </dia:diagramdata>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -115,8 +116,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#1e90ffff"/>
+        <dia:color val="#ffa500ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -177,8 +181,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -239,8 +246,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -301,8 +311,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -363,8 +376,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -425,8 +441,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -486,6 +505,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -549,6 +571,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -610,6 +635,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -673,6 +701,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -734,6 +765,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -797,6 +831,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -858,6 +895,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -921,6 +961,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -983,6 +1026,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -1044,6 +1090,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -1341,8 +1390,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1403,8 +1455,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1465,8 +1520,11 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
-        <dia:color val="#008000ff"/>
+        <dia:color val="#006600ff"/>
       </dia:attribute>
       <dia:attribute name="show_background">
         <dia:boolean val="true"/>
@@ -1526,6 +1584,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -1589,6 +1650,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -1650,6 +1714,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -1713,6 +1780,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -1774,6 +1844,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -1837,6 +1910,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -1898,6 +1974,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -1961,6 +2040,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -2022,6 +2104,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -2085,6 +2170,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -2146,6 +2234,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
@@ -2209,6 +2300,9 @@
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
       </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
+      </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>
       </dia:attribute>
@@ -2270,6 +2364,9 @@
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="2"/>
+      </dia:attribute>
+      <dia:attribute name="border_color">
+        <dia:color val="#ffffffff"/>
       </dia:attribute>
       <dia:attribute name="inner_color">
         <dia:color val="#ff0000ff"/>

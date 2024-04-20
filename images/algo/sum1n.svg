@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="13cm" height="19cm" viewBox="258 37 242 375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="12cm" height="19cm" viewBox="258 37 237 375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
@@ -86,8 +87,8 @@
       <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 480.5 260 C 540,220 390,210 319.736,210"/>
       <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="312.236,210 322.236,205 319.736,210 322.236,215 "/>
     </g>
-    <image x="430" y="290" width="70" height="70" xlink:href="shopping-cart.svg"/>
-    <g>
+    <image x="400" y="280" width="70" height="70" xlink:href="shopping-cart.svg"/>
+    <g transform="matrix(1,0,0,1,-30,-10)">
       <ellipse style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="460" cy="310" rx="10" ry="10"/>
       <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="460" y="320.039">
         <tspan x="460" y="320.039"></tspan>

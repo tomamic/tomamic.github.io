@@ -5,8 +5,9 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
-    <rect style="fill: #738f99; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x="580" y="520" width="380" height="160" rx="40" ry="40"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x="580" y="520" width="380" height="160" rx="40" ry="40"/>
     <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="548.75">
       <tspan x="770" y="548.75">NP Problems</tspan>
     </text>

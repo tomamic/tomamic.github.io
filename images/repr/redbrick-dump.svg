@@ -4,24 +4,25 @@
   <defs/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
-    <rect style="fill: #008000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="460" width="200" height="20" rx="6" ry="6"/>
-    <rect style="fill: #008000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="480" width="320" height="80" rx="6" ry="6"/>
-    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="390" width="320" height="60" rx="6" ry="6"/>
-    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="450" width="120" height="20" rx="6" ry="6"/>
-    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="370" width="200" height="20" rx="6" ry="6"/>
-    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="360" width="120" height="20" rx="6" ry="6"/>
-    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="230" width="320" height="130" rx="6" ry="6"/>
-    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="950" cy="420" rx="40" ry="10"/>
-    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="950" cy="380" rx="40" ry="10"/>
-    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="870" cy="380" rx="40" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="970" cy="330" rx="20" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="790" cy="330" rx="40" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="870" cy="330" rx="40" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="1010" cy="240" rx="20" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="950" cy="240" rx="40" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="790" cy="240" rx="40" ry="10"/>
-    <ellipse style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000099" cx="730" cy="240" rx="20" ry="10"/>
+    <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="460" width="200" height="20" rx="6" ry="6"/>
+    <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="480" width="320" height="80" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="390" width="320" height="60" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="450" width="120" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="370" width="200" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="360" width="120" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="230" width="320" height="130" rx="6" ry="6"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="950" cy="420" rx="40" ry="10"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="950" cy="380" rx="40" ry="10"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="870" cy="380" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="970" cy="330" rx="20" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="790" cy="330" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="870" cy="330" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="1010" cy="240" rx="20" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="950" cy="240" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="790" cy="240" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="730" cy="240" rx="20" ry="10"/>
     <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="244.7">
       <tspan x="720" y="244.7">42</tspan>
     </text>
