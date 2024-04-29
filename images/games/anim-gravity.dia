@@ -93,6 +93,7 @@
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -119,19 +120,19 @@
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="25,15"/>
+        <dia:point val="22,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="25,15;27,17"/>
+        <dia:rectangle val="22,12;26,16"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="25,15"/>
+        <dia:point val="22,12"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="2.0000004768371582"/>
+        <dia:real val="4.0000004768371582"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="2.0000004768371582"/>
+        <dia:real val="4"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>
@@ -145,19 +146,19 @@
     </dia:object>
     <dia:object type="Standard - Ellipse" version="0" id="O2">
       <dia:attribute name="obj_pos">
-        <dia:point val="29,23"/>
+        <dia:point val="28,21"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="28.95,22.95;31.05,25.05"/>
+        <dia:rectangle val="27.95,20.95;32.05,25.05"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="29,23"/>
+        <dia:point val="28,21"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="2"/>
+        <dia:real val="4"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="2"/>
+        <dia:real val="4"/>
       </dia:attribute>
       <dia:attribute name="border_color">
         <dia:color val="#bfbfbfff"/>
@@ -171,16 +172,16 @@
     </dia:object>
     <dia:object type="Standard - BezierLine" version="0" id="O3">
       <dia:attribute name="obj_pos">
-        <dia:point val="26,16"/>
+        <dia:point val="24,14"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="26.9479,15.95;30.05,24.05"/>
+        <dia:rectangle val="25.9497,13.95;30.05,23.05"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
-        <dia:point val="26,16"/>
-        <dia:point val="27,16"/>
-        <dia:point val="30,17"/>
-        <dia:point val="30,24"/>
+        <dia:point val="24,14"/>
+        <dia:point val="25,14"/>
+        <dia:point val="30,16"/>
+        <dia:point val="30,23"/>
       </dia:attribute>
       <dia:attribute name="corner_types">
         <dia:enum val="0"/>
@@ -192,16 +193,16 @@
     </dia:object>
     <dia:object type="Standard - BezierLine" version="0" id="O4">
       <dia:attribute name="obj_pos">
-        <dia:point val="30,24"/>
+        <dia:point val="30,23"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="29.95,15.6382;34,24.05"/>
+        <dia:rectangle val="29.95,13.6382;35,23.05"/>
       </dia:attribute>
       <dia:attribute name="bez_points">
-        <dia:point val="30,24"/>
-        <dia:point val="30,17"/>
-        <dia:point val="33,16"/>
-        <dia:point val="34,16"/>
+        <dia:point val="30,23"/>
+        <dia:point val="30,16"/>
+        <dia:point val="34,14"/>
+        <dia:point val="35,14"/>
       </dia:attribute>
       <dia:attribute name="corner_types">
         <dia:enum val="0"/>

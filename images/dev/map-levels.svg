@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="32cm" height="22cm" viewBox="333 160 627 429" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="32cm" height="22cm" viewBox="319 160 621 426" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
@@ -8,8 +11,9 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background">
-    <image x="500" y="260" width="260" height="206.402" xlink:href="map-city.png"/>
-    <image x="360" y="380" width="160" height="208.679" xlink:href="map-flat.png" transform="translate(440,484.34) rotate(180) translate(-440,-484.34)"/>
+    <image x="700" y="160" width="240" height="160" xlink:href="map-prov.png"/>
+    <image x="500" y="260" width="260" height="220" xlink:href="map-city.png"/>
+    <image x="320" y="407.758" width="220" height="177.326" xlink:href="map-floor.png" transform="translate(430,496.421) rotate(180) translate(-430,-496.421)"/>
     <g>
       <line style="fill: none; stroke-opacity: 1; stroke-width: 10; stroke: #ff0000" x1="680" y1="180" x2="356.509" y2="351.26"/>
       <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 10; stroke: #ff0000" fill-rule="evenodd" points="349.881,354.769 356.379,345.671 356.509,351.26 361.058,354.509 "/>
@@ -26,6 +30,5 @@
       <tspan x="820" y="493.311">More</tspan>
       <tspan x="820" y="528.589">abstraction</tspan>
     </text>
-    <image x="740" y="160" width="220" height="200" xlink:href="map-prov.png"/>
   </g>
 </svg>

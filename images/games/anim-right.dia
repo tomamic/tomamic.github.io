@@ -92,6 +92,7 @@
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="false"/>
+  <dia:layer name="Background" visible="true" connectable="false"/>
   <dia:layer name="Background" visible="true" connectable="true" active="true">
     <dia:object type="Standard - Box" version="0" id="O0">
       <dia:attribute name="obj_pos">
@@ -118,19 +119,19 @@
     </dia:object>
     <dia:object type="Standard - Image" version="0" id="O1">
       <dia:attribute name="obj_pos">
-        <dia:point val="25,15"/>
+        <dia:point val="23,14"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="25,15;27,17"/>
+        <dia:rectangle val="23,14;27,18"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="25,15"/>
+        <dia:point val="23,14"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
-        <dia:real val="2.0000004768371582"/>
+        <dia:real val="4.0000004768371582"/>
       </dia:attribute>
       <dia:attribute name="elem_height">
-        <dia:real val="2.0000004768371582"/>
+        <dia:real val="4"/>
       </dia:attribute>
       <dia:attribute name="draw_border">
         <dia:boolean val="false"/>

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pyodide Playground</title>
+    <title>Fondinfo Playground</title>
     <script src="https://cdn.jsdelivr.net/npm/pyodide/pyodide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/browserfs@2.0.0/dist/browserfs.min.js"></script>
 
@@ -84,15 +84,16 @@
   </head>
 
   <body style="font-family: Arial, sans">
-    <h1 style="font-size: 32px; font-variant: small-caps; font-weight:normal; vertical-align: middle;">
-    Pyodide Playground 🐍
+    <h1 style="font-size: 32px; font-weight: normal; vertical-align: middle; margin-left:10px;">
+    <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" style="height: 24px; width: auto;">
+    <span onclick="location.href=`https://fondinfo.github.io/`">Fondinfo</span> Playground
     <input type="button" id="run_button" value="▶️ RUN&nbsp;" onclick="call_script()" />
     <input type="button" id="clear_button" value="⏹️ STOP"  onclick="clear_canvas()" style="display:none"/>
-    <select id="file_list" name="file_list" onchange="load_file(this.value)"></select>
+    <select id="file_list" onfocus="update_file_list()" name="file_list" onchange="load_file(this.value)"></select>
     <button onclick="new_file()" title="New file">➕</button>
     <button title="Upload file or project"><label><input type="file" id="file" onchange="upload_file()" style="display:none;">⬆️</label></button>
     <button onclick="download_project()" title="Download project">⬇️</button>
-    <button onclick="delete_project()" title="Delete project">🗑️</button>
+    <button onclick="load_project('/fondinfo.zip')" title="Delete project">♻️</button>
     </h1>
     <div id="loading"></div>
 
@@ -127,14 +128,14 @@
         timer = null;
         if (!current_file) return;
         let text = editor.getValue().replaceAll("\t", "    ");
-        pyodide.FS.writeFile("/fondinfo/" + current_file, text, { encoding : "utf8" });
+        pyodide.FS.writeFile(current_file, text, { encoding : "utf8" });
         pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err));
       }
 
       function load_file(fn) {
         if (!fn) return;
         if (["png", "jpg", "gif", "mp3", "mp4"].includes(fn.split(".").at(-1))) {
-          let array = pyodide.FS.readFile("/fondinfo/" + fn);
+          let array = pyodide.FS.readFile(fn);
           let blob = new Blob([array], {type: "application/octet-stream"});
           let elem = window.document.createElement("A");
           elem.href = window.URL.createObjectURL(blob);
@@ -143,68 +144,53 @@
           elem.click();
           document.body.removeChild(elem);
         } else {
-          save_file();
-          current_file = fn;
-          let text = pyodide.FS.readFile("/fondinfo/" + fn, { encoding: "utf8" });
-          editor.setValue(text);
-          if (history && history.replaceState) history.replaceState({}, '', `${location.pathname}?${fn}`);
+          try {
+            let text = pyodide.FS.readFile(fn, { encoding: "utf8" });
+            save_file();
+            current_file = fn;
+            editor.setValue(text);
+            if (term) term.clear();
+            let cwd = pyodide.FS.cwd().substring(9);
+            if (cwd.length) { cwd += '/'; }
+            if (history && history.replaceState) history.replaceState({}, '', `${location.pathname}?${cwd+fn}`);
+          } catch (e) {
+            save_file();
+            current_file = '';
+            editor.setValue('');
+            pyodide.FS.chdir(fn);
+            update_file_list();
+          }
         }
         update_file_list();
       }
 
-      function load_fondinfo_files(callback=null) {
+      function load_fondinfo() {
         pyodide.runPython(`
           import base64, io, os, shutil, sys, zipfile
           os.chdir("/fondinfo")
-          sys.path.append(".")
-          if not os.path.exists("g2d.py"):
-              text = open("/fondinfo.b64").read();
-              with zipfile.ZipFile(io.BytesIO(base64.b64decode(text)), "r") as zip_ref:
-                  zip_ref.extractall()
-              if os.path.exists("g2d_pyodide.py"):
-                  shutil.copyfile("g2d_pyodide.py", "g2d.py")
+          sys.path += ["/", ".", "/fondinfo"]
+          with zipfile.ZipFile("/fondinfo.zip") as zip_ref:
+            if not os.listdir():
+              zip_ref.extractall()
+            open("/g2d.py", "wb").write(zip_ref.read("g2d_pyodide.py"))
         `, { globals: pyodide.globals.get("dict")() } );  // avoid polluting the global namespace
-        let fn = location.search && location.search.substring(1); // || "p21_anim.py";
-        if (fn) {
-          current_file = fn;
-          let url = "https://raw.githubusercontent.com/tomamic/fondinfo/master/" + fn;
-          fetch(url).then(file => file.text().then(text => {
-            pyodide.FS.writeFile("/fondinfo/" + fn, text, { encoding: "utf8" });
-            editor.setValue(text);
-            update_file_list();
-            pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err));
-          }));
-        } else {
-          current_file = "p21_anim.py";
-          let text = pyodide.FS.readFile("/fondinfo/" + current_file, { encoding: "utf8" });
-          editor.setValue(text);
-          update_file_list();
-          pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err));
+        current_file = location.search && location.search.substring(1) || "main.py";
+        let text = "";
+        try {
+          text = pyodide.FS.readFile("/fondinfo/" + current_file, { encoding: "utf8" });
+        } catch(e) { }
+        editor.setValue(text);
+        if (current_file.includes("/")) {
+          pyodide.FS.chdir("/fondinfo/" + current_file.substr(0, current_file.lastIndexOf("/")));
+          current_file = current_file.substring(1 + current_file.lastIndexOf("/"));
         }
+        update_file_list();
+        pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err));
         document.querySelector("#loading").style.display = "none";
-        if (callback) callback();
-      }
-
-      function delete_project() {
-        if (confirm("Are you sure to delete current project?")) {
-          let files = pyodide.FS.readdir("/fondinfo/");
-          for (const fn of files) if (fn[0] != '.') pyodide.FS.unlink(fn);
-          load_fondinfo_files();
-        }
-      }
-
-      function load_local_files(callback=null) {
-        pyodide.FS.syncfs(true, err => {
-          if (err) {
-            console.error("Error syncing from IDBFS", err);
-          } else {
-            if (callback) callback();
-          }
-        });
       }
 
       function download_project() {
-        pyodide.runPython(`import shutil\nshutil.make_archive("/project", "zip")`,
+        pyodide.runPython(`import os, shutil;os.chdir("/fondinfo");shutil.make_archive("/project", "zip")`,
           { globals: pyodide.globals.get("dict")() } );  // avoid polluting the global namespace
         let array = pyodide.FS.readFile("/project.zip");
         let blob = new Blob([array], {type: "application/zip"});
@@ -216,12 +202,13 @@
         document.body.removeChild(elem);
       }
 
-      function update_file_list() {
+      function update_file_list(dir) {
         const fl = document.querySelector("#file_list");
         fl.innerHTML = "";
-        let files = pyodide.FS.readdir("/fondinfo/");
+        let files = pyodide.FS.readdir("./");
         files.sort();
-        for (const fn of files) if (fn[0] != '.') {
+        excl = pyodide.FS.cwd() == "/fondinfo" ? ['.', '..'] : ['.']
+        for (const fn of files) if (!excl.includes(fn)) {
           let elem = document.createElement("OPTION");
           elem.value = fn;
           elem.innerHTML = fn;
@@ -242,7 +229,7 @@
       function call_script(event) {
         let scroll = editor.getScrollInfo();
         editor.getInputField().blur();
-        let text = editor.getValue().replace("\t", "    ");
+        let text = editor.getValue().replaceAll("\t", "    ");
         editor.setValue(text);
         save_file();
         editor.scrollTo(scroll.left, scroll.top);
@@ -270,38 +257,58 @@
       }
 
       function new_file() {
-        let fn = prompt("New file name");
+        let fn = prompt("New file name (trailing “/” for a folder)");
         if (fn) {
-          if (!fn.includes(".")) fn += ".py";
-          editor.setValue("");
-          current_file = fn;
-          save_file();
-          update_file_list();
+          if (fn.endsWith("/")) {
+            pyodide.FS.mkdir(fn);
+            pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err))
+            update_file_list();
+          } else {
+            if (!fn.includes(".")) fn += ".py";
+            editor.setValue("");
+            current_file = fn;
+            save_file();
+            update_file_list();
+          }
         }
       }
 
-      async function upload_file() {
+      function load_project(project) {
+        let question = "Are you sure to delete current project?";
+        if (confirm(question)) {
+          pyodide.runPython(`
+            import os, shutil, zipfile
+            os.chdir("/fondinfo");
+            for f in os.listdir():
+              try:
+                shutil.rmtree(f)
+              except OSError:
+                os.remove(f)
+            with zipfile.ZipFile("`+project+`", "r") as zip_ref:
+              zip_ref.extractall()
+          `, { globals: pyodide.globals.get("dict")() } );  // avoid polluting the global namespace
+          if (history && history.replaceState) history.replaceState({}, '', location.pathname);
+          load_fondinfo();
+        }
+      }
+
+      function upload_file() {
         let elem = document.getElementById("file");
         let reader = new FileReader();
         reader.readAsArrayBuffer(elem.files[0]);
         reader.onload = () => {
           let fn = elem.value.replaceAll("\\", "/").split("/").at(-1);
           let array = new Uint8Array(reader.result);
-          pyodide.FS.writeFile("/fondinfo/" + fn, Buffer.from(array));
-          let question = "Are you sure to delete current project?";
-          if (fn.endsWith(".zip") && confirm(question)) pyodide.runPython(`
-            import os, shutil, zipfile
-            for f in os.listdir("."):
-                try:
-                    shutil.rmtree(f)
-                except OSError:
-                    if f != "`+fn+`": os.remove(f)
-            with zipfile.ZipFile("`+fn+`", "r") as zip_ref:
-                zip_ref.extractall()
-            os.remove("`+fn+`")
-          `, { globals: pyodide.globals.get("dict")() } );  // avoid polluting the global namespace
-          pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err))
-          update_file_list();
+          if (fn.endsWith(".zip")) {
+            fn = "/" + fn;
+            pyodide.FS.writeFile(fn, Buffer.from(array));
+            load_project(fn);
+            //pyodide.FS.unlink(fn);
+          } else {
+            pyodide.FS.writeFile(fn, Buffer.from(array));
+            pyodide.FS.syncfs(false, err => err && console.error("Error syncing to IDBFS", err))
+            update_file_list();
+          }
         }
       }
 
@@ -321,10 +328,17 @@
         `);
         pyodide.FS.mkdir("/fondinfo");
         pyodide.FS.mount(pyodide.FS.filesystems.IDBFS, { root: "." }, "/fondinfo");
-        let url = "https://raw.githubusercontent.com/tomamic/tomamic.github.io/master/pyodide/fondinfo.b64";
+        let url = "https://raw.githubusercontent.com/fondinfo/fondinfo.github.io/master/play/fondinfo.b64";
         fetch(url).then(file => file.text().then(text => {
-          pyodide.FS.writeFile("/fondinfo.b64", text, { encoding : "utf8" });
-          load_local_files(load_fondinfo_files);
+          bytes = Uint8Array.from(atob(text), m => m.codePointAt(0))
+          pyodide.FS.writeFile("/fondinfo.zip", bytes);
+          pyodide.FS.syncfs(true, err => {
+            if (err) {
+              console.error("Error syncing from IDBFS", err);
+            } else {
+              load_fondinfo();
+            }
+          });
         }));
 
         create_console();
@@ -344,12 +358,12 @@
           pyconsole = PyodideConsole(__main__.__dict__)
           import builtins
           async def await_fut(fut):
-              res = await fut
-              if res is not None:
-                builtins._ = res
-              return to_js([res], depth=1)
+            res = await fut
+            if res is not None:
+              builtins._ = res
+            return to_js([res], depth=1)
           def clear_console():
-              pyconsole.buffer = []
+            pyconsole.buffer = []
         `, { globals: namespace } );
         let repr_shorten = namespace.get("repr_shorten");
         let banner = namespace.get("BANNER");

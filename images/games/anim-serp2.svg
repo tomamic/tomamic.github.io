@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="21cm" height="16cm" viewBox="399 199 402 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="21cm" height="16cm" viewBox="439 59 402 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
-    <rect style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="200" width="400" height="300" rx="0" ry="0"/>
-    <image x="500" y="300" width="40" height="40" xlink:href="alien.svg"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="720" cy="380" rx="20" ry="20"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="680" cy="340" rx="20" ry="20"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="780" cy="320" rx="20" ry="20"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="740" cy="280" rx="20" ry="20"/>
-    <image x="460" y="260" width="40" height="40" xlink:href="alien.svg"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="780" cy="380" rx="20" ry="20"/>
-    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="740" cy="340" rx="20" ry="20"/>
-    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="540" y1="320" x2="780" y2="320"/>
-    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="780" y1="320" x2="780" y2="380"/>
+    <rect style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="440.749" y="60.9286" width="400" height="300" rx="0" ry="0"/>
+    <image x="540.749" y="180.929" width="80" height="80" xlink:href="alien.svg"/>
+    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="800.749" cy="220.929" rx="40" ry="40"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="620.749" y1="220.929" x2="800.749" y2="220.929"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="800.749" y1="220.929" x2="800.749" y2="320.929"/>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="780" y1="380" x2="749.736" y2="380"/>
-      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="742.236,380 752.236,375 749.736,380 752.236,385 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="800.749" y1="320.929" x2="769.734" y2="320.222"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="762.235,320.051 772.347,315.28 769.734,320.222 772.119,325.277 "/>
     </g>
-    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="500" y1="280" x2="740" y2="280"/>
-    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="740" y1="280" x2="740" y2="340"/>
+    <image x="460" y="100" width="80" height="80" xlink:href="alien.svg"/>
+    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="720" cy="140" rx="40" ry="40"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="540" y1="140" x2="720" y2="140"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="720" y1="140" x2="720" y2="240"/>
     <g>
-      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="740" y1="340" x2="710.727" y2="340"/>
-      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="703.227,340 713.227,335 710.727,340 713.227,345 "/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="720" y1="240" x2="689.736" y2="240"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="682.236,240 692.236,235 689.736,240 692.236,245 "/>
     </g>
   </g>
 </svg>
