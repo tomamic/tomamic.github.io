@@ -72,10 +72,10 @@ True
 
 ``` py
 >>> pi = 3.14  # assignment
->>> radius = 2.2
+>>> radius = 2.5
 >>> area = pi * (radius ** 2)
 >>> area
-15.1976
+19.625
 >>> radius = radius + 1  # guess radius… and area!
 ```
 
@@ -157,16 +157,15 @@ TypeError: can only concatenate str (not "int") to str
     - Oggetto e metodo separati da “`.`”
     - Poi parametri tra parentesi
     - Tipicamente, risultato assegnato a variabile
-- [Metodi di oggetti `str`](https://docs.python.org/3/library/stdtypes.html#string-methods): `upper`, `lower`…
+- [Metodi di oggetti `str`](https://docs.python.org/3/library/stdtypes.html#string-methods): `upper`, `lower`, `count`…
 
 ``` py
 >>> txt = "Monty Python"
 >>> uc = txt.upper()  # new string returned, `txt` unchanged
 >>> uc
 "MONTY PYTHON"
->>> lc = txt.lower()
->>> lc
-"monty python"
+>>> txt.count("y")
+2
 ```
 
 ---

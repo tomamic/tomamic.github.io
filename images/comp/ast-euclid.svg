@@ -8,6 +8,7 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
     <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="608.076" y1="91.9238" x2="571.924" y2="128.076"/>
     <g>
@@ -50,7 +51,7 @@
     <g>
       <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" cx="430" cy="310" rx="30" ry="30"/>
       <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="430" y="322.561">
-        <tspan x="430" y="322.561">a</tspan>
+        <tspan x="430" y="322.561">b</tspan>
       </text>
     </g>
     <g>

@@ -5,8 +5,9 @@
   <g id="Background"/>
   <g id="Background"/>
   <g id="Background"/>
+  <g id="Background"/>
   <g id="Background">
-    <rect style="fill: #ffffff; fill-opacity: 0; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #1e90ff" x="270" y="300" width="210" height="120" rx="0" ry="0"/>
+    <rect style="fill: #ffffff; fill-opacity: 0; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #1e90ff" x="270" y="300" width="190" height="120" rx="0" ry="0"/>
     <g>
       <path style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 306.667 130 L 333.333,130 C 337.015,130 340,138.954 340,150 C 340,161.046 337.015,170 333.333,170 L 306.667,170 C 302.985,170 300,161.046 300,150 C 300,138.954 302.985,130 306.667,130z"/>
       <text font-size="9.41493" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="154.707">
@@ -102,7 +103,7 @@
     <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="454.95">
       <tspan x="470" y="454.95">Stop</tspan>
     </text>
-    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 444.736 330 C 464.736,330 470,349.503 470,369.503"/>
-    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 446.19 390 C 466.19,390 470,399.015 470,429.015"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 444.735 330 C 464.735,330 470,349.502 470,369.502"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 446.189 390 C 466.189,390 470,399.015 470,429.015"/>
   </g>
 </svg>

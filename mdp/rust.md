@@ -624,7 +624,7 @@ fn main() {
 
 - Two variables cannot own the same object
 - Assignment op has *move* semantics by default
-- Note : *copy* semantics by default for primitve types
+- Note : *copy* semantics by default for primitive types
 
 ``` rs
 fn main() {
