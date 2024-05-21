@@ -326,7 +326,7 @@ p.gossip { display: none; }
 
 ---
 
-![large](images/repr/box-model.png)
+![large](images/repr/box-model.svg)
 # Box model
 
 - `margin, padding, border-width` – 1-4 valori

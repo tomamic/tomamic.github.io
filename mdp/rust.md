@@ -498,6 +498,8 @@ fn main() {
 }
 ```
 
+<https://doc.rust-lang.org/std/iter/trait.Iterator.html#provided-methods>
+
 ---
 
 # Console input
@@ -942,7 +944,7 @@ pub enum Animal {
     Pig(String),
 }
 impl Animal {
-    pub fn say(&self) {
+    pub fn speak(&self) {
         match self {
             Animal::Dog(name) => println!("I'm {} Dog. I say WOOF!", name),
             Animal::Cat(name) => println!("I'm {} Cat. I say MEOW!", name),
@@ -962,7 +964,7 @@ fn main() {
                  Animal::Cat(String::from("Candy")),
                  Animal::Pig(String::from("Peppa"))];
     for a in v {
-        a.say();
+        a.speak();
     }
 }
 ```
@@ -981,7 +983,7 @@ fn main() {
 
 ``` rs
 pub trait Animal {
-    fn say(&self);
+    fn speak(&self);
 }
 ```
 
@@ -991,7 +993,7 @@ pub trait Animal {
 
 ---
 
-![](images/oop/polymorphism.png)
+![](images/oop/farm.svg)
 # Trait implementation
 
 ``` rs
@@ -1004,7 +1006,7 @@ impl Dog {
     }
 }
 impl Animal for Dog {
-    fn say(&self) {
+    fn speak(&self) {
         println!("I'm {} Dog. I say WOOF!", self.name);
     }
 }
@@ -1023,7 +1025,7 @@ pub struct Farm<T: Animal> {
 impl<T: Animal> Farm<T> {
     pub fn run(&self) {
         for animal in self.animals.iter() {
-            animal.say();
+            animal.speak();
         }
     }
 }
@@ -1066,7 +1068,7 @@ fn main() {
         Box::new(Cat::new("Candy")),
         Box::new(Pig::new("Peppa")),
         Box::new(Pig::new("George"))];
-    for a in v { a.say(); }
+    for a in v { a.speak(); }
 }
 ```
 
