@@ -27,7 +27,7 @@ https://thevaluable.dev/abstraction-type-software-example/
 
 # 💡️ The map is not the territory
 
-![large](images/dev/map-levels.svg)
+![large](images/dev/map-levels.png)
 
 ---
 
@@ -95,7 +95,7 @@ main()  # remove, if importing the module elsewhere
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_hypotenuse.py>
+<https://fondinfo.github.io/play/?c04_hypotenuse.py>
 
 ---
 
@@ -142,7 +142,7 @@ g2d.main_loop(tick)  # call tick 30 times/second
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_anim.py>
+<https://fondinfo.github.io/play/?c04_anim.py>
 
 ---
 
@@ -161,7 +161,7 @@ g2d.main_loop(tick)  # call tick 30 times/second
 
 >
 
-[**Documentazione g2d**](https://github.com/tomamic/fondinfo#g2d)
+[**Documentazione g2d**](https://github.com/fondinfo/fondinfo#g2d)
 
 ---
 
@@ -264,7 +264,7 @@ def move_ball(x: int, y: int,
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_move.py>
+<https://fondinfo.github.io/play/?c04_move.py>
 
 ---
 
@@ -349,7 +349,7 @@ def draw_rays(x0: int, y0: int, r: int):
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_angles.py>
+<https://fondinfo.github.io/play/?c04_angles.py>
 
 ---
 
@@ -376,7 +376,7 @@ def move_around(start: Point, length: float, angle: float) -> Point:
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_polar.py>
+<https://fondinfo.github.io/play/?c04_polar.py>
 
 ---
 
@@ -428,7 +428,7 @@ g2d.draw_image_clip("sprites.png", (x, y), (0, 20), (20, 20))
 
 >
 
-<https://github.com/tomamic/fondinfo#images-and-sounds>
+<https://github.com/fondinfo/fondinfo#images-and-sounds>
 
 ---
 

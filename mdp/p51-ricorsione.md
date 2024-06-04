@@ -32,7 +32,7 @@ def factorial(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_factorial.py>
+<https://fondinfo.github.io/play/?c11_factorial.py>
 
 ---
 
@@ -111,7 +111,7 @@ def fibonacci(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_fibonacci.py>
+<https://fondinfo.github.io/play/?c11_fibonacci.py>
 
 ---
 
@@ -150,7 +150,7 @@ def fibonacci(n: int) -> int:
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_fibonacci.py>
+<https://fondinfo.github.io/play/?c11_fibonacci.py>
 
 ---
 
@@ -309,7 +309,7 @@ Prima lettera == ultima lettera e...
 <br>
 Stringa rimanente (senza prima e ultima lettera) palindroma
 <br>
-<https://tomamic.github.io/pyodide/?p51_palindrome.py>
+<https://fondinfo.github.io/play/?c11_palindrome.py>
 
 ---
 
@@ -329,7 +329,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_sierpinski.py>
+<https://fondinfo.github.io/play/?c11_sierpinski.py>
 
 ---
 
@@ -349,7 +349,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_drawtree.py>
+<https://fondinfo.github.io/play/?c11_drawtree.py>
 
 ---
 
@@ -368,7 +368,7 @@ Euclide: MCD(a, b) = a, se b = 0;
 <br>
 MCD(a, b) = MCD(b, a mod b), se b > 0
 <br>
-<https://tomamic.github.io/pyodide/?p51_gcd.py>
+<https://fondinfo.github.io/play/?c11_gcd.py>
 
 ---
 
@@ -386,7 +386,7 @@ MCD(a, b) = MCD(b, a mod b), se b > 0
 
 <https://en.wikipedia.org/wiki/Bisection_method>
 <br>
-<https://tomamic.github.io/pyodide/?p51_bisection.py>
+<https://fondinfo.github.io/play/?c11_bisection.py>
 
 ---
 
@@ -406,7 +406,7 @@ MCD(a, b) = MCD(b, a mod b), se b > 0
 
 Saranno accettate esclusivamente le soluzioni ricorsive
 <br>
-<https://tomamic.github.io/pyodide/?p51_words.py>
+<https://fondinfo.github.io/play/?c11_words.py>
 
 ---
 
@@ -422,7 +422,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_anagram.py>
+<https://fondinfo.github.io/play/?c11_anagram.py>
 
 ---
 
@@ -445,7 +445,7 @@ spostare l'ultimo disco sul piolo giusto,
 <br>
 spostare ancora gli altri N-1 dischi.
 <br><br>
-<https://tomamic.github.io/pyodide/?p51_hanoi.py>
+<https://fondinfo.github.io/play/?c11_hanoi.py>
 
 ---
 
@@ -464,7 +464,7 @@ spostare ancora gli altri N-1 dischi.
 
 Supporre che i “token” siano tutti separati da spazio e che gli operatori abbiano tutti cardinalità fissa
 <br>
-<https://tomamic.github.io/pyodide/?p41_polish.py>
+<https://fondinfo.github.io/play/?c12_polish.py>
 
 ---
 
@@ -480,7 +480,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide/?p52_folders.py>
+<https://fondinfo.github.io/play/?c12_folders.py>
 
 ---
 
@@ -501,7 +501,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide/?p52_folders.py>
+<https://fondinfo.github.io/play/?c12_folders.py>
 
 ---
 
@@ -521,7 +521,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 >
 
-<https://tomamic.github.io/pyodide/?p52_expr.py>
+<https://fondinfo.github.io/play/?c12_expr.py>
 
 ---
 
@@ -545,7 +545,7 @@ print(prod2.prefix())
 
 <https://it.wikipedia.org/wiki/Notazione_polacca>
 <br>
-<https://tomamic.github.io/pyodide/?p52_expr.py>
+<https://fondinfo.github.io/play/?c12_expr.py>
 
 ---
 
@@ -561,4 +561,4 @@ print(prod2.prefix())
 
 >
 
-<https://tomamic.github.io/pyodide/?p52_parse.py>
+<https://fondinfo.github.io/play/?c12_parse.py>

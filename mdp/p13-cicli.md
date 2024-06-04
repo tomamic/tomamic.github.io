@@ -62,7 +62,7 @@ for c in line:
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_vowels.py>
+<https://fondinfo.github.io/play/?c03_vowels.py>
 
 ---
 
@@ -218,7 +218,7 @@ for i in range(n):
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_squares.py>
+<https://fondinfo.github.io/play/?c03_squares.py>
 
 ---
 
@@ -246,7 +246,7 @@ for y in range(1, 11):
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_tables.py>
+<https://fondinfo.github.io/play/?c03_tables.py>
 
 ---
 
@@ -270,7 +270,7 @@ for y in range(rows):
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_grid.py>
+<https://fondinfo.github.io/play/?c03_grid.py>
 
 ---
 
@@ -359,7 +359,7 @@ print("Sum of all values:", total)
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_sentinel.py>
+<https://fondinfo.github.io/play/?c03_sentinel.py>
 
 ---
 
@@ -383,7 +383,7 @@ for i in range(1, n + 1):
 
 <https://it.wikipedia.org/wiki/Carl_Friedrich_Gauss#Biografia>
 <br>
-<https://tomamic.github.io/pyodide/?p13_gauss.py>
+<https://fondinfo.github.io/play/?c03_gauss.py>
 
 ---
 

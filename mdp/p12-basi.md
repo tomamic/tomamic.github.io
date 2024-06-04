@@ -17,7 +17,7 @@
 
 # 🧪 Shell interattiva
 
-- Installare [Thonny](https://thonny.org/) o usare il [Playground](https://tomamic.github.io/pyodide/) online
+- Installare [Thonny](https://thonny.org/) o usare il [Playground](https://fondinfo.github.io/play/) online
     - In basso, interfaccia interattiva *REPL* (Read-Eval-Print Loop)
 - **Tipo di dato** : insieme di *valori* + *operazioni* ammesse
 - Tipi numerici: **`int`** o **`float`**, per numeri interi o razionali
@@ -41,7 +41,7 @@
 # 🧪 Valori booleani e None
 
 - Tipo **`bool`**, per valori booleani: `True, False`
-    - Operatori logici: `and, or, not` (→ [Logica](t01-logica.html))
+    - Operatori logici: `and, or, not` (→ [Logica](t11-logica.html))
 - Confronti: `==, !=, <, <=, >, >=`
     - Solo tra valori omogenei; risultato booleano
     - Confronti concatenabili, sottinteso `and`
@@ -238,7 +238,7 @@ print("The sum is", total)
 
 >
 
-<https://tomamic.github.io/pyodide/?p12_sum3.py>
+<https://fondinfo.github.io/play/?c02_sum3.py>
 
 ---
 
@@ -255,10 +255,10 @@ print("The sum is", total)
     - Primari: *Red, Green, Blue*
 - Useremo un modulo *ad-hoc*: `g2d`
     - Definisce funzioni di disegno
-- Nel [playground](https://tomamic.github.io/pyodide/?p12_draw.py), versione integrata
+- Nel [playground](https://fondinfo.github.io/play/?c02_draw.py), versione integrata
 - *Esecuzione locale*
-    - Copiare nella cartella di lavoro <br> il file `g2d.py`, dal [repository fondinfo](https://github.com/tomamic/fondinfo/archive/master.zip)
-- [**Documentazione g2d**](https://github.com/tomamic/fondinfo#g2d)
+    - Copiare nella cartella di lavoro <br> il file `g2d.py`, dal [repository fondinfo](https://github.com/fondinfo/fondinfo/archive/master.zip)
+- [**Documentazione g2d**](https://github.com/fondinfo/fondinfo#g2d)
 
 ---
 
@@ -322,7 +322,7 @@ g2d.main_loop()
 
 >
 
-<https://tomamic.github.io/pyodide/?p12_draw.py>
+<https://fondinfo.github.io/play/?c02_draw.py>
 
 ---
 
@@ -343,7 +343,7 @@ g2d.alert("Hello, " + name + "!")
 g2d.main_loop()
 ```
 
-- [**Documentazione g2d**](https://github.com/tomamic/fondinfo#g2d)
+- [**Documentazione g2d**](https://github.com/fondinfo/fondinfo#g2d)
 
 ---
 
@@ -439,7 +439,7 @@ g2d.draw_circle((200, 200), 25)
 
 >
 
-<https://tomamic.github.io/pyodide/?p12_ifelse.py>
+<https://fondinfo.github.io/play/?c02_ifelse.py>
 
 ---
 
@@ -485,7 +485,7 @@ g2d.draw_circle((200, 200), r)
 
 >
 
-<https://tomamic.github.io/pyodide/?p12_while.py>
+<https://fondinfo.github.io/play/?c02_while.py>
 
 ---
 
@@ -554,7 +554,7 @@ g2d.main_loop()
 
 >
 
-<https://tomamic.github.io/pyodide/?p12_squares.py>
+<https://fondinfo.github.io/play/?c02_squares.py>
 
 ---
 

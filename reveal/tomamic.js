@@ -18,7 +18,7 @@
                 <section data-markdown="mdp/`+name+`.md" data-separator="^---\n">
                 </section>
             </div>
-            <div id="tomamic"><a href="/" target="_self">tomamic.github.io</a></div>
+            <div id="fondinfo"><a href="/" target="_self">fondinfo.github.io</a></div>
         </div>`;
     document.head.insertAdjacentHTML('beforeend', ico);
     document.head.insertAdjacentHTML('beforeend', css);

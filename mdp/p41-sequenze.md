@@ -158,7 +158,7 @@ def main():
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_fibonacci.py>
+<https://fondinfo.github.io/pyodide/?c08_fibonacci.py>
 
 ---
 
@@ -184,7 +184,7 @@ main()
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_reset.py>
+<https://fondinfo.github.io/play/?c08_reset.py>
 
 ---
 
@@ -227,7 +227,7 @@ for c in line:
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_vowels.py>
+<https://fondinfo.github.io/play/?c03_vowels.py>
 
 ---
 
@@ -253,7 +253,7 @@ for c in text:
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_brackets.py>
+<https://fonsinfo.github.io/pyodide/?c08_brackets.py>
 
 ---
 
@@ -278,7 +278,7 @@ print(counters)
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_counters.py>
+<https://fondinfo.github.io/play/?c08_counters.py>
 
 ---
 
@@ -686,7 +686,7 @@ True
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_histogram.py>
+<https://fondinfo.github.io/play/?c08_histogram.py>
 
 ---
 
@@ -703,7 +703,7 @@ True
 
 Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 <br>
-<https://tomamic.github.io/pyodide/?p41_dice.py>
+<https://fondinfo.github.io/play/?c08_dice.py>
 
 ---
 
@@ -724,7 +724,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_merge.py>
+<https://fondinfo.github.io/play/?c08_merge.py>
 
 ---
 
@@ -742,7 +742,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p41_pacman.py>
+<https://fondinfo.github.io/play/?c08_pacman.py>
 
 ---
 
@@ -755,7 +755,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide/?p13_resistors.py>
+<https://fondinfo.github.io/play/?c03_resistors.py>
 
 ---
 
@@ -777,7 +777,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_fsm.py>
+<https://fondinfo.github.io/play/?c19_fsm.py>
 
 ---
 
@@ -789,7 +789,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_nfsm.py>
+<https://fondinfo.github.io/play/?c19_nfsm.py>
 
 ---
 
@@ -802,4 +802,4 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 >
 
-<https://tomamic.github.io/pyodide//?p41_pda.py>
+<https://fondinfo.github.io/play/?c19_pda.py>

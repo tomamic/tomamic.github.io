@@ -113,7 +113,7 @@ print("b2 @", b2.pos())
 
 >
 
-<https://tomamic.github.io/pyodide/?p31_ball.py>
+<https://fondinfo.github.io/play/?c05_ball.py>
 
 ---
 
@@ -158,7 +158,7 @@ def main():
 
 >
 
-<https://tomamic.github.io/pyodide/?p31_ball.py>
+<https://fondinfo.github.io/play/?c05_ball.py>
 
 ---
 
@@ -259,7 +259,7 @@ print(c.describe())
 print(c.alive())
 ```
 
-<https://tomamic.github.io/pyodide/?p31_dnd.py>
+<https://fondinfo.github.io/play/?c05_dnd.py>
 
 ---
 
@@ -305,7 +305,7 @@ g2d.init_canvas((ARENA_W, ARENA_H))
 g2d.main_loop(tick)
 ```
 
-<https://tomamic.github.io/pyodide/?p31_balls.py>
+<https://fondinfo.github.io/play/?c05_balls.py>
 
 ---
 
@@ -329,11 +329,11 @@ balls.append(Ball(80, 40))
 balls.append(Ball(120, 120))
 ```
 
-<https://tomamic.github.io/pyodide/?p31_balls.py>
+<https://fondinfo.github.io/play/?c05_balls.py>
 
 ---
 
-![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
+![](https://raw.githubusercontent.com/fondinfo/fondinfo/master/sprites.png)
 # Personaggio Ghost
 
 - Ogni tanto sparisce o ricompare (cambiando *sprite*)
@@ -393,7 +393,7 @@ def tick():
         g.move()
 ```
 
-<https://tomamic.github.io/pyodide/?p31_ghost.py>
+<https://fondinfo.github.io/play/?c05_ghost.py>
 
 - `g2d.draw_image_clip` disegna una porzione di immagine
     - Inefficiente caricare tante immagini separate
@@ -450,7 +450,7 @@ def tick():
 
 ---
 
-![](https://raw.githubusercontent.com/tomamic/fondinfo/master/sprites.png)
+![](https://raw.githubusercontent.com/fondinfo/fondinfo/master/sprites.png)
 # Fantasma con conteggio
 
 - Partire dalla classe `Ghost` vista a lezione

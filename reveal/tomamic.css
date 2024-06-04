@@ -509,7 +509,7 @@ code:before {
   bottom: 225px;
   left: 160px;*/
 }
-.reveal #tomamic {
+.reveal #fondinfo {
     position: absolute;
     bottom: 15px;
     left: 15px;
@@ -518,11 +518,11 @@ code:before {
     background-size: 24px 24px;
     padding-left: 28px;
 }
-.reveal #tomamic a {
+.reveal #fondinfo a {
     font-size: small;
     color: midnightblue;
 }
-.reveal #tomamic a:hover {
+.reveal #fondinfo a:hover {
     color: midnightblue;
     text-shadow: 0 0 1px dimgrey;
 }

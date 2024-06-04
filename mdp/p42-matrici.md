@@ -88,7 +88,7 @@ class BoardGame:
 
 >
 
-*BoardGame*: <https://tomamic.github.io/pyodide/?boardgame.py>
+*BoardGame*: <https://fondinfo.github.io/play/?boardgame.py>
 
 ---
 
@@ -113,7 +113,7 @@ def console_play(game: BoardGame):
 
 >
 
-*Gui*: <https://tomamic.github.io/pyodide/?boardgamegui.py>
+*Gui*: <https://fondinfo.github.io/play/?boardgamegui.py>
 
 ---
 
@@ -181,7 +181,7 @@ class Fifteen(BoardGame):
 
 >
 
-<https://tomamic.github.io/pyodide/?p42_fifteen.py>
+<https://fondinfo.github.io/play/?c09_fifteen.py>
 
 ---
 
@@ -440,8 +440,6 @@ Ciclicamente, confrontare la coppia dei primi valori (ciascuno proveniente da un
 Scrivere il minore dei due sul file di uscita
 <br>
 Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora stato scritto in output
-<br>
-<https://tomamic.github.io/pyodide/?p43_merge.py>
 
 ---
 
@@ -461,10 +459,6 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 - Elevare a quadrato valori su diagonale, da basso destra
     - Nell'esempio: `8`, `12`, `7` (celle dove `cols-x == rows-y`)
 - Salvare in CSV la matrice modificata
-
->
-
-<https://tomamic.github.io/pyodide/?p43_csv.py>
 
 ---
 
@@ -487,8 +481,6 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 Usare sempre due cicli `for` annidati: esterno su `y`, interno su `x`
 <br>
 In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
-<br>
-<https://tomamic.github.io/pyodide/?p42_ascii.py>
 
 ---
 
@@ -504,10 +496,6 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
     - Scrivere una colonna della matrice dopo l'altra
     - Prima riga su console = prima colonna della matrice...
     - Dall'alto verso il basso, una colonna alla volta (↓, →)
-
->
-
-<https://tomamic.github.io/pyodide/?p43_scytale.py>
 
 ---
 
@@ -525,10 +513,6 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
     - Sommare e contare solo i valori disponibili
     - 4 valori ai bordi, 3 valori agli angoli
 - Verificare la funzione con alcune matrici di test
-
->
-
-<https://tomamic.github.io/pyodide/?p42_smooth.py>
 
 ---
 
@@ -550,8 +534,6 @@ poi cambiare la direzione in senso orario
 Coordinate raster, rotazione oraria di 90°: `(x', y') = (-y, x)`
 <br>
 In generale: `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin(θ) + y⋅cos(θ))`
-<br>
-<https://tomamic.github.io/pyodide/?p42_spiral.py>
 
 ---
 
@@ -569,5 +551,3 @@ In generale: `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin(θ) + y⋅cos(θ))`
 >
 
 <https://en.wikipedia.org/wiki/Lights_Out_(game)>
-<br>
-<https://tomamic.github.io/pyodide/?p42_lightsout.py>

@@ -59,7 +59,7 @@ class Animal:
 
 >
 
-<https://tomamic.github.io/pyodide/?p32_animals.py>
+<https://fondinfo.github.io/play/?c06_animals.py>
 
 ---
 
@@ -127,7 +127,7 @@ class Actor:  # …
 
 >
 
-<https://tomamic.github.io/pyodide/?actor.py>
+<https://fondinfo.github.io/play/?actor.py>
 
 ---
 
@@ -170,7 +170,7 @@ class Ghost(Actor):  # ...
 
 >
 
-<https://tomamic.github.io/pyodide/?p32_bounce.py>
+<https://fondinfo.github.io/play/?c06_bounce.py>
 <br><br>
 <https://docs.python.org/3/library/random.html#random.choice>
 
@@ -218,7 +218,7 @@ def tick():
 
 >
 
-<https://tomamic.github.io/pyodide/?p32_bounce.py>
+<https://fondinfo.github.io/play/?c06_bounce.py>
 
 ---
 
@@ -243,7 +243,7 @@ class Turtle(Actor): # ...
 
 >
 
-<https://tomamic.github.io/pyodide/?p32_bounce.py>
+<https://fondinfo.github.io/play/?c06_bounce.py>
 
 ---
 
@@ -290,7 +290,7 @@ class Turtle(Actor):
 
 > [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
-<https://tomamic.github.io/pyodide/?p32_bouncegame.py>
+<https://fondinfo.github.io/play/?c06_bouncegame.py>
 
 ---
 
@@ -302,7 +302,7 @@ class Turtle(Actor):
 # Rana nell'arena
 
 - Rendere la classe `Vehicle` un `Actor`
-    - [p04_vehicle.py](https://tomamic.github.io/pyodide/?p31_vehicle.py)
+    - [p04_vehicle.py](https://fondinfo.github.io/play/?p04_vehicle.py)
     - Aggiungere il personaggio all'arena
 - Classe `Frog` da `Turtle` dell'es. `bounce`
 - Conteggiare i frame di un salto della rana
@@ -317,7 +317,7 @@ class Turtle(Actor):
 # Alieni nell'arena
 
 - Rendere la classe `Alien` un `Actor`
-    - [p04_alien.py](https://tomamic.github.io/pyodide/?p31_alien.py)
+    - [p04_alien.py](https://fondinfo.github.io/play/?p04_alien.py)
     - Aggiungere il personaggio all'arena
 - Creare un attore `Bullet`
     - Parte dal fondo e si muove verso l'alto

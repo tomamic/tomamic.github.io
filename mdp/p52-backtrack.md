@@ -31,7 +31,7 @@
 
 >
 
-<https://tomamic.github.io/pyodide/?p51_words.py>
+<https://fondinfo.github.io/play/?c11_words.py>
 
 ---
 
@@ -133,7 +133,7 @@ def place_queens(board: list, y=0) -> bool:
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_queens.py>
+<https://fondinfo.github.io/play/?p53_queens.py>
 
 ---
 
@@ -344,7 +344,7 @@ class Position:
 
 <http://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking.html>
 <br>
-<https://tomamic.github.io/pyodide//?p52_cindy.py>
+<https://fondinfo.github.io/play/?exs/p53_cindy.py>
 
 ---
 
@@ -360,7 +360,7 @@ class Position:
 
 >
 
-<https://tomamic.github.io/pyodide//?p52_queens.py>
+<https://fondinfo.github.io/play/?p53_queens.py>
 
 ---
 
