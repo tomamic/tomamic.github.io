@@ -49,7 +49,7 @@ Ven    | Completamento del gioco
 
 # Come iscriversi?
 
-- Lo stage è **gratuito**, ma limitato a un numero massimo di 60 studenti
+- Lo stage è **gratuito**, ma limitato a un numero massimo di 80 studenti
 - Per iscriversi, entro il **15 maggio**, inviare richiesta a: <stage@ce.unipr.it> (tel. 0521-905708)
     - Da ciascuna scuola saranno inizialmente ammessi al massimo 6 studenti
     - Gli studenti in sovrannumero saranno tenuti in attesa e ammessi solo nel caso di posti disponibili
@@ -64,10 +64,7 @@ Ven    | Completamento del gioco
 
 - Linguaggio **Python 3**
     - [**Thonny**](https://www.thonny.org/), ambiente Python, *battery included*
-    - [Playground](https://tomamic.github.io/pyodide)
-- Linguaggio **Go**
-    - <http://golang.org/>
-    - [Playground](http://www.ce.unipr.it/gopherjs)
+    - [Playground](https://fondinfo.github.io/play)
 - Sviluppo **open-source** e **multi-piattaforma**
     - PC, cellulari e tablet
 - Anche su Raspberry Pi
@@ -82,9 +79,6 @@ Ven    | Completamento del gioco
 - A.B. Downey: *Think Python* 2e - <https://github.com/AllenDowney/ThinkPythonItalian>
 - M. Beri: *Python*, Apogeo Pocket, 2010, 978-8850329151
 - MIT: *Intro to CS and Programming in Python* - [Video delle lezioni](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/index.htm)
-- Go: *Documentazione e tour* - <https://golang.org/doc/>
-- A.A. Donovan e B.W. Kernighan: *The Go Programming Language*, Addison-Wesley, 2015, 978-0134190440
 
 [**Progetti**](progetti.html)
-
 

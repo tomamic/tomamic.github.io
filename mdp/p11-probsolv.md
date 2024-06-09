@@ -116,8 +116,8 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 
 # 🧪 Programmazione a blocchi
 
-![large](images/algo/blockly.png)
+![](images/algo/blockly.png)
 
 >
 
-<https://blockly.games/maze?lang=it>
+<https://blockly.games/maze?lang=it> Problemi 3, 4, 6, 7, 9

@@ -168,8 +168,8 @@ TypeError: can only concatenate str (not "int") to str
 
 ``` py
 >>> txt = "Monty Python"
->>> uc = txt.upper()  # new string returned, `txt` unchanged
->>> uc
+>>> shout = txt.upper()  # new string returned, `txt` unchanged
+>>> shout
 "MONTY PYTHON"
 >>> txt.count("y")
 2
@@ -201,7 +201,8 @@ True
 
 ---
 
-![large](images/algo/holy-grail.jpg)
+![large](images/algo/holy-grail.jpg) [Bridge of Death](https://www.youtube.com/watch?v=Xel0c6mpqPA)
+
 # 🧪 Leggere e scrivere
 
 - **`input`** legge una riga di *testo*, inserita dall'utente, in una *variabile*
@@ -216,10 +217,6 @@ What is your name? Lancelot
 >>> print("Right. Off you go,", quester, ".")
 Right. Off you go, Lancelot .
 ```
-
->
-
-<https://www.youtube.com/watch?v=Xel0c6mpqPA>
 
 ---
 
