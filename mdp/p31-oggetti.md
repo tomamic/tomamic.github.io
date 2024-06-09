@@ -492,7 +492,7 @@ def tick():
 
 ---
 
-![](images/misc/viewport.png)
+![](images/games/viewport.svg)
 # Scroll della vista
 
 - Impostare uno spazio ampio per i movimenti dei personaggi (`ARENA_W, ARENA_H`)

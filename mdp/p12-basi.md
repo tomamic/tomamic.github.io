@@ -212,9 +212,9 @@ True
     - Inserisce spazio tra i valori (parametri)
 
 ``` py
->>> quester = input("What is your name? ")
+>>> knight = input("What is your name? ")
 What is your name? Lancelot
->>> print("Right. Off you go,", quester, ".")
+>>> print("Right. Off you go,", knight, ".")
 Right. Off you go, Lancelot .
 ```
 
@@ -464,7 +464,7 @@ if a > b:
 elif a < b:
     print("The second die wins.")
 else:
-    print("The dice are equal. It's a draw.")
+    print("The dice are equal. It's a tie.")
 ```
 
 ---
