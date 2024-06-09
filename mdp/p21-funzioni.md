@@ -4,33 +4,6 @@
 
 ---
 
-![](images/dev/abstraction.png)
-# 💡️ Pensiero astratto
-
-- **Astrazione**, da “*ab trahere*” = togliere via ✂️
-    - Prescindere da dettagli inessenziali, accidentali
-    - Ragionare su concetto o *modello*, anzichè su reale
-    - Es. mappe non rappresentano ogni sasso o foglia
-- → *Generalizzazione*
-    - Attribuire caratteristiche comuni, del concetto, a tutte le istanze
-- Fondamentale per descrivere e realizzare *sistemi software complessi*
-    - Livelli di astrazione, per incapsulare dettagli 📦
-    - Strutture e algoritmi generici, riusabili ♻️
-
->
-
-https://it.wikipedia.org/wiki/Astrazione_(filosofia)
-<br>
-https://thevaluable.dev/abstraction-type-software-example/
-
----
-
-# 💡️ The map is not the territory
-
-![large](images/dev/map-levels.png)
-
----
-
 ![](images/fun/function.png)
 # ⭐ Definizione di funzione
 

@@ -120,4 +120,4 @@ Una soluzione più breve e chiara si ottiene dopo più iterazioni
 
 >
 
-<https://blockly.games/maze?lang=it> Problemi 3, 4, 6, 7, 9
+<https://blockly.games/maze?lang=it> — Problemi 3, 4, 6, 7, 9

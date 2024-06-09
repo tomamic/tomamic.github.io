@@ -201,7 +201,7 @@ True
 
 ---
 
-![large](images/algo/holy-grail.jpg) [Bridge of Death](https://www.youtube.com/watch?v=Xel0c6mpqPA)
+![large](images/algo/holy-grail.jpg) [The Bridge of Death](https://www.youtube.com/watch?v=Xel0c6mpqPA)
 
 # 🧪 Leggere e scrivere
 
