@@ -877,7 +877,7 @@ print(c.describe())
 print(c.alive())
 ```
 
-<https://tomamic.github.io/pyodide/?p31_dnd.py>
+<https://fondinfo.github.io/play/?c06_dnd.py>
 
 ---
 
@@ -1360,7 +1360,7 @@ True
 ```
 
 - Es. count mines arond a cell:
-    - <https://tomamic.github.io/pyodide/?p42_mines.py>
+    - <https://fondinfo.github.io/play/?c09_mines.py>
 
 ---
 

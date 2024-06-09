@@ -302,7 +302,7 @@ class Turtle(Actor):
 # Rana nell'arena
 
 - Rendere la classe `Vehicle` un `Actor`
-    - [p04_vehicle.py](https://fondinfo.github.io/play/?p04_vehicle.py)
+    - [c05_vehicle.py](https://fondinfo.github.io/play/?exs/c05_vehicle.py)
     - Aggiungere il personaggio all'arena
 - Classe `Frog` da `Turtle` dell'es. `bounce`
 - Conteggiare i frame di un salto della rana
@@ -317,7 +317,7 @@ class Turtle(Actor):
 # Alieni nell'arena
 
 - Rendere la classe `Alien` un `Actor`
-    - [p04_alien.py](https://fondinfo.github.io/play/?p04_alien.py)
+    - [c05_alien.py](https://fondinfo.github.io/play/?exs/c05_alien.py)
     - Aggiungere il personaggio all'arena
 - Creare un attore `Bullet`
     - Parte dal fondo e si muove verso l'alto

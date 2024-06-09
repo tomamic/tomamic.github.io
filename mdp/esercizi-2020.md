@@ -703,10 +703,6 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Rispetto alla struttura raffigurata a fianco
     - Cercare il doc. più grande a partire dalla cartella radice (chiamare il metodo `largest`)
 
->
-
-<https://tomamic.github.io/pyodide//?p41_folders.py>
-
 ---
 
 ![](images/misc/bubble-bobble.png)

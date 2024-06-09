@@ -894,10 +894,6 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Rispetto alla struttura raffigurata a fianco
     - Calcolare la profondità della cartella radice (chiamare il metodo `depth`)
 
->
-
-<https://tomamic.github.io/pyodide//?p41_folders.py>
-
 ---
 
 ![small](images/misc/slitherlink-loops.svg) Errore: due anelli
@@ -1043,10 +1039,6 @@ Eseguibile nei casi `n ≤ 3`, poi troppo inefficiente
     - Una riga parziale potrebbe già superare il numero magico
     - Ecc.
 - Se resta una sola cella libera in una riga… → valore forzato
-
->
-
-<http://www.ce.unipr.it/brython/?p5_solve_queens.py>
 
 ---
 

@@ -251,7 +251,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 - Usare la funzione `from_polar`
     - Conversione da coordinate polari a cartesiane
-    - <https://tomamic.github.io/pyodide/?p21_polar.py>
+    - <https://fondinfo.github.io/play/?c04_polar.py>
 - Trovare la posizione di 12 punti attorno all'origine
     - Distanza dall'origine: 100 px
     - Separati di 30° tra loro
@@ -279,7 +279,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 
 >
 
-<https://tomamic.github.io/pyodide/?p21_polar.py>
+<https://fondinfo.github.io/play/?c04_polar.py>
 
 ---
 
@@ -550,7 +550,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 ![](images/oop/bounce.png)
 # 5.1 Modificare Turtle
 
-- Partire dall'esempio [bounce](https://tomamic.github.io/pyodide/?p32_bounce.py)
+- Partire dall'esempio “*bounce*”
 - Movimenti di `Turtle` su griglia, con riquadri di 20×20 pixel
     - Cambia direzione solo quando le coordinate sono multiple di 20
     - Direzione scelta in base ai tasti premuti
@@ -562,7 +562,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 ![](images/oop/bounce.png)
 # 5.2 Modificare Ghost
 
-- Partire dall'esempio [bounce](https://tomamic.github.io/pyodide/?p32_bounce.py)
+- Partire dall'esempio “*bounce*”
 - Movimenti di `Ghost` su griglia, con riquadri di 20×20 pixel
     - Cambia direzione solo quando le coordinate sono multiple di 20
     - Come `Turtle`, ma direzione scelta casualmente
@@ -575,7 +575,7 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 ![](images/oop/bounce.png)
 # 5.3 Modificare Ball
 
-- Partire dall'esempio [bounce](https://tomamic.github.io/pyodide/?p32_bounce.py)
+- Partire dall'esempio “*bounce*”
 - Quando `Ball` urta `Ghost`
 - La pallina riappare in posizione casuale, all'interno del canvas
 
@@ -680,7 +680,6 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
     - Nell'intervallo tra minimo e massimo
     - *Non* memorizzare in una lista i singoli valori inseriti
     - Usare invece una lista di contatori
-    - <https://tomamic.github.io/pyodide/?p41_counters.py>
 
 ---
 
@@ -739,9 +738,9 @@ Se ho studiato 180h, in proporzione mi aspetto circa 24
 - Partita vinta se uccisi tutti gli SnoBee
 - Partita persa se ucciso Pengo
 - Creare una classe `PengoGame` per gestire la partita
-    - [Esempio BounceGame](https://tomamic.github.io/pyodide/?p32_bouncegame.py)
+    - Esempio “*BounceGame*”
 - Creare una classe `PengoGui` per la visualizzazione
-    - [Esempio BounceGui](https://tomamic.github.io/pyodide/?p32_bouncegui.py)
+    - Esempio “*BounceGui*”
 
 ---
 
@@ -890,7 +889,6 @@ Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 # 8.4 Quindici con lista di liste
 
 - Modificare l'esempio del gioco Fifteen
-    - <https://tomamic.github.io/pyodide/?p42_fifteen.py>
 - Cambiare la struttura dati privata
     - Usare una lista di liste anzichè una lista semplice
 - Adattare gli algoritmi
@@ -1079,10 +1077,6 @@ Può essere utile un campo `expected`, che memorizza e incrementa il valore atte
 - Rispetto alla struttura raffigurata a fianco
     - Calcolare `depth` della cartella radice (*3*, nell'esempio)
 
->
-
-<https://tomamic.github.io/pyodide//?p41_folders.py>
-
 ---
 
 ![](images/misc/minesweeper.png)
@@ -1253,7 +1247,3 @@ In alternativa, usare una regex
 - Nella struttura raffigurata a fianco
     - Cercare il doc più grande a partire dalla radice
     - `(16, "Desktop/macm/a1.txt")`
-
->
-
-<https://tomamic.github.io/pyodide//?p41_folders.py>

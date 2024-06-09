@@ -131,7 +131,7 @@ with open("redbrick.bmp", "rb") as bmp:
 
 >
 
-<https://tomamic.github.io/pyodide/?p42_bmp.py>
+<https://fondinfo.github.io/play/?c14_bmp.py>
 
 ---
 
@@ -157,7 +157,7 @@ for y, row in enumerate(reversed(image)):
 
 >
 
-<https://tomamic.github.io/pyodide/?p42_bmp.py>
+<https://fondinfo.github.io/play/?c14_bmp.py>
 
 ---
 
