@@ -133,7 +133,7 @@ def place_queens(board: list, y=0) -> bool:
 
 >
 
-<https://fondinfo.github.io/play/?p53_queens.py>
+<https://github.com/tomamic/backtracking/blob/main/queens.py>
 
 ---
 
@@ -360,7 +360,7 @@ class Position:
 
 >
 
-<https://fondinfo.github.io/play/?p53_queens.py>
+<https://github.com/tomamic/backtracking/blob/main/queens.py>
 
 ---
 
