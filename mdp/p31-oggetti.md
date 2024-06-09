@@ -39,7 +39,7 @@ class Ball:  # …
     def __init__(self, x0: int, y0: int):
         self._x = x0
         self._y = y0
-        self._dx, self._dy = 5, 5
+        self._dx, self._dy = 4, 4
 ```
 
 - Definiamo tutti i campi necessari alla pallina
@@ -177,7 +177,7 @@ class Ball:
         for i in range(n):
             self.move()
 
-b1 = Ball(50, 50)
+b1 = Ball(40, 40)
 b1.multiple_move(3)
 b1.multiple_move(2)
 ```

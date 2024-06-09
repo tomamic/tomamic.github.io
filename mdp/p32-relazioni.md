@@ -161,8 +161,8 @@ class Arena:  # …
 ``` py
 class Ghost(Actor):  # ...
     def move(self, arena: Arena):
-        dx = random.choice([-5, 0, 5])
-        dy = random.choice([-5, 0, 5])
+        dx = random.choice([-4, 0, 4])
+        dy = random.choice([-4, 0, 4])
         arena_w, arena_h = arena.size()
         self._x = (self._x + dx) % arena_w
         self._y = (self._y + dy) % arena_h

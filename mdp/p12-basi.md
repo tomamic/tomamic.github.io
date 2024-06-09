@@ -669,3 +669,26 @@ Cominciare a disegnare un solo quadrato grigio, in posizione casuale
     - Disposti lungo la diagonale, in modo da condividere sempre un vertice
     - Ciascuno con un colore casuale
 - Opzionalmente, determinare il lato in modo da occupare tutta la diagonale
+
+---
+
+
+![large](images/misc/segments-1.svg)
+# Segmenti casuali
+
+- Chiedere all'utente il numero di segmenti da disegnare
+- Disegnare i segmenti
+    - Tutti con lo stesso colore, nero
+    - Ciascuno con entrambi gli estremi in posizione casuale
+    - Ma interamente contenuto nel canvas
+
+---
+
+![large](images/misc/segments-2.svg)
+# Linea spezzata
+
+- Chiedere all'utente il numero di segmenti da disegnare
+- Disegnare i segmenti come una linea spezzata, in nero
+    - Iniziare da un punto casuale e congiungerlo con un successivo punto casuale
+    - Proseguire a congiungere l'ultimo punto con un nuovo punto casuale
+- La linea deve essere interamente contenuta nel canvas
