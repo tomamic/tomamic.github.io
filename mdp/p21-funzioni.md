@@ -396,7 +396,7 @@ def move_around(start: Point, length: float, angle: float) -> Point:
 - Ritagliare l'immagine da `sprites.png`
 
 ``` py
-g2d.draw_image_clip("sprites.png", (x, y), (0, 20), (20, 20))
+g2d.draw_image("sprites.png", (x, y), (0, 20), (20, 20))
 ```
 
 >
@@ -419,7 +419,7 @@ g2d.draw_image_clip("sprites.png", (x, y), (0, 20), (20, 20))
 - Ritagliare l'immagine del fantasma da `sprites.png`
 
 ``` py
-g2d.draw_image_clip("sprites.png", (x, y), (20, 0), (20, 20))
+g2d.draw_image("sprites.png", (x, y), (20, 0), (20, 20))
 ```
 
 ---
