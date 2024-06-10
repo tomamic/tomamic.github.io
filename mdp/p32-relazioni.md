@@ -210,7 +210,7 @@ def tick():
     g2d.clear_canvas()
     for a in arena.actors():
         # Foreground; cut an area from a larger image
-        g2d.draw_image_clip("sprites.png", a.pos(),
+        g2d.draw_image("sprites.png", a.pos(),
                             a.sprite(), a.size())
 
     arena.tick()  # Game logic, move actors
