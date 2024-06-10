@@ -59,7 +59,7 @@ class Animal:
 
 >
 
-<https://fondinfo.github.io/play/?c06_animals.py>
+<https://fondinfo.github.io/play/?c07_animals.py>
 
 ---
 
@@ -170,7 +170,7 @@ class Ghost(Actor):  # ...
 
 >
 
-<https://fondinfo.github.io/play/?c06_bounce.py>
+<https://fondinfo.github.io/play/?c07_bounce.py>
 <br><br>
 <https://docs.python.org/3/library/random.html#random.choice>
 
@@ -218,7 +218,7 @@ def tick():
 
 >
 
-<https://fondinfo.github.io/play/?c06_bounce.py>
+<https://fondinfo.github.io/play/?c07_bounce.py>
 
 ---
 
@@ -243,7 +243,7 @@ class Turtle(Actor): # ...
 
 >
 
-<https://fondinfo.github.io/play/?c06_bounce.py>
+<https://fondinfo.github.io/play/?c07_bounce.py>
 
 ---
 
@@ -290,7 +290,7 @@ class Turtle(Actor):
 
 > [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns)
 
-<https://fondinfo.github.io/play/?c06_bouncegame.py>
+<https://fondinfo.github.io/play/?c07_bouncegame.py>
 
 ---
 

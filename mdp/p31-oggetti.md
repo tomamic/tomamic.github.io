@@ -140,7 +140,7 @@ print("b2 @", b2.pos())
 
 >
 
-<https://fondinfo.github.io/play/?c05_ball.py>
+<https://fondinfo.github.io/play/?c06_ball.py>
 
 ---
 
@@ -185,7 +185,7 @@ def main():
 
 >
 
-<https://fondinfo.github.io/play/?c05_ball.py>
+<https://fondinfo.github.io/play/?c06_ball.py>
 
 ---
 
@@ -286,7 +286,7 @@ print(c.describe())
 print(c.alive())
 ```
 
-<https://fondinfo.github.io/play/?c05_dnd.py>
+<https://fondinfo.github.io/play/?c06_dnd.py>
 
 ---
 
@@ -332,7 +332,7 @@ g2d.init_canvas((ARENA_W, ARENA_H))
 g2d.main_loop(tick)
 ```
 
-<https://fondinfo.github.io/play/?c05_balls.py>
+<https://fondinfo.github.io/play/?c06_balls.py>
 
 ---
 
@@ -356,7 +356,7 @@ balls.append(Ball(80, 40))
 balls.append(Ball(120, 120))
 ```
 
-<https://fondinfo.github.io/play/?c05_balls.py>
+<https://fondinfo.github.io/play/?c06_balls.py>
 
 ---
 
@@ -420,7 +420,7 @@ def tick():
         g.move()
 ```
 
-<https://fondinfo.github.io/play/?c05_ghost.py>
+<https://fondinfo.github.io/play/?c06_ghost.py>
 
 - `g2d.draw_image` disegna una porzione di immagine
     - Inefficiente caricare tante immagini separate
