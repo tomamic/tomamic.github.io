@@ -416,13 +416,13 @@ def tick():
     g2d.clear_canvas()
     for g in ghosts:
         # Draw a clip from a larger image
-        g2d.draw_image_clip("sprites.png", g.pos(), g.sprite(), g.size())
+        g2d.draw_image("sprites.png", g.pos(), g.sprite(), g.size())
         g.move()
 ```
 
 <https://fondinfo.github.io/play/?c05_ghost.py>
 
-- `g2d.draw_image_clip` disegna una porzione di immagine
+- `g2d.draw_image` disegna una porzione di immagine
     - Inefficiente caricare tante immagini separate
 
 ---
