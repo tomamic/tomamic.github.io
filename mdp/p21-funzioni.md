@@ -115,7 +115,7 @@ g2d.main_loop(tick)  # call tick 30 times/second
 
 >
 
-<https://fondinfo.github.io/play/?c04_anim.py>
+<https://fondinfo.github.io/play/?c05_anim.py>
 
 ---
 
@@ -237,7 +237,7 @@ def move_ball(x: int, y: int,
 
 >
 
-<https://fondinfo.github.io/play/?c04_move.py>
+<https://fondinfo.github.io/play/?c05_move.py>
 
 ---
 
