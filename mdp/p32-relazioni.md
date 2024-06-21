@@ -182,7 +182,7 @@ class Ghost(Actor):  # ...
 ``` py
 arena = Arena((480, 360))
 arena.spawn(Ball((40, 80)))
-arena.spawn(Ball((80, 40)));
+arena.spawn(Ball((80, 40)))
 arena.spawn(Ghost((120, 80)))
 arena.spawn(Turtle((80, 80)))
 ```

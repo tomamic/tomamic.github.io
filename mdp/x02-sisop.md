@@ -35,7 +35,7 @@
 
 ---
 
-![large](images/sys/process-lifecycle.png)
+![large](images/sys/process-lifecycle.svg)
 # Scheduling
 
 - CPU singola: non reale parallelismo (in un dato istante, un solo processo in esecuzione)
