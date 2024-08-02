@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="16cm" viewBox="119 97 344 314" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="380" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="272.561">
+        <tspan x="400" y="272.561">G</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="120" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="272.561">
+        <tspan x="140" y="272.561">B</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="160" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="272.561">
+        <tspan x="180" y="272.561">C</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="272.561">
+        <tspan x="220" y="272.561">A</tspan>
+      </text>
+    </g>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" fill-rule="evenodd" points="235.505,225.858 274.142,215.505 284.495,254.142 245.858,264.495 "/>
+    <g>
+      <polygon style="fill: #ffff00; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="247.942,223.302 262.093,219.51 272.058,256.698 257.907,260.49 "/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(260,240) rotate(-15) translate(-260,-240)">
+        <tspan x="260" y="250.95">F</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="320" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="272.561">
+        <tspan x="340" y="272.561">E</tspan>
+      </text>
+    </g>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" fill-rule="evenodd" points="285.858,215.505 324.495,225.858 314.142,264.495 275.505,254.142 "/>
+    <g>
+      <polygon style="fill: #ffff00; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="295.033,218.74 314.931,224.072 304.967,261.26 285.069,255.928 "/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(300,240) rotate(15) translate(-300,-240)">
+        <tspan x="300" y="250.95">D</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #000000" x1="370" y1="230" x2="370" y2="290"/>
+    <g>
+      <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="240" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="272.561">
+        <tspan x="440" y="272.561">H</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 233.333 320 L 366.667,320 C 385.076,320 400,339.973 400,364.611 C 400,389.249 385.076,409.222 366.667,409.222 L 233.333,409.222 C 214.924,409.222 200,389.249 200,364.611 C 200,339.973 214.924,320 233.333,320z"/>
+      <text font-size="20.32" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="349.371">
+        <tspan x="300" y="349.371">Compare</tspan>
+        <tspan x="300" y="374.771">and swap</tspan>
+        <tspan x="300" y="400.171">adjacent values</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="300" y1="320" x2="280" y2="270"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 293.333 100 L 426.667,100 C 445.076,100 460,119.973 460,144.611 C 460,169.249 445.076,189.222 426.667,189.222 L 293.333,189.222 C 274.924,189.222 260,169.249 260,144.611 C 260,119.973 274.924,100 293.333,100z"/>
+      <text font-size="20.32" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="129.371">
+        <tspan x="360" y="129.371">First cycle:</tspan>
+        <tspan x="360" y="154.771">the largest val goes</tspan>
+        <tspan x="360" y="180.171">to its final place</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="440" y1="230" x2="360" y2="189.222"/>
+  </g>
+</svg>

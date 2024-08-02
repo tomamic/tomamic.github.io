@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="36cm" height="26cm" viewBox="-221 227 702 514" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="280" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="308.061">
+        <tspan x="100" y="308.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="280" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="308.061">
+        <tspan x="170" y="308.061">list</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="320" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="348.061">
+        <tspan x="100" y="348.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="320" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="348.061">
+        <tspan x="170" y="348.061">1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="360" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="388.061">
+        <tspan x="100" y="388.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="360" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="388.061">
+        <tspan x="170" y="388.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="400" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="428.061">
+        <tspan x="100" y="428.061">size</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="400" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="428.061">
+        <tspan x="170" y="428.061">3</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="440" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="468.061">
+        <tspan x="100" y="468.061">capacity</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="440" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="468.061">
+        <tspan x="170" y="468.061">4</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="320" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="348.061">
+        <tspan x="270" y="348.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="360" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="388.061">
+        <tspan x="270" y="388.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="400" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="428.061">
+        <tspan x="270" y="428.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="440" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="468.061">
+        <tspan x="270" y="468.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="200" y1="380" x2="233.116" y2="346.884"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="238.419,341.581 234.883,352.188 233.116,346.884 227.812,345.117 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="260" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="288.061">
+        <tspan x="380" y="288.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="260" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="288.061">
+        <tspan x="450" y="288.061">int</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="300" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="328.061">
+        <tspan x="380" y="328.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="300" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="328.061">
+        <tspan x="450" y="328.061">1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="340" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="368.061">
+        <tspan x="380" y="368.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="340" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="368.061">
+        <tspan x="450" y="368.061">-10</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="440" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="468.061">
+        <tspan x="380" y="468.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="440" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="468.061">
+        <tspan x="450" y="468.061">int</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="480" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="508.061">
+        <tspan x="380" y="508.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="480" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="508.061">
+        <tspan x="450" y="508.061">3</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="520" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="548.061">
+        <tspan x="380" y="548.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="520" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="548.061">
+        <tspan x="450" y="548.061">-9</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="340" x2="331.292" y2="355.646"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="338,359 326.82,359 331.292,355.646 331.292,350.056 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="380" x2="335.646" y2="451.292"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="339,458 330.056,451.292 335.646,451.292 339,446.82 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="420" x2="333.116" y2="453.116"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="338.419,458.419 327.812,454.883 333.116,453.116 334.883,447.812 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="540" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="568.061">
+        <tspan x="100" y="568.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="540" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="568.061">
+        <tspan x="170" y="568.061">list</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="580" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="608.061">
+        <tspan x="100" y="608.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="580" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="608.061">
+        <tspan x="170" y="608.061">1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="620" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="648.061">
+        <tspan x="100" y="648.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="620" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="648.061">
+        <tspan x="170" y="648.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="660" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="688.061">
+        <tspan x="100" y="688.061">size</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="660" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="688.061">
+        <tspan x="170" y="688.061">3</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="60" y="700" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="728.061">
+        <tspan x="100" y="728.061">capacity</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="140" y="700" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="170" y="728.061">
+        <tspan x="170" y="728.061">4</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="540" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="568.061">
+        <tspan x="270" y="568.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="580" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="608.061">
+        <tspan x="270" y="608.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="620" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="648.061">
+        <tspan x="270" y="648.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="660" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="688.061">
+        <tspan x="270" y="688.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="200" y1="640" x2="235.646" y2="568.708"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="239,562 239,573.18 235.646,568.708 230.056,568.708 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="620" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="648.061">
+        <tspan x="380" y="648.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="620" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="648.061">
+        <tspan x="450" y="648.061">int</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="660" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="688.061">
+        <tspan x="380" y="688.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="660" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="688.061">
+        <tspan x="450" y="688.061">2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="700" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="380" y="728.061">
+        <tspan x="380" y="728.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="700" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="728.061">
+        <tspan x="450" y="728.061">2</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="560" x2="336.384" y2="469.04"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="339.17,462.076 340.098,473.218 336.384,469.04 330.813,469.504 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="600" x2="333.116" y2="633.116"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="338.419,638.419 327.812,634.883 333.116,633.116 334.883,627.812 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="300" y1="640" x2="330.264" y2="640"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="337.764,640 327.764,645 330.264,640 327.764,635 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-40" y="460" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-10" y="488.061">
+        <tspan x="-10" y="488.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-40" y="500" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-10" y="528.061">
+        <tspan x="-10" y="528.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-40" y="540" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-10" y="568.061">
+        <tspan x="-10" y="568.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-40" y="580" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-10" y="608.061">
+        <tspan x="-10" y="608.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-220" y="440" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="-180" y="468.061">
+        <tspan x="-180" y="468.061">type</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-140" y="440" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-110" y="468.061">
+        <tspan x="-110" y="468.061">list</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-220" y="480" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="-180" y="508.061">
+        <tspan x="-180" y="508.061">refcount</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-140" y="480" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-110" y="508.061">
+        <tspan x="-110" y="508.061">1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-220" y="520" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="-180" y="548.061">
+        <tspan x="-180" y="548.061">value</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-140" y="520" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-110" y="548.061">
+        <tspan x="-110" y="548.061"></tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-220" y="560" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="-180" y="588.061">
+        <tspan x="-180" y="588.061">size</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-140" y="560" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-110" y="588.061">
+        <tspan x="-110" y="588.061">2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-220" y="600" width="80" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="-180" y="628.061">
+        <tspan x="-180" y="628.061">capacity</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="-140" y="600" width="60" height="40" rx="0" ry="0"/>
+      <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-110" y="628.061">
+        <tspan x="-110" y="628.061">4</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="-80" y1="540" x2="-45.4006" y2="488.101"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="-41.2403,481.861 -42.6271,492.955 -45.4006,488.101 -50.9476,487.408 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="20" y1="480" x2="57.888" y2="309.504"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="59.5149,302.183 62.2266,313.029 57.888,309.504 52.4647,310.86 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="20" y1="520" x2="53.1156" y2="553.116"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="58.4189,558.419 47.8123,554.883 53.1156,553.116 54.8833,547.812 "/>
+    </g>
+    <g>
+      <rect style="fill: #000000; fill-opacity: 1; stroke: none" x="-220" y="332.161" width="250.7" height="55.6778"/>
+      <text font-size="18.0622" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-214" y="354.961">
+        <tspan x="-214" y="354.961">nums = [[-10, -9, -9],</tspan>
+        <tspan xml:space="preserve" x="-214" y="377.539">        [-9, 2, 2]]</tspan>
+      </text>
+    </g>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-160" y="427.025">
+      <tspan x="-160" y="427.025">PyListObject</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="-180" y1="360" x2="-164.354" y2="391.292"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="-161,398 -169.944,391.292 -164.354,391.292 -161,386.82 "/>
+    </g>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="247.025">
+      <tspan x="400" y="247.025">PyObject</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="427.025">
+      <tspan x="400" y="427.025">PyObject</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="400" y="607.025">
+      <tspan x="400" y="607.025">PyObject</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="120" y="267.025">
+      <tspan x="120" y="267.025">PyListObject</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="120" y="527.025">
+      <tspan x="120" y="527.025">PyListObject</tspan>
+    </text>
+  </g>
+</svg>

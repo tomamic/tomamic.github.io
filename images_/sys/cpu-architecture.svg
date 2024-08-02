@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="53cm" height="30cm" viewBox="-3 17 1045 585" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #197ad8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="480" y="250" width="160" height="110" rx="0" ry="0"/>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="620.586,81.1111 780,81.1111 780,220 780.264,220 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="787.764,220 777.764,225 780.264,220 777.764,215 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000000" x1="780" y1="260" x2="780" y2="400"/>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="240" y="100" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="131.15">
+        <tspan x="300" y="131.15">PC</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="240" y="200" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="231.15">
+        <tspan x="300" y="231.15">IR</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="240" y="300" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="331.15">
+        <tspan x="300" y="331.15">IRR</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" d="M 226.667 400 L 333.333,400 C 348.061,400 360,408.954 360,420 C 360,431.046 348.061,440 333.333,440 L 226.667,440 C 211.939,440 200,431.046 200,420 C 200,408.954 211.939,400 226.667,400z"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="280" y="431.289">
+        <tspan x="280" y="431.289">Clock</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="240" y="480" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="511.15">
+        <tspan x="300" y="511.15">DR</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="420" x2="430" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="121.111" x2="430" y2="120"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="221.112" x2="430" y2="220"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="321.112" x2="430" y2="320"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="501.112" x2="420" y2="500"/>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="500" y="60" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="91.15">
+        <tspan x="560" y="91.15">SR</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="500" y="160" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="191.15">
+        <tspan x="560" y="191.15">ACC</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="490" y="260" width="60" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="291.15">
+        <tspan x="520" y="291.15">R0</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="500" y="479.5" width="120" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="510.65">
+        <tspan x="560" y="510.65">AR</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="430" y1="80" x2="500" y2="81.1112"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="430" y1="180" x2="500" y2="181.111"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="430" y1="280" x2="480" y2="280"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="420" y1="500" x2="500" y2="500.612"/>
+    <polygon style="fill: #aa0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="700,150 860,230 700,310 "/>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="300" y="167.675">
+      <tspan x="300" y="167.675">Program Counter</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="300" y="367.675">
+      <tspan x="300" y="367.675">Interrupt Request Reg</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="300" y="267.675">
+      <tspan x="300" y="267.675">Instruction Reg</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="300" y="547.675">
+      <tspan x="300" y="547.675">Data Reg</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="560" y="547.675">
+      <tspan x="560" y="547.675">Addr Reg</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="560" y="387.675">
+      <tspan x="560" y="387.675">General Purpose Regs</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="238.75">
+      <tspan x="770" y="238.75">ALU</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="560" y="127.675">
+      <tspan x="560" y="127.675">Status Reg</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000000" x1="430" y1="420" x2="700" y2="420.612"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="620" y1="181.111" x2="700" y2="180"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="640" y1="280" x2="700" y2="280"/>
+    <g>
+      <rect style="fill: #005500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x="700" y="400" width="160" height="41.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="430.65">
+        <tspan x="780" y="430.65">CU</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="167.777" y1="72.3292" x2="241.172" y2="101.172"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="183.954" y1="524.687" x2="240" y2="501.112"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="676.311" y1="524.499" x2="620" y2="500.612"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="859.411" y1="377.176" x2="820" y2="400"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="453.518" y1="62.2549" x2="499.001" y2="70.3093"/>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="780" y="467.675">
+      <tspan x="780" y="467.675">Control Unit</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="920" y="225.328">
+      <tspan x="920" y="225.328">Arithmetic</tspan>
+      <tspan x="920" y="250.022">Logic Unit</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000000" x1="430" y1="80" x2="430" y2="500"/>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 33.3333 20 L 166.667,20 C 185.076,20 200,31.5038 200,45.6944 C 200,59.8851 185.076,71.3889 166.667,71.3889 L 33.3333,71.3889 C 14.9238,71.3889 0,59.8851 0,45.6944 C 0,31.5038 14.9238,20 33.3333,20z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="43.225">
+        <tspan x="100" y="43.225">Address of next</tspan>
+        <tspan x="100" y="67.9194">instruction</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 293.333 20 L 426.667,20 C 445.076,20 460,31.5038 460,45.6944 C 460,59.8851 445.076,71.3889 426.667,71.3889 L 293.333,71.3889 C 274.924,71.3889 260,59.8851 260,45.6944 C 260,31.5038 274.924,20 293.333,20z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="360" y="43.225">
+        <tspan x="360" y="43.225">Carry, Zero,</tspan>
+        <tspan x="360" y="67.9194">Sign, Overflow</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 33.3333 520 L 166.667,520 C 185.076,520 200,537.909 200,560 C 200,582.091 185.076,600 166.667,600 L 33.3333,600 C 14.9238,600 0,582.091 0,560 C 0,537.909 14.9238,520 33.3333,520z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="545.183">
+        <tspan x="100" y="545.183">Word to</tspan>
+        <tspan x="100" y="569.878">read or write</tspan>
+        <tspan x="100" y="594.572">to memory</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 693.333 520 L 826.667,520 C 845.076,520 860,537.909 860,560 C 860,582.091 845.076,600 826.667,600 L 693.333,600 C 674.924,600 660,582.091 660,560 C 660,537.909 674.924,520 693.333,520z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="760" y="545.183">
+        <tspan x="760" y="545.183">Memory</tspan>
+        <tspan x="760" y="569.878">address to</tspan>
+        <tspan x="760" y="594.572">read or write</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 873.4 280 L 1007,280 C 1025.45,280 1040.4,302.56 1040.4,330.389 C 1040.4,358.218 1025.45,380.778 1007,380.778 L 873.4,380.778 C 854.954,380.778 840,358.218 840,330.389 C 840,302.56 854.954,280 873.4,280z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="940.2" y="303.225">
+        <tspan x="940.2" y="303.225">Fetch</tspan>
+        <tspan x="940.2" y="327.919">Decode</tspan>
+        <tspan x="940.2" y="352.614">Manage exec</tspan>
+        <tspan x="940.2" y="377.308">Store results</tspan>
+      </text>
+    </g>
+    <image x="110" y="380" width="87.36" height="87.36" xlink:href="metronome.svg"/>
+    <image x="790" y="50" width="163.75" height="163.75" xlink:href="piano.svg"/>
+    <image x="870" y="390" width="160" height="160" xlink:href="maestro.svg"/>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="570" y="260" width="60" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="600" y="291.15">
+        <tspan x="600" y="291.15">R1</tspan>
+      </text>
+    </g>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="560" y="227.675">
+      <tspan x="560" y="227.675">Accumulator</tspan>
+    </text>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="490" y="310" width="60" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="341.15">
+        <tspan x="520" y="341.15">R2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" x="570" y="310" width="60" height="42.2222" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="600" y="341.15">
+        <tspan x="600" y="341.15">R3</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" fill-rule="evenodd" d="M 33.3333 120 L 166.667,120 C 185.076,120 200,131.504 200,145.694 C 200,159.885 185.076,171.389 166.667,171.389 L 33.3333,171.389 C 14.9238,171.389 0,159.885 0,145.694 C 0,131.504 14.9238,120 33.3333,120z"/>
+      <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="100" y="143.225">
+        <tspan x="100" y="143.225">Opcode of current</tspan>
+        <tspan x="100" y="167.919">instruction</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="170.166" y1="172.153" x2="241.382" y2="199.007"/>
+  </g>
+</svg>

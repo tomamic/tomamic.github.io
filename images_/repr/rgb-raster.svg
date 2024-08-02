@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="368" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-176 -476.36)">
+  <rect x="-273" y="610.93" width="240" height="240" fill="#fff" fill-rule="evenodd" style="paint-order:normal"/>
+  <path d="m216 516.36 312 232" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".25098" stroke-width="2"/>
+  <g transform="matrix(.62857 0 0 .62857 23.496 230.83)">
+   <rect x="269.67" y="417.67" width="35" height="35" fill="#fff" fill-rule="evenodd" style="paint-order:normal"/>
+   <g transform="matrix(.18111 0 0 .18111 230.22 342.86)" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <g>
+     <circle transform="matrix(.73209 0 0 .73209 109.46 161.76)" cx="280" cy="475.22" r="128.57" fill="#ff0" stroke-width="6.8298"/>
+     <circle transform="translate(-4)" cx="280.76" cy="481.74" r="14.744" fill="#fff" stroke-width="5"/>
+     <circle transform="matrix(.66667 0 0 .66667 71.889 136.54)" cx="302.72" cy="523.15" r="6.5877" stroke-width="7.5"/>
+     <circle transform="translate(66)" cx="280.76" cy="481.74" r="14.744" fill="#fff" stroke-width="5"/>
+     <circle transform="matrix(.66667 0 0 .66667 141.89 136.54)" cx="302.72" cy="523.15" r="6.5877" stroke-width="7.5"/>
+     <path d="m264.14 542.29c23.12 24.684 33.612 27.46 51.64 27.46 18.029 0 28.076-17.217 50.306-32.519-20.71 12.265-37.822 17.547-53.944 17.755-16.122 0.20735-31.254-4.6604-48.002-12.696z" fill="#fff" stroke-width="5"/>
+    </g>
+    <path d="m269.78 530.37c0.4855 10.207-11.062 16.026-15.685 17.567" fill="none" stroke-width="5"/>
+    <path d="m362.64 527.23c1.6637 6.692 7.3928 10.53 11.293 14.43" fill="none" stroke-width="5"/>
+   </g>
+  </g>
+  <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".25098" stroke-width="2">
+   <path d="m192 492.36 96 16"/>
+   <path d="m216 492.36 312 16"/>
+   <path d="m192 516.36 96 232"/>
+  </g>
+  <g>
+   <rect x="288" y="780.36" width="80" height="80" fill="#ededed"/>
+   <rect x="368" y="780.36" width="80" height="80" fill="#5a5a2a"/>
+   <rect x="448" y="780.36" width="80" height="80" fill="#e6e600"/>
+  </g>
+  <rect x="288" y="780.36" width="240" height="80" rx="4" ry="4" fill="none" stroke="#000080" stroke-width="4"/>
+  <g fill="#000000" font-family="'Liberation Mono'" font-size="20px" letter-spacing="0px" stroke="#808080" stroke-opacity=".50196" word-spacing="0px">
+   <text x="297.45801" y="801.9491" style="line-height:0%" xml:space="preserve"><tspan x="297.45801" y="801.9491" fill="#ff0000" style="line-height:1.25">R 93%</tspan><tspan x="297.45801" y="826.9491" fill="#00ff00" style="line-height:1.25">G 93%</tspan><tspan x="297.45801" y="851.9491" fill="#000080" style="line-height:1.25">B 93%</tspan></text>
+   <text x="377.45801" y="801.9491" style="line-height:0%" xml:space="preserve"><tspan x="377.45801" y="801.9491" fill="#ff0000" style="line-height:1.25">R 35%</tspan><tspan x="377.45801" y="826.9491" fill="#00ff00" style="line-height:1.25">G 35%</tspan><tspan x="377.45801" y="851.9491" fill="#000080" style="line-height:1.25">B 16%</tspan></text>
+   <text x="457.45801" y="801.9491" style="line-height:0%" xml:space="preserve"><tspan x="457.45801" y="801.9491" fill="#ff0000" style="line-height:1.25">R 90%</tspan><tspan x="457.45801" y="826.9491" fill="#00ff00" style="line-height:1.25">G 90%</tspan><tspan x="457.45801" y="851.9491" fill="#000080" style="line-height:1.25">B  0%</tspan></text>
+  </g>
+  <g transform="translate(504.27 -467.85)">
+   <rect x="-216.27" y="976.22" width="240" height="240" fill="#fff" fill-rule="evenodd" style="paint-order:normal"/>
+   <g transform="translate(48.583 43.567)">
+    <path d="m-264.86 1052.6v-120h240v240h-240z" fill="none"/>
+    <path d="m-164.86 1167.6v-5h-30v-10h-10v-10h-20v-10h-10v-20h-10v-10h-10v-30h-10v-40h10v-30h10v-10h10v-20h10v-10h20v-10h10v-10h30v-10h40v10h30v10h10v10h20v10h10v20h10v10h10v30h10v40h-10v30h-10v10h-10v20h-10v10h-20v10h-10v10h-20v10h-10v-10h-10v10h-30zm40-60v-5h-50v10h50zm-50-85v-10h-20v10h10v10h10zm80 0v-10h-20v10h10v10h10z" fill="#ededed"/>
+    <path d="m-184.86 1157.6v-5h-20v-10h-10v-10h-10v-10h-10v-10h-10v-20h-10v-80h10v-20h10v-10h10v-10h10v-10h10v-10h20v-10h80v10h20v10h10v10h10v10h10v10h10v20h10v80h-10v20h-10v10h-10v10h-10v10h-10v10h-20v10h-80zm60-50v-5h-50v10h50zm-50-85v-10h-20v10h10v10h10zm80 0v-10h-20v10h10v10h10z" fill="#afafa6"/>
+    <path d="m-174.86 1157.6v-5h-20v-10h-20v-10h-10v-10h-10v-20h-10v-20h-10v-60h10v-20h10v-20h10v-10h10v-10h20v-10h20v-10h60v10h20v10h20v10h10v10h10v20h10v20h10v60h-10v20h-10v20h-10v10h-10v10h-20v10h-20v10h-60zm50-50v-5h-50v10h50zm-50-85v-10h-20v10h10v10h10zm80 0v-10h-20v10h10v10h10z" fill="#ff0"/>
+    <path d="m-174.86 1157.6v-5h-20v-10h-20v-10h-10v-10h-10v-20h-10v-20h-10v-60h10v-20h10v-20h10v-10h10v-10h20v-10h20v-10h60v10h20v10h20v10h10v10h10v20h10v20h10v60h-10v20h-10v20h-10v10h-10v10h-20v10h-20v10h-60zm50-10v-5h30v-10h10v-10h10v-10h10v-10h10v-30h10v-40h-10v-30h-10v-10h-10v-10h-10v-10h-10v-10h-30v-10h-40v10h-30v10h-10v10h-10v10h-10v10h-10v30h-10v40h10v30h10v10h10v10h10v10h10v10h30v10h40zm-20-20v-5h-40v-10h-10v-10h-20v-20h10v-10h10v10h10v10h70v-10h20v-10h20v20h-20v10h-10v10h-10v10h-20v10h-10zm20-20v-5h-50v10h50zm-80-70v-5h-10v-20h10v-10h10v-10h10v10h20v30h-10v10h-30zm30-15v-10h-20v10h10v10h10zm50 15v-5h-10v-20h10v-10h10v-10h10v10h20v30h-10v10h-30zm30-15v-10h-20v10h10v10h10z" fill="#e6e600"/>
+    <path d="m-174.86 1157.6v-5h-20v-10h-20v-10h-10v-10h-10v-20h-10v-20h-10v-60h10v-20h10v-20h10v-10h10v-10h20v-10h20v-10h60v10h20v10h20v10h10v10h10v20h10v20h10v60h-10v20h-10v20h-10v10h-10v10h-20v10h-20v10h-60zm60-10v-5h20v-10h20v-10h10v-20h10v-20h10v-60h-10v-20h-10v-20h-10v-10h-20v-10h-20v-10h-60v10h-20v10h-20v10h-10v20h-10v20h-10v60h10v20h10v20h10v10h20v10h20v10h60zm-60-30v-5h-20v-10h-20v-20h10v-10h10v10h10v10h80v-10h10v-10h20v20h-20v10h-10v10h-10v10h-60zm50-10v-5h-50v10h50zm-80-75v-10h-10v-10h10v-10h40v30h-10v10h-30zm30-10v-10h-20v10h10v10h10zm50 10v-10h-10v-10h10v-10h30v10h10v20h-10v10h-30zm30-10v-10h-20v10h10v10h10z" fill="#d5d500"/>
+    <path d="m-174.86 1157.6v-5h-20v-10h-20v-10h-10v-10h-10v-20h-10v-20h-10v-60h10v-20h10v-20h10v-10h10v-10h20v-10h20v-10h60v10h20v10h20v10h10v10h10v20h10v20h10v60h-10v20h-10v20h-10v10h-10v10h-20v10h-20v10h-60zm60-10v-5h20v-10h20v-10h10v-20h10v-20h10v-60h-10v-20h-10v-20h-10v-10h-20v-10h-20v-10h-60v10h-20v10h-20v10h-10v20h-10v20h-10v60h10v20h10v20h10v10h20v10h20v10h60zm-60-30v-5h-10v-10h-30v-10h10v-20h10v20h40v10h-20v10h50v-10h-20v-10h40v-10h10v-10h20v20h-20v10h-10v10h-20v10h-50zm-30-95v-20h30v10h10v20h-10v10h-30zm30 0v-10h-20v10h10v10h10zm50 0v-20h30v10h10v20h-10v10h-30zm30 0v-10h-20v10h10v10h10z" fill="#898973"/>
+    <path d="m-174.86 1157.6v-5h-20v-10h-20v-10h-10v-10h-10v-20h-10v-20h-10v-60h10v-20h10v-20h10v-10h10v-10h20v-10h20v-10h60v10h20v10h20v10h10v10h10v20h10v20h10v60h-10v20h-10v20h-10v10h-10v10h-20v10h-20v10h-60zm60-10v-5h20v-10h20v-10h10v-20h10v-20h10v-60h-10v-20h-10v-20h-10v-10h-20v-10h-20v-10h-60v10h-20v10h-20v10h-10v20h-10v20h-10v60h10v20h10v20h10v10h20v10h20v10h60zm-60-30v-5h-10v-10h-30v-10h10v-20h10v20h40v10h-20v10h50v10h-50zm60-10v-5h-30v-10h40v-10h10v-10h20v20h-20v10h-10v10h-10zm-90-75v-10h20v10h10v-20h-30v-10h30v10h10v20h-10v10h-30zm80 0v-10h20v10h10v-20h-30v-10h30v10h10v20h-10v10h-30z" fill="#adad07"/>
+    <path d="m-174.86 1157.6v-5h60v10h-60zm-20-10v-5h10v10h-10zm90 0v-5h10v10h-10zm-110-10v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm130 0v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm-90-20v-5h-10v-10h-10v-10h-10v-10h10v10h30v10h-10v10h50v10h-50zm60-10v-5h-20v-10h30v-10h10v-10h10v10h10v10h-20v10h-10v10h-10zm-130-10v-5h10v10h-10zm190 0v-5h10v10h-10zm-200-45v-30h10v60h-10zm210 0v-30h10v60h-10zm-150-15v-5h-10v-10h20v10h10v-20h-30v-10h30v10h10v20h-10v10h-20zm80 0v-5h-10v-10h20v10h10v-20h-30v-10h30v10h10v20h-10v10h-20zm-130-30v-5h10v10h-10zm190 0v-5h10v10h-10zm-180-20v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm170 0v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm-130-30v-5h10v10h-10zm90 0v-5h10v10h-10zm-70-10v-5h60v10h-60z" fill="#797964"/>
+    <path d="m-164.86 1157.6v-5h40v10h-40zm-30-10v-5h10v10h-10zm90 0v-5h10v10h-10zm-110-10v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm130 0v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm-90-20v-5h-10v-10h-10v-10h-10v-10h10v10h30v10h-10v10h30v10h-30zm40 0v-5h10v10h-10zm20-10v-5h-20v-10h30v-10h10v-10h10v10h10v10h-20v10h-10v10h-10zm-130-10v-5h10v10h-10zm190 0v-5h10v10h-10zm-200-45v-20h10v40h-10zm210 0v-20h10v40h-10zm-150-15v-5h-10v-10h10v10h20v-20h-30v-10h30v10h10v20h-10v10h-20zm80 0v-5h-10v-10h20v10h10v-20h-30v-10h30v10h10v20h-10v10h-20zm-130-30v-5h10v10h-10zm190 0v-5h10v10h-10zm-180-20v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm170 0v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm-130-30v-5h10v10h-10zm90 0v-5h10v10h-10zm-60-10v-5h40v10h-40z" fill="#8c8c0e"/>
+    <path d="m-164.86 1157.6v-5h40v10h-40zm-30-10v-5h10v10h-10zm90 0v-5h10v10h-10zm-110-10v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm130 0v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm-90-20v-5h-10v-10h-10v-10h-10v-10h10v10h20v20h30v10h-30zm40 0v-5h10v10h-10zm-110-20v-5h10v10h-10zm120 0v-5h20v-10h20v10h-10v10h-30zm70 0v-5h10v10h-10zm-200-45v-20h10v40h-10zm210 0v-20h10v40h-10zm-150-15v-5h-10v-10h10v10h10v10h-10zm80 0v-5h-10v-10h20v20h-10zm-60-20v-5h-30v-10h30v10h10v10h-10zm80 0v-5h-30v-10h30v10h10v10h-10zm-150-10v-5h10v10h-10zm190 0v-5h10v10h-10zm-180-20v-5h10v-10h10v-10h10v10h-10v10h-10v10h-10zm170 0v-5h-10v-10h-10v-10h10v10h10v10h10v10h-10zm-130-30v-5h10v10h-10zm90 0v-5h10v10h-10zm-60-10v-5h40v10h-40z" fill="#6b6b4d"/>
+    <path d="m-154.86 1157.6v-5h20v10h-20zm-40-10v-5h10v10h-10zm90 0v-5h10v10h-10zm-120-20v-5h10v10h-10zm150 0v-5h10v10h-10zm-100-10v-5h-10v-10h-10v-10h-10v-10h10v10h20v20h20v10h-20zm40 0v-5h10v10h-10zm-110-20v-5h10v10h-10zm120 0v-5h20v-10h20v10h-10v10h-30zm70 0v-5h10v10h-10zm-200-45v-10h10v20h-10zm210 0v-10h10v20h-10zm-150-15v-5h10v10h-10zm80 0v-5h10v10h-10zm-60-20v-5h-10v-10h10v10h10v10h-10zm80 0v-5h-10v-10h10v10h10v10h-10zm-150-10v-5h10v10h-10zm40 0v-5h10v10h-10zm80 0v-5h10v10h-10zm70 0v-5h10v10h-10zm-170-30v-5h10v10h-10zm150 0v-5h10v10h-10zm-120-20v-5h10v10h-10zm90 0v-5h10v10h-10zm-50-10v-5h20v10h-20z" fill="#77771b"/>
+    <path d="m-154.86 1157.6v-5h20v10h-20zm-40-10v-5h10v10h-10zm90 0v-5h10v10h-10zm-120-20v-5h10v10h-10zm150 0v-5h10v10h-10zm-90-10v-5h10v10h-10zm30 0v-5h10v10h-10zm-50-10v-5h-10v-10h-10v-10h10v10h20v20h-10zm-60-10v-5h10v10h-10zm120 0v-5h30v-10h10v10h-10v10h-30zm70 0v-5h10v10h-10zm-200-45v-10h10v20h-10zm210 0v-10h10v20h-10zm-150-15v-5h10v10h-10zm80 0v-5h10v10h-10zm-130-30v-5h10v10h-10zm60 0v-5h10v10h-10zm80 0v-5h10v10h-10zm50 0v-5h10v10h-10zm-170-30v-5h10v10h-10zm150 0v-5h10v10h-10zm-120-20v-5h10v10h-10zm90 0v-5h10v10h-10zm-50-10v-5h20v10h-20z" fill="#68682c"/>
+    <path d="m-224.86 1127.6v-5h10v10h-10zm150 0v-5h10v10h-10zm-110-20v-5h-10v-10h-10v-10h10v10h20v20h-10zm70-10v-5h20v-10h10v10h-10v10h-20zm-70-90v-5h10v10h-10zm80 0v-5h10v10h-10zm-120-30v-5h10v10h-10zm150 0v-5h10v10h-10z" fill="#5a5a2a"/>
+    <path d="m-194.86 1097.6v-5h10v10h-10zm80 0v-5h10v10h-10z" fill="#222216"/>
+   </g>
+  </g>
+  <g fill="none">
+   <rect x="317.09" y="697.39" width="31.908" height="11.973" stroke="#000080" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+   <g stroke="#000">
+    <g>
+     <rect x="288" y="508.36" width="240" height="240" rx="4" ry="4" stroke-width="4"/>
+     <g stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".31373">
+      <path d="m328.13 709.37 39.866 70.997" stroke-width="1.9682"/>
+      <path d="m338.13 709.39 109.87 70.968" stroke-width="2"/>
+      <path d="m317.09 709.36-29.092 71" stroke-width="1.9682"/>
+      <path d="m349 709.36 178.24 71.536" stroke-width="1.9682"/>
+     </g>
+    </g>
+    <rect x="192" y="492.36" width="24" height="24" ry="0"/>
+   </g>
+  </g>
+ </g>
+</svg>

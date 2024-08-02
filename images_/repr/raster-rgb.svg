@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="17cm" height="24cm" viewBox="568 148 325 471" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="569" y="149" width="322" height="322"/>
+      <image x="570" y="150" width="320" height="320" xlink:href="grinning-face.png"/>
+    </g>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="650" y="420" width="10" height="10" rx="0" ry="0"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 660 430 C 700,470 589.35,459.608 622.422,492.267"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="627.758,497.536 617.13,494.068 622.422,492.267 624.156,486.952 "/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="530.95">
+      <tspan x="700" y="530.95">241</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="510.95">
+      <tspan x="680" y="510.95"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="630" y="500" width="40" height="39" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="650" y="532.061">
+        <tspan x="650" y="532.061">R</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="630" y="540" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="650" y="572.561">
+        <tspan x="650" y="572.561">G</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="630" y="579" width="40" height="39" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="650" y="611.061">
+        <tspan x="650" y="611.061">B</tspan>
+      </text>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="569.95">
+      <tspan x="700" y="569.95">159</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="609.95">
+      <tspan x="700" y="609.95">20</tspan>
+    </text>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="750" y="390" width="10" height="10" rx="0" ry="0"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 760 400 C 800,440 709.241,459.501 742.314,492.16"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="747.65,497.43 737.022,493.961 742.314,492.16 744.048,486.845 "/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="530.95">
+      <tspan x="820" y="530.95">237</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="800" y="510.95">
+      <tspan x="800" y="510.95"></tspan>
+    </text>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="750" y="500" width="40" height="39" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="532.061">
+        <tspan x="770" y="532.061">R</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="750" y="540" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="572.561">
+        <tspan x="770" y="572.561">G</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="750" y="579" width="40" height="39" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="611.061">
+        <tspan x="770" y="611.061">B</tspan>
+      </text>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="569.95">
+      <tspan x="820" y="569.95">119</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="609.95">
+      <tspan x="820" y="609.95">112</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="14cm" viewBox="239 39 224 262" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <image x="240" y="200" width="30" height="30" xlink:href="raised-hand.svg"/>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="260" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="292.561">
+        <tspan x="300" y="292.561">C</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="260" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="292.561">
+        <tspan x="380" y="292.561">F</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #197ad8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="40" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="72.5611">
+        <tspan x="300" y="72.5611">D</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #197ad8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="319.414" y="40" width="40" height="38.8284" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="339.414" y="71.9753">
+        <tspan x="339.414" y="71.9753">G</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #197ad8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="360" y="40" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="72.5611">
+        <tspan x="380" y="72.5611">H</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="320" y="260" width="40" height="40" rx="4" ry="4"/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="292.561">
+        <tspan x="340" y="292.561">E</tspan>
+      </text>
+    </g>
+    <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" fill-rule="evenodd" points="245.858,235.505 284.495,245.858 274.142,284.495 235.505,274.142 "/>
+    <g>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="256.12,239.031 273.845,243.781 263.88,280.969 246.155,276.219 "/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(260,260) rotate(15) translate(-260,-260)">
+        <tspan x="260" y="270.95">B</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 310 130 L 430,130 C 446.569,130 460,147.909 460,170 C 460,192.091 446.569,210 430,210 L 310,210 C 293.431,210 280,192.091 280,170 C 280,147.909 293.431,130 310,130z"/>
+      <text font-size="20.32" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="370" y="154.76">
+        <tspan x="370" y="154.76">Merge O(n):</tspan>
+        <tspan x="370" y="180.16">Just compare</tspan>
+        <tspan x="370" y="205.56">the two heads</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="280" y1="240" x2="317.969" y2="210.469"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="280" y1="100" x2="317.617" y2="129.258"/>
+    <polygon style="fill: #197ad8; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" fill-rule="evenodd" points="235.505,65.8579 274.142,55.5051 284.495,94.1421 245.858,104.495 "/>
+    <g>
+      <polygon style="fill: #197ad8; fill-opacity: 1; stroke: none" fill-rule="evenodd" points="246.3,63.7418 263.735,59.0701 273.7,96.2582 256.265,100.93 "/>
+      <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(260,80) rotate(-15) translate(-260,-80)">
+        <tspan x="260" y="90.95">A</tspan>
+      </text>
+    </g>
+    <image x="240" y="110" width="30" height="30" xlink:href="thumbs-up.svg"/>
+  </g>
+</svg>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="17cm" viewBox="658 228 445 335" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="460" width="200" height="20" rx="6" ry="6"/>
+    <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="480" width="320" height="80" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="390" width="320" height="60" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="450" width="120" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="830" y="370" width="200" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="360" width="120" height="20" rx="6" ry="6"/>
+    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #ffffff" x="710" y="230" width="320" height="130" rx="6" ry="6"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="950" cy="420" rx="40" ry="10"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="950" cy="380" rx="40" ry="10"/>
+    <ellipse style="fill: #a56b00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #a56b00" cx="870" cy="380" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="970" cy="330" rx="20" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="790" cy="330" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="870" cy="330" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="1010" cy="240" rx="20" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="950" cy="240" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="790" cy="240" rx="40" ry="10"/>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f0000" cx="730" cy="240" rx="20" ry="10"/>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="244.7">
+      <tspan x="720" y="244.7">42</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="244.7">
+      <tspan x="740" y="244.7">4d</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="244.7">
+      <tspan x="760" y="244.7">76</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="244.7">
+      <tspan x="780" y="244.7">02</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="244.7">
+      <tspan x="800" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="244.7">
+      <tspan x="820" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="244.7">
+      <tspan x="840" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="244.7">
+      <tspan x="860" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="244.7">
+      <tspan x="880" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="244.7">
+      <tspan x="900" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="244.7">
+      <tspan x="920" y="244.7">76</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="244.7">
+      <tspan x="940" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="244.7">
+      <tspan x="960" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="244.7">
+      <tspan x="980" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="244.7">
+      <tspan x="1000" y="244.7">28</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="244.7">
+      <tspan x="1020" y="244.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="334.7">
+      <tspan x="720" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="334.7">
+      <tspan x="740" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="334.7">
+      <tspan x="760" y="334.7">20</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="334.7">
+      <tspan x="780" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="334.7">
+      <tspan x="800" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="334.7">
+      <tspan x="820" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="334.7">
+      <tspan x="840" y="334.7">20</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="334.7">
+      <tspan x="860" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="334.7">
+      <tspan x="880" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="334.7">
+      <tspan x="900" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="334.7">
+      <tspan x="920" y="334.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="334.7">
+      <tspan x="940" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="334.7">
+      <tspan x="960" y="334.7">04</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="334.7">
+      <tspan x="980" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="334.7">
+      <tspan x="1000" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="334.7">
+      <tspan x="1020" y="334.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="354.7">
+      <tspan x="720" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="354.7">
+      <tspan x="740" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="354.7">
+      <tspan x="760" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="354.7">
+      <tspan x="780" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="354.7">
+      <tspan x="800" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="354.7">
+      <tspan x="820" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="354.7">
+      <tspan x="840" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="354.7">
+      <tspan x="860" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="354.7">
+      <tspan x="880" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="354.7">
+      <tspan x="900" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="354.7">
+      <tspan x="920" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="354.7">
+      <tspan x="940" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="354.7">
+      <tspan x="960" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="354.7">
+      <tspan x="980" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="354.7">
+      <tspan x="1000" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="354.7">
+      <tspan x="1020" y="354.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="374.7">
+      <tspan x="720" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="374.7">
+      <tspan x="740" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="374.7">
+      <tspan x="760" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="374.7">
+      <tspan x="780" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="374.7">
+      <tspan x="800" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="374.7">
+      <tspan x="820" y="374.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="384.7">
+      <tspan x="840" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="384.7">
+      <tspan x="860" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="384.7">
+      <tspan x="880" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="384.7">
+      <tspan x="900" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="384.7">
+      <tspan x="920" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="384.7">
+      <tspan x="940" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="384.7">
+      <tspan x="960" y="384.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="384.7">
+      <tspan x="980" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="384.7">
+      <tspan x="1000" y="384.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="384.7">
+      <tspan x="1020" y="384.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="404.7">
+      <tspan x="720" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="404.7">
+      <tspan x="740" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="404.7">
+      <tspan x="760" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="404.7">
+      <tspan x="780" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="404.7">
+      <tspan x="800" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="404.7">
+      <tspan x="820" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="404.7">
+      <tspan x="840" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="404.7">
+      <tspan x="860" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="404.7">
+      <tspan x="880" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="404.7">
+      <tspan x="900" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="404.7">
+      <tspan x="920" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="404.7">
+      <tspan x="940" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="404.7">
+      <tspan x="960" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="404.7">
+      <tspan x="980" y="404.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="404.7">
+      <tspan x="1000" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="404.7">
+      <tspan x="1020" y="404.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="424.7">
+      <tspan x="720" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="424.7">
+      <tspan x="740" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="424.7">
+      <tspan x="760" y="424.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="424.7">
+      <tspan x="780" y="424.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="424.7">
+      <tspan x="800" y="424.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="424.7">
+      <tspan x="820" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="424.7">
+      <tspan x="840" y="424.7">c0</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="424.7">
+      <tspan x="860" y="424.7">c0</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="424.7">
+      <tspan x="880" y="424.7">c0</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="424.7">
+      <tspan x="900" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="424.7">
+      <tspan x="920" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="424.7">
+      <tspan x="940" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="424.7">
+      <tspan x="960" y="424.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="424.7">
+      <tspan x="980" y="424.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="424.7">
+      <tspan x="1000" y="424.7">80</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="424.7">
+      <tspan x="1020" y="424.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="444.7">
+      <tspan x="720" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="444.7">
+      <tspan x="740" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="444.7">
+      <tspan x="760" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="444.7">
+      <tspan x="780" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="444.7">
+      <tspan x="800" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="444.7">
+      <tspan x="820" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="444.7">
+      <tspan x="840" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="444.7">
+      <tspan x="860" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="444.7">
+      <tspan x="880" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="444.7">
+      <tspan x="900" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="444.7">
+      <tspan x="920" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="444.7">
+      <tspan x="940" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="444.7">
+      <tspan x="960" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="444.7">
+      <tspan x="980" y="444.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="444.7">
+      <tspan x="1000" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="444.7">
+      <tspan x="1020" y="444.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="464.7">
+      <tspan x="720" y="464.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="464.7">
+      <tspan x="740" y="464.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="464.7">
+      <tspan x="760" y="464.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="464.7">
+      <tspan x="780" y="464.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="464.7">
+      <tspan x="800" y="464.7">ff</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="464.7">
+      <tspan x="820" y="464.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="474.7">
+      <tspan x="840" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="474.7">
+      <tspan x="860" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="474.7">
+      <tspan x="880" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="474.7">
+      <tspan x="900" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="474.7">
+      <tspan x="920" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="474.7">
+      <tspan x="940" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="474.7">
+      <tspan x="960" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="474.7">
+      <tspan x="980" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="474.7">
+      <tspan x="1000" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="474.7">
+      <tspan x="1020" y="474.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="494.7">
+      <tspan x="720" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="494.7">
+      <tspan x="740" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="494.7">
+      <tspan x="760" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="494.7">
+      <tspan x="780" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="494.7">
+      <tspan x="800" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="494.7">
+      <tspan x="820" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="494.7">
+      <tspan x="840" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="494.7">
+      <tspan x="860" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="494.7">
+      <tspan x="880" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="494.7">
+      <tspan x="900" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="494.7">
+      <tspan x="920" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="494.7">
+      <tspan x="940" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="494.7">
+      <tspan x="960" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="494.7">
+      <tspan x="980" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="494.7">
+      <tspan x="1000" y="494.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="494.7">
+      <tspan x="1020" y="494.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="514.7">
+      <tspan x="720" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="514.7">
+      <tspan x="740" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="514.7">
+      <tspan x="760" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="514.7">
+      <tspan x="780" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="514.7">
+      <tspan x="800" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="514.7">
+      <tspan x="820" y="514.7">00</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="514.7">
+      <tspan x="840" y="514.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="514.7">
+      <tspan x="860" y="514.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="514.7">
+      <tspan x="880" y="514.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="514.7">
+      <tspan x="900" y="514.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="514.7">
+      <tspan x="920" y="514.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="514.7">
+      <tspan x="940" y="514.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="514.7">
+      <tspan x="960" y="514.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="514.7">
+      <tspan x="980" y="514.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="514.7">
+      <tspan x="1000" y="514.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="514.7">
+      <tspan x="1020" y="514.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="534.7">
+      <tspan x="720" y="534.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="534.7">
+      <tspan x="740" y="534.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="534.7">
+      <tspan x="760" y="534.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="534.7">
+      <tspan x="780" y="534.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="534.7">
+      <tspan x="800" y="534.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="534.7">
+      <tspan x="820" y="534.7">90</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="534.7">
+      <tspan x="840" y="534.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="534.7">
+      <tspan x="860" y="534.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="534.7">
+      <tspan x="880" y="534.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="534.7">
+      <tspan x="900" y="534.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="534.7">
+      <tspan x="920" y="534.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="534.7">
+      <tspan x="940" y="534.7">91</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="534.7">
+      <tspan x="960" y="534.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="534.7">
+      <tspan x="980" y="534.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="534.7">
+      <tspan x="1000" y="534.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="534.7">
+      <tspan x="1020" y="534.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="720" y="554.7">
+      <tspan x="720" y="554.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="740" y="554.7">
+      <tspan x="740" y="554.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="760" y="554.7">
+      <tspan x="760" y="554.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="780" y="554.7">
+      <tspan x="780" y="554.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="800" y="554.7">
+      <tspan x="800" y="554.7">90</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="820" y="554.7">
+      <tspan x="820" y="554.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="554.7">
+      <tspan x="840" y="554.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="554.7">
+      <tspan x="860" y="554.7">01</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="880" y="554.7">
+      <tspan x="880" y="554.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="900" y="554.7">
+      <tspan x="900" y="554.7">19</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="920" y="554.7">
+      <tspan x="920" y="554.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="940" y="554.7">
+      <tspan x="940" y="554.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="960" y="554.7">
+      <tspan x="960" y="554.7">11</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="554.7">
+      <tspan x="980" y="554.7">10</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1000" y="554.7">
+      <tspan x="1000" y="554.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1020" y="554.7">
+      <tspan x="1020" y="554.7">09</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="243.16">
+      <tspan x="680" y="243.16">0000</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="334.7">
+      <tspan x="680" y="334.7">0010</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="354.7">
+      <tspan x="680" y="354.7">0020</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="380.7">
+      <tspan x="680" y="380.7">0030</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="404.7">
+      <tspan x="680" y="404.7">0040</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="424.7">
+      <tspan x="680" y="424.7">0050</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="444.7">
+      <tspan x="680" y="444.7">0060</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="468.7">
+      <tspan x="680" y="468.7">0070</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="494.7">
+      <tspan x="680" y="494.7">0080</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="514.7">
+      <tspan x="680" y="514.7">0090</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="534.7">
+      <tspan x="680" y="534.7">00a0</tspan>
+    </text>
+    <text font-size="13.5467" style="fill: #800080; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:italic;font-weight:normal" x="680" y="554.7">
+      <tspan x="680" y="554.7">…</tspan>
+    </text>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 670 270 L 710,270 C 715.523,270 720,276.716 720,285 C 720,293.284 715.523,300 710,300 L 670,300 C 664.477,300 660,293.284 660,285 C 660,276.716 664.477,270 670,270z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="690" y="291.4">
+        <tspan x="690" y="291.4">“BM”</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="704.229" y1="268.993" x2="721.23" y2="249.866"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 740 270 L 780,270 C 785.523,270 790,276.716 790,285 C 790,293.284 785.523,300 780,300 L 740,300 C 734.477,300 730,293.284 730,285 C 730,276.716 734.477,270 740,270z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="760" y="291.4">
+        <tspan x="760" y="291.4">File size</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="770.671" y1="268.993" x2="782.874" y2="250.69"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 923.333 270 L 976.667,270 C 984.03,270 990,276.716 990,285 C 990,293.284 984.03,300 976.667,300 L 923.333,300 C 915.97,300 910,293.284 910,285 C 910,276.716 915.97,270 923.333,270z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="950" y="291.4">
+        <tspan x="950" y="291.4">Img offset</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="950" y1="268.993" x2="950" y2="250.997"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 1050 230 L 1090,230 C 1095.52,230 1100,236.716 1100,245 C 1100,253.284 1095.52,260 1090,260 L 1050,260 C 1044.48,260 1040,253.284 1040,245 C 1040,236.716 1044.48,230 1050,230z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1070" y="251.4">
+        <tspan x="1070" y="251.4">BIH=40</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="1039.44" y1="242.453" x2="1030.68" y2="241.724"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 816.409 270 L 882.046,270 C 891.108,270 898.455,276.716 898.455,285 C 898.455,293.284 891.108,300 882.046,300 L 816.409,300 C 807.347,300 800,293.284 800,285 C 800,276.716 807.347,270 816.409,270z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="849.227" y="291.4">
+        <tspan x="849.227" y="291.4">W×H=32×32</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="828.159" y1="301.007" x2="803.245" y2="319.937"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="856.616" y1="301.007" x2="865" y2="319.167"/>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 1013.08 270 L 1065.38,270 C 1072.6,270 1078.45,276.716 1078.45,285 C 1078.45,293.284 1072.6,300 1065.38,300 L 1013.08,300 C 1005.85,300 1000,293.284 1000,285 C 1000,276.716 1005.85,270 1013.08,270z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1039.23" y="291.4">
+        <tspan x="1039.23" y="291.4">Depth bpp</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="1014.6" y1="301.007" x2="983.014" y2="321.541"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 0.486275; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" d="M 946.004 300.985 C 926.004,380.985 900,400 846.884,453.116"/>
+      <polygon style="fill: #000000; fill-opacity: 0.486275; stroke-opacity: 0.486275; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="841.581,458.419 845.117,447.812 846.884,453.116 852.188,454.883 "/>
+    </g>
+    <g>
+      <path style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" fill-rule="evenodd" d="M 1050 360 L 1090,360 C 1095.52,360 1100,366.716 1100,375 C 1100,383.284 1095.52,390 1090,390 L 1050,390 C 1044.48,390 1040,383.284 1040,375 C 1040,366.716 1044.48,360 1050,360z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1070" y="381.4">
+        <tspan x="1070" y="381.4">Palette</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 0.498039; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" d="M 1039.73 369.325 C 959.735,354.325 860,360 848.708,365.646"/>
+      <polygon style="fill: #000000; fill-opacity: 0.498039; stroke-opacity: 0.498039; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="842,369 848.708,360.056 848.708,365.646 853.18,369 "/>
+    </g>
+  </g>
+</svg>

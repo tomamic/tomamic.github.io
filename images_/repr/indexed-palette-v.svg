@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="201" height="276" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m75.1 0.5h125v125h-125z" fill="none" stroke="#000"/>
+ <path d="m75.1 25.5h125m-125 25h125m-125 25h125m-125 25h125m-100-100v125m25-125v125m25-125v125m25-125v125" stroke="#000"/>
+ <g font-family="sans-serif" font-size="20px" text-anchor="middle">
+  <text x="87.612022" y="19.250002">0</text>
+  <text x="112.61201" y="19.250002">0</text>
+  <text x="137.612" y="19.250002">1</text>
+  <text x="162.612" y="19.250002">2</text>
+  <text x="187.612" y="19.250002">3</text>
+  <text x="87.612022" y="44.250004">0</text>
+  <text x="112.61201" y="44.250004">1</text>
+  <text x="137.612" y="44.250004">2</text>
+  <text x="162.612" y="44.250004">3</text>
+  <text x="187.612" y="44.250004">2</text>
+  <text x="87.612022" y="69.25">1</text>
+  <text x="112.61201" y="69.25">2</text>
+  <text x="137.612" y="69.25">3</text>
+  <text x="162.612" y="69.25">2</text>
+  <text x="187.612" y="69.25">1</text>
+  <text x="87.612022" y="94.25">2</text>
+  <text x="112.61201" y="94.25">3</text>
+  <text x="137.612" y="94.25">2</text>
+  <text x="162.612" y="94.25">1</text>
+  <text x="187.612" y="94.25">0</text>
+  <text x="87.612022" y="119.25001">3</text>
+  <text x="112.61201" y="119.25001">2</text>
+  <text x="137.612" y="119.25001">1</text>
+  <text x="162.612" y="119.25001">0</text>
+  <text x="187.612" y="119.25001">0</text>
+  <text x="11.540014" y="168.88831">0 =</text>
+ </g>
+ <path d="m29 150h25v25h-25z" fill="#f00" stroke="#000"/>
+ <text x="11.540014" y="193.88831" font-family="sans-serif" font-size="20px" text-anchor="middle">1 =</text>
+ <path d="m29 175h25v25h-25z" fill="#f0f" stroke="#000"/>
+ <text x="11.540014" y="218.88831" font-family="sans-serif" font-size="20px" text-anchor="middle">2 =</text>
+ <path d="m29 200h25v25h-25z" fill="#00f" stroke="#000"/>
+ <text x="11.540014" y="243.88831" font-family="sans-serif" font-size="20px" text-anchor="middle">3 =</text>
+ <g transform="translate(-147 146)" stroke="#000">
+  <path d="m176 79.5h25v25h-25z" fill="#0ff"/>
+  <path d="m222 4.5h25v25h-25zm25 0h25v25h-25z" fill="#f00"/>
+  <path d="m272 4.5h25v25h-25z" fill="#f0f"/>
+  <path d="m298 4.5h25v25h-25z" fill="#00f"/>
+  <path d="m322 4.5h25v25h-25z" fill="#0ff"/>
+  <path d="m222 29.5h25v25h-25z" fill="#f00"/>
+  <path d="m248 29.5h25v25h-25z" fill="#f0f"/>
+  <path d="m272 29.5h25v25h-25z" fill="#00f"/>
+  <path d="m298 29.5h25v25h-25z" fill="#0ff"/>
+  <path d="m322 29.5h25v25h-25z" fill="#00f"/>
+  <path d="m222 54.5h25v25h-25z" fill="#f0f"/>
+  <path d="m248 54.5h25v25h-25z" fill="#00f"/>
+  <path d="m272 54.5h25v25h-25z" fill="#0ff"/>
+  <path d="m298 54.5h25v25h-25z" fill="#00f"/>
+  <path d="m322 54.5h25v25h-25z" fill="#f0f"/>
+  <path d="m222 79.5h25v25h-25z" fill="#00f"/>
+  <path d="m248 79.5h25v25h-25z" fill="#0ff"/>
+  <path d="m272 79.5h25v25h-25z" fill="#00f"/>
+  <path d="m298 79.5h25v25h-25z" fill="#f0f"/>
+  <path d="m322 79.5h25v25h-25z" fill="#f00"/>
+  <path d="m222 104h25v25h-25z" fill="#0ff"/>
+  <path d="m248 104h25v25h-25z" fill="#00f"/>
+  <path d="m272 104h25v25h-25z" fill="#f0f"/>
+  <path d="m298 104h25v25h-25zm25 0h25v25h-25z" fill="#f00"/>
+ </g>
+</svg>

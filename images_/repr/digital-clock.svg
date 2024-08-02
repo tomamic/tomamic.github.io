@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="12cm" viewBox="698 599 205 239" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <rect style="fill: #b40000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #b40000" x="712" y="600" width="176" height="200" rx="40" ry="40"/>
+    <ellipse style="fill: #4d4d4d; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" cx="760" cy="618" rx="24" ry="10"/>
+    <polygon style="fill: #b40000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke-linejoin: round; stroke: #b40000" fill-rule="evenodd" points="896,660 880,660 880,620 "/>
+    <polygon style="fill: #b40000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke-linejoin: round; stroke: #b40000" fill-rule="evenodd" points="704,660 720,660 720,620 "/>
+    <rect style="fill: #991e1e; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #7f7f7f" x="700" y="636" width="200" height="200" rx="40" ry="40"/>
+    <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke-linejoin: round; stroke: #d8e5e5" x="720" y="660" width="160" height="110" rx="16" ry="16"/>
+    <image x="720" y="680" width="40" height="40" xlink:href="digital2.svg"/>
+    <image x="760" y="680" width="40" height="40" xlink:href="digital0.svg"/>
+    <image x="780" y="680" width="40" height="40" xlink:href="digital-colon.svg"/>
+    <image x="800" y="680" width="40" height="40" xlink:href="digital1.svg"/>
+    <image x="840" y="680" width="40" height="40" xlink:href="digital0.svg"/>
+    <g transform="matrix(0.381796,0,0,0.45178,464.563,496.039)">
+      <image x="800" y="540" width="42.0945" height="42.0945" xlink:href="digital2.svg"/>
+      <image x="837.825" y="540" width="44.2693" height="44.2693" xlink:href="digital4.svg"/>
+      <image x="917.825" y="542.095" width="40" height="40" xlink:href="digital6.svg"/>
+      <image x="877.825" y="542.095" width="40" height="40" xlink:href="digital0.svg"/>
+      <image x="857.825" y="542.095" width="40" height="40" xlink:href="digital-dot.svg"/>
+      <image x="717.825" y="542.095" width="40" height="40" xlink:href="digital2.svg"/>
+      <image x="757.825" y="542.095" width="40" height="40" xlink:href="digital0.svg"/>
+      <image x="997.825" y="542.095" width="40" height="40" xlink:href="digital9.svg"/>
+      <image x="957.825" y="542.095" width="40" height="40" xlink:href="digital0.svg"/>
+      <image x="937.825" y="542.095" width="40" height="40" xlink:href="digital-dot.svg"/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="672.8">
+      <tspan x="860" y="672.8">🕭</tspan>
+    </text>
+    <rect style="fill: #4d4d4d; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" x="720" y="790" width="40" height="20" rx="8" ry="8"/>
+    <rect style="fill: #4d4d4d; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" x="760" y="790" width="40" height="20" rx="8" ry="8"/>
+    <rect style="fill: #4d4d4d; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" x="800" y="790" width="80" height="20" rx="8" ry="8"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #7f7f7f" x1="840" y1="790" x2="840" y2="810"/>
+    <text font-size="12.7998" style="fill: #bfbfbf; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="804.95">
+      <tspan x="740" y="804.95">Time</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #bfbfbf; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="780" y="804.95">
+      <tspan x="780" y="804.95">Alarm</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #bfbfbf; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="804.95">
+      <tspan x="820" y="804.95">+</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #bfbfbf; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="804.95">
+      <tspan x="860" y="804.95">–</tspan>
+    </text>
+  </g>
+</svg>

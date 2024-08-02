@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16cm" height="12cm" version="1.1" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <line x1="40" y1="30" x2="300" y2="80" stroke="#323232" />
+  <line x1="300" y1="80" x2="180" y2="20" stroke="#575757" />
+  <line x1="180" y1="20" x2="230" y2="210" stroke="#7d7d7d" />
+  <line x1="230" y1="210" x2="130" y2="200" stroke="#a2a2a2" />
+  <line x1="130" y1="200" x2="180" y2="180" stroke="#c8c8c8" />
+ </g>
+</svg>

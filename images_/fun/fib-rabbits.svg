@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="47cm" height="30cm" viewBox="-2 -2 923 597" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="76.8334" width="920" height="43.1666" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="108.456">
+        <tspan xml:space="preserve" x="-1" y="108.456">    1 months: 1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="160" width="920" height="43.1667" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="191.622">
+        <tspan xml:space="preserve" x="-1" y="191.622">    2 months: 1</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="240" width="920" height="43.1667" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="271.622">
+        <tspan xml:space="preserve" x="-1" y="271.622">    3 months: 2</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="320" width="920" height="40.8235" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="350.451">
+        <tspan xml:space="preserve" x="-1" y="350.451">    4 months: 3</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="400" width="920" height="43.1667" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="431.622">
+        <tspan xml:space="preserve" x="-1" y="431.622">    5 months: 5</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="480" width="920" height="43.1667" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="511.622">
+        <tspan xml:space="preserve" x="-1" y="511.622">    6 months: 8</tspan>
+      </text>
+    </g>
+    <image x="640" y="210" width="100" height="100" xlink:href="rabbits.svg"/>
+    <image x="200" y="450" width="100" height="100" xlink:href="rabbits.svg"/>
+    <image x="500" y="450" width="100" height="100" xlink:href="rabbits.svg"/>
+    <image x="640" y="370" width="100" height="100" xlink:href="rabbits.svg"/>
+    <image x="780" y="450" width="100" height="100" xlink:href="rabbits.svg"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 677.507 129.973 C 667.507,169.973 566.246,210.031 557.454,280.37"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="556.523,287.813 552.802,277.27 557.454,280.37 562.725,278.51 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 677.498 130.006 C 667.498,170.006 403.125,209.998 393.732,360.281"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="393.265,367.767 388.898,357.474 393.732,360.281 398.879,358.098 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 677.5 130.002 C 667.5,170.002 262.08,210.071 252.486,440.344"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="252.173,447.837 247.594,437.638 252.486,440.344 257.585,438.054 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 677.503 129.987 C 667.503,169.987 712.701,170.707 705.1,200.605"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="703.252,207.874 700.87,196.951 705.1,200.605 710.562,199.415 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 702.499 309.995 C 712.499,349.995 667.501,330.005 675.14,360.56"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="676.959,367.836 669.683,359.347 675.14,360.56 679.384,356.922 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 537.704 390.004 C 527.704,430.67 572.71,410.674 565.108,440.572"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="563.261,447.841 560.879,436.917 565.108,440.572 570.57,439.381 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" d="M 702.438 309.751 C 712.438,349.751 813.753,370.022 822.545,440.361"/>
+      <polygon style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="823.475,447.803 817.274,438.501 822.545,440.361 827.196,437.26 "/>
+    </g>
+    <image x="340" y="370" width="100" height="100" xlink:href="rabbits.svg"/>
+    <image x="500" y="290" width="100" height="100" xlink:href="rabbits.svg"/>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" x="0" y="0" width="920" height="40.8235" rx="8" ry="8"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-1" y="30.4506">
+        <tspan xml:space="preserve" x="-1" y="30.4506">    0 months: 0</tspan>
+      </text>
+    </g>
+    <text font-size="22.5778" style="fill: #006600; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="500" y="588.75">
+      <tspan x="500" y="588.75">fib(0) = 0; fib(1) = 1;  fib(n) = fib(n-1) + fib(n-2);</tspan>
+    </text>
+    <image x="640" y="30" width="100" height="100" xlink:href="rabbits.svg"/>
+  </g>
+</svg>

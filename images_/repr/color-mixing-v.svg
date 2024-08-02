@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="800" version="1.1" viewBox="-10 -11 20 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path id="a" d="m-6-3.46a6 6 0 0 1 12 0z"/>
+  <path id="b" d="m0-3.46a6 6 0 0 0-6 0 6 6 0 0 0 3 5.2z"/>
+  <path id="c" d="m0-3.46a6 6 0 0 1 3 5.2 6 6 0 0 1-6 0 6 6 0 0 1 3-5.2z"/>
+ </defs>
+ <path d="m-10-11h20v20h-20"/>
+ <use width="100%" height="100%" fill="#ff0000" xlink:href="#a"/>
+ <use transform="rotate(120)" width="100%" height="100%" fill="#0000ff" xlink:href="#a"/>
+ <use transform="rotate(240)" width="100%" height="100%" fill="#00ff00" xlink:href="#a"/>
+ <use width="100%" height="100%" fill="#ffff00" xlink:href="#b"/>
+ <use transform="rotate(120)" width="100%" height="100%" fill="#ff00ff" xlink:href="#b"/>
+ <use transform="rotate(240)" width="100%" height="100%" fill="#00ffff" xlink:href="#b"/>
+ <use width="100%" height="100%" fill="#ffffff" xlink:href="#c"/>
+ <g fill="none" stroke-width=".5">
+  <path d="m-1-4v-4h1a1 1 0 0 1 0 2h-1 1l1.2 2" stroke="#000"/>
+  <path d="m-5 2a1 1 0 0 0-2 0v2a1 1 0 0 0 2 0v-1h-1" stroke="#000"/>
+  <path d="m5 5v-4h1a1 1 0 0 1 0 2h-1 1a1 1 0 0 1 0 2h-1.25" stroke="#fff"/>
+ </g>
+ <path d="m-10 9h20v20h-20" fill="#fff"/>
+ <use transform="translate(2.97e-8 20)" width="100%" height="100%" fill="#00ffff" xlink:href="#a"/>
+ <use transform="rotate(120 -5.77 10)" width="100%" height="100%" fill="#ffff00" xlink:href="#a"/>
+ <use transform="rotate(240 5.77 10)" width="100%" height="100%" fill="#ff00ff" xlink:href="#a"/>
+ <use transform="translate(2.97e-8 20)" width="100%" height="100%" fill="#0000ff" xlink:href="#b"/>
+ <use transform="rotate(120 -5.77 10)" width="100%" height="100%" fill="#00ff00" xlink:href="#b"/>
+ <use transform="rotate(240 5.77 10)" width="100%" height="100%" fill="#ff0000" xlink:href="#b"/>
+ <use transform="translate(2.97e-8 20)" width="100%" height="100%" fill="#000000" xlink:href="#c"/>
+ <g fill="none" stroke="#000" stroke-width=".5">
+  <path d="m1 13a1 1 0 0 0-2 0v2a1 1 0 0 0 2 0"/>
+  <path d="m-7 25.2v-4.5l1 3 1-3v4.5"/>
+  <path d="m5 20.8 1.2 2v2.75-2.75l1.2-2"/>
+ </g>
+ <text x="-9.5654364" y="-9.2617111" fill="#ffffff" font-family="sans-serif" font-size="2px" stroke-width=".075" style="line-height:1.25" xml:space="preserve"><tspan x="-9.5654364" y="-9.2617111" fill="#ffffff" font-size="2px" stroke-width=".075">Screen</tspan></text>
+ <text x="-9.7145166" y="10.751337" fill="#000000" font-family="sans-serif" font-size="2px" stroke-width=".075" style="line-height:1.25" xml:space="preserve"><tspan x="-9.7145166" y="10.751337" fill="#000000" font-size="2px" stroke-width=".075">Printer</tspan></text>
+ <g fill="none" stroke-width=".25">
+  <g stroke="#000">
+   <path d="m-4.33-3.07 0.6 1v1.38-1.38l0.6-1"/>
+   <path d="m0.429 4.04a0.5 0.5 0 0 0-1 0v1a0.5 0.5 0 0 0 1 0"/>
+   <path d="m3.09-0.684v-2.25l0.5 1.5 0.5-1.5v2.25"/>
+   <path d="m4.22 17.4a0.5 0.5 0 0 0-1 0v1a0.5 0.5 0 0 0 1 0v-0.5h-0.5"/>
+  </g>
+  <path d="m-4.04 19.2v-2h0.5a0.5 0.5 0 0 1 0 1h-0.5 0.5a0.5 0.5 0 0 1 0 1h-0.625" stroke="#fff"/>
+  <path d="m-0.517 25.6v-2h0.5a0.5 0.5 0 0 1 0 1h-0.5 0.5l0.6 1" stroke="#000"/>
+ </g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="93cm" height="48cm" viewBox="239 68 1857 953" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="362.249,240.396 399.836,254.077 317.751,479.604 280.164,465.923 "/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(340,360) rotate(-70) translate(-340,-360)">
+      <tspan x="340" y="370.95">1</tspan>
+    </text>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="520" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="640" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="760" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="880" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="480" width="840" height="20" rx="0" ry="0"/>
+    <image x="240" y="200" width="120" height="120" xlink:href="index.svg"/>
+    <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1682.25,240.396 1719.84,254.077 1637.75,479.604 1600.16,465.923 "/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1660,360) rotate(-70) translate(-1660,-360)">
+      <tspan x="1660" y="370.95">n</tspan>
+    </text>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1360" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1480" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1240" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1720" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1840" y="240" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1200" y="480" width="840" height="20" rx="0" ry="0"/>
+    <image x="1560" y="200" width="120" height="120" xlink:href="index.svg"/>
+    <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="792.446,776.23 825.212,799.173 687.554,995.77 654.788,972.827 "/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(740,886) rotate(-55) translate(-740,-886)">
+      <tspan x="740" y="896.95">n</tspan>
+    </text>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="760" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="520" y="760" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="760" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="880" y="760" width="40" height="240" rx="0" ry="0"/>
+    <rect style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="240" y="1000" width="840" height="20" rx="0" ry="0"/>
+    <image x="600" y="720" width="120" height="120" xlink:href="index.svg"/>
+    <rect style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1840" y="960" width="240" height="40" rx="0" ry="0"/>
+    <rect style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1200" y="1000" width="840" height="20" rx="0" ry="0"/>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1720.4,962.249 1945.92,880.164 1959.6,917.751 1734.08,999.836 "/>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1600.4,962.249 1825.92,880.164 1839.6,917.751 1614.08,999.836 "/>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1480.4,962.249 1705.92,880.164 1719.6,917.751 1494.08,999.836 "/>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1360.4,962.249 1585.92,880.164 1599.6,917.751 1374.08,999.836 "/>
+    <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1240.4,962.249 1465.92,880.164 1479.6,917.751 1254.08,999.836 "/>
+    <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="842.249,760.396 879.836,774.077 797.751,999.604 760.164,985.923 "/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(820,880) rotate(-70) translate(-820,-880)">
+      <tspan x="820" y="890.95">n+1</tspan>
+    </text>
+    <text font-size="50.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="132.9">
+      <tspan x="660" y="132.9">① Prove that P(1)</tspan>
+      <tspan x="660" y="196.4">Can you knock down 1st domino?</tspan>
+    </text>
+    <text font-size="50.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1620" y="132.9">
+      <tspan x="1620" y="132.9">② Assume that P(n)…</tspan>
+      <tspan xml:space="preserve" x="1620" y="196.4"> Assume you knock down n-th domino…</tspan>
+    </text>
+    <text font-size="50.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="598.408">
+      <tspan x="660" y="598.408">③ Prove that P(n)→P(n+1)</tspan>
+      <tspan xml:space="preserve" x="660" y="661.908"> If n-th domino is knocked down,</tspan>
+      <tspan x="660" y="725.408">also the next one falls</tspan>
+    </text>
+    <text font-size="50.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1620" y="649.6">
+      <tspan x="1620" y="649.6">④ Thus ∀n, P(n)</tspan>
+      <tspan x="1620" y="713.1">→ All dominoes fall</tspan>
+    </text>
+  </g>
+</svg>

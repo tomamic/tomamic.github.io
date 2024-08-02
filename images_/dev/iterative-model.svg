@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="32cm" height="16cm" viewBox="1442 345 631 315" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #ffffff" x="1540" y="480" width="200" height="40" rx="10" ry="10"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1640" y="510.039">
+        <tspan x="1640" y="510.039">Planning</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #008000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #ffffff" x="1760" y="480" width="200" height="40" rx="10" ry="10"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1860" y="510.039">
+        <tspan x="1860" y="510.039">Implementation</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" d="M 1640 476.998 C 1640,396.998 1690,370 1724.61,370"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" fill-rule="evenodd" points="1732.11,370 1722.11,375 1724.61,370 1722.11,365 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" d="M 1750 370 C 1810,370 1860,396.998 1860,451.61"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" fill-rule="evenodd" points="1860,459.11 1855,449.11 1860,451.61 1865,449.11 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #ff0000" d="M 1860 523.002 C 1860,603.002 1810,630 1775.39,630"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ff0000" fill-rule="evenodd" points="1767.89,630 1777.89,625 1775.39,630 1777.89,635 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #ff0000" d="M 1750 630 C 1690,630 1640,603.002 1640,548.39"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ff0000" fill-rule="evenodd" points="1640,540.89 1645,550.89 1640,548.39 1635,550.89 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #ffa500" d="M 1450 410 C 1450,470 1480,500 1514.61,500"/>
+      <polygon style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #ffa500" fill-rule="evenodd" points="1522.11,500 1512.11,505 1514.61,500 1512.11,495 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #008000" d="M 1960 500 C 2020,500 2050,530 2050,564.611"/>
+      <polygon style="fill: #008000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #008000" fill-rule="evenodd" points="2050,572.111 2045,562.111 2050,564.611 2055,562.111 "/>
+    </g>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1500,400) rotate(45) translate(-1500,-400)">
+      <tspan x="1500" y="394.639">Initial</tspan>
+      <tspan x="1500" y="422.861">planning</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(2010,590) rotate(45) translate(-2010,-590)">
+      <tspan x="2010" y="598.75">Deployment</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1640,390) rotate(-45) translate(-1640,-390)">
+      <tspan x="1640" y="398.75">Analysis</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1860,390) rotate(45) translate(-1860,-390)">
+      <tspan x="1860" y="398.75">Design</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1860,610) rotate(-45) translate(-1860,-610)">
+      <tspan x="1860" y="618.75">Testing</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(1640,610) rotate(45) translate(-1640,-610)">
+      <tspan x="1640" y="618.75">Evaluation</tspan>
+    </text>
+  </g>
+</svg>

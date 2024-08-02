@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352" height="134" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <path d="m4.5 4.5h125v125h-125z" fill="none" stroke="#000"/>
+ <path d="m4.5 29.5h125m-125 25h125m-125 25h125m-125 25h125m-100-100v125m25-125v125m25-125v125m25-125v125" stroke="#000"/>
+ <g font-family="sans-serif" font-size="20px" text-anchor="middle">
+  <text x="17" y="23.25">0</text>
+  <text x="42" y="23.25">0</text>
+  <text x="67" y="23.25">1</text>
+  <text x="92" y="23.25">2</text>
+  <text x="117" y="23.25">3</text>
+  <text x="17" y="48.25">0</text>
+  <text x="42" y="48.25">1</text>
+  <text x="67" y="48.25">2</text>
+  <text x="92" y="48.25">3</text>
+  <text x="117" y="48.25">2</text>
+  <text x="17" y="73.25">1</text>
+  <text x="42" y="73.25">2</text>
+  <text x="67" y="73.25">3</text>
+  <text x="92" y="73.25">2</text>
+  <text x="117" y="73.25">1</text>
+  <text x="17" y="98.25">2</text>
+  <text x="42" y="98.25">3</text>
+  <text x="67" y="98.25">2</text>
+  <text x="92" y="98.25">1</text>
+  <text x="117" y="98.25">0</text>
+  <text x="17" y="123.25">3</text>
+  <text x="42" y="123.25">2</text>
+  <text x="67" y="123.25">1</text>
+  <text x="92" y="123.25">0</text>
+  <text x="117" y="123.25">0</text>
+  <text x="159" y="23.25">0 =</text>
+ </g>
+ <path d="m176.5 4.5h25v25h-25z" fill="#f00" stroke="#000"/>
+ <text x="159" y="48.25" font-family="sans-serif" font-size="20px" text-anchor="middle">1 =</text>
+ <path d="m176.5 29.5h25v25h-25z" fill="#f0f" stroke="#000"/>
+ <text x="159" y="73.25" font-family="sans-serif" font-size="20px" text-anchor="middle">2 =</text>
+ <path d="m176.5 54.5h25v25h-25z" fill="#00f" stroke="#000"/>
+ <text x="159" y="98.25" font-family="sans-serif" font-size="20px" text-anchor="middle">3 =</text>
+ <g stroke="#000">
+  <path d="m176.5 79.5h25v25h-25z" fill="#0ff"/>
+  <path d="m222.5 4.5h25v25h-25zm25 0h25v25h-25z" fill="#f00"/>
+  <path d="m272.5 4.5h25v25h-25z" fill="#f0f"/>
+  <path d="m297.5 4.5h25v25h-25z" fill="#00f"/>
+  <path d="m322.5 4.5h25v25h-25z" fill="#0ff"/>
+  <path d="m222.5 29.5h25v25h-25z" fill="#f00"/>
+  <path d="m247.5 29.5h25v25h-25z" fill="#f0f"/>
+  <path d="m272.5 29.5h25v25h-25z" fill="#00f"/>
+  <path d="m297.5 29.5h25v25h-25z" fill="#0ff"/>
+  <path d="m322.5 29.5h25v25h-25z" fill="#00f"/>
+  <path d="m222.5 54.5h25v25h-25z" fill="#f0f"/>
+  <path d="m247.5 54.5h25v25h-25z" fill="#00f"/>
+  <path d="m272.5 54.5h25v25h-25z" fill="#0ff"/>
+  <path d="m297.5 54.5h25v25h-25z" fill="#00f"/>
+  <path d="m322.5 54.5h25v25h-25z" fill="#f0f"/>
+  <path d="m222.5 79.5h25v25h-25z" fill="#00f"/>
+  <path d="m247.5 79.5h25v25h-25z" fill="#0ff"/>
+  <path d="m272.5 79.5h25v25h-25z" fill="#00f"/>
+  <path d="m297.5 79.5h25v25h-25z" fill="#f0f"/>
+  <path d="m322.5 79.5h25v25h-25z" fill="#f00"/>
+  <path d="m222.5 104.5h25v25h-25z" fill="#0ff"/>
+  <path d="m247.5 104.5h25v25h-25z" fill="#00f"/>
+  <path d="m272.5 104.5h25v25h-25z" fill="#f0f"/>
+  <path d="m297.5 104.5h25v25h-25zm25 0h25v25h-25z" fill="#f00"/>
+ </g>
+</svg>

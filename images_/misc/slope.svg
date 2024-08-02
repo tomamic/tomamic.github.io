@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="22cm" viewBox="572 144 382 430" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="600" y1="570" x2="600" y2="159.736"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="600,152.236 605,162.236 600,159.736 595,162.236 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="580" y1="500" x2="940.264" y2="500"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="947.764,500 937.764,505 940.264,500 937.764,495 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #0000ff" x1="580" y1="430" x2="677.339" y2="381.331"/>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="680" cy="380" rx="2" ry="2"/>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="840" cy="300" rx="2" ry="2"/>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="640" y="377.675">
+      <tspan x="640" y="377.675">(x₁, y₁)</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="800" y="297.675">
+      <tspan x="800" y="297.675">(x₂, y₂)</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="750" y="337.675">
+      <tspan x="750" y="337.675">d</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #0000ff" x1="842.687" y1="298.657" x2="952" y2="244"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="682.676" y1="378.662" x2="837.324" y2="301.338"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #ff0000" x1="682.988" y1="380" x2="840" y2="380"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #ff0000" x1="840" y1="302" x2="840" y2="380"/>
+    <text font-size="19.7556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="760" y="407.675">
+      <tspan x="760" y="407.675">Δx = x₂–x₁</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="900" y="347.675">
+      <tspan x="900" y="347.675">Δy = y₂–y₁</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="620" y="427.675">
+      <tspan x="620" y="427.675">q</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="890" y="237.675">
+      <tspan x="890" y="237.675">y = m·x + q</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="760" y="567.675">
+      <tspan x="760" y="567.675">d² = (Δx)²+(Δy)²</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="760" y="165.328">
+      <tspan x="760" y="165.328">m = Δy/Δx</tspan>
+      <tspan x="760" y="190.022">q = y₁ – m·x₁</tspan>
+    </text>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" cx="600" cy="420" rx="2" ry="2"/>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="940" y="527.338">
+      <tspan x="940" y="527.338">x</tspan>
+    </text>
+    <text font-size="19.7556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:italic;font-weight:normal" x="580" y="167.338">
+      <tspan xml:space="preserve" x="580" y="167.338"> y</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="550" height="510" version="1.1" viewBox="0 0 550 510" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-60 -50)">
+  <ellipse cx="380" cy="150" rx="80" ry="80" fill="#ca122c"/>
+  <ellipse cx="200" cy="180" rx="80" ry="80" fill="#4d1525"/>
+  <ellipse cx="220" cy="150" rx="80" ry="80" fill="#994ec4"/>
+  <ellipse cx="140" cy="130" rx="80" ry="80" fill="#b4a110"/>
+  <ellipse cx="240" cy="340" rx="80" ry="80" fill="#31d762"/>
+  <ellipse cx="360" cy="480" rx="80" ry="80" fill="#235ce2"/>
+  <ellipse cx="160" cy="440" rx="80" ry="80" fill="#e7b2e1"/>
+  <ellipse cx="280" cy="470" rx="80" ry="80" fill="#9d9aa2"/>
+  <ellipse cx="520" cy="240" rx="80" ry="80" fill="#42b235"/>
+  <ellipse cx="530" cy="450" rx="80" ry="80" fill="#0caa00"/>
+ </g>
+</svg>

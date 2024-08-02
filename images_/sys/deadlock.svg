@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="12cm" height="12cm" viewBox="606 226 228 228" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="617.05" y="316.3" width="45.9" height="47.4" rx="0" ry="0"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="352.561">
+        <tspan x="640" y="352.561">P₁</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" fill-rule="evenodd" d="M 740 240 L 700,240 L 700,281.067 C 708,274.222 712,274.222 720,281.067 C 728,287.911 732,287.911 740,281.067 L 740,240z"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="271.222">
+        <tspan x="720" y="271.222">R₁</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 640 315.303 C 640,275.303 659.039,262.828 689.304,263.388"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="696.803,263.526 686.712,268.341 689.304,263.388 686.897,258.342 "/>
+    </g>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(640,260) rotate(-45) translate(-640,-260)">
+      <tspan x="640" y="267.025">requires</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="777.05" y="316.3" width="45.9" height="47.4" rx="0" ry="0"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="800" y="352.561">
+        <tspan x="800" y="352.561">P₂</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 740.961 263.568 C 780.961,262.828 800,275.303 800,305.567"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="800,313.067 795,303.067 800,305.567 805,303.067 "/>
+    </g>
+    <g>
+      <path style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" fill-rule="evenodd" d="M 740 398.806 L 700,398.806 L 700,436.486 C 708,430.206 712,430.206 720,436.486 C 728,442.766 732,442.766 740,436.486 L 740,398.806z"/>
+      <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="428.617">
+        <tspan x="720" y="428.617">R₂</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 800 364.676 C 800,404.676 780.995,419.656 750.729,420.216"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="743.23,420.354 753.136,415.17 750.729,420.216 753.321,425.168 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 699.005 420.396 C 659.005,419.656 640,404.676 640,374.412"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="640,366.912 645,376.912 640,374.412 635,376.912 "/>
+    </g>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(800,420) rotate(135) translate(-800,-420)">
+      <tspan x="800" y="427.025">requires</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(790,270) rotate(45) translate(-790,-270)">
+      <tspan x="790" y="265.736">assigned</tspan>
+      <tspan x="790" y="288.314">to</tspan>
+    </text>
+    <text font-size="18.0622" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" transform="translate(650,410) rotate(-135) translate(-650,-410)">
+      <tspan x="650" y="405.736">assigned</tspan>
+      <tspan x="650" y="428.314">to</tspan>
+    </text>
+  </g>
+</svg>

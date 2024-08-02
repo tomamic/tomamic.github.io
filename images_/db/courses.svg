@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="15cm" viewBox="758 238 253 283" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="960,240 1010,280.307 960,320.613 910,280.307 "/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="960" y="290.346">
+        <tspan x="960" y="290.346">Take</tspan>
+      </text>
+    </g>
+    <g>
+      <polygon style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="960,440 1010,480.307 960,520.613 910,480.307 "/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="960" y="490.346">
+        <tspan x="960" y="490.346">Teach</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="760" y="260" width="100" height="40" rx="0" ry="0"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="810" y="290.039">
+        <tspan x="810" y="290.039">Student</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="910" y="360" width="100" height="40" rx="0" ry="0"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="960" y="390.039">
+        <tspan x="960" y="390.039">Course</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #bfbfbf; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="760" y="460" width="100" height="40" rx="0" ry="0"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="810" y="490.039">
+        <tspan x="810" y="490.039">Teacher</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="860.995" y1="280.104" x2="909" y2="280.202"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="860" y1="480" x2="910" y2="480.307"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="960" y1="321.613" x2="960" y2="359.007"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="960" y1="400" x2="960" y2="440"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="870" y="270">
+      <tspan x="870" y="270">N</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="970" y="350">
+      <tspan x="970" y="350">N</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="870" y="470">
+      <tspan x="870" y="470">1</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="970" y="420">
+      <tspan x="970" y="420">N</tspan>
+    </text>
+  </g>
+</svg>

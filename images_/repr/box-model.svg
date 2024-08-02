@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="26cm" height="23cm" viewBox="448 370 514 459" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="470" y="390" width="460" height="420" rx="0" ry="0"/>
+    <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 30; stroke: #000000" x="550" y="470" width="300" height="260" rx="0" ry="0"/>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x="610" y="530" width="180" height="140" rx="0" ry="0"/>
+    <text font-size="28.2222" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="480.95">
+      <tspan x="700" y="480.95">border</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="514.95">
+      <tspan x="700" y="514.95">padding</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="610.95">
+      <tspan x="700" y="610.95">content</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="440.95">
+      <tspan x="700" y="440.95">margin</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="677.7" y="370.75" width="44.6" height="38.5"/>
+      <text font-size="28.2222" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="400.95">
+        <tspan x="700" y="400.95">top</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="448.45" y="580.75" width="43.1" height="38.5"/>
+      <text font-size="28.2222" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="610.95">
+        <tspan x="470" y="610.95">left</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="660.875" y="790.75" width="98.25" height="38.5"/>
+      <text font-size="28.2222" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="710" y="820.95">
+        <tspan x="710" y="820.95">bottom</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="898.025" y="580.75" width="63.95" height="38.5"/>
+      <text font-size="28.2222" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="930" y="610.95">
+        <tspan x="930" y="610.95">right</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

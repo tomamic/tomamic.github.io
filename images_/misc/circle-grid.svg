@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12cm" height="12cm" version="1.1" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <circle cx="40" cy="40" r="40" fill="#000000"/>
+  <circle cx="120" cy="40" r="40" fill="#7f0000"/>
+  <circle cx="200" cy="40" r="40" fill="#ff0000"/>
+
+  <circle cx="40" cy="120" r="40" fill="#007f00" />
+  <circle cx="120" cy="120" r="40" fill="#7f7f00" />
+  <circle cx="200" cy="120" r="40" fill="#ff7f00" />
+
+  <circle cx="40" cy="200" r="40" fill="#00ff00" />
+  <circle cx="120" cy="200" r="40" fill="#7fff00" />
+  <circle cx="200" cy="200" r="40" fill="#ffff00" />
+ </g>
+</svg>

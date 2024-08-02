@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="11cm" height="7cm" viewBox="199 159 214 135" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="160" width="87" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="243.5" y="182">Ball</text>
+      <rect style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="188" width="87" height="68"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="202">-x: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="218">-y: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="234">-dx: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="250">-dy: int …</text>
+      <rect style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="256" width="87" height="36"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="270">+move()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="203" y="286">+pos()</text>
+    </g>
+    <g>
+      <polygon style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="340,160 399.9,160 411.9,172 411.9,210 340,210 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" points="399.9,160 399.9,172 411.9,172 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="347" y="184.9">
+        <tspan x="347" y="184.9">Private</tspan>
+        <tspan x="347" y="200.9">fields</tspan>
+      </text>
+    </g>
+    <g>
+      <polygon style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f7f7f" fill-rule="evenodd" points="340,240 399.9,240 411.9,252 411.9,290 340,290 "/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #7f7f7f" points="399.9,240 399.9,252 411.9,252 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="347" y="264.9">
+        <tspan x="347" y="264.9">Public</tspan>
+        <tspan x="347" y="280.9">methods</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="340" y1="185" x2="287" y2="214"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="340" y1="265" x2="287" y2="266"/>
+  </g>
+</svg>

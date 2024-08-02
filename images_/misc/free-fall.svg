@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="654" height="539" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <title>Free fall (g=10 m/s2)</title>
+ <g stroke="#000">
+  <path id="x-axis" d="m54.2 515h599" fill="none" stroke-width="2.45"/>
+  <path id="y-axis" d="m54.2 515v-500m0 100h5m-5 100h5m-5 100h5m-5 100h5m-5 100h5" fill="none" stroke-width="2"/>
+  <g transform="translate(54.2 15.2)" stroke-dasharray="9, 5" stroke-width="2">
+   <path d="m100 100v400"/>
+   <path d="m200 250v250"/>
+   <path d="m0 100h100"/>
+   <path d="m0 250h200"/>
+  </g>
+ </g>
+ <g font-size="21.3px">
+  <g text-anchor="middle">
+   <text x="154.15189" y="535.23199">1</text>
+   <text x="254.15189" y="535.23199">2</text>
+   <text x="354.15189" y="535.23199">3</text>
+   <text x="624.15192" y="535.23199">t (s)</text>
+  </g>
+  <g transform="translate(54.2 15.2)" text-anchor="end">
+   <text x="-5" y="55">45</text>
+   <text x="-5" y="105">40</text>
+   <text x="-5" y="205">30</text>
+   <text x="-5" y="305">20</text>
+   <text x="-5" y="405">10</text>
+   <text x="-5" y="505">0</text>
+   <text x="-5">y (m)</text>
+  </g>
+ </g>
+ <path id="parabola" d="m54.2 65.2q150 0 300 450" fill="none" stroke="#00f" stroke-width="2"/>
+ <path d="m654 65.1q-150 0-300 450" fill="none" stroke="#00f" stroke-width="2"/>
+</svg>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="396.64"
+   height="172.84"
+   enable-background="new 0 0 400 200"
+   overflow="visible"
+   version="1.1"
+   viewBox="0 0 396.64 172.84"
+   xml:space="preserve"
+   id="svg173"
+   sodipodi:docname="stdev.svg"
+   inkscape:export-filename="stdev.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview175"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="3.3027429"
+   inkscape:cx="193.77833"
+   inkscape:cy="86.291912"
+   inkscape:window-width="1850"
+   inkscape:window-height="1011"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg173" /><defs
+   id="defs8"><marker
+   id="marker4152"
+   overflow="visible"
+   markerHeight="8"
+   markerWidth="1"
+   orient="auto"
+   preserveAspectRatio="xMidYMid"
+   viewBox="0 0 1 8"><path
+     d="m0 4v-8"
+     fill="none"
+     stroke="context-stroke"
+     id="path2" /></marker><marker
+   id="Stop"
+   overflow="visible"
+   markerHeight="8"
+   markerWidth="1"
+   orient="auto"
+   preserveAspectRatio="xMidYMid"
+   viewBox="0 0 1 8"><path
+     d="m0 4v-8"
+     fill="none"
+     stroke="context-stroke"
+     id="path5" /></marker>
+
+	
+
+	
+
+	
+
+	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+	
+
+	
+	
+
+	
+	
+
+	
+	
+
+	
+
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	</defs>
+<font
+   id="font4"
+   horiz-adv-x="2048"
+   horiz-origin-x="0"
+   horiz-origin-y="0"
+   vert-adv-y="1024"
+   vert-origin-x="512"
+   vert-origin-y="768">
+
+ 
+
+ 
+<font-face
+   font-family="ArialMT"
+   underline-position="-217"
+   underline-thickness="150"
+   units-per-em="2048"
+   id="font-face10" />
+<missing-glyph
+   d="M256,0l0,1280l1024,0l0,-1280M288,32l960,0l0,1216l-960,0z"
+   horiz-adv-x="1536"
+   id="missing-glyph12" />
+<glyph
+   d="M119,1114C119,1219 145,1308 198,1381C251,1454 327,1491 427,1491C519,1491 595,1458 656,1393C716,1327 746,1230 746,1103C746,979 716,884 655,817C594,750 518,716 429,716C340,716 267,749 208,815C149,881 119,981 119,1114M432,1367C387,1367 350,1348 321,1309C291,1270 276,1199 276,1096C276,1002 291,936 321,898C351,859 388,840 432,840C477,840 515,859 545,898C574,937 589,1007 589,1110C589,1205 574,1271 544,1310C514,1348 477,1367 432,1367M433,-54l802,1545l146,0l-799,-1545M1067,344C1067,449 1093,539 1146,612C1199,685 1275,721 1376,721C1468,721 1544,688 1605,623C1665,557 1695,460 1695,333C1695,209 1665,114 1604,47C1543,-20 1467,-54 1377,-54C1288,-54 1215,-21 1156,46C1097,112 1067,211 1067,344M1381,597C1336,597 1298,578 1269,539C1239,500 1224,429 1224,326C1224,233 1239,167 1269,128C1299,89 1336,70 1380,70C1426,70 1464,89 1494,128C1523,167 1538,237 1538,340C1538,435 1523,501 1493,540C1463,578 1426,597 1381,597z"
+   horiz-adv-x="1821"
+   unicode="%"
+   id="glyph14" />
+<glyph
+   d="M186,0l0,205l205,0l0,-205z"
+   horiz-adv-x="569"
+   unicode="."
+   id="glyph16" />
+<glyph
+   d="M85,723C85,896 103,1036 139,1142C174,1247 227,1329 298,1386C368,1443 456,1472 563,1472C642,1472 711,1456 770,1425C829,1393 878,1347 917,1288C956,1228 986,1155 1008,1070C1030,984 1041,868 1041,723C1041,551 1023,412 988,307C953,201 900,119 830,62C759,4 670,-25 563,-25C422,-25 311,26 230,127C133,249 85,448 85,723M270,723C270,482 298,322 355,243C411,163 480,123 563,123C646,123 715,163 772,243C828,323 856,483 856,723C856,964 828,1125 772,1204C715,1283 645,1323 561,1323C478,1323 412,1288 363,1218C301,1129 270,964 270,723z"
+   horiz-adv-x="1139"
+   unicode="0"
+   id="glyph18" />
+<glyph
+   d="M763,0l-180,0l0,1147C540,1106 483,1064 413,1023C342,982 279,951 223,930l0,174C324,1151 412,1209 487,1276C562,1343 616,1409 647,1472l116,0z"
+   horiz-adv-x="1139"
+   unicode="1"
+   id="glyph20" />
+<glyph
+   d="M1031,173l0,-173l-969,0C61,43 68,85 83,125C108,191 147,256 202,320C256,384 334,458 437,542C596,673 704,776 760,853C816,929 844,1001 844,1069C844,1140 819,1201 768,1250C717,1299 650,1323 568,1323C481,1323 412,1297 360,1245C308,1193 282,1121 281,1029l-185,19C109,1186 156,1291 239,1364C322,1436 433,1472 572,1472C713,1472 824,1433 906,1355C988,1277 1029,1180 1029,1065C1029,1006 1017,949 993,892C969,835 929,776 874,713C818,650 725,564 596,455C488,364 419,303 388,271C357,238 332,206 312,173z"
+   horiz-adv-x="1139"
+   unicode="2"
+   id="glyph22" />
+<glyph
+   d="M86,387l180,24C287,309 322,236 372,191C421,146 482,123 553,123C638,123 709,152 768,211C826,270 855,342 855,429C855,512 828,580 774,634C720,687 651,714 568,714C534,714 492,707 441,694l20,158C473,851 483,850 490,850C567,850 636,870 697,910C758,950 789,1012 789,1095C789,1161 767,1216 722,1259C677,1302 620,1324 549,1324C479,1324 421,1302 374,1258C327,1214 297,1148 284,1060l-180,32C126,1213 176,1306 254,1373C332,1439 429,1472 545,1472C625,1472 699,1455 766,1421C833,1386 885,1339 921,1280C956,1221 974,1158 974,1091C974,1028 957,970 923,918C889,866 839,825 772,794C859,774 926,733 974,670C1022,607 1046,528 1046,433C1046,305 999,197 906,108C813,19 695,-26 552,-26C423,-26 317,12 232,89C147,166 98,265 86,387z"
+   horiz-adv-x="1139"
+   unicode="3"
+   id="glyph24" />
+<glyph
+   d="M662,0l0,351l-636,0l0,165l669,950l147,0l0,-950l198,0l0,-165l-198,0l0,-351M662,516l0,661l-459,-661z"
+   horiz-adv-x="1139"
+   unicode="4"
+   id="glyph26" />
+<glyph
+   d="M1019,1107l-179,-14C824,1164 801,1215 772,1247C723,1298 663,1324 592,1324C535,1324 484,1308 441,1276C384,1235 340,1174 307,1095C274,1016 257,903 256,756C299,822 352,871 415,903C478,935 543,951 612,951C732,951 834,907 919,819C1003,730 1045,616 1045,476C1045,384 1025,299 986,220C946,141 891,80 822,38C753,-4 674,-25 586,-25C436,-25 314,30 219,141C124,251 77,433 77,686C77,969 129,1175 234,1304C325,1416 448,1472 603,1472C718,1472 813,1440 887,1375C960,1310 1004,1221 1019,1107M284,475C284,413 297,354 324,297C350,240 387,197 434,168C481,138 531,123 583,123C659,123 724,154 779,215C834,276 861,360 861,465C861,566 834,646 780,705C726,763 658,792 576,792C495,792 426,763 369,705C312,646 284,570 284,475z"
+   horiz-adv-x="1139"
+   unicode="6"
+   id="glyph28" />
+<glyph
+   d="M1018,1062l0,-1062l-161,0l0,126C822,73 788,36 754,16C707,-11 653,-25 591,-25C536,-25 487,-14 444,8C412,25 377,58 338,107l0,-514l-178,0l0,1469l178,0l0,-450C338,449 347,343 364,295C381,246 410,208 449,180C488,152 532,138 583,138C636,138 684,153 726,182C768,211 798,249 815,296C832,342 841,446 841,609l0,453z"
+   horiz-adv-x="1180"
+   unicode="µ"
+   id="glyph30" />
+<glyph
+   d="M1082,639l-968,0l0,168l968,0z"
+   horiz-adv-x="1196"
+   unicode="−"
+   id="glyph32" />
+<glyph
+   d="M1219,1062l0,-146l-289,0C1019,833 1063,705 1063,530C1063,340 1015,200 918,111C821,21 703,-24 564,-24C420,-24 301,23 208,116C115,209 68,348 68,531C68,720 117,859 214,950C311,1041 427,1086 564,1086C614,1086 671,1078 734,1062M561,937C474,937 401,903 342,835C283,767 253,665 253,530C253,395 282,294 340,226C397,158 472,124 564,124C661,124 738,160 795,231C852,302 880,402 880,531C880,649 854,746 802,823C749,899 669,937 561,937z"
+   horiz-adv-x="1264"
+   unicode="σ"
+   id="glyph34" />
+</font>
+
+	
+	<path
+   d="m165.86 66.32c-4.14 7.86-8.32 15.7-12.7 23.4-4.23 7.5-8.8 14.8-13.7 21.8-4.78 6.83-10.2 13.5-16.4 19-0.743 0.653-1.5 1.29-2.25 1.92v19.5h46v-87.3c-0.293 0.555-0.587 1.11-0.879 1.66z"
+   fill="#4cff4c"
+   id="path37" /><path
+   d="m101.86 144.22c-7.86 3.18-16.1 4.93-24.4 5.98-0.896 0.113-1.79 0.215-2.69 0.313v1.55h46v-19.5c-5.76 4.79-12 8.87-18.9 11.7z"
+   fill="#b3ffb3"
+   id="path39" /><path
+   d="m53.36 151.22c-8.3 0.218-16.6 0.284-24.9 0.319h46v-1.55c-7 0.755-14.1 1.04-21.1 1.23z"
+   fill="#bdc9e1"
+   id="path41" /><g
+   id="g51"><path
+     d="m211.86 8.0203c-4.1 0.322-8.02 1.84-11.3 4.54-3.34 2.77-6.32 5.85-9.02 9.3-5.22 6.66-9.68 14-13.8 21.5-3.92 7.06-7.7 14.2-11.5 21.3v87.3h46v-144c-0.132 5e-3 -0.263 6e-3 -0.394 0.017z"
+     fill="#00e500"
+     id="path43" /><path
+     d="m246.86 42.82c-4.3-7.5-8.71-15.1-14.2-21.8-2.65-3.23-5.51-6.55-8.94-8.91-3.25-2.23-7.06-4.3-11.1-4.13v144h46v-87.3c-3.86-7.33-7.67-14.7-11.8-21.9z"
+     fill="#00e500"
+     id="path45" /><path
+     d="m345.86 150.22c-7.96-1-16.1-2.8-23.5-6.08-6.54-2.9-12.6-6.65-18.2-11.3v19.5h46v-1.59c-1.45-0.147-2.89-0.29-4.34-0.473z"
+     fill="#b3ffb3"
+     id="path47" /><path
+     d="m301.86 130.22c-6.32-5.97-11.8-12.7-16.9-19.9-4.9-6.99-9.32-14.4-13.5-21.8-4.34-7.69-8.46-15.5-12.6-23.3-0.052-0.097-0.103-0.195-0.154-0.292v87.3h46v-19.5c-0.97-0.821-1.93-1.66-2.86-2.54z"
+     fill="#4cff4c"
+     id="path49" /></g><path
+   d="m394.86 152.22c-8.15-0.035-16.3-0.092-24.4-0.337-6.78-0.204-13.5-0.563-20.3-1.25v1.59h46c-0.414-2e-3 -0.826-4e-3 -1.24-5e-3z"
+   fill="#bdc9e1"
+   id="path53" /><g
+   fill="none"
+   stroke-linejoin="round"
+   stroke-miterlimit="10"
+   id="g85"><g
+     transform="translate(-.14 -12.78)"
+     stroke="#fff"
+     id="g67">
+	<line
+   x1="74.6"
+   x2="74.6"
+   y1="158"
+   y2="165"
+   id="line55" /><line
+   x1="121"
+   x2="121"
+   y1="135"
+   y2="165"
+   id="line57" /><line
+   x1="167"
+   x2="167"
+   y1="69"
+   y2="165"
+   id="line59" /><line
+   x1="258"
+   x2="258"
+   y1="69"
+   y2="165"
+   id="line61" /><line
+   x1="304"
+   x2="304"
+   y1="135"
+   y2="165"
+   id="line63" /><line
+   x1="350"
+   x2="350"
+   y1="158"
+   y2="165"
+   id="line65" /></g><g
+     stroke="#000"
+     id="g83"><line
+       x1="28.36"
+       x2="28.36"
+       y1="152.22"
+       y2="7.6203"
+       stroke-width=".75"
+       id="line69" /><line
+       x1="28.26"
+       x2="23.46"
+       y1="152.22"
+       y2="152.22"
+       stroke-width=".62554"
+       id="line71" /><g
+       stroke-width=".63203"
+       id="g81"><line
+         x1="28.36"
+         x2="23.46"
+         y1="116.22"
+         y2="116.22"
+         id="line73" /><line
+         x1="28.36"
+         x2="23.46"
+         y1="79.82"
+         y2="79.82"
+         id="line75" /><line
+         x1="28.36"
+         x2="23.46"
+         y1="43.72"
+         y2="43.72"
+         id="line77" /><line
+         x1="28.36"
+         x2="23.46"
+         y1="7.6203"
+         y2="7.6203"
+         id="line79" /></g></g></g><g
+   transform="translate(-2.14 -12.78)"
+   font-family="sans-serif"
+   font-size="16px"
+   id="g107"><text
+     x="12.99"
+     y="168.98401"
+     style="line-height:0%"
+     id="text89"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan87">0.0</tspan></text><text
+     x="12.652"
+     y="133.882"
+     style="line-height:0%"
+     id="text93"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan91">0.1</tspan></text><text
+     x="12.983001"
+     y="96.782997"
+     style="line-height:0%"
+     id="text97"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan95">0.2</tspan></text><text
+     x="12.972"
+     y="60.712002"
+     style="line-height:0%"
+     id="text101"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan99">0.3</tspan></text><text
+     x="13.046301"
+     y="24.3797"
+     style="line-height:0%"
+     id="text105"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan103">0.4</tspan></text></g><g
+   transform="translate(-.14 -12.78)"
+   fill="none"
+   stroke="#000"
+   stroke-linejoin="round"
+   stroke-miterlimit="10"
+   stroke-width=".75"
+   id="g127">
+
+	
+		<line
+   x1="28.4"
+   x2="396"
+   y1="165"
+   y2="165"
+   stroke-linecap="round"
+   id="line109" />
+	
+		<path
+   d="m28.6 165c8.3-0.035 16.6-0.102 24.9-0.319 7.93-0.209 15.9-0.546 23.8-1.54 8.34-1.05 16.5-2.8 24.4-5.98 7.83-3.17 14.7-7.97 21.1-13.6 6.22-5.46 11.7-12.2 16.4-19 4.92-7.02 9.49-14.3 13.7-21.8 4.36-7.73 8.54-15.6 12.7-23.4 4.06-7.7 8.13-15.4 12.4-23 4.13-7.44 8.59-14.8 13.8-21.5 2.71-3.45 5.69-6.52 9.02-9.3 3.25-2.7 7.17-4.22 11.3-4.54 4.16-0.326 8.11 1.8 11.5 4.11 3.43 2.36 6.29 5.68 8.94 8.91 5.47 6.66 9.87 14.2 14.2 21.8 4.17 7.27 8.02 14.7 11.9 22.2 4.12 7.82 8.24 15.6 12.6 23.3 4.21 7.46 8.63 14.8 13.5 21.8 5.03 7.17 10.5 13.9 16.9 19.9 6.21 5.86 13.3 10.4 21 13.8 7.4 3.28 15.5 5.08 23.5 6.08 8.18 1.03 16.4 1.48 24.6 1.72 8.14 0.245 16.3 0.302 24.4 0.337 0.414 1e-3 0.826 3e-3 1.24 5e-3"
+   stroke-linecap="round"
+   id="path111" />
+	
+		<line
+   x1="74.6"
+   x2="74.6"
+   y1="171"
+   y2="165"
+   id="line113" />
+	
+		<line
+   x1="121"
+   x2="121"
+   y1="171"
+   y2="165"
+   id="line115" />
+	
+		<line
+   x1="167"
+   x2="167"
+   y1="171"
+   y2="165"
+   id="line117" />
+	
+		<line
+   x1="212"
+   x2="212"
+   y1="171"
+   y2="165"
+   id="line119" />
+	
+		<line
+   x1="258"
+   x2="258"
+   y1="171"
+   y2="165"
+   id="line121" />
+	
+		<line
+   x1="304"
+   x2="304"
+   y1="171"
+   y2="165"
+   id="line123" />
+	
+		<line
+   x1="350"
+   x2="350"
+   y1="171"
+   y2="165"
+   id="line125" />
+	</g><g
+   transform="translate(-.14 -12.78)"
+   font-family="sans-serif"
+   font-size="16px"
+   text-anchor="middle"
+   id="g143"><text
+     x="120.15201"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text129">−2σ</text><text
+     x="164.772"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text131">−σ</text><text
+     x="258.34601"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text133">σ</text><text
+     x="73.620003"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text135">−3σ</text><text
+     x="350.05002"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text137">3σ</text><text
+     x="212.55078"
+     y="185.43147"
+     text-align="center"
+     style="line-height:0%"
+     id="text139">0</text><text
+     x="304.302"
+     y="185.46001"
+     text-align="center"
+     style="line-height:0%"
+     id="text141">2σ</text></g><g
+   fill="#fff"
+   id="g159"><text
+     x="212.86"
+     y="48.720802"
+     font-family="sans-serif"
+     font-size="16px"
+     style="line-height:0%"
+     id="text147"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan145">68.2%</tspan></text><text
+     x="218.96001"
+     y="88.1903"
+     font-family="Arial"
+     font-size="12px"
+     style="line-height:0%"
+     id="text149" /><text
+     x="212.86"
+     y="116.2478"
+     font-family="sans-serif"
+     font-size="16px"
+     style="line-height:0%"
+     id="text153"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan151">95.4%</tspan></text><text
+     x="212.46001"
+     y="140.19981"
+     font-family="sans-serif"
+     font-size="16px"
+     style="line-height:0%"
+     id="text157"><tspan
+       font-family="sans-serif"
+       text-align="center"
+       text-anchor="middle"
+       id="tspan155">99.7%</tspan></text></g><text
+   x="330.84006"
+   y="38.310295"
+   font-family="sans-serif"
+   font-size="16px"
+   text-align="center"
+   text-anchor="middle"
+   style="line-height:100%"
+   id="text163"><tspan
+     x="330.84006"
+     y="38.310295"
+     font-family="sans-serif"
+     font-size="16px"
+     id="tspan161">μ=0</tspan></text><g
+   stroke="#000"
+   stroke-dasharray="4, 1"
+   stroke-width="1px"
+   id="g171"><path
+     d="m74.46 144.22 276-0.041"
+     fill="none"
+     marker-end="url(#marker4152)"
+     marker-start="url(#marker4152)"
+     id="path165" /><path
+     d="m120.86 120.22 184 0.055"
+     fill="none"
+     marker-end="url(#marker4152)"
+     marker-start="url(#Stop)"
+     id="path167" /><path
+     d="m166.86 52.72 92 1e-3"
+     fill="#800000"
+     fill-rule="evenodd"
+     marker-end="url(#marker4152)"
+     marker-start="url(#marker4152)"
+     id="path169" /></g></svg>

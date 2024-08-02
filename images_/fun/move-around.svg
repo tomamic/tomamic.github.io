@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="10cm" viewBox="291 190 241 191" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="292" y1="200" x2="520.264" y2="200"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="527.764,200 517.764,205 520.264,200 517.764,195 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="300" y1="192" x2="300" y2="370.264"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="300,377.764 295,367.764 300,370.264 305,367.764 "/>
+    </g>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="380" cy="260" rx="2" ry="2"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="300" y1="260" x2="377.012" y2="260"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="380" y1="200" x2="380" y2="258"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" x1="382.661" y1="261.331" x2="471.292" y2="305.646"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" fill-rule="evenodd" points="478,309 466.82,309 471.292,305.646 471.292,300.056 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #ff0000" x1="382.991" y1="260" x2="480" y2="260"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #ff0000" x1="480" y1="260" x2="480" y2="310"/>
+    <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="436" y="252.431">
+      <tspan x="436" y="252.431">r·cosϑ</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="274.431">
+      <tspan x="420" y="274.431">ϑ</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="504" y="284.431">
+      <tspan x="504" y="284.431">r·sinϑ</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="356" y="252.245">
+      <tspan x="356" y="252.245">(x₀, y₀)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="324.431">
+      <tspan x="480" y="324.431">(x, y)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="356.245">
+      <tspan x="360" y="356.245">x = x₀+r·cosϑ</tspan>
+      <tspan x="360" y="372.245">y = y₀+r·sinϑ</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="430" y="304.431">
+      <tspan x="430" y="304.431">r</tspan>
+    </text>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="480" cy="310" rx="2" ry="2"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" d="M 414 260 C 414,268 414,268 410,275"/>
+  </g>
+</svg>

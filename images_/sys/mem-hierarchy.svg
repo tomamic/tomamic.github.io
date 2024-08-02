@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="16cm" height="9cm" viewBox="848 657 304 166" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <polygon style="fill: #f00000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ffffff" fill-rule="evenodd" points="950,700 970,660 1030,660 1050,700 "/>
+    <polygon style="fill: #a03c00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ffffff" fill-rule="evenodd" points="930,740 950,700 1050,700 1070,740 "/>
+    <polygon style="fill: #507800; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ffffff" fill-rule="evenodd" points="910,780 930,740 1070,740 1090,780 "/>
+    <polygon style="fill: #00b400; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #ffffff" fill-rule="evenodd" points="890,820 910,780 1090,780 1110,820 "/>
+    <text font-size="28.2218" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="690.95">
+      <tspan x="1000" y="690.95">Regs</tspan>
+    </text>
+    <text font-size="28.2218" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="730.95">
+      <tspan x="1000" y="730.95">Cache</tspan>
+    </text>
+    <text font-size="28.2218" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="770.95">
+      <tspan x="1000" y="770.95">RAM</tspan>
+    </text>
+    <text font-size="28.2218" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1000" y="810.95">
+      <tspan x="1000" y="810.95">HDD</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #ff0000" x1="860" y1="780" x2="860" y2="674.208"/>
+      <polygon style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #ff0000" fill-rule="evenodd" points="860,666.708 865,676.708 860,674.208 855,676.708 "/>
+    </g>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="910" y="694.639">
+      <tspan x="910" y="694.639">Speed</tspan>
+      <tspan x="910" y="722.861">Cost</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1110" y="768.75">
+      <tspan x="1110" y="768.75">Size</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1140" y1="700" x2="1140" y2="805.792"/>
+      <polygon style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #006600" fill-rule="evenodd" points="1140,813.292 1135,803.292 1140,805.792 1145,803.292 "/>
+    </g>
+  </g>
+</svg>

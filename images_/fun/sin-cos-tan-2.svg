@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189" height="171" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect width="189" height="171" ry="63" color="#000000" fill="#fea" image-rendering="auto" stroke-width="2"/>
+ <text x="23.19972" y="33.09584" color="#000000" fill="#6600cc" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">sin θ =</text>
+ <text x="77.599724" y="44.795837" color="#000000" fill="#d0630b" font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">hypotenuse</text>
+ <path d="m75.7 30.4h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <g font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">
+  <text x="87.895706" y="23.995829" color="#000000" fill="#008000">opposite</text>
+  <text x="19.495724" y="84.595818" color="#000000" fill="#6600cc">cos θ =</text>
+  <text x="19.795727" y="136.59583" color="#000000" fill="#6600cc">tan θ =</text>
+  <text x="77.595726" y="95.095818" color="#000000" fill="#d0630b">hypotenuse</text>
+ </g>
+ <path d="m75.7 80.8h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <path d="m75.7 133h91.9" fill="none" stroke="#000" stroke-width=".8"/>
+ <g font-family="'Trebuchet MS'" font-size="16px" stroke-width="1px">
+  <text x="87.895706" y="126.79583" color="#000000" fill="#008000">opposite</text>
+  <text x="86.99572" y="74.695824" color="#000000" fill="#3465a4">adjacent</text>
+  <text x="86.99572" y="149.69583" color="#000000" fill="#3465a4">adjacent</text>
+ </g>
+</svg>

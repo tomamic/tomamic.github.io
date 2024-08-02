@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="15cm" viewBox="660 580 257 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="750" y="858.75">
+      <tspan x="750" y="858.75">2$ 1Kg</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="648.75">
+      <tspan x="820" y="648.75">4$ 12Kg</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="728.75">
+      <tspan x="880" y="728.75">2$ 2Kg</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="850" y="828.75">
+      <tspan x="850" y="828.75">10$ 4Kg</tspan>
+    </text>
+    <g>
+      <image x="660" y="650" width="140" height="140" xlink:href="backpack.svg"/>
+      <rect style="fill: #ff0000; fill-opacity: 0.494118; stroke: none" x="678.45" y="696.6" width="55.1" height="30.8"/>
+      <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="706" y="720.75">
+        <tspan x="706" y="720.75">15Kg</tspan>
+      </text>
+    </g>
+    <image x="690" y="580" width="60" height="60" xlink:href="question.svg"/>
+    <image x="800" y="580" width="50" height="50" xlink:href="package.svg"/>
+    <image x="860" y="660" width="50" height="50" xlink:href="package.svg"/>
+    <image x="830" y="760" width="50" height="50" xlink:href="package.svg"/>
+    <image x="730" y="790" width="50" height="50" xlink:href="package.svg"/>
+  </g>
+</svg>

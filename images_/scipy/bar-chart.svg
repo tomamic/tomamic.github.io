@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- License: Apache. Made by googlefonts: https://github.com/googlefonts/noto-emoji -->
+<svg width="800px" height="800px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet">
+
+<path fill="#ffffff" d="M4 4h120v120H4z">
+
+</path>
+
+<g fill="none" stroke="#b0bec5" stroke-width="2" stroke-miterlimit="10">
+
+<path d="M124 24.35H5.57">
+
+</path>
+
+<path d="M124 43.67H5.47">
+
+</path>
+
+<path d="M124 62.99H5.36">
+
+</path>
+
+<path d="M124 82.31H5.26">
+
+</path>
+
+<path d="M124 101.64H5.15">
+
+</path>
+
+</g>
+
+<path d="M38.72 121.91H21.89V55.38c0-1.36 1.1-2.46 2.46-2.46h11.91c1.36 0 2.46 1.1 2.46 2.46v66.53z" fill="#9ccc65">
+
+</path>
+
+<path d="M72.42 121.91H55.58V74.84c0-1.36 1.1-2.46 2.46-2.46h11.91c1.36 0 2.46 1.1 2.46 2.46v47.07z" fill="#f44336">
+
+</path>
+
+<path d="M103.64 121.91H91.73c-1.36 0-2.46-1.1-2.46-2.46V25.86c0-1.36 1.1-2.46 2.46-2.46h11.91c1.36 0 2.46 1.1 2.46 2.46v93.59c0 1.36-1.1 2.46-2.46 2.46z" fill="#0091ea">
+
+</path>
+
+<path fill="#b0bec5" d="M124 120H8V4H4v120h120z">
+
+</path>
+
+<path d="M122 6v116H6V6h116m2-2H4v120h120V4z" fill="#b0bec5">
+
+</path>
+
+</svg>

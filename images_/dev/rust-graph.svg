@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="network" class="has-background-dark" width="910" height="540.3" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="arrow-6e40aa-3" markerHeight="4" markerWidth="4" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
+   <path d="m0 0 10 5-10 5z" fill="#6e40aa"/>
+  </marker>
+  <marker id="arrow-aff05b-7" markerHeight="4" markerWidth="4" orient="auto" refX="1" refY="5" viewBox="0 0 10 10">
+   <path d="m0 0 10 5-10 5z" fill="#aff05b"/>
+  </marker>
+ </defs>
+ <g transform="matrix(3.099 0 0 3.099 -1479 -693.6)">
+  <g class="edges" fill="none" stroke-width=".8px">
+   <path d="m667.7 331.3a53.09 53.09 0 0 1-51.19-14.07" marker-end="url(#arrow-6e40aa-3)" stroke="#6e40aa"/>
+   <g stroke="#aff05b">
+    <path d="m487.1 325.2a51.77 51.77 0 0 1 48.54-18" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a63.5 63.5 0 0 1 63.02 7.761" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a25.9 25.9 0 0 1 22.97 11.97" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a102.4 102.4 0 0 1 55.13-86.29" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a72.81 72.81 0 0 1 9.654-72.17" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a72.27 72.27 0 0 1 55.22 46.62" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m487.1 325.2a110.6 110.6 0 0 1 108.6-21.11" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m552.4 233.7a109 109 0 0 1-29.4 105" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m552.4 233.7a37.18 37.18 0 0 1 37.15-1.514" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m552.4 233.7a45.91 45.91 0 0 1-43.45 14.81" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m552.4 233.7a81.65 81.65 0 0 1 52.97 62.14" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m558.9 339.6a34.48 34.48 0 0 1-33.3 8.961" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m558.9 339.6a103.7 103.7 0 0 1 31.78-98.72" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m558.9 339.6a46.71 46.71 0 0 1 36.33-29.36" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m520.4 276.1a60.84 60.84 0 0 1 0.374 60.84" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m520.4 276.1a42.97 42.97 0 0 1 22.09-36.86" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m520.4 276.1a27.85 27.85 0 0 1-17.66-21.54" marker-end="url(#arrow-aff05b-7)"/>
+    <path d="m520.4 276.1a81.89 81.89 0 0 1 78.58 23.03" marker-end="url(#arrow-aff05b-7)"/>
+   </g>
+   <g stroke="#6e40aa">
+    <path d="m607.7 308.2a57.72 57.72 0 0 1-57.6 3.666" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a90.36 90.36 0 0 1-81.75 38.49" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a66.7 66.7 0 0 1-13.73-65.27" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a68.4 68.4 0 0 1 25.96 63.28" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a82.74 82.74 0 0 1-53.26-63.32" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a115.9 115.9 0 0 1-102.2-54.74" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m607.7 308.2a87.87 87.87 0 0 1-55.56 68.08" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m603.8 366.1a46.73 46.73 0 0 1-1.989-46.69" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m716.2 280.8a100.8 100.8 0 0 1-96.19 30.2" marker-end="url(#arrow-6e40aa-3)"/>
+   </g>
+   <path d="m515.6 345.9a93.18 93.18 0 0 1-16.74-91.66" marker-end="url(#arrow-aff05b-7)" stroke="#aff05b"/>
+   <path d="m515.6 345.9a88.28 88.28 0 0 1 79.43-38.53" marker-end="url(#arrow-aff05b-7)" stroke="#aff05b"/>
+   <g stroke="#6e40aa">
+    <path d="m715.4 354.3a106.1 106.1 0 0 1-99.66-36.38" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m690.2 390.4a35.55 35.55 0 0 1 17.06-31.19" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m690.2 390.4a105.4 105.4 0 0 1-78.63-70.2" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m693.9 243.4a35.03 35.03 0 0 1 21.14 27.93" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m693.9 243.4a96.73 96.73 0 0 1-73.77 62.56" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m650.8 275.8a42.68 42.68 0 0 1-30.91 29.44" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m667.2 301.3a48.74 48.74 0 0 1-47.54 10.72" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m643.4 350a43.69 43.69 0 0 1-32.06-29.69" marker-end="url(#arrow-6e40aa-3)"/>
+    <path d="m630.6 254.8a46.89 46.89 0 0 1-13.73 44.83" marker-end="url(#arrow-6e40aa-3)"/>
+   </g>
+  </g>
+  <g class="nodes" stroke-width="0px">
+   <circle cx="667.7" cy="331.3" r="6.89" fill="#6e40aa" node-id="Q187560"/>
+   <g fill="#aff05b">
+    <circle cx="487.1" cy="325.2" r="10" node-id="Q2407"/>
+    <circle cx="552.4" cy="233.7" r="8.78" node-id="Q2370"/>
+    <circle cx="558.9" cy="339.6" r="8.273" node-id="Q161053"/>
+    <circle cx="520.4" cy="276.1" r="8.78" node-id="Q34010"/>
+    <circle cx="543.2" cy="308.5" r="5" node-id="Q113157814"/>
+   </g>
+   <g fill="#6e40aa">
+    <circle cx="607.7" cy="308.2" r="10" node-id="Q575650"/>
+    <circle cx="603.8" cy="366.1" r="6.89" node-id="Q334879"/>
+    <circle cx="716.2" cy="280.8" r="6.89" node-id="Q212587"/>
+   </g>
+   <circle cx="515.6" cy="345.9" r="7.673" fill="#aff05b" node-id="Q17118377"/>
+   <g fill="#6e40aa">
+    <circle cx="715.4" cy="354.3" r="6.89" node-id="Q1895587"/>
+    <circle cx="690.2" cy="390.4" r="7.673" node-id="Q262003"/>
+    <circle cx="693.9" cy="243.4" r="7.673" node-id="Q597330"/>
+   </g>
+   <circle cx="596.3" cy="235.7" r="5" fill="#aff05b" node-id="Q21921428"/>
+   <circle cx="632.6" cy="379.1" r="5" fill="#6e40aa" node-id="Q23653623"/>
+   <circle cx="650.8" cy="275.8" r="6.89" fill="#6e40aa" node-id="Q544927"/>
+   <circle cx="501.5" cy="247" r="5" fill="#aff05b" node-id="Q51160183"/>
+   <circle cx="545" cy="379" r="5" fill="#aff05b" node-id="Q51885456"/>
+   <g fill="#6e40aa">
+    <circle cx="667.2" cy="301.3" r="6.89" node-id="Q16989736"/>
+    <circle cx="643.4" cy="350" r="6.89" node-id="Q6954329"/>
+    <circle cx="630.6" cy="254.8" r="6.89" node-id="Q79598"/>
+   </g>
+  </g>
+  <g class="labels" fill="#000000" stroke="#666666" stroke-width=".25px">
+   <text x="667.71033" y="331.29611" font-size="10.33px" node_id="Q187560">Scheme</text>
+   <text x="487.1423" y="325.23141" font-size="15px" node_id="Q2407">C++</text>
+   <text x="552.40155" y="233.68062" font-size="13.17px" node_id="Q2370">C#</text>
+   <text x="558.86731" y="339.55869" font-size="12.41px" node_id="Q161053">Ruby</text>
+   <text x="520.35345" y="276.07504" font-size="13.17px" node_id="Q34010">Haskell</text>
+   <text x="543.21136" y="308.51553" font-size="7.5px" node_id="Q113157814">Carbon</text>
+   <text x="607.65582" y="308.24039" font-size="15px" node_id="Q575650">Rust</text>
+   <text x="603.80634" y="366.11011" font-size="10.33px" node_id="Q334879">Erlang</text>
+   <text x="716.17255" y="280.79141" font-size="10.33px" node_id="Q212587">OCaml</text>
+   <text x="515.62946" y="345.86612" font-size="11.51px" node_id="Q17118377">Swift</text>
+   <text x="715.42603" y="354.30899" font-size="10.33px" node_id="Q1895587">Alef</text>
+   <text x="690.23718" y="390.44257" font-size="11.51px" node_id="Q262003">Newsqueak</text>
+   <text x="693.85846" y="243.42482" font-size="11.51px" node_id="Q597330">Standard ML</text>
+   <text x="596.30676" y="235.71104" font-size="7.5px" node_id="Q21921428">Crystal</text>
+   <text x="632.58832" y="379.09213" font-size="7.5px" node_id="Q23653623">Whiley</text>
+   <text x="650.81958" y="275.84055" font-size="10.33px" node_id="Q544927">Limbo</text>
+   <text x="501.45828" y="247.01228" font-size="7.5px" node_id="Q51160183">Ballerina</text>
+   <text x="544.95618" y="379.03265" font-size="7.5px" node_id="Q51885456">Zig</text>
+   <g font-size="10.33px">
+    <text x="667.24384" y="301.27313" node_id="Q16989736">Hermes</text>
+    <text x="643.44342" y="349.9761" node_id="Q6954329">NIL</text>
+    <text x="630.61469" y="254.8092" node_id="Q79598">Cyclone</text>
+   </g>
+  </g>
+ </g>
+</svg>

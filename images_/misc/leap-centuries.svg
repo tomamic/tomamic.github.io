@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg style="enable-background:new 0 0 406 333" version="1.1" viewBox="0 0 406 333" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+	.st0{fill:#FA0505;}
+	.st1{font-family:'Arial-Black';}
+	.st2{font-size:30px;}
+	.st3{font-size:49.117px;}
+	.st4{enable-background:new    ;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;}
+	.st6{fill:none;stroke:#FA0505;stroke-width:10;stroke-miterlimit:100;stroke-dasharray:1,7,1,7;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+
+	
+		<image width="406" height="333" style="overflow:visible" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA EAMCAwYAAAMEAAADEAAAAzT/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAU0BlgMBIgACEQEDEQH/ xABeAAEBAAAAAAAAAAAAAAAAAAAABwEBAAAAAAAAAAAAAAAAAAAAABABAQAAAAAAAAAAAAAAAAAA kLARAQAAAAAAAAAAAAAAAAAAALASAQAAAAAAAAAAAAAAAAAAAJD/2gAMAwEAAhEDEQAAAKAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAD//aAAgBAgABBQAIv//aAAgBAwABBQAIv//aAAgBAQABBQCC9//aAAgBAgIGPwAIv//a AAgBAwIGPwAIv//aAAgBAQEGPwAF7//Z">
+	</image>
+
+
+	<text transform="translate(19.778 56)"><tspan class="st0 st1 st2" x="0" y="0">1600 </tspan><tspan class="st1 st2" x="90" y="0">1700 1800 1900</tspan></text>
+
+
+	<text transform="translate(19.778 101)"><tspan class="st0 st1 st2" x="0" y="0">2000 </tspan><tspan class="st1 st2" x="90" y="0">2100 2200 2300</tspan></text>
+
+
+	<text class="st0 st1 st3" transform="matrix(.8262 0 0 1 98.168 312.14)">Leap year</text>
+
+<g class="st4">
+	
+		
+			<path class="st5" d="m94.4 115.3c-28.4 39.4-46.5 157.6-46.5 157.6l-11.1-58.1-22.8 37.4c9.7 9.4 23.6 39.4 35.3 78.8 8.3-41.3 34-125.7 46.4-133.2-4.8-29.9-2-54.3-1.3-82.5z"/>
+		
+		
+			<path class="st6" d="m94.4 115.3c-28.4 39.4-46.5 157.6-46.5 157.6l-11.1-58.1-22.8 37.4c9.7 9.4 23.6 39.4 35.3 78.8 8.3-41.3 34-125.7 46.4-133.2-4.8-29.9-2-54.3-1.3-82.5z"/>
+		
+	
+</g>
+<g class="st4">
+	
+		
+			<polygon class="st7" points="167.1 169.1 181.4 120 160.2 120 153.4 142.9 146.4 120 124.7 120 138.9 169.1 124 220 145.6 220 152.8 196.2 160 220 182 220"/>
+		
+	
+</g>
+<g class="st4">
+	
+		
+			<polygon class="st7" points="263.1 168.1 277.4 119 256.2 119 249.4 141.9 242.4 119 220.7 119 234.9 168.1 220 219 241.6 219 248.8 195.2 256 219 278 219"/>
+		
+	
+</g>
+<g class="st4">
+	
+		
+			<polygon class="st7" points="346.1 165.1 360.4 116 339.2 116 332.4 138.9 325.4 116 303.7 116 317.9 165.1 303 216 324.6 216 331.8 192.2 339 216 361 216"/>
+		
+	
+</g>
+</svg>

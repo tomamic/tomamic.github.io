@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="17cm" viewBox="919 199 442 322" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1140" cy="360" rx="220" ry="160"/>
+    <ellipse style="fill: #ffff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1140" cy="400" rx="180" ry="100"/>
+    <ellipse style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1080" cy="440" rx="80" ry="40"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1140" y="256.431">
+      <tspan x="1140" y="256.431">Imperative</tspan>
+      <tspan x="1140" y="272.431">programming</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1140" y="356.431">
+      <tspan x="1140" y="356.431">Structured</tspan>
+      <tspan x="1140" y="372.431">programming</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="436.245">
+      <tspan x="1080" y="436.245">Procedural</tspan>
+      <tspan x="1080" y="452.245">programming</tspan>
+    </text>
+    <ellipse style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1200" cy="440" rx="80" ry="40"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1200" y="436.431">
+      <tspan x="1200" y="436.431">Object-oriented</tspan>
+      <tspan x="1200" y="452.431">programming</tspan>
+    </text>
+  </g>
+</svg>

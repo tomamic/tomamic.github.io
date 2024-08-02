@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="16cm" viewBox="399 199 402 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="200" width="400" height="300" rx="0" ry="0"/>
+    <image x="440" y="240" width="80" height="80" xlink:href="basketball.svg"/>
+    <ellipse style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #bfbfbf" cx="600" cy="460" rx="40" ry="40"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 519.995 280 C 539.995,280 600,320 600,460"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 600 460 C 600,320 680,280 690.264,280"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="697.764,280 687.764,285 690.264,280 687.764,275 "/>
+    </g>
+  </g>
+</svg>

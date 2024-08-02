@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="275" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3288">
+   <stop stop-color="#ff1414" offset="0"/>
+   <stop stop-color="#cf0000" offset=".743"/>
+   <stop stop-color="#f00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3380" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(-39.5,55)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <filter id="filter291" x="-.00192" y="-.00482" width="1" height="1.01" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter297" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter303" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter309" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter315" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter321" x="-.00556" y="-.00333" width="1.01" height="1.01" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter327" x="-.00179" y="-.00294" width="1" height="1.01" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter333" x="-.00135" y="-.00278" width="1" height="1.01" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+ </defs>
+ <g stroke="#d70000" stroke-linecap="round" stroke-linejoin="round">
+  <g fill-rule="evenodd" stroke-width="1px">
+   <path d="m20 95 90-80 280 100-90 80-280-100z" fill="#d60000" filter="url(#filter333)"/>
+   <path d="m20 95v70l280 100v-70l-280-100z" fill="#f00" filter="url(#filter327)"/>
+   <path d="m300 265v-70l90-80v70l-90 80z" fill="#ad0000" filter="url(#filter321)"/>
+  </g>
+  <g transform="translate(82.2 -90.2)" filter="url(#filter315)">
+   <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+   <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(14.2 -116)" filter="url(#filter309)">
+   <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+   <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(-55.8 -139)" filter="url(#filter303)">
+   <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+   <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(-124 -164)" filter="url(#filter297)">
+   <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+   <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(-.578 -5.26)" filter="url(#filter291)">
+   <g transform="translate(36.1 -45.7)">
+    <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+    <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+   </g>
+   <g transform="translate(-31.9 -71.1)">
+    <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+    <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+   </g>
+   <g transform="translate(-102 -94.4)">
+    <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+    <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+   </g>
+   <g transform="translate(-170 -120)">
+    <path d="m280 198-54.5 0.5v17c-0.00263 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 0.00263-0.166 0-0.25v-17.5z" fill="url(#linearGradient3380)"/>
+    <path transform="matrix(1.09 0 0 1.48 155 72.6)" d="m115 85a25 10 0 1 1-50 0 25 10 0 1 1 50 0z" fill="#e00" stroke-width=".789"/>
+   </g>
+  </g>
+ </g>
+</svg>

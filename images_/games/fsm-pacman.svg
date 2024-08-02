@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="24cm" height="23cm" viewBox="759 99 463 444" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 999.026 140 C 899.026,140 853.332,220.003 836.411,270.767"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="834.039,277.882 832.458,266.814 836.411,270.767 841.945,269.976 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 1133.93 466.067 C 1153.93,446.067 1173.33,420.001 1156.41,369.237"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1154.04,362.122 1161.95,370.028 1156.41,369.237 1152.46,373.19 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 874.586 338.195 C 934.586,358.195 1025.41,358.195 1076.18,341.274"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1083.29,338.903 1075.39,346.808 1076.18,341.274 1072.22,337.321 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 800.582 358.835 C 780.582,398.835 806.067,446.067 819.183,459.183"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="824.486,464.486 813.879,460.95 819.183,459.183 820.95,453.879 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 1060 181.003 C 1060,221.003 1086.01,266.008 1099.12,279.123"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1104.43,284.427 1093.82,280.891 1099.12,279.123 1100.89,273.82 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 1140 278.997 C 1140,238.997 1113.99,193.992 1100.88,180.877"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1095.57,175.573 1106.18,179.109 1100.88,180.877 1099.11,186.18 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 914.621 518.207 C 974.621,538.207 985.379,538.207 1036.14,521.286"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1043.26,518.914 1035.35,526.82 1036.14,521.286 1032.19,517.333 "/>
+    </g>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1160" y="226.575">
+      <tspan x="1160" y="226.575">See</tspan>
+    </text>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 1220 440 C 1120,460 1237.15,465.712 1166.6,483.351"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1159.32,485.17 1167.81,477.894 1166.6,483.351 1170.23,487.595 "/>
+    </g>
+    <image x="840" y="180" width="21" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAADFJREFU&#10;GJVjZICCXzs3/GdAAmzuAYwMDAwMjNgkkRUx4pKEASZ8ktRRQNiRMA4ubwIAK9ETbqkE2bgAAAAA&#10;SUVORK5CYII="/>
+    <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1060" cy="140" rx="60" ry="40"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1060" y="148.75">
+      <tspan x="1060" y="148.75">Chase</tspan>
+    </text>
+    <image x="1100" y="100" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJJJREFU&#10;KJGVklEKAyEMRF+8SD96kkLvf4OAe5Lph81uDNK6AdEMPidGjUUIlHMDq3smoQKLzZbWe1CFW0CH&#10;i8MFdhUxaV89DAyguya3x9MGULTs2gBe7zFyrLQcbfduwyqVK5BA3aXuUuSTZiaZnevuusB/Iw6N&#10;eQs8XZN22/EW+NMxupXzrMVbT2Du+AqsH0SgD2XE5AoUIa9/AAAAAElFTkSuQmCC"/>
+    <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1140" cy="320" rx="60" ry="40"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1140" y="328.75">
+      <tspan x="1140" y="328.75">Patrol</tspan>
+    </text>
+    <image x="1180" y="280" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHFJREFU&#10;KJHVkkEOwCAIBHeNH6lf8f9fsE+hB0OCuG28lgsyYYwYCBEGWKwJMPcsIAuimeF8JmW5Kukes7wa&#10;N2aNRoAl3+gN8axYfXtS7zMPwQCgnM4WwwCjEr9mdCbFk9g+5wdi3kcCVGwRHahlzpLnB5/+Ktt7&#10;UKkrAAAAAElFTkSuQmCC"/>
+    <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="820" cy="320" rx="60" ry="40"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="328.75">
+      <tspan x="820" y="328.75">Flee</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1040" y="215.992">
+      <tspan x="1040" y="215.992">Lose</tspan>
+      <tspan x="1040" y="237.158">sight</tspan>
+    </text>
+    <image x="760" y="260" width="40" height="43.0769" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAI1JREFU&#10;KJGNkcERhDAIRR+OjbAFWIt9bD+2oTf7sAGb8I6XZRYxif5c8sl/w0CgJfudpK6WP9b5H05gFQJA&#10;kBLYhhyMMFwNgKrdZth3KUOlcA3uMpBbR++520zbtFyC2QOI0/7gLVu+98I2LQAM3xHswauaHets&#10;HzXz+5OXN1vLkrgVV/yX0ltfC+dahE+ThWA+MasTnAAAAABJRU5ErkJggg=="/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="166.575">
+      <tspan x="860" y="166.575">Power up</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="980" y="375.992">
+      <tspan x="980" y="375.992">Power up</tspan>
+      <tspan x="980" y="397.158">expired</tspan>
+    </text>
+    <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="860" cy="500" rx="60" ry="40"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="508.75">
+      <tspan x="860" y="508.75">Dead</tspan>
+    </text>
+    <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="1100" cy="500" rx="60" ry="40"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="508.75">
+      <tspan x="1100" y="508.75">Home</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="426.575">
+      <tspan x="820" y="426.575">Hit</tspan>
+    </text>
+    <image x="820" y="520" width="40" height="22.2222" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAABHNCSVQICAgIfAhkiAAAADNJREFU&#10;CJljYGBgYLh37///e/f+/2dAAshijOiSSkqMGGIsMIazMwMGgIkxYUrhAITcBAA87Sae1C5ttQAA&#10;AABJRU5ErkJggg=="/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="980" y="506.575">
+      <tspan x="980" y="506.575">Reach</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1120" y="426.575">
+      <tspan x="1120" y="426.575">Spawn</tspan>
+    </text>
+    <image x="1140" y="500" width="40" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHRJREFU&#10;KJHVktENwCAIRO9MF9H9V3AVHYV+NFgg1Cb9Kz/KhRcOApGEAGJzAow1TohAUrzqDwu1enFj+gaq&#10;y6QoXBSa4262+6ur1REAes8tZnrZzbQL2oWordr8jJnOt00+xWerfwTjPRJgpjlQheyYI6TvCTJ0&#10;KSlcyXc0AAAAAElFTkSuQmCC"/>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 1085.41 301.805 C 1025.41,281.805 934.586,281.805 883.823,298.726"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="876.708,301.097 884.613,293.192 883.823,298.726 887.776,302.679 "/>
+    </g>
+    <image x="920" y="260" width="21" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABHNCSVQICAgIfAhkiAAAADFJREFU&#10;GJVjZICCXzs3/GdAAmzuAYwMDAwMjNgkkRUx4pKEASZ8ktRRQNiRMA4ubwIAK9ETbqkE2bgAAAAA&#10;SUVORK5CYII="/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="990" y="276.575">
+      <tspan x="990" y="276.575">Power up</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="17cm" height="17cm" viewBox="275 255 330 330" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <ellipse style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 10; stroke: #a05a14" cx="440" cy="420" rx="160" ry="160"/>
+    <ellipse style="fill: #a05a14; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" cx="440" cy="420" rx="80" ry="80"/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="440" y="350.95">
+      <tspan x="440" y="350.95"></tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="440" y="350.95">
+      <tspan x="440" y="350.95"></tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="440" y="310.95">
+      <tspan x="440" y="310.95">XII</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="500" y="330.469">
+      <tspan x="500" y="330.469">I</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="540" y="370.469">
+      <tspan x="540" y="370.469">II</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="560" y="430.95">
+      <tspan x="560" y="430.95">III</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="540" y="490.469">
+      <tspan x="540" y="490.469">IV</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="500" y="530.469">
+      <tspan x="500" y="530.469">V</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="440" y="550.95">
+      <tspan x="440" y="550.95">VI</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="380" y="530.469">
+      <tspan x="380" y="530.469">VII</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="340" y="490.95">
+      <tspan x="340" y="490.95">VIII</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="320" y="430.95">
+      <tspan x="320" y="430.95">IX</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="340" y="370.95">
+      <tspan x="340" y="370.95">X</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:serif;font-style:normal;font-weight:normal" x="380" y="330.469">
+      <tspan x="380" y="330.469">XI</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 8; stroke: #000000" x1="440" y1="420" x2="393.682" y2="389.122"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 8; stroke: #000000" fill-rule="evenodd" points="387.442,384.961 398.536,386.348 393.682,389.122 392.989,394.669 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="440" y1="420" x2="510.422" y2="367.183"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 4; stroke: #000000" fill-rule="evenodd" points="516.422,362.683 511.422,372.683 510.422,367.183 505.422,364.683 "/>
+    </g>
+    <ellipse style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="440" cy="420" rx="10" ry="10"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="304" y1="344" x2="318" y2="352"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="560" y1="488" x2="574" y2="496"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="576" y1="344" x2="562" y2="352"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="320" y1="488" x2="306" y2="496"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="364" y1="284" x2="372" y2="298"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="372" y1="540" x2="364" y2="554"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="516" y1="284" x2="508" y2="298"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="440" y1="264" x2="440" y2="280"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="440" y1="560" x2="440" y2="576"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="300" y1="420" x2="284" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="596" y1="420" x2="580" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #a05a14" x1="510" y1="540" x2="518" y2="554"/>
+  </g>
+</svg>

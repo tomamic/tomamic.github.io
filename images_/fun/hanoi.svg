@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="93cm" height="52cm" viewBox="98 82 1843 1040" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1360" y="460" width="20" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="640" y="940" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="100" y="460" width="20" height="40" rx="0" ry="0"/>
+    <polygon style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="380,380 680,980 400,1120 100,500 "/>
+    <polygon style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="380,340 680,940 400,1080 100,460 "/>
+    <g transform="matrix(1.06383,0,0,1,-19.1489,0)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="520" rx="140" ry="80"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="160" y="480" width="280" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="480" rx="140" ry="80"/>
+    </g>
+    <g>
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="480" rx="120" ry="60"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="180" y="440" width="240" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="440" rx="120" ry="60"/>
+    </g>
+    <g transform="matrix(0.891089,0,0,1,32.6732,0)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="440" rx="100" ry="40"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="200" y="400" width="200" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="100" ry="40"/>
+    </g>
+    <g transform="matrix(0.740741,0,0,1,77.7778,0)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="80" ry="20"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="220" y="360" width="160" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="360" rx="80" ry="20"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="300" cy="357" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="280" y="308" width="40" height="48" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="300" cy="307" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="380" cy="685" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="360" y="466" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="380" cy="465" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="470" cy="865" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="450" y="646" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="470" cy="645" rx="20" ry="5"/>
+    </g>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1060" y="940" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="520" y="460" width="20" height="40" rx="0" ry="0"/>
+    <polygon style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="800,380 1100,980 820,1120 520,500 "/>
+    <polygon style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="800,340 1100,940 820,1080 520,460 "/>
+    <g transform="matrix(1.06383,0,0,1,400.852,0)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="520" rx="140" ry="80"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="160" y="480" width="280" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="480" rx="140" ry="80"/>
+    </g>
+    <g>
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="800" cy="720" rx="120" ry="60"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="680" y="680" width="240" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="800" cy="680" rx="120" ry="60"/>
+    </g>
+    <g transform="matrix(0.891089,0,0,1,531.782,240)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="440" rx="100" ry="40"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="200" y="400" width="200" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="100" ry="40"/>
+    </g>
+    <g transform="matrix(0.740741,0,0,1,577.038,240)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="80" ry="20"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="220" y="360" width="160" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="360" rx="80" ry="20"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="900" cy="875" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="880" y="656" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="900" cy="655" rx="20" ry="5"/>
+    </g>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1480" y="940" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="940" y="460" width="20" height="40" rx="0" ry="0"/>
+    <polygon style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="1220,380 1520,980 1240,1120 940,500 "/>
+    <polygon style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="1220,340 1520,940 1240,1080 940,460 "/>
+    <g>
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="1220" cy="720" rx="120" ry="60"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="1100" y="680" width="240" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="1220" cy="680" rx="120" ry="60"/>
+    </g>
+    <g transform="matrix(0.891089,0,0,1,951.782,240)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="440" rx="100" ry="40"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="200" y="400" width="200" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="100" ry="40"/>
+    </g>
+    <g transform="matrix(0.740741,0,0,1,997.038,240)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="80" ry="20"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="220" y="360" width="160" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="360" rx="80" ry="20"/>
+    </g>
+    <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1220" cy="595" rx="20" ry="5"/>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1200" y="466" width="40" height="128" rx="0" ry="0"/>
+    <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1220" cy="465" rx="20" ry="5"/>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1140" cy="525" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1120" y="306" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1140" cy="305" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="720" cy="475" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="700" y="308" width="40" height="166" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="720" cy="307" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="800" cy="595" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="780" y="466" width="40" height="128" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="800" cy="465" rx="20" ry="5"/>
+    </g>
+    <g transform="matrix(1.06383,0,0,1,999.788,350)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="520" rx="140" ry="80"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="160" y="480" width="280" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="480" rx="140" ry="80"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1318.94" cy="825" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1298.94" y="658" width="40" height="166" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1318.94" cy="657" rx="20" ry="5"/>
+    </g>
+    <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1900" y="940" width="40" height="40" rx="0" ry="0"/>
+    <polygon style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="1640,380 1940,980 1660,1120 1360,500 "/>
+    <polygon style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" fill-rule="evenodd" points="1640,340 1940,940 1660,1080 1360,460 "/>
+    <g transform="matrix(1.06383,0,0,1,1410.11,340)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="520" rx="140" ry="80"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="160" y="480" width="280" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="480" rx="140" ry="80"/>
+    </g>
+    <g>
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="1729.26" cy="820" rx="120" ry="60"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="1609.26" y="780" width="240" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="1729.26" cy="780" rx="120" ry="60"/>
+    </g>
+    <g transform="matrix(0.891089,0,0,1,1461.93,340)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="440" rx="100" ry="40"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="200" y="400" width="200" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="100" ry="40"/>
+    </g>
+    <g transform="matrix(0.740741,0,0,1,1507.04,340)">
+      <ellipse style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="400" rx="80" ry="20"/>
+      <rect style="fill: #e5ad21; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" x="220" y="360" width="160" height="40" rx="0" ry="0"/>
+      <ellipse style="fill: #ffda7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #e5ad21" cx="300" cy="360" rx="80" ry="20"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1729.26" cy="697" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1709.26" y="648" width="40" height="48" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1729.26" cy="647" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1640" cy="685" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1620" y="466" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1640" cy="465" rx="20" ry="5"/>
+    </g>
+    <g>
+      <ellipse style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1560" cy="525" rx="20" ry="5"/>
+      <rect style="fill: #7f0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" x="1540" y="306" width="40" height="218" rx="0" ry="0"/>
+      <ellipse style="fill: #a52a2a; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #7f0000" cx="1560" cy="305" rx="20" ry="5"/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" d="M 420 400 C 520,380 660,420 695.458,615.021"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" fill-rule="evenodd" points="696.8,622.4 690.092,613.456 695.458,615.021 699.93,611.667 "/>
+    </g>
+    <text font-size="90.3111" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="178.581">
+      <tspan x="520" y="178.581">7 moves</tspan>
+      <tspan x="520" y="291.469">(2³-1)</tspan>
+    </text>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" d="M 880 460 C 980,440 1180,540 1215.46,735.021"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" fill-rule="evenodd" points="1216.8,742.4 1210.09,733.456 1215.46,735.021 1219.93,731.667 "/>
+    </g>
+    <text font-size="90.3111" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="235.025">
+      <tspan x="940" y="235.025">1 move</tspan>
+    </text>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" d="M 1320 620 C 1400,540 1580,600 1628.65,697.292"/>
+      <polygon style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 16; stroke: #1e90ff" fill-rule="evenodd" points="1632,704 1623.06,697.292 1628.65,697.292 1632,692.82 "/>
+    </g>
+    <text font-size="90.3111" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1360" y="178.581">
+      <tspan x="1360" y="178.581">7 moves</tspan>
+      <tspan x="1360" y="291.469">(2³-1)</tspan>
+    </text>
+  </g>
+</svg>

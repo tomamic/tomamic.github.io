@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="9cm" viewBox="579 519 382 162" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x="580" y="520" width="380" height="160" rx="40" ry="40"/>
+    <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="770" y="548.75">
+      <tspan x="770" y="548.75">NP Problems</tspan>
+    </text>
+    <rect style="fill: #006600; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x="780" y="580" width="160" height="80" rx="20" ry="20"/>
+    <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="628.75">
+      <tspan x="860" y="628.75">P Problems</tspan>
+    </text>
+    <rect style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-linejoin: round; stroke: #000000" x="600" y="580" width="160" height="80" rx="20" ry="20"/>
+    <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="614.639">
+      <tspan x="680" y="614.639">NP Complete</tspan>
+      <tspan x="680" y="642.861">Problems</tspan>
+    </text>
+  </g>
+</svg>

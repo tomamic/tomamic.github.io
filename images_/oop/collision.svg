@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="24cm" viewBox="171 167 351 465" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="180" y="200" width="160" height="80" rx="0" ry="0"/>
+    <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="260" width="160" height="80" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="186.286">
+      <tspan x="180" y="186.286">x₁</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="186.286">
+      <tspan x="340" y="186.286">x₁+w₁</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="366.286">
+      <tspan x="300" y="366.286">x₂</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="366.286">
+      <tspan x="460" y="366.286">x₂+w₂</tspan>
+    </text>
+    <rect style="fill: #00ff00; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="340" y="460" width="160" height="80" rx="0" ry="0"/>
+    <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="220" y="520" width="160" height="80" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="446.286">
+      <tspan x="340" y="446.286">x₁</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="446.286">
+      <tspan x="500" y="446.286">x₁+w₁</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="626.286">
+      <tspan x="220" y="626.286">x₂</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="626.286">
+      <tspan x="380" y="626.286">x₂+w₂</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="340" y1="240" x2="370.264" y2="240"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="377.764,240 367.764,245 370.264,240 367.764,235 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="300" y1="500" x2="330.264" y2="500"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="337.764,500 327.764,505 330.264,500 327.764,495 "/>
+    </g>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="220" y="488.365">
+      <tspan x="220" y="488.365">x₁&lt;x₂+w₂</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="460" y="228.365">
+      <tspan x="460" y="228.365">x₂&lt;x₁+w₁</tspan>
+    </text>
+    <text font-size="42.3327" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="235.703">
+      <tspan x="200" y="235.703">R₁</tspan>
+    </text>
+    <text font-size="42.3327" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="496.425">
+      <tspan x="360" y="496.425">R₁</tspan>
+    </text>
+    <text font-size="42.3327" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="296.425">
+      <tspan x="320" y="296.425">R₂</tspan>
+    </text>
+    <text font-size="42.3327" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="556.425">
+      <tspan x="240" y="556.425">R₂</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="16cm" height="22cm" viewBox="219 59 302 422" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="320" y="60" width="100" height="60" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="370" y="95.8622">
+      <tspan x="370" y="95.8622">Unsigned</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="220" y="60" width="100" height="60" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="95.8622">
+      <tspan x="270" y="95.8622">Bin</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="320" y="120" width="120" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="147.112">
+      <tspan x="380" y="147.112">0</tspan>
+      <tspan x="380" y="168.279">1</tspan>
+      <tspan x="380" y="189.445">2</tspan>
+      <tspan x="380" y="210.612">3</tspan>
+      <tspan x="380" y="231.779">4</tspan>
+      <tspan x="380" y="252.945">5</tspan>
+      <tspan x="380" y="274.112">6</tspan>
+      <tspan x="380" y="295.279">7</tspan>
+      <tspan x="380" y="316.445">8</tspan>
+      <tspan x="380" y="337.612">9</tspan>
+      <tspan x="380" y="358.779">10</tspan>
+      <tspan x="380" y="379.945">11</tspan>
+      <tspan x="380" y="401.112">12</tspan>
+      <tspan x="380" y="422.279">13</tspan>
+      <tspan x="380" y="443.445">14</tspan>
+      <tspan x="380" y="464.612">15</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="220" y="120" width="100" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="270" y="147.112">
+      <tspan x="270" y="147.112">0000</tspan>
+      <tspan x="270" y="168.279">0001</tspan>
+      <tspan x="270" y="189.445">0010</tspan>
+      <tspan x="270" y="210.612">0011</tspan>
+      <tspan x="270" y="231.779">0100</tspan>
+      <tspan x="270" y="252.945">0101</tspan>
+      <tspan x="270" y="274.112">0110</tspan>
+      <tspan x="270" y="295.279">0111</tspan>
+      <tspan x="270" y="316.445">1000</tspan>
+      <tspan x="270" y="337.612">1001</tspan>
+      <tspan x="270" y="358.779">1010</tspan>
+      <tspan x="270" y="379.945">1011</tspan>
+      <tspan x="270" y="401.112">1100</tspan>
+      <tspan x="270" y="422.279">1101</tspan>
+      <tspan x="270" y="443.445">1110</tspan>
+      <tspan x="270" y="464.612">1111</tspan>
+    </text>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="60" width="100" height="60" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="85.2788">
+      <tspan x="470" y="85.2788">Sign-</tspan>
+      <tspan x="470" y="106.445">magnitude</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="420" y="120" width="100" height="360" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="147.112">
+      <tspan x="470" y="147.112">0</tspan>
+      <tspan x="470" y="168.279">1</tspan>
+      <tspan x="470" y="189.445">2</tspan>
+      <tspan x="470" y="210.612">3</tspan>
+      <tspan x="470" y="231.779">4</tspan>
+      <tspan x="470" y="252.945">5</tspan>
+      <tspan x="470" y="274.112">6</tspan>
+      <tspan x="470" y="295.279">7</tspan>
+      <tspan x="470" y="316.445">-0</tspan>
+      <tspan x="470" y="337.612">-1</tspan>
+      <tspan x="470" y="358.779">-2</tspan>
+      <tspan x="470" y="379.945">-3</tspan>
+      <tspan x="470" y="401.112">-4</tspan>
+      <tspan x="470" y="422.279">-5</tspan>
+      <tspan x="470" y="443.445">-6</tspan>
+      <tspan x="470" y="464.612">-7</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="16cm" viewBox="399 199 402 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="200" width="400" height="300" rx="0" ry="0"/>
+    <rect style="fill: #1e90ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #add8e6" x="400" y="220" width="400" height="160" rx="0" ry="0"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="580" y1="340" x2="790.264" y2="340"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="797.764,340 787.764,345 790.264,340 787.764,335 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="400" y1="340" x2="470.264" y2="340"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="477.764,340 467.764,345 470.264,340 467.764,335 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="600.01" y1="260" x2="409.736" y2="260"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="402.236,260 412.236,255 409.736,260 412.236,265 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="800" y1="260" x2="749.736" y2="260"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="742.236,260 752.236,255 749.736,260 752.236,265 "/>
+    </g>
+    <image x="580" y="460" width="40" height="40" xlink:href="frog.svg"/>
+    <image x="660" y="220" width="80" height="80" xlink:href="wood.svg" transform="translate(700,260) rotate(-90) translate(-700,-260)"/>
+    <image x="600" y="220" width="80" height="80" xlink:href="wood.svg" transform="translate(640,260) rotate(-90) translate(-640,-260)"/>
+    <image x="540" y="300" width="80" height="80" xlink:href="wood.svg" transform="translate(580,340) rotate(-90) translate(-580,-340)"/>
+    <image x="480" y="300" width="80" height="80" xlink:href="wood.svg" transform="translate(520,340) rotate(-90) translate(-520,-340)"/>
+  </g>
+</svg>

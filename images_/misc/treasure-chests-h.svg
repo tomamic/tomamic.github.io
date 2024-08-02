@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="44cm" height="15cm" viewBox="440 80 880 290" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <image x="440" y="140" width="140" height="140" xlink:href="chest.png"/>
+    <image x="740" y="140" width="140" height="140" xlink:href="chest.png"/>
+    <image x="1040" y="140" width="140" height="140" xlink:href="chest.png"/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="540" y="110.95">
+      <tspan x="540" y="110.95">Chest 1</tspan>
+    </text>
+    <image x="500" y="230" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="580" y="279.403">
+      <tspan x="580" y="279.403">The gold</tspan>
+      <tspan x="580" y="307.625">is not</tspan>
+      <tspan x="580" y="335.847">in 2</tspan>
+    </text>
+    <image x="800" y="230" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="880" y="279.403">
+      <tspan x="880" y="279.403">The gold</tspan>
+      <tspan x="880" y="307.625">is in</tspan>
+      <tspan x="880" y="335.847">1 or 3</tspan>
+    </text>
+    <image x="1100" y="230" width="220" height="140" xlink:href="paper.svg"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Times New Roman;font-style:italic;font-weight:normal" x="1180" y="279.403">
+      <tspan x="1180" y="279.403">The gold</tspan>
+      <tspan x="1180" y="307.625">is not</tspan>
+      <tspan x="1180" y="335.847">here</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="840" y="110.95">
+      <tspan x="840" y="110.95">Chest 2</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1140" y="110.95">
+      <tspan x="1140" y="110.95">Chest 3</tspan>
+    </text>
+  </g>
+</svg>

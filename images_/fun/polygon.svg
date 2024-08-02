@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+ <line x1="100" x2="100" y1="100" y2="10" fill="none" stroke="#0000c0" stroke-dasharray="5, 4"/>
+ <line x1="100" x2="100" y1="172.09" y2="100" stroke="#c00000" stroke-dasharray="4.47484, 3.57987" stroke-width=".89497"/>
+ <g fill="none">
+  <g stroke="#0000c0">
+   <g stroke-dasharray="5, 4">
+    <line x1="100" x2="185.6" y1="100" y2="72.188"/>
+    <line x1="100" x2="152.9" y1="100" y2="172.81"/>
+    <line x1="100" x2="47.099" y1="100" y2="172.81"/>
+    <line x1="100" x2="14.409" y1="100" y2="72.188"/>
+   </g>
+   <circle cx="100" cy="100" r="90" stroke-width="1.5"/>
+  </g>
+  <polygon points="100 10 185.6 72.188 152.9 172.81 47.099 172.81 14.409 72.188" stroke="#00c000" stroke-linejoin="bevel" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="72.812" stroke="#c00000" stroke-width="1.5"/>
+ </g>
+ <circle cx="100" cy="100" r="2.5"/>
+ <text x="105.63595" y="107.25275" fill="#000000" font-family="Serif" font-size="16px" font-style="italic" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">center</text>
+ <text transform="rotate(-90)" x="-79.713028" y="94" fill="#0000c0" font-family="Serif" font-size="16px" font-style="italic" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">radius</text>
+ <rect x="81.352" y="103.78" width="15.073" height="65.442" fill="#fff" fill-opacity=".7481"/>
+ <text transform="rotate(-90)" x="-169.89145" y="94.09256" fill="#c00000" font-family="Serif" font-size="16px" font-style="italic" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan fill="#c00000" font-size="16px">apothem</tspan></text>
+ <text x="85.263023" y="186.85866" fill="#00c000" font-family="Serif" font-size="16px" font-style="italic" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">side</text>
+</svg>

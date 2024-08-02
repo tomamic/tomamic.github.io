@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="450" height="390" version="1.1" viewBox="0 0 450 390" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0,-40)">
+  <rect x="140" y="40" width="120" height="120" fill="#287cec"/>
+  <rect y="150" width="120" height="120" fill="#eba571"/>
+  <rect x="30" y="50" width="120" height="120" fill="#3c8a14"/>
+  <rect x="160" y="90" width="120" height="120" fill="#3d7024"/>
+  <rect x="330" y="150" width="120" height="120" fill="#512886"/>
+  <rect x="280" y="190" width="120" height="120" fill="#fe7584"/>
+  <rect x="220" y="220" width="120" height="120" fill="#ab17ad"/>
+  <rect x="190" y="310" width="120" height="120" fill="#d29af9"/>
+  <rect x="230" y="80" width="120" height="120" fill="#7ca3d6"/>
+  <rect x="40" y="290" width="120" height="120" fill="#2ea388"/>
+ </g>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="17cm" viewBox="118 43 243 334" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="180,240 216,240 220,220 228,260 236,220 244,260 252,220 260,260 264,240 300,240 "/>
+    <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="180,320 216,320 220,300 228,340 236,300 244,340 252,300 260,340 264,320 300,320 "/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="180" y1="240" x2="180" y2="320"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="300" y1="240" x2="300" y2="320"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="180" y1="280" x2="120" y2="280"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 120 280 C 120,277.5 122.5,275 125,275 C 127.5,275 130,277.5 130,280 C 130,282.5 127.5,285 125,285 C 122.5,285 120,282.5 120,280z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="300" y1="280" x2="360" y2="280"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 360 280 C 360,282.5 357.5,285 355,285 C 352.5,285 350,282.5 350,280 C 350,277.5 352.5,275 355,275 C 357.5,275 360,277.5 360,280z"/>
+    </g>
+    <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="120,100 156,100 160,80 168,120 176,80 184,120 192,80 200,120 204,100 240,100 "/>
+    <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="240,100 276,100 280,80 288,120 296,80 304,120 312,80 320,120 324,100 360,100 "/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="140" y1="100" x2="120" y2="100"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 120 100 C 120,97.5 122.5,95 125,95 C 127.5,95 130,97.5 130,100 C 130,102.5 127.5,105 125,105 C 122.5,105 120,102.5 120,100z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="340" y1="100" x2="360" y2="100"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 360 100 C 360,102.5 357.5,105 355,105 C 352.5,105 350,102.5 350,100 C 350,97.5 352.5,95 355,95 C 357.5,95 360,97.5 360,100z"/>
+    </g>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="148.365">
+      <tspan x="240" y="148.365">Rs = R₁+R₂</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="68.75">
+      <tspan x="180" y="68.75">R₁</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="68.365">
+      <tspan x="300" y="68.365">R₂</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="208.365">
+      <tspan x="240" y="208.365">R₁</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="288.365">
+      <tspan x="240" y="288.365">R₂</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="368.365">
+      <tspan x="240" y="368.365">1/Rp = 1/R₁ + 1/R₂</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="23cm" height="19cm" viewBox="411 144 442 377" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="530" cy="220" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="530" y="230.039">
+        <tspan x="530" y="230.039">n</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="510" cy="300" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="510" y="310.039">
+        <tspan x="510" y="310.039">n-1</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="570" cy="420" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="570" y="430.039">
+        <tspan x="570" y="430.039">0</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="490" cy="420" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="430.039">
+        <tspan x="490" y="430.039">2</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="524.834" y1="240.664" x2="517.527" y2="269.891"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="515.708,277.167 513.283,266.253 517.527,269.891 522.984,268.678 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="524.011" y1="358.682" x2="550.141" y2="393.521"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="554.641,399.521 544.641,394.521 550.141,393.521 552.641,388.521 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="504.834" y1="360.664" x2="497.537" y2="389.854"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="495.718,397.13 493.292,386.216 497.537,389.854 502.994,388.641 "/>
+    </g>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="590" cy="300" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="590" y="310.039">
+        <tspan x="590" y="310.039">0</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="544.011" y1="238.682" x2="570.147" y2="273.53"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="574.647,279.53 564.647,274.53 570.147,273.53 572.647,268.53 "/>
+    </g>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="228.75">
+      <tspan x="680" y="228.75">c·(n-1)</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="308.75">
+      <tspan x="680" y="308.75">c·(n-2)</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="508.75">
+      <tspan x="680" y="508.75">0</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="520" y="168.75">
+      <tspan x="520" y="168.75">Size of the problem</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="740" y="168.75">
+      <tspan x="740" y="168.75">Cost of execution</tspan>
+    </text>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 720 200 C 740,200 720,360 740,360"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 720 520 C 740,520 720,360 740,360"/>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="800" y="354.639">
+      <tspan x="800" y="354.639">Gauss</tspan>
+      <tspan x="800" y="382.861">c·n·(n-1)/2</tspan>
+    </text>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="470" cy="500" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="510.039">
+        <tspan x="470" y="510.039">1</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #add8e6; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="550" cy="500" rx="30" ry="20"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="550" y="510.039">
+        <tspan x="550" y="510.039">0</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="484.834" y1="440.664" x2="477.527" y2="469.891"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="475.708,477.167 473.283,466.253 477.527,469.891 482.984,468.678 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="504.011" y1="438.682" x2="530.147" y2="473.53"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="534.647,479.53 524.647,474.53 530.147,473.53 532.647,468.53 "/>
+    </g>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="428.75">
+      <tspan x="680" y="428.75">c·1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="460">
+      <tspan x="680" y="460"></tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ffffff; fill-opacity: 0; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="508.75">
+      <tspan x="640" y="508.75">.</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="500.068" y1="319.863" x2="490" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" x1="524.011" y1="318.682" x2="540" y2="340"/>
+  </g>
+</svg>

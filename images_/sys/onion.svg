@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="40cm" height="21cm" viewBox="119 144 788 411" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <ellipse style="fill: #99bfcc; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #5f777f" cx="270" cy="350" rx="150" ry="150"/>
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="130" ry="130"/>
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="110" ry="110"/>
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="90" ry="90"/>
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="70" ry="70"/>
+    <ellipse style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="50" ry="50"/>
+    <ellipse style="fill: #008000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" cx="270" cy="350" rx="30" ry="30"/>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="190.95">
+      <tspan x="500" y="190.95"></tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="450" y="198.75">
+      <tspan x="450" y="198.75">Gestore processi (nucleo)</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="228.75">
+      <tspan x="450" y="228.75">Esecuzione programmi sulla CPU</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="450" y="268.75">
+      <tspan x="450" y="268.75">Gestore memoria</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="298.75">
+      <tspan x="450" y="298.75">Allocazione memoria tra i programmi</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="450" y="338.75">
+      <tspan x="450" y="338.75">Gestore periferiche</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="368.75">
+      <tspan x="450" y="368.75">Operazioni di I/O sulle periferiche</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="450" y="408.75">
+      <tspan x="450" y="408.75">Gestore file</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="438.75">
+      <tspan x="450" y="438.75">Archivi in memoria di massa</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #ff0000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="450" y="478.75">
+      <tspan x="450" y="478.75">Interprete comandi (shell)</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="508.75">
+      <tspan x="450" y="508.75">Attivazione programmi da parte dell'utente</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="280" y="168.75">
+      <tspan x="280" y="168.75">Hardware</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="320" y="548.75">
+      <tspan x="320" y="548.75">Applicazioni</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="340" y1="180" x2="283.419" y2="330.884"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="280.785,337.906 279.615,326.787 283.419,330.884 288.978,330.299 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="440" y1="200" x2="307.392" y2="313.664"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="301.698,318.545 306.036,308.241 307.392,313.664 312.544,315.833 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="440" y1="270" x2="338.547" y2="325.338"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="331.963,328.929 338.348,319.751 338.547,325.338 343.136,328.53 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="440" y1="340" x2="359.677" y2="348.925"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="352.222,349.753 361.609,343.679 359.677,348.925 362.713,353.618 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="440" y1="410" x2="369.116" y2="383.419"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="362.094,380.785 373.213,379.615 369.116,383.419 369.701,388.978 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="440" y1="480" x2="377.392" y2="426.336"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="371.698,421.455 382.544,424.167 377.392,426.336 376.036,431.759 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="370" y1="520" x2="361.601" y2="469.604"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="360.368,462.206 366.944,471.248 361.601,469.604 357.08,472.892 "/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="22cm" height="18cm" viewBox="841 279 440 341" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background">
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" d="M 880 520 C 880,480 920,400 960,400"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" d="M 960 400 C 1000,400 1040,540 1060,460"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" d="M 1060 460 C 1100,300 1120,340 1140,380"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #ff0000" d="M 1140 380 C 1160,420 1240,260 1240,440"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="920" y1="580" x2="920" y2="420"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 920 420 C 922.5,420 925,422.5 925,425 C 925,427.5 922.5,430 920,430 C 917.5,430 915,427.5 915,425 C 915,422.5 917.5,420 920,420z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="960" y1="580" x2="960" y2="400"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 960 400 C 962.5,400 965,402.5 965,405 C 965,407.5 962.5,410 960,410 C 957.5,410 955,407.5 955,405 C 955,402.5 957.5,400 960,400z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1000" y1="580" x2="1000" y2="430"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1000 430 C 1002.5,430 1005,432.5 1005,435 C 1005,437.5 1002.5,440 1000,440 C 997.5,440 995,437.5 995,435 C 995,432.5 997.5,430 1000,430z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1040" y1="580" x2="1040" y2="480"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1040 480 C 1042.5,480 1045,482.5 1045,485 C 1045,487.5 1042.5,490 1040,490 C 1037.5,490 1035,487.5 1035,485 C 1035,482.5 1037.5,480 1040,480z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1080" y1="580" x2="1080" y2="380"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1080 380 C 1082.5,380 1085,382.5 1085,385 C 1085,387.5 1082.5,390 1080,390 C 1077.5,390 1075,387.5 1075,385 C 1075,382.5 1077.5,380 1080,380z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1120" y1="580" x2="1120" y2="340"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1120 340 C 1122.5,340 1125,342.5 1125,345 C 1125,347.5 1122.5,350 1120,350 C 1117.5,350 1115,347.5 1115,345 C 1115,342.5 1117.5,340 1120,340z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1160" y1="580" x2="1160" y2="380"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1160 380 C 1162.5,380 1165,382.5 1165,385 C 1165,387.5 1162.5,390 1160,390 C 1157.5,390 1155,387.5 1155,385 C 1155,382.5 1157.5,380 1160,380z"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="1200" y1="580" x2="1200" y2="350"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 1200 350 C 1202.5,350 1205,352.5 1205,355 C 1205,357.5 1202.5,360 1200,360 C 1197.5,360 1195,357.5 1195,355 C 1195,352.5 1197.5,350 1200,350z"/>
+    </g>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="330.95">
+      <tspan x="860" y="330.95">f(t)</tspan>
+    </text>
+    <text font-size="28.2222" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1240" y="610.95">
+      <tspan x="1240" y="610.95">t</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="540" x2="1240" y2="540"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="500" x2="1240" y2="500"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="460" x2="1240" y2="460"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="420" x2="1240" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="380" x2="1240" y2="380"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="340" x2="1240" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="880" y1="540" x2="920" y2="540"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="920" y1="420" x2="1040" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1200" y1="340" x2="1240" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="920" y1="540" x2="920" y2="420"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1040" y1="420" x2="1040" y2="500"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1040" y1="500" x2="1080" y2="500"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1080" y1="500" x2="1080" y2="380"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1080" y1="380" x2="1120" y2="380"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1120" y1="340" x2="1160" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1160" y1="380" x2="1200" y2="380"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1200" y1="380" x2="1200" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1160" y1="380" x2="1160" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #006600" x1="1120" y1="380" x2="1120" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 8; stroke: #738f99" x1="880" y1="300" x2="1240" y2="300"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="860" y1="580" x2="1270.26" y2="580"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1277.76,580 1267.76,585 1270.26,580 1267.76,575 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="880" y1="600" x2="880" y2="289.736"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="880,282.236 885,292.236 880,289.736 875,292.236 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="880" y1="580" x2="880" y2="520"/>
+      <path style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" d="M 880 520 C 882.5,520 885,522.5 885,525 C 885,527.5 882.5,530 880,530 C 877.5,530 875,527.5 875,525 C 875,522.5 877.5,520 880,520z"/>
+    </g>
+  </g>
+</svg>

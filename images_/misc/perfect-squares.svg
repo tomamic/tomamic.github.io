@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101" height="101">
+	<defs>
+		<!-- blue sphere -->
+		<radialGradient id="blueSphereGradient" cx="50%" cy="90%" r="60%" fx="60%" fy="80%">
+			<stop offset="0%" style="stop-color:rgb(160,160,255);stop-opacity:1"/>
+			<stop offset="1%" style="stop-color:rgb(128,128,255);stop-opacity:1"/>
+			<stop offset="50%" style="stop-color:rgb(0,0,215);stop-opacity:1"/>
+		</radialGradient>
+		<linearGradient id="blueSphereHighlight" gradientTransform="rotate(90)">
+			<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+			<stop offset="90%" style="stop-color:rgb(0,0,215);stop-opacity:1"/>
+		</linearGradient>
+		<symbol id="blueSphere">
+			<circle cx="10" cy="10" r="10" style="stroke-width:0.25;stroke-opacity:0.8;fill-opacity:1;opacity:1;stroke:rgb(0,0,220);fill:url(#blueSphereGradient)"/>
+			<ellipse cx="10" cy="6" rx="8" ry="4.8" style="fill-opacity:1;fill:url(#blueSphereHighlight)"/>
+		</symbol>
+
+		<!-- green sphere -->
+		<radialGradient id="greenSphereGradient" cx="50%" cy="90%" r="60%" fx="60%" fy="80%">
+			<stop offset="0%" style="stop-color:rgb(160,220,160);stop-opacity:1"/>
+			<stop offset="1%" style="stop-color:rgb(128,220,128);stop-opacity:1"/>
+			<stop offset="50%" style="stop-color:rgb(0,200,0);stop-opacity:1"/>
+		</radialGradient>
+		<linearGradient id="greenSphereHighlight" gradientTransform="rotate(90)">
+			<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+			<stop offset="90%" style="stop-color:rgb(0,200,0);stop-opacity:1"/>
+		</linearGradient>
+		<symbol id="greenSphere">
+			<circle cx="10" cy="10" r="10" style="stroke-width:0.25;stroke-opacity:0.8;fill-opacity:1;opacity:1;stroke:rgb(0,200,0);fill:url(#greenSphereGradient)"/>
+			<ellipse cx="10" cy="6" rx="8" ry="4.8" style="fill-opacity:1;fill:url(#greenSphereHighlight)"/>
+		</symbol>
+
+		<!-- orange sphere -->
+		<radialGradient id="orangeSphereGradient" cx="50%" cy="90%" r="60%" fx="60%" fy="80%">
+			<stop offset="0%" style="stop-color:rgb(255,190,165);stop-opacity:1"/>
+			<stop offset="1%" style="stop-color:rgb(255,175,133);stop-opacity:1"/>
+			<stop offset="50%" style="stop-color:rgb(235,97,8);stop-opacity:1"/>
+		</radialGradient>
+		<linearGradient id="orangeSphereHighlight" gradientTransform="rotate(90)">
+			<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+			<stop offset="90%" style="stop-color:rgb(235,97,8);stop-opacity:1"/>
+		</linearGradient>
+		<symbol id="orangeSphere">
+			<circle cx="10" cy="10" r="10" style="stroke-width:0.25;stroke-opacity:0.8;fill-opacity:1;opacity:1;stroke:rgb(240,100,10);fill:url(#orangeSphereGradient)"/>
+			<ellipse cx="10" cy="6" rx="8" ry="4.8" style="fill-opacity:1;fill:url(#orangeSphereHighlight)"/>
+		</symbol>
+
+		<!-- yellow sphere -->
+		<radialGradient id="yellowSphereGradient" cx="50%" cy="90%" r="60%" fx="60%" fy="80%">
+			<stop offset="0%" style="stop-color:rgb(255,255,160);stop-opacity:1"/>
+			<stop offset="1%" style="stop-color:rgb(255,255,128);stop-opacity:1"/>
+			<stop offset="50%" style="stop-color:rgb(215,215,0);stop-opacity:1"/>
+		</radialGradient>
+		<linearGradient id="yellowSphereHighlight" gradientTransform="rotate(90)">
+			<stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+			<stop offset="90%" style="stop-color:rgb(215,215,0);stop-opacity:1"/>
+		</linearGradient>
+		<symbol id="yellowSphere">
+			<circle cx="10" cy="10" r="10" style="stroke-width:0.25;stroke-opacity:0.8;fill-opacity:1;opacity:1;stroke:rgb(220,220,0);fill:url(#yellowSphereGradient)"/>
+			<ellipse cx="10" cy="6" rx="8" ry="4.8" style="fill-opacity:1;fill:url(#yellowSphereHighlight)"/>
+		</symbol>
+	</defs>
+	<g transform="translate(3,3)">
+		<use x="0" y="0" xlink:href="#blueSphere"/>
+		<use x="25" y="0" xlink:href="#blueSphere"/>
+		<use x="50" y="0" xlink:href="#blueSphere"/>
+		<use x="75" y="0" xlink:href="#blueSphere"/>
+		<use x="0" y="25" xlink:href="#greenSphere"/>
+		<use x="25" y="25" xlink:href="#greenSphere"/>
+		<use x="50" y="25" xlink:href="#greenSphere"/>
+		<use x="75" y="25" xlink:href="#blueSphere"/>
+		<use x="0" y="50" xlink:href="#yellowSphere"/>
+		<use x="25" y="50" xlink:href="#yellowSphere"/>
+		<use x="50" y="50" xlink:href="#greenSphere"/>
+		<use x="75" y="50" xlink:href="#blueSphere"/>
+		<use x="0" y="75" xlink:href="#orangeSphere"/>
+		<use x="25" y="75" xlink:href="#yellowSphere"/>
+		<use x="50" y="75" xlink:href="#greenSphere"/>
+		<use x="75" y="75" xlink:href="#blueSphere"/>
+	</g>
+</svg>

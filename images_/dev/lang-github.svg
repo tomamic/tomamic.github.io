@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1175" height="535.1" fill="none" version="1.1" viewBox="0 0 1175 535.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-36.63 -59.27)" clip-path="url(#clip0_1597_52721)">
+  <g clip-path="url(#clip1_1597_52721)">
+   <g fill="#000000" font-family="Menlo" font-size="12px" letter-spacing="0em">
+    <text style="white-space:pre" xml:space="preserve"><tspan x="82" y="589.24103">2014</tspan></text>
+    <text style="white-space:pre" xml:space="preserve"><tspan x="321" y="589.15399">2016</tspan></text>
+    <text style="white-space:pre" xml:space="preserve"><tspan x="581.91699" y="589.15399">2018</tspan></text>
+    <text style="white-space:pre" xml:space="preserve"><tspan x="835" y="589.15399">2020</tspan></text>
+    <text style="white-space:pre" xml:space="preserve"><tspan x="1086.5601" y="589.15399">2022</tspan></text>
+   </g>
+   <g fill="#000000" font-family="Menlo" font-size="14px" letter-spacing="0em">
+    <text font-weight="bold" style="white-space:pre" xml:space="preserve"><tspan x="41" y="84.846703">1</tspan></text>
+    <text style="white-space:pre" xml:space="preserve"><tspan x="49.435501" y="84.846703">  </tspan></text>
+    <g font-weight="bold">
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="137.847">2</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="187.847">3</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="239.847">4</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="291.84698">5</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="341.84698">6</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="390.84698">7</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="442.84698">8</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="494.84698">9</tspan></text>
+     <text style="white-space:pre" xml:space="preserve"><tspan x="41" y="544.84698">10</tspan></text>
+    </g>
+    <text id="JavaScript" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="85.346703">JavaScript
+</tspan></text>
+    <text id="Python" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="137.347">Python
+</tspan></text>
+    <text id="Java" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="191.347">Java</tspan></text>
+    <text id="Typescript" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="240.347">Typescript</tspan></text>
+    <text id="C#" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="290.34698">C#</tspan></text>
+    <text id="C++" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="339.34698">C++</tspan></text>
+    <text id="PHP" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="392.34698">PHP</tspan></text>
+    <text id="Shell" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="445.34698">Shell</tspan></text>
+    <text id="C" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="498.34698">C</tspan></text>
+    <text id="Ruby" style="white-space:pre" xml:space="preserve"><tspan x="1135.64" y="545.34698">Ruby</tspan></text>
+   </g>
+   <g stroke="#b5b5b5" stroke-opacity=".5">
+    <path id="Vector" d="m84.2 541.5h1025"/>
+    <line x1="212.5" x2="212.5" y1="79" y2="542"/>
+    <line x1="339.5" x2="339.5" y1="79" y2="542"/>
+    <line x1="468.5" x2="468.5" y1="79" y2="542"/>
+    <line x1="596.5" x2="596.5" y1="79" y2="542"/>
+    <line x1="723.5" x2="723.5" y1="79" y2="542"/>
+    <line x1="852.5" x2="852.5" y1="79" y2="542"/>
+    <line x1="980.5" x2="980.5" y1="78" y2="542"/>
+    <line x1="83" x2="1108" y1="133.5" y2="133.5"/>
+    <line x1="83" x2="1108" y1="184.5" y2="184.5"/>
+    <line x1="84" x2="1108" y1="235.5" y2="235.5"/>
+    <line x1="83" x2="1108" y1="286.5" y2="286.5"/>
+    <line x1="84" x2="1109" y1="337.5" y2="337.5"/>
+    <line x1="83" x2="1109" y1="388.5" y2="388.5"/>
+    <line x1="84" x2="1109" y1="439.5" y2="439.5"/>
+    <line x1="84" x2="1108" y1="490.5" y2="490.5"/>
+   </g>
+   <path d="m1114 80.41c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.7811-2.05-0.7811-2.83 0-0.78 0.781-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828 0.78 0.7811 2.05 0.7811 2.83 0zm-1031 0.5857 1030 1e-4v-4l-1030-1e-4z" fill="#b1d353"/>
+   <line x1="83.28" x2="213.3" y1="236.1" y2="186.1" stroke="#b9c2ff" stroke-width="4"/>
+   <line x1="212" x2="597" y1="186" y2="185" stroke="#b9c2ff" stroke-width="4"/>
+   <path d="m1114 187.4c0.78-0.779 0.79-2.046 0.01-2.829l-12.7-12.76c-0.78-0.783-2.04-0.786-2.83-7e-3 -0.78 0.779-0.78 2.045 0 2.828l11.28 11.34-11.34 11.28c-0.78 0.779-0.79 2.046-0.01 2.829s2.05 0.786 2.83 7e-3zm-391.4-0.418 390 1 0.02-4-390-1z" fill="#979797"/>
+   <path d="m1114 238.4c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.781-2.05-0.781-2.83 0s-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828s2.05 0.781 2.83 0zm-263.4 0.586h262v-4h-262z" fill="#49bcb7"/>
+   <path d="m1114 288.4c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.781-2.05-0.781-2.83 0s-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828s2.05 0.781 2.83 0zm-262.4 0.586h261v-4h-261z" fill="#f25a51"/>
+   <path d="m1114 440.4c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.781-2.05-0.781-2.83 0s-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828s2.05 0.781 2.83 0zm-134.4 0.586h133v-4h-133z" fill="#ff8257"/>
+   <path d="m1114 543.4c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.781-2.05-0.781-2.83 0s-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828s2.05 0.781 2.83 0zm-518.4 0.586h517v-4h-517z" fill="#393c2c"/>
+   <g stroke="#393c2c" stroke-width="4">
+    <path d="m468 491 129 51"/>
+    <path d="m210.5 286.5 257.9 204.8"/>
+    <path d="m83 287h129"/>
+   </g>
+   <path d="m1114 492.4c0.79-0.781 0.79-2.047 0-2.828l-12.72-12.73c-0.78-0.781-2.05-0.781-2.83 0s-0.78 2.047 0 2.828l11.31 11.31-11.31 11.31c-0.78 0.781-0.78 2.047 0 2.828s2.05 0.781 2.83 0zm-134.4 0.586h133v-4h-133z" fill="#e02898"/>
+   <g stroke="#e02898" stroke-width="4">
+    <path d="m851 439 130 52"/>
+    <path d="m596 439h257"/>
+    <path d="m468 391 129 48"/>
+    <path d="m339 440 131-49"/>
+    <path d="m212 440h128"/>
+    <path d="m83 388 130 52"/>
+   </g>
+   <g stroke="#ff8257" stroke-width="4">
+    <path d="m852 491 129-52"/>
+    <path d="m595 491h258"/>
+    <path d="m467 440 129 51"/>
+    <path d="m340 489 129-49"/>
+    <path d="m82 489h259"/>
+   </g>
+   <path d="m1114 391.8c1.01-0.436 1.48-1.613 1.05-2.627l-7.11-16.54c-0.44-1.014-1.62-1.483-2.63-1.047-1.02 0.437-1.49 1.613-1.05 2.628l6.32 14.7-14.7 6.322c-1.01 0.436-1.48 1.613-1.04 2.627 0.43 1.015 1.61 1.484 2.62 1.047zm-134.5-52.98 133 53 1.48-3.716-133-53z" fill="#95e8aa"/>
+   <g stroke="#95e8aa" stroke-width="4">
+    <path d="m852 337h129"/>
+    <path d="m722 235 132 102"/>
+    <path d="m212 236h511"/>
+    <path d="m83 184 130 52"/>
+   </g>
+   <g clip-rule="evenodd" fill="#3c42d0" fill-rule="evenodd">
+    <path id="Line 792 (Stroke)" d="m1097 327.5 16.66 7.08c1.02 0.434 1.49 1.611 1.04 2.628l-7.27 16.58c-0.44 1.017-1.63 1.49-2.66 1.056-1.02-0.435-1.49-1.612-1.04-2.629l5.32-12.13-128 50.8-1.476-3.718 128-50.8-12.19-5.18c-1.02-0.435-1.49-1.612-1.04-2.629 0.44-1.018 1.63-1.49 2.66-1.056z"/>
+    <path id="Line 793 (Stroke)" d="m980.8 390.6-128.8 1.996-0.056-3.61 128.8-1.996z"/>
+    <path id="Line 794 (Stroke)" d="m852.6 392.6-130.3-51.73 1.424-3.587 130.3 51.73z"/>
+    <path id="Line 795 (Stroke)" d="m722.3 340.9-128.9-49.97 1.446-3.73 128.9 49.97z"/>
+    <path id="Line 796 (Stroke)" d="m594.8 291-254.8-2.006 0.03-3.823 254.8 2.006z"/>
+    <path id="Line 797 (Stroke)" d="m341.4 288.5-129.4 51.55-1.375-3.452 129.4-51.55z"/>
+    <path id="Line 798 (Stroke)" d="m212 340h-128v-4h128z"/>
+   </g>
+   <g stroke="#f25a51" stroke-width="4">
+    <path d="m722 387 132-101"/>
+    <path d="m597 339 127 48"/>
+    <path d="m340 339h257" stroke-linejoin="round"/>
+    <path d="m213 389 128-50" stroke-linejoin="round"/>
+    <path d="m84 440 129-51"/>
+   </g>
+   <g stroke="#49bcb7" stroke-width="4">
+    <path d="m723 287 129-50"/>
+    <path d="m596 391 128-105"/>
+    <path d="M 466,542.5 597,390"/>
+    <path d="m83 542h385"/>
+   </g>
+   <path d="m595 133.5 129 51.5" stroke="#979797" stroke-width="4"/>
+   <path d="m83 134h514" stroke="#979797" stroke-width="4"/>
+   <path d="m1114 133.4c0.78-0.783 0.77-2.05-0.01-2.829l-12.76-12.7c-0.78-0.779-2.05-0.776-2.83 7e-3s-0.77 2.049 0.01 2.828l11.34 11.29-11.28 11.34c-0.78 0.783-0.78 2.049 0 2.828 0.79 0.779 2.05 0.776 2.83-7e-3zm-391.4 1.559 390-0.97v-4l-390 0.97z" fill="#b9c2ff"/>
+   <path d="m595.5 185 128.5-52.5" stroke="#b9c2ff" stroke-width="4"/>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="clip0_1597_52721">
+   <rect width="1222" height="606.1" fill="#fff"/>
+  </clipPath>
+  <clipPath id="clip1_1597_52721">
+   <rect transform="translate(41,63)" width="1179" height="543.1" fill="#fff"/>
+  </clipPath>
+ </defs>
+</svg>

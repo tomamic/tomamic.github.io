@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="40cm" height="13cm" viewBox="198 98 783 241" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="100" width="180" height="60" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="590" y="122.735">
+        <tspan x="590" y="122.735">Programming</tspan>
+        <tspan x="590" y="150.957">paradigms</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="200" width="180" height="40" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="226.846">
+        <tspan x="390" y="226.846">Imperative</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="280" width="180" height="58.4444" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="290" y="301.957">
+        <tspan x="290" y="301.957">Procedural</tspan>
+        <tspan x="290" y="330.179">(C)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="280" width="180" height="58.4444" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="490" y="301.957">
+        <tspan x="490" y="301.957">Object-oriented</tspan>
+        <tspan x="490" y="330.179">(C++, Java)</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="366.459" y1="241.004" x2="331.103" y2="272.549"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="325.506,277.543 329.639,267.154 331.103,272.549 336.297,274.616 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="413.541" y1="241.004" x2="448.897" y2="272.549"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="454.494,277.543 443.703,274.616 448.897,272.549 450.361,267.154 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="700" y="200" width="180" height="40" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="790" y="226.846">
+        <tspan x="790" y="226.846">Declarative</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="600" y="280" width="180" height="58.4444" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="690" y="301.957">
+        <tspan x="690" y="301.957">Functional</tspan>
+        <tspan x="690" y="330.179">(Haskell)</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="766.459" y1="241.004" x2="731.103" y2="272.549"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="725.506,277.543 729.639,267.154 731.103,272.549 736.297,274.616 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="813.541" y1="241.004" x2="848.897" y2="272.549"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="854.494,277.543 843.703,274.616 848.897,272.549 850.361,267.154 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="521.128" y1="160.992" x2="445.461" y2="195.043"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="438.621,198.12 445.689,189.457 445.461,195.043 449.792,198.576 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="658.872" y1="160.992" x2="734.539" y2="195.043"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="741.379,198.12 730.208,198.576 734.539,195.043 734.311,189.457 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="800" y="280" width="180" height="58.4444" rx="4" ry="4"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="890" y="301.957">
+        <tspan x="890" y="301.957">Logic</tspan>
+        <tspan x="890" y="330.179">(Prolog)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="29cm" viewBox="58 44 363 577" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="220" cy="100" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="110.039">
+        <tspan x="220" y="110.039">+</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="80" y="80" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="110.039">
+        <tspan x="120" y="110.039">term</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="60" y1="100" x2="80" y2="100"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 60 100 C 60,97.5 62.5,95 65,95 C 67.5,95 70,97.5 70,100 C 70,102.5 67.5,105 65,105 C 62.5,105 60,102.5 60,100z"/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="160" y1="100" x2="199.009" y2="100"/>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="80" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="110.039">
+        <tspan x="320" y="110.039">expr</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="241.002" y1="100" x2="279.18" y2="100"/>
+    <text font-size="22.5774" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="60" y="68.75">
+      <tspan x="60" y="68.75">expr:</tspan>
+    </text>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 160.987 100 C 184.227,100 176.76,60 200,60"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="200" y1="60" x2="360" y2="60"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="100" x2="420" y2="100"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 420 100 C 420,102.5 417.5,105 415,105 C 412.5,105 410,102.5 410,100 C 410,97.5 412.5,95 415,95 C 417.5,95 420,97.5 420,100z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 360 60 C 373.28,60 386.72,100 400,100"/>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="220" cy="200" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="210.039">
+        <tspan x="220" y="210.039">×</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="80" y="180" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="210.039">
+        <tspan x="120" y="210.039">factor</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="60" y1="200" x2="80" y2="200"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 60 200 C 60,197.5 62.5,195 65,195 C 67.5,195 70,197.5 70,200 C 70,202.5 67.5,205 65,205 C 62.5,205 60,202.5 60,200z"/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="160" y1="200" x2="199.009" y2="200"/>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="280" y="180" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="210.039">
+        <tspan x="320" y="210.039">term</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="241.002" y1="200" x2="279.18" y2="200"/>
+    <text font-size="22.5774" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="60" y="168.75">
+      <tspan x="60" y="168.75">term:</tspan>
+    </text>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 160.987 200 C 184.227,200 176.76,160 200,160"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="200" y1="160" x2="360" y2="160"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="360" y1="200" x2="420" y2="200"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 420 200 C 420,202.5 417.5,205 415,205 C 412.5,205 410,202.5 410,200 C 410,197.5 412.5,195 415,195 C 417.5,195 420,197.5 420,200z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 360 160 C 373.28,160 386.72,200 400,200"/>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="160" cy="400" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="410.039">
+        <tspan x="160" y="410.039">(</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="260" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="290.039">
+        <tspan x="240" y="290.039">const</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="60" y1="280" x2="200" y2="280"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 60 280 C 60,277.5 62.5,275 65,275 C 67.5,275 70,277.5 70,280 C 70,282.5 67.5,285 65,285 C 62.5,285 60,282.5 60,280z"/>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="320" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="350.039">
+        <tspan x="240" y="350.039">var</tspan>
+      </text>
+    </g>
+    <text font-size="22.5774" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="60" y="268.75">
+      <tspan x="60" y="268.75">factor:</tspan>
+    </text>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 340 340 C 380,340 360,280 400,280"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="281" y1="280" x2="419.18" y2="280"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 419.18 280 C 419.18,282.5 416.68,285 414.18,285 C 411.68,285 409.18,282.5 409.18,280 C 409.18,277.5 411.68,275 414.18,275 C 416.68,275 419.18,277.5 419.18,280z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 340 400 C 380,400 360,280 400,280"/>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="320" cy="400" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="410.039">
+        <tspan x="320" y="410.039">)</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="380" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="410.039">
+        <tspan x="240" y="410.039">expr</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="180.977" y1="400" x2="199.023" y2="400"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="280.977" y1="400" x2="299.023" y2="400"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="280" y1="340" x2="340" y2="340"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="140" y1="340" x2="200" y2="340"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 80 280 C 120,280 100,340 140,340"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 80 280 C 120,280 100,400 140,400"/>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="320" cy="480" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="490.039">
+        <tspan x="320" y="490.039">a</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="320" cy="540" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="550.039">
+        <tspan x="320" y="550.039">b</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ff0000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="320" cy="600" rx="20" ry="20"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="610.039">
+        <tspan x="320" y="610.039">c</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="220" y1="480" x2="298.998" y2="480"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 220 480 C 220,477.5 222.5,475 225,475 C 227.5,475 230,477.5 230,480 C 230,482.5 227.5,485 225,485 C 222.5,485 220,482.5 220,480z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 240 480 C 280,480 260,540 300,540"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 240 480 C 280,480 260,600 300,600"/>
+    <text font-size="22.5774" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="60" y="528.75">
+      <tspan x="60" y="528.75">const:</tspan>
+    </text>
+    <text font-size="22.5774" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="468.75">
+      <tspan x="220" y="468.75">var:</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="340" y1="480" x2="420" y2="480"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 420 480 C 420,482.5 417.5,485 415,485 C 412.5,485 410,482.5 410,480 C 410,477.5 412.5,475 415,475 C 417.5,475 420,477.5 420,480z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 340 540 C 380,540 360,480 400,480"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 340 600 C 380,600 360,480 400,480"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="60" y1="560" x2="100" y2="560"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 60 560 C 60,557.5 62.5,555 65,555 C 67.5,555 70,557.5 70,560 C 70,562.5 67.5,565 65,565 C 62.5,565 60,562.5 60,560z"/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="100" y1="600" x2="180" y2="600"/>
+    <g>
+      <rect style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="540" width="80" height="40" rx="10" ry="10"/>
+      <text font-size="22.5774" style="fill: #ffffff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="570.039">
+        <tspan x="140" y="570.039">digit</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="180" y1="560" x2="220" y2="560"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 220 560 C 220,562.5 217.5,565 215,565 C 212.5,565 210,562.5 210,560 C 210,557.5 212.5,555 215,555 C 217.5,555 220,557.5 220,560z"/>
+    </g>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 100 560 C 80,560 80,600 100,600"/>
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 180 560 C 200,560 200,600 180,600"/>
+  </g>
+</svg>

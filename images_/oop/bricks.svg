@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="3cm" height="3cm" viewBox="330 295 48 51" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <image x="337.2" y="317.6" width="32" height="28.0125" xlink:href="brick2r.svg"/>
+    <image x="330.2" y="304.2" width="40" height="27.5" xlink:href="brick1g.svg"/>
+    <image x="346" y="295.6" width="32" height="28.0125" xlink:href="brick2b.svg"/>
+  </g>
+</svg>

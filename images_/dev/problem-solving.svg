@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="19cm" height="18cm" viewBox="196 0 367 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background"/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #5555ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="80" width="140" height="80" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="130.039">
+        <tspan x="470" y="130.039">1. See</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ff5555; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="200" width="140" height="80" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="470" y="250.039">
+        <tspan x="470" y="250.039">2. Plan</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #90ee90; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="220" y="200" width="140" height="80" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="290" y="250.039">
+        <tspan x="290" y="250.039">3. Do</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffff55; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="220" y="80" width="140" height="80" rx="6" ry="6"/>
+      <text font-size="22.5778" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="290" y="130.039">
+        <tspan x="290" y="130.039">4. Check</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000099" d="M 470,280 A 150,150 0 0 1 301.717,287.952"/>
+      <polygon style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #000099" fill-rule="evenodd" points="295.367,284.025 306.367,286.025 301.367,288.525 300.367,294.025 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000099" d="M 219.019,217.777 A 47.0271,47.0271 0 0 1 209.29,151.938"/>
+      <polygon style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #000099" fill-rule="evenodd" points="213.63,146.218 208.575,156.191 207.606,150.685 202.619,148.158 "/>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke-dasharray: 20; stroke: #000099" d="M 290,80 A 150,150 0 0 1 458.283,72.0478"/>
+      <polygon style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #000099" fill-rule="evenodd" points="464.633,75.9751 453.633,73.9751 458.633,71.4751 459.633,65.9751 "/>
+    </g>
+    <text font-size="22.5778" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="500" y="24.6389">
+      <tspan x="500" y="24.6389">Understand</tspan>
+      <tspan x="500" y="52.8611">the problem</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="500" y="324.639">
+      <tspan x="500" y="324.639">Devise</tspan>
+      <tspan x="500" y="352.861">a plan</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="260" y="324.639">
+      <tspan x="260" y="324.639">Carry out</tspan>
+      <tspan x="260" y="352.861">the plan</tspan>
+    </text>
+    <text font-size="22.5778" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="260" y="24.6389">
+      <tspan x="260" y="24.6389">Examine</tspan>
+      <tspan x="260" y="52.8611">the solution</tspan>
+    </text>
+    <g>
+      <ellipse style="fill: #ffffff; fill-opacity: 0.803922; stroke-opacity: 0.498039; stroke-width: 2; stroke: #ffffff" cx="380" cy="180" rx="80" ry="60"/>
+      <text font-size="22.5778" style="fill: #000099; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="380" y="161.817">
+        <tspan x="380" y="161.817">Problem</tspan>
+        <tspan x="380" y="190.039">solving</tspan>
+        <tspan x="380" y="218.261">cycle</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 6; stroke: #000099" d="M 540.981,142.223 A 47.0271,47.0271 0 0 1 550.71,208.062"/>
+      <polygon style="fill: #000099; fill-opacity: 1; stroke-opacity: 1; stroke-width: 6; stroke: #000099" fill-rule="evenodd" points="546.37,213.782 551.425,203.809 552.394,209.315 557.381,211.842 "/>
+    </g>
+  </g>
+</svg>

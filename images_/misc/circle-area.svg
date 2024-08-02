@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340px" height="329px" version="1.1" viewBox="0 0 340 329" xmlns="http://www.w3.org/2000/svg">
+ <desc>Creator: FreeHEP Graphics2D Driver Producer: geogebra.d.a Revision: 1.10  Source:  Date: lundi 15 mars 2010 00 h 59 CET</desc>
+ <g stroke-linecap="square" stroke-miterlimit="10">
+  <g transform="scale(.458)">
+   <g fill="#fff">
+    <path d="m0 0h742v718h-742v-718z"/>
+   </g>
+  </g>
+  <g transform="scale(.458)">
+   <g fill-opacity=".251">
+    <g fill="#f00">
+     <path d="m186 238h371l-24.9 92.7-67.9 67.9-92.8 24.9-92.8-24.9-67.9-67.9z"/>
+    </g>
+    <g fill="#33f">
+     <path d="m186 238h371l-24.9-92.8-67.9-67.9-92.8-24.9-92.8 24.9-67.9 67.9z"/>
+    </g>
+    <g fill="#f00">
+     <path d="m323 483-48 179h96z"/>
+     <path d="m419 483-48 179h96z"/>
+     <path d="m515 483-48 179h96z"/>
+     <path d="m227 483-48 179h96z"/>
+     <path d="m131 483-48 179h96z"/>
+    </g>
+    <g fill="#33f">
+     <path d="m419 483 48 179 48-179z"/>
+     <path d="m323 483h96l-48 179z"/>
+     <path d="m227 483 48 179 48-179z"/>
+     <path d="m227 483h-96l48 179z"/>
+     <path d="m515 483h96l-48 179z"/>
+    </g>
+    <g fill="#f00">
+     <path d="m611 483 48 179h-96z"/>
+    </g>
+    <g fill="#33f">
+     <path d="m611 483 48 179 48-179z"/>
+    </g>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m556 238c0 102-83.1 185-186 185-102 0-186-83.1-186-185 0-102 83.1-186 186-186 102 0 186 83.1 186 186z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m556 238c0-102-83.1-186-186-186-102 0-185 83.1-186 185l186 2e-14z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m556 238c0-102-83.1-186-186-186-102 0-185 83.1-186 185l186 2e-14z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m186 238c0 102 83.1 186 185 186 102 0 186-83.1 186-185l-186-6e-14z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m186 238c0 102 83.1 186 185 186 102 0 186-83.1 186-185l-186-6e-14z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m419 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m419 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m82.9 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m82.9 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m179 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m179 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m275 662c31.5 8.43 64.6 8.43 96 1e-13l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m275 662c31.5 8.43 64.6 8.43 96 1e-13l-48-179z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m227 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m227 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m323 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m323 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m515 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m515 483c-31.5-8.43-64.6-8.43-96 0l48 179z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m611 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+   </g>
+   <g fill="none" stroke="#33f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m611 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m371 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m371 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m467 662c31.5 8.43 64.6 8.43 96 1e-13l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m467 662c31.5 8.43 64.6 8.43 96 1e-13l-48-179z"/>
+   </g>
+   <g fill="#f00" fill-opacity=".251">
+    <path d="m563 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="none" stroke="#f00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+    <path d="m563 662c31.5 8.43 64.6 8.43 96 0l-48-179z"/>
+   </g>
+   <g fill="#33f" fill-opacity=".251">
+    <path d="m707 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+   </g>
+   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#33f" stroke-width="2.5">
+     <path d="m707 483c-31.5-8.43-64.6-8.43-96-6e-14l48 179z"/>
+    </g>
+    <g stroke="#ccc" stroke-width=".5">
+     <path d="m278 77.6-67.9 67.9"/>
+     <path d="m371 52.7-92.8 24.9"/>
+     <path d="m464 77.6-92.7-24.9"/>
+     <path d="m532 145-67.9-67.9"/>
+     <path d="m556 238-24.9-92.7"/>
+     <path d="m532 331 24.9-92.7"/>
+     <path d="m464 399 67.9-67.9"/>
+     <path d="m371 424 92.7-24.9"/>
+     <path d="m278 399 92.8 24.9"/>
+     <path d="m210 331 67.9 67.9"/>
+     <path d="m186 238 24.9 92.7"/>
+     <path d="m210 145-24.9 92.8"/>
+    </g>
+    <g stroke="#f00">
+     <path d="m210 331-24.9-92.7"/>
+     <path d="m278 399-67.9-67.9"/>
+     <path d="m371 424-92.8-24.9"/>
+     <path d="m464 399-92.7 24.9"/>
+     <path d="m532 331-67.9 67.9"/>
+     <path d="m556 238-24.9 92.7"/>
+    </g>
+    <g stroke="#f00" stroke-width="2.5">
+     <path d="m186 238 371 3e-14"/>
+    </g>
+    <g stroke="#33f">
+     <path d="m210 145-24.9 92.8"/>
+     <path d="m278 77.6-67.9 67.9"/>
+     <path d="m371 52.7-92.8 24.9"/>
+     <path d="m464 77.6-92.7-24.9"/>
+     <path d="m532 145-67.9-67.9"/>
+     <path d="m556 238-24.9-92.7"/>
+    </g>
+    <g stroke="#33f" stroke-width="2.5">
+     <path d="m186 238 371 3e-14"/>
+    </g>
+    <g stroke="#f00" stroke-width=".5">
+     <path d="m371 662-48-179"/>
+     <path d="m275 662h96"/>
+     <path d="m323 483-48 179"/>
+     <path d="m467 662-48-179"/>
+     <path d="m371 662h96"/>
+     <path d="m419 483-48 179"/>
+     <path d="m563 662-48-179"/>
+     <path d="m467 662h96"/>
+     <path d="m515 483-48 179"/>
+     <path d="m275 662-48-179"/>
+     <path d="m179 662h96"/>
+     <path d="m227 483-48 179"/>
+     <path d="m179 662-48-179"/>
+     <path d="m82.9 662h96"/>
+     <path d="m131 483-48 179"/>
+    </g>
+    <g stroke="#33f">
+     <path d="m515 483h-96"/>
+     <path d="m467 662 48-179"/>
+     <path d="m419 483 48 179"/>
+     <path d="m371 662-48-179"/>
+     <path d="m419 483-48 179"/>
+     <path d="m323 483h96"/>
+     <path d="m323 483h-96"/>
+     <path d="m275 662 48-179"/>
+     <path d="m227 483 48 179"/>
+     <path d="m179 662 48-179"/>
+     <path d="m131 483 48 179"/>
+     <path d="m227 483h-96"/>
+     <path d="m563 662-48-179"/>
+     <path d="m611 483-48 179"/>
+     <path d="m515 483h96"/>
+    </g>
+    <g stroke-width="2.5">
+     <g stroke="#f00">
+      <path d="m371 238-92.8 161"/>
+      <path d="m371 238v185"/>
+      <path d="m371 238 92.7 161"/>
+      <path d="m371 238 161 92.7"/>
+     </g>
+     <g stroke="#33f">
+      <path d="m371 238-161-92.8"/>
+      <path d="m371 238-92.7-161"/>
+      <path d="m371 238 1e-13 -186"/>
+      <path d="m371 238 92.8-161"/>
+      <path d="m371 238 161-92.7"/>
+     </g>
+     <g stroke="#f00">
+      <path d="m371 238-161 92.7"/>
+     </g>
+    </g>
+    <g stroke="#f00">
+     <path d="m563 662 48-179"/>
+     <path d="m659 662h-96"/>
+     <path d="m611 483 48 179"/>
+    </g>
+    <g stroke="#33f">
+     <path d="m707 483h-96"/>
+     <path d="m659 662 48-179"/>
+     <path d="m611 483 48 179"/>
+    </g>
+    <g stroke="#000" stroke-width=".5">
+     <path d="m186 238h186"/>
+    </g>
+   </g>
+   <g>
+    <path d="m265 233v-17.3h5.25q2.5 0 3.83 1.1t1.33 3.2q0 3.47-3.5 4.92l5.8 8.12h-3.03l-4.94-7.34h-2.3v7.34h-2.44zm2.44-9.17h0.797q4.64 0 4.64-3.66 0-2.67-3.89-2.67h-1.55v6.33z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-dasharray="1.5,3" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.5">
+    <path d="m55.8 668 5e-14 -171"/>
+   </g>
+   <g>
+    <path d="m55.8 483 3.75 15h-7.5z"/>
+    <path d="m41.2 576v-17.3h5.25q2.5 0 3.83 1.1t1.33 3.2q0 3.47-3.5 4.92l5.8 8.12h-3.03l-4.94-7.34h-2.3v7.34h-2.44zm2.44-9.17h0.797q4.64 0 4.64-3.66 0-2.67-3.89-2.67h-1.55v6.33z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-dasharray="1.5,3" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.5">
+    <path d="m55.8 483-5e-14 171"/>
+   </g>
+   <g>
+    <path d="m55.8 668-3.75-15h7.5z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-dasharray="1.5,3" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.5">
+    <path d="m82.9 683h561"/>
+   </g>
+   <g>
+    <path d="m659 683-15 3.75v-7.5z"/>
+    <path d="m363 706v-10.8h-0.484q-1.53 0-3.05 0.828v-2.12q1.36-0.594 3.31-0.594h13.7v1.89h-2.89v7.39q0 1.97 0.906 3.45h-2.45q-0.781-1.69-0.781-3.55v-7.3h-5.91v10.8h-2.33zm16.6 0v-17.3h5.25q2.5 0 3.83 1.1t1.33 3.2q0 3.47-3.5 4.92l5.8 8.12h-3.03l-4.94-7.34h-2.3v7.34h-2.44zm2.44-9.17h0.797q4.64 0 4.64-3.66 0-2.67-3.89-2.67h-1.55v6.33z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-dasharray="1.5,3" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1.5">
+    <path d="m659 683h-561"/>
+   </g>
+   <g>
+    <path d="m82.9 683 15-3.75v7.5z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m213 145c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m213 145c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#606">
+    <path d="m188 238c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m188 238c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m281 77.6c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m281 77.6c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m374 52.7c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m374 52.7c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m467 77.6c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m467 77.6c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m535 145c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m535 145c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#606">
+    <path d="m560 238c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m560 238c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m535 331c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m535 331c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m467 399c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m467 399c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m374 424c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m374 424c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m281 399c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m281 399c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m213 331c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m213 331c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#404040">
+    <path d="m374 238c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m374 238c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m374 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m374 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m278 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m278 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m470 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m470 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m566 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m566 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m326 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m326 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m422 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m422 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m518 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m518 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m614 483c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m614 483c0 1.66-1.34 3-3 3s-3-1.34-3-3c0-1.66 1.34-3 3-3s3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m182 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m182 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m230 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m230 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m134 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m134 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m85.9 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m85.9 662c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/>
+   </g>
+   <g fill="#f00">
+    <path d="m662 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m662 662c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3s1.34-3 3-3c1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="#33f">
+    <path d="m710 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+   <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m710 483c0 1.66-1.34 3-3 3-1.66 0-3-1.34-3-3 0-1.66 1.34-3 3-3 1.66 0 3 1.34 3 3z"/>
+   </g>
+  </g>
+ </g>
+</svg>

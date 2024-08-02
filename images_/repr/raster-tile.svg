@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="13cm" height="14cm" viewBox="103 87 258 274" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background"/>
+  <g id="Background">
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="200" y="180" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="240" y="180" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="280" y="180" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="320" y="180" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="200" y="220" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="240" y="220" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="280" y="220" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #7f7f7f; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="320" y="220" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="200" y="260" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="240" y="260" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="280" y="260" width="40" height="40" rx="0" ry="0"/>
+    <rect style="fill: #8b6914; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="320" y="260" width="40" height="40" rx="0" ry="0"/>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="300" y1="340" x2="266.884" y2="306.884"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="261.581,301.581 272.188,305.117 266.884,306.884 265.117,312.188 "/>
+    </g>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="356.575">
+      <tspan x="300" y="356.575">(1, 2)</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="166.575">
+      <tspan x="220" y="166.575">0</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="166.575">
+      <tspan x="260" y="166.575">1</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="166.575">
+      <tspan x="300" y="166.575">2</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="166.575">
+      <tspan x="340" y="166.575">3</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="206.575">
+      <tspan x="180" y="206.575">0</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="246.575">
+      <tspan x="180" y="246.575">1</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="286.575">
+      <tspan x="180" y="286.575">2</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="106.575">
+      <tspan x="300" y="106.575">x=1 (column)</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="300" y1="110" x2="266.884" y2="143.116"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="261.581,148.419 265.117,137.812 266.884,143.116 272.188,144.883 "/>
+    </g>
+    <text font-size="16.9333" style="fill: #0000ff; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="346.575">
+      <tspan x="140" y="346.575">y=2 (row)</tspan>
+    </text>
+    <rect style="fill: #ffa500; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #ffffff" x="110" y="90" width="40" height="40" rx="0" ry="0"/>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="130" y="155.992">
+      <tspan x="130" y="155.992">tile</tspan>
+      <tspan x="130" y="177.158">width</tspan>
+    </text>
+    <text font-size="16.9333" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="190" y="105.992">
+      <tspan x="190" y="105.992">tile</tspan>
+      <tspan x="190" y="127.158">height</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" x1="140" y1="330" x2="173.116" y2="296.884"/>
+      <polygon style="fill: #0000ff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #0000ff" fill-rule="evenodd" points="178.419,291.581 174.883,302.188 173.116,296.884 167.812,295.117 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="115" y1="140" x2="145" y2="140"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" d="M 110 140 C 110,138.5 111.5,137 113,137 C 114.5,137 116,138.5 116,140 C 116,141.5 114.5,143 113,143 C 111.5,143 110,141.5 110,140z"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="112.5" y1="145" x2="112.5" y2="135"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" d="M 150 140 C 150,141.5 148.5,143 147,143 C 145.5,143 144,141.5 144,140 C 144,138.5 145.5,137 147,137 C 148.5,137 150,138.5 150,140z"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="147.5" y1="135" x2="147.5" y2="145"/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="160" y1="95" x2="160" y2="125"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" d="M 160 90 C 161.5,90 163,91.5 163,93 C 163,94.5 161.5,96 160,96 C 158.5,96 157,94.5 157,93 C 157,91.5 158.5,90 160,90z"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="155" y1="92.5" x2="165" y2="92.5"/>
+      <path style="fill: #000000; fill-opacity: 1; stroke: none" fill-rule="evenodd" d="M 160 130 C 158.5,130 157,128.5 157,127 C 157,125.5 158.5,124 160,124 C 161.5,124 163,125.5 163,127 C 163,128.5 161.5,130 160,130z"/>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="165" y1="127.5" x2="155" y2="127.5"/>
+    </g>
+  </g>
+</svg>

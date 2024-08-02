@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53mm"
+   height="53mm"
+   version="1.1"
+   viewBox="0 0 53 53"
+   id="svg40"
+   sodipodi:docname="var-label.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44" />
+  <sodipodi:namedview
+     id="namedview42"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.933805"
+     inkscape:cx="97.234102"
+     inkscape:cy="100.15748"
+     inkscape:window-width="1850"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg40" />
+  <path
+     d="m14.05 22.44c4.567-3.73 25.6-12.59 31.57-7.668"
+     fill="none"
+     stroke="#000"
+     stroke-linecap="round"
+     id="path2" />
+  <text
+     x="24.900122"
+     y="35.257359"
+     fill="#ff0000"
+     font-family="sans-serif"
+     font-size="50.8px"
+     stroke="#797979"
+     stroke-width=".617"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text6"><tspan
+       x="24.900122"
+       y="35.257359"
+       fill="#ff0000"
+       font-family="times"
+       font-size="50.8px"
+       font-weight="bold"
+       stroke="#797979"
+       stroke-width=".617"
+       id="tspan4">1</tspan></text>
+  <path
+     transform="scale(.2646)"
+     d="m46.25 65.95-18.79 9.834-26.89 85.87 57.26 17.92 26.89-85.87-9.834-18.79-28.63-8.961zm8.412 13.51a10 10 0 0 1 3.096 0.4551 10 10 0 0 1 6.557 12.53 10 10 0 0 1-12.53 6.557 10 10 0 0 1-6.557-12.53 10 10 0 0 1 9.436-7.012z"
+     fill="#008080"
+     stroke="#000"
+     stroke-width="1.002"
+     id="path8"
+     style="fill:#00cccc;fill-opacity:1" />
+  <text
+     transform="rotate(17.38)"
+     x="15.765865"
+     y="37.660904"
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="22.58px"
+     stroke-width=".2646"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text12"><tspan
+       x="15.765865"
+       y="37.660904"
+       font-family="times"
+       font-size="22.58px"
+       stroke-width=".2646"
+       id="tspan10">a</tspan></text>
+  <g
+     transform="translate(-56.24,-87.13)"
+     fill="none"
+     stroke="#000"
+     id="g22">
+    <path
+       d="m101.9 101.9c5.092-4.451 2.446 3.486 0 1e-5"
+       id="path14" />
+    <path
+       d="m101.9 101.9c-2.646-5.292 2.646-6.615 0 0"
+       id="path16" />
+    <path
+       d="m101.9 101.9c2.646 2.646 3.969 1.323 5.292 3.969"
+       stroke-linecap="round"
+       id="path18" />
+    <path
+       d="m99.22 97.9c0 0.7938 1.323 2.646 2.646 3.969"
+       stroke-linecap="round"
+       id="path20" />
+  </g>
+  <path
+     d="m14.05 22.44c-4.532 3.579-4.47 11.05 10.55 7.203"
+     fill="none"
+     stroke="#000"
+     stroke-linecap="round"
+     id="path24" />
+  <text
+     x="0.77799612"
+     y="4.2898827"
+     fill="#000080"
+     font-family="courier"
+     font-size="4.939px"
+     stroke-width=".2646"
+     style="line-height:0.8"
+     xml:space="preserve"
+     id="text30"><tspan
+       x="0.77799612"
+       y="4.2898827"
+       id="tspan26">a = 1</tspan><tspan
+       x="0.77799612"
+       y="9.0152426"
+       id="tspan28">b = a</tspan></text>
+  <path
+     transform="scale(.2646)"
+     d="m106.4 90.71-29.86 2.896-13.48 16.38 8.693 89.57 59.72-5.793-8.693-89.57-16.38-13.48zm-10.23 10.22a10 10 0 0 1 9.35 9.016 10 10 0 0 1-8.988 10.92 10 10 0 0 1-10.92-8.988 10 10 0 0 1 8.988-10.92 10 10 0 0 1 1.57-0.0293z"
+     fill="#008000"
+     stroke="#000"
+     id="path32" />
+  <path
+     d="m24.6 29.64c6.301-1.411 26.31-9.61 21.02-14.9"
+     fill="none"
+     stroke="#000"
+     id="path34" />
+  <text
+     transform="rotate(-5.542)"
+     x="16.882811"
+     y="51.557362"
+     fill="#000000"
+     font-family="sans-serif"
+     font-size="22.58px"
+     stroke-width=".2646"
+     style="line-height:1.25"
+     xml:space="preserve"
+     id="text38"><tspan
+       x="16.882811"
+       y="51.557362"
+       font-family="times"
+       font-size="22.58px"
+       stroke-width=".2646"
+       id="tspan36">b</tspan></text>
+</svg>

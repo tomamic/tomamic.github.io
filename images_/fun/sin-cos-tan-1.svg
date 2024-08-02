@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="265" height="180" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="id31737" overflow="visible" orient="auto">
+   <path transform="matrix(.8 0 0 .8 10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#3465a4" stroke="#3465a4" stroke-width="1pt"/>
+  </marker>
+  <marker id="id46492" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#3465a4" stroke="#3465a4" stroke-width="1pt"/>
+  </marker>
+  <marker id="id32266" overflow="visible" orient="auto">
+   <path transform="matrix(.8 0 0 .8 10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#ce5c00" stroke="#ce5c00" stroke-width="1pt"/>
+  </marker>
+  <marker id="id45851" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#ce5c00" stroke="#ce5c00" stroke-width="1pt"/>
+  </marker>
+  <marker id="id35286" overflow="visible" orient="auto">
+   <path transform="matrix(.8 0 0 .8 10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#008000" stroke="#008000" stroke-width="1pt"/>
+  </marker>
+  <marker id="id46147" overflow="visible" orient="auto">
+   <path transform="matrix(-.8 0 0 -.8 -10 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#008000" stroke="#008000" stroke-width="1pt"/>
+  </marker>
+  <marker id="id14267" overflow="visible" orient="auto">
+   <path transform="matrix(.4 0 0 .4 4 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#3465a4" stroke="#3465a4" stroke-width="1pt"/>
+  </marker>
+  <marker id="id24146" overflow="visible" orient="auto">
+   <path transform="matrix(-.4 0 0 -.4 -4 0)" d="m0 0 5-5-17.5 5 17.5 5z" fill="#3465a4" stroke="#3465a4" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <path d="m218 42.1h-201l201 112z" color="#000000" fill="none" stroke="#00f" stroke-width="1.6"/>
+ <text transform="scale(1 1)" x="102.78945" y="75.631775" fill="#3465a4" font-family="'Trebuchet MS'" font-size="25.1px" stroke-width="2.53">θ</text>
+ <g transform="matrix(1 0 0 -1 -.00426 180)" fill="none" stroke="#3465a4">
+  <path d="m85.4 103a75.1 75.1 0 0 1 8.5 32.7" color="#000000" marker-end="url(#id24146)" marker-start="url(#id14267)" stroke-width="1.6"/>
+  <path d="m15.6 172v-25.4" stroke-width=".4px"/>
+  <path d="m218 171v-25.4" stroke-width=".4px"/>
+  <path d="m216 157h-198" marker-end="url(#id46492)" marker-start="url(#id31737)"/>
+ </g>
+ <g transform="matrix(1 0 0 -1 -.00426 180)" fill="none" stroke="#ce5c00">
+  <path d="m11.5 134-11.3-20.8" stroke-width=".4px"/>
+  <path d="m216 20.8-11.3-20.7" stroke-width=".4px"/>
+  <path d="m207 11-199 111" marker-end="url(#id45851)" marker-start="url(#id32266)"/>
+ </g>
+ <g stroke="#008000">
+  <path d="m222 154h42.4" fill="#008000" stroke-width=".4px"/>
+  <path d="m222 42.1h42.4" fill="#008000" stroke-width=".4px"/>
+  <path d="m236 43.6v110" fill="#008000" marker-end="url(#id46147)" marker-start="url(#id35286)"/>
+ </g>
+ <g font-family="'Trebuchet MS'" font-size="18.7px" stroke-width="1px">
+  <text transform="rotate(29.4)" x="100.85269" y="64.716209" color="#000000" fill="#ce5c00">hypotenuse</text>
+  <text transform="rotate(-90)" x="-133.85849" y="257.07175" color="#000000" fill="#008000">opposite</text>
+  <text x="80.796494" y="13.765478" color="#000000" fill="#3465a4">adjacent</text>
+ </g>
+ <path d="m196 42.5v21.9h21.5" fill="none" stroke="#3465a4" stroke-width="1.6"/>
+</svg>

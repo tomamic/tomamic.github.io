@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16cm" height="20cm" version="1.1" viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <ellipse cx="160" cy="40" rx="40" ry="40" fill="#1d2981"/>
+
+  <ellipse cx="120" cy="120" rx="40" ry="40" fill="#368437"/>
+  <ellipse cx="200" cy="120" rx="40" ry="40" fill="#e1a326"/>
+
+  <ellipse cx="80" cy="200" rx="40" ry="40" fill="#3323c9"/>
+  <ellipse cx="160" cy="200" rx="40" ry="40" fill="#dc783f"/>
+  <ellipse cx="240" cy="200" rx="40" ry="40" fill="#114f2e"/>
+
+  <ellipse cx="40" cy="280" rx="40" ry="40" fill="#a2fc2f"/>
+  <ellipse cx="120" cy="280" rx="40" ry="40" fill="#2d7e73"/>
+  <ellipse cx="200" cy="280" rx="40" ry="40" fill="#ead094"/>
+  <ellipse cx="280" cy="280" rx="40" ry="40" fill="#978eeb"/>
+
+  <ellipse cx="160" cy="360" rx="40" ry="40" fill="#fdf02b"/>
+ </g>
+</svg>

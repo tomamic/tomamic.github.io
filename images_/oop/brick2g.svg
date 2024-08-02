@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321" height="281" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3288">
+   <stop stop-color="#ff1414" offset="0"/>
+   <stop stop-color="#cf0000" offset=".743"/>
+   <stop stop-color="#f00" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient3380" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(42.8 -35.2)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <linearGradient id="linearGradient3388" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(-25.2 -60.6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <linearGradient id="linearGradient3452" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(-39.5,55)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <linearGradient id="linearGradient1143" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(-46.9 44.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <linearGradient id="linearGradient1145" x1="264" x2="320" y1="159" y2="159" gradientTransform="translate(-115 19.2)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3288"/>
+  <filter id="filter7578" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7584" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7590" x="-.00917" y="-.0169" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7596" x="-.00918" y="-.0154" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7602" x="-.00917" y="-.0169" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7608" x="-.00918" y="-.0154" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7614" x="-.00356" y="-.00418" width="1.01" height="1.01" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7620" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7626" x="-.00918" y="-.0124" width="1.02" height="1.02" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7632" x="-.00917" y="-.0169" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7638" x="-.00918" y="-.0154" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7644" x="-.00917" y="-.0169" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7650" x="-.00918" y="-.0154" width="1.02" height="1.03" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7656" x="-.00278" y="-.00217" width="1.01" height="1" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+  <filter id="filter7662" x="-.00156" y="-.00238" width="1" height="1" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="fbSourceGraphic" type="saturate" values="0.6"/>
+   <feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+   <feColorMatrix in="fbSourceGraphic" result="color1" type="hueRotate" values="240"/>
+   <feColorMatrix result="color2" type="saturate" values="1"/>
+  </filter>
+ </defs>
+ <g transform="translate(-69.3 -64.4)" stroke="#d70000" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m70 225 180-160 140 50.1-180 160z" fill="#d60000" fill-rule="evenodd" filter="url(#filter7662)" stroke-width="1px"/>
+  <path d="m210 345v-70l180-160v70z" fill="#ad0000" fill-rule="evenodd" filter="url(#filter7656)" stroke-width="1px"/>
+  <g>
+   <path d="m362 107-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3380)" filter="url(#filter7650)"/>
+   <ellipse cx="335" cy="108" rx="27.2" ry="14.8" fill="#e00" filter="url(#filter7644)"/>
+   <path d="m294 81.9-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3388)" filter="url(#filter7638)"/>
+   <ellipse cx="267" cy="82.4" rx="27.2" ry="14.8" fill="#e00" filter="url(#filter7632)"/>
+  </g>
+  <g transform="translate(35.5 -51)" filter="url(#filter7626)">
+   <path d="m280 198-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3452)"/>
+   <ellipse transform="matrix(1.09 0 0 1.48 155 72.6)" cx="90" cy="85" rx="25" ry="10" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(-32.5 -76.3)" filter="url(#filter7620)">
+   <path d="m280 198-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3452)"/>
+   <ellipse transform="matrix(1.09 0 0 1.48 155 72.6)" cx="90" cy="85" rx="25" ry="10" fill="#e00" stroke-width=".789"/>
+  </g>
+  <path d="m70 225v70l-0.177-0.451 141 50.2v-70z" fill="#f00" fill-rule="evenodd" filter="url(#filter7614)" stroke-width="1px"/>
+  <g>
+   <path d="m273 187-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient1143)" filter="url(#filter7608)"/>
+   <ellipse cx="245" cy="187" rx="27.2" ry="14.8" fill="#e00" filter="url(#filter7602)"/>
+   <path d="m205 162-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8 15 0 27.2-6.61 27.2-14.8 0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient1145)" filter="url(#filter7596)"/>
+   <ellipse cx="177" cy="162" rx="27.2" ry="14.8" fill="#e00" filter="url(#filter7590)"/>
+  </g>
+  <g transform="translate(-54.2 28.7)" filter="url(#filter7584)">
+   <path d="m280 198-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3452)"/>
+   <ellipse transform="matrix(1.09 0 0 1.48 155 72.6)" cx="90" cy="85" rx="25" ry="10" fill="#e00" stroke-width=".789"/>
+  </g>
+  <g transform="translate(-122 3.4)" filter="url(#filter7578)">
+   <path d="m280 198-54.5 0.5v17c-3e-3 0.0843 0 0.165 0 0.25 0 8.14 12.2 14.8 27.2 14.8s27.2-6.61 27.2-14.8c0-0.0847 3e-3 -0.166 0-0.25z" fill="url(#linearGradient3452)"/>
+   <ellipse transform="matrix(1.09 0 0 1.48 155 72.6)" cx="90" cy="85" rx="25" ry="10" fill="#e00" stroke-width=".789"/>
+  </g>
+ </g>
+</svg>

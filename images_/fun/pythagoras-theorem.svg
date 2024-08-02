@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="white-space:pre" version="1.1" viewBox="0 0 1050 1150" xmlns="http://www.w3.org/2000/svg">
+ <g stroke="#000" stroke-linecap="square" stroke-width="2">
+  <g transform="translate(321 419) rotate(180) scale(-1 1) translate(-300 -300)" fill="#0f0">
+   <rect width="100" height="100"/>
+   <rect transform="translate(100)" width="100" height="100"/>
+   <rect transform="translate(200)" width="100" height="100"/>
+   <rect transform="translate(0 100)" width="100" height="100"/>
+   <rect transform="translate(100 100)" width="100" height="100"/>
+   <rect transform="translate(200 100)" width="100" height="100"/>
+   <rect transform="translate(0 200)" width="100" height="100"/>
+   <rect transform="translate(100 200)" width="100" height="100"/>
+   <rect transform="translate(200 200)" width="100" height="100"/>
+  </g>
+  <g transform="translate(720 720) rotate(90.2) scale(-1 1) translate(-400)" fill="#ff0">
+   <rect width="100" height="100"/>
+   <rect transform="translate(100)" width="100" height="100"/>
+   <rect transform="translate(200)" width="100" height="100"/>
+   <rect transform="translate(0 100)" width="100" height="100"/>
+   <rect transform="translate(100 100)" width="100" height="100"/>
+   <rect transform="translate(200 100)" width="100" height="100"/>
+   <rect transform="translate(0 200)" width="100" height="100"/>
+   <rect transform="translate(100 200)" width="100" height="100"/>
+   <rect transform="translate(200 200)" width="100" height="100"/>
+   <rect transform="translate(300)" width="100" height="100"/>
+   <rect transform="translate(300 100)" width="100" height="100"/>
+   <rect transform="translate(300 200)" width="100" height="100"/>
+   <rect transform="translate(0 300)" width="100" height="100"/>
+   <rect transform="translate(100 300)" width="100" height="100"/>
+   <rect transform="translate(200 300)" width="100" height="100"/>
+   <rect transform="translate(300 300)" width="100" height="100"/>
+  </g>
+  <g fill="#0f0">
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-142" y="-1009" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-41.7" y="-1009" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="58.3" y="-1009" width="100" height="100"/>
+  </g>
+  <g fill="#ff0">
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-142" y="-909" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-41.7" y="-909" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="58.3" y="-909" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-142" y="-809" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-41.7" y="-809" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="58.3" y="-809" width="100" height="100"/>
+  </g>
+  <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="158" y="-1009" width="100" height="100" fill="#0f0"/>
+  <g fill="#ff0">
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="158" y="-909" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="158" y="-809" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-142" y="-709" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-41.7" y="-709" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="58.3" y="-709" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="158" y="-709" width="100" height="100"/>
+  </g>
+  <g fill="#0f0">
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="258" y="-1009" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="258" y="-909" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="258" y="-809" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="258" y="-709" width="100" height="100"/>
+  </g>
+  <g fill="#ff0">
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-142" y="-609" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="-41.7" y="-609" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="58.3" y="-609" width="100" height="100"/>
+   <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="158" y="-609" width="100" height="100"/>
+  </g>
+  <rect transform="matrix(.602 -.799 -.799 -.602 0 0)" x="258" y="-609" width="100" height="100" fill="#0f0"/>
+  <path transform="translate(321 419) rotate(210) scale(-1 1)" d="m0 0 496-61.2-348-199-148 260z" fill="#ecffef"/>
+  <rect transform="translate(320 719) rotate(.175) scale(-1 1) translate(-24 -24)" width="24" height="24" fill="none"/>
+ </g>
+ <g font-family="serif" font-size="74.7px" font-weight="400" letter-spacing="0" word-spacing="0">
+  <text x="332.45386" y="605.44678" style="line-height:33.1851px">a</text>
+  <text x="435.31348" y="703.15558" style="line-height:33.1852px">b</text>
+  <text x="444.09146" y="595.42303" style="line-height:33.1852px">c</text>
+ </g>
+</svg>

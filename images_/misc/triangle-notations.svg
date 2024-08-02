@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(-1 0 0 1 200 0)" fill="none">
+  <g stroke="#f55">
+   <path d="m135 30c-8.42 6.55-19.3 3.97-24.1-4.05"/>
+   <path d="m160 105c0-10 4-16 12-20"/>
+   <path d="m28.9 94.2c2.02 2.86 3.2 6.35 3.2 10.1 0 0.228-0.0039 0.457-0.0127 0.684"/>
+  </g>
+  <path d="m15 105h170l-60-90z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+ </g>
+ <g font-family="Serif" font-size="14px" font-style="italic">
+   <text x="2" y="115">A</text>
+   <text x="69" y="11">C</text>
+   <text x="188" y="115">B</text>
+   <text x="32.144569" y="56.351624" fill="#05f">b</text>
+   <text x="127.89291" y="52.945133" fill="#05f">a</text>
+   <text x="94.00001" y="117" fill="#05f">c</text>
+   <text x="42.554508" y="91.956345" fill="#f55">α</text>
+   <text x="143.71721" y="96.035545" fill="#f55">β</text>
+   <text x="72.270523" y="47.935471" fill="#f55">γ</text>
+ </g>
+</svg>
