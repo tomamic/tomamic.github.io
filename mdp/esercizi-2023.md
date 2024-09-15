@@ -124,7 +124,6 @@ Usare la funzione `sqrt` del modulo `math`
     - Il centro dell'ultimo cerchio disegnato è vicino al centro del canvas
     - Distanza minore di 20
 
-
 ---
 
 # Esercitazione 2 (2023-10-03)

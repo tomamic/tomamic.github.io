@@ -104,33 +104,26 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/fun/books-stack.png)
-# 📚 Testi di riferimento
+![](images/algo/fondinfo-book.jpg)
+# 📚 Testo di riferimento
 
-- *Informatica e Laboratorio di Programmazione (A.A. 2019-2020)*, McGraw-Hill 2019. ISBN 978-1307457001 (~26€, ~300pp., nelle librerie universitarie, su Amazon ecc.)
-- A.B. Downey: *Think Python* 2e - <https://github.com/AllenDowney/ThinkPythonItalian>
-- M. Beri: *Python 3*, Apogeo Pocket 2010, 978-8850329151 (~12€)
-- *Dispense* del corso: <https://github.com/tomamic/fondinfo/wiki/>
+- M. Tomaiuolo, A. Ferrari: <br> [Introduzione all'informatica con Python](https://www.mheducation.it/9788838613586) <br> McGraw-Hill 2024 (~44€, ~370pp.) <br> ISBN 978-8838613586
 
----
+- [▶️ Playground Python](https://fondinfo.github.io/play), con esempi
 
-# 📚 Altri testi e video
-
-- M. Dawson: *Python Programming for the Absolute Beginner* 3e, Course Tech. 2010, 978-1435455009 (~25€, 450pp.)
-- MIT: *Intro to CS and Programming in Python* - [Video delle lezioni](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/index.htm)
-- Documentazione: [docs.python.org](https://docs.python.org/3/)
+- Documentazione Python: [docs.python.org](https://docs.python.org/3/)
 
 ---
 
 ![small](images/dev/python-logo.svg)
 # 💾 Strumenti software
 
-- Strumenti open source, multi-piattaforma
-    - [**Thonny**](https://www.thonny.org/), ambiente Python, *battery included*
-    - Playground [Python](https://tomamic.github.io/pyodide/)
+- **Thonny**: <https://www.thonny.org/>
+    - Semplice IDE (*Integrated Development Environment*)
+    - Open source, multi-piattaforma, *battery included*
 - Opzionalmente
-    - [*Termux*](https://github.com/tomamic/fondinfo/wiki/X02-Termux) su Android
-    - [*Ubuntu*](http://releases.ubuntu.com/22.04/) in una [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [WikiHow](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
+    - [*Termux*](https://fondinfo.github.io/termux/) su Android
+    - [*Ubuntu*](http://releases.ubuntu.com/24.04/) in una [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [WikiHow](https://www.wikihow.com/Install-Ubuntu-on-VirtualBox)
 
 ``` sh
 ## Ubuntu, Debian etc.
@@ -142,7 +135,7 @@ sudo apt install python3-pip python3-tk python3-pygame thonny
 # ℹ️ Simboli sulle slide
 
 - ⭐️ Concetto fondamentale
-- 🧪 Esperimento pratico
+- 🧪 Esempio, esperimento pratico
 - 🔬 Approfondimento e analisi
 - 💡️ Nuova idea, buona pratica
 - ⚠️ Attenzione, errore comune
