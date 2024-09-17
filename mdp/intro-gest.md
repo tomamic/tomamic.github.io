@@ -1,7 +1,7 @@
 
 ![](images/dev/theory-practice.png)
 # Presentazione del corso
-## Informatica e lab di programmazione<br> Michele Tomaiuolo @ Ingegneria UniPR
+## Fondamenti di informatica<br> Claudio Ferrari, Michele Tomaiuolo
 
 ---
 
@@ -52,10 +52,6 @@ Applicazioni testuali e con grafica
 
 # 🖐️ Assistenza e ricevimento
 
-- Materiale di studio
-    - *Libri* di testo e slide del corso
-    - *Esercizi risolti* degli anni precedenti
-    - <http://fondinfo.github.io/>
 - Durante le esercitazioni, assistenza del docente
 - A lezione
     - *Esempi* prima delle esercitazioni
@@ -69,15 +65,18 @@ Applicazioni testuali e con grafica
 ![](images/misc/quiz.png)
 # 🎓 Modalità d'esame
 
-- *➊* Prova a quiz, circa
+- *➊* Prova a quiz
     - Circa mezz'ora
     - Domande su argomenti di teoria
     - Esercizi a risposta numerica
     - Comprensione del codice Python
 - *➋* Prova di programmazione
+    - Circa un'ora, stessa giornata
     - Solo dopo aver superato il quiz, con risultato sufficiente
     - Realizzazione di un programma di elaborazione dati
 - Il voto finale è determinato in parti uguali dalle due prove
+- Bonus per la partecipazione attiva a lezioni ed esercitazioni
+    - Fino a due punti sul voto finale
 
 ---
 
