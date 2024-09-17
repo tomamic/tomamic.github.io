@@ -75,16 +75,13 @@ Applicazioni testuali e con grafica
 
 # 🖐️ Tutor e assistenza
 
-- Materiale di studio
-    - *Libri* di testo e slide del corso
-    - *Esercizi risolti* degli anni precedenti
-    - <http://tomamic.github.io/>
 - Durante le esercitazioni, assistenza di vari *tutor*
 - A lezione
     - *Esempi* prima delle esercitazioni
     - *Soluzioni* di esercizi delle settimane precedenti
 - *Ricevimento* aperto a tutti
-    - In lab, ogni martedì e giovedì, 12:30-13:30
+    - In lab 4, sede didattica, ogni martedì 12:30-13:30
+    - In lab Workstation, sede scientifica, ogni giovedì 12:30-13:30
 
 ---
 
