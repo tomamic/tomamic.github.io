@@ -26,8 +26,8 @@
 - Algoritmi in *Python 3*
 - Funzioni, grafica
 - Oggetti, relazioni
-- Sviluppo del software, collaudo
 - Liste, sequenze, collezioni
+- Elaborazione di dati tabulari
 - Ricorsione
 
 >
