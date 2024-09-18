@@ -106,6 +106,8 @@ Applicazioni testuali e con grafica
 
 - M. Tomaiuolo, A. Ferrari: <br> [Introduzione all'informatica con Python](https://www.mheducation.it/9788838613586) <br> McGraw-Hill 2024 (~44€, ~370pp.) <br> ISBN 978-8838613586
 
+- Testo, slide e materiale didattico <br> <https://fondinfo.github.io/>
+
 - [▶️ Playground Python](https://fondinfo.github.io/play), con esempi
 
 - Documentazione Python: [docs.python.org](https://docs.python.org/3/)
