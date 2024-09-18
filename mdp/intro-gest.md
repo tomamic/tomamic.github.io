@@ -39,14 +39,17 @@ Applicazioni testuali e con grafica
 ![](images/dev/geek-girl.svg)
 # ➌ Esercitazioni in aula
 
-- Esercitazioni in aula
+- Esercitazioni in aula, in Python
     - Circa un'ora alla settimana
     - Lavoro autonomo sul proprio dispositivo (BYOD)
+    - Alcuni esercizi testuali, altri con grafica
     - Consegna su Elly
-- Brevi *esercizi*, in Python
-    - Alcuni testuali, altri con grafica
+- ⚠️ **Attenzione**: non sono sufficienti le poche ore in aula per imparare a programmare!
+    - “Venite già studiati”
+    - Completate tutti gli esercizi, a casa
+    - Assiduità!
 
-> If you wish to learn swimming <br> you have to go into the water 🏊 <br> <br> and if you wish to become a problem solver <br> you have to solve problems. *(George Polya)*
+> If you wish to learn swimming, you have to go into the water 🏊 <br> <br> and if you wish to become a problem solver, you have to solve problems. *(George Polya)*
 
 ---
 
@@ -84,8 +87,6 @@ Applicazioni testuali e con grafica
 # 📚 Testo di riferimento
 
 - M. Tomaiuolo, A. Ferrari: <br> [Introduzione all'informatica con Python](https://www.mheducation.it/9788838613586) <br> McGraw-Hill 2024 (~44€, ~370pp.) <br> ISBN 978-8838613586
-
-- Testo, slide e materiale didattico <br> <https://fondinfo.github.io/>
 
 - [▶️ Playground Python](https://fondinfo.github.io/play), con esempi
 
