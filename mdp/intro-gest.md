@@ -5,6 +5,15 @@
 
 ---
 
+# Insegnanti
+
+- Claudio Ferrari
+    - <claudio.ferrari2@unipr.it>
+- Michele Tomaiuolo
+    - <michele.tomaiuolo@unipr.it>
+
+---
+
 ![large](images/sys/globe.jpg)
 # ➊ Introduzione all'informatica
 
