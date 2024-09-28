@@ -1,20 +1,22 @@
 
-![](images/dev/theory-practice.png)
+![](/images/dev/theory-practice.png)
 # Presentazione del corso
-## Fondamenti di informatica<br> Claudio Ferrari, Michele Tomaiuolo
+## Fondamenti di informatica
 
 ---
 
 # Insegnanti
 
-- Claudio Ferrari
-    - <claudio.ferrari2@unipr.it>
-- Michele Tomaiuolo
-    - <michele.tomaiuolo@unipr.it>
+- Cognomi A-G
+    - Claudio Ferrari — <claudio.ferrari2@unipr.it>
+    - Michele Tomaiuolo — <michele.tomaiuolo@unipr.it>
+- Cognomi H-Z
+    - Dario Lodi Rizzini — <dario.lodirizzini@unipr.it>
+    - Riccardo Monica ­— <riccardo.monica@unipr.it>
 
 ---
 
-![large](images/sys/globe.jpg)
+![large](/images/sys/globe.jpg)
 # ➊ Introduzione all'informatica
 
 - Logica
@@ -29,7 +31,7 @@
 
 ---
 
-![large](images/misc/space-invaders-school.png)
+![large](/images/misc/space-invaders-school.png)
 # ➋ Introduzione alla programmazione
 
 - Algoritmi in *Python 3*
@@ -45,7 +47,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/dev/geek-girl.svg)
+![](/images/dev/geek-girl.svg)
 # ➌ Esercitazioni in aula
 
 - Esercitazioni in aula, in Python
@@ -74,7 +76,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/misc/quiz.png)
+![](/images/misc/quiz.png)
 # 🎓 Modalità d'esame
 
 - *➊* Prova a quiz
@@ -92,7 +94,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/algo/fondinfo-book.jpg)
+![](/images/algo/fondinfo-book.jpg)
 # 📚 Testo di riferimento
 
 - M. Tomaiuolo, A. Ferrari: <br> [Introduzione all'informatica con Python](https://www.mheducation.it/9788838613586) <br> McGraw-Hill 2024 (~44€, ~370pp.) <br> ISBN 978-8838613586
@@ -103,7 +105,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![small](images/dev/python-logo.svg)
+![small](/images/dev/python-logo.svg)
 # 💾 Strumenti software
 
 - **Thonny**: <https://www.thonny.org/>
