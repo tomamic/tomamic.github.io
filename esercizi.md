@@ -1,5 +1,6 @@
 # Archivio degli esercizi di programmazione
 
+- [Esercizi in lab 2024](esercizi-2024.html)
 - [Esercizi in lab 2023](esercizi-2023.html)
 - [Esercizi in lab 2022](esercizi-2022.html)
 - [Esercizi in lab 2021](esercizi-2021.html)
