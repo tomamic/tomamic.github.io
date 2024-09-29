@@ -31,6 +31,7 @@
 - Quicksort analysis: <http://www.cise.ufl.edu/class/cot3100fa07/quicksort_analysis.pdf>
 - Visualizing algorithms: <http://bost.ocks.org/mike/algorithms/>
 - Computer languages history: <http://www.levenez.com/lang/>
+- Tarsia - Cenni di logica: <http://people.dm.unipi.it/tarsia/dida1011/logins05.pdf>
 
 ## Sistemi di elaborazione
 
