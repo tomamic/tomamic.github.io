@@ -137,3 +137,140 @@ Non occorre disegnare
     - Due linee lunghe circa 6px, non testo
 - La prima crocetta è nera
 - Ogni crocetta successiva è un po' più chiara
+
+---
+
+# Esercitazione 2 (10-07)
+
+---
+
+![](https://fondinfo.github.io/images/misc/green-squares.svg)
+# 2.1 Sequenza di quadrati
+
+- Chiedere all'utente un numero `n`
+- Su un canvas 500×500, disegnare `n` quadrati
+    - Quadrati con lato decrescente
+    - L'ultimo ha lato `500/n`
+    - Tutti allineati in alto e a sinistra
+- Far variare il colore dei quadrati
+    - Dal nero del quadrato più grande
+    - Fino al verde del quadrato più piccolo
+
+>
+
+Determinare automaticamente le variazioni migliori per lato e colore, prima di iniziare il ciclo
+
+---
+
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
+# 2.2 Funzione, Erone
+
+- Definire una funzione `heron` per il calcolo dell'area di un triangolo
+    - Parametri: tre lati come `float`
+    - Risultato: area come `float`
+    - Generare un ValueError in caso di lati errati
+- Invocare la funzione dalla shell interattiva
+- Aggiungere poi al programma una funzione `main`
+    - *Procedura, senza parametri e senza risultato*
+    - Chiedere all'utente tre valori (chiamando `input`)
+    - Poi chiamare `heron` con questi parametri
+    - Infine mostrare all'utente il risultato (chiamando `print`)
+
+>
+
+Formula di Erone: `area = √(s * (s - a) * (s - b) * (s - c))`
+<br>
+Con `s = (a + b + c)/2`, semiperimetro
+<br>
+<http://en.wikipedia.org/wiki/Heron%27s_formula>
+
+---
+
+![](https://tomamic.github.io/images/oop/anim-right.png)
+# 2.3 Svolta casuale
+
+- Partire dall'animazione della pallina vista a lezione
+    - Direzione iniziale, verso destra di 2 px
+    - Senza rimbalzi
+    - Partire dal centro di un canvas 400×400
+- Aggiungere un cambio di direzione casuale
+    - Nuova direzione: alto, basso, destra, o sinistra
+    - Possibilmente, escludere la direzione opposta a quella attuale
+- Cambiare direzione solo in certi punti
+    - Quando `x` e `y` sono entrambe multiple di 8
+
+---
+
+![](https://fondinfo.github.io/images/misc/characters.png)
+# 2.4 Carattere Unicode
+
+- Chiedere all'utente un numero
+- Visualizzare il carattere Unicode corrispondente
+- Ripetere le operazioni in un ciclo, finchè l'utente non inserisce il valore `0`
+
+>
+
+Usare la funzione `chr` per convertire un codice nel carattere corrispondente
+
+---
+
+# 2.5 Cerchi concentrici casuali
+
+- Disegnare un cerchio di raggio 200 e colore casuale
+- Disegnare dei cerchi concentrici, via via più piccoli
+- Per ognuno, scegliere casualmente raggio e colore
+- Fermarsi quando il raggio diventa più piccolo di 10
+
+---
+
+# 2.6 Tabella ASCII
+
+- Visualizzare la tabella dei codici ASCII
+- Un carattere per ogni riga
+    - All'inizio della riga: il carattere
+    - Di fianco: il codice ASCII
+- Limitare l'intervallo tra 32 a 126 (due costanti)
+
+>
+
+Non c'è input dell'utente
+
+---
+
+# 2.7 Valori sopra e sotto la media
+
+- Chiedere all'utente una sequenza in interi, terminata da 0
+- Calcolare e mostrare il valore medio
+- Elencare i valori sotto alla media
+- Elencare i valori sopra (o uguali) alla media
+
+>
+
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
+
+---
+
+![](https://fondinfo.github.io/images/repr/binary-tunnel.jpg)
+# 2.8 Conteggio di 0 e 1
+
+- Definire una funzione che conta separatamente il numero di cifre `0` e `1` presenti in un testo
+    - Parametro: stringa di testo da elaborare
+    - Risultato: tupla dei due valori conteggiati
+- Invocarla da una funzione `main`
+    - Elaborare diverse righe di testo fornite dall'utente
+    - Terminare in caso di riga vuota
+    - I/O con l'utente solo nella funzione `main`
+
+>
+
+Nella funzione, usare un ciclo `for` sulla stringa
+
+---
+
+![](https://fondinfo.github.io/images/misc/green-squares.svg) Ribaltare in orizzontale ⇄
+# 2.9 Quadrati allineati a destra
+
+- Ripetere l'esercizio 2.1, però…
+- Allineare i quadrati in alto e a destra (anzichè sinistra)
+- Lasciare attorno al disegno un margine bianco di 10 pixel
+    - Da ogni bordo del canvas
