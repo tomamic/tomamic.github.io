@@ -8,7 +8,7 @@
     await import('../plugin/math/math.js');
 
     var name = location.href.replace(/\.[^\.]+$/, '').split('/').pop();
-    var ico = '<link rel="icon" href="images/logo.svg" />';
+    var ico = '<link rel="icon" href="https://fondinfo.github.io/images/logo.svg" />';
     var css = '<link rel="stylesheet" href="reveal/tomamic.css" />';
     var tar = '<base target="_blank" />';  /* open all links in a new tab. */
     var logo = '<aside><img src="images/logo.svg" /></aside>';
