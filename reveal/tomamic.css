@@ -514,7 +514,7 @@ code:before {
     bottom: 15px;
     left: 15px;
     z-index: 1;
-    background: url(../images/logo.svg) no-repeat;
+    background: url(https://fondinfo.github.io/images/logo.svg) no-repeat;
     background-size: 24px 24px;
     padding-left: 28px;
 }
