@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2014
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -18,7 +18,7 @@
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.2 Equazione di secondo grado
 
 - Chiedere all'utente i tre coefficienti di una equazione di secondo grado
@@ -30,7 +30,7 @@
 
 ---
 
-![](images/misc/thermometer.png)
+![](https://fondinfo.github.io/images/misc/thermometer.png)
 # 1.3 Conversioni di scala
 
 - In un ciclo, ripetere le seguenti operazioni
@@ -46,7 +46,7 @@ Nella prima implementazione, effettuare una sola conversione; poi racchiudere tu
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.4 Massimo, minimo, media
 
 - Leggere, attraverso un ciclo, una sequenza di valori
@@ -56,7 +56,7 @@ Nella prima implementazione, effettuare una sola conversione; poi racchiudere tu
 
 ---
 
-![](images/misc/impossible-triangle.jpg)
+![](https://fondinfo.github.io/images/misc/impossible-triangle.jpg)
 # 1.5 Triangolo
 
 - Chiedere all'utente le lunghezze dei tre lati
@@ -69,7 +69,7 @@ Nella prima implementazione, effettuare una sola conversione; poi racchiudere tu
 
 ---
 
-![](images/misc/measure-tape.png)
+![](https://fondinfo.github.io/images/misc/measure-tape.png)
 # 1.6 Lunghezza righe
 
 - Leggere una sequenza di righe di testo, in un ciclo
@@ -96,7 +96,7 @@ A ogni ciclo, moltiplicare `fact` per il nuovo numero
 
 ---
 
-![](images/misc/wall-calendar.png)
+![](https://fondinfo.github.io/images/misc/wall-calendar.png)
 # 1.8 Calendario a muro
 
 - L'utente inserisce:
@@ -114,7 +114,7 @@ Si può sfruttare l'operatore `%` (resto della divisione)
 
 ---
 
-![](images/misc/three-cards.png)
+![](https://fondinfo.github.io/images/misc/three-cards.png)
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
@@ -137,7 +137,7 @@ secret = randint(1, 3)
 
 ---
 
-![](images/repr/binary-tunnel.jpg)
+![](https://fondinfo.github.io/images/repr/binary-tunnel.jpg)
 # 2.1 Conteggio di 0 e 1
 
 - Chiedere una riga di testo all'utente
@@ -149,7 +149,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 2.2 Conteggio caratteri
 
 - Chiedere una riga di testo all'utente
@@ -165,7 +165,7 @@ L'indice del contatore corrispondente a una lettera `val` può essere ottenuto c
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 2.3 Area di un triangolo
 
 - Scrivere una `funzione` per il calcolo dell'area di un triangolo, dati i tre lati
@@ -188,7 +188,7 @@ Con `s = (a+b+c)/2`, semiperimetro
 
 ---
 
-![](images/misc/green-squares.svg)
+![](https://fondinfo.github.io/images/misc/green-squares.svg)
 # 2.4 Sequenza di quadrati
 
 - Chiedere all'utente il numero di quadrati da disegnare
@@ -207,7 +207,7 @@ Infine, determinare automaticamente le variazioni migliori per lato e colore, pr
 
 ---
 
-![](images/misc/color-grid.png) ![](images/oop/raster-tile.png)
+![](https://fondinfo.github.io/images/misc/color-grid.png) ![](https://fondinfo.github.io/images/oop/raster-tile.png)
 # 2.5 Griglia di colori
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -224,7 +224,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/misc/winding-path.png)
+![](https://fondinfo.github.io/images/misc/winding-path.png)
 # 2.6 Serpentina
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -240,7 +240,7 @@ Poi invertire il verso delle righe con indice dispari
 
 ---
 
-![](images/misc/spiral-circles.svg)
+![](https://fondinfo.github.io/images/misc/spiral-circles.svg)
 # 2.7 Spirale
 
 - Disegnare una sequenza di cerchi (`n` scelto dall'utente) lungo una spirale
@@ -298,7 +298,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 3.1 Classe dei triangoli
 
 - Scrivere una classe `Triangle` per rappresentare dei triangoli
@@ -313,7 +313,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 
 ---
 
-![](images/misc/space-invaders-school.png)
+![](https://fondinfo.github.io/images/misc/space-invaders-school.png)
 # 3.2 Movimento a serpentina
 
 - Partire dal classico ciclo di una applicazione *PyGame*
@@ -325,7 +325,7 @@ Richiamare in un ciclo la funzione dell'es. 2.8
 
 ---
 
-![](images/misc/space-invaders-school.png)
+![](https://fondinfo.github.io/images/misc/space-invaders-school.png)
 # 3.3 Classe degli invasori spaziali
 
 - Creare una classe `Invader`, che contenga i dati e il comportamento dell'alieno
@@ -342,7 +342,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/space-invaders-school.png)
+![](https://fondinfo.github.io/images/misc/space-invaders-school.png)
 # 3.4 Lista di invasori
 
 - Riusare la classe `Invader` (es. 3.3)
@@ -353,7 +353,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 3.5 Gestione triangoli
 
 - Riusare la classe `Triangle` dell'esercizio 3.1
@@ -365,7 +365,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 3.6 Valori in file
 
 - Leggere tutti i valori contenuti in un file
@@ -374,7 +374,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 3.7 Maiuscole tra asterischi
 
 - Scrivere una funzione che:
@@ -396,7 +396,7 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/misc/gray-squares.svg)
+![](https://fondinfo.github.io/images/misc/gray-squares.svg)
 # 3.8 Ripetizioni di grigifigcaption: Quattro grigi, ripetuti 2 volte
 
 - Chiedere all'utente una sequenza di valori e memorizzarli in una lista
@@ -409,7 +409,7 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/misc/palette-circles.svg)
+![](https://fondinfo.github.io/images/misc/palette-circles.svg)
 # 3.9 Tavolozza di colori
 
 - Leggere da un file una sequenza di colori
@@ -426,7 +426,7 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 4.1 Potenze con ricorsione
 
 - Calcolare la potenza intera di un numero, sfruttando la ricorsione
@@ -466,7 +466,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 4.4 Documenti e cartelle
 
 - Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
@@ -493,7 +493,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 ---
 
-![large](images/fun/sierpinski-carpet.svg)
+![large](https://fondinfo.github.io/images/fun/sierpinski-carpet.svg)
 # 4.6 Sierpinski carpet
 
 - Disegnare un *frattale di Sierpinski*, di ordine `n` (scelto dall'utente)
@@ -528,7 +528,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 4.9 Giro del cavallo (*)
 
 - Su una scacchiera `N×N`, un cavallo parte da una casella d'angolo
@@ -545,7 +545,7 @@ IEEE definisce `0⁰ = 1`, anzichè indeterminato
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 1.1 Hello, user!
@@ -584,7 +584,7 @@ Es. 4.7. Per ogni riga letta, creare un `istringstream` e scorrerlo con un `whil
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # Bubble Bobble
 
 - *Draghetto*: guidato dal giocatore
@@ -621,7 +621,7 @@ elif x1_dragon >= x2_platform - DX:
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 3.1 Classe dei triangoli
@@ -635,7 +635,7 @@ elif x1_dragon >= x2_platform - DX:
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # Bubble Bobble
 
 - *Bolle*
@@ -651,7 +651,7 @@ elif x1_dragon >= x2_platform - DX:
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - **Codice leggibile**
@@ -666,7 +666,7 @@ elif x1_dragon >= x2_platform - DX:
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 4.9 Giro del cavallo, in una classe C++
@@ -687,7 +687,7 @@ elif x1_dragon >= x2_platform - DX:
 
 ---
 
-![](images/misc/hitori.svg) ![](images/misc/hitori-completed.svg)
+![](https://fondinfo.github.io/images/misc/hitori.svg) ![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
 # Hitori
 
 - Regole
@@ -748,7 +748,7 @@ private:
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Interfaccia grafica, opzionale
 
 - Aggiungere una *interfaccia grafica* al progetto
@@ -786,7 +786,7 @@ private:
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Mosse suggerite, opzionali
 
 - Comando per cerchiare automaticamente i numeri attorno alle celle nere

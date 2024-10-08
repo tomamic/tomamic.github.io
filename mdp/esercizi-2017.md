@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2017
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -30,7 +30,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![](images/misc/random-circles.svg)
+![](https://fondinfo.github.io/images/misc/random-circles.svg)
 # 1.3 Cerchi casuali
 
 - Chiedere all'utente un numero `n`
@@ -45,7 +45,7 @@ Cominciare a disegnare un solo cerchio grigio, in posizione casuale
 
 ---
 
-![](images/misc/red-circles.svg)
+![](https://fondinfo.github.io/images/misc/red-circles.svg)
 # 1.4 Cerchi concentrici graduali
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -70,7 +70,7 @@ Per iniziare, inserire l'operazione di disegno un ciclo, togliendo a ogni passo 
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.6 Carattere Unicode
 
 - Chiedere all'utente un numero
@@ -97,7 +97,7 @@ Non c'è input dell'utente
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.8 Massimo e minimo
 
 - Chiedere all'utente, attraverso un ciclo, una sequenza di numeri naturali
@@ -106,7 +106,7 @@ Non c'è input dell'utente
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 1.9 Skyscrapers
 
 - Chiedere all'utente, attraverso un ciclo, una sequenza di numeri naturali
@@ -125,7 +125,7 @@ Da sinistra a destra, quanti “tetti” si vedono? (Nell'esempio: 6)
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 2.1 Percentuale di cifre
 
 - Chiedere una riga di testo all'utente
@@ -137,7 +137,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/gold-price.svg)
+![](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 2.2 Lista di valori
 
 - Chiedere all'utente una sequenza in numeri naturali
@@ -146,7 +146,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/snow-ball.png)
+![](https://fondinfo.github.io/images/misc/snow-ball.png)
 # 2.3 Funzione, densità
 
 - Definire una funzione `sphere_density` per il calcolo della densità di una sfera
@@ -165,7 +165,7 @@ Formule utili: `V = (4/3)πR³ ; ρ = m/V`
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 2.4 Conteggio di singole cifre
 
 - Chiedere una riga di testo all'utente
@@ -181,7 +181,7 @@ Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 2.5 Skyscrapers, da destra
 
 - Chiedere all'utente una sequenza in numeri naturali
@@ -196,7 +196,7 @@ La funzione `reversed` restituisce una sequenza rovesciata
 
 ---
 
-![](images/misc/color-grid.png) ![](images/oop/raster-tile.png)
+![](https://fondinfo.github.io/images/misc/color-grid.png) ![](https://fondinfo.github.io/images/oop/raster-tile.png)
 # 2.6 Griglia di colori
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -225,7 +225,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/oop/border.png)
+![](https://fondinfo.github.io/images/oop/border.png)
 # 2.8 Movimento diagonale
 
 - Partire dall'esempio del rettangolo in moto orizzontale
@@ -242,7 +242,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/oop/border.png)
+![](https://fondinfo.github.io/images/oop/border.png)
 # 2.9 Controllo da tastiera
 
 - Riprendere l'esercizio 2.8
@@ -260,7 +260,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/misc/street-fighter.png)
+![](https://fondinfo.github.io/images/misc/street-fighter.png)
 # 3.1 Animazione di una pallina
 
 - Partire dalla classe `Ball` vista a lezione
@@ -274,7 +274,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/misc/ellipse.svg)
+![](https://fondinfo.github.io/images/misc/ellipse.svg)
 # 3.2 Ellisse
 
 - Classe che modella un'ellisse
@@ -293,7 +293,7 @@ Opzionalmente, nell'inizializzazione: se `a < b`, scambiarne i valori
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 3.3 Maiuscole tra asterischi
 
 - Scrivere una funzione che:
@@ -309,7 +309,7 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 3.4 Configurazioni di simboli
 
 - Scrivere una funzione per generare tutte le configurazioni di lunghezza 3 (*disposizioni con ripetizione*)
@@ -328,7 +328,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/fun/sin-cos.png)
+![](https://fondinfo.github.io/images/fun/sin-cos.png)
 # 3.5 Oscillazione sinusoidale
 
 - Partire dalla classe dell'esercizio 3.1
@@ -354,7 +354,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 3.7 Rimbalzi con gravità
 
 - Ripartire dalla classe `Ball` originale (esempio visto a lezione)
@@ -367,7 +367,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/oop/arrow-keys.jpg) ![](images/oop/wasd-keys.jpg)
+![](https://fondinfo.github.io/images/oop/arrow-keys.jpg) ![](https://fondinfo.github.io/images/oop/wasd-keys.jpg)
 # 3.8 Controllo da tastiera
 
 - Aggiungere alla classe dell'es. 3.7 dei metodi di comando
@@ -383,7 +383,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/oop/jumper.png)
+![](https://fondinfo.github.io/images/oop/jumper.png)
 # 3.9 Jumper
 
 - Modificare la classe dell'es. 3.7
@@ -401,7 +401,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/hist/euclid.jpg)
+![](https://fondinfo.github.io/images/hist/euclid.jpg)
 # 4.1 Massimo Comun Divisore
 
 - Leggere due numeri
@@ -417,7 +417,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 4.2 Arena con gravità
 
 - Partire dall'esempio `bounce`
@@ -431,7 +431,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/sierpinski-triangle.svg)
+![](https://fondinfo.github.io/images/fun/sierpinski-triangle.svg)
 # 4.3 Triangolo di Sierpinski
 
 - Scrivere una funzione ricorsiva per disegnare un triangolo di Sierpinski
@@ -447,7 +447,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 4.4 Configurazioni
 
 - Generare tutte le configurazioni di simboli
@@ -465,7 +465,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 4.5 Donkey Kong: Mario
 
 - Partire dall'esempio `bounce`
@@ -480,7 +480,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 4.6 Donkey Kong: piattaforme
 
 - Partire dall'esercizio 4.5
@@ -493,7 +493,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 4.7 Donkey Kong: salti
 
 - Segnare in un campo se Mario è su una piattaforma
@@ -526,7 +526,7 @@ The Zen of Python
 
 ---
 
-![](images/fun/neighborhood4.png)
+![](https://fondinfo.github.io/images/fun/neighborhood4.png)
 # 5.2 Funzione di smooth
 
 - Scrivere una funzione `smooth`
@@ -565,7 +565,7 @@ The Zen of Python
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 5.4 Profondità albero
 
 - Partire dall'esempio del file system (es. 4.5 del 2014)
@@ -578,7 +578,7 @@ The Zen of Python
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 5.5 Skyscrapers in matrice
 
 - Leggere matrice di numeri da file CSV
@@ -592,7 +592,7 @@ The Zen of Python
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 5.6 Donkey Kong: scale
 
 - Inserire in gioco personaggi immobili, per piattaforme e scale
@@ -604,7 +604,7 @@ The Zen of Python
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 5.7 Donkey Kong: caduta barili
 
 - I barili sono generati casualmente in alto
@@ -621,7 +621,7 @@ The Zen of Python
 
 ---
 
-![](images/oop/personal-data.png)
+![](https://fondinfo.github.io/images/oop/personal-data.png)
 # 6.1 Classe per dati anagrafici
 
 - Creare una classe `Person`, per i dati anagrafici di una persona
@@ -637,7 +637,7 @@ The Zen of Python
 
 ---
 
-![](images/repr/binary-tunnel.jpg)
+![](https://fondinfo.github.io/images/repr/binary-tunnel.jpg)
 # 6.2 Rappresentazione in binario
 
 - Funzione per rappresentare un numero positivo `n` con una stringa binaria (senza zeri iniziali)
@@ -655,7 +655,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/neighborhood8.png)
+![](https://fondinfo.github.io/images/fun/neighborhood8.png)
 # 6.3 Smooth 3x3
 
 - Scrivere una diversa funzione `smooth`
@@ -669,7 +669,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 6.4 Classe per Skyscrapers
 
 - Campo per la matrice quadrata
@@ -685,7 +685,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 6.5 Controllo Skyscrapers
 
 - Metodo boolean `finished`
@@ -708,7 +708,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/anagram.svg)
+![](https://fondinfo.github.io/images/fun/anagram.svg)
 # 6.6 Anagrammi in Python
 
 - Generare tutti gli anagrammi (permutazioni) di una stringa
@@ -720,7 +720,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 6.7 Donkey Kong: fuoco
 
 - Quando i barili arrivano in basso, possono infuocarsi, o uscire dal gioco
@@ -738,7 +738,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Basi del C++
 
 - 1.2
@@ -754,7 +754,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 
 ---
 
-![](images/misc/donkey-kong.png)
+![](https://fondinfo.github.io/images/misc/donkey-kong.png)
 # 7.7 Donkey Kong: fine partita
 
 - Creare una sottoclasse di `Arena` specifica per il gioco di Donkey Kong
@@ -769,7 +769,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi in C++
 
 - 2.5
@@ -788,7 +788,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 8.6 Skyscrapers in C++
 
 - Creare una classe `Skyscrapers`
@@ -804,7 +804,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # 8.7 Donkey Kong: “bella copia”
 
 - **Codice leggibile**
@@ -823,7 +823,7 @@ Esercizi già assegnati in Python, da ripetere in C++
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi in C++
 
 - 4.4
@@ -866,7 +866,7 @@ Usare la ricorsione -- Simile ad es. 5.7 del 2011, su Github
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # 9.6 Skyscrapers: GUI
 
 - Caricare la partita da file (CSV)
@@ -882,7 +882,7 @@ Usare la ricorsione -- Simile ad es. 5.7 del 2011, su Github
 
 ---
 
-![](images/fun/goat-cabbage.svg)
+![](https://fondinfo.github.io/images/fun/goat-cabbage.svg)
 # 9.7 Capra e cavoli, in Python
 
 - Risolvere con il *backtracking*
@@ -900,7 +900,7 @@ Usare la ricorsione -- Simile ad es. 5.7 del 2011, su Github
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi in C++
 
 - 3.1 del 2014
@@ -917,7 +917,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/qt/mainwindow.png)
+![](https://fondinfo.github.io/images/qt/mainwindow.png)
 # 10.6 Finestra principale
 
 - Inserire la tabella di gioco in una finestra principale, con un menù
@@ -929,7 +929,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 10.7 Mossa suggerita (unicità)
 
 - Se in una riga o colonna manca un solo valore, inserirlo
@@ -938,7 +938,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/misc/skyscrapers.jpg)
+![](https://fondinfo.github.io/images/misc/skyscrapers.jpg)
 # 10.8 Mossa suggerita (vincoli)
 
 - Vincolo massimo -> inserire i valori in ordine crescente
@@ -952,7 +952,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # 11.1 Vicolo cieco
 
 - Aggiungere un metodo booleano `wrong_marks` al puzzle, per verificare una condizione di vicolo cieco
@@ -963,7 +963,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 🥷 11.2 Ulteriori suggerimenti
 
 - Provare tutte le possibili permutazioni su una riga o colonna
@@ -979,7 +979,7 @@ auto copy1 = *this; copy1.board_[y][x] = some_val; // ...
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 🥷 11.3 Ulteriori suggerimenti
 
 - Provare tutte le possibili permutazioni su una riga o colonna
@@ -989,7 +989,7 @@ auto copy1 = *this; copy1.board_[y][x] = some_val; // ...
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 🥷 11.4 Soluzione ricorsiva
 
 ``` cpp

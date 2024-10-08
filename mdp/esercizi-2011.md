@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2011
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/greek-pi.png)
+![](https://fondinfo.github.io/images/misc/greek-pi.png)
 # 1.1 Cerchio
 
 - Chiedere all'utente il valore del raggio `r` di un cerchio
@@ -20,7 +20,7 @@ Definire una costante `PI = 3.14159`
 
 ---
 
-![](images/misc/three-brothers.png)
+![](https://fondinfo.github.io/images/misc/three-brothers.png)
 # 1.2 Condizioni
 
 - Chiedere all'utente tre numeri interi: `a`, `b`, `c`
@@ -32,7 +32,7 @@ Controllare prima di tutto se `a` è minore degli altri due, altrimenti controll
 
 ---
 
-![](images/misc/rock-cubes.png)
+![](https://fondinfo.github.io/images/misc/rock-cubes.png)
 # 1.3 Cubi, ciclo
 
 - Leggere, attraverso un ciclo, una sequenza di numeri
@@ -45,7 +45,7 @@ Provare a usare sia il ciclo while che il ciclo do-while
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.4 Caratteri ASCII
 
 - Leggere un carattere
@@ -57,7 +57,7 @@ ma simboli tra apici singoli (`'a'`, `'z'` ecc.)
 
 ---
 
-![](images/misc/calculator.png)
+![](https://fondinfo.github.io/images/misc/calculator.png)
 # 1.5 Aritmetica
 
 - Chiedere all'utente due valori interi `a`, `b`
@@ -74,7 +74,7 @@ Ripetere le prime 4 operazioni usando dei `float`
 
 ---
 
-![](images/misc/measure-tape.png)
+![](https://fondinfo.github.io/images/misc/measure-tape.png)
 # 1.6 Lunghezza parole
 
 - Leggere una sequenza di parole, attraverso un ciclo,
@@ -106,7 +106,7 @@ Memorizzare in una variabile il risultato parziale, a ogni ciclo, moltiplicarla 
 
 ---
 
-![](images/misc/thermometer.png)
+![](https://fondinfo.github.io/images/misc/thermometer.png)
 # 2.1 Conversione gradi
 
 - Visualizzare la tabella di conversione tra gradi centigradi e Fahrenheit
@@ -161,7 +161,7 @@ Attenzione: indice da 0 a `size-1`
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 2.4 Lancio dadi
 
 - Due giocatori lanciano un dado a testa
@@ -178,7 +178,7 @@ Librerie: `<cstdlib>`, `<ctime>`
 
 ---
 
-![](images/misc/uncle-scrooge.png)
+![](https://fondinfo.github.io/images/misc/uncle-scrooge.png)
 # 2.5 Interesse composto
 
 - Calcolare l'interesse composto di un certo capitale a un certo tasso d'interesse, per un certo numero di anni (dati dall'utente)
@@ -196,7 +196,7 @@ Anni  Capitale
 
 ---
 
-![](images/misc/typewriter-caps-lock.png)
+![](https://fondinfo.github.io/images/misc/typewriter-caps-lock.png)
 # 2.6 Maiuscolo
 
 - Leggere un testo da tastiera
@@ -212,7 +212,7 @@ Segnare in un bool se l'ultimo char scritto è un trattino
 
 ---
 
-![](images/misc/censorship.jpg)
+![](https://fondinfo.github.io/images/misc/censorship.jpg)
 # 2.7 Filtro caratteri
 
 - Leggere da tastiera una riga di testo
@@ -233,7 +233,7 @@ Stampare quindi il carattere stesso, oppure una '`X`'
 
 ---
 
-![](images/misc/delete-key.png)
+![](https://fondinfo.github.io/images/misc/delete-key.png)
 # 3.1 File, parentesi
 
 - Leggere da file un carattere alla volta
@@ -248,7 +248,7 @@ Se necessario, provare prima a leggere i caratteri da console
 
 ---
 
-![](images/fun/sin-cos.png)
+![](https://fondinfo.github.io/images/fun/sin-cos.png)
 # 3.2 Array, precalcolo
 
 - Riempire un array con i valori di `sin(x)`
@@ -275,7 +275,7 @@ Invece il vettore richiede indici tra `0` e `n-1`
 
 ---
 
-![](images/misc/memory.png)
+![](https://fondinfo.github.io/images/misc/memory.png)
 # 3.4 Matrice, coppie
 
 - Allocare una matrice, dimensione `rows×cols`
@@ -290,7 +290,7 @@ Invece il vettore richiede indici tra `0` e `n-1`
 
 ---
 
-![](images/misc/interpolation.svg)
+![](https://fondinfo.github.io/images/misc/interpolation.svg)
 # 3.5 Interpolazione
 
 - Leggere da un file una serie di numeri reali e memorizzarli in un vettore
@@ -301,7 +301,7 @@ Invece il vettore richiede indici tra `0` e `n-1`
 
 ---
 
-![](images/misc/video-game-score.jpg)
+![](https://fondinfo.github.io/images/misc/video-game-score.jpg)
 # 3.6 Map, record personali
 
 - Leggere da un file la lista di record personali di un gioco, memorizzati in ordine arbitrario
@@ -319,7 +319,7 @@ Usare una `map`
 
 ---
 
-![large](images/misc/data-table.png)
+![large](https://fondinfo.github.io/images/misc/data-table.png)
 # 3.7 Dati su più colonne
 
 - Visualizzare la tabella di conversione °C/°F
@@ -341,7 +341,7 @@ Bastano due cicli for annidati, senza array
 
 ---
 
-![](images/misc/pythagorean-theorem.png)
+![](https://fondinfo.github.io/images/misc/pythagorean-theorem.png)
 # 4.1 Funzione, ipotenusa
 
 - Scrivere una funzione per il calcolo dell'ipotenusa di un triangolo rettangolo
@@ -366,7 +366,7 @@ Bastano due cicli for annidati, senza array
 
 ---
 
-![](images/misc/trigonometry.svg)
+![](https://fondinfo.github.io/images/misc/trigonometry.svg)
 # 4.3 Coordinate polari
 
 - Aggiungere alla classe dell'esercizio precedente...
@@ -396,7 +396,7 @@ Memorizzare internamente solo le coordinate cartesiane
 
 ---
 
-![](images/misc/risk-board-game.png)
+![](https://fondinfo.github.io/images/misc/risk-board-game.png)
 # 4.5 Lancio dadi
 
 - Come es. 2.4, ma a ogni giocata l'attaccante (A) lancia 3 dadi, il difensore (D) 2 dadi
@@ -412,7 +412,7 @@ Ripetere l'esperimento con diversi numeri di dadi
 
 ---
 
-![](images/misc/memory.png)
+![](https://fondinfo.github.io/images/misc/memory.png)
 # 4.6 Classe, coppie
 
 - Classe per incapsulare le funzionalità dell'es. 3.4
@@ -426,7 +426,7 @@ Ripetere l'esperimento con diversi numeri di dadi
 
 ---
 
-![](images/misc/zigzag.png)
+![](https://fondinfo.github.io/images/misc/zigzag.png)
 # 4.7 Zig zag
 
 - Scrivere una funzione per riempire di numeri crescenti una matrice
@@ -445,7 +445,7 @@ Avanzare fino al bordo, poi invertire la direzione
 
 ---
 
-![](images/misc/memory.png)
+![](https://fondinfo.github.io/images/misc/memory.png)
 # 5.1 Classe, trova le coppie
 
 - Aggiungere alla classe dell'es. 4.6...
@@ -465,7 +465,7 @@ Oppure distinguere maiuscole e minuscole...
 
 ---
 
-![](images/misc/sqrt-bisection.png)
+![](https://fondinfo.github.io/images/misc/sqrt-bisection.png)
 # 5.2 Bisezione, sqrt
 
 - Scrivere una nuova funzione `sqrt`
@@ -481,7 +481,7 @@ Oppure distinguere maiuscole e minuscole...
 
 ---
 
-![](images/misc/sqrt-bisection.png)
+![](https://fondinfo.github.io/images/misc/sqrt-bisection.png)
 # 5.3 Ricorsione, sqrt
 
 - Implementazione ricorsiva della funzione `sqrt`, con il metodo della bisezione (come esercizio 5.2)
@@ -564,7 +564,7 @@ Supporre che i “token” siano tutti separati da spazio e che gli operatori ab
 
 ---
 
-![](images/misc/akari.svg)
+![](https://fondinfo.github.io/images/misc/akari.svg)
 # “Akari” - Light up
 
 - Scopo: disporre delle lampade (cerchi), fino a illuminare tutte le celle
@@ -617,7 +617,7 @@ private:
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Akari - Gui
 
 - Aggiungere una **interfaccia grafica** al progetto
@@ -635,7 +635,7 @@ Sono fornite due classi per gestire anche i click con il tasto destro del mouse 
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - Codice leggibile e ben organizzato
@@ -654,7 +654,7 @@ Sono fornite due classi per gestire anche i click con il tasto destro del mouse 
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Mosse suggerite
 
 - Metodo che calcola e suggerisce una mossa
@@ -668,7 +668,7 @@ Sono fornite due classi per gestire anche i click con il tasto destro del mouse 
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Estensioni opzionali
 
 - Suggerire mosse più difficili
@@ -707,7 +707,7 @@ void AkariPuzzle::solveCuldesac(int y, int x) {
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Enumerare tutte le soluzioni
 
 ``` cpp
@@ -746,7 +746,7 @@ void AkariPuzzle::solveRecursive(int i) {
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # Frogger - Strada
 
 - **Rana**: guidata dall'utente in 4 direzioni: ↕ ↔

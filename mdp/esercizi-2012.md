@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2012
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -18,7 +18,7 @@
 
 ---
 
-![](images/misc/snow-ball.png)
+![](https://fondinfo.github.io/images/misc/snow-ball.png)
 # 1.2 Sfera
 
 - Chiedere all'utente il raggio di una sfera e la sua densità (in Kg/m³)
@@ -34,7 +34,7 @@ Formule utili: V = (4/3)πR³ ; S = 4πR²
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.3 Caratteri ASCII
 
 - Leggere un carattere
@@ -49,7 +49,7 @@ La distanza di una lettera minuscola dalla corrispondente maiuscola è una costa
 
 ---
 
-![](images/misc/resistors.png)
+![](https://fondinfo.github.io/images/misc/resistors.png)
 # 1.4 Resistenze, ciclo
 
 - Leggere, attraverso un ciclo, una sequenza di valori di resistenze elettriche
@@ -66,7 +66,7 @@ Rₛ = ∑ Rᵢ
 
 ---
 
-![](images/misc/three-brothers.png)
+![](https://fondinfo.github.io/images/misc/three-brothers.png)
 # 1.5 Minore e maggiore
 
 - Chiedere all'utente tre numeri interi: `a`, `b`, `c`
@@ -83,7 +83,7 @@ Altrimenti ...
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.6 Massimo e minimo
 
 - Leggere, attraverso un ciclo, una sequenza di numeri interi
@@ -92,7 +92,7 @@ Altrimenti ...
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.7 Chiusura stream
 
 - Leggere, attraverso un ciclo, una sequenza di numeri interi
@@ -113,7 +113,7 @@ L'utente chiude lo stream della console premendo:
 
 ---
 
-![](images/misc/measure-tape.png)
+![](https://fondinfo.github.io/images/misc/measure-tape.png)
 # 2.1 Lunghezza parole
 
 - Leggere una sequenza di parole, attraverso un ciclo
@@ -122,7 +122,7 @@ L'utente chiude lo stream della console premendo:
 
 ---
 
-![](images/misc/countdown.png)
+![](https://fondinfo.github.io/images/misc/countdown.png)
 # 2.2 Conteggio a ritroso
 
 - Leggere un numero positivo `n`
@@ -148,7 +148,7 @@ Poi racchiudere tutto in un ciclo for esterno, per variare `y`:
 
 ---
 
-![](images/repr/finger-counting.png)
+![](https://fondinfo.github.io/images/repr/finger-counting.png)
 # 2.3 Conteggio spazi
 
 - Leggere una riga di testo
@@ -157,7 +157,7 @@ Poi racchiudere tutto in un ciclo for esterno, per variare `y`:
 
 ---
 
-![](images/misc/search.png)
+![](https://fondinfo.github.io/images/misc/search.png)
 # 2.4 Parentesi
 
 - Leggere una riga di testo
@@ -171,7 +171,7 @@ Segnare in una variabile booleana se si è all'interno delle parentesi
 
 ---
 
-![](images/misc/three-cards.png)
+![](https://fondinfo.github.io/images/misc/three-cards.png)
 # 2.5 Tre carte
 
 - All'inizio l'utente ha 10 monete
@@ -184,7 +184,7 @@ Segnare in una variabile booleana se si è all'interno delle parentesi
 
 ---
 
-![](images/misc/wall-calendar.png)
+![](https://fondinfo.github.io/images/misc/wall-calendar.png)
 # 2.6 Calendario a muro
 
 - L'utente inserisce:
@@ -202,7 +202,7 @@ Si può sfruttare l'operatore `%` (resto della divisione)
 
 ---
 
-![](images/misc/calendar-rows.jpg)
+![](https://fondinfo.github.io/images/misc/calendar-rows.jpg)
 # 2.7 Calendario da tavolo
 
 - L'utente inserisce:
@@ -222,7 +222,7 @@ Procedere sempre una riga alla volta (come macchina da scrivere)
 
 ---
 
-![](images/misc/delete-key.png)
+![](https://fondinfo.github.io/images/misc/delete-key.png)
 # 3.1 Righe su file
 
 - Leggere testo da console, una riga alla volta
@@ -244,7 +244,7 @@ Memorizzare tutti i valori utili in una lista
 
 ---
 
-![](images/misc/agenda.svg)
+![](https://fondinfo.github.io/images/misc/agenda.svg)
 # 3.3 Agenda
 
 - Gestire una agenda per la giornata corrente (per ogni ora ci può essere una sola attività)
@@ -259,7 +259,7 @@ Usare una lista di 24 stringhe
 
 ---
 
-![](images/misc/agenda.svg)
+![](https://fondinfo.github.io/images/misc/agenda.svg)
 # 3.4 Agenda su file
 
 - In aggiunta all'esercizio precedente...
@@ -285,7 +285,7 @@ Mescolamento: per ogni cella, scegliere casualmente una nuova posizione; scambia
 
 ---
 
-![](images/misc/birthday.png)
+![](https://fondinfo.github.io/images/misc/birthday.png)
 # 3.6 Compleanni
 
 - Un file elenca i compleanni degli amici. Ogni riga contiene:
@@ -297,7 +297,7 @@ Mescolamento: per ogni cella, scegliere casualmente una nuova posizione; scambia
 
 ---
 
-![](images/misc/calendar-cols.jpg)
+![](https://fondinfo.github.io/images/misc/calendar-cols.jpg)
 # 3.7 Calendario trasposto
 
 - L'utente inserisce:
@@ -321,7 +321,7 @@ Bastano due cicli for annidati, senza liste
 
 ---
 
-![](images/misc/heater.png)
+![](https://fondinfo.github.io/images/misc/heater.png)
 # 4.1 Funzione, potenza dissipata
 
 - Scrivere una funzione per calcolare la potenza dissipata da un resistore
@@ -349,7 +349,7 @@ Tenere l'uso della console per I/O fuori dalla classe!
 
 ---
 
-![](images/misc/battleship.png)
+![](https://fondinfo.github.io/images/misc/battleship.png)
 # 4.3 Battaglia navale
 
 - Allocare una matrice `rows×cols` (dimensioni scelte dall'utente)
@@ -376,7 +376,7 @@ Si può usare una lista come pseudo-matrice, oppure una lista di liste
 
 ---
 
-![](images/misc/spiral.png)
+![](https://fondinfo.github.io/images/misc/spiral.png)
 # 4.5 Spirale
 
 - Scrivere una funzione per riempire di numeri crescenti una matrice quadrata (o rettangolare)
@@ -416,7 +416,7 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
 
 ---
 
-![](images/misc/battleship.png)
+![](https://fondinfo.github.io/images/misc/battleship.png)
 # 5.1 Battaglia in classe
 
 - Classe per incapsulare le funzionalità dell'es. 4.3
@@ -427,7 +427,7 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
 
 ---
 
-![](images/misc/cubic-function.png)
+![](https://fondinfo.github.io/images/misc/cubic-function.png)
 # 5.2 Bisezione, iterazione
 
 - Trovare lo zero di una funzione
@@ -443,7 +443,7 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
 
 ---
 
-![](images/misc/cubic-function.png)
+![](https://fondinfo.github.io/images/misc/cubic-function.png)
 # 5.3 Bisezione, ricorsione
 
 - Trovare lo zero della seguente funzione matematica
@@ -481,7 +481,7 @@ Usare il metodo `sort` delle liste, sfruttando il parametro `key` <br>
 
 ---
 
-![](images/misc/battleship.png)
+![](https://fondinfo.github.io/images/misc/battleship.png)
 # 5.6 Navi ben poste
 
 - Aggiungere all'es. 5.1...
@@ -496,7 +496,7 @@ Altrimenti basta contare le celle libere prima di riempirle
 
 ---
 
-![](images/misc/shining-maze.jpg)
+![](https://fondinfo.github.io/images/misc/shining-maze.jpg)
 # 5.7 Labirinto
 
 - Leggere da file un labirinto, con muri, punto di partenza e punto di arrivo
@@ -526,7 +526,7 @@ Es. Avanzare seguendo il muro alla propria sinistra
 
 ---
 
-![](images/misc/othello.png)
+![](https://fondinfo.github.io/images/misc/othello.png)
 # Othello
 
 - Due giocatori, bianco e nero
@@ -579,7 +579,7 @@ private:
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Othello - GUI
 
 - Aggiungere una **interfaccia grafica** al progetto
@@ -612,7 +612,7 @@ private:
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - Codice leggibile e ben organizzato
@@ -627,7 +627,7 @@ private:
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Estensioni opzionali
 
 - Suggerire / giocare mossa migliore
@@ -682,7 +682,7 @@ int Othello::minimax(int depth) {
 
 ---
 
-![](images/misc/invaders.png)
+![](https://fondinfo.github.io/images/misc/invaders.png)
 # Space invaders
 
 - **Cannone**: guidato dall'utente

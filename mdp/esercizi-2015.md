@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2015
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -41,7 +41,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.4 Carattere Unicode
 
 - Chiedere all'utente un numero
@@ -98,7 +98,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
 
 ---
 
-![](images/fun/fib-rabbits.png)
+![](https://fondinfo.github.io/images/fun/fib-rabbits.png)
 # 1.8 Fibonacci
 
 - Successione di Fibonacci
@@ -115,7 +115,7 @@ Ispirato da: <https://projecteuler.net/problem=2>
 
 ---
 
-![](images/misc/monster.png)
+![](https://fondinfo.github.io/images/misc/monster.png)
 # 1.9 La stanza del mostro
 
 - Il giocatore si muove su una scacchiera di 5x5 celle, partendo da un angolo
@@ -139,7 +139,7 @@ monster_y = randrange(5)  # something between 0 and 4
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 2.1 Conteggio di cifre
 
 - Chiedere una riga di testo all'utente
@@ -151,7 +151,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 2.2 Conteggio di singole cifre
 
 - Chiedere una riga di testo all'utente
@@ -167,7 +167,7 @@ Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
-![](images/misc/pythagorean-theorem.png)
+![](https://fondinfo.github.io/images/misc/pythagorean-theorem.png)
 # 2.3 Funzione, ipotenusa
 
 - Scrivere una funzione per il calcolo dell'ipotenusa di un triangolo rettangolo
@@ -184,7 +184,7 @@ Attenzione alla distinzione tra il tipo `str` e il tipo `int`!
 
 ---
 
-![](images/misc/red-circles.svg)
+![](https://fondinfo.github.io/images/misc/red-circles.svg)
 # 2.4 Cerchi concentrici
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -203,7 +203,7 @@ Infine, determinare automaticamente, prima del ciclo, le variazioni migliori per
 
 ---
 
-![](images/misc/color-grid.svg) ![](images/oop/raster-tile.png)
+![](https://fondinfo.github.io/images/misc/color-grid.svg) ![](https://fondinfo.github.io/images/oop/raster-tile.png)
 # 2.5 Griglia di colori
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -220,7 +220,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 2.6 Istogramma
 
 - Chiedere all'utente una lista di valori positivi
@@ -231,7 +231,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 2.7 Istogramma in grigio
 
 - Chiedere all'utente una lista di valori positivi
@@ -243,7 +243,7 @@ Lasciare tra i riquadri un piccolo margine
 
 ---
 
-![large](images/repr/ascii.svg)
+![large](https://fondinfo.github.io/images/repr/ascii.svg)
 # 2.8 ASCII su più colonne
 
 - Visualizzare la tabella dei codici ASCII
@@ -264,7 +264,7 @@ Bastano due cicli for annidati, senza liste
 
 ---
 
-![](images/hist/eratostenes.jpg)
+![](https://fondinfo.github.io/images/hist/eratostenes.jpg)
 # 2.9 Crivello di Eratostene
 
 - Trovare tutti i numeri primi fino a `n`, scelto dall'utente
@@ -284,7 +284,7 @@ Usare una lista di `int` è problematico e inefficiente
 
 ---
 
-![](images/misc/holly-benji.jpg)
+![](https://fondinfo.github.io/images/misc/holly-benji.jpg)
 # 3.1 Classe dei calciatori
 
 - Scrivere una classe `SoccerPlayer` per rappresentare dei calciatori
@@ -303,7 +303,7 @@ Distinguere bene campi dell'oggetto, parametri dei metodi, variabili esterne
 
 ---
 
-![](images/misc/holly-benji.jpg)
+![](https://fondinfo.github.io/images/misc/holly-benji.jpg)
 # 3.2 Squadra di calcio
 
 - Creare una lista di calciatori (oggetti es. 3.1)
@@ -320,7 +320,7 @@ Aggiungere un metodo `name`, per ottenere il nome completo
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 3.3 Movimento ciclico
 
 - Partire dal classico ciclo di una applicazione *PyGame*
@@ -334,7 +334,7 @@ Aggiungere un metodo `name`, per ottenere il nome completo
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 3.4 Classe delle macchine
 
 - Creare una classe `Car`, che contenga la posizione e la direzione di una macchina
@@ -351,7 +351,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 3.5 Lista di macchine
 
 - Riusare la classe `Car` (es. 3.4)
@@ -361,7 +361,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 3.6 Valori in file
 
 - Leggere tutti i valori contenuti in un file
@@ -370,7 +370,7 @@ Definire nella classe delle opportune costanti
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 3.7 Istogramma da file
 
 - Mostrare in un istogramma tutti i valori riportati in un file
@@ -387,7 +387,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/misc/holly-benji.jpg)
+![](https://fondinfo.github.io/images/misc/holly-benji.jpg)
 # 3.8 Classe delle squadre
 
 - Creare una classe per rappresentare una squadra di calcio
@@ -399,7 +399,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/misc/palette-circles.svg)
+![](https://fondinfo.github.io/images/misc/palette-circles.svg)
 # 3.9 Tavolozza di colori
 
 - Leggere da un file una sequenza di colori
@@ -416,7 +416,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 4.1 Stringhe rovesciate, con ricorsione
 
 - Rovesciare una stringa, sfruttando la ricorsione
@@ -440,7 +440,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 4.3 Attori astratti
 
 - Definire una classe base `Actor`
@@ -453,7 +453,7 @@ In questo modo, sarà noto il numero di barre verticali e lo spazio disponibile 
 
 ---
 
-![](images/fun/htree.png)
+![](https://fondinfo.github.io/images/fun/htree.png)
 # 4.4 Albero di H
 
 - Disegnare ricorsivamente un *H-Tree*
@@ -503,7 +503,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 4.7 Documenti e cartelle
 
 - Un sistema gerarchico di gestione documenti è composto di due tipi di *nodi* (classe base)
@@ -516,7 +516,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 4.8 Ultimo aggiornamento
 
 - Aggiungere a tutti i *nodi* (es. 4.7) un metodo `updated`, che riporta la data dell'ultima modifica
@@ -530,7 +530,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/misc/cindy1.png) ![](images/misc/cindy2.png)
+![](https://fondinfo.github.io/images/misc/cindy1.png) ![](https://fondinfo.github.io/images/misc/cindy2.png)
 # 4.9 Puzzle di Cindy
 
 - Piano di gioco: `2n+1` celle allineate
@@ -564,7 +564,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # Pac-Man - Personaggi
 
 - *Pac-Man*
@@ -599,7 +599,7 @@ Nell'esempio, sommare: `8 + 12 + 7`
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 1.1 Hello, user!
@@ -620,7 +620,7 @@ Es. 2.2 Indice contatore per una cifra `val` (di tipo `char`): `val - '0'`
 
 ---
 
-![](images/misc/pacman-scatter.png)
+![](https://fondinfo.github.io/images/misc/pacman-scatter.png)
 # Pac-Man
 
 - Distinguere tre comportamenti dei fantasmi (i primi due, alternati)
@@ -654,7 +654,7 @@ Es. 2.2 Indice contatore per una cifra `val` (di tipo `char`): `val - '0'`
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 2.5 Griglia di colori
@@ -675,7 +675,7 @@ Es. 4.3 Gioco a console - Partire dagli esempi `fifteen` in C++, `tictactoe` in 
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # Pac-Man
 
 - *Secondo Pac-Man*
@@ -685,7 +685,7 @@ Es. 4.3 Gioco a console - Partire dagli esempi `fifteen` in C++, `tictactoe` in 
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - **Codice leggibile**
@@ -713,7 +713,7 @@ Es. 4.3 Gioco a console - Partire dagli esempi `fifteen` in C++, `tictactoe` in 
 
 ---
 
-![](images/misc/slitherlink.png)
+![](https://fondinfo.github.io/images/misc/slitherlink.png)
 # Slitherlink
 
 - Regole
@@ -729,7 +729,7 @@ Es. 4.3 Gioco a console - Partire dagli esempi `fifteen` in C++, `tictactoe` in 
 
 ---
 
-![](images/misc/slitherlink-solved.png)
+![](https://fondinfo.github.io/images/misc/slitherlink-solved.png)
 # Slitherlink
 
 - A ogni mossa, permettere all'utente di scegliere una posizione dove:
@@ -784,7 +784,7 @@ private:  // ...
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Funzionamento a console e gui
 
 - Aggiungere una *interfaccia grafica* al progetto
@@ -800,7 +800,7 @@ private:  // ...
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Mossa suggerita
 
 - Comando per completare automaticamente un incrocio (`+`):
@@ -816,7 +816,7 @@ Autocompletamento su richiesta dell'utente (es. click su cella, o menù)
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # Vicolo cieco (opzionale)
 
 - Aggiungere un metodo booleano `wrong` al puzzle, per verificare una condizione di vicolo cieco

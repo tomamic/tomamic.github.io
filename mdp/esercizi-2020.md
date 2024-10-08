@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2020
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![large](images/algo/holy-grail.jpg)
+![large](https://fondinfo.github.io/images/algo/holy-grail.jpg)
 # 1.1 The Bridge of Death
 
 - Porre tre domande all'utente:
@@ -26,7 +26,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.2 Equazione di secondo grado
 
 - Chiedere all'utente i tre coefficienti `a, b, c` di una equazione di secondo grado
@@ -42,7 +42,7 @@ Non è richiesto il valore delle soluzioni
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.3 Equazione di 2° grado, con ciclo
 
 - Riprendere l'esercizio 1.2
@@ -57,7 +57,7 @@ Usare la funzione `sqrt` del modulo `math`
 
 ---
 
-![](images/misc/red-circles.svg)
+![](https://fondinfo.github.io/images/misc/red-circles.svg)
 # 1.4 Cerchi concentrici graduali
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -105,7 +105,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.8 Massimo dispari
 
 - Leggere, attraverso un ciclo, una sequenza di numeri naturali
@@ -114,7 +114,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![](images/misc/three-cards.png)
+![](https://fondinfo.github.io/images/misc/three-cards.png)
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
@@ -132,7 +132,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 2.1 Funzione, Erone
 
 - Definire una funzione `heron` per il calcolo dell'area di un triangolo
@@ -155,7 +155,7 @@ Con `s = (a+b+c) / 2`, semiperimetro
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 2.2 Classe dei triangoli
 
 - Scrivere una classe `Triangle` per rappresentare dei triangoli
@@ -193,7 +193,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-triangle.svg)
+![](https://fondinfo.github.io/images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -216,7 +216,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 2.6 Pallina con gravità
 
 - Creare una classe `FallingBall`
@@ -230,7 +230,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/oop/wasd-keys.jpg)
+![](https://fondinfo.github.io/images/oop/wasd-keys.jpg)
 # 2.7 Controllo da tastiera
 
 - Partire dall'esempio dell'animazione orizzontale, senza classi
@@ -241,7 +241,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/repr/finger-counting.png)
+![](https://fondinfo.github.io/images/repr/finger-counting.png)
 # 2.8 Pallina con controlli
 
 - Creare una classe `HeroBall`
@@ -253,7 +253,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-tree.svg)
+![](https://fondinfo.github.io/images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -268,7 +268,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 3.1 Conteggio cifre
 
 - Chiedere una riga di testo all'utente
@@ -286,7 +286,7 @@ I caratteri si possono confrontare con `<=`
 
 ---
 
-![](images/oop/anim-bounce.png)
+![](https://fondinfo.github.io/images/oop/anim-bounce.png)
 # 3.2 Pallina con colore
 
 - Partire dalla prima classe `Ball`, vista a lezione
@@ -307,7 +307,7 @@ I caratteri si possono confrontare con `<=`
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 3.4 Conteggio cifre distinte
 
 - Chiedere una riga di testo all'utente
@@ -323,7 +323,7 @@ Usare una lista di 10 elementi per tenere i conteggi
 
 ---
 
-![](images/misc/random-circles.svg)
+![](https://fondinfo.github.io/images/misc/random-circles.svg)
 # 3.5 Tiro al bersaglio
 
 - Definire una classe `TargetShooting`
@@ -342,7 +342,7 @@ Campo di gioco di 600x600 pixel; non è richiesta rappresentazione grafica
 
 ---
 
-![](images/misc/bubble-bobble.png) ![](images/oop/jumper.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png) ![](https://fondinfo.github.io/images/oop/jumper.png)
 # 3.6 Bubble Bobble, draghetto [P1]
 
 - Ridenominare come `Dragon` la classe `Turtle` dell'esempio `bounce`
@@ -360,7 +360,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 3.7 Bubble Bobble, animazione [P1]
 
 - Cambiare il file con le icone dei personaggi
@@ -381,7 +381,7 @@ Il progetto Bubble Bobble *[P1]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/slope.svg) y = m·x + q
+![](https://fondinfo.github.io/images/misc/slope.svg) y = m·x + q
 # 4.1 Segmento e retta
 
 - Definire *funzione* `slope` per una retta
@@ -402,7 +402,7 @@ Nota `m`, `q` si ottiene da `y1 = m·x1 + q`
 
 ---
 
-![](images/misc/slope.svg) y = m·x + b
+![](https://fondinfo.github.io/images/misc/slope.svg) y = m·x + b
 # 4.2 Classe dei segmenti
 
 - Definire una classe dei segmenti
@@ -447,7 +447,7 @@ Nota `m`, `q` si ottiene da `y1 = m·x1 + q`
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 4.5 Configurazioni di simboli
 
 - Scrivere una funzione per generare tutte le configurazioni di lunghezza 3 (*disposizioni con ripetizione*)
@@ -466,7 +466,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/misc/high-scores.png)
+![](https://fondinfo.github.io/images/misc/high-scores.png)
 # 4.6 High scores
 
 - Definire una classe `HighScores`
@@ -483,7 +483,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 4.7 Bubble Bobble, piattaforme [P1]
 
 - Se urta una piattaforma, il draghetto viene fermato sopra di essa
@@ -498,7 +498,7 @@ Configurazione: `str` con i 3 simboli correnti
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 5.1 Massimo valore, con ricorsione
 
 - Definire una funzione ricorsiva `max_char`
@@ -536,7 +536,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/fun/sierpinski-triangle.svg)
+![](https://fondinfo.github.io/images/fun/sierpinski-triangle.svg)
 # 5.3 Triangolo di Sierpinski
 
 - Disegnare su un'area rettangolare: `x`, `y`, `w`, `h`
@@ -556,7 +556,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/random-walk.svg)
+![](https://fondinfo.github.io/images/misc/random-walk.svg)
 # 5.4 Passeggiata casuale
 
 - Chiedere all'utente un numero `n`
@@ -588,7 +588,7 @@ Ciascun elemento nella lista è un contatore, per una delle direzioni
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 5.6 Bubble Bobble, piattaforme [P1]
 
 - Il draghetto atterra sulle piattaforme, dall'alto
@@ -609,7 +609,7 @@ elif x1_dragon >= x2_platform - margin:
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 5.7 Bubble Bobble, avversari [P1]
 
 - Gli avversari si muovono come il draghetto
@@ -627,7 +627,7 @@ Eventualmente, draghetto e avversari possono estendere una classe base comune, c
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 6.1 Potenze con ricorsione
 
 - Calcolare la potenza intera di un numero, sfruttando la ricorsione
@@ -662,7 +662,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/random-walk.svg)
+![](https://fondinfo.github.io/images/misc/random-walk.svg)
 # 6.3 Punti tra loro più distanti
 
 - Leggere i dati dal file generato nell'esercizio 5.4
@@ -673,7 +673,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/koch-curve.svg)
+![](https://fondinfo.github.io/images/fun/koch-curve.svg)
 # 6.4 Curva di Koch
 
 - Scrivere una funzione ricorsiva `koch_curve`
@@ -690,7 +690,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 6.5 Documento più grande
 
 - Partire dall'es. 4.5 del 2014: file system
@@ -705,7 +705,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 6.6 Bubble Bobble, bolle [P1]
 
 - Il draghetto lancia bolle in orizzontale
@@ -717,7 +717,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 6.7 3-in-a-row, regole [P2]
 
 - Regole
@@ -736,7 +736,7 @@ Il progetto 3-in-a-row *[P2]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 6.7 3-in-a-row, inizio [P2]
 
 - Classe che incapsula lo stato del gioco
@@ -759,7 +759,7 @@ Gestire i click e il testo sui bottoni (opzionalmente, colori)
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 7.1 Prodotto con ricorsione
 
 - Calcolare il prodotto di tutti i numeri di una lista, sfruttando la ricorsione
@@ -800,7 +800,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/fractal-tree.png)
+![](https://fondinfo.github.io/images/fun/fractal-tree.png)
 # 7.4 Albero ricorsivo
 
 - Funzione ricorsiva per disegnare un albero
@@ -866,7 +866,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 7.8 3-in-a-row, conclusione [P2]
 
 - Nel metodo `finished`, controllare le regole
@@ -882,7 +882,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # ⭐ 8.1 Progetti in bella copia
 
 - **Codice leggibile**
@@ -897,7 +897,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 8.2 Bubble Bobble, estensioni [P1]
 
 - *Secondo draghetto*
@@ -907,7 +907,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 8.3 3-in-a-row, caricamento [P2]
 
 - Nell'inizializzazione, leggere la matrice di numeri da un file (*parametro*)
@@ -916,7 +916,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/bubble-bobble.png)
+![](https://fondinfo.github.io/images/misc/bubble-bobble.png)
 # 8.4 Bubble Bobble, test [P1]
 
 - Creare degli *unit test* per il gioco Bubble Bobble
@@ -931,7 +931,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 8.5 3-in-a-row, test [P2]
 
 - Creare degli *unit test* per il gioco 3-in-a-row
@@ -948,7 +948,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![large](images/algo/holy-grail.jpg)
+![large](https://fondinfo.github.io/images/algo/holy-grail.jpg)
 # 9.1 Hello, user! (C++)
 
 - Porre tre domande all'utente:
@@ -966,7 +966,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 9.2 Equazione di secondo grado (C++)
 
 - Chiedere all'utente i tre coefficienti `a, b, c` di una equazione di secondo grado
@@ -977,7 +977,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/red-circles.svg)
+![](https://fondinfo.github.io/images/misc/red-circles.svg)
 # 9.3 Cerchi concentrici graduali (C++)
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -989,7 +989,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 9.4 Funzione, Erone (C++)
 
 - Definire una funzione `heron` per il calcolo dell'area di un triangolo
@@ -1035,7 +1035,7 @@ Con `s = (a+b+c) / 2`, semiperimetro
 
 ---
 
-![](images/misc/3inarow.svg)
+![](https://fondinfo.github.io/images/misc/3inarow.svg)
 # 9.7 3-in-a-row, automatismi (Py) [P2]
 
 - Colorare automaticemente alcune celle, secondo le seguenti strategia
@@ -1052,7 +1052,7 @@ Con la GUI, attivare queste funzionalità alla pressione del tasto `a`
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # 9.8 3-in-a-row, vicolo cieco (Py) [P2]
 
 - Metodo booleano `unsolvable`, senza parametri
@@ -1074,7 +1074,7 @@ Con la GUI, attivare questa funzionalità alla pressione del tasto `u`
 
 ---
 
-![](images/misc/slope.svg) y = m·x + b
+![](https://fondinfo.github.io/images/misc/slope.svg) y = m·x + b
 # 10.1 Segmento e retta (C++)
 
 - Definire *funzione* `slope` per una retta
@@ -1095,7 +1095,7 @@ Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
 
 ---
 
-![](images/misc/slope.svg) y = m·x + b
+![](https://fondinfo.github.io/images/misc/slope.svg) y = m·x + b
 # 10.2 Classe dei segmenti (C++)
 
 - Definire una classe dei segmenti
@@ -1109,7 +1109,7 @@ Nota `m`, `b` si ottiene da `y1 = m·x1 + b`
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 10.3 Classe dei triangoli (C++)
 
 - Scrivere una classe `Triangle` per rappresentare dei triangoli
@@ -1152,7 +1152,7 @@ Si può definire prima una funzione ausiliaria booleana `char_in_string`, per co
 
 ---
 
-![](images/fun/fractal-tree.png)
+![](https://fondinfo.github.io/images/fun/fractal-tree.png)
 # 10.6 Albero ricorsivo (C++)
 
 - Funzione ricorsiva per disegnare un albero
@@ -1172,7 +1172,7 @@ Si può definire prima una funzione ausiliaria booleana `char_in_string`, per co
 
 ---
 
-![small](images/misc/artificial-intelligence.png)
+![small](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.7 3-in-a-row, suggerimenti (Py) [P2]
 
 - Cercare automaticamente una mossa
@@ -1194,7 +1194,7 @@ Con la GUI, attivare questa funzionalità alla pressione del tasto `h`
 
 ---
 
-![small](images/misc/artificial-intelligence.png)
+![small](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.8 3-in-a-row, backtracking (Py) [P2]
 
 ``` py
@@ -1224,7 +1224,7 @@ Suggerita l'implementazione di `mark_auto` (es. 9.7/10.7) e `unsolvable` (9.8)
 
 ---
 
-![](images/misc/snow-ball.png)
+![](https://fondinfo.github.io/images/misc/snow-ball.png)
 # 11.1 Funzione, densità (C++)
 
 - Definire una funzione `sphere_density` per il calcolo della densità di una sfera
@@ -1241,7 +1241,7 @@ Formule utili: `V = (4/3)πR³ ; ρ = m / V`
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 11.2 Sopra e sotto la media (C++)
 
 - L'utente inserisce una sequenza di valori reali positivi
@@ -1252,7 +1252,7 @@ Formule utili: `V = (4/3)πR³ ; ρ = m / V`
 
 ---
 
-![](images/misc/catbus.png) Was it a car or a cat I saw?
+![](https://fondinfo.github.io/images/misc/catbus.png) Was it a car or a cat I saw?
 # 11.3 Palindromo con ricorsione (C++)
 
 - *Palindromo*: testo che rimane uguale se letto al contrario
@@ -1272,7 +1272,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 ---
 
-![](images/repr/digital-signal.svg)
+![](https://fondinfo.github.io/images/repr/digital-signal.svg)
 # 11.4 Classe per audio (C++)
 
 - Definire una *classe* `Audio_quality`
@@ -1300,7 +1300,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 ---
 
-![](images/misc/gray-squares.svg) Quattro grigi, ripetuti 2 volte
+![](https://fondinfo.github.io/images/misc/gray-squares.svg) Quattro grigi, ripetuti 2 volte
 # 11.6 Ripetizioni di grigi
 
 - Chiedere all'utente una sequenza di valori e memorizzarli in una lista

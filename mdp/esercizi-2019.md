@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2019
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -18,7 +18,7 @@
 
 ---
 
-![large](images/misc/solids.png)
+![large](https://fondinfo.github.io/images/misc/solids.png)
 # 1.2 Sfera
 
 - Chiedere all'utente il raggio di una sfera e la sua densità (in Kg/m³)
@@ -44,7 +44,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![](images/misc/shadows.png)
+![](https://fondinfo.github.io/images/misc/shadows.png)
 # 1.4 Rettangoli con ombra
 
 - Chiedere all'utente un numero `n`
@@ -58,7 +58,7 @@ Fare in modo che i rettangoli e le ombre siano tutti all'interno nel canvas
 
 ---
 
-![](images/misc/green-squares.svg)
+![](https://fondinfo.github.io/images/misc/green-squares.svg)
 # 1.5 Sequenza di quadrati
 
 - Chiedere all'utente un numero `n`
@@ -75,7 +75,7 @@ Determinare automaticamente le variazioni migliori per lato e colore, prima di i
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.6 Carattere Unicode
 
 - Chiedere all'utente un numero
@@ -102,7 +102,7 @@ Non c'è input dell'utente
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.8 Media dei dispari
 
 - Leggere, attraverso un ciclo, una sequenza di numeri naturali
@@ -129,7 +129,7 @@ Non c'è input dell'utente
 
 ---
 
-![](images/misc/thermometer.png)
+![](https://fondinfo.github.io/images/misc/thermometer.png)
 # 2.1 Funzione, Fahrenheit
 
 - Definire una funzione `cels_to_fahr`
@@ -183,7 +183,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-triangle.svg)
+![](https://fondinfo.github.io/images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -193,7 +193,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/oop/anim-rotate.png)
+![](https://fondinfo.github.io/images/oop/anim-rotate.png)
 # 2.5 Animazione pallina
 
 - Partire dall'esempio dell'animazione orizzontale, senza classi
@@ -204,7 +204,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/oop/anim-rotate.png)
+![](https://fondinfo.github.io/images/oop/anim-rotate.png)
 # 2.6 Pallina con svolta
 
 - Creare una classe `TurningBall`
@@ -216,7 +216,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 2.7 Rimbalzi con gravità
 
 - Creare una classe `FallingBall`
@@ -243,7 +243,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/xmas-tree.svg)
+![](https://fondinfo.github.io/images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -258,7 +258,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 3.1 Percentuale di maiuscole
 
 - Chiedere una riga di testo all'utente
@@ -273,7 +273,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/repr/child-fingers.png)
+![](https://fondinfo.github.io/images/repr/child-fingers.png)
 # 3.2 Pallina con conteggio
 
 - Partire dalla classe `TurningBall` dell'esercizio 2.6
@@ -282,7 +282,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 3.3 Lista di palline
 
 - Partire dalla classe `FallingBall` dell'esercizio 2.8
@@ -293,7 +293,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/weather.png)
+![](https://fondinfo.github.io/images/misc/weather.png)
 # 3.4 Stazione meteorologica
 
 - Scrivere classe per una stazione meteo, rappresentata così:
@@ -307,7 +307,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/histogram-rot.svg)
+![](https://fondinfo.github.io/images/misc/histogram-rot.svg)
 # 3.5 Istogramma con barre orizzontali
 
 - Chiedere all'utente una lista di valori positivi
@@ -319,7 +319,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 3.6 Moon Patrol, rover
 
 - Ridenominare come `Rover` la classe `Turtle` dell'esempio `bounce`
@@ -330,7 +330,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 3.7 Moon Patrol, sprite e sfondi
 
 - Cambiare il file con le icone dei personaggi
@@ -369,7 +369,7 @@ Usare questi file:
 
 ---
 
-![large](images/misc/solids.png)
+![large](https://fondinfo.github.io/images/misc/solids.png)
 # 4.2 Classe per cilindro
 
 - Definire una classe dei cilindri
@@ -422,7 +422,7 @@ zyxw
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 4.6 Configurazioni di simboli
 
 - Scrivere una funzione per generare tutte le configurazioni di lunghezza 3
@@ -437,7 +437,7 @@ zyxw
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 4.7 Moon Patrol, buche
 
 - Le buche vengono generate casualmente
@@ -452,7 +452,7 @@ zyxw
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 5.1 Stringhe rovesciate, con ricorsione
 
 - Rovesciare una stringa, sfruttando la ricorsione
@@ -467,7 +467,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 5.2 Maiuscole tra asterischi
 
 - Scrivere una funzione che:
@@ -481,7 +481,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/htree.png)
+![](https://fondinfo.github.io/images/fun/htree.png)
 # 5.3 Albero di H
 
 - Disegnare ricorsivamente un *H-Tree*
@@ -493,7 +493,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 5.4 Scrittura di risultati casuali
 
 - Simulare `n` lanci di una terna di dadi
@@ -503,7 +503,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 5.5 Analisi di risultati casuali
 
 - Leggere i dati dal file generato nell'esercizio 5.4
@@ -518,7 +518,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 16 valori
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 5.6 Moon Patrol, rocce
 
 - Le rocce vengono generate casualmente
@@ -529,7 +529,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 16 valori
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 5.7 Moon Patrol, proiettili
 
 - Il rover, a comando, spara proiettili
@@ -580,7 +580,7 @@ Nell'esempio, i valori da raddoppiare in scrittura sono i seguenti: `8, 12, 7`
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 6.3 Configurazioni
 
 - Generare tutte le configurazioni di simboli
@@ -598,7 +598,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 6.4 Profondità albero
 
 - Partire dall'esempio del file system (es. 4.5 del 2014)
@@ -615,7 +615,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 6.5 Moon Patrol, alieni
 
 - Le navi aliene sono avversari che si muovono casualmente nel cielo
@@ -625,7 +625,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/hitori.svg) ![](images/misc/hitori-completed.svg)
+![](https://fondinfo.github.io/images/misc/hitori.svg) ![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
 # 6.6 Hitori, regole
 
 - Regole
@@ -644,7 +644,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/hitori.svg)
+![](https://fondinfo.github.io/images/misc/hitori.svg)
 # 6.7 Hitori, inizio
 
 - Classe che incapsula lo stato del gioco in due matrici
@@ -662,7 +662,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 7.1 Moon Patrol, test
 
 - Creare degli *unit test* per il gioco Moon Patrol
@@ -676,7 +676,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/moon-patrol.png)
+![](https://fondinfo.github.io/images/misc/moon-patrol.png)
 # 7.2 Moon Patrol, estensioni
 
 - Estensioni *opzionali* del gioco
@@ -700,7 +700,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/hitori-completed.svg)
+![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
 # 7.4 Hitori, righe e colonne
 
 - Nell'inizializzazione, leggere la matrice di numeri da un file (*parametro*)
@@ -723,7 +723,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/hitori-completed.svg)
+![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
 # 7.6 Hitori, GUI
 
 - Utilizzare il gioco tramite la GUI fornita con gli esempi
@@ -731,7 +731,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # 7.7 Progetti in bella copia
 
 - **Codice leggibile**
@@ -750,7 +750,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 8.1 Potenze con ricorsione
 
 - Calcolare la potenza intera di un numero, sfruttando la ricorsione
@@ -823,7 +823,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/cindy1.png) ![](images/misc/cindy2.png)
+![](https://fondinfo.github.io/images/misc/cindy1.png) ![](https://fondinfo.github.io/images/misc/cindy2.png)
 # 8.7 Puzzle di Cindy
 
 - Piano di gioco: `2n+1` celle allineate
@@ -858,7 +858,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 9.1 Hello, user! (C++)
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -868,7 +868,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 9.2 Media dei dispari (C++)
 
 - Leggere, attraverso un ciclo, una sequenza di numeri naturali
@@ -877,7 +877,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/thermometer.png)
+![](https://fondinfo.github.io/images/misc/thermometer.png)
 # 9.3 Funzione, Fahrenheit (C++)
 
 - Definire una funzione `cels_to_fahr`
@@ -908,7 +908,7 @@ Aggiungere ciascun valore a una lista inizialmente vuota, con `push_back`
 
 ---
 
-![](images/misc/histogram-rot.svg)
+![](https://fondinfo.github.io/images/misc/histogram-rot.svg)
 # 9.5 Istogramma con barre orizzontali (C++)
 
 - Chiedere all'utente una lista di valori positivi
@@ -967,7 +967,7 @@ Definire `PI = 3.14159`, oppure usare `acos(-1)`, dalla libreria `<cmath>`
 
 ---
 
-![large](images/misc/solids.png)
+![large](https://fondinfo.github.io/images/misc/solids.png)
 # 10.2 Classe per cilindro (C++)
 
 - Definire una classe dei cilindri
@@ -995,7 +995,7 @@ Si può definire prima una funzione ausiliaria booleana `char_in_string`, per co
 
 ---
 
-![](images/fun/bike-lock.png)
+![](https://fondinfo.github.io/images/fun/bike-lock.png)
 # 10.4 Configurazioni di simboli (C++)
 
 - Scrivere una funzione per generare tutte le configurazioni di lunghezza 3
@@ -1007,7 +1007,7 @@ Si può definire prima una funzione ausiliaria booleana `char_in_string`, per co
 
 ---
 
-![](images/hist/eratostenes.jpg)
+![](https://fondinfo.github.io/images/hist/eratostenes.jpg)
 # 10.5 Crivello di Eratostene (C++)
 
 - Trovare tutti i numeri primi fino a `n`, scelto dall'utente
@@ -1023,7 +1023,7 @@ Usare un `vector<int>` è problematico e inefficiente
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # 10.6 Hitori, vicolo cieco (Py)
 
 - Metodo booleano `wrong`, senza parametri
@@ -1038,7 +1038,7 @@ Usare un `vector<int>` è problematico e inefficiente
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.7 Hitori, suggerimenti (Py)
 
 - Cercare automaticamente la prossima mossa
@@ -1056,7 +1056,7 @@ Se invece una ipotesi non risulta `wrong`, non è detto che sia giusta; non si p
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.8 Hitori, altri suggerimenti (Py)
 
 - Considerare ogni cella non annotata, singolarmente
@@ -1075,7 +1075,7 @@ Se invece una ipotesi non risulta `wrong`, non è detto che sia giusta; non si p
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 11.1 Massimo e minimo (C++)
 
 - Leggere, attraverso un ciclo, una sequenza di numeri interi positivi
@@ -1088,7 +1088,7 @@ Basta un ciclo, senza `vector`
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 11.2 Funzione, Erone (C++)
 
 - Definire una funzione `heron` per il calcolo dell'area di un triangolo
@@ -1111,7 +1111,7 @@ Con `s = (a + b + c) / 2`, semiperimetro
 
 ---
 
-![](images/misc/ellipse.svg)
+![](https://fondinfo.github.io/images/misc/ellipse.svg)
 # 11.3 Ellisse (C++)
 
 - Classe che modella un'ellisse
@@ -1138,7 +1138,7 @@ Definire `PI = 3.14159`, oppure usare `acos(-1)`, dalla libreria `<cmath>`
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 11.5 Risultati casuali (C++)
 
 - Simulare `n` lanci di una terna di dadi
@@ -1153,7 +1153,7 @@ Per conteggiare i vari risultati, usare un `vector` di (almeno) 16 valori
 
 ---
 
-![](images/fun/neighborhood4.png)
+![](https://fondinfo.github.io/images/fun/neighborhood4.png)
 # 11.6 Funzione di smooth (C++)
 
 - Scrivere una funzione `smooth`
@@ -1169,7 +1169,7 @@ Per conteggiare i vari risultati, usare un `vector` di (almeno) 16 valori
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 11.7 Hitori, backtracking (Py)
 
 ``` py

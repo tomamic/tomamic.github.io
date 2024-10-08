@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2016
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -18,7 +18,7 @@
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.2 Equazione di secondo grado
 
 - Chiedere all'utente i tre coefficienti `a, b, c` di una equazione di secondo grado
@@ -34,7 +34,7 @@ Non è richiesto il valore delle soluzioni
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.3 Equazione di 2° grado, con ciclo
 
 - Riprendere l'esercizio 1.2
@@ -73,7 +73,7 @@ Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla 
 
 ---
 
-![](images/misc/impossible-triangle.jpg)
+![](https://fondinfo.github.io/images/misc/impossible-triangle.jpg)
 # 1.6 Triangolo
 
 - Chiedere all'utente le lunghezze dei tre lati
@@ -86,7 +86,7 @@ Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla 
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.7 Massimo e minimo
 
 - Leggere, attraverso un ciclo, una sequenza di numeri interi
@@ -115,7 +115,7 @@ r = randrange(4)  # something between 0 and 3
 
 ---
 
-![](images/misc/three-cards.png)
+![](https://fondinfo.github.io/images/misc/three-cards.png)
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
@@ -132,7 +132,7 @@ r = randrange(4)  # something between 0 and 3
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 2.1 Percentuale di maiuscole
 
 - Chiedere una riga di testo all'utente
@@ -157,7 +157,7 @@ Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 2.3 Funzione, Erone
 
 - Definire una funzione `heron` per il calcolo dell'area di un triangolo
@@ -180,7 +180,7 @@ Con `s = (a + b + c)/2`, semiperimetro
 
 ---
 
-![](images/misc/green-squares.svg)
+![](https://fondinfo.github.io/images/misc/green-squares.svg)
 # 2.4 Sequenza di quadrati
 
 - Chiedere all'utente il numero di quadrati da disegnare
@@ -199,7 +199,7 @@ Infine, determinare automaticamente le variazioni migliori per lato e colore, pr
 
 ---
 
-![](images/misc/color-grid.png) ![](images/oop/raster-tile.png)
+![](https://fondinfo.github.io/images/misc/color-grid.png) ![](https://fondinfo.github.io/images/oop/raster-tile.png)
 # 2.5 Griglia di colori
 
 - Chidere all'utente dei valori per `rows` e `cols`
@@ -239,7 +239,7 @@ Poi racchiudere tutto in un ciclo for esterno
 
 ---
 
-![](images/misc/high-scores.png)
+![](https://fondinfo.github.io/images/misc/high-scores.png)
 # 2.7 Nomi sopra e sotto la media
 
 - Chiedere all'utente una sequenza di dati, come coppie *(nome, valore)*
@@ -255,7 +255,7 @@ Inserire nella lista delle tuple, cioè coppie *(nome, valore)*
 
 ---
 
-![](images/misc/histogram-rot.svg)
+![](https://fondinfo.github.io/images/misc/histogram-rot.svg)
 # 2.8 Istogramma con barre orizzontali
 
 - Chiedere all'utente una lista di valori positivi
@@ -266,7 +266,7 @@ Inserire nella lista delle tuple, cioè coppie *(nome, valore)*
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 2.9 Istogramma con barre verticali
 
 - Chiedere all'utente una lista di valori positivi
@@ -283,7 +283,7 @@ Inserire nella lista delle tuple, cioè coppie *(nome, valore)*
 
 ---
 
-![](images/misc/trigonometry.svg)
+![](https://fondinfo.github.io/images/misc/trigonometry.svg)
 # 3.1 Classe dei pianeti
 
 - Scrivere una classe `Planet`, con dati (campi privati):
@@ -316,7 +316,7 @@ Opzionalmente, nel costruttore ricevere come parametri `x` e `y` iniziali, da cu
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 3.3 Rimbalzi con gravità
 
 - Partire dall'esempio di animazione visto a lezione (*senza oggetti*)
@@ -345,7 +345,7 @@ L'asse *y* può rimanere orientato verso il basso
 
 ---
 
-![](images/misc/solar-system.png)
+![](https://fondinfo.github.io/images/misc/solar-system.png)
 # 3.5 Lista di pianeti
 
 - Aggiungere ai dati del pianeta (es. 3.4) anche un colore come tupla `RGB`, con un corrispondente metodo *getter*
@@ -356,7 +356,7 @@ L'asse *y* può rimanere orientato verso il basso
 
 ---
 
-![](images/misc/college-student.jpg)
+![](https://fondinfo.github.io/images/misc/college-student.jpg)
 # 3.6 Classe degli esami
 
 - Scrivere una classe `Exam` per rappresentare gli esami sostenuti in un corso di studio
@@ -374,7 +374,7 @@ Tenere l'uso della console per I/O fuori dalla classe!
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 3.7 Scrittura di risultati casuali
 
 - Simulare `n` lanci di una coppia di dadi
@@ -384,7 +384,7 @@ Tenere l'uso della console per I/O fuori dalla classe!
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 3.8 Analisi di risultati casuali
 
 - Leggere i dati dal file generato nell'esercizio 3.7
@@ -399,7 +399,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 ---
 
-![](images/misc/battleship.png)
+![](https://fondinfo.github.io/images/misc/battleship.png)
 # 3.9 Battaglia navale
 
 - Allocare una matrice `rows×cols` (dimensioni scelte dall'utente)
@@ -420,7 +420,7 @@ Si può usare una lista come pseudo-matrice, oppure una lista di liste
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 4.1 Massimo valore, con ricorsione
 
 - Definire una funzione ricorsiva `max_char`
@@ -436,7 +436,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/bouncing-ball.jpg)
+![](https://fondinfo.github.io/images/misc/bouncing-ball.jpg)
 # 4.2 Pallina in caduta
 
 - Creare una classe `FallingBall`
@@ -488,7 +488,7 @@ class FallingBall(Actor):
 
 ---
 
-![](images/oop/viewport.png)
+![](https://fondinfo.github.io/images/oop/viewport.png)
 # 4.5 Scroll
 
 - Associare a ciascun tipo di personaggio dell'es. 4.4 una immagine
@@ -506,7 +506,7 @@ Usare lo stesso *offset* anche per ritagliare la parte giusta dall'immagine di s
 
 ---
 
-![](images/misc/crop-circle.jpg)
+![](https://fondinfo.github.io/images/misc/crop-circle.jpg)
 # 4.6 Circular infinity
 
 - Disegnare ricorsivamente dei cerchi, con i centri allineati in verticale
@@ -523,7 +523,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/tic-tac-toe.svg)
+![](https://fondinfo.github.io/images/misc/tic-tac-toe.svg)
 # 4.7 Tris
 
 - Classe che modella una partita a *tris* (*Tic Tac Toe*)
@@ -578,7 +578,7 @@ Nell'esempio, i valori da raddoppiare in scrittura sono i seguenti: `8, 12, 7`
 
 ---
 
-![](images/oop/jumper.png)
+![](https://fondinfo.github.io/images/oop/jumper.png)
 # 5.1 Tartaruga saltellante
 
 - Modificare `Turtle` nel modulo `bounce`
@@ -599,7 +599,7 @@ class Turtle(Actor):
 
 ---
 
-![](images/oop/wall.png)
+![](https://fondinfo.github.io/images/oop/wall.png)
 # 5.2 Muri impenetrabili
 
 - Creare classe `Wall`, sottoclasse di `Actor`
@@ -676,7 +676,7 @@ Solo stampa caratteri: non servono liste, nè matrici
 
 ---
 
-![](images/misc/spiral.png)
+![](https://fondinfo.github.io/images/misc/spiral.png)
 # 5.5 Spirale
 
 - Scrivere una funzione per riempire di numeri crescenti una matrice quadrata (o rettangolare)
@@ -701,7 +701,7 @@ In generale (coord. cartesiane): `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin
 
 ---
 
-![](images/misc/merge-sign.png)
+![](https://fondinfo.github.io/images/misc/merge-sign.png)
 # 5.6 Fusione
 
 - Due file di testo contengono sequenze di numeri
@@ -757,7 +757,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/dom-knights.png)
+![](https://fondinfo.github.io/images/misc/dom-knights.png)
 # 🥷 5.9 Dominating knights
 
 - Problemi di dominio (o copertura)
@@ -792,7 +792,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/super-mario.jpg)
+![](https://fondinfo.github.io/images/misc/super-mario.jpg)
 # Super Mario - Personaggi
 
 - *Mario*: guidato dal giocatore
@@ -827,7 +827,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 1.1 Hello, user!
@@ -840,7 +840,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/super-mario.jpg)
+![](https://fondinfo.github.io/images/misc/super-mario.jpg)
 # Super Mario - Scroll
 
 - Aggiungere *scrolling* automatico
@@ -852,7 +852,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/super-mario.jpg)
+![](https://fondinfo.github.io/images/misc/super-mario.jpg)
 # Super Mario - Arena
 
 - Definire una sottoclasse di `Arena`
@@ -867,7 +867,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 3.2 Pianeta in rivoluzione
@@ -884,7 +884,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/super-mario.jpg)
+![](https://fondinfo.github.io/images/misc/super-mario.jpg)
 # Super Mario
 
 - Aggiungere secondo giocatore, *Luigi*
@@ -895,7 +895,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - **Codice leggibile**
@@ -923,7 +923,7 @@ print(prod2.prefix())                     #      / \
 
 ---
 
-![](images/misc/akari.svg)
+![](https://fondinfo.github.io/images/misc/akari.svg)
 # “Akari” - Light up
 
 - Scopo: disporre delle lampade, fino a illuminare tutte le celle
@@ -1001,7 +1001,7 @@ private:  // ...
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Funzionamento a console e gui
 
 - Aggiungere una *interfaccia grafica* al progetto
@@ -1015,7 +1015,7 @@ private:  // ...
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Mossa suggerita
 
 - Comando per completare automaticamente un vincolo numerico
@@ -1032,7 +1032,7 @@ Autocompletamento su richiesta dell'utente (es. click su cella, o menù)
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # Vicolo cieco (opzionale)
 
 - Aggiungere un metodo booleano `wrong` al puzzle, per verificare una condizione di vicolo cieco

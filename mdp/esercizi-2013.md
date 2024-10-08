@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2013
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “Hello world”
@@ -18,7 +18,7 @@
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.2 Radici
 
 - Calcolare le due radici reali di un’equazione di secondo grado: `ax² + bx + c = 0`
@@ -41,7 +41,7 @@ All'inizio del programma: `import math`
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 1.4 Carattere Unicode
 
 - Leggere un numero
@@ -64,7 +64,7 @@ Usare la funzione `chr` per convertire un codice nel char corrispondente
 
 ---
 
-![](images/misc/calculator.png)
+![](https://fondinfo.github.io/images/misc/calculator.png)
 # 1.6 Aritmetica
 
 - Chiedere all'utente due valori *float*: `a`, `b`
@@ -80,7 +80,7 @@ Usare la funzione `chr` per convertire un codice nel char corrispondente
 
 ---
 
-![](images/misc/impossible-triangle.jpg)
+![](https://fondinfo.github.io/images/misc/impossible-triangle.jpg)
 # 1.7 Triangolo
 
 - Chiedere all'utente le lunghezze dei tre lati
@@ -93,7 +93,7 @@ Usare la funzione `chr` per convertire un codice nel char corrispondente
 
 ---
 
-![](images/misc/college-student.jpg)
+![](https://fondinfo.github.io/images/misc/college-student.jpg)
 # 1.8 Media dei voti
 
 - Leggere, attraverso un ciclo, una sequenza di risultati di esami
@@ -109,7 +109,7 @@ Partire dal calcolo della media semplice, senza considerare i crediti
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 1.9 Lancio dadi
 
 - Due immaginari giocatori lanciano un dado a testa
@@ -127,7 +127,7 @@ All'inizio del programma: `import random`
 
 ---
 
-![](images/misc/numbers.png)
+![](https://fondinfo.github.io/images/misc/numbers.png)
 # 2.1 Stringhe, cifre
 
 - Leggere una riga di testo
@@ -198,7 +198,7 @@ Leggere per intero il (breve) file in una stringa: `txt = f.read()`
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 2.6 Risultati casuali
 
 - Simulare `n` lanci di una coppia di dadi
@@ -213,7 +213,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 11 valori
 
 ---
 
-![](images/misc/brackets.svg)
+![](https://fondinfo.github.io/images/misc/brackets.svg)
 # 2.7 File, parentesi
 
 - Data una riga di testo, riscrivere a console solo il testo racchiuso tra parentesi quadre
@@ -262,7 +262,7 @@ Da stringa `line` a lista di char `v`: `v = list(line)`
 
 ---
 
-![](images/misc/ellipse.svg)
+![](https://fondinfo.github.io/images/misc/ellipse.svg)
 # 3.1 Area di un'ellisse
 
 - Funzione che:
@@ -275,7 +275,7 @@ Da stringa `line` a lista di char `v`: `v = list(line)`
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 3.2 Sequenza di valori
 
 - Funzione che:
@@ -299,7 +299,7 @@ Da stringa `line` a lista di char `v`: `v = list(line)`
 
 ---
 
-![](images/misc/ellipse.svg)
+![](https://fondinfo.github.io/images/misc/ellipse.svg)
 # 3.4 Ellisse
 
 - Classe che modella un'ellisse
@@ -340,7 +340,7 @@ In ogni posizione, calcolare il carattere da visualizzare: `x * ROWS + y`...
 
 ---
 
-![](images/misc/fast-food.svg)
+![](https://fondinfo.github.io/images/misc/fast-food.svg)
 # 3.6 Calcolo delle calorie
 
 - In un file sono riportati, su ciascuna riga:
@@ -371,7 +371,7 @@ Valutare l'uso di un ciclo `while`, anzichè `for`
 
 ---
 
-![](images/hist/eratostenes.jpg)
+![](https://fondinfo.github.io/images/hist/eratostenes.jpg)
 # 3.8 Crivello di Eratostene
 
 - Funzione che calcola la lista di numeri primi fino a `n`
@@ -427,7 +427,7 @@ Stringa rimanente (senza prima e ultima lettera) palindroma
 
 ---
 
-![](images/misc/koala-file.jpg)
+![](https://fondinfo.github.io/images/misc/koala-file.jpg)
 # 4.2 Fila indiana
 
 - *Procedura* per far avanzare gli elementi di una lista in “fila indiana”
@@ -449,7 +449,7 @@ O viceversa `v.append(new_pos), v.pop(0)`
 
 ---
 
-![](images/misc/tic-tac-toe.svg)
+![](https://fondinfo.github.io/images/misc/tic-tac-toe.svg)
 # 4.3 Tris
 
 - Classe che modella una partita a *tris* (*Tic Tac Toe*)
@@ -477,7 +477,7 @@ O viceversa `v.append(new_pos), v.pop(0)`
 
 ---
 
-![](images/misc/outward-spiral.png)
+![](https://fondinfo.github.io/images/misc/outward-spiral.png)
 # 4.5 Spirale
 
 - Funzione per riempire una data matrice (parametro) con una sequenza di valori
@@ -502,7 +502,7 @@ In generale (coord. cartesiane): `(x', y') = (x⋅cos(θ) - y⋅sin(θ), x⋅sin
 
 ---
 
-![](images/misc/merge-sign.png)
+![](https://fondinfo.github.io/images/misc/merge-sign.png)
 # 4.6 Fusione
 
 - Due file di testo contengono sequenze di numeri
@@ -521,7 +521,7 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 
 ---
 
-![](images/misc/box-layout.png)
+![](https://fondinfo.github.io/images/misc/box-layout.png)
 # 4.7 Fila di riquadri
 
 - Classe che modella una fila verticale di riquadri
@@ -548,7 +548,7 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 
 ---
 
-![large](images/misc/flow-layout.png)
+![large](https://fondinfo.github.io/images/misc/flow-layout.png)
 # 4.9 File verticali e orizzontali
 
 - Classe base *astratta* per le file di riquadri
@@ -568,7 +568,7 @@ Non estrarre un nuovo valore da uno stream, se quello precedente non è ancora s
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 1.1 Hello, user!
@@ -630,7 +630,7 @@ Definire costanti, es. `const int VALUES = 90`
 
 ---
 
-![](images/misc/snake.png)
+![](https://fondinfo.github.io/images/misc/snake.png)
 # Snake
 
 - *Serpente*: guidato dal giocatore
@@ -649,7 +649,7 @@ A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 3.1 Area di un'ellisse
@@ -664,7 +664,7 @@ A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
-![](images/oop/pygame-logo.png)
+![](https://fondinfo.github.io/images/oop/pygame-logo.png)
 # Snake con Pygame
 
 - Classi dello Snake in applicazione basata su *Pygame*
@@ -676,7 +676,7 @@ A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # “Bella copia”
 
 - **Codice leggibile**
@@ -691,7 +691,7 @@ A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - 4.3 Tris
@@ -715,7 +715,7 @@ A ogni turno aggiungere una nuova coppia (x, y) per la testa e rimuovere la coda
 
 ---
 
-![](images/misc/tents.png)
+![](https://fondinfo.github.io/images/misc/tents.png)
 # Tents puzzle
 
 - Posizionare tende sulla griglia, in modo che ogni albero sia *assegnato* a una tenda
@@ -778,7 +778,7 @@ private:
 
 ---
 
-![](images/dev/recycle.png)
+![](https://fondinfo.github.io/images/dev/recycle.png)
 # Tents con Qt
 
 - Aggiungere una **interfaccia grafica** al progetto
@@ -815,7 +815,7 @@ private:
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # Mosse suggerite
 
 - Opzione per marcare automaticamente le celle con *prato*

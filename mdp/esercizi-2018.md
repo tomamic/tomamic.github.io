@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2018
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![](images/misc/handshake.svg)
+![](https://fondinfo.github.io/images/misc/handshake.svg)
 # 1.1 Hello, user!
 
 - Compilare ed eseguire il programma “`Hello world`”
@@ -18,7 +18,7 @@
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.2 Equazione di secondo grado
 
 - Chiedere all'utente i tre coefficienti `a, b, c` di una equazione di secondo grado
@@ -34,7 +34,7 @@ Non è richiesto il valore delle soluzioni
 
 ---
 
-![](images/misc/quadratic-eq.svg) ![](images/misc/quadratic-formula.svg)
+![](https://fondinfo.github.io/images/misc/quadratic-eq.svg) ![](https://fondinfo.github.io/images/misc/quadratic-formula.svg)
 # 1.3 Equazione di 2° grado, con ciclo
 
 - Riprendere l'esercizio 1.2
@@ -49,7 +49,7 @@ Usare la funzione `sqrt` del modulo `math`
 
 ---
 
-![](images/misc/diagonal-squares.svg)
+![](https://fondinfo.github.io/images/misc/diagonal-squares.svg)
 # 1.4 Quadrati in diagonale
 
 - Chiedere all'utente un numero `n`
@@ -64,7 +64,7 @@ Determinare il lato di ogni quadrato in base alla dimensione del canvas
 
 ---
 
-![](images/misc/green-squares.svg)
+![](https://fondinfo.github.io/images/misc/green-squares.svg)
 # 1.5 Sequenza di quadrati
 
 - Chiedere all'utente un numero `n`
@@ -81,7 +81,7 @@ Determinare automaticamente le variazioni migliori per lato e colore, prima di i
 
 ---
 
-![](images/misc/impossible-triangle.jpg)
+![](https://fondinfo.github.io/images/misc/impossible-triangle.jpg)
 # 1.6 Triangolo
 
 - Chiedere all'utente le lunghezze dei tre lati
@@ -108,7 +108,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.8 Massimo pari
 
 - Leggere, attraverso un ciclo, una sequenza di numeri naturali
@@ -117,7 +117,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
 
 ---
 
-![](images/misc/three-cards.png)
+![](https://fondinfo.github.io/images/misc/three-cards.png)
 # 1.9 Tre carte
 
 - All'inizio l'utente ha 10 monete
@@ -134,7 +134,7 @@ Ispirato da: <https://projecteuler.net/problem=1>
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 2.1 Funzione, Erone
 
 - Definire una funzione `heron` per il calcolo dell'area di un triangolo
@@ -157,7 +157,7 @@ Con `s = (a + b + c) / 2`, semiperimetro
 
 ---
 
-![](images/repr/binary-tunnel.jpg)
+![](https://fondinfo.github.io/images/repr/binary-tunnel.jpg)
 # 2.2 Conteggio di 0 e 1
 
 - Definire una funzione che conta separatamente il numero di cifre `0` e `1` presenti in un testo
@@ -172,7 +172,7 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/ohm.svg)
+![](https://fondinfo.github.io/images/misc/ohm.svg)
 # 2.3 Classe dei cavi
 
 - Definire una classe per i cavi di rame
@@ -189,7 +189,7 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/xmas-triangle.svg)
+![](https://fondinfo.github.io/images/misc/xmas-triangle.svg)
 # 2.4 Triangolo di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -199,7 +199,7 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/oop/anim-wrap.png)
+![](https://fondinfo.github.io/images/oop/anim-wrap.png)
 # 2.5 Animazione pallina
 
 - Partire dall'esempio dell'animazione orizzontale, senza classi
@@ -213,7 +213,7 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/oop/anim-wrap.png)
+![](https://fondinfo.github.io/images/oop/anim-wrap.png)
 # 2.6 Conteggio fotogrammi
 
 - Ripetere l'esercizio 2.5, senza classi, ma fermare la pallina dopo 5 fotogrammi
@@ -226,7 +226,7 @@ Usare una variabile globale per contare i fotogrammi
 
 ---
 
-![](images/oop/anim-wrap.png)
+![](https://fondinfo.github.io/images/oop/anim-wrap.png)
 # 2.7 Pallina modificata
 
 - Partire dalla classe `Ball` vista a lezione
@@ -236,7 +236,7 @@ Usare una variabile globale per contare i fotogrammi
 
 ---
 
-![](images/oop/anim-wrap.png)
+![](https://fondinfo.github.io/images/oop/anim-wrap.png)
 # 2.8 Pallina con conteggio
 
 - Definire una propria classe `Ball`
@@ -254,7 +254,7 @@ Il metodo `go` riavvia solo il conteggio, ma non sposta la pallina
 
 ---
 
-![](images/misc/xmas-tree.svg)
+![](https://fondinfo.github.io/images/misc/xmas-tree.svg)
 # 2.9 Albero di cerchi colorati
 
 - Chiedere all'utente un numero `n`
@@ -269,7 +269,7 @@ Il metodo `go` riavvia solo il conteggio, ma non sposta la pallina
 
 ---
 
-![](images/misc/manhattan-distance.svg)
+![](https://fondinfo.github.io/images/misc/manhattan-distance.svg)
 # 3.1 Distanza di Manhattan
 
 - Definire una funzione per calcolare la *distanza di Manhattan* tra due punti
@@ -301,7 +301,7 @@ Non usare variabili globali
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 3.3 Percentuale di maiuscole
 
 - Chiedere una riga di testo all'utente
@@ -326,7 +326,7 @@ Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 
 ---
 
-![](images/misc/high-scores.png)
+![](https://fondinfo.github.io/images/misc/high-scores.png)
 # 3.5 Nomi sopra e sotto la media
 
 - Chiedere all'utente una sequenza di dati, come coppie *(nome, valore)*
@@ -383,7 +383,7 @@ Altrimenti: la lista di output è ottenuta rovesciando la lista di input, a escl
 
 ---
 
-![](images/fun/times-table.svg)
+![](https://fondinfo.github.io/images/fun/times-table.svg)
 # 4.2 Tabelline in file
 
 - Chiedere all'utente un numero `n`
@@ -393,7 +393,7 @@ Altrimenti: la lista di output è ottenuta rovesciando la lista di input, a escl
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 4.3  Valori in file
 
 - Si supponga, per esempio, che una misura venga ripetuta due volte al giorno, per più giorni
@@ -412,7 +412,7 @@ Se necessario, provare prima a elaborare un file con un solo valore per riga
 
 ---
 
-![](images/misc/histogram-rot.svg)
+![](https://fondinfo.github.io/images/misc/histogram-rot.svg)
 # 4.4 Istogramma con barre orizzontali
 
 - Leggere da un file una sequenza di valori (positivi)
@@ -442,7 +442,7 @@ Memorizzare i valori in una lista
 
 ---
 
-![](images/misc/crop-circle.jpg)
+![](https://fondinfo.github.io/images/misc/crop-circle.jpg)
 # 4.6 Circular infinity
 
 - In un riquadro `(x, y, w, h)` assegnato, disegnare ricorsivamente dei cerchi, con i centri allineati in verticale
@@ -459,7 +459,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 4.7 Frogger, automobili
 
 - Modificare la classe `Ball` dell'esempio `bounce`
@@ -516,7 +516,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 5.4 Istogramma con barre verticali
 
 - Leggere da un file una sequenza di valori (positivi)
@@ -529,7 +529,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 5.5 Percorso del cavallo
 
 - L'utente sceglie dim. scacchiera (`≥5`)
@@ -550,7 +550,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 5.6 Frogger, zattere
 
 - Modificare la classe `Ball` dell'esempio `bounce`
@@ -566,7 +566,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/misc/frogger.png)
+![](https://fondinfo.github.io/images/misc/frogger.png)
 # 5.7 Frogger, fiume
 
 - Aggiungere il fiume al gioco Frogger
@@ -581,7 +581,7 @@ Segnare in un `bool` se si è letta una parentesi aperta, ma non ancora una pare
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 6.1 Minimo valore, con ricorsione
 
 - Definire una funzione ricorsiva `min_char`
@@ -620,7 +620,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 6.4 Percorso del cavallo, classe
 
 - Incapsulare il gioco 5.5 in una classe
@@ -636,7 +636,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 6.5 Percorso del cavallo, GUI
 
 - Completare la classe dell'es. 6.4, implementando tutti i metodi di `BoardGame`
@@ -645,7 +645,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 6.6 Frogger, estensioni opzionali
 
 - Gioco con due rane, guidate con tasti diversi (ma possibilmente stessa classe)
@@ -657,7 +657,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # 6.7 Frogger, bella copia
 
 - **Codice leggibile**
@@ -676,7 +676,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - Es. 1.1
@@ -687,7 +687,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 7.6 Campo minato in C++, conteggio
 
 - Generare una matrice di dimensioni `w, h` e posizionare `n` mine in posizione casuale
@@ -722,7 +722,7 @@ Scegliere il tipo di matrice da utilizzare
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - Es. 2.3
@@ -732,7 +732,7 @@ Scegliere il tipo di matrice da utilizzare
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 8.5 Campo minato in C++, gioco
 
 - Incapsulare il gioco *Campo minato* in una classe
@@ -750,7 +750,7 @@ Scegliere il tipo di matrice da utilizzare; ad esempio, numeri negativi per mine
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 8.6 Campo minato in C++, conclusione
 
 - Riprendere l'es. 8.5
@@ -762,7 +762,7 @@ Scegliere il tipo di matrice da utilizzare; ad esempio, numeri negativi per mine
 
 ---
 
-![](images/fun/knight-moves.svg)
+![](https://fondinfo.github.io/images/fun/knight-moves.svg)
 # 8.7 Percorso del cavallo, suggerimento
 
 - In *Python*, riprendere l'esercizio 6.5
@@ -780,7 +780,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
 ---
 
-![](images/dev/cpp.svg)
+![](https://fondinfo.github.io/images/dev/cpp.svg)
 # Esercizi C++
 
 - Es. 6.2
@@ -790,7 +790,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 9.5 Campo minato, ricorsione
 
 - *In C++*, riprendere l'esercizio 8.6
@@ -801,7 +801,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
 ---
 
-![](images/misc/artificial-intelligence.png)
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 9.6 Percorso del cavallo, backtracking
 
 - In *Python*, riprendere l'esercizio 7.7
@@ -822,7 +822,7 @@ https://en.wikipedia.org/wiki/Knight's_tour#Warnsdorf's_rule
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 10.1 Classe dei triangoli in C++
 
 - Scrivere una classe `Triangle` per rappresentare dei triangoli
@@ -845,7 +845,7 @@ Per `sqrt`, includere `<cmath>`
 
 ---
 
-![](images/hist/caesar-cipher.jpg)
+![](https://fondinfo.github.io/images/hist/caesar-cipher.jpg)
 # 10.2 Cifrario di Cesare in C++
 
 - Ogni lettera è sostituita dalla lettera che la segue nell'alfabeto dopo 3 posti (o `n` posti, *chiave* del cifrario)
@@ -864,7 +864,7 @@ Ricordarsi che in C++ vale: `char('a' + 3) == 'd'`
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 10.3 Conteggio delle lettere in C++
 
 - Leggere un intero testo da un file
@@ -876,7 +876,7 @@ Ricordarsi che in C++ vale: `char('a' + 3) == 'd'`
 
 ---
 
-![](images/misc/triangle-notations.svg)
+![](https://fondinfo.github.io/images/misc/triangle-notations.svg)
 # 10.4 Gestione triangoli in C++
 
 - Riusare la classe `Triangle` dell'esercizio 10.1
@@ -893,7 +893,7 @@ triangles.erase(begin(triangles) + i);  // remove pointer from vector
 
 ---
 
-![](images/hist/eratostenes.jpg)
+![](https://fondinfo.github.io/images/hist/eratostenes.jpg)
 # 10.5 Crivello di Eratostene in C++
 
 - Definire e testare funzione che calcola la lista di numeri primi fino a `n`
@@ -915,7 +915,7 @@ Attenzione, non rimuovere o inserire elementi in un ciclo `for (val : seq)`
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 10.6 Campo minato, bandiere
 
 - Consentire all'utente di posizionare bandiere su celle *coperte*
@@ -924,7 +924,7 @@ Attenzione, non rimuovere o inserire elementi in un ciclo `for (val : seq)`
 
 ---
 
-![](images/misc/minesweeper.png)
+![](https://fondinfo.github.io/images/misc/minesweeper.png)
 # 10.7 Campo minato, automatismi
 
 - Se l'utente usa il metodo `flag_at` su una cella *già scoperta*

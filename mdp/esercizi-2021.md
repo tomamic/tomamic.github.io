@@ -1,4 +1,4 @@
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # Esercizi 2021
 ## Introduzione alla programmazione
 
@@ -8,7 +8,7 @@
 
 ---
 
-![large](images/algo/holy-grail.jpg)
+![large](https://fondinfo.github.io/images/algo/holy-grail.jpg)
 # 1.1 The Bridge of Death
 
 - Porre tre domande all'utente:
@@ -26,7 +26,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/slope.svg) y = m·x + b
+![](https://fondinfo.github.io/images/misc/slope.svg) y = m·x + b
 # 1.2 Pendenza tra due punti
 
 - Chiedere all'utente le coordinate di due punti sul piano cartesiano
@@ -37,7 +37,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![](images/misc/random-circles.svg)
+![](https://fondinfo.github.io/images/misc/random-circles.svg)
 # 1.3 Cerchi casuali
 
 - Chiedere all'utente il numero di cerchi da disegnare
@@ -49,7 +49,7 @@ Prima versione: chiedere e controllare solo il nome
 
 ---
 
-![large](images/algo/holy-grail.jpg)
+![large](https://fondinfo.github.io/images/algo/holy-grail.jpg)
 # 1.4 The Bridge of Death
 
 - Modificare l'esercizio 1.1
@@ -79,7 +79,7 @@ Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla 
 
 ---
 
-![large](images/misc/gold-price.svg)
+![large](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 1.6 Massimo e minimo
 
 - Chiedere all'utente, attraverso un ciclo, una sequenza di numeri naturali
@@ -88,7 +88,7 @@ Memorizzare in una variabile il risultato parziale; a ogni ciclo, moltiplicarla 
 
 ---
 
-![](images/misc/leap-centuries.svg)
+![](https://fondinfo.github.io/images/misc/leap-centuries.svg)
 # 1.7 Anni bisestili
 
 - Chiedere all'utente di inserire un anno
@@ -103,7 +103,7 @@ Un anno è bisestile se il suo numero è divisibile per 4, con l'eccezione degli
 
 ---
 
-![large](images/misc/random-walk.svg)
+![large](https://fondinfo.github.io/images/misc/random-walk.svg)
 # 1.8 Passeggiata casuale
 
 - Chiedere all'utente un numero `n` (`<100`)
@@ -124,7 +124,7 @@ Non occorre disegnare
 
 ---
 
-![large](images/misc/random-walk.png)
+![large](https://fondinfo.github.io/images/misc/random-walk.png)
 # 1.9 Passeggiata a crocette
 
 - Riprendere l'esercizio precedente
@@ -140,7 +140,7 @@ Non occorre disegnare
 
 ---
 
-![](images/misc/thermometer.png) fahr = 1.8·cels + 32
+![](https://fondinfo.github.io/images/misc/thermometer.png) fahr = 1.8·cels + 32
 # 2.1 Funzione, Fahrenheit
 
 - Definire una funzione `cels_to_fahr`
@@ -155,7 +155,7 @@ Non occorre disegnare
 
 ---
 
-![](images/misc/street-fighter.png)
+![](https://fondinfo.github.io/images/misc/street-fighter.png)
 # 2.2 Animazione orizzontale
 
 - Partire dalla classe `Ball` vista a lezione
@@ -218,7 +218,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 
 ---
 
-![](images/oop/wasd-keys.jpg)
+![](https://fondinfo.github.io/images/oop/wasd-keys.jpg)
 # 2.6 Comando da tastiera
 
 - Partire dall'esempio dell'animazione orizzontale, *senza classi*
@@ -229,7 +229,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 
 ---
 
-![](images/oop/wasd-keys.jpg)
+![](https://fondinfo.github.io/images/oop/wasd-keys.jpg)
 # 2.7 Pallina con controlli
 
 - Creare una classe `HeroBall`
@@ -247,7 +247,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 
 ---
 
-![](images/misc/gold-price.svg)
+![](https://fondinfo.github.io/images/misc/gold-price.svg)
 # 3.1 Conteggio valori
 
 - Chiedere una sequenza di numeri all'utente
@@ -261,7 +261,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 
 ---
 
-![](images/misc/histogram-rot.svg)
+![](https://fondinfo.github.io/images/misc/histogram-rot.svg)
 # 3.2 Istogramma con barre orizzontali
 
 - Chiedere all'utente una sequenza di numeri positivi
@@ -283,7 +283,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
     - Chiedere all'utente i coefficienti per istanziare un oggetto
     - In un ciclo, valutare l'espressione per vari valori *x* inseriti dall'utente
 
-![large](images/misc/quadratic.svg)
+![large](https://fondinfo.github.io/images/misc/quadratic.svg)
 
 ---
 
@@ -299,11 +299,11 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
     - Chiedere all'utente i coefficienti per istanziare un oggetto
     - In un ciclo, valutare l'espressione per vari valori *x* inseriti dall'utente
 
-![large](images/misc/polynomial.svg)
+![large](https://fondinfo.github.io/images/misc/polynomial.svg)
 
 ---
 
-![](images/misc/histogram.svg)
+![](https://fondinfo.github.io/images/misc/histogram.svg)
 # 3.5 Istogramma con barre verticali
 
 - Chiedere all'utente una sequenza di numeri positivi
@@ -317,7 +317,7 @@ Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con
 
 ---
 
-![](images/misc/pac-man.png) ![](images/oop/wasd-keys.jpg)
+![](https://fondinfo.github.io/images/misc/pac-man.png) ![](https://fondinfo.github.io/images/oop/wasd-keys.jpg)
 # 3.6 Pac-Man, comandi [P1]
 
 - Ridenominare come `PacMan` la classe `Turtle` dell'esempio `bounce`
@@ -336,7 +336,7 @@ Il progetto Pac-Man *[P1]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 3.7 Pac-Man, animazione [P1]
 
 - Cambiare il file con le icone dei personaggi
@@ -356,7 +356,7 @@ Il progetto Pac-Man *[P1]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 4.1 Occorrenze di un carattere
 
 - Definire una funzione *pura* `count_char`
@@ -373,7 +373,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 4.2 Occorrenze in classe
 
 - Definire una classe `Text`
@@ -389,7 +389,7 @@ Usare un ciclo `for` sulla stringa
 
 ---
 
-![](images/fun/bike-lock.png) Per l'esercizio: 3 ruote, anzichè 4
+![](https://fondinfo.github.io/images/fun/bike-lock.png) Per l'esercizio: 3 ruote, anzichè 4
 # 4.3 Configurazioni di 3 simboli
 
 - Scrivere una funzione per generare tutte le configurazioni di un lucchetto con 3 ruote (*disposizioni con ripetizione*)
@@ -406,7 +406,7 @@ Ogni `for` scorre tutto l'insieme di simboli
 
 ---
 
-![](images/misc/weather.png)
+![](https://fondinfo.github.io/images/misc/weather.png)
 # 4.4 Dati di piovosità
 
 - Memorizzare dei dati di piovosità forniti dall'utente
@@ -425,7 +425,7 @@ Usare `insert`; evitare algoritmi per il *sort*
 
 ---
 
-![](images/misc/weather.png)
+![](https://fondinfo.github.io/images/misc/weather.png)
 # 4.5 Stazione meteorologica
 
 - Scrivere classe per una stazione meteo, rappresentata così:
@@ -439,7 +439,7 @@ Usare `insert`; evitare algoritmi per il *sort*
 
 ---
 
-![](images/misc/troll-key.png)
+![](https://fondinfo.github.io/images/misc/troll-key.png)
 # 4.6 Maiuscole tra asterischi
 
 - Definire una funzione
@@ -459,7 +459,7 @@ Oppure, mantenere un contatore degli asterischi
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 4.7 Pac-Man - Fantasmi [P1]
 
 - Modificare la classe `Ghost` dell'esempio `bounce`
@@ -478,7 +478,7 @@ Oppure, mantenere un contatore degli asterischi
 
 ---
 
-![](images/misc/solids.png)
+![](https://fondinfo.github.io/images/misc/solids.png)
 # 5.1 Funzione, sfera
 
 - Definire una funzione *pura* `sphere_volume`
@@ -492,7 +492,7 @@ Oppure, mantenere un contatore degli asterischi
 
 ---
 
-![](images/misc/solids.png)
+![](https://fondinfo.github.io/images/misc/solids.png)
 # 5.2 Classe, sfera
 
 - Classe che modella una sfera
@@ -516,7 +516,7 @@ Oppure, mantenere un contatore degli asterischi
 
 ---
 
-![](images/fun/times-table.svg)
+![](https://fondinfo.github.io/images/fun/times-table.svg)
 # 5.4 Tabelline sul canvas
 
 - Riprendere l'esempio delle tabelline
@@ -528,7 +528,7 @@ Oppure, mantenere un contatore degli asterischi
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 5.5 Conteggio caratteri
 
 - Definire funzione `count_chars`
@@ -548,7 +548,7 @@ Si può sfruttare la funzione `count_char`, es. 4.1
 
 ---
 
-![](images/misc/characters.png)
+![](https://fondinfo.github.io/images/misc/characters.png)
 # 5.6 Classe per i conteggi
 
 - Definire una classe che memorizzi un testo
@@ -565,7 +565,7 @@ Distingure bene campi, parametri e variabili locali
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 5.7 Pac-Man - Controllo dei muri
 
 - Muri non possono essere attraversati da nessuno
@@ -585,7 +585,7 @@ Distingure bene campi, parametri e variabili locali
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 5.8 Pac-Man, biscotti [P1]
 
 - *Biscotti* (“`-`” sulla mappa)
@@ -605,7 +605,7 @@ Distingure bene campi, parametri e variabili locali
 
 ---
 
-![](images/misc/catbus.png) Was it a car or a cat I saw?
+![](https://fondinfo.github.io/images/misc/catbus.png) Was it a car or a cat I saw?
 # 6.1 Palindromo con ricorsione
 
 - Testo *palindromo*: rimane uguale se letto al contrario
@@ -625,7 +625,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/hist/euclid.jpg)
+![](https://fondinfo.github.io/images/hist/euclid.jpg)
 # 6.2 Massimo Comun Divisore
 
 - Leggere due numeri
@@ -649,7 +649,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 6.4 Pac-Man, gioco e GUI [P1]
 
 - Classe `PacManGame`, per gestire il gioco *Pac-Man*
@@ -668,7 +668,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/pac-man.png)
+![](https://fondinfo.github.io/images/misc/pac-man.png)
 # 6.5 Pac-Man, test [P1]
 
 - Creare degli *unit test* per il gioco Pac-Man
@@ -683,7 +683,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/pacman-scatter.png)
+![](https://fondinfo.github.io/images/misc/pacman-scatter.png)
 # 6.6 Pac-Man, comportamenti [P1]
 
 - Estensione *opzionale*: distinguere tre comportamenti dei fantasmi (i primi due, alternati)
@@ -700,7 +700,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/handwriting.jpg)
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
 # ⭐ 6.7 Progetti in bella copia
 
 - **Codice leggibile**
@@ -720,7 +720,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 7.1 Potenze con ricorsione
 
 - Calcolare la potenza intera positiva di un numero, sfruttando la ricorsione
@@ -765,7 +765,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/triangles1.png)
+![](https://fondinfo.github.io/images/misc/triangles1.png)
 # 7.5 Triangoli ricorsivi
 
 - Definire una funzione
@@ -785,7 +785,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/slitherlink-solved.png)
+![](https://fondinfo.github.io/images/misc/slitherlink-solved.png)
 # 7.6 Slitherlink, regole [P2]
 
 - ➊ Connect adjacent dots with lines, to make a *single loop*
@@ -802,7 +802,7 @@ Il progetto Slitherlink *[P2]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/slitherlink.png)
+![](https://fondinfo.github.io/images/misc/slitherlink.png)
 # 7.6 Slitherlink, inizio [P2]
 
 - Classe che incapsula lo stato del gioco
@@ -820,7 +820,7 @@ Il progetto Slitherlink *[P2]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/slitherlink-solved.png)
+![](https://fondinfo.github.io/images/misc/slitherlink-solved.png)
 # 7.7 Slitherlink, conclusione [P2]
 
 - Nel costruttore
@@ -866,7 +866,7 @@ Il progetto Slitherlink *[P2]* può essere sviluppato in coppia
 
 ---
 
-![](images/misc/triangles2.png)
+![](https://fondinfo.github.io/images/misc/triangles2.png)
 # 8.3 Triangoli ricorsivi
 
 - Definire una funzione di disegno ricorsiva
@@ -883,7 +883,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/repr/file-system.svg)
+![](https://fondinfo.github.io/images/repr/file-system.svg)
 # 8.4 Profondità albero
 
 - Partire dall'es. 4.5 del 2014: file system
@@ -896,7 +896,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![small](images/misc/slitherlink-loops.svg) Errore: due anelli
+![small](https://fondinfo.github.io/images/misc/slitherlink-loops.svg) Errore: due anelli
 # 8.5 Slitherlink, singolo anello [P2]
 
 
@@ -913,7 +913,7 @@ Memorizzare il punto di partenza, oppure l'intero percorso
 
 ---
 
-![](images/misc/slitherlink-solved.png)
+![](https://fondinfo.github.io/images/misc/slitherlink-solved.png)
 # 8.6 Slitherlink, automatismi [P2]
 
 - Autocompletamento, al click su un incrocio (`+`):
@@ -926,7 +926,7 @@ Memorizzare il punto di partenza, oppure l'intero percorso
 
 ---
 
-![](images/misc/slitherlink-solved.png)
+![](https://fondinfo.github.io/images/misc/slitherlink-solved.png)
 # 8.7 Slitherlink, test [P2]
 
 - Creare degli *unit test* per il gioco Slitherlink
@@ -944,7 +944,7 @@ Memorizzare il punto di partenza, oppure l'intero percorso
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 9.1 Liste annidate, massimo
 
 - Definire una funzione *ricorsiva*
@@ -964,7 +964,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 9.2 Scrittura di risultati casuali
 
 - Simulare `n` lanci di una terna di dadi
@@ -974,7 +974,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # 9.3 Analisi di risultati casuali
 
 - Leggere i dati dal file generato nell'esercizio 9.2
@@ -990,7 +990,7 @@ Per conteggiare i vari risultati, usare una lista di (almeno) 16 valori
 
 ---
 
-![](images/misc/triangles2.png)
+![](https://fondinfo.github.io/images/misc/triangles2.png)
 # 9.4 Triangoli a livelli
 
 - Riprendere l'esercizio 8.3
@@ -1008,7 +1008,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/magic-square.png)
+![](https://fondinfo.github.io/images/misc/magic-square.png)
 # 9.5 Quadrato magico
 
 - Chiedere all'utente `n`
@@ -1028,7 +1028,7 @@ Eseguibile nei casi `n ≤ 3`, poi troppo inefficiente
 
 ---
 
-![](images/misc/magic-square.png)
+![](https://fondinfo.github.io/images/misc/magic-square.png)
 # 🥷 9.6 Quadrato con backtracking
 
 - Applicare il *backtracking* al problema del quadrato magico
@@ -1042,7 +1042,7 @@ Eseguibile nei casi `n ≤ 3`, poi troppo inefficiente
 
 ---
 
-![](images/misc/dead-end.jpg)
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
 # 9.7 Slitherlink, vicolo cieco [P2]
 
 - Metodo booleano `unsolvable`, senza parametri
@@ -1065,7 +1065,7 @@ Con la GUI, attivare questa funzionalità alla pressione del tasto `u`
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # 10.1 Liste annidate, conteggio
 
 - Definire una funzione *ricorsiva*
@@ -1121,7 +1121,7 @@ Limitare l'uso di liste
 
 ---
 
-![](images/misc/sierpinski-rgb.svg)
+![](https://fondinfo.github.io/images/misc/sierpinski-rgb.svg)
 # 10.5 Quadratini in RGB
 
 - Scrivere una funzione ricorsiva di disegno
@@ -1138,7 +1138,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![](images/misc/sierpinski-rgb.svg)
+![](https://fondinfo.github.io/images/misc/sierpinski-rgb.svg)
 # 10.6 Livelli di ricorsione
 
 - Riprendere l'esercizio 10.5
@@ -1163,7 +1163,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 
 ---
 
-![small](images/misc/artificial-intelligence.png)
+![small](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.8 Slitherlink, suggerimenti [P2]
 
 - Cercare una mossa “ragionata”
@@ -1188,7 +1188,7 @@ Con la GUI, attivare questa funzionalità alla pressione del tasto `h`
 
 ---
 
-![small](images/misc/artificial-intelligence.png)
+![small](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
 # 10.9 Slitherlink, backtracking [P2]
 
 ``` py
