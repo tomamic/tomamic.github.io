@@ -11,7 +11,7 @@
     var ico = '<link rel="icon" href="https://fondinfo.github.io/images/logo.svg" />';
     var css = '<link rel="stylesheet" href="reveal/tomamic.css" />';
     var tar = '<base target="_blank" />';  /* open all links in a new tab. */
-    var logo = '<aside><img src="images/logo.svg" /></aside>';
+    var logo = '<aside><img src="https://fondinfo.github.io/images/logo.svg" /></aside>';
     var slides = `
         <div class="reveal">
             <div class="slides">
