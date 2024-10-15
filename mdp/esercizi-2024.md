@@ -418,4 +418,3 @@ Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
 <https://www.retrogames.cz/play_085-NES.php>
 <br>
 <https://bomberman.fandom.com/wiki/Ballom>
-
