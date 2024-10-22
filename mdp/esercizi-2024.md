@@ -274,3 +274,137 @@ Nella funzione, usare un ciclo `for` sulla stringa
 - Allineare i quadrati in alto e a destra (anzichè sinistra)
 - Lasciare attorno al disegno un margine bianco di 10 pixel
     - Da ogni bordo del canvas
+
+---
+
+# Esercitazione 4 (10-21 *)
+
+---
+
+$$ax^2 + bx + c = 0$$ $$x_{12} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
+# 4.1 Equazione di secondo grado
+
+- Definire una funzione `solve_quadratic`
+    - Per risolvere una equazione di secondo grado
+    - Parametri: i tre coefficienti `a, b, c`
+    - Risultato: la coppia di soluzioni
+    - Se *discriminante* (sotto radice) negativo, generare un `ValueError`
+- Richiamare `solve_quadratic` da un'altra funzione, `main`
+    - Chiedere all'utente i tre coefficienti
+    - Visualizzare le due soluzioni
+    - Ripetere in ciclo, finchè non viene inserita una riga vuota per il primo coefficiente
+
+---
+
+# 4.2 Modello esponenziale
+
+- Creare una classe delle curve esponenziali
+    - $y = a\cdot e^{b x} + c$
+    - Coefficienti $a, b, c$ come campi, da inizializzare nel costruttore
+- Metodo `estimate`
+    - Parametro: $x$
+    - Risultato: valore della funzione in $x$
+- Nella funzione `main`
+    - Istanziare un *singolo* modello esponenziale con coefficienti forniti dall'utente
+    - Valutare il modello, chiamando `estimate`, in diversi punti $x$ forniti iterativamente dall'utente
+    - Terminare il ciclo quando l'utente fornisce una stringa vuota
+
+```
+from math import e, exp
+```
+
+---
+
+![](https://fondinfo.github.io/images/misc/circle-grid.svg)
+# 4.3 Griglia di cerchi
+
+- Su canvas 500×500, disegnare griglia `n×n` di cerchi
+    - `n` scelto dall'utente
+    - I cerchi sono tra loro adiacenti
+    - Possibilmente, lasciare un margine di 5 pixel al bordo del canvas
+- Il colore dei cerchi varia linearmente
+    - In ogni riga: componente rossa nulla nel primo cerchio, satura nell'ultimo
+    - In ogni colonna: componente verde nulla nel primo cerchio, satura nell'ultimo
+
+---
+
+# 4.4 Valori normalizzati
+
+- Chiedere all'utente una sequenza di numeri, terminata da 0
+- Calcolare e mostrare i valori minimo e massimo
+- Per ogni valore $v$ nella sequenza…
+    - Mostrare il corrispondente valore normalizzato
+    - $v_{norm} = \frac{v - v_{min}}{v_{max} - v_{min}}$ <br> $v_{norm} \in [0, 1]$
+
+>
+
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
+
+---
+
+# 4.5 Indice progressivo
+
+- Chiedere all'utente `w` e `h`, interi
+- Per ogni valore di `x` tra `0` e `w-1`
+- Per ogni valore di `y` tra `0` e `h-1`
+- Calcolare il seguente indice progressivo: $i = x \cdot h + y$
+- Mostrare sulla console testuale i risultati in forma di tabella
+- Per esempio, con `w=4` e `h=3`
+
+``` txt
+0   3   6   9
+1   4   7   10
+2   5   8   11
+```
+
+---
+
+![](https://fondinfo.github.io/images/games/anim-gravity.svg)
+# 4.6 Pallina con gravità
+
+- Aggiungere l'effetto della gravità alla classe `Ball`
+    - Primo esempio a lezione, *senza* `Actor` e `Arena`
+    - Accelerazione costante verso il basso
+- Diversi effetti ai bordi
+    - Bordo in alto: continua oltre, indisturbata
+    - Bordo in basso: rimbalza in verticale
+    - Bordi laterali: riappare dal bordo opposto
+- Mostrare l'animazione di una *lista* di palline
+    - Ciascuna raffigurata con una immagine o un rettangolo in movimento
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 4.7 Bomberman: tastiera [P1]
+
+- Ridenominare come `Bomberman` la classe `Turtle` dell'esempio `bounce`
+- Movimento solo in orizzontale o verticale
+    - Non in diagonale
+- Cambio di direzione solo in posizioni multiple di 16
+- Ritagliare una immagine da questa griglia di sprite
+    - <https://fondinfo.github.io/sprites/bomberman.png>
+
+>
+
+Il progetto si può sviluppare da soli o in coppia, ma non in gruppi più numerosi di due
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 4.8 Bomberman: sprite [P1]
+
+- Ritagliare immagini diverse per Bomberman
+    - Per le diverse direzioni
+- Durante il movimento, alternare le immagini
+    - Per ottenere l'effetto della camminata
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 4.9 Bomberman: Ballom [P1]
+
+- Riprendere la classe `Ballom` già realizzata
+- Renderla sottoclasse di `Actor`
+- Aggiungerla all'arena di gioco, assieme a Bomberman
+- Non è ancora richiesto di gestire le collisioni
+
