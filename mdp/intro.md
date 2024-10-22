@@ -1,11 +1,11 @@
 
-![](images/dev/theory-practice.png)
+![](https://fondinfo.github.io/images/dev/theory-practice.png)
 # Presentazione del corso
 ## Informatica e lab di programmazione<br> Michele Tomaiuolo @ Ingegneria UniPR
 
 ---
 
-![large](images/sys/globe.jpg)
+![large](https://fondinfo.github.io/images/sys/globe.jpg)
 # ➊ Introduzione all'informatica
 
 - Logica
@@ -17,7 +17,7 @@
 
 ---
 
-![large](images/misc/space-invaders-school.png)
+![large](https://fondinfo.github.io/images/misc/space-invaders-school.png)
 # ➋ Introduzione alla programmazione
 
 - Algoritmi in *Python 3*
@@ -33,7 +33,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/dev/geek-girl.svg)
+![](https://fondinfo.github.io/images/dev/geek-girl.svg)
 # ➌ Esercitazioni in laboratorio
 
 - Brevi *esercizi*, in Python
@@ -49,7 +49,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/dev/lab.jpg)
+![](https://fondinfo.github.io/images/dev/lab.jpg)
 # ℹ️ Istruzioni per i laboratori
 
 - Esercitazioni in lab ogni lunedì
@@ -61,7 +61,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![large](images/misc/videogames.png)
+![large](https://fondinfo.github.io/images/misc/videogames.png)
 # ℹ️ Istruzioni per i progetti
 
 - Più avanti, un paio di progetti a casa
@@ -85,7 +85,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/misc/quiz.png)
+![](https://fondinfo.github.io/images/misc/quiz.png)
 # 🎓 Modalità d'esame
 
 - *➊* Prova sull'*Introduzione all'informatica* (quiz)
@@ -101,7 +101,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![](images/algo/fondinfo-book.jpg)
+![](https://fondinfo.github.io/images/algo/fondinfo-book.jpg)
 # 📚 Testo di riferimento
 
 - M. Tomaiuolo, A. Ferrari: <br> [Introduzione all'informatica con Python](https://www.mheducation.it/9788838613586) <br> McGraw-Hill 2024 (~44€, ~370pp.) <br> ISBN 978-8838613586
@@ -114,7 +114,7 @@ Applicazioni testuali e con grafica
 
 ---
 
-![small](images/dev/python-logo.svg)
+![small](https://fondinfo.github.io/images/dev/python-logo.svg)
 # 💾 Strumenti software
 
 - **Thonny**: <https://www.thonny.org/>

@@ -277,6 +277,150 @@ Nella funzione, usare un ciclo `for` sulla stringa
 
 ---
 
+# Esercitazione 3 (10-14)
+
+---
+
+![](https://fondinfo.github.io/images/games/anim-wrap.svg)
+# 3.1 Pallina modificata
+
+- Partire dalla classe `Ball` vista a lezione
+    - https://fondinfo.github.io/play/?c06_ball.py
+- Inizializzazione
+    - Posizione iniziale sempre al centro del canvas
+    - Spostamento orizzontale casuale: 4 oppure -4
+    - Spostamento verticale casuale: 4 oppure -4
+- Modificare il metodo `move`
+    - Quando la pallina arriva a uno dei 4 bordi...
+    - Ricompare dal bordo opposto
+
+---
+
+![](https://fondinfo.github.io/images/misc/solids.png)
+# 3.2 Parallelepipedo
+
+- Classe che modella un parallelepipedo
+    - Campi privati per *largezza*, *altezza* e *profondità*
+    - Metodo per calcolare la superficie
+    - Metodo per calcolare il volume
+- Nel corpo principale del programma, creare e usare un parallelepipedo
+    - Chiedere all'utente le dimensioni del parallelepipedo
+    - Passare queste dimensioni al costruttore, come parametri
+    - Mostrare superficie e volume del parallelepipedo creato
+
+---
+
+# 3.3 Tabella delle distanze
+
+- Considerare tutti gli accoppiamenti tra due numeri: `x` e `y`
+    - Ciascun numero compreso tra 1 e 5
+- Mostare in tabella la distanza (`abs`) tra i due numeri
+    - Una riga per ogni valore di `y`
+    - Una colonna per ogni valore di `x`
+
+``` text
+0   1   2   3   4
+1   0   1   2   3
+2   1   0   1   2
+3   2   1   0   1
+4   3   2   1   0
+```
+
+>
+
+Usare due cicli for annidati; cominciare a scrivere il solo ciclo sulla `x`, con `y` costante
+
+---
+
+![](https://fondinfo.github.io/images/misc/slope.svg)
+# 3.4 Pendenza di una retta
+
+- Definire una funzione `slope`
+    - Parametri: due punti sul piano (due tuple)
+    - Risultato: pendenza della retta passante
+    - `ValueErrore`, se punti allineati verticalmente
+- Definire una funzione `main`
+    - Acquisire due punti dall'utente
+    - Mostrare all'utente il risultato di `slope`
+    - Offrire all'utente la scelta di continuare a elaborare altri punti, oppure terminare il programma
+
+---
+
+# 3.5 Media e varianza
+
+- Chiedere all'utente una sequenza di interi, terminata da 0
+- Calcolare e mostrare il valore medio $\mu$
+- Scorrere poi la sequenza e calcolare la varianza
+
+$$\operatorname{Var}(X) = \frac{1}{n} \sum_{i=1}^n (x_i - \mu)^2$$
+
+>
+
+Aggiungere ciascun valore a una lista inizialmente vuota, con `append`
+
+---
+
+# 3.6 Modello lineare a due variabili
+
+- Creare una classe delle curve lineari a due variabili: $x, y$
+    - $z = a·x + b·y + c$
+    - Coefficienti $a, b, c$ come campi, da inizializzare nel costruttore
+- Metodo `estimate`
+    - Parametri: $x, y$
+    - Risultato: valore della funzione in $x, y$
+- Nella funzione `main`
+    - Istanziare un singolo modello lineare con coefficienti forniti dall'utente
+    - Calcolare la funzione in diversi punti $x, y$ forniti iterativamente dall'utente
+    - Terminare il ciclo quando l'utente fornisce una stringa vuota (per $x$, o $y$)
+
+---
+
+![](https://fondinfo.github.io/images/misc/xmas-triangle.svg)
+# 3.7 Triangolo di cerchi colorati
+
+- Chiedere all'utente un numero `n`
+- Generare `n` righe di cerchi, allineate a sinistra
+- La prima riga contiene un solo cerchio
+- Ogni riga successiva contiene un cerchio in più
+- Ogni cerchio ha un colore casuale
+
+---
+
+![](https://fondinfo.github.io/images/misc/xmas-tree.svg)
+# 3.8 Albero di cerchi colorati
+
+- Chiedere all'utente un numero `n`
+- Generare `n` righe di cerchi, allineate al centro
+- Il numero di riga corrisponde al numero di cerchi da disegnare
+- Ogni cerchio ha un colore casuale
+- Aggiungere in fondo una riga con un solo cerchio
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 3.9 Bomberman: Ballom [P1]
+
+- Creare una classe `Ballom`
+    - A partire dalla classe `Ball` vista a lezione
+    - Posizione iniziale arrotondata nel costruttore a multipli di 16
+    - Direzione iniziale casuale: alto, basso, destra, o sinistra
+    - Spostamenti di 4px per ogni frame
+- Nel metodo `move`, aggiungere un cambio di direzione casuale
+    - Nuova direzione: alto, basso, destra, o sinistra
+    - Solo quando `x` e `y` sono entrambe multiple di 16
+- Ritagliare una immagine da questa griglia di sprite
+    - <https://fondinfo.github.io/sprites/bomberman.png>
+
+>
+
+<https://archive.org/details/chenall_dyna>
+<br>
+<https://www.retrogames.cz/play_085-NES.php>
+<br>
+<https://bomberman.fandom.com/wiki/Ballom>
+
+---
+
 # Esercitazione 4 (10-21 *)
 
 ---
