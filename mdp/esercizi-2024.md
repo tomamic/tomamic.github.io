@@ -552,3 +552,110 @@ Il progetto si può sviluppare da soli o in coppia, ma non in gruppi più numero
 - Aggiungerla all'arena di gioco, assieme a Bomberman
 - Non è ancora richiesto di gestire le collisioni
 
+---
+
+# Esercitazione 5 (10-28)
+
+---
+
+![](https://fondinfo.github.io/images/misc/clamp.svg)
+# 5.1 Clamp su lista
+
+- Definire una funzione con due parametri
+    - Una lista di `float`
+    - Un limite superiore fissato, come `float`
+    - Senza risultato esplicito: lista modificata *in place*
+- Per ciascun valore nella lista
+    - Se il valore supera il limite…
+    - Esso viene troncato, cioè sostituito con il limite stesso
+
+---
+
+# 5.2 Lista di cifre
+
+- Definire una funzione `digits`
+    - Parametro: numero intero positivo
+    - Risultato: lista di `int`
+    - Cifre che compongono il numero, dalle unità in su
+- Divedere il numero ripetutamente per 10
+    - Ad ogni passaggio, la cifra è il resto della divisione
+    - *Non* usare la rappresentazione come `str`!
+    - Es. `6543 → [3, 4, 5, 6]`
+- Chiamare la funzione da `main`
+    - Chiedere dei numeri all'utente, fino a riga vuota
+    - Di volta in volta, mostrare la lista risultante
+
+---
+
+![](https://fondinfo.github.io/images/misc/solar-system.png)
+# 5.3 Classe dei pianeti
+
+- Oggetto che ruota attorno a un centro di rotazione
+- Campi per la posizione, in coordinate polari
+- Campi per *velocità angolare*, *centro di rotazione*, *colore*
+- Metodo `move` per fare un passo
+- Metodo `pos` per conoscere la posizione `(x, y)`
+- Metodo `color` per conoscere il colore `(r, g, b)`
+- Mostrare l'animazione di una lista di oggetti attorno al centro del canvas
+
+>
+
+Senza `Actor` e senza `Arena`
+
+---
+
+![](https://raw.githubusercontent.com/fondinfo/fondinfo/master/sprites.png)
+# 5.4 Tartaruga con gravità
+
+- Modificare l'esempio `bounce`
+- Aggiungere l'effetto della gravità alla classe `Turtle`
+    - Accelerazione costante verso il basso
+- La tartaruga si blocca sul bordo inferiore
+    - Senza rimbalzare
+- La tartaruga comincia un salto alla pressione di `ArrowUp`
+    - Solo se è poggiata sul fondo
+
+---
+
+# 5.5 Lettere iniziali uguali
+
+- Scrivere una funzione `len_common_prefix`
+    - Parametri: due stringhe da confrontare
+    - Risultato: numero di lettere iniziali uguali tra le due stringhe
+- Scrivere una funzione `main`
+    - Chiedere all'utente due stringhe di testo
+    - Invocare `len_common_prefix` sulle due stringhe
+    - Mostrare all'utente il risultato
+- Es. `“carta”` vs. `“carota”` → 3 (`“car”`)
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 5.6 Bomberman: muri [P1]
+
+- Muri immobili e indistruttibili
+- Muri di mattoni, possono essere distrutti dalle esplosioni
+- Bomberman e Ballom non possono passarci
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 5.7 Bomberman: bomba [P1]
+
+- Bomberman può depositare una bomba
+- Normalmente, una sola bomba per volta
+    - Non più di una bomba nell'arena, nello stesso momento
+- La bomba resta in gioco per circa 100 frame
+    - Poi esplode
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 5.8 Bomberman: fuoco [P1]
+
+- Fuoco dopo l'esplosione della bomba
+- Occupa la cella della bomba e le 4 adiacenti, a croce
+    - Ma solo se non contengono un muro
+- Il fuoco uccide i personaggi
+- Il fuoco distrugge i muri di mattoni che investe
+
