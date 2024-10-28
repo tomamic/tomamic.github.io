@@ -568,6 +568,8 @@ Il progetto si può sviluppare da soli o in coppia, ma non in gruppi più numero
 - Per ciascun valore nella lista
     - Se il valore supera il limite…
     - Esso viene troncato, cioè sostituito con il limite stesso
+    - Es. con limite a 3
+	- `[2, 3, 5, 1, 4]` → `[2, 3, 3, 1, 3]`
 
 ---
 
