@@ -569,7 +569,7 @@ Il progetto si può sviluppare da soli o in coppia, ma non in gruppi più numero
     - Se il valore supera il limite…
     - Esso viene troncato, cioè sostituito con il limite stesso
 - Per esempio. con limite fissato a 3
-	- `[2, 3, 5, 1, 4]` → `[2, 3, 3, 1, 3]`
+    - `[2, 3, 5, 1, 4]` → `[2, 3, 3, 1, 3]`
 
 ---
 
@@ -661,3 +661,125 @@ Senza `Actor` e senza `Arena`
 - Il fuoco uccide i personaggi
 - Il fuoco distrugge i muri di mattoni che investe
 
+---
+
+---
+
+# Esercitazione 6 (11-04)
+
+---
+
+# 6.1 Verifica di cifre
+
+- Ottenere la lista di cifre di un numero dalla funzione `digits` (es. 5.2)
+- Verificare la correttezza del risultato
+    - Ciclo sulla lista
+    - Moltiplicare ogni cifra per la corrispondente potenza di 10
+
+$$6543 \to [3, 4, 5, 6]$$
+$$[3, 4, 5, 6] \to 3 \cdot 10^0 + 4 \cdot 10^1 + 5 \cdot 10^2 + 6 \cdot 10^3$$
+
+---
+
+![](https://fondinfo.github.io/images/misc/troll-key.png)
+# 6.2 Maiuscole tra asterischi
+
+- Scrivere una funzione che:
+    - Riceve in input una stringa di testo
+    - Produce in output la stesso testo, ma...
+    - Trasforma in maiuscolo tutto il testo compreso tra asterischi
+    - In assenza di asterisco di chiusura → maiuscolo fino alla fine del testo
+- Es. “I want \*this text\* to be uppercase”
+    - → “I want THIS TEXT to be uppercase”
+- Da una funzione `main`, applicare la funzione su una stringa inserita dall'utente
+
+>
+
+Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un asterisco finale
+
+---
+
+![](https://fondinfo.github.io/images/misc/weather.png)
+# 6.3 Dati di piovosità
+
+- Memorizzare dei dati di piovosità forniti dall'utente
+    - Piovosità negativa, per terminare l'inserimento
+- Ciascun dato è una coppia `(str, int)`
+    - Giorno di misurazione (es.: `"2019-10-07"`)
+    - Millimetri di pioggia
+- I dati possono essere forniti dall'utente fuori sequenza
+    - Ma devono essere memorizzati in ordine di data
+    - Inserire ogni dato nella posizione giusta
+- Visualizzare infine la lista completa e ordinata
+
+>
+
+Usare `insert`; evitare algoritmi per il *sort*
+
+---
+
+# 6.4 Matrice casuale
+
+- Chiedere all'utente le dimensioni `w, h` di una matrice
+- Riempire la matrice di numeri interi casuali, compresi tra 0 e 15
+- Indicare quali righe e quali colonne contengono qualche ripetizione di uno stesso numero
+- Es.: ripetizioni in riga 0, in riga 2, in colonna 1
+
+``` txt
+ 0,  3, 14,  6,  3
+ 2,  4,  5,  3,  0
+10,  4, 11,  7,  4
+```
+
+---
+
+# 6.5 Gioco dei numeri in ciclo
+
+- Creare una sottoclasse di `BoardGame`
+    - Dimensioni `w` e `h` come parametri del costruttore
+    - Calcolare `n` come massimo tra `w` e `h`
+    - Valore iniziale 0 per tutte le celle
+- Mossa dell'utente su una cella (*click*):
+    - Incrementa il numero presente
+    - Se il numero supera `n`, torna a 0
+- Rappresentazione delle celle:
+    - Mostrare i numeri ≠ 0
+    - Non mostrare lo 0, sostituirlo con stringa vuota `""`
+- Conclusione se nessuna cella è a 0
+
+---
+
+# 6.6 Gioco delle ripetizioni
+
+- Riprendere l'esercizio 6.5
+- Nuove regole per la vittoria
+    - Nessuna cella è a 0
+    - Nessuna riga contiene ripetizioni di uno stesso numero
+    - Nessuna colonna contiene ripetizioni di uno stesso numero
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 6.7 Bomberman, estensioni [P1]
+
+- Estensioni *opzionali* del gioco
+    - Secondo bombarman, per giocare in due, con l'uso di tasti diversi
+    - Bonus per ampliare la portata delle esplosioni
+    - Bonus per incrementare il numero di bombe contemporanee
+    - Altri avversari sul percorso
+    - Punteggio, livelli, bonus ed estensioni *a fantasia*
+
+---
+
+![](https://fondinfo.github.io/images/games/bomberman.png)
+# 6.8 Bomberman, gioco e GUI [P1]
+
+- Classe `BombermanGame`, per gestire il gioco *Bomberman*
+    - Inizializzare i personaggi, prendendo i dati da un file di configurazione
+    - Incapsulare personaggi e arena
+    - Controllare la conclusione della partita, positiva o negativa
+- Classe `BombermanGui` per la rappresentazione del gioco
+    - Disegno immagini e funzionalità legate a `g2d`
+    - Metodi `tick` etc.
+- Prendere spunto (…) da `BounceGame` e `BounceGui`
+    - <https://fondinfo.github.io/play/?c07_bouncegame.py>
