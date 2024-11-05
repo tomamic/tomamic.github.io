@@ -663,8 +663,6 @@ Senza `Actor` e senza `Arena`
 
 ---
 
----
-
 # Esercitazione 6 (11-04)
 
 ---
