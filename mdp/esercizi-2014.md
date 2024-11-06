@@ -396,8 +396,8 @@ Segnare in un `bool` se si è incontrato un asterisco iniziale, ma non ancora un
 
 ---
 
-![](https://fondinfo.github.io/images/misc/gray-squares.svg)
-# 3.8 Ripetizioni di grigifigcaption: Quattro grigi, ripetuti 2 volte
+![](https://fondinfo.github.io/images/misc/gray-squares.svg) Quattro grigi, ripetuti 2 volte
+# 3.8 Ripetizioni di grigi
 
 - Chiedere all'utente una sequenza di valori e memorizzarli in una lista
     - La sequenza termina quando l'utente inserisce un valore non compreso tra 0 e 255
