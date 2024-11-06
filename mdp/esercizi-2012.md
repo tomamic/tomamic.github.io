@@ -337,7 +337,7 @@ Bastano due cicli for annidati, senza liste
 # 4.2 Classe degli esami
 
 - Scrivere una classe `Exam` per rappresentare gli esami sostenuti in un corso di studio
-    - Parametri del costruttore: *nome esame*; *numero crediti*; *data* (es. “`2012-10-14`”); *voto* (da 18 a 30)
+    - Parametri del costruttore: *nome esame* ; *numero crediti* ; *data* (es. “`2016-10-14`”); *voto* (da 18 a 30)
 - Fornire un metodo pubblico `estimateWork` per stimare le ore di studio, supponendo che...
     - A ogni credito corrispondano ~ 25h di studio
     - Il voto sia direttamente proporzionale allo studio
