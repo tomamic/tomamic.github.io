@@ -781,3 +781,131 @@ Usare `insert`; evitare algoritmi per il *sort*
     - Metodi `tick` etc.
 - Prendere spunto (…) da `BounceGame` e `BounceGui`
     - <https://fondinfo.github.io/play/?c07_bouncegame.py>
+
+---
+
+# Esercitazione 7 (11-11)
+
+---
+
+# 7.1 Valori fuori limite
+
+- Definire una funzione *ricorsiva* `out_of_range`, con due parametri
+    - Una lista di valori `float`
+    - Un limite superiore fissato, come `float`
+    - Risultato booleano: ∃ valore che supera limite?
+
+## 💡 Idea
+
+- Lista vuota → No
+- Altrimenti, separare la lista in due parti
+    - *Head* : primo elemento
+    - *Tail* : tutti gli altri elementi
+- Il primo elemento (*head*) supera il limite?
+- Nel resto della lista (*tail*), ∃ valore che supera limite?
+
+>
+
+Sono accettabili solo soluzioni ricorsive
+
+---
+
+![](https://fondinfo.github.io/images/misc/dice.png)
+# 7.2 Scrittura di risultati casuali
+
+- Simulare `n` lanci di una coppia di dadi
+    - `n` scelto dall'utente
+    - Due valori casuali, tra 1 e 6
+- Scrivere il risultato dei lanci in un file
+    - In ogni riga, inserire i due valori separati da spazio
+
+---
+
+![](https://fondinfo.github.io/images/misc/dice.png)
+# 7.3 Analisi di risultati casuali
+
+- Leggere i dati dal file generato nell'esercizio 7.2
+- Per ogni coppia di valori letta, mostrare all'utente la loro somma
+- Contare quante volte, in tutto, si presenta ciascun risultato
+    - Risultati possibili: da 2 a 12
+    - Somma dei due numeri
+
+>
+
+Per conteggiare i vari risultati, usare una lista di contatori interi (lista di dimensione prefissata)
+
+---
+
+![](https://fondinfo.github.io/images/fun/htree.svg)
+# 7.4 Albero di H
+
+- Disegnare ricorsivamente un *H-Tree*
+- Partire da un rettangolo assegnato
+- Se è più piccolo di 5 pixel: niente
+- Altrimenti, dividerlo in 4 parti uguali
+    - Collegare i centri delle due parti a destra
+    - Collegare i centri delle due parti a sinistra
+    - Collegare i punti medi dei due segmenti
+- Ripetere *ricorsivamente* su ciascuna delle quattro parti
+
+---
+
+![](https://fondinfo.github.io/images/oop/personal-data.png)
+# 7.5 Classe delle persone
+
+- Definire una classe delle persone
+- Campo privato per *nome*
+- Campi privati per *data di nascita*
+- Metodo booleano
+    - Parametri: data da verificare, fornita come tripla (anno, mese, giorno)
+    - Risultato: la persona risulta maggiorenne, in quella data?
+      <br>(Verificare che sia passato il compleanno)
+- Procedura `main`
+    - Istanziare un singolo oggetto con dati forniti dall'utente
+    - Chiedere all'utente diverse date
+    - Per ciascuna data, comunicare se la persona risulta maggiorenne
+
+---
+
+![](https://fondinfo.github.io/images/misc/hitori.svg) ![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
+# 7.6 Hitori, regole [P2]
+
+- A ogni mossa, l'utente può:
+    - Annerire qualsiasi numero, oppure…
+    - Cerchiare qualsiasi numero
+- Regole per la vittoria
+    - Nessun numero appare più di una volta in una riga o colonna
+    - I lati delle celle nere non si toccano mai
+    - Le celle bianche sono tutte collegate tra di loro
+
+>
+
+<https://www.nikoli.co.jp/en/puzzles/hitori.html>
+<br>
+<http://www.menneske.no/hitori/eng/>
+
+---
+
+![](https://fondinfo.github.io/images/misc/hitori.svg)
+# 7.7 Hitori, inizio [P2]
+
+- Classe che incapsula lo stato del gioco in due matrici
+    - Matrice con numeri iniziali (come da figura)
+    - Matrice con annotazioni dell'utente: `CLEAR`, `CIRCLE`, `BLACK`
+- Implementare l'interfaccia `BoardGame`
+    - Metodo `play` per cerchiare, annerire, o ripulire una cella (a rotazione)
+    - Metodo `read` per conoscere il contenuto di una cella <br>
+      (p.es., aggiungere `#` dopo i numeri anneriti, `!` dopo i numeri cerchiati)
+    - Metodo `finished` per ora sempre `False`
+
+---
+
+![](https://fondinfo.github.io/images/misc/hitori-completed.svg)
+# 7.8 Hitori, righe e colonne
+
+- Nel metodo `finished`, controllare ogni riga e colonna
+    - Nessun valore ripetuto, tra quelli non anneriti
+    - Celle annerite non adiacenti
+    - Trascurare per ora il controllo di contiguità tra tutte le celle bianche
+- Usare la *GUI* fornita con gli esempi
+    - Opzionalmente, modificare la GUI <br> per mostrare le celle annerite o cerchiate

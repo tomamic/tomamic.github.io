@@ -1,10 +1,10 @@
-![](images/dev/bug-feature.png)
+![](https://fondinfo.github.io/images/dev/bug-feature.png)
 # Sviluppo del software
 ## Introduzione alla programmazione
 
 ---
 
-![large](images/dev/waterfall-model.svg) Waterfall model
+![large](https://fondinfo.github.io/images/dev/waterfall-model.svg) Waterfall model
 # 🌱 Ciclo di vita a cascata
 
 - **Analisi**
@@ -24,7 +24,7 @@
 
 ---
 
-![large](images/dev/rup-cycle.png)
+![large](https://fondinfo.github.io/images/dev/rup-cycle.png)
 # 🌱 Evoluzione di un software
 
 - Evoluzione ineliminabile per molti sistemi
@@ -37,7 +37,7 @@
 
 ---
 
-![large](images/dev/programmer.svg)
+![large](https://fondinfo.github.io/images/dev/programmer.svg)
 # 🌱 Qualità del software
 
 - Le qualità su cui si basa la valutazione di un sistema software possono essere:
@@ -71,7 +71,7 @@
 
 ---
 
-![](images/dev/gearwheel.png)
+![](https://fondinfo.github.io/images/dev/gearwheel.png)
 # 🌱 Specifiche
 
 - Rispetto a cosa valutiamo **correttezza** o **affidabilità** di un programma?
@@ -130,7 +130,7 @@ def sqrt(x: float) -> float
 
 ---
 
-![](images/qt/fifteen-puzzle.jpg)
+![](https://fondinfo.github.io/images/qt/fifteen-puzzle.jpg)
 # 🛠️ Invariante di classe
 
 - Vincolo sullo stato interno di un oggetto
@@ -148,7 +148,7 @@ def sqrt(x: float) -> float
 
 # ⭐ Ereditarietà e contratti
 
-![](images/dev/contract-inherit.svg)
+![](https://fondinfo.github.io/images/dev/contract-inherit.svg)
 
 - ❓ *Che relazione c’è tra le asserzioni di una classe e quelle dei suoi discendenti?*
 
@@ -269,7 +269,7 @@ except ZeroDivisionError:
 
 ---
 
-![large](images/dev/v-model.png)
+![large](https://fondinfo.github.io/images/dev/v-model.svg)
 # 🌱 Verifica e validazione
 
 - Mostrare che il sistema...
@@ -283,7 +283,7 @@ except ZeroDivisionError:
 
 ---
 
-![large](images/dev/first-bug.jpg) Report del primo “bug” <br> Gruppo di Grace Hopper
+![large](https://fondinfo.github.io/images/dev/first-bug.jpg) Report del primo “bug” <br> Gruppo di Grace Hopper
 # 🌱 Costo dei bug
 
 - Scovare bug, difficile e frustrante 😫
