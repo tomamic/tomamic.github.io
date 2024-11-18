@@ -909,3 +909,137 @@ Per conteggiare i vari risultati, usare una lista di contatori interi (lista di 
     - Trascurare per ora il controllo di contiguità tra tutte le celle bianche
 - Usare la *GUI* fornita con gli esempi
     - Opzionalmente, modificare la GUI <br> per mostrare le celle annerite o cerchiate
+
+---
+
+# Esercitazione 8 (11-18)
+
+---
+
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
+# 8.1 Somma ricorsiva di cifre
+
+- Definire una funzione ricorsiva `sum_digits`
+    - Riceve come parametro un numero naturale `n`
+    - Se `n` è minore di 10, `n` è il risultato
+    - Altrimenti, calcola la somma `s` delle cifre di `n`… <br> e opera ricorsivamente sulle cifre di `s`
+- Esempi
+    - *f(41)=4+1=5*
+    - *f(327)=f(12)=f(3)=3*
+    - Infatti, *3+2+7=12* e *1+2=3*
+
+---
+
+# 8.2 Matrice mescolata
+
+- Chiedere all'utente le dimensioni `w, h` di una matrice
+- Riempire la matrice con i numeri da `1` a `w*h`, in ordine
+- Mescolare la matrice
+    - Scambiare di posizione coppie di valori scelti a caso
+- Salvare la matrice in un file di testo (*CSV*)
+    - Ogni riga della matrice in una riga del file
+    - Valori separati tra loro da una virgola
+
+---
+
+# 8.3 Colonne normalizzate
+
+- Leggere da file una matrice di numeri
+    - Per es. la matrice salvata nell'es. 8.2
+- Per ogni colonna della matrice
+    - Stampare il valore massimo
+    - Stampare il valore minimo
+- Riscrivere inoltre la matrice in un secondo file
+    - Ma con valori normalizzati in ogni colonna (vedi es. 4.4)
+    - $v_{norm} = \frac{v - v_{min}}{v_{max} - v_{min}}$ <br> $v_{norm} \in [0, 1]$
+
+---
+
+# 8.4 Test somma di cifre
+
+- Scrivere uno *unit test*
+    - Creare una sottoclasse di `unittest.TestCase`
+- Testare la funzione `sum_digits` (es. 8.1)
+- Verificare le seguenti associazioni input/output
+    - $4$ → $4$
+    - $45$ → $9$
+    - $86$ → $5$
+    - $686$ → $2$
+    - $9686$ → $2$
+    - $97689$ → $3$
+
+---
+
+![](https://fondinfo.github.io/images/fun/circlex4.png) ![](https://fondinfo.github.io/images/fun/circlex4.svg)
+# 8.5 Cerchi speciali
+
+- Funzione che disegna un *cerchio speciale*
+    - Parametri: centro, raggio ($r$) e colore
+- Disegna un cerchio sul canvas, in base ai parametri
+- Inoltre, se $r > 5$…
+    - Sceglie un colore casuale
+    - Disegna quattro *cerchi speciali* più piccoli
+    - Tutti interni e tangenti al cerchio di raggio $r$
+    - Due spostati a destra e sinistra <br> raggio = ½ $r$ ; spostamento ↔ di ½ $r$
+    - Due spostati in alto e in basso <br> raggio = ⅓ $r$ ; spostamento ↕ di ⅔ $r$
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](https://fondinfo.github.io/images/fun/circlex4pal.png)
+# 8.6 Livello di ricorsione
+
+- Riprendere la funzione di disegno dell'esercizio 8.5
+- Aggiungere alla funzione un parametro `level` intero
+    - Per decidere il livello massimo di ricorsione
+    - Valore decrescente nei livelli più annidati
+- In questo caso, scegliere il colore da una *palette*
+    - Palette: lista di tuple RGB (casuali)
+    - Palette creata all'avvio dell'applicazione
+    - Selezione da palette in base a `level`
+
+---
+
+# 8.7 Bomberman, test [P1]
+
+- Creare degli *unit test* per il gioco Bomberman
+    - Sono consigliati *test parametrizzati*
+- Cercare di testare ciascun personaggio separatamente
+    - Chiamare direttamente `move`, `pos` ecc., in varie situazioni
+- Es. Testare il protagonista simulando varie sequenze di comandi
+    - Percorre la traiettoria prevista? (Svolta solo in posizione multiple di 16…)
+    - Sceglie sempre lo sprite corretto?
+    - Reagisce correttamente alle diverse collisioni?
+
+---
+
+# 8.8 Hitori, connessione [P2]
+
+- Nell'inizializzazione, leggere la matrice di numeri da un file (*parametro*)
+- Nel metodo `finished`
+    - Verificare che le celle bianche siano tutte connesse
+    - Celle bianche: quelle non annerite dall'utente
+- *Suggerimento*
+    - Creare una matrice booleana temporanea
+    - Trovare la prima cella bianca e segnare a `True` la sua posizione nella matrice
+    - Segnare anche le celle bianche a essa adiacenti
+    - Proseguire a segnare le celle adiacenti in maniera *ricorsiva*
+    - Infine contare tutte le celle segnate
+
+---
+
+![](https://fondinfo.github.io/images/misc/handwriting.jpg)
+# 8.9 Progetti in bella copia
+
+- **Codice leggibile**
+    - *Costanti*, anzichè numeri “*magici*” sparsi nel codice
+    - *Nomi esplicativi* e semplici
+    - *Regole di stile* : `variable_name`, `function_name`, `ClassName`, `CONSTANT_NAME`
+    - *Commenti*, quando utili: *function annotation*, *docstring*
+- **Codice ben organizzato**
+    - *No copia&incolla* del codice: funzioni parametrizzate e/o cicli
+    - *Programmazione strutturata* : cicli senza `break`
+    - *OOP* : *incapsulamento*, *composizione*, *polimorfismo*
