@@ -1053,7 +1053,7 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 - Creare una sottoclasse di `BoardGame`
 - Incapsula matrice dell'esercizio 9.4
 - L'utente deve scegliere tutte le lettere, in ordine alfabetico
-    - Prima `play_at` su casella con `A`, poi su `B`…
+    - Prima `playt` su casella con `A`, poi su `B`…
 - Se sceglie una lettera fuori sequenza, partita persa
 - Se sceglie la lettera giusta, questa viene marcata o cancellata
 - Caselle vuote non hanno effetto
@@ -1184,9 +1184,6 @@ Saranno accettate esclusivamente le soluzioni ricorsive
 ```
 
 ---
-
-<table>
-</table>
 
 # 10.5 Gioco dei quadrati
 

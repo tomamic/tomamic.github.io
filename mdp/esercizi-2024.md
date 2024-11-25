@@ -1043,3 +1043,143 @@ Saranno accettate esclusivamente le soluzioni ricorsive
     - *No copia&incolla* del codice: funzioni parametrizzate e/o cicli
     - *Programmazione strutturata* : cicli senza `break`
     - *OOP* : *incapsulamento*, *composizione*, *polimorfismo*
+
+---
+
+# Esercitazione 9 (11-25)
+
+---
+
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
+# 9.1 Potenze con ricorsione
+
+- Calcolare la potenza intera di un numero, sfruttando la ricorsione
+- Qualsiasi numero $x$, elevato a potenza $0$, dà come risultato $1$
+    - (Per IEEE anche $0^0 = 1$, anzichè indeterminato)
+- La potenza $n$-esima di un numero $x$ si può calcolare come:
+    - $x^n = x \cdot x^{n-1}$, per $n > 0$
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](https://fondinfo.github.io/images/repr/file-system.svg)
+# 9.2 Documento più grande
+
+- Partire dall'esempio di cartelle e documenti
+- Aggiungere metodo `largest` ai *nodi*
+    - Risultato: tupla `(size, relative_path)` del doc più grande nei sottonodi
+- Astratto nella classe base
+- Per un *documento*: dimensione del suo contenuto, suo nome
+- Per una *cartella*: risultato maggiore, tra i sottonodi
+    - Inserisce il suo nome davanti al path
+- Rispetto alla struttura raffigurata a fianco
+    - Cercare il `largest` a partire dalla cartella radice
+
+>
+
+Strutture gerarchiche, ma il file system non c'entra
+
+---
+
+![](https://fondinfo.github.io/images/misc/sierpinski-rgb.svg)
+# 9.3 Quadratini in RGB
+
+- Scrivere una funzione ricorsiva di disegno
+    - Parametri: `x`, `y`, `s` (posizione e lato)
+- Nel quadrato, identificare 3 quadratini di lato `s/2` disposti a triangolo: due adiacenti e il terzo sopra
+- Se i quadratini sono abbastanza piccoli (p.es. `<= 16`)
+    - → Colorarli rispettivamente in rosso, verde e blu (senza ricorsione)
+- Altrimenti: *ricorsione*
+    - Non disegnare niente (si disegna solo all'ultimo livello della ricorsione)
+    - Ripetere la suddivisione per ciascuno dei tre quadratini
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](https://fondinfo.github.io/images/comp/list-tree.svg)
+# 9.4 Somma in liste annidate
+
+- Definire una funzione *ricorsiva* `sum_nested`
+    - Parametro: un numero, o liste annidate contenenti numeri (`T = float | list["T"]`)
+    - Risultato `float`: somma di tutti i numeri nella collezione
+- Somma ricorsiva
+    - Un numero semplice costituisce già il risultato
+    - In una lista, si sommano ricorsivamente tutti gli elementi
+- Esempi
+    - `[[1, 2, [3, 4], [5]], 6] → 21`
+    - `[1, [3, [8, 9], 7, 2], [], [4], 5] → 39`
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+# 9.5 Maiuscole in ogni riga
+
+- Leggere il file `license.txt` riga per riga
+- Non considerare caratteri bianchi a inizio e fine riga (spazi, newline ecc.)
+- Per ciascuna riga, calcolare la percentuale di maiuscole rispetto a tutti i caratteri della riga
+- Calcolare la percentuale di maiuscole rispetto a tutti i caratteri del file
+
+---
+
+![](https://fondinfo.github.io/images/fun/sin-cos.png) ![](https://fondinfo.github.io/images/misc/interpolation.svg)
+# 9.6 Classe FastSin
+
+- Definire una classe `FastSin`
+    - All'inizializzazione, precalcola il valore della funzione `sin` tra 0 e 359°
+    - Lista di 360 valori precalcolati
+- Metodo `eval` con parametro `x` (`float`)
+    - Restituisce una approssimazione del `sin`, recuperandolo dalla lista
+- *Opzionalmente*, interpolare tra i due valori più vicini
+    - Ricavare la retta tra i due punti più vicini ad `x` disponibili, calcolare in `x`
+    - <https://en.wikipedia.org/wiki/Linear_interpolation>
+
+``` py
+from math import floor, ceil, round, sin, radians
+```
+
+---
+
+# 9.7 Hitori, automatismi [P2]
+
+- Tasto destro (o long press) su una cella nera
+    - Cerchiare automaticamente i numeri attorno
+- Tasto destro su un numero cerchiato
+    - Annerire automaticamente le celle nella stessa riga o colonna con lo stesso numero
+- Inoltre, alla pressione del tasto `h`
+    - Attivare gli automatismi precedenti, ovunque possibile
+
+---
+
+![](https://fondinfo.github.io/images/misc/dead-end.jpg)
+# 9.8 Hitori, vicolo cieco [P2]
+
+- Metodo booleano `wrong`, senza parametri
+- Controlla se una delle annotazioni inserite impedisce la soluzione del gioco
+    - *Non si può risolvere il gioco senza rimuovere una annotazione*
+    - Es. Due celle annerite contigue
+    - Es. Due numeri cerchiati uguali e allineati
+    - Es. Una regione bianca isolata
+- Può restituire `False` anche se la partita non è finita
+    - Non ci sono violazioni evidenti, dovute ai simboli già inseriti
+    - Ci sono però delle celle ancora non marcate
+
+---
+
+# 9.9 Hitori, test [P2]
+
+- Creare degli *unit test* per il gioco Hitori
+- Verificare il gioco dopo varie chiamate a `play`
+    - Usare `read` per osservare lo stato
+- Verificare il funzionamento di `finished` rispetto alle regole
+    - Nessun valore ripetuto, tra quelli non anneriti
+    - Celle annerite non adiacenti
+    - Contiguità tra tutte le celle bianche
