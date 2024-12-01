@@ -1183,3 +1183,55 @@ from math import floor, ceil, round, sin, radians
     - Nessun valore ripetuto, tra quelli non anneriti
     - Celle annerite non adiacenti
     - Contiguità tra tutte le celle bianche
+
+---
+
+# Esercitazione 11 (12-09)
+
+---
+
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
+# 11.1 Hitori, suggerimenti [P2]
+
+- Cercare automaticamente la prossima mossa
+    - Ragionamento simile a giocatore umano
+    - Avviare la ricerca col tasto `a`
+- *Provare* ad annerire una cella non annotata
+    - Applicare gli automatismi dell'es. 9.7
+    - Se le regole sono violate (`wrong`), cerchiare la cella
+- *Provare* a cerchiare una cella non annotata
+    - Applicare gli automatismi dell'es. 9.7
+    - Se le regole sono violate (`wrong`), annerire la cella
+
+>
+
+Se invece una ipotesi non risulta `wrong`, non è detto che sia giusta; non si possono trarre conclusioni!
+
+---
+
+![](https://fondinfo.github.io/images/misc/artificial-intelligence.png)
+# 11.2 Hitori, altri suggerimenti [P2]
+
+- Considerare ogni cella non annotata, singolarmente
+- *Provare ad annerirla*
+    - Applicare gli automatismi dell'es. 9.7
+- *Provare a cerchiarla*
+    - Applicare gli automatismi dell'es. 9.7
+- *Confrontare* tutte le annotazioni, aggiunte nei due casi
+    - Se una qualsiasi cella è annerita in entrambe le ipotesi, annerirla nel gioco
+    - Se una qualsiasi cella è cerchiata in entrambe le ipotesi, cerchiarla nel gioco
+
+---
+
+# 11.3 Hitori, test soluzione [P2]
+
+- Provare a risolvere con i soli *suggerimenti* singoli
+    - [Easy 5×5](http://www.menneske.no/hitori/5x5/eng/solve.html?number=15266)
+    - [Medium 6×6](http://www.menneske.no/hitori/6x6/eng/utskrift.html?number=16075)
+    - [Hard 8×8](http://www.menneske.no/hitori/8x8/eng/solve.html?number=21330)
+    - [Very hard 9×9](http://www.menneske.no/hitori/eng/solve.html?number=186838)
+    - [Super hard 12×12](http://www.menneske.no/hitori/12x12/eng/solve.html?number=29512)
+    - [Impossible 15×15](http://www.menneske.no/hitori/15x15/eng/solve.html?number=2564)
+- Ricordarsi...
+    - Inizializzare la partita da un *file* (parametro)
+    - Preparare vari *unit test*, per le principali funzionalità
