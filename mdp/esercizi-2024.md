@@ -1186,6 +1186,159 @@ from math import floor, ceil, round, sin, radians
 
 ---
 
+# Esercitazione 10 (12-02 *)
+
+---
+
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
+# 10.1 Prodotto con ricorsione
+
+- Definire una funzione *ricorsiva* `multiply_all`
+    - Parametro: lista di numeri
+    - Risultato: *prodotto* di tutti i numeri nella lista
+- Definire una funzione `main`
+    - Chiamare la funzione `multiply_all` con una lista generata casualmente
+    - Mostrare all'utente la lista e il risultato <br><br>
+
+## 💡 Idea
+
+- Se la lista è vuota, il prodotto è *definito* pari a `1`
+- Altrimenti: moltiplicare il primo valore per il *prodotto* di tutti gli altri (escluso il primo)
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+# 10.2 Modello polinomiale
+
+- Definire una classe per modelli polinomiali
+- Campo `coeffs` per la *lista* dei coefficienti ($a_0…a_n$)
+    - Da ricevere come parametro del costruttore
+    - Lunghezza: $n+1$ ($n$: grado del polinomio)
+- Metodo `estimate` per applicare il modello a un punto dato `x`
+    - Parametro per il valore di $x$, risultato $y$
+    - $y = a_0 + a_1\cdot x +a_2\cdot x^2 + … + a_{n-1}\cdot x^{n-1} + a_n\cdot x^n$
+- Nella parte `main` del programma
+    - Chiedere all'utente i coefficienti per istanziare un unico oggetto
+    - Possibilmente, prendere tutti i coefficienti su una sola riga
+    - In un ciclo, valutare l'espressione per vari valori $x$ inseriti dall'utente
+    - Terminare il ciclo all'inserimento di una riga vuota
+- Ex.: $\mathit{coeffs} = [2, 3, 4]; x = 5 \to y = 2 + 3 \cdot 5 + 4 \cdot 5^2 = 117$
+
+---
+
+![](https://fondinfo.github.io/images/fun/starstar.png)
+# 10.3 Stella di stelle
+
+- Definire una funzione di disegno ricorsiva
+    - Parametri: centro, distanza $r$ e numero $n$ di punti
+- Disegnare un punto al centro (cerchietto ~ 3 px)
+- Se la distanza $r$ è troppo piccola (p.es. 5 px) ⇒ finito
+- Altrimenti, collegare il centro a $n$ punti
+    - Tutti a distanza $r$ dal centro
+    - Equidistanti tra loro
+- A partire da ciascuno dei nuovi punti, ripetere il pattern
+    - Ma con distanza ridotta a un terzo
+- Provare la funzione con vari parametri
+    - Distanza $r$: 200 px, numero $n$ di punti: 5…
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+![](http://fondinfo.github.io/images/repr/neighborhood4.svg)
+# 10.4 Zero in vicinato
+
+- Scrivere una classe `NeighborZero`
+    - Campo per memorizzare una matrice di interi
+    - Possibilmente, matrice letta da file nell'inizializzazione
+    - Nome del file come parametro
+- Definire un metodo `has_zero_around`
+    - Parametri: indici di colonna e riga `x` e `y`
+    - Risultato: verifica se c'è uno 0 nell'intorno della cella scelta
+    - In una delle 4 celle adiacenti (**✣**), esclusa la cella stessa
+- Definire una funzione `main`
+    - Istanziare un unico oggetto, indicando un file da leggere
+    - Chiedere poi ciclicamente all'utente diverse posizioni `x`, `y`
+    - Attivare `has_zero_around` e mostrare il risultato
+    - Riga vuota in input per terminare
+
+---
+
+![](https://fondinfo.github.io/images/comp/list-tree.svg)
+# 10.5 Liste annidate, fuori limite
+
+- Definire una funzione *ricorsiva* `out_of_range`
+    - Parametro: un numero, o liste annidate contenenti numeri (`T = float | list["T"]`)
+    - Parametro: un valore limite
+    - Risultato `bool`: qualche valore nella collezione supera il limite?
+- Ricerca ricorsiva
+    - Un numero semplice può superare o meno il limite fissato
+    - In una lista, si cerca ricorsivamente in ogni elemento
+- Esempio : `[1, [3, [8, 9], 7, 2], [], [4], 5]`
+    - Limite: `6` → `True`, `7` → `True`, `9` → `False`
+
+>
+
+Saranno accettate esclusivamente le soluzioni ricorsive
+
+---
+
+# 10.6 Conteggio per iniziale
+
+- Leggere per intero il file “`licence.txt`”
+- Calcolare il numero delle parole…
+    - Raggruppate in base alla loro prima lettera
+    - Indifferentemente, maiuscola o minuscola (*case-insensitive*)
+- Per esempio
+    - Le parole che iniziano con “`a`” sono 18
+    - Quelle con “`b`” sono 3
+    - Quelle con “`c`” sono 13 …
+
+``` py
+import re
+words = re.findall(r"\w+", "Bla, bla (and that's it!).")
+print(words)
+```
+
+>
+
+Possibilmente, usare lista di 26 contatori, anziché un dizionario
+
+---
+
+# 10.7 Moltiplicazione iterativa
+
+*Domanda di riserva: rispondere dopo aver completato o abbandonato le precedenti*
+
+- Riscrivere la funzione `multiply_all` dell'esercizio 10.1
+    - Moltiplicare tra loro tutti i numeri di una lista
+    - Usare una iterazione anzichè la ricorsione
+- Definire una funzione `main`
+    - Chiamare la funzione `multiply_all` con una lista generata casualmente
+    - Mostrare all'utente la lista e il risultato
+
+---
+
+![](https://fondinfo.github.io/images/misc/lines-around.svg)
+# 10.8 Linee al centro
+
+*Domanda di riserva: rispondere dopo aver completato o abbandonato le precedenti*
+
+- Definire un raggio $r$ pari a 200
+- Definire un angolo iniziale $\theta_1$ pari a 90°
+- Definire un angolo finale $\theta_2$ pari a 180°
+- Disegnare dei segmenti che collegano il centro del canvas a $n$ punti
+    - $n$ scelto dall'utente
+- Tutti a distanza $r$ dal centro, equispaziati tra loro
+- Angoli compresi tra $\theta_1$ e $\theta_2$
+
+---
+
 # Esercitazione 11 (12-09)
 
 ---
