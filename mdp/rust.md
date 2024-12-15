@@ -1,9 +1,9 @@
-![](images/dev/rust.svg)
+![](http://fondinfo.github.io/images/dev/rust.svg)
 # Rust
 
 ---
 
-![large](images/dev/rust-safety-control.svg)
+![large](http://fondinfo.github.io/images/dev/rust-safety-control.svg)
 # Why Rust
 
 - Performance
@@ -25,7 +25,7 @@
 
 ---
 
-![large](images/dev/rust-genealogy.png) ![large](images/dev/rust-graph.svg)
+![large](http://fondinfo.github.io/images/dev/rust-genealogy.png) ![large](http://fondinfo.github.io/images/dev/rust-graph.svg)
 # Origins
 
 - History
@@ -49,7 +49,7 @@
 
 # Loved and wanted, in SO survey
 
-![](images/dev/lang-rank.png)
+![](http://fondinfo.github.io/images/dev/lang-rank.png)
 
 >
 
@@ -76,7 +76,7 @@ fn main() {
 
 ---
 
-![](images/dev/get-started.svg)
+![](http://fondinfo.github.io/images/dev/get-started.svg)
 # Getting started
 
 - <https://www.rust-lang.org/learn/get-started>
@@ -371,7 +371,7 @@ println!("{}", value10);
 
 ---
 
-![large](images/dev/trpl04-06.svg)
+![large](http://fondinfo.github.io/images/dev/trpl04-06.svg)
 # Slice
 
 - A `String` or `Vec` owns its elements, allocated in the heap
@@ -575,7 +575,7 @@ fn main() {
 
 ---
 
-![large](images/fun/records.svg)
+![large](http://fondinfo.github.io/images/fun/records.svg)
 # Stack / heap
 
 - *Code*
@@ -594,7 +594,7 @@ fn main() {
 
 ---
 
-![large](images/dev/trpl04-01.svg)
+![large](http://fondinfo.github.io/images/dev/trpl04-01.svg)
 # Variable scope
 
 - Objects occupying space unknown at compile time: in the heap
@@ -617,11 +617,11 @@ fn main() {
 - Set of rules enforced at compile time
 - No cost at runtime
 
-![large](images/dev/rust-owner.svg)
+![large](http://fondinfo.github.io/images/dev/rust-owner.svg)
 
 ---
 
-![large](images/dev/trpl04-02.svg)
+![large](http://fondinfo.github.io/images/dev/trpl04-02.svg)
 # Move semantics
 
 - Two variables cannot own the same object
@@ -686,7 +686,7 @@ fn concat2(s1: String, s2: String) -> (String, String, String) {
 
 ---
 
-![large](images/dev/trpl04-05.svg)
+![large](http://fondinfo.github.io/images/dev/trpl04-05.svg)
 # Borrowing
 
 - A *reference* allows *borrowing* some value
@@ -974,7 +974,7 @@ fn main() {
 
 ---
 
-![](images/oop/animals.png)
+![](http://fondinfo.github.io/images/oop/animals.png)
 # Trait
 
 - A `trait` defines an abstract interface
@@ -993,7 +993,7 @@ pub trait Animal {
 
 ---
 
-![](images/oop/farm.svg)
+![](http://fondinfo.github.io/images/oop/farm.svg)
 # Trait implementation
 
 ``` rs
@@ -1051,7 +1051,7 @@ fn main() {
 
 ---
 
-![](images/oop/peppa.png)
+![](http://fondinfo.github.io/images/oop/peppa.png)
 # Boxed trait objects
 
 - Trait objects perform **dynamic dispatch**
@@ -1134,7 +1134,7 @@ rand = "0.8.5"
 
 ---
 
-![](images/dev/wasm.svg)
+![](http://fondinfo.github.io/images/dev/wasm.svg)
 # Wasm
 
 - *WebAssembly* (Wasm)
