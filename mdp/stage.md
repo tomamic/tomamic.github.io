@@ -1,6 +1,6 @@
 ![](images/misc/videogames.png)
 # Creare un videogioco in Python
-## Stage formativo — 10-14 giugno 2024 <br> Ingegneria dell'Informazione
+## Stage formativo — 09-13 giugno 2025 <br> Ingegneria dell'Informazione
 
 ---
 
