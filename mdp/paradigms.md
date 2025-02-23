@@ -1,4 +1,4 @@
-![](images/comp/c3po.png)
+![](https://fondinfo.github.io/images/comp/c3po.png)
 # Paradigms and languages
 
 ---
@@ -21,7 +21,7 @@
 
 ---
 
-![](images/comp/attack.svg)
+![](https://fondinfo.github.io/images/comp/attack.svg)
 # ① Formal languages
 
 - Regular expressions
@@ -32,7 +32,7 @@
 
 ---
 
-![](images/fun/functional-xkcd.png)
+![](https://fondinfo.github.io/images/fun/functional-xkcd.png)
 # ② Programming paradigms
 
 - Functional programming
@@ -76,7 +76,7 @@
 
 ---
 
-![](images/dev/lang-pypl.png)
+![](https://fondinfo.github.io/images/dev/lang-pypl.png)
 # Why so many languages?
 
 - Programmers use so many different languages…
@@ -91,7 +91,7 @@
 
 # Language popularity
 
-![large](images/dev/lang-github.svg)
+![large](https://fondinfo.github.io/images/dev/lang-github.svg)
 
 >
 
@@ -106,7 +106,7 @@
 
 # Efficiency
 
-![large](images/dev/lang-time.svg)
+![large](https://fondinfo.github.io/images/dev/lang-time.svg)
 
 >
 
@@ -116,7 +116,7 @@
 
 # Energy consumption
 
-![large](images/dev/lang-energy.svg)
+![large](https://fondinfo.github.io/images/dev/lang-energy.svg)
 
 >
 
@@ -124,7 +124,7 @@
 
 ---
 
-![large](images/dev/assembly.png)
+![large](https://fondinfo.github.io/images/dev/assembly.png)
 # Low-level languages
 
 - Closer to the machine architecture, than the problem model
@@ -149,7 +149,7 @@
 
 # History of languages
 
-![large](images/dev/languages-timeline.svg)
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg)
 
 >
 
@@ -163,7 +163,7 @@
 
 ---
 
-![large](images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
 # 1950s - Early languages
 
 - First languages are task specific - First compilers
@@ -174,7 +174,7 @@
 
 ---
 
-![large](images/dev/languages-timeline.svg) ![](/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
 # System languages
 
 - 1970s: Intel 4004, first microprocessor
@@ -188,7 +188,7 @@
 
 ---
 
-![large](images/dev/languages-timeline.svg)
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg)
 # Internet and cloud languages
 
 - 1990s: the Internet and the Web
@@ -206,7 +206,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![large](images/dev/lang-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
+![large](https://fondinfo.github.io/images/dev/lang-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
 # Influence of languages
 
 - Arcs represent influence among languages
@@ -219,7 +219,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Python influence graph
 
-![](images/dev/python-graph.svg)
+![](https://fondinfo.github.io/images/dev/python-graph.svg)
 
 >
 
@@ -229,7 +229,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Haskell influence graph
 
-![](images/dev/haskell-graph.svg)
+![](https://fondinfo.github.io/images/dev/haskell-graph.svg)
 
 >
 
@@ -239,7 +239,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Rust influence graph
 
-![](images/dev/rust-graph.svg)
+![](https://fondinfo.github.io/images/dev/rust-graph.svg)
 
 >
 
@@ -258,11 +258,11 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
     - Languages with the same paradigm are conceptually similar
     - They may draw tracts from different paradigms
 
-![](images/dev/paradigms.svg)
+![](https://fondinfo.github.io/images/dev/paradigms.svg)
 
 ---
 
-![large](images/dev/paradigm-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
+![large](https://fondinfo.github.io/images/dev/paradigm-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
 # Languages and paradigms
 
 - **Imperative / procedural**
@@ -279,7 +279,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![](images/dev/imperative.svg)
+![](https://fondinfo.github.io/images/dev/imperative.svg)
 # Imperative programming
 
 - Prescriptive style
@@ -293,7 +293,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![](images/dev/imperative.svg)
+![](https://fondinfo.github.io/images/dev/imperative.svg)
 # Structured programming
 
 - Program composed by simple blocks
@@ -303,11 +303,11 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 - Many common languages are imperative and structured
     - *Pascal, Basic, Fortran, C, Cobol*
 
-![](images/algo/structures.svg)
+![](https://fondinfo.github.io/images/algo/structures.svg)
 
 ---
 
-![](images/dev/imperative.svg) ![](images/hist/mcnulty.png) Kay McNulty
+![](https://fondinfo.github.io/images/dev/imperative.svg) ![](https://fondinfo.github.io/images/hist/mcnulty.png) Kay McNulty
 # Procedural programming
 
 - Based on the concept of *subroutine*
@@ -319,7 +319,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![](images/dev/imperative.svg)
+![](https://fondinfo.github.io/images/dev/imperative.svg)
 # Object-oriented programming
 
 - Objects incapsulate both state and behaviour
@@ -334,7 +334,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![large](images/dev/paradigms.svg)
+![large](https://fondinfo.github.io/images/dev/paradigms.svg)
 # Declarative programming
 
 - Programming: stating *properties of the result*
@@ -415,7 +415,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Jungle of paradigms
 
-![](images/dev/vanroy-jungle.svg)
+![](https://fondinfo.github.io/images/dev/vanroy-jungle.svg)
 
 - Fewer than languages, but still many paradigms
     - Van Roy lists 27 paradigms
@@ -429,14 +429,14 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Languages, paradigms, concepts
 
-![](images/dev/vanroy-concepts.svg)
+![](https://fondinfo.github.io/images/dev/vanroy-concepts.svg)
 
 - Fortunately, paradigms are connected
     - They share common concepts
 
 ---
 
-![small](images/dev/vanroy-fun-oop.svg)
+![small](https://fondinfo.github.io/images/dev/vanroy-fun-oop.svg)
 # Concepts
 
 - Paradigm
@@ -454,13 +454,13 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Taxonomy of paradigms
 
-![large](images/dev/wiki-paradigms.svg)
+![large](https://fondinfo.github.io/images/dev/wiki-paradigms.svg)
 
 ---
 
 # Concepts and languages
 
-![large](images/dev/vanroy-languages.svg)
+![large](https://fondinfo.github.io/images/dev/vanroy-languages.svg)
 
 ---
 
@@ -504,7 +504,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 # Language adoption
 
-![large](images/dev/lang-adoption.svg)
+![large](https://fondinfo.github.io/images/dev/lang-adoption.svg)
 
 >
 
@@ -531,7 +531,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![](images/dev/lang-learn.svg) Speed of language acquisition <br> 1679 users of Slashdot
+![](https://fondinfo.github.io/images/dev/lang-learn.svg) Speed of language acquisition <br> 1679 users of Slashdot
 # Intrinsics, simplicity
 
 - Simple definition vs. simple effective use
@@ -593,7 +593,7 @@ Some examples… are C#, Go, Java, Ruby, and Swift.
 
 ---
 
-![large](images/dev/lang-features.svg)
+![large](https://fondinfo.github.io/images/dev/lang-features.svg)
 # Feature preferences
 
 - Libraries

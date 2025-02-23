@@ -1,10 +1,10 @@
-![](images/fun/haskell-logo.svg)
+![](https://fondinfo.github.io/images/fun/haskell-logo.svg)
 # Haskell
 ## Functional programming
 
 ---
 
-![small](images/fun/haskell-logo.svg) ![small](images/dev/python-logo.svg)
+![small](https://fondinfo.github.io/images/fun/haskell-logo.svg) ![small](https://fondinfo.github.io/images/dev/python-logo.svg)
 # About the course
 
 - Various programming paradigms
@@ -20,7 +20,7 @@
 
 ---
 
-![](images/fun/rbfuller.jpg)
+![](https://fondinfo.github.io/images/fun/rbfuller.jpg)
 # Why learning a new language
 
 - Because it makes easier to perform some tasks
@@ -34,7 +34,7 @@
 
 ---
 
-![](images/fun/function.png)
+![](https://fondinfo.github.io/images/fun/function.png)
 # Functional paradigm
 
 - Program execution: evaluation of *mathematical functions*
@@ -47,7 +47,7 @@
 
 ---
 
-![](images/fun/dognap.png)
+![](https://fondinfo.github.io/images/fun/dognap.png)
 # Side effects
 
 - Modifications of objects passed as parameters or global variables, I/O operations…
@@ -83,7 +83,7 @@ def rq(x: int) -> int:
 
 # 🛠️ Integral approximation
 
-![](images/fun/integral.svg)
+![](https://fondinfo.github.io/images/fun/integral.svg)
 
 - Approximate the integral of a function `f`
 - Divide the `(a, b)` range on the x-axis in `n` segments
@@ -170,7 +170,7 @@ print(cube(4))
 
 ---
 
-![](images/hist/haskell-curry.jpg) [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry), 1900-1982 <br> Mathematical logics
+![](https://fondinfo.github.io/images/hist/haskell-curry.jpg) [Haskell Curry](https://en.wikipedia.org/wiki/Haskell_Curry), 1900-1982 <br> Mathematical logics
 # Haskell
 
 - **Pure functional language**
@@ -186,10 +186,10 @@ print(cube(4))
 
 ---
 
-![large](images/dev/lang-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
+![large](https://fondinfo.github.io/images/dev/lang-graph.png) <https://griffsgraphs.wordpress.com/?s=lang>
 # Haskell influence graph
 
-![](images/dev/haskell-graph.svg)
+![](https://fondinfo.github.io/images/dev/haskell-graph.svg)
 
 >
 
@@ -199,7 +199,7 @@ print(cube(4))
 
 # Popular functional language
 
-![](images/dev/lang-rank.png)
+![](https://fondinfo.github.io/images/dev/lang-rank.png)
 
 >
 
@@ -209,7 +209,7 @@ print(cube(4))
 
 # Weekend programming
 
-![](images/dev/so-weekend-2019.png)
+![](https://fondinfo.github.io/images/dev/so-weekend-2019.png)
 
 >
 
@@ -218,7 +218,7 @@ print(cube(4))
 
 ---
 
-![](images/fun/haskell-xkcd.png) <https://xkcd.com/1312/>
+![](https://fondinfo.github.io/images/fun/haskell-xkcd.png) <https://xkcd.com/1312/>
 # Haskell in industry
 
 - <https://wiki.haskell.org/Haskell_in_industry>
@@ -238,7 +238,7 @@ print(cube(4))
 
 ---
 
-![](images/fun/learn-haskell.png) The textbook, free, online
+![](https://fondinfo.github.io/images/fun/learn-haskell.png) The textbook, free, online
 # Interactive shell
 
 - Install or try the “*Glasgow Haskell Compiler*”
@@ -291,7 +291,7 @@ ghci> (/) 5 3
 
 ---
 
-![](images/fun/fx.png)
+![](https://fondinfo.github.io/images/fun/fx.png)
 # Defining functions
 
 ``` hs
@@ -341,7 +341,7 @@ ghci> doubleMe 5
 
 ---
 
-![](images/dev/shopping-list.jpg)
+![](https://fondinfo.github.io/images/dev/shopping-list.jpg)
 # Lists
 
 - Much like shopping lists in the real world, lists in Haskell are very useful
@@ -353,7 +353,7 @@ ghci> lostNumbers
 [12,99,37]
 ```
 
-![](images/fun/linked-list.svg)
+![](https://fondinfo.github.io/images/fun/linked-list.svg)
 
 ---
 
@@ -415,7 +415,7 @@ ghci> 5:[1,2,3,4,5]
 
 # Multiple concatenations
 
-![](images/fun/list-concat.svg)
+![](https://fondinfo.github.io/images/fun/list-concat.svg)
 
 >
 
@@ -425,7 +425,7 @@ Remember: values are immutable, cannot change last pointer
 
 # Multiple prependings
 
-![](images/fun/list-prepend.svg)
+![](https://fondinfo.github.io/images/fun/list-prepend.svg)
 
 >
 
@@ -503,7 +503,7 @@ True
 
 ---
 
-![](images/fun/list-monster.png)
+![](https://fondinfo.github.io/images/fun/list-monster.png)
 # List monster
 
 - If we think of a list as a monster, here's what's what
@@ -723,7 +723,7 @@ ghci> concat (replicate 3 "LOL ")
 
 ---
 
-![](images/fun/month-list.svg)
+![](https://fondinfo.github.io/images/fun/month-list.svg)
 # List
 
 - **Mutable** sequence of elements
@@ -747,7 +747,7 @@ results_by_month = [0] * 12  # List repetition
 
 ---
 
-![](images/fun/wile-coyote.png)
+![](https://fondinfo.github.io/images/fun/wile-coyote.png)
 # Elements and slices
 
 - **Attention: use valid indices!**
@@ -773,7 +773,7 @@ Third value for step, possibly negative
 
 ---
 
-![](images/fun/shopping-list.png)
+![](https://fondinfo.github.io/images/fun/shopping-list.png)
 # Insertion and removal
 
 ``` py
@@ -813,7 +813,7 @@ c is a           # True, same object in memory
 
 ---
 
-![](images/misc/hiccup.png)
+![](https://fondinfo.github.io/images/misc/hiccup.png)
 # D&D Character
 
 - Let's create a **class** for some fantasy character
@@ -924,7 +924,7 @@ range(5, 15, 2)
 
 # Fibonacci's rabbits
 
-![large](images/fun/fib-rabbits.png)
+![large](https://fondinfo.github.io/images/fun/fib-rabbits.png)
 
 ---
 
@@ -1210,7 +1210,7 @@ False
 
 ---
 
-![](images/fun/zip.png)
+![](https://fondinfo.github.io/images/fun/zip.png)
 # Zipping
 
 - `zip` takes two lists and returns one list, by joining the matching elements into *pairs*
@@ -1264,7 +1264,7 @@ ghci> zip [1..] ["apple", "orange", "cherry", "mango"]
 
 ---
 
-![](images/repr/child-fingers.png)
+![](https://fondinfo.github.io/images/repr/child-fingers.png)
 # 🥷 Enumerate
 
 - It pairs a growing index with values in a sequence
@@ -1830,7 +1830,7 @@ Note: you can't use ++ in patterns, like `xs ++ ys`. What would be in the first 
 
 ---
 
-![](images/fun/guard.png)
+![](https://fondinfo.github.io/images/fun/guard.png)
 # Guards
 
 - Like an `if` statement, but more readable
@@ -1927,7 +1927,7 @@ match command.split():
 
 ---
 
-![small](images/fun/guard.png)
+![small](https://fondinfo.github.io/images/fun/guard.png)
 # Guards
 
 ``` py

@@ -1,4 +1,4 @@
-![](images/fun/haskell-logo.svg)
+![](https://fondinfo.github.io/images/fun/haskell-logo.svg)
 # Haskell
 ## Functional programming
 
@@ -452,7 +452,7 @@ ghci> take 5 $ randoms (mkStdGen 11) :: [Bool]
 
 ---
 
-![](images/misc/dice.png)
+![](https://fondinfo.github.io/images/misc/dice.png)
 # Random in a range
 
 - `randomR`: single random value within a defined range
@@ -517,7 +517,7 @@ randint (nmin, nmax) gen = (val, nxt) where
 
 ---
 
-![](images/algo/helloworld.png)
+![](https://fondinfo.github.io/images/algo/helloworld.png)
 # Hello, world!
 
 - Load functions into GHCI to test them
@@ -584,7 +584,7 @@ main = do
 
 ---
 
-![](images/algo/luggage.png)
+![](https://fondinfo.github.io/images/algo/luggage.png)
 # Getting data
 
 ``` hs
@@ -1400,7 +1400,7 @@ instance Functor (Either a) where
 
 ---
 
-![](images/oop/actors.svg)
+![](https://fondinfo.github.io/images/oop/actors.svg)
 # Ex.: Actor typeclass
 
 - Define a `Actor` typeclass, for things that can be moved

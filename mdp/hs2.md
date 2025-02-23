@@ -1,10 +1,10 @@
-![](images/fun/haskell-logo.svg)
+![](https://fondinfo.github.io/images/fun/haskell-logo.svg)
 # Haskell
 ## Functional programming
 
 ---
 
-![](images/fun/matryoshka.png)
+![](https://fondinfo.github.io/images/fun/matryoshka.png)
 # Recursion
 
 > If you still don't know what recursion is, read this sentence
@@ -68,7 +68,7 @@ maximum' [x] = x
 maximum' (x:xs) = max x (maximum' xs)
 ```
 
-![](images/fun/maxs.png)
+![](https://fondinfo.github.io/images/fun/maxs.png)
 
 ---
 
@@ -189,7 +189,7 @@ repeat' x = x:repeat' x
 
 ---
 
-![large](images/fun/quicksort.png)
+![large](https://fondinfo.github.io/images/fun/quicksort.png)
 # Quicksort
 
 - List of comparable things (`Ord`)
@@ -243,7 +243,7 @@ ghci> quicksort "the quick brown fox jumps over the lazy dog"
 
 ---
 
-![large](images/comp/merge.svg)
+![large](https://fondinfo.github.io/images/comp/merge.svg)
 # Merging in Python
 
 - Take two *sorted* lists
@@ -264,7 +264,7 @@ def merge(v1: list, b1, e1,  # beg, end
 
 ---
 
-![large](images/comp/merge-sort.svg) Split is red; merge is green
+![large](https://fondinfo.github.io/images/comp/merge-sort.svg) Split is red; merge is green
 # Merge Sort in Python
 
 - Take a list, split it at half
@@ -282,7 +282,7 @@ def merge_sort(v: list, beg, end: int):
 
 ---
 
-![large](images/comp/divide-et-impera.svg)
+![large](https://fondinfo.github.io/images/comp/divide-et-impera.svg)
 # Divide et impera
 
 - At each step, the problem space is halved
@@ -295,7 +295,7 @@ def merge_sort(v: list, beg, end: int):
 
 ---
 
-![](images/fun/stack.svg)
+![](https://fondinfo.github.io/images/fun/stack.svg)
 # Traditional recursion example
 
 ``` hs
@@ -313,7 +313,7 @@ ghci> factorial 3
 
 ---
 
-![](images/fun/stack-tr.svg)
+![](https://fondinfo.github.io/images/fun/stack-tr.svg)
 # Tail recursion example
 
 ``` hs
@@ -336,7 +336,7 @@ ghci> fact_tr 3 1
 
 ---
 
-![](images/fun/stack-tr.svg)
+![](https://fondinfo.github.io/images/fun/stack-tr.svg)
 # Tail recursion optimization
 
 ``` c
@@ -717,7 +717,7 @@ collatz n
 
 ---
 
-![large](images/fun/collatz-xkcd.png)
+![large](https://fondinfo.github.io/images/fun/collatz-xkcd.png)
 # Collatz conjecture
 
 - For all starting numbers
@@ -920,7 +920,7 @@ Used on multiple lists, `map` works ~ like `zipWith`
 
 ---
 
-![](images/fun/legomap.png)
+![](https://fondinfo.github.io/images/fun/legomap.png)
 # Mapping on processes
 
 - Vectorize a task over a *pool* of processes
@@ -1073,7 +1073,7 @@ required argument
 
 ---
 
-![](images/fun/foldl.png)
+![](https://fondinfo.github.io/images/fun/foldl.png)
 # Alternative sum function
 
 ``` hs
@@ -1101,7 +1101,7 @@ ghci> sum [3, 5, 2, 1]
 
 ---
 
-![](images/fun/foldl.png)
+![](https://fondinfo.github.io/images/fun/foldl.png)
 # Left fold
 
 - The `foldl` f. folds the list up from the left side
@@ -1221,7 +1221,7 @@ filter' p = foldr (\x acc -> if p x then x : acc else acc) []
 
 ---
 
-![](images/fun/foldl.png)
+![](https://fondinfo.github.io/images/fun/foldl.png)
 # Python reduce
 
 - `reduce` f. in `functools` module
