@@ -58,7 +58,7 @@
     - To be presented to the class, during the lessons period
 - ② **Test** about the course matters
     - Final test ~ 3h, including coding exercises in Haskell and Rust
-    - Or… participating actively and continuously into lab activities and classes during the lessons period
+    - Or… active and continuous participation into lab activities and classes during the lessons period
 
 ---
 
