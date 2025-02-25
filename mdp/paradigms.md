@@ -6,18 +6,10 @@
 # Course outline
 
 - ① Introduction to **formal languages**
-    - ⇒ Learn to work correctly with text
-    - Both structured and semi-structured
+    - ⇒ Learn to work correctly with text and code
 - ② Programming **paradigms**
     - ⇒ Think and develop with a multi-paradigm mindset
     - Fit for Big Data, distributed and parallel systems
-
-*—*
-
-- **Teachers**
-    - <michele.tomaiuolo@unipr.it>
-    - <monica.mordonini@unipr.it>
-    - <gianfranco.lombardo@unipr.it>
 
 ---
 
@@ -51,9 +43,8 @@
 
 - **Slides and videos**
     - <https://tomamic.github.io/#paradigmi>
-    - <http://sowide.ce.unipr.it/teaching/linguaggi/>
 - **Textbooks**
-    - [Linguaggi formali - Dispensa in italiano](https://github.com/tomamic/fondinfo/wiki/T03-Linguaggi)
+    - Linguaggi formali (slide in italiano): [Regex](https://fondinfo.github.io/slides/t41-regex.html#/1)- [Grammatiche](https://fondinfo.github.io/slides/t42-grammatiche.html)
     - M. Gabbrielli, S. Martini (2011) - *Linguaggi di programmazione - Principi e paradigmi* - ISBN:978-8838665738
     - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - ISBN:978-1593272838 - <http://learnyouahaskell.com/>
     - S. Klabnik, C. Nichols (2023) - *The Rust Programming Language* - ISBN:978-1718503106 - <https://doc.rust-lang.org/book/>
@@ -62,12 +53,11 @@
 
 # Exam
 
-- ① **Project**, on arguments related to the course
+- ① **Optional project**, on arguments related to the course
     - Can be devoloped in tandem with another student
-    - Can be joined with projects about Distributed Systems, Artificial Intelligence or Machine Learning
-    - Can be presented to the class, if finished in time
+    - To be presented to the class, during the lessons period
 - ② **Test** about the course matters
-    - Final test, including questions and coding exercises
+    - Final test ~ 3h, including coding exercises in Haskell and Rust
     - Or… participating actively and continuously into lab activities and classes during the lessons period
 
 ---
