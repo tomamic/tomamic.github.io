@@ -19,7 +19,7 @@
 - Regular expressions
 - Formal grammars
 - Parsing, parser generators
-- Applications to NLP
+- Possibly, applications to NLP
 - *Lab* on parsing
 
 ---
@@ -30,7 +30,7 @@
 - Functional programming
     - Haskell, Python
 - Some blends of OOP
-    - Go, Rust
+    - Rust, possibly Go
 - Generic programming
     - Haskell etc.
 - Meta-programming
