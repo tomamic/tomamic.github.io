@@ -122,7 +122,7 @@
 
 ---
 
-![small](/images/hist/1961-hopper.jpg) Grace Hopper
+![small](https://fondinfo.github.io/images/hist/1961-hopper.jpg) Grace Hopper
 # High-level languages
 
 - Invented to ease writing programs
@@ -151,7 +151,7 @@
 
 ---
 
-![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](https://fondinfo.github.io/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
 # 1950s - Early languages
 
 - First languages are task specific - First compilers
@@ -162,7 +162,7 @@
 
 ---
 
-![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](https://fondinfo.github.io/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
 # System languages
 
 - 1970s: Intel 4004, first microprocessor
