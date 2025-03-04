@@ -6,7 +6,7 @@
 # Course outline
 
 - ① Introduction to **formal languages**
-    - ⇒ Learn to work correctly with text and code
+    - ⇒ Learn to work correctly with code and text
 - ② Programming **paradigms**
     - ⇒ Think and develop with a multi-paradigm mindset
     - Fit for Big Data, distributed and parallel systems
@@ -17,9 +17,7 @@
 # ① Formal languages
 
 - Regular expressions
-- Formal grammars
-- Parsing, parser generators
-- Possibly, applications to NLP
+- Formal grammars for code and text
 - *Lab* on parsing
 
 ---
@@ -43,10 +41,10 @@
 
 - **Slides**
     - <https://tomamic.github.io/#paradigmi>
-    - Linguaggi formali (slide in italiano): [Regex](https://fondinfo.github.io/slides/t41-regex.html#/1)- [Grammatiche](https://fondinfo.github.io/slides/t42-grammatiche.html)
+    - Linguaggi formali (in italiano): [Regex](https://fondinfo.github.io/slides/t41-regex.html#/1)- [Grammatiche](https://fondinfo.github.io/slides/t42-grammatiche.html)
 - **Textbooks**
     - M. Gabbrielli, S. Martini (2011) - *Linguaggi di programmazione - Principi e paradigmi* - ISBN:978-8838665738
-    - M. Lipovača (2012) - *Learn You a Haskell for Great Good* - ISBN:978-1593272838 - <http://learnyouahaskell.com/>
+    - M. Lipovača (2011) - *Learn You a Haskell for Great Good* - ISBN:978-1593272838 - <http://learnyouahaskell.com/>
     - S. Klabnik, C. Nichols (2023) - *The Rust Programming Language* - ISBN:978-1718503106 - <https://doc.rust-lang.org/book/>
 
 ---
@@ -124,7 +122,7 @@
 
 ---
 
-![small](/images/hist/1961-hopper.jpg) Grace Hopper
+![small](https://fondinfo.github.io/images/hist/1961-hopper.jpg) Grace Hopper
 # High-level languages
 
 - Invented to ease writing programs
@@ -153,7 +151,7 @@
 
 ---
 
-![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](https://fondinfo.github.io/images/hist/algol-committee.png) [Algol committee](http://www-formal.stanford.edu/jmc/pictures.html)
 # 1950s - Early languages
 
 - First languages are task specific - First compilers
@@ -164,7 +162,7 @@
 
 ---
 
-![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
+![large](https://fondinfo.github.io/images/dev/languages-timeline.svg) ![](https://fondinfo.github.io/images/hist/thompson-ritchie.png) Dennis Ritchie, Ken Thompson
 # System languages
 
 - 1970s: Intel 4004, first microprocessor

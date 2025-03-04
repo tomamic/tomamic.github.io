@@ -92,16 +92,16 @@ results_by_month = [0] * 12  # List repetition
 
 ``` py
 n = len(months)            # 12
-months[3]                  # 'Apr'
-months[-2]                 # 'Nov', same as n - 2
+months[3]                  # "Apr"
+months[-2]                 # "Nov", same as n - 2
 
-spring = months[2:5]       # ['Mar', 'Apr', 'May']
-quart1 = months[:3]        # ['Jan', 'Feb', 'Mar']
-quart4 = months[-3:]       # ['Oct', 'Nov', 'Dec']
+spring = months[2:5]       # ["Mar", "Apr", "May"]
+quart1 = months[:3]        # ["Jan", "Feb", "Mar"]
+quart4 = months[-3:]       # ["Oct", "Nov", "Dec"]
 whole_year = months[:]     # Copy of the whole list
 
-feb_apr = months[1:4:2]    # ['Feb', 'Apr']
-q4_rev = months[11:8:-1]   # ['Dec', 'Nov', 'Oct']
+feb_apr = months[1:4:2]    # ["Feb", "Apr"]
+q4_rev = months[11:8:-1]   # ["Dec", "Nov", "Oct"]
 ```
 
 >
@@ -175,9 +175,9 @@ b += [4, 5]  # guess b? guess a?
 - **`join`** and **`split`**: from list to string and viceversa
 
 ``` py
-txt = "Monty Python's Flying Circus"
-txt[3]    # 't'
-txt[-2]   # 'u'
+txt = "Monty Python’s Flying Circus"
+txt[3]    # "t"
+txt[-2]   # "u"
 txt[6:12] # "Python"
 txt[-6:]  # "Circus"
 ```
@@ -309,7 +309,7 @@ while (v := float(input("val? "))) >= 0:  # sentinel
 - *Falsy* constants and numbers
     - `None`, `False`, `0`, `0.0`, etc.
 - *Falsy* collections
-    - `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+    - `""`, `()`, `[]`, `{}`, `set()`, `range(0)`
 - Other objects, normally *truthy*
     - Decided by method `__bool__`, or `__len__`
 
@@ -360,7 +360,7 @@ even_nums = (str(x) for x in range(12) if (x % 2) == 0)
 
 ``` py
 >>> txt = "IdontLIKEFROGS"
->>> "".join(c for c in txt if 'A' <= c <= 'Z')
+>>> "".join(c for c in txt if "A" <= c <= "Z")
 "ILIKEFROGS"
 ```
 ---
@@ -416,7 +416,7 @@ for i, val in enumerate(groceries):
 >
 
 Results in a list: only (!) to visualize them <br>
-Otherwise, Python doesn't generate results immediately (*lazy*)
+Otherwise, Python doesn’t generate results immediately (*lazy*)
 
 ---
 
@@ -497,20 +497,20 @@ Results in a list: only (!) to visualize them
 ``` py
 >>> groceries = ["spam", "egg", "bacon", "sausage"]
 >>> sorted(groceries)
-['bacon', 'egg', 'sausage', 'spam']
+["bacon", "egg", "sausage", "spam"]
 >>> sorted(groceries, key=len)  # lengths of elements are compared
-['egg', 'spam', 'bacon', 'sausage']
+["egg", "spam", "bacon", "sausage"]
 >>> list(reversed(groceries))
-['sausage', 'bacon', 'egg', 'spam']
+["sausage", "bacon", "egg", "spam"]
 >>> groceries
-['spam', 'egg', 'bacon', 'sausage']
+["spam", "egg", "bacon", "sausage"]
 ```
 
 ``` py
 >>> groceries.sort()     # in-place
 >>> groceries.reverse()  # in-place
 >>> groceries
-['spam', 'sausage', 'egg', 'bacon']
+["spam", "sausage", "egg", "bacon"]
 ```
 
 ---
@@ -639,10 +639,10 @@ for y in range(rows):
     matrix.append(new_row)
 ```
 
-- ⚠️ **Don't** use repetitions to create lists of lists
+- ⚠️ **Don’t** use repetitions to create lists of lists
 
 ``` py
-not_a_matrix = [[0] * 4] * 3  # DON'T do this
+not_a_matrix = [[0] * 4] * 3  # DON’T do this
 not_a_matrix[1][2] = 1        # guess not_a_matrix?
 ```
 
@@ -782,7 +782,7 @@ with open("other_file.txt", "w") as f2:
 with open("some_file.txt", "r") as f1:
     first_line = f1.readline()
     second_line = f1.readline()
-    # both strings contain '\n' at the end
+    # both strings contain "\n" at the end
     # at end of file, an empty string is read
 
 with open("other_file.txt", "r") as f2:
@@ -791,9 +791,9 @@ with open("other_file.txt", "r") as f2:
 
 with open("last_file.txt", "r") as f3:
     for line in f3:
-        # line contains '\n' at the end
+        # line contains "\n" at the end
         # strip() removes withespaces at both ends
-        print(line.strip(), ':', len(line))
+        print(line.strip(), ":", len(line))
 ```
 
 ---
@@ -866,7 +866,7 @@ with io.StringIO() as output:
 
 ``` py
 for line in sys.stdin:  # CTRL-D (Lin) or CTRL-Z (Win) to end the input
-    print(len(line))    # notice '\n' at the end
+    print(len(line))    # notice "\n" at the end
 ```
 
 ---
@@ -906,9 +906,9 @@ except IOError as err:
 ---
 
 ![](images/misc/quiz.png)
-# Exercise: courses' marks
+# Exercise: courses’ marks
 
-- Analyze students' answers to questionnaires about courses
+- Analyze students’ answers to questionnaires about courses
 - Load a csv like one of these:
     - <https://www.dropbox.com/s/bfunquwvcg8mv09/report-2016-2017.csv?dl=1>
     - <https://www.dropbox.com/s/bj3rm90083d2rqz/report-2017-2018.csv?dl=1>
@@ -1043,13 +1043,13 @@ $ conda remove --name myenv --all
 >>> a
 array([2, 3, 4])
 >>> a.dtype
-dtype('int64')
+dtype("int64")
 ```
 
 ``` py
 >>> b = np.array([1.2, 3.5, 5.1])  # type inference
 >>> b.dtype
-dtype('float64')
+dtype("float64")
 ```
 
 ``` py
@@ -1138,8 +1138,8 @@ array([[0.152, 0.002, 0.219],
 
 ``` py
 >>> rng.choice(["one", "two"], (2, 3))
-array([['two', 'one', 'one'],
-       ['two', 'two', 'one']], dtype='<U3')
+array([["two", "one", "one"],
+       ["two", "two", "one"]], dtype="<U3")
 
 >>> rng.integers(0, 10, (2, 3))  # rng.choice(range(10), (2, 3))
 array([[1, 9, 3],
@@ -1159,7 +1159,7 @@ array([5, 3, 2, 4, 1, 0]])
     - `reps` can be a tuple
 - `np.repeat(a, reps)` repeats each element of `a`
     - `a` is flattened
-    - There's also a method of `ndarray`
+    - There’s also a method of `ndarray`
 - *Exercise*: create a matrix with couples
     - Given `n = rows * cols`
     - `n / 2` different values, each repeated twice
@@ -1247,7 +1247,7 @@ array([5, 3, 2, 4, 1, 0]])
 - Possible to create a new array metadata object
     - Same data buffer, shared
     - New view, interpretation of that data buffer
-- Slice, transpose, reshape etc.: data doesn't move
+- Slice, transpose, reshape etc.: data doesn’t move
     - Different array object (metadata)
     - Different shape, offset, byte order, strides, etc.
     - But same *shared data buffer*
@@ -1266,12 +1266,12 @@ array([5, 3, 2, 4, 1, 0]])
 ``` py
 a = np.array([1, 2, 3, 4], dtype="<i2")
 a  # array([1, 2, 3, 4], dtype=int16)
-a.data.tobytes()  # b'\x01\x00\x02\x00\x03\x00\x04\x00'
+a.data.tobytes()  # b"\x01\x00\x02\x00\x03\x00\x04\x00"
 a.dtype = ">i2"
 a  # array([256, 512, 768, 1024], dtype=int16)
 a.dtype = "f2, 2i1"
 a  # array([(6.e-08, [2, 0]), (2.e-07, [4, 0])],
-   #       dtype=[('f0', '<f2'), ('f1', 'i1', (2,))])
+   #       dtype=[("f0", "<f2"), ("f1", "i1", (2,))])
    # aka: field named f0 holds a float16, field f1 holds two int8s
 ```
 
@@ -1320,7 +1320,7 @@ array([2, 8, 0, 4, 5, 1])
 ``` py
 >>> a = np.arange(12).reshape(3, 4)
 >>> a.shape, a.strides, a.dtype
-((3, 4), (32, 8), dtype('int64'))
+((3, 4), (32, 8), dtype("int64"))
 >>> a.T  # transposed view, same as a.transpose()
 array([[ 0,  4,  8],
        [ 1,  5,  9],
@@ -1779,8 +1779,8 @@ array([0, 0])
 
 ``` py
 >>> df = pd.DataFrame([[1, 2], [4, 5], [7, 8]],
-                      index=['cobra', 'viper', 'sidewinder'],
-                      columns=['max_speed', 'shield'])
+                      index=["cobra", "viper", "sidewinder"],
+                      columns=["max_speed", "shield"])
 >>> df
             max_speed  shield
 cobra               1       2
@@ -1817,13 +1817,13 @@ max          7.0     8.0
     - *Values* as `np.array` + *name* + *index*
 
 ``` py
->>> df['max_speed']  # or simply df.max_speed
+>>> df["max_speed"]  # or simply df.max_speed
 cobra         1
 viper         4
 sidewinder    7
 Name: max_speed, dtype: int64
 
->>> df[['max_speed', 'shield']]
+>>> df[["max_speed", "shield"]]
             max_speed  shield
 cobra               1       2
 viper               4       5
@@ -1844,7 +1844,7 @@ sidewinder          7       8
 viper               4       5
 sidewinder          7       8
 
->>> df['viper':'sidewinder']
+>>> df["viper":"sidewinder"]
             max_speed  shield
 viper               4       5
 sidewinder          7       8
@@ -1857,7 +1857,7 @@ sidewinder          7       8
 - Slicing by labels (*the stop label is included!*)
 
 ``` py
->>> df.loc['viper':'sidewinder', 'max_speed':'shield']
+>>> df.loc["viper":"sidewinder", "max_speed":"shield"]
             max_speed  shield
 viper               4       5
 sidewinder          7       8
@@ -1881,11 +1881,11 @@ sidewinder          7       8
             max_speed  shield
 sidewinder          7       8
 
->>> df[df['shield'] > 6]
+>>> df[df["shield"] > 6]
             max_speed  shield
 sidewinder          7       8
 
->>> df.loc[df['shield'] > 6, 'max_speed']
+>>> df.loc[df["shield"] > 6, "max_speed"]
             max_speed
 sidewinder          7
 ```
@@ -1896,7 +1896,7 @@ sidewinder          7
 
 ``` py
 >>> df2 = df.copy()
->>> df2.loc[['viper', 'sidewinder'], ['shield']] = 50
+>>> df2.loc[["viper", "sidewinder"], ["shield"]] = 50
 >>> df2
             max_speed  shield
 cobra               1       2
@@ -1910,14 +1910,14 @@ sidewinder          7      50
 
 ``` py
 >>> df2 = df.copy()
->>> df2['label'] = ['one','two','three']
+>>> df2["label"] = ["one","two","three"]
 >>> df2
             max_speed  shield  label
 cobra               1       2    one
 viper               4       5    two
 sidewinder          7       8  three
 
->>> df2[df2['label'].isin(['one','two'])]
+>>> df2[df2["label"].isin(["one","two"])]
             max_speed  shield  label
 cobra               1       2    one
 viper               4       5    two
@@ -1928,7 +1928,7 @@ viper               4       5    two
 # Sorting by value or index
 
 ``` py
->>> df.sort_values(by='shield')  # asc values of shield
+>>> df.sort_values(by="shield")  # asc values of shield
             max_speed  shield
 cobra               1       2
 viper               4       5
@@ -1947,15 +1947,15 @@ sidewinder       8          7
 
 ``` py
 df1 = pd.DataFrame({
-            'shield': np.array([2, 5, 8], dtype='int32'),
-            'max_speed': np.array([1, 4, 7], dtype='int32') },
-        index=['cobra', 'viper', 'sidewinder'])
+            "shield": np.array([2, 5, 8], dtype="int32"),
+            "max_speed": np.array([1, 4, 7], dtype="int32") },
+        index=["cobra", "viper", "sidewinder"])
 
-df2 = pd.read_csv('data.csv')
-df2.to_csv('data.csv')
+df2 = pd.read_csv("data.csv")
+df2.to_csv("data.csv")
 
-df3 = pd.read_excel('data.xlsx')
-df3.to_excel('data.xlsx')
+df3 = pd.read_excel("data.xlsx")
+df3.to_excel("data.xlsx")
 ```
 
 ---
@@ -1995,16 +1995,16 @@ dtype: int64
 
 - Take multiple pandas and put them together
 - `concat()`: one dataframe or series below the other
-    - `join`: one of `'outer'`, `'inner'`
-    - Default is `'outer'`, return all columns
+    - `join`: one of `"outer"`, `"inner"`
+    - Default is `"outer"`, return all columns
 - `merge()`: rows are joined when they have the same *key*
-    - `how`: one of `'left'`, `'right'`, `'outer'`, `'inner'`
+    - `how`: one of `"left"`, `"right"`, `"outer"`, `"inner"`
     - Default is `inner`: *key* must occurr in *both* frames
 
 ``` py
->>> l = pd.DataFrame({'key': ['foo', 'bar'], 'lval': [1, 2]})
->>> r = pd.DataFrame({'key': ['foo', 'bar', 'baz'], 'rval': [3, 4, 5]})
->>> pd.merge(l, r, on='key')
+>>> l = pd.DataFrame({"key": ["foo", "bar"], "lval": [1, 2]})
+>>> r = pd.DataFrame({"key": ["foo", "bar", "baz"], "rval": [3, 4, 5]})
+>>> pd.merge(l, r, on="key")
    key  lval  rval
 0  foo     1     4
 1  bar     2     5
@@ -2019,13 +2019,13 @@ dtype: int64
 - Combine the results into a data structure
 
 ``` py
->>> df = pd.DataFrame({'A' : ['foo', 'bar', 'foo', 'bar',
-                              'foo', 'bar', 'foo', 'foo'],
-                       'B' : ['one', 'one', 'two', 'three',
-                              'two', 'two', 'one', 'three'],
-                       'C' : rng.normal(size=8),
-                       'D' : rng.normal(size=8)})
->>> df.groupby('A').sum()  # only numeric data
+>>> df = pd.DataFrame({"A" : ["foo", "bar", "foo", "bar",
+                              "foo", "bar", "foo", "foo"],
+                       "B" : ["one", "one", "two", "three",
+                              "two", "two", "one", "three"],
+                       "C" : rng.normal(size=8),
+                       "D" : rng.normal(size=8)})
+>>> df.groupby("A").sum()  # only numeric data
             C        D
 A
 bar -2.802588  2.42611
@@ -2042,10 +2042,10 @@ foo  3.146492 -0.63958
 
 ``` py
 >>> df = pd.DataFrame({
-        'A' : ['one', 'one', 'two', 'three'] * 3,
-        'B' : ['foo', 'foo', 'foo', 'bar', 'bar', 'bar'] * 2,
-        'C' : rng.normal(size=12)})
->>> pd.pivot_table(df, index='A', columns='B', values='C')
+        "A" : ["one", "one", "two", "three"] * 3,
+        "B" : ["foo", "foo", "foo", "bar", "bar", "bar"] * 2,
+        "C" : rng.normal(size=12)})
+>>> pd.pivot_table(df, index="A", columns="B", values="C")
 B           bar       foo
 A
 one    0.463952  0.419066
@@ -2070,7 +2070,7 @@ import matplotlib.pyplot as plt
 
 ``` py
 plt.plot([1, 2, 3, 4])
-plt.ylabel('some numbers')
+plt.ylabel("some numbers")
 plt.show()
 ```
 
@@ -2090,18 +2090,18 @@ plt.show()
 # Formatting the plot
 
 ``` py
-plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro')
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16], "ro")
 plt.axis((0, 6, 0, 20)) # xmin, xmax, ymin, ymax
 plt.show()
 ```
 
 ``` py
 # example format strings
-'b'    # blue markers with default shape
-'ro'   # red circles
-'g-'   # green solid line
-'--'   # dashed line with default color
-'k^:'  # black triangle_up markers connected by a dotted line
+"b"    # blue markers with default shape
+"ro"   # red circles
+"g-"   # green solid line
+"--"   # dashed line with default color
+"k^:"  # black triangle_up markers connected by a dotted line
 ```
 
 >
@@ -2120,15 +2120,15 @@ plt.show()
 t = np.arange(0, 5, 0.2)
 
 # red dashes, blue squares and green triangles
-plt.plot(t, t, 'r--',
-         t, t**2, 'bs',
-         t, t**3, 'g^')
+plt.plot(t, t, "r--",
+         t, t**2, "bs",
+         t, t**3, "g^")
 plt.show()
 ```
 
 >
 
-To use a logarithmic scale: `plt.yscale('log')`
+To use a logarithmic scale: `plt.yscale("log")`
 
 ---
 
@@ -2136,18 +2136,18 @@ To use a logarithmic scale: `plt.yscale('log')`
 # Plotting data from dict
 
 ``` py
-data = {'a': np.arange(50),
-        'c': rng.integers(0, 20, 50),
-        'd': 100 * abs(rng.normal(size=50))}
-data['b'] = data['a'] + 10 * rng.normal(size=50)
+data = {"a": np.arange(50),
+        "c": rng.integers(0, 20, 50),
+        "d": 100 * abs(rng.normal(size=50))}
+data["b"] = data["a"] + 10 * rng.normal(size=50)
 
-plt.scatter('a', 'b', c='c', s='d', data=data)
-plt.xlabel('entry a')
-plt.ylabel('entry b')
+plt.scatter("a", "b", c="c", s="d", data=data)
+plt.xlabel("entry a")
+plt.ylabel("entry b")
 plt.show()
 
 # s for size, c for color
-# 'c': one int out of 20 (index for a color-map)
+# "c": one int out of 20 (index for a color-map)
 ```
 
 ---
@@ -2158,7 +2158,7 @@ plt.show()
 - Compare `bar`, `scatter` and `plot`
 
 ``` py
-names = ['group_a', 'group_b', 'group_c']
+names = ["group_a", "group_b", "group_c"]
 values = [1, 10, 100]
 
 plt.figure(figsize=(9, 3))  # inches
@@ -2169,7 +2169,7 @@ plt.subplot(132)  # rows, cols, index
 plt.scatter(names, values)
 plt.subplot(133)  # rows, cols, index
 plt.plot(names, values)
-plt.suptitle('Categorical Plotting')
+plt.suptitle("Categorical Plotting")
 plt.show()
 ```
 
@@ -2186,10 +2186,10 @@ t1 = np.arange(0.0, 5.0, 0.1)
 t2 = np.arange(0.0, 5.0, 0.02)
 
 plt.subplot(211)  # rows, cols, index
-plt.plot(t1, f(t1), 'bo', t2, f(t2), 'k')
+plt.plot(t1, f(t1), "bo", t2, f(t2), "k")
 
 plt.subplot(212)  # rows, cols, index
-plt.plot(t2, np.cos(2*np.pi*t2), 'r--')
+plt.plot(t2, np.cos(2*np.pi*t2), "r--")
 plt.show()
 ```
 
@@ -2203,12 +2203,12 @@ plt.show()
 ``` py
 t = np.arange(0, 5, 0.2)
 fig = plt.figure("squares")
-plt.plot(t, t, 'r--')
-plt.plot(t, t**2, 'bs')
+plt.plot(t, t, "r--")
+plt.plot(t, t**2, "bs")
 
 fig = plt.figure("cubes")
-plt.plot(t, t, 'r--')
-plt.plot(t, t**3, 'g^')
+plt.plot(t, t, "r--")
+plt.plot(t, t**3, "g^")
 
 # save figures
 for label in plt.get_figlabels():
@@ -2257,10 +2257,10 @@ x = mu + sigma * rng.normal(size=10000)
 plt.hist(x, bins=50, density=True)
 
 # plt.plot(x, [0]*len(x), "k|")
-plt.xlabel('Smarts')
-plt.ylabel('Probability')
-plt.title('Histogram of IQ')
-plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+plt.xlabel("Smarts")
+plt.ylabel("Probability")
+plt.title("Histogram of IQ")
+plt.text(60, .025, r"$\mu=100,\ \sigma=15$")
 plt.grid(True, alpha=0.75)
 plt.show()
 ```
@@ -2297,7 +2297,7 @@ plt.show()
 - Best fitting linear model
     - Minimize the *mean squared error*
     - Translucent bands: confidence interval
-- *Correlation* coeff., *Pearson's r* : `[-1, 1]`
+- *Correlation* coeff., *Pearson’s r* : `[-1, 1]`
 - Statistical significance, *p-value* : `≤0.05`
     - Same (≥) `r`, under *null hypotesis*?
 
@@ -2371,7 +2371,7 @@ plt.show()
 ![large](images/misc/quiz.png)
 # Laboratory 2
 
-- Students' answers to questionnaires about courses
+- Students’ answers to questionnaires about courses
     - Data transform to eval marks
     - Density plots of marks
     - Use of multiple figures
