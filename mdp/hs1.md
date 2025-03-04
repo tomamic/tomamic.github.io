@@ -902,6 +902,25 @@ Fighter.hit(c1, 7)
 
 ---
 
+# Dunder methods
+
+- Special methods, like `__init__`
+- Used by Python for conversions and operations
+	- Operator overloading
+
+``` py
+class Fighter: # …
+    def __str__(self) -> str:
+        return self.describe()
+
+c = Fighter("Hero")
+print(c)  # instead of `c.describe()`
+```
+
+- Other special methods: [docs.python.org/3/reference](https://docs.python.org/3/reference/datamodel.html#special-method-names)
+
+---
+
 # Python ranges
 
 - *Range*, to get some sequence of integers
