@@ -1353,7 +1353,7 @@ while v := input("val? "):  # sentinel, "" is falsy
 - Logic operations
     - **`all`** : logic *AND* on all *thruty* values
     - **`any`** : logic *OR* on all *thruty* values
-- Numeric operazions
+- Numeric operations
     - **`sum`, `max`, `min`, `len`**
     - **count** method on a sequence: number of occurrences of a value
 
