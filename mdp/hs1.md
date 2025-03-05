@@ -904,9 +904,10 @@ Fighter.hit(c1, 7)
 
 # Dunder methods
 
-- Special methods, like `__init__`
+- *Special* methods, like `__init__`
+    - Names surrounded by double underscores
 - Used by Python for conversions and operations
-	- Operator overloading
+    - Operator overloading
 
 ``` py
 class Fighter: # …
