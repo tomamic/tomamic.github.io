@@ -1056,6 +1056,14 @@ array ((1,1), (10,10)) [((i,j), i*j) | i <-[1..10], j <- [1..10]]
 a1 = a0 // [((i,i), 0) | i <- [1..n], even i]
 ```
 
+- Getting back from an array to a list: `elems`
+	- Flat list
+	- See also: `bounds, indices, assocs`
+
+``` hs
+xs = elems a1
+```
+
 ---
 
 # Recursive data structures

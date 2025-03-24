@@ -983,7 +983,7 @@ Example: [behaviours of GUI widgets](https://github.com/tomamic/paradigmi/blob/m
 >>> tenth = partial(divmod, y=10)
 >>> tenth(185)
 Traceback...
-TypeError: pow() takes no keyword arguments
+TypeError: divmod() takes no keyword arguments
 ```
 
 ---

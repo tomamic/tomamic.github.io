@@ -1035,7 +1035,7 @@ def fib(stop):
     '''generator that yields Fibonacci numbers'''
     a, b = 0, 1
     while a <= stop:
-        yield(a)  # ~ append in fib_list, but lazy
+        yield a  # ~ append in fib_list, but lazy
         a, b = b, a + b
 ```
 
@@ -1060,7 +1060,7 @@ def fib_unb():
     '''generator that yields Fibonacci numbers'''
     a, b = 0, 1
     while True:
-        yield(a)
+        yield a
         a, b = b, a + b
 ```
 
