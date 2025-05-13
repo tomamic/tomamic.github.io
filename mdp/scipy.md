@@ -826,7 +826,7 @@ Try to use `map`
 
 ---
 
-# 🧪 Modulo csv
+# 🧪 CSV module
 
 - For more complex files (w/ quotes etc.): [`csv` module](https://docs.python.org/3/library/csv.html)
 
