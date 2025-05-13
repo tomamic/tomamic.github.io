@@ -605,9 +605,9 @@ fn main() {
 
 ``` rs
 fn main() {
-    let s1 = String::from("hello");  // s is valid from this point forward
+    let s1 = String::from("hello");  // s1 is valid from this point forward
     println!("{}", s1);
-}  // the scope is now over; s is no longer valid
+}  // the scope is now over; s1 is no longer valid
 ```
 
 ---
