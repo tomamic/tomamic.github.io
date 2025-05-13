@@ -824,27 +824,43 @@ Try to use `map`
 
 # CSV module
 
+---
+
+# 🧪 Modulo csv
+
+- For more complex files (w/ quotes etc.): [`csv` module](https://docs.python.org/3/library/csv.html)
+
 ``` py
 import csv
 matrix = []
-with open("some.csv", newline="") as f:
+with open("some.csv") as f:
     reader = csv.reader(f)
-    for row in reader:
+    column_names = next(reader)  # 1st row
+    for row in reader:  # each row is a `list[str]`
         matrix.append(row)
 print(matrix)
 
-with open("some.csv", "w", newline="") as f:
+with open("some.csv", "w") as f:
     writer = csv.writer(f)
     for row in matrix
-        writer.writerow(row)
+        writer.writerow(row)  # quotes are added, where needed
 ```
 
-- Default reading: each line is a list of strings
-- Default writing: quotes added only if necessary
+---
+
+# 🧪 Top100 from IMDB
+
+- Columns
+    - `rank (0), name (1), year (2), rating (3), genre (4), certificate (5), run_time (6), tagline (7), budget (8), box_office (9), casts (10), directors (11), writers (12)`
+- Objectives
+    - List the genres, in descending order wrt number of movies
+    - List the 10 couples director-actor w/ highest number of collabs
+    - List the actors who participated in all of listed “Star Wars” movies
 
 >
 
-<https://docs.python.org/3/library/csv.html>
+<https://fondinfo.github.io/data/movies.csv> <br>
+<https://fondinfo.github.io/play/?c10_movies.py>
 
 ---
 
