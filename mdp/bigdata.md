@@ -1,4 +1,4 @@
-![](images/db/overflow.png)
+![](https://fondinfo.github.io/images/db/overflow.png)
 # Frameworks for Big Data
 ## Hadoop & (Py)Spark
 
@@ -151,7 +151,7 @@
 
 - Count the occurrences of words in a whole corpus of documents
 
-![](images/scipy/mapreduce-example.png)
+![](https://fondinfo.github.io/images/scipy/mapreduce-example.png)
 
 ---
 
@@ -240,11 +240,11 @@ def main():
 
 # 🥷 MapReduce - Execution
 
-![](images/scipy/mapreduce-exec.png)
+![](https://fondinfo.github.io/images/scipy/mapreduce-exec.png)
 
 ---
 
-![](images/scipy/hadoop.png)
+![](https://fondinfo.github.io/images/scipy/hadoop.png)
 # Apache Hadoop
 
 - *MapReduce*: developed by Google
@@ -259,7 +259,7 @@ def main():
 
 ---
 
-![large](images/scipy/hadoop2.png)
+![large](https://fondinfo.github.io/images/scipy/hadoop2.png)
 # 🥷 HDFS - Main assunptions
 
 - Hadoop Distributed Filesystem (HDFS): at the basis of Apache Hadoop
@@ -274,7 +274,7 @@ def main():
 
 # 🥷 HDFS - Architecture
 
-![](images/scipy/hdfs-architecture.png)
+![](https://fondinfo.github.io/images/scipy/hdfs-architecture.png)
 
 >
 
@@ -284,7 +284,7 @@ def main():
 
 # 🥷 HDFS - Cartoon 1
 
-![large](images/scipy/hdfs-cartoon-1.png)
+![large](https://fondinfo.github.io/images/scipy/hdfs-cartoon-1.png)
 
 >
 
@@ -294,7 +294,7 @@ def main():
 
 # 🥷 HDFS - Cartoon 2
 
-![large](images/scipy/hdfs-cartoon-2.png)
+![large](https://fondinfo.github.io/images/scipy/hdfs-cartoon-2.png)
 
 >
 
@@ -304,7 +304,7 @@ def main():
 
 # 🥷 HDFS - Cartoon 3
 
-![large](images/scipy/hdfs-cartoon-3.png)
+![large](https://fondinfo.github.io/images/scipy/hdfs-cartoon-3.png)
 
 >
 
@@ -314,7 +314,7 @@ def main():
 
 # 🥷 HDFS - Cartoon 4
 
-![large](images/scipy/hdfs-cartoon-4.png)
+![large](https://fondinfo.github.io/images/scipy/hdfs-cartoon-4.png)
 
 >
 
@@ -324,7 +324,7 @@ def main():
 
 # 🥷 YARN - Architettura
 
-![large](images/scipy/yarn-architecture.png)
+![large](https://fondinfo.github.io/images/scipy/yarn-architecture.png)
 
 >
 
@@ -332,7 +332,7 @@ def main():
 
 ---
 
-![](images/scipy/spark.png)
+![](https://fondinfo.github.io/images/scipy/spark.png)
 # Apache Spark
 
 - Cluster computing framework that uses *in-memory* primitives
