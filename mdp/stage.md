@@ -1,4 +1,4 @@
-![](images/misc/videogames.png)
+![](http://fondinfo.github.io/images/misc/videogames.png)
 # Creare un videogioco in Python
 ## Stage formativo — 09-13 giugno 2025 <br> Ingegneria dell'Informazione
 
@@ -16,7 +16,7 @@
 
 ---
 
-![large](images/dev/geek-girl.svg)
+![large](http://fondinfo.github.io/images/dev/geek-girl.svg)
 # Come si svolgerà?
 
 - Ogni mattina, dalle 9:00 alle 13:00
@@ -59,7 +59,7 @@ Ven    | Completamento del gioco
 
 ---
 
-![](images/dev/python.svg) ![](images/dev/devices.svg) ![](images/dev/raspberry-pi.png)
+![](http://fondinfo.github.io/images/dev/python.svg) ![](http://fondinfo.github.io/images/dev/devices.svg) ![](http://fondinfo.github.io/images/dev/raspberry-pi.png)
 # 💾 Strumenti software
 
 - Linguaggio **Python 3**
@@ -72,7 +72,7 @@ Ven    | Completamento del gioco
 
 ---
 
-![](images/fun/books-stack.png)
+![](http://fondinfo.github.io/images/fun/books-stack.png)
 # 📚 Approfondimento
 
 - *Dispense* del corso - <https://github.com/tomamic/fondinfo/wiki/>
