@@ -7,18 +7,18 @@
     await import('../plugin/highlight/highlight.js');
     await import('../plugin/math/math.js');
 
-    var name = location.href.replace(/\.[^\.]+$/, '').split('/').pop();
-    var ico = '<link rel="icon" href="https://fondinfo.github.io/images/logo.svg" />';
+    var name = location.href.split('?').pop().split('/').pop().replace(/\.[^\.]+$/, '');
+    var ico = '<link rel="icon" href="/images/logo.svg" />';
     var css = '<link rel="stylesheet" href="reveal/tomamic.css" />';
     var tar = '<base target="_blank" />';  /* open all links in a new tab. */
-    var logo = '<aside><img src="https://fondinfo.github.io/images/logo.svg" /></aside>';
+    var logo = '<aside><img src="/images/logo.svg" /></aside>';
     var slides = `
         <div class="reveal">
             <div class="slides">
                 <section data-markdown="mdp/`+name+`.md" data-separator="^---\n">
                 </section>
             </div>
-            <div id="fondinfo"><a href="/" target="_self">tomamic.github.io</a></div>
+            <div id="fondinfo"><a href="./" target="_self">fondinfo.github.io</a></div>
         </div>`;
     document.head.insertAdjacentHTML('beforeend', ico);
     document.head.insertAdjacentHTML('beforeend', css);
