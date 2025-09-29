@@ -4,8 +4,8 @@ import os, sys, webbrowser, http.server as hs, socketserver as ss
 class SimpleHTTPRequestHandler(hs.SimpleHTTPRequestHandler):
 
     def do_GET(self):
-        if not os.path.exists("." + os.sep + self.path):
-            self.path = '404.html'
+        if not os.path.exists("." + os.sep + self.path.split("?")[0].split("#")[0]):
+            self.path = "404.html"
         super().do_GET()
             
 # open tmp.html in the default browser

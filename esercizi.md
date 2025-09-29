@@ -1,5 +1,6 @@
 # Archivio degli esercizi di programmazione
 
+- [Esercizi in lab 2025](http://fondinfo.github.io/slides/esercizi-2025.html)
 - [Esercizi in lab 2024](http://fondinfo.github.io/slides/esercizi-2024.html)
 - [Esercizi in lab 2023](http://fondinfo.github.io/slides/esercizi-2023.html)
 - [Esercizi in lab 2022](http://fondinfo.github.io/slides/esercizi-2022.html)
